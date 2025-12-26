@@ -114,24 +114,33 @@ function processFeedItems(feed, config, settings) {
 }
 
 /**
- * Format current date/time
+ * Format current date/time in Eastern Time (Detroit)
  */
 function getFormattedDateTime() {
   const now = new Date();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  const year = now.getFullYear();
 
-  let hours = now.getHours();
-  const minutes = String(now.getMinutes()).padStart(2, '0');
-  const seconds = String(now.getSeconds()).padStart(2, '0');
-  const ampm = hours >= 12 ? 'PM' : 'AM';
+  // Convert to Eastern Time (America/Detroit)
+  const options = {
+    timeZone: 'America/Detroit',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true
+  };
 
-  hours = hours % 12;
-  hours = hours ? hours : 12; // the hour '0' should be '12'
-  const hoursStr = String(hours).padStart(2, '0');
+  const formatter = new Intl.DateTimeFormat('en-US', options);
+  const parts = formatter.formatToParts(now);
 
-  return `${month}/${day}/${year} at ${hoursStr}:${minutes}:${seconds} ${ampm}`;
+  // Extract parts
+  const partsMap = {};
+  parts.forEach(part => {
+    partsMap[part.type] = part.value;
+  });
+
+  return `${partsMap.month}/${partsMap.day}/${partsMap.year} at ${partsMap.hour}:${partsMap.minute}:${partsMap.second} ${partsMap.dayPeriod}`;
 }
 
 /**
