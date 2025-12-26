@@ -13,8 +13,11 @@ Automated RSS feed collector that compiles feeds into a clean text file optimize
 ## Files
 
 - `rss-collector.js` - Main collector script
+- `analyze_summaries.py` - Python script that analyzes RSS summaries
 - `rss-config.json` - RSS feeds and settings configuration
-- `summary_cache.txt` - Output file with compiled feeds
+- `summary_cache.txt` - Output file with compiled feeds (all stories)
+- `summary_popular.txt` - Curated popular topics and trends with buzzwords
+- `summary_obscure.txt` - Curated obscure/opportunity stories with buzzwords
 - `.github/workflows/rss-collector.yml` - GitHub Actions workflow
 
 ## Setup
@@ -24,6 +27,8 @@ Automated RSS feed collector that compiles feeds into a clean text file optimize
 ```bash
 npm install
 ```
+
+**Note:** Python 3.x is also required for the summary analyzer.
 
 ### 2. Configure RSS Feeds
 
@@ -93,42 +98,85 @@ The workflow runs automatically based on the schedule in `rss-collector.yml`.
 ### Local Testing
 
 ```bash
+# Run just the RSS collector
 npm run collect
+
+# Run just the analyzer
+npm run analyze
+
+# Run both (collector + analyzer)
+npm run collect:all
 ```
 
-This will fetch feeds and update `summary_cache.txt` locally.
+This will fetch feeds and update all summary files locally.
 
 ## Output Format
 
-`summary_cache.txt` contains:
+### summary_cache.txt
+
+Contains all RSS feed stories with headlines and descriptions:
 
 ```
 Last updated: MM/DD/YYYY at HH:MM:SS AM/PM
-================================================================================
-RSS FEED COMPILATION
-Total feeds processed: N
-================================================================================
+Total feeds: N
 
-================================================================================
 FEED: Feed Title
 SOURCE: https://example.com/rss
-================================================================================
 
-Article 1: Article Title
-Published: Date
-Link: URL
-
-[Clean text content without HTML markup]
-
---------------------------------------------------------------------------------
+Article Title
+https://link-to-article
+Brief description...
 
 [... more articles ...]
-
-================================================================================
-END OF COMPILATION
-Last updated: MM/DD/YYYY at HH:MM:SS AM/PM
-================================================================================
 ```
+
+### summary_popular.txt
+
+Curated list of popular/trending stories optimized for AI prompts:
+
+```
+# POPULAR TOPICS & TRENDS
+Generated: MM/DD/YYYY at HH:MM:SS AM/PM
+Stories: 20
+
+KEY BUZZWORDS: AI, DEAL, CTV, OPENAI, M&A, ...
+
+---
+
+1. Story Title
+   Description excerpt...
+   [AI, DEAL, OPENAI]
+
+2. Next Story...
+   ...
+```
+
+### summary_obscure.txt
+
+Curated list of obscure/opportunity stories optimized for AI prompts:
+
+```
+# OBSCURE OPPORTUNITIES & EMERGING STORIES
+Generated: MM/DD/YYYY at HH:MM:SS AM/PM
+Stories: 20
+
+KEY BUZZWORDS: PARTNERSHIP, PERSONALIZATION, VR, ...
+
+---
+
+1. Story Title
+   Description excerpt...
+   [PARTNERSHIP, AI]
+
+2. Next Story...
+   ...
+```
+
+**Why two separate files?**
+- `summary_popular.txt` - Mainstream trends, major deals, big tech news
+- `summary_obscure.txt` - Niche opportunities, emerging tech, specialized partnerships
+- Both are concise (~80-85 lines) to minimize token usage as prompt attachments
+- Buzzwords at the top provide quick context for AI models
 
 ## GitHub Policy Compliance
 
