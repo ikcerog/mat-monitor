@@ -78,20 +78,16 @@ async function fetchFeed(feedConfig, index, total) {
  */
 function processFeedItems(feed, config, settings) {
   const items = feed.items.slice(0, settings.maxArticlesPerFeed || 10);
-  let output = `\n${'='.repeat(80)}\n`;
-  output += `FEED: ${feed.title || config.name}\n`;
-  output += `SOURCE: ${config.url}\n`;
-  output += `${'='.repeat(80)}\n\n`;
+  let output = `\nFEED: ${feed.title || config.name}\n`;
+  output += `SOURCE: ${config.url}\n\n`;
 
   items.forEach((item, index) => {
-    output += `Article ${index + 1}: ${item.title || 'Untitled'}\n`;
+    output += `${item.title || 'Untitled'}\n`;
     output += `Published: ${item.pubDate || 'Unknown date'}\n`;
 
     if (item.link) {
-      output += `Link: ${item.link}\n`;
+      output += `${item.link}\n`;
     }
-
-    output += `\n`;
 
     // Get content - try multiple fields
     let content = '';
@@ -108,10 +104,10 @@ function processFeedItems(feed, config, settings) {
     }
 
     if (content) {
-      output += `${content}\n`;
+      output += `\n${content}\n`;
     }
 
-    output += `\n${'-'.repeat(80)}\n\n`;
+    output += `\n`;
   });
 
   return output;
@@ -180,10 +176,7 @@ async function main() {
   // Build output content
   console.log('📝 Processing feed content...');
   let output = `Last updated: ${getFormattedDateTime()}\n`;
-  output += `${'='.repeat(80)}\n`;
-  output += `RSS FEED COMPILATION\n`;
-  output += `Total feeds processed: ${successfulFeeds.length}\n`;
-  output += `${'='.repeat(80)}\n`;
+  output += `Total feeds: ${successfulFeeds.length}\n`;
 
   let totalArticles = 0;
   successfulFeeds.forEach((result, index) => {
@@ -192,12 +185,6 @@ async function main() {
     console.log(`   Processing [${index + 1}/${successfulFeeds.length}]: ${result.config.name} (${articleCount} articles)`);
     output += processFeedItems(result.feed, result.config, config.settings);
   });
-
-  // Add summary at the end
-  output += `\n${'='.repeat(80)}\n`;
-  output += `END OF COMPILATION\n`;
-  output += `Last updated: ${getFormattedDateTime()}\n`;
-  output += `${'='.repeat(80)}\n`;
 
   console.log('');
   console.log('━'.repeat(80));
