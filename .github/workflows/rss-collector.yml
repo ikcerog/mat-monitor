@@ -1,0 +1,56 @@
+name: RSS Feed Collector
+
+on:
+  # Schedule: Run daily at 7:50 AM UTC
+  # Adjust the time below for your timezone (format: minute hour * * *)
+  # Example: "50 7 * * *" = 7:50 AM UTC
+  # Convert your local time to UTC: https://www.worldtimebuddy.com/
+  schedule:
+    - cron: '50 7 * * *'
+
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+
+# Permissions needed to commit and push
+permissions:
+  contents: write
+
+jobs:
+  collect-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run RSS collector
+        run: npm run collect
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code summary_cache.txt || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add summary_cache.txt
+          git commit -m "Update RSS feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+      - name: No changes detected
+        if: steps.git-check.outputs.changed != 'true'
+        run: echo "No changes to summary_cache.txt - skipping commit"

@@ -1,0 +1,20 @@
+{
+  "feeds": [
+    {
+      "name": "Example Tech News",
+      "url": "https://news.ycombinator.com/rss",
+      "enabled": true
+    },
+    {
+      "name": "Example Blog",
+      "url": "https://www.reddit.com/r/technology/.rss",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "maxArticlesPerFeed": 10,
+    "includeDescription": true,
+    "includeContent": true,
+    "separator": "\n---\n"
+  }
+}
