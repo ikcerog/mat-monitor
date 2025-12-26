@@ -74,7 +74,7 @@ async function fetchFeed(feedConfig, index, total) {
 }
 
 /**
- * Process feed items into clean text
+ * Process feed items into clean text (headlines and descriptions only)
  */
 function processFeedItems(feed, config, settings) {
   const items = feed.items.slice(0, settings.maxArticlesPerFeed || 10);
@@ -83,28 +83,27 @@ function processFeedItems(feed, config, settings) {
 
   items.forEach((item, index) => {
     output += `${item.title || 'Untitled'}\n`;
-    output += `Published: ${item.pubDate || 'Unknown date'}\n`;
 
     if (item.link) {
       output += `${item.link}\n`;
     }
 
-    // Get content - try multiple fields
-    let content = '';
-    if (settings.includeContent && item['content:encoded']) {
-      content = htmlToCleanText(item['content:encoded']);
-    } else if (settings.includeContent && item.content) {
-      content = htmlToCleanText(item.content);
-    } else if (settings.includeDescription && item.description) {
-      content = htmlToCleanText(item.description);
+    // Get brief description only - no full content
+    let description = '';
+    if (item.contentSnippet) {
+      description = item.contentSnippet;
+    } else if (item.description) {
+      description = htmlToCleanText(item.description);
     } else if (item.summary) {
-      content = htmlToCleanText(item.summary);
-    } else if (item.contentSnippet) {
-      content = item.contentSnippet;
+      description = htmlToCleanText(item.summary);
     }
 
-    if (content) {
-      output += `\n${content}\n`;
+    // Trim description to ~300 characters for conciseness
+    if (description) {
+      if (description.length > 300) {
+        description = description.substring(0, 300) + '...';
+      }
+      output += `${description}\n`;
     }
 
     output += `\n`;
