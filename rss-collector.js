@@ -6,12 +6,14 @@ const path = require('path');
 const parser = new Parser({
   customFields: {
     item: ['content:encoded', 'description', 'summary']
-  }
+  },
+  timeout: 30000 // 30 second timeout per feed
 });
 
 // Configuration
 const CONFIG_FILE = path.join(__dirname, 'rss-config.json');
 const OUTPUT_FILE = path.join(__dirname, 'summary_cache.txt');
+const FEED_TIMEOUT = 30000; // 30 seconds
 
 /**
  * Load RSS feeds configuration
@@ -44,15 +46,29 @@ function htmlToCleanText(html) {
 }
 
 /**
- * Fetch and parse a single RSS feed
+ * Fetch and parse a single RSS feed with timeout
  */
-async function fetchFeed(feedConfig) {
+async function fetchFeed(feedConfig, index, total) {
+  const startTime = Date.now();
   try {
-    console.log(`Fetching: ${feedConfig.name} (${feedConfig.url})`);
-    const feed = await parser.parseURL(feedConfig.url);
+    console.log(`[${index}/${total}] Fetching: ${feedConfig.name}...`);
+
+    // Race between feed fetch and timeout
+    const feed = await Promise.race([
+      parser.parseURL(feedConfig.url),
+      new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Timeout')), FEED_TIMEOUT)
+      )
+    ]);
+
+    const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+    const articleCount = feed.items?.length || 0;
+    console.log(`[${index}/${total}] ✓ ${feedConfig.name} - ${articleCount} articles (${duration}s)`);
+
     return { success: true, feed, config: feedConfig };
   } catch (error) {
-    console.error(`Error fetching ${feedConfig.name}:`, error.message);
+    const duration = ((Date.now() - startTime) / 1000).toFixed(1);
+    console.error(`[${index}/${total}] ✗ ${feedConfig.name} - ${error.message} (${duration}s)`);
     return { success: false, error: error.message, config: feedConfig };
   }
 }
@@ -126,31 +142,54 @@ function getFormattedDateTime() {
  * Main function
  */
 async function main() {
-  console.log('RSS Feed Collector Starting...\n');
+  const startTime = Date.now();
+  console.log('━'.repeat(80));
+  console.log('RSS Feed Collector Starting...');
+  console.log('━'.repeat(80));
+  console.log('');
 
   // Load configuration
   const config = await loadConfig();
   const enabledFeeds = config.feeds.filter(f => f.enabled !== false);
 
-  console.log(`Found ${enabledFeeds.length} enabled feeds\n`);
+  console.log(`📋 Configuration loaded: ${enabledFeeds.length} enabled feeds`);
+  console.log(`⏱️  Timeout per feed: ${FEED_TIMEOUT / 1000}s`);
+  console.log('');
+  console.log('━'.repeat(80));
+  console.log('FETCHING FEEDS');
+  console.log('━'.repeat(80));
+  console.log('');
 
-  // Fetch all feeds
+  // Fetch all feeds with progress tracking
   const feedResults = await Promise.all(
-    enabledFeeds.map(feedConfig => fetchFeed(feedConfig))
+    enabledFeeds.map((feedConfig, index) =>
+      fetchFeed(feedConfig, index + 1, enabledFeeds.length)
+    )
   );
+
+  const fetchDuration = ((Date.now() - startTime) / 1000).toFixed(1);
 
   // Process successful feeds
   const successfulFeeds = feedResults.filter(r => r.success);
-  console.log(`\nSuccessfully fetched ${successfulFeeds.length}/${enabledFeeds.length} feeds\n`);
+  console.log('');
+  console.log('━'.repeat(80));
+  console.log(`FETCH COMPLETE - ${successfulFeeds.length}/${enabledFeeds.length} succeeded (${fetchDuration}s)`);
+  console.log('━'.repeat(80));
+  console.log('');
 
   // Build output content
+  console.log('📝 Processing feed content...');
   let output = `Last updated: ${getFormattedDateTime()}\n`;
   output += `${'='.repeat(80)}\n`;
   output += `RSS FEED COMPILATION\n`;
   output += `Total feeds processed: ${successfulFeeds.length}\n`;
   output += `${'='.repeat(80)}\n`;
 
-  successfulFeeds.forEach(result => {
+  let totalArticles = 0;
+  successfulFeeds.forEach((result, index) => {
+    const articleCount = result.feed.items?.slice(0, config.settings.maxArticlesPerFeed || 10).length || 0;
+    totalArticles += articleCount;
+    console.log(`   Processing [${index + 1}/${successfulFeeds.length}]: ${result.config.name} (${articleCount} articles)`);
     output += processFeedItems(result.feed, result.config, config.settings);
   });
 
@@ -160,21 +199,37 @@ async function main() {
   output += `Last updated: ${getFormattedDateTime()}\n`;
   output += `${'='.repeat(80)}\n`;
 
+  console.log('');
+  console.log('━'.repeat(80));
+  console.log('WRITING OUTPUT');
+  console.log('━'.repeat(80));
+
   // Write to file
   await fs.writeFile(OUTPUT_FILE, output, 'utf8');
-  console.log(`✓ Output written to ${OUTPUT_FILE}`);
-  console.log(`✓ Total size: ${(output.length / 1024).toFixed(2)} KB`);
+  const fileSizeKB = (output.length / 1024).toFixed(2);
+  const totalDuration = ((Date.now() - startTime) / 1000).toFixed(1);
+
+  console.log(`✓ File written: ${OUTPUT_FILE}`);
+  console.log(`✓ File size: ${fileSizeKB} KB`);
+  console.log(`✓ Total articles: ${totalArticles}`);
+  console.log(`✓ Total duration: ${totalDuration}s`);
 
   // Report any failures
   const failedFeeds = feedResults.filter(r => !r.success);
   if (failedFeeds.length > 0) {
-    console.log('\nFailed feeds:');
+    console.log('');
+    console.log('━'.repeat(80));
+    console.log(`FAILED FEEDS (${failedFeeds.length})`);
+    console.log('━'.repeat(80));
     failedFeeds.forEach(f => {
-      console.log(`  - ${f.config.name}: ${f.error}`);
+      console.log(`  ✗ ${f.config.name}: ${f.error}`);
     });
   }
 
-  console.log('\n✓ RSS Collection Complete!');
+  console.log('');
+  console.log('━'.repeat(80));
+  console.log('✓ RSS COLLECTION COMPLETE!');
+  console.log('━'.repeat(80));
 }
 
 // Run main function
