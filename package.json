@@ -5,6 +5,8 @@
   "main": "rss-collector.js",
   "scripts": {
     "collect": "node rss-collector.js",
+    "analyze": "python3 analyze_summaries.py",
+    "collect:all": "npm run collect && npm run analyze",
     "test": "node rss-collector.js"
   },
   "keywords": ["rss", "feed", "collector"],
