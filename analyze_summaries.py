@@ -24,6 +24,20 @@ POPULAR_INDICATORS = [
     'marketing', 'advertising', 'campaign', 'brand'
 ]
 
+# Housing/Mortgage-specific keywords for Rocket relevance
+HOUSING_KEYWORDS = [
+    'housing', 'home', 'homebuyer', 'homeowner', 'real estate', 'property',
+    'mortgage', 'loan', 'refinance', 'interest rate', 'rates', 'fed',
+    'housing market', 'home price', 'home sale', 'listing', 'inventory',
+    'affordability', 'first-time buyer', 'millennials', 'gen z',
+    'down payment', 'credit', 'lending', 'fintech', 'rocket',
+    'zillow', 'redfin', 'realtor', 'mls', 'appraisal',
+    'home equity', 'heloc', 'refi', 'closing', 'escrow',
+    'rental', 'rent', 'apartment', 'multifamily', 'housing shortage',
+    'new construction', 'builder', 'suburban', 'urban', 'migration',
+    'remote work', 'work from home', 'relocation', 'moving'
+]
+
 # Buzzword patterns to extract
 BUZZWORD_PATTERNS = [
     r'\b(?:AI|ML|LLM|GenAI|ChatGPT|OpenAI)\b',
@@ -36,6 +50,8 @@ BUZZWORD_PATTERNS = [
     r'\b(?:blockchain|crypto|metaverse|VR|AR)\b',
     r'\b(?:sustainability|ESG|climate|green)\b',
     r'\b(?:privacy|GDPR|compliance|security)\b',
+    r'\b(?:housing|mortgage|homebuyer|real estate|refinance)\b',
+    r'\b(?:interest rate|Fed|lending|fintech|affordability)\b',
 ]
 
 ONGOING_CACHE_FILE = 'ongoing_summary_cache.txt'
@@ -200,7 +216,11 @@ def load_trend_data():
     """Load historical trend data"""
     if Path(TREND_DATA_FILE).exists():
         with open(TREND_DATA_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            data = json.load(f)
+            # Convert regular dicts back to defaultdicts
+            data['buzzword_history'] = defaultdict(list, data.get('buzzword_history', {}))
+            data['topic_history'] = defaultdict(list, data.get('topic_history', {}))
+            return data
     return {
         'buzzword_history': defaultdict(list),  # {buzzword: [(date, count), ...]}
         'topic_history': defaultdict(list),     # {topic: [(date, count), ...]}
@@ -357,7 +377,7 @@ def analyze_trends(stories, trend_data):
     }
 
 def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
-    """Generate 5 LinkedIn-ready content chunks"""
+    """Generate 6 LinkedIn-ready content chunks"""
 
     # Chunk 1: Emerging Trends
     chunk1 = [
@@ -440,13 +460,73 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
         if story['buzzwords']:
             chunk5.append(f"  Key areas: {', '.join(sorted(set(story['buzzwords']))[:4])}")
 
+    # Chunk 6: Housing & Mortgage Trends (Rocket-relevant)
+    chunk6 = [
+        "# LinkedIn Post: Housing & Homebuyer Trends",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 🏠 HOUSING & HOMEBUYER TRENDS\n",
+        "Real estate insights relevant for mortgage companies like Rocket\n"
+    ]
+
+    # Filter housing-related stories
+    housing_stories = [s for s in stories if any(kw in s['text'] for kw in HOUSING_KEYWORDS)]
+
+    if housing_stories:
+        # Group by category
+        market_stories = [s for s in housing_stories if any(kw in s['text'] for kw in ['market', 'price', 'inventory', 'sale', 'listing'])]
+        buyer_stories = [s for s in housing_stories if any(kw in s['text'] for kw in ['buyer', 'millennials', 'gen z', 'first-time', 'affordability'])]
+        finance_stories = [s for s in housing_stories if any(kw in s['text'] for kw in ['mortgage', 'rate', 'fed', 'loan', 'fintech', 'lending'])]
+
+        if market_stories:
+            chunk6.append("\n### Market Dynamics:")
+            for story in market_stories[:3]:
+                chunk6.append(f"• {story['title']}")
+                if any(kw in story['text'] for kw in ['rocket', 'mortgage', 'loan']):
+                    chunk6.append("  💡 Direct Rocket mention/relevance")
+
+        if buyer_stories:
+            chunk6.append("\n### What Homebuyers Are Talking About:")
+            for story in buyer_stories[:3]:
+                chunk6.append(f"• {story['title']}")
+                # Identify conversation hooks for Rocket
+                hooks = []
+                if 'affordability' in story['text']:
+                    hooks.append("Affordability angle")
+                if any(kw in story['text'] for kw in ['millennials', 'gen z']):
+                    hooks.append("Gen focus")
+                if 'first' in story['text'] or 'down payment' in story['text']:
+                    hooks.append("First-time buyer")
+                if hooks:
+                    chunk6.append(f"  🎯 Rocket angles: {', '.join(hooks)}")
+
+        if finance_stories:
+            chunk6.append("\n### Mortgage & Fintech:")
+            for story in finance_stories[:3]:
+                chunk6.append(f"• {story['title']}")
+                if 'rocket' in story['text'].lower():
+                    chunk6.append("  ⭐ ROCKET MENTIONED")
+
+        # Add conversation starters
+        chunk6.append("\n### Conversation Starters for Rocket:")
+        chunk6.append("• Use market dynamics to discuss how Rocket helps navigate challenges")
+        chunk6.append("• Address buyer concerns with Rocket's tech-first approach")
+        chunk6.append("• Position Rocket as innovator in fintech lending space")
+
+    else:
+        chunk6.append("\n• No housing-specific stories this period")
+        chunk6.append("\n### General Talking Points:")
+        chunk6.append("• Digital transformation in mortgage lending")
+        chunk6.append("• Tech-enabled homebuying experience")
+        chunk6.append("• Rocket's innovation in fintech space")
+
     # Write all chunks
     chunks = [
         ('linkedin_01_emerging.txt', chunk1),
         ('linkedin_02_building.txt', chunk2),
         ('linkedin_03_lasting.txt', chunk3),
         ('linkedin_04_deals.txt', chunk4),
-        ('linkedin_05_niche.txt', chunk5)
+        ('linkedin_05_niche.txt', chunk5),
+        ('linkedin_06_housing.txt', chunk6)
     ]
 
     for filename, content in chunks:

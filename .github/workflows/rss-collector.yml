@@ -56,7 +56,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add summary_cache.txt summary_popular.txt summary_obscure.txt ongoing_summary_cache.txt linkedin_*.txt trend_data.json
-          git commit -m "Update RSS feeds - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "Update RSS feeds and trend analysis - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
 
       - name: No changes detected

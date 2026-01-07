@@ -36,6 +36,7 @@ Automated RSS feed collector with AI-powered trend analysis that compiles feeds 
 - `linkedin_03_lasting.txt` - Consistent long-term trends
 - `linkedin_04_deals.txt` - Major deals and announcements
 - `linkedin_05_niche.txt` - Niche opportunities and innovations
+- `linkedin_06_housing.txt` - Housing/mortgage trends (Rocket-specific)
 
 ## Setup
 
@@ -217,13 +218,14 @@ Stories added: N
 
 ### linkedin_*.txt Files
 
-Five LinkedIn-ready content chunks optimized for Power Automate/Copilot:
+Six LinkedIn-ready content chunks optimized for Power Automate/Copilot:
 
 1. **linkedin_01_emerging.txt** - 🚀 New emerging trends (first seen in last 3 days)
 2. **linkedin_02_building.txt** - 📈 Trends gaining momentum (50%+ growth)
 3. **linkedin_03_lasting.txt** - 🎯 Consistent long-term trends (8+ weeks tracked)
 4. **linkedin_04_deals.txt** - 💼 Major deals, M&A, partnerships
 5. **linkedin_05_niche.txt** - 💡 Under-the-radar opportunities
+6. **linkedin_06_housing.txt** - 🏠 Housing/homebuyer trends for Rocket
 
 **Format:**
 ```
@@ -243,6 +245,42 @@ Generated: MM/DD/YYYY
 - Maintain consistent social media presence
 - Create content from fresh industry insights
 - Customize tone and style via GPT prompts
+
+#### linkedin_06_housing.txt - Special Focus
+
+This chunk is specifically designed for **mortgage companies like Rocket** and includes:
+
+**Three Strategic Categories:**
+1. **Market Dynamics** - Housing market trends, pricing, inventory
+   - Flags direct Rocket mentions
+   - Market challenges that Rocket can address
+
+2. **What Homebuyers Are Talking About** - Consumer insights
+   - Affordability concerns
+   - Generational focus (Millennials, Gen Z)
+   - First-time buyer challenges
+   - **Conversation hooks** automatically identified
+
+3. **Mortgage & Fintech** - Industry developments
+   - Interest rate discussions
+   - Fintech innovations
+   - **Rocket-specific mentions** highlighted with ⭐
+
+**Conversation Starters** - Pre-written angles to connect stories to Rocket:
+- Market challenges → Rocket's solutions
+- Buyer concerns → Tech-first approach
+- Industry trends → Innovation positioning
+
+**Example output:**
+```
+### What Homebuyers Are Talking About:
+• Millennials struggle with affordability in 2026 housing market
+  🎯 Rocket angles: Affordability angle, Gen focus, First-time buyer
+
+### Mortgage & Fintech:
+• Inside Rocket's new NFL campaign as in-house creative team embraces AI
+  ⭐ ROCKET MENTIONED
+```
 
 ### trend_data.json
 
