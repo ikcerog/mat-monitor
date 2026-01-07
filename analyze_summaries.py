@@ -24,13 +24,13 @@ POPULAR_INDICATORS = [
     'marketing', 'advertising', 'campaign', 'brand'
 ]
 
-# Housing/Mortgage-specific keywords for Rocket relevance
+# Housing/Mortgage-specific keywords
 HOUSING_KEYWORDS = [
     'housing', 'home', 'homebuyer', 'homeowner', 'real estate', 'property',
     'mortgage', 'loan', 'refinance', 'interest rate', 'rates', 'fed',
     'housing market', 'home price', 'home sale', 'listing', 'inventory',
     'affordability', 'first-time buyer', 'millennials', 'gen z',
-    'down payment', 'credit', 'lending', 'fintech', 'rocket',
+    'down payment', 'credit', 'lending', 'fintech',
     'zillow', 'redfin', 'realtor', 'mls', 'appraisal',
     'home equity', 'heloc', 'refi', 'closing', 'escrow',
     'rental', 'rent', 'apartment', 'multifamily', 'housing shortage',
@@ -460,12 +460,12 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
         if story['buzzwords']:
             chunk5.append(f"  Key areas: {', '.join(sorted(set(story['buzzwords']))[:4])}")
 
-    # Chunk 6: Housing & Mortgage Trends (Rocket-relevant)
+    # Chunk 6: Housing & Mortgage Trends
     chunk6 = [
         "# LinkedIn Post: Housing & Homebuyer Trends",
         f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
         "## 🏠 HOUSING & HOMEBUYER TRENDS\n",
-        "Real estate insights relevant for mortgage companies like Rocket\n"
+        "Real estate insights relevant for mortgage companies\n"
     ]
 
     # Filter housing-related stories
@@ -481,14 +481,14 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
             chunk6.append("\n### Market Dynamics:")
             for story in market_stories[:3]:
                 chunk6.append(f"• {story['title']}")
-                if any(kw in story['text'] for kw in ['rocket', 'mortgage', 'loan']):
-                    chunk6.append("  💡 Direct Rocket mention/relevance")
+                if any(kw in story['text'] for kw in ['mortgage', 'loan', 'lending']):
+                    chunk6.append("  💡 Direct industry mention/relevance")
 
         if buyer_stories:
             chunk6.append("\n### What Homebuyers Are Talking About:")
             for story in buyer_stories[:3]:
                 chunk6.append(f"• {story['title']}")
-                # Identify conversation hooks for Rocket
+                # Identify conversation hooks
                 hooks = []
                 if 'affordability' in story['text']:
                     hooks.append("Affordability angle")
@@ -497,27 +497,25 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
                 if 'first' in story['text'] or 'down payment' in story['text']:
                     hooks.append("First-time buyer")
                 if hooks:
-                    chunk6.append(f"  🎯 Rocket angles: {', '.join(hooks)}")
+                    chunk6.append(f"  🎯 Content angles: {', '.join(hooks)}")
 
         if finance_stories:
             chunk6.append("\n### Mortgage & Fintech:")
             for story in finance_stories[:3]:
                 chunk6.append(f"• {story['title']}")
-                if 'rocket' in story['text'].lower():
-                    chunk6.append("  ⭐ ROCKET MENTIONED")
 
         # Add conversation starters
-        chunk6.append("\n### Conversation Starters for Rocket:")
-        chunk6.append("• Use market dynamics to discuss how Rocket helps navigate challenges")
-        chunk6.append("• Address buyer concerns with Rocket's tech-first approach")
-        chunk6.append("• Position Rocket as innovator in fintech lending space")
+        chunk6.append("\n### Conversation Starters:")
+        chunk6.append("• Use market dynamics to discuss solutions for navigating challenges")
+        chunk6.append("• Address buyer concerns with technology-enabled approaches")
+        chunk6.append("• Position as innovator in fintech lending space")
 
     else:
         chunk6.append("\n• No housing-specific stories this period")
         chunk6.append("\n### General Talking Points:")
         chunk6.append("• Digital transformation in mortgage lending")
         chunk6.append("• Tech-enabled homebuying experience")
-        chunk6.append("• Rocket's innovation in fintech space")
+        chunk6.append("• Innovation in fintech lending space")
 
     # Write all chunks
     chunks = [
