@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 """
-RSS Summary Analyzer
+RSS Summary Analyzer - Enhanced Edition
 Analyzes summary_cache.txt to generate:
 - summary_obscure.txt: Obscure/opportunity stories with buzzwords
 - summary_popular.txt: Popular topics with buzzwords
+- ongoing_summary_cache.txt: Multi-week compilation with trend tracking
+- linkedin_*.txt: 5 LinkedIn-ready content chunks for Power Automate
 """
 
 import re
-from collections import Counter
-from datetime import datetime
+import json
+from collections import Counter, defaultdict
+from datetime import datetime, timedelta
+from pathlib import Path
 import sys
 
 # Keywords that indicate popular/trending topics
@@ -33,6 +37,10 @@ BUZZWORD_PATTERNS = [
     r'\b(?:sustainability|ESG|climate|green)\b',
     r'\b(?:privacy|GDPR|compliance|security)\b',
 ]
+
+ONGOING_CACHE_FILE = 'ongoing_summary_cache.txt'
+TREND_DATA_FILE = 'trend_data.json'
+MAX_WEEKS_TO_KEEP = 4  # Keep 4 weeks of history
 
 def read_summary_cache(filepath='summary_cache.txt'):
     """Read and parse the summary_cache.txt file"""
@@ -130,7 +138,6 @@ def analyze_stories(stories):
     stories_sorted = sorted(stories, key=lambda x: x['popularity_score'], reverse=True)
 
     # Split into popular and obscure
-    # Popular: top 30% by score or score > 3
     threshold_index = max(len(stories) // 3, 10)  # At least top 10
     popular_stories = [s for s in stories_sorted[:threshold_index] if s['popularity_score'] > 0]
 
@@ -189,9 +196,267 @@ def generate_summary_file(stories, filepath, title):
 
     print(f"✓ Generated {filepath} ({len(stories)} stories, {len(output)} lines)")
 
+def load_trend_data():
+    """Load historical trend data"""
+    if Path(TREND_DATA_FILE).exists():
+        with open(TREND_DATA_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return {
+        'buzzword_history': defaultdict(list),  # {buzzword: [(date, count), ...]}
+        'topic_history': defaultdict(list),     # {topic: [(date, count), ...]}
+        'last_updated': None
+    }
+
+def save_trend_data(data):
+    """Save trend data"""
+    with open(TREND_DATA_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+def update_ongoing_cache(stories, date_str):
+    """Update ongoing_summary_cache.txt with new stories"""
+    # Read existing ongoing cache
+    existing_content = []
+    if Path(ONGOING_CACHE_FILE).exists():
+        with open(ONGOING_CACHE_FILE, 'r', encoding='utf-8') as f:
+            existing_content = f.read().split('\n')
+
+    # Remove entries older than MAX_WEEKS_TO_KEEP
+    cutoff_date = datetime.now() - timedelta(weeks=MAX_WEEKS_TO_KEEP)
+    filtered_content = []
+    current_date = None
+    skip_section = False
+
+    for line in existing_content:
+        if line.startswith('=== DATE:'):
+            # Extract date from marker
+            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', line)
+            if date_match:
+                entry_date = datetime.strptime(date_match.group(1), '%m/%d/%Y')
+                if entry_date >= cutoff_date:
+                    skip_section = False
+                    filtered_content.append(line)
+                else:
+                    skip_section = True
+            else:
+                filtered_content.append(line)
+        elif not skip_section:
+            filtered_content.append(line)
+
+    # Prepare new entry
+    new_entry = [
+        '',
+        f'=== DATE: {date_str} ===',
+        f'Stories added: {len(stories)}',
+        ''
+    ]
+
+    # Add stories
+    for story in stories[:30]:  # Limit to 30 stories per day
+        new_entry.append(f"• {story['title']}")
+        if story['buzzwords']:
+            new_entry.append(f"  [{', '.join(sorted(set(story['buzzwords']))[:5])}]")
+        new_entry.append('')
+
+    # Combine
+    output = '\n'.join(filtered_content).strip() + '\n' + '\n'.join(new_entry)
+
+    # Write file
+    with open(ONGOING_CACHE_FILE, 'w', encoding='utf-8') as f:
+        f.write(output)
+
+    print(f"✓ Updated {ONGOING_CACHE_FILE} (keeping {MAX_WEEKS_TO_KEEP} weeks of history)")
+
+def analyze_trends(stories, trend_data):
+    """Analyze trends: emerging, building, lasting"""
+    today = datetime.now().strftime('%Y-%m-%d')
+
+    # Count buzzwords and topics today
+    buzzword_counts = Counter()
+    topic_counts = Counter()
+
+    for story in stories:
+        for buzzword in story['buzzwords']:
+            buzzword_counts[buzzword] += 1
+
+        # Extract key topics (first few words of title)
+        words = story['title'].lower().split()[:3]
+        topic = ' '.join(words)
+        topic_counts[topic] += 1
+
+    # Update history
+    for buzzword, count in buzzword_counts.items():
+        trend_data['buzzword_history'][buzzword].append({'date': today, 'count': count})
+
+    for topic, count in topic_counts.items():
+        trend_data['topic_history'][topic].append({'date': today, 'count': count})
+
+    # Clean old entries (keep last 8 weeks)
+    cutoff = (datetime.now() - timedelta(weeks=8)).strftime('%Y-%m-%d')
+
+    for buzzword in list(trend_data['buzzword_history'].keys()):
+        trend_data['buzzword_history'][buzzword] = [
+            entry for entry in trend_data['buzzword_history'][buzzword]
+            if entry['date'] >= cutoff
+        ]
+        if not trend_data['buzzword_history'][buzzword]:
+            del trend_data['buzzword_history'][buzzword]
+
+    for topic in list(trend_data['topic_history'].keys()):
+        trend_data['topic_history'][topic] = [
+            entry for entry in trend_data['topic_history'][topic]
+            if entry['date'] >= cutoff
+        ]
+        if not trend_data['topic_history'][topic]:
+            del trend_data['topic_history'][topic]
+
+    trend_data['last_updated'] = today
+
+    # Categorize trends
+    emerging_trends = []  # New in last 3 days
+    building_trends = []  # Growing over last 2 weeks
+    lasting_trends = []   # Consistent over 4+ weeks
+
+    recent_cutoff = (datetime.now() - timedelta(days=3)).strftime('%Y-%m-%d')
+
+    for buzzword, history in trend_data['buzzword_history'].items():
+        if not history:
+            continue
+
+        # Check if emerging (first appeared in last 3 days)
+        first_appearance = min(entry['date'] for entry in history)
+        if first_appearance >= recent_cutoff:
+            emerging_trends.append({
+                'term': buzzword,
+                'count': sum(e['count'] for e in history),
+                'first_seen': first_appearance
+            })
+
+        # Check if building (increasing over time)
+        if len(history) >= 3:
+            recent = sum(e['count'] for e in history[-3:])
+            older = sum(e['count'] for e in history[:-3]) if len(history) > 3 else 0
+            if recent > older * 1.5:  # 50% growth
+                building_trends.append({
+                    'term': buzzword,
+                    'recent_count': recent,
+                    'growth': f"{((recent - older) / max(older, 1)) * 100:.0f}%"
+                })
+
+        # Check if lasting (appears consistently)
+        if len(history) >= 8:  # At least 8 data points
+            lasting_trends.append({
+                'term': buzzword,
+                'appearances': len(history),
+                'total_count': sum(e['count'] for e in history)
+            })
+
+    return {
+        'emerging': sorted(emerging_trends, key=lambda x: x['count'], reverse=True)[:10],
+        'building': sorted(building_trends, key=lambda x: x['recent_count'], reverse=True)[:10],
+        'lasting': sorted(lasting_trends, key=lambda x: x['total_count'], reverse=True)[:10]
+    }
+
+def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
+    """Generate 5 LinkedIn-ready content chunks"""
+
+    # Chunk 1: Emerging Trends
+    chunk1 = [
+        "# LinkedIn Post: Emerging Trends",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 🚀 EMERGING TRENDS (New This Week)\n"
+    ]
+
+    if trends['emerging']:
+        for trend in trends['emerging'][:5]:
+            chunk1.append(f"• {trend['term']} - {trend['count']} mentions (first seen: {trend['first_seen']})")
+    else:
+        chunk1.append("• No new emerging trends identified this week")
+
+    chunk1.append("\n## Story Highlights:")
+    for story in popular_stories[:3]:
+        chunk1.append(f"\n• {story['title']}")
+        if story['buzzwords']:
+            chunk1.append(f"  Tags: {', '.join(sorted(set(story['buzzwords']))[:4])}")
+
+    # Chunk 2: Building Momentum
+    chunk2 = [
+        "# LinkedIn Post: Building Momentum",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 📈 BUILDING MOMENTUM (Gaining Traction)\n"
+    ]
+
+    if trends['building']:
+        for trend in trends['building'][:5]:
+            chunk2.append(f"• {trend['term']} - {trend['recent_count']} recent mentions (↑{trend['growth']})")
+    else:
+        chunk2.append("• No significant momentum shifts detected")
+
+    chunk2.append("\n## Stories Driving Growth:")
+    for story in popular_stories[3:6] if len(popular_stories) > 3 else popular_stories[:3]:
+        chunk2.append(f"\n• {story['title']}")
+
+    # Chunk 3: Lasting Trends
+    chunk3 = [
+        "# LinkedIn Post: Lasting Trends",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 🎯 LASTING TRENDS (Consistent Focus Areas)\n"
+    ]
+
+    if trends['lasting']:
+        for trend in trends['lasting'][:5]:
+            chunk3.append(f"• {trend['term']} - {trend['appearances']} weeks tracked, {trend['total_count']} total mentions")
+    else:
+        chunk3.append("• Not enough historical data for lasting trend analysis")
+
+    chunk3.append("\n## Industry Staples:")
+    for story in popular_stories[6:9] if len(popular_stories) > 6 else popular_stories[:3]:
+        chunk3.append(f"\n• {story['title']}")
+
+    # Chunk 4: Major Deals & Announcements
+    chunk4 = [
+        "# LinkedIn Post: Major Deals & Announcements",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 💼 MAJOR DEALS & ANNOUNCEMENTS\n"
+    ]
+
+    deal_stories = [s for s in stories if any(kw in s['text'] for kw in ['deal', 'acquisition', 'm&a', 'merger', 'partnership', 'billion'])]
+    for story in deal_stories[:5]:
+        chunk4.append(f"\n• {story['title']}")
+        if story['buzzwords']:
+            chunk4.append(f"  {', '.join([b for b in sorted(set(story['buzzwords'])) if b in ['DEAL', 'ACQUISITION', 'M&A', 'PARTNERSHIP']])}")
+
+    if not deal_stories:
+        chunk4.append("• No major deals announced this week")
+
+    # Chunk 5: Niche Opportunities
+    chunk5 = [
+        "# LinkedIn Post: Niche Opportunities",
+        f"Generated: {datetime.now().strftime('%m/%d/%Y')}\n",
+        "## 💡 NICHE OPPORTUNITIES (Under-the-Radar Innovations)\n"
+    ]
+
+    for story in obscure_stories[:5]:
+        chunk5.append(f"\n• {story['title']}")
+        if story['buzzwords']:
+            chunk5.append(f"  Key areas: {', '.join(sorted(set(story['buzzwords']))[:4])}")
+
+    # Write all chunks
+    chunks = [
+        ('linkedin_01_emerging.txt', chunk1),
+        ('linkedin_02_building.txt', chunk2),
+        ('linkedin_03_lasting.txt', chunk3),
+        ('linkedin_04_deals.txt', chunk4),
+        ('linkedin_05_niche.txt', chunk5)
+    ]
+
+    for filename, content in chunks:
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(content))
+        print(f"✓ Generated {filename}")
+
 def main():
     print("━" * 80)
-    print("RSS Summary Analyzer")
+    print("RSS Summary Analyzer - Enhanced Edition")
     print("━" * 80)
     print()
 
@@ -204,6 +469,10 @@ def main():
     stories = extract_stories(content)
     print(f"   Found {len(stories)} stories")
 
+    if len(stories) == 0:
+        print("⚠️  No stories found - skipping analysis")
+        return
+
     # Analyze stories
     print("📊 Analyzing stories...")
     popular_stories, obscure_stories = analyze_stories(stories)
@@ -211,7 +480,28 @@ def main():
     print(f"   Obscure stories: {len(obscure_stories)}")
     print()
 
-    # Generate output files
+    # Load trend data
+    print("📈 Loading trend data...")
+    trend_data = load_trend_data()
+
+    # Analyze trends
+    print("🔍 Analyzing trends...")
+    trends = analyze_trends(stories, trend_data)
+    print(f"   Emerging trends: {len(trends['emerging'])}")
+    print(f"   Building trends: {len(trends['building'])}")
+    print(f"   Lasting trends: {len(trends['lasting'])}")
+    print()
+
+    # Save trend data
+    save_trend_data(trend_data)
+
+    # Update ongoing cache
+    date_str = datetime.now().strftime('%m/%d/%Y')
+    print("📝 Updating ongoing cache...")
+    update_ongoing_cache(stories, date_str)
+    print()
+
+    # Generate summary files
     print("📝 Generating summary files...")
     generate_summary_file(
         popular_stories,
@@ -223,8 +513,13 @@ def main():
         'summary_obscure.txt',
         'OBSCURE OPPORTUNITIES & EMERGING STORIES'
     )
-
     print()
+
+    # Generate LinkedIn chunks
+    print("📱 Generating LinkedIn content chunks...")
+    generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories)
+    print()
+
     print("━" * 80)
     print("✓ Analysis Complete!")
     print("━" * 80)

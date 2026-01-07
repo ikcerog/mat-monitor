@@ -1,24 +1,41 @@
 # RSS Feed Collector
 
-Automated RSS feed collector that compiles feeds into a clean text file optimized for AI model consumption.
+Automated RSS feed collector with AI-powered trend analysis that compiles feeds into multiple formats optimized for AI consumption and social media content generation.
 
 ## Features
 
-- Automatic daily collection via GitHub Actions at 7:50 AM
-- Manual trigger option from GitHub Actions tab
-- Converts RSS feeds to clean, markup-free text
-- Configurable feed sources and settings
-- Automatic commits to repository
+- **Automatic daily collection** via GitHub Actions at 7:50 AM UTC
+- **Manual trigger option** from GitHub Actions tab
+- **Clean text conversion** - RSS feeds to markup-free text
+- **Trend analysis** - Tracks emerging, building, and lasting trends over time
+- **Multi-week compilation** - Maintains 4-week rolling history
+- **LinkedIn-ready content** - Generates 5 post-ready content chunks
+- **Configurable feed sources** and settings
+- **Automatic commits** to repository
 
 ## Files
 
-- `rss-collector.js` - Main collector script
-- `analyze_summaries.py` - Python script that analyzes RSS summaries
+### Core Scripts
+- `rss-collector.js` - Main RSS feed collector
+- `analyze_summaries.py` - Enhanced analyzer with trend tracking
 - `rss-config.json` - RSS feeds and settings configuration
-- `summary_cache.txt` - Output file with compiled feeds (all stories)
-- `summary_popular.txt` - Curated popular topics and trends with buzzwords
-- `summary_obscure.txt` - Curated obscure/opportunity stories with buzzwords
 - `.github/workflows/rss-collector.yml` - GitHub Actions workflow
+
+### Daily Summary Files
+- `summary_cache.txt` - Complete daily feed compilation (all stories)
+- `summary_popular.txt` - Top 20 popular/trending stories with buzzwords
+- `summary_obscure.txt` - Top 20 niche/opportunity stories with buzzwords
+
+### Multi-Week Tracking
+- `ongoing_summary_cache.txt` - 4-week rolling compilation with date markers
+- `trend_data.json` - Historical buzzword and topic frequency data
+
+### LinkedIn Content Chunks (Power Automate Ready)
+- `linkedin_01_emerging.txt` - New emerging trends
+- `linkedin_02_building.txt` - Trends gaining momentum
+- `linkedin_03_lasting.txt` - Consistent long-term trends
+- `linkedin_04_deals.txt` - Major deals and announcements
+- `linkedin_05_niche.txt` - Niche opportunities and innovations
 
 ## Setup
 
@@ -177,6 +194,79 @@ KEY BUZZWORDS: PARTNERSHIP, PERSONALIZATION, VR, ...
 - `summary_obscure.txt` - Niche opportunities, emerging tech, specialized partnerships
 - Both are concise (~80-85 lines) to minimize token usage as prompt attachments
 - Buzzwords at the top provide quick context for AI models
+
+### ongoing_summary_cache.txt
+
+Multi-week compilation that maintains a rolling 4-week history:
+
+```
+=== DATE: MM/DD/YYYY ===
+Stories added: N
+
+• Story Title
+  [BUZZWORD1, BUZZWORD2]
+
+• Next Story...
+  [BUZZWORDS]
+```
+
+**Purpose:**
+- Tracks stories over time to identify trend patterns
+- Automatically removes entries older than 4 weeks
+- Enables long-term trend analysis (emerging → building → lasting)
+
+### linkedin_*.txt Files
+
+Five LinkedIn-ready content chunks optimized for Power Automate/Copilot:
+
+1. **linkedin_01_emerging.txt** - 🚀 New emerging trends (first seen in last 3 days)
+2. **linkedin_02_building.txt** - 📈 Trends gaining momentum (50%+ growth)
+3. **linkedin_03_lasting.txt** - 🎯 Consistent long-term trends (8+ weeks tracked)
+4. **linkedin_04_deals.txt** - 💼 Major deals, M&A, partnerships
+5. **linkedin_05_niche.txt** - 💡 Under-the-radar opportunities
+
+**Format:**
+```
+# LinkedIn Post: [Title]
+Generated: MM/DD/YYYY
+
+## [Section Title]
+
+• Trend/Story
+  Tags: [BUZZWORDS]
+
+• Next item...
+```
+
+**Use Case:** Feed these files into Power Automate with Office Copilot to:
+- Generate polished LinkedIn posts automatically
+- Maintain consistent social media presence
+- Create content from fresh industry insights
+- Customize tone and style via GPT prompts
+
+### trend_data.json
+
+Historical tracking data (8 weeks):
+- Buzzword frequency over time
+- Topic appearance patterns
+- Used to calculate emerging/building/lasting trends
+- Automatically maintained by analyzer
+
+## Trend Analysis Explained
+
+The analyzer tracks three types of trends:
+
+1. **Emerging Trends** - Topics/buzzwords that appeared for the first time in the last 3 days
+   - Identifies brand new industry conversations
+   - Great for being first to comment on new developments
+
+2. **Building Trends** - Topics showing 50%+ growth compared to earlier periods
+   - Spots topics gaining traction
+   - Ideal for jumping on momentum before peak popularity
+
+3. **Lasting Trends** - Topics appearing consistently over 8+ weeks
+   - Identifies evergreen industry themes
+   - Perfect for thought leadership and positioning
 
 ## GitHub Policy Compliance
 
