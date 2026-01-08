@@ -5,7 +5,8 @@ Analyzes summary_cache.txt to generate:
 - summary_obscure.txt: Obscure/opportunity stories with buzzwords
 - summary_popular.txt: Popular topics with buzzwords
 - ongoing_summary_cache.txt: Multi-week compilation with trend tracking
-- linkedin_*.txt: 5 LinkedIn-ready content chunks for Power Automate
+- linkedin_*.txt: 6 LinkedIn-ready content chunks for Power Automate
+- Google Trends integration for housing/mortgage topics
 """
 
 import re
@@ -14,6 +15,13 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 import sys
+
+try:
+    from pytrends.request import TrendReq
+    TRENDS_AVAILABLE = True
+except ImportError:
+    TRENDS_AVAILABLE = False
+    print("⚠️  pytrends not installed. Google Trends features disabled. Run: pip3 install pytrends")
 
 # Keywords that indicate popular/trending topics
 POPULAR_INDICATORS = [
@@ -424,7 +432,186 @@ def analyze_trends(stories, trend_data):
         'lasting': sorted(lasting_trends, key=lambda x: x['total_count'], reverse=True)[:10]
     }
 
-def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
+def fetch_google_trends(keywords, timeframe='today 3-m', geo='US'):
+    """Fetch Google Trends data for specified housing/mortgage keywords"""
+    if not TRENDS_AVAILABLE:
+        return None
+
+    try:
+        # Initialize pytrends
+        pytrends = TrendReq(hl='en-US', tz=360)
+
+        trends_data = {
+            'trending_searches': [],
+            'rising_queries': {},
+            'interest_over_time': {},
+            'related_topics': {}
+        }
+
+        # Batch keywords (Google Trends API limits to 5 keywords per request)
+        keyword_batches = [keywords[i:i+5] for i in range(0, len(keywords), 5)]
+
+        for batch in keyword_batches:
+            try:
+                # Build payload
+                pytrends.build_payload(batch, cat=0, timeframe=timeframe, geo=geo)
+
+                # Get interest over time
+                interest_df = pytrends.interest_over_time()
+                if not interest_df.empty:
+                    for keyword in batch:
+                        if keyword in interest_df.columns:
+                            avg_interest = interest_df[keyword].mean()
+                            recent_interest = interest_df[keyword].tail(4).mean()  # Last 4 weeks
+                            trends_data['interest_over_time'][keyword] = {
+                                'average': round(avg_interest, 1),
+                                'recent': round(recent_interest, 1),
+                                'trend': 'rising' if recent_interest > avg_interest * 1.2 else 'stable'
+                            }
+
+                # Get related queries (rising)
+                try:
+                    related_queries = pytrends.related_queries()
+                    for keyword in batch:
+                        if keyword in related_queries and related_queries[keyword]['rising'] is not None:
+                            rising = related_queries[keyword]['rising']
+                            if not rising.empty:
+                                trends_data['rising_queries'][keyword] = rising.head(5)['query'].tolist()
+                except Exception as e:
+                    print(f"  Note: Could not fetch related queries - {str(e)[:50]}")
+
+            except Exception as e:
+                print(f"  Warning: Error fetching trends for batch: {str(e)[:80]}")
+                continue
+
+        return trends_data
+
+    except Exception as e:
+        print(f"⚠️  Google Trends error: {str(e)[:100]}")
+        return None
+
+def analyze_google_trends_for_housing():
+    """Analyze Google Trends for housing/mortgage insights"""
+    if not TRENDS_AVAILABLE:
+        return {
+            'available': False,
+            'message': 'Google Trends data unavailable. Install pytrends: pip3 install pytrends'
+        }
+
+    print("🔍 Fetching Google Trends data for housing/mortgage topics...")
+
+    # Key search terms for mortgage companies
+    primary_keywords = [
+        'mortgage rates',
+        'home buying',
+        'refinance mortgage',
+        'first time home buyer',
+        'housing market'
+    ]
+
+    secondary_keywords = [
+        'mortgage calculator',
+        'home loan',
+        'fha loan',
+        'va loan',
+        'down payment assistance'
+    ]
+
+    # Fetch trends for primary keywords
+    primary_trends = fetch_google_trends(primary_keywords)
+
+    # Fetch trends for secondary keywords
+    secondary_trends = fetch_google_trends(secondary_keywords)
+
+    if not primary_trends and not secondary_trends:
+        return {
+            'available': False,
+            'message': 'Could not fetch Google Trends data. API may be temporarily unavailable.'
+        }
+
+    # Combine and analyze
+    insights = {
+        'available': True,
+        'hot_topics': [],
+        'rising_searches': [],
+        'storytelling_angles': [],
+        'content_opportunities': []
+    }
+
+    # Identify hot topics (high recent interest)
+    all_trends = {}
+    if primary_trends and 'interest_over_time' in primary_trends:
+        all_trends.update(primary_trends['interest_over_time'])
+    if secondary_trends and 'interest_over_time' in secondary_trends:
+        all_trends.update(secondary_trends['interest_over_time'])
+
+    if all_trends:
+        # Sort by recent interest
+        sorted_trends = sorted(all_trends.items(), key=lambda x: x[1]['recent'], reverse=True)
+        for keyword, data in sorted_trends[:5]:
+            insights['hot_topics'].append({
+                'keyword': keyword,
+                'interest': data['recent'],
+                'trend': data['trend']
+            })
+
+    # Collect rising queries
+    all_rising = {}
+    if primary_trends and 'rising_queries' in primary_trends:
+        all_rising.update(primary_trends['rising_queries'])
+    if secondary_trends and 'rising_queries' in secondary_trends:
+        all_rising.update(secondary_trends['rising_queries'])
+
+    if all_rising:
+        for keyword, queries in all_rising.items():
+            if queries:
+                insights['rising_searches'].extend([
+                    {'query': q, 'related_to': keyword} for q in queries[:3]
+                ])
+
+    # Generate storytelling angles based on trends
+    if insights['hot_topics']:
+        for topic in insights['hot_topics'][:3]:
+            if 'rates' in topic['keyword']:
+                insights['storytelling_angles'].append(
+                    f"Rate shopping trends: Address concerns about {topic['keyword']}"
+                )
+            elif 'first time' in topic['keyword']:
+                insights['storytelling_angles'].append(
+                    f"First-time buyer focus: Educational content for new homebuyers"
+                )
+            elif 'refinance' in topic['keyword']:
+                insights['storytelling_angles'].append(
+                    f"Refi opportunity: Market conditions driving {topic['keyword']} searches"
+                )
+            elif 'buying' in topic['keyword'] or 'market' in topic['keyword']:
+                insights['storytelling_angles'].append(
+                    f"Market insights: Buyers researching {topic['keyword']}"
+                )
+
+    # Identify content opportunities (gaps between what's trending and what you're covering)
+    if insights['rising_searches']:
+        insights['content_opportunities'].append(
+            "Create content addressing top rising queries (FAQs, guides, calculators)"
+        )
+
+    if any('calculator' in t['keyword'] for t in insights['hot_topics']):
+        insights['content_opportunities'].append(
+            "High interest in calculators - opportunity for interactive tools"
+        )
+
+    if any('fha' in t['keyword'] or 'va' in t['keyword'] for t in insights['hot_topics']):
+        insights['content_opportunities'].append(
+            "Government-backed loan programs seeing high search volume"
+        )
+
+    print(f"  ✓ Found {len(insights['hot_topics'])} hot topics")
+    print(f"  ✓ Identified {len(insights['rising_searches'])} rising queries")
+    print(f"  ✓ Generated {len(insights['storytelling_angles'])} storytelling angles")
+
+    return insights
+
+def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, google_trends=None):
     """Generate 6 LinkedIn-ready content chunks"""
 
     # Chunk 1: Emerging Trends
@@ -552,6 +739,40 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories):
             for story in finance_stories[:3]:
                 chunk6.append(f"• {story['title']}")
 
+        # Add Google Trends insights if available
+        if google_trends and google_trends.get('available'):
+            chunk6.append("\n### 🔥 GOOGLE TRENDS INSIGHTS (What People Are Searching)")
+            chunk6.append("Real-time search data - your storytelling opportunities:\n")
+
+            # Hot topics
+            if google_trends.get('hot_topics'):
+                chunk6.append("**Top Search Topics:**")
+                for topic in google_trends['hot_topics'][:5]:
+                    trend_emoji = "📈" if topic['trend'] == 'rising' else "➡️"
+                    chunk6.append(f"• {trend_emoji} {topic['keyword']} (interest level: {topic['interest']})")
+
+            # Rising searches
+            if google_trends.get('rising_searches'):
+                chunk6.append("\n**Rising Queries (What's Gaining Momentum):**")
+                for item in google_trends['rising_searches'][:6]:
+                    chunk6.append(f"• \"{item['query']}\" (related to: {item['related_to']})")
+
+            # Storytelling angles
+            if google_trends.get('storytelling_angles'):
+                chunk6.append("\n**💡 Storytelling Angles:**")
+                for angle in google_trends['storytelling_angles'][:4]:
+                    chunk6.append(f"• {angle}")
+
+            # Content opportunities
+            if google_trends.get('content_opportunities'):
+                chunk6.append("\n**📝 Content Opportunities:**")
+                for opp in google_trends['content_opportunities']:
+                    chunk6.append(f"• {opp}")
+
+        elif google_trends and not google_trends.get('available'):
+            chunk6.append("\n### Google Trends Insights")
+            chunk6.append(f"• {google_trends.get('message', 'Google Trends data unavailable')}")
+
         # Add conversation starters
         chunk6.append("\n### Conversation Starters:")
         chunk6.append("• Use market dynamics to discuss solutions for navigating challenges")
@@ -641,9 +862,14 @@ def main():
     )
     print()
 
+    # Fetch Google Trends data for housing
+    print("🌐 Analyzing Google Trends for housing/mortgage...")
+    google_trends = analyze_google_trends_for_housing()
+    print()
+
     # Generate LinkedIn chunks
     print("📱 Generating LinkedIn content chunks...")
-    generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories)
+    generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, google_trends)
     print()
 
     print("━" * 80)
