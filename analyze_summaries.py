@@ -220,20 +220,27 @@ def load_trend_data():
             # Convert regular dicts back to defaultdicts
             data['buzzword_history'] = defaultdict(list, data.get('buzzword_history', {}))
             data['topic_history'] = defaultdict(list, data.get('topic_history', {}))
+            # Add seen_stories set for deduplication
+            data['seen_stories'] = set(data.get('seen_stories', []))
             return data
     return {
         'buzzword_history': defaultdict(list),  # {buzzword: [(date, count), ...]}
         'topic_history': defaultdict(list),     # {topic: [(date, count), ...]}
+        'seen_stories': set(),  # Set of story titles we've seen before
         'last_updated': None
     }
 
 def save_trend_data(data):
     """Save trend data"""
+    # Convert set to list for JSON serialization
+    data_to_save = data.copy()
+    if 'seen_stories' in data_to_save:
+        data_to_save['seen_stories'] = list(data_to_save['seen_stories'])
     with open(TREND_DATA_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2)
+        json.dump(data_to_save, f, indent=2)
 
-def update_ongoing_cache(stories, date_str):
-    """Update ongoing_summary_cache.txt with new stories"""
+def update_ongoing_cache(stories, date_str, trend_data):
+    """Update ongoing_summary_cache.txt with new stories only (de-duplicated)"""
     # Read existing ongoing cache
     existing_content = []
     if Path(ONGOING_CACHE_FILE).exists():
@@ -262,17 +269,58 @@ def update_ongoing_cache(stories, date_str):
         elif not skip_section:
             filtered_content.append(line)
 
+    # Get set of previously seen stories
+    seen_stories = trend_data.get('seen_stories', set())
+
+    # Filter stories: only new ones, exclude Reddit unless trending
+    new_stories = []
+    for story in stories:
+        # Skip if we've seen this story before
+        if story['title'] in seen_stories:
+            continue
+
+        # Skip Reddit stories unless they have buzzwords (indicating trending)
+        if 'Reddit' in story.get('feed', '') and len(story.get('buzzwords', [])) == 0:
+            continue
+
+        # This is a new story, add it
+        new_stories.append(story)
+        seen_stories.add(story['title'])
+
+    # Update trend_data with new seen stories
+    trend_data['seen_stories'] = seen_stories
+
+    # Clean up old stories from seen_stories set (keep last 8 weeks worth)
+    cutoff_8weeks = datetime.now() - timedelta(weeks=8)
+    # We can't easily date the titles, so we'll just limit the size
+    if len(seen_stories) > 5000:  # Keep max 5000 titles
+        # Keep only the most recent 3000
+        trend_data['seen_stories'] = set(list(seen_stories)[-3000:])
+
+    if not new_stories:
+        print(f"✓ No new stories to add to {ONGOING_CACHE_FILE}")
+        return
+
     # Prepare new entry
     new_entry = [
         '',
         f'=== DATE: {date_str} ===',
-        f'Stories added: {len(stories)}',
+        f'New stories: {len(new_stories)}',
         ''
     ]
 
-    # Add stories
-    for story in stories[:30]:  # Limit to 30 stories per day
+    # Add stories with descriptions
+    for story in new_stories[:30]:  # Limit to 30 stories per day
         new_entry.append(f"• {story['title']}")
+
+        # Add description if available (truncate to 200 chars)
+        if story.get('description'):
+            desc = story['description'][:200]
+            if len(story['description']) > 200:
+                desc += '...'
+            new_entry.append(f"  {desc}")
+
+        # Add buzzwords
         if story['buzzwords']:
             new_entry.append(f"  [{', '.join(sorted(set(story['buzzwords']))[:5])}]")
         new_entry.append('')
@@ -284,7 +332,7 @@ def update_ongoing_cache(stories, date_str):
     with open(ONGOING_CACHE_FILE, 'w', encoding='utf-8') as f:
         f.write(output)
 
-    print(f"✓ Updated {ONGOING_CACHE_FILE} (keeping {MAX_WEEKS_TO_KEEP} weeks of history)")
+    print(f"✓ Updated {ONGOING_CACHE_FILE} ({len(new_stories)} new stories, keeping {MAX_WEEKS_TO_KEEP} weeks)")
 
 def analyze_trends(stories, trend_data):
     """Analyze trends: emerging, building, lasting"""
@@ -570,14 +618,14 @@ def main():
     print(f"   Lasting trends: {len(trends['lasting'])}")
     print()
 
-    # Save trend data
-    save_trend_data(trend_data)
-
-    # Update ongoing cache
+    # Update ongoing cache (this modifies trend_data with seen_stories)
     date_str = datetime.now().strftime('%m/%d/%Y')
     print("📝 Updating ongoing cache...")
-    update_ongoing_cache(stories, date_str)
+    update_ongoing_cache(stories, date_str, trend_data)
     print()
+
+    # Save trend data (must come AFTER update_ongoing_cache to include seen_stories)
+    save_trend_data(trend_data)
 
     # Generate summary files
     print("📝 Generating summary files...")
