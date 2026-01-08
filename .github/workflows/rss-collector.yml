@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Python dependencies
+        run: pip3 install pytrends
+
       - name: Run RSS collector
         run: npm run collect
 

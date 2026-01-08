@@ -9,7 +9,8 @@ Automated RSS feed collector with AI-powered trend analysis that compiles feeds 
 - **Clean text conversion** - RSS feeds to markup-free text
 - **Trend analysis** - Tracks emerging, building, and lasting trends over time
 - **Multi-week compilation** - Maintains 4-week rolling history
-- **LinkedIn-ready content** - Generates 5 post-ready content chunks
+- **Google Trends integration** - Real-time search data for housing/mortgage topics
+- **LinkedIn-ready content** - Generates 6 post-ready content chunks
 - **Configurable feed sources** and settings
 - **Automatic commits** to repository
 
@@ -43,10 +44,15 @@ Automated RSS feed collector with AI-powered trend analysis that compiles feeds 
 ### 1. Install Dependencies (for local testing)
 
 ```bash
-npm install
+# Install all dependencies (Node.js + Python)
+npm run setup
+
+# Or install separately:
+npm install              # Node.js dependencies
+pip3 install pytrends   # Python dependencies for Google Trends
 ```
 
-**Note:** Python 3.x is also required for the summary analyzer.
+**Note:** Python 3.x is also required for the summary analyzer. The `pytrends` library enables Google Trends integration for housing/mortgage insights.
 
 ### 2. Configure RSS Feeds
 
@@ -266,6 +272,18 @@ This chunk is specifically designed for **mortgage companies and real estate pro
    - Fintech innovations
    - Lending technology trends
 
+**🔥 Google Trends Insights (NEW!)** - Real-time search data for storytelling:
+- **Top Search Topics** - What people are actively searching (with interest levels)
+- **Rising Queries** - Searches gaining momentum right now
+- **Storytelling Angles** - AI-generated content opportunities based on trends
+- **Content Opportunities** - Gaps between what's trending and what you're covering
+
+This section provides the **"blindspot" data** you need for PR/Marketing/Storytelling:
+- See what's HOT in housing searches in real-time
+- Identify thought leadership opportunities
+- Create content that addresses actual search behavior
+- Position your brand ahead of market conversations
+
 **Conversation Starters** - Pre-written angles for content creation:
 - Market challenges → Solutions and approaches
 - Buyer concerns → Technology-enabled strategies
@@ -280,7 +298,31 @@ This chunk is specifically designed for **mortgage companies and real estate pro
 ### Mortgage & Fintech:
 • Tech-enabled mortgage platforms reshape homebuying experience
   💡 Direct industry mention/relevance
+
+### 🔥 GOOGLE TRENDS INSIGHTS (What People Are Searching)
+Real-time search data - your storytelling opportunities:
+
+**Top Search Topics:**
+• 📈 mortgage rates (interest level: 85.3)
+• ➡️ home buying (interest level: 72.1)
+• 📈 refinance mortgage (interest level: 68.4)
+
+**Rising Queries (What's Gaining Momentum):**
+• "mortgage rates today" (related to: mortgage rates)
+• "first time home buyer programs" (related to: first time home buyer)
+• "how to refinance my mortgage" (related to: refinance mortgage)
+
+**💡 Storytelling Angles:**
+• Rate shopping trends: Address concerns about mortgage rates
+• First-time buyer focus: Educational content for new homebuyers
+• Refi opportunity: Market conditions driving refinance mortgage searches
+
+**📝 Content Opportunities:**
+• Create content addressing top rising queries (FAQs, guides, calculators)
+• High interest in calculators - opportunity for interactive tools
 ```
+
+**Note:** Google Trends requires the `pytrends` Python library. If not installed, the section will display a helpful setup message.
 
 ### trend_data.json
 
