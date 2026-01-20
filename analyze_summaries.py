@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-RSS Summary Analyzer - Enhanced Edition
+RSS Summary Analyzer - Enhanced Edition with Advanced NLP
 Analyzes summary_cache.txt to generate:
 - summary_obscure.txt: Obscure/opportunity stories with buzzwords
 - summary_popular.txt: Popular topics with buzzwords
-- ongoing_summary_cache.txt: Multi-week compilation with trend tracking
+- ongoing_summary_cache.txt: Multi-week compilation with enhanced entity tracking
+- analysis_scaffold.json: Hierarchical JSON analysis framework
 - linkedin_*.txt: 6 LinkedIn-ready content chunks for Power Automate
 - Google Trends integration for housing/mortgage topics
 """
@@ -15,6 +16,35 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
 import sys
+
+# Import new enhancement modules
+try:
+    from entity_extractor import EntityExtractor
+    ENTITY_EXTRACTION_AVAILABLE = True
+except ImportError:
+    ENTITY_EXTRACTION_AVAILABLE = False
+    print("⚠️  entity_extractor module not found. Advanced entity extraction disabled.")
+
+try:
+    from content_summarizer import ContentSummarizer
+    SUMMARIZATION_AVAILABLE = True
+except ImportError:
+    SUMMARIZATION_AVAILABLE = False
+    print("⚠️  content_summarizer module not found. Advanced summarization disabled.")
+
+try:
+    from signal_clustering import SignalClusterer
+    CLUSTERING_AVAILABLE = True
+except ImportError:
+    CLUSTERING_AVAILABLE = False
+    print("⚠️  signal_clustering module not found. Signal clustering disabled.")
+
+try:
+    from scaffold_generator import ScaffoldGenerator
+    SCAFFOLD_AVAILABLE = True
+except ImportError:
+    SCAFFOLD_AVAILABLE = False
+    print("⚠️  scaffold_generator module not found. JSON scaffold generation disabled.")
 
 try:
     from pytrends.request import TrendReq
@@ -77,9 +107,15 @@ def read_summary_cache(filepath='summary_cache.txt'):
         sys.exit(1)
 
 def extract_stories(content):
-    """Extract individual stories from the content"""
+    """Extract individual stories from the enhanced content format"""
     stories = []
     current_feed = None
+    current_source = None
+    current_category = None
+
+    # Initialize extractors if available
+    entity_extractor = EntityExtractor() if ENTITY_EXTRACTION_AVAILABLE else None
+    summarizer = ContentSummarizer(max_sentences=3) if SUMMARIZATION_AVAILABLE else None
 
     lines = content.split('\n')
     i = 0
@@ -92,34 +128,79 @@ def extract_stories(content):
             i += 1
             continue
 
-        # Check for story title (non-empty, not SOURCE, not URL)
-        if line and not line.startswith('SOURCE:') and not line.startswith('http') and current_feed:
-            title = line
+        # Check for source URL
+        if line.startswith('SOURCE:'):
+            current_source = line.replace('SOURCE:', '').strip()
+            i += 1
+            continue
+
+        # Check for category
+        if line.startswith('CATEGORY:'):
+            current_category = line.replace('CATEGORY:', '').strip()
+            i += 1
+            continue
+
+        # Check for story title (new format: TITLE: ...)
+        if line.startswith('TITLE:'):
+            title = line.replace('TITLE:', '').strip()
             url = ''
             description = ''
+            full_content = ''
+            date = ''
+            author = ''
 
-            # Next line might be URL
-            if i + 1 < len(lines) and lines[i + 1].strip().startswith('http'):
-                url = lines[i + 1].strip()
-                i += 1
+            # Parse all story fields
+            i += 1
+            while i < len(lines):
+                line = lines[i].strip()
 
-            # Next line(s) might be description
-            if i + 1 < len(lines):
+                if line.startswith('URL:'):
+                    url = line.replace('URL:', '').strip()
+                elif line.startswith('DATE:'):
+                    date = line.replace('DATE:', '').strip()
+                elif line.startswith('AUTHOR:'):
+                    author = line.replace('AUTHOR:', '').strip()
+                elif line.startswith('DESCRIPTION:'):
+                    description = line.replace('DESCRIPTION:', '').strip()
+                elif line.startswith('CONTENT:'):
+                    full_content = line.replace('CONTENT:', '').strip()
+                elif line.startswith('---') or line.startswith('TITLE:') or line.startswith('FEED:'):
+                    # End of this story
+                    break
+
                 i += 1
-                desc_lines = []
-                while i < len(lines) and lines[i].strip() and not lines[i].startswith('FEED:') and not lines[i].startswith('http'):
-                    desc_lines.append(lines[i].strip())
-                    i += 1
-                description = ' '.join(desc_lines)
 
             if title:
+                # Extract entities if available
+                entities = {}
+                if entity_extractor:
+                    text_for_extraction = f"{description} {full_content}" if full_content else description
+                    entities = entity_extractor.extract_entities(text_for_extraction, title)
+
+                # Generate summary if we have full content
+                summary = ''
+                if summarizer and full_content and len(full_content) > len(description) + 100:
+                    summary = summarizer.summarize(full_content, title, entities)
+                elif description:
+                    summary = description[:200]  # Use description as fallback
+
                 stories.append({
-                    'feed': current_feed,
+                    'feed': current_feed or 'Unknown',
+                    'outlet': current_feed or 'Unknown',
+                    'feed_category': current_category,
+                    'source_url': current_source,
                     'title': title,
                     'url': url,
+                    'date': date,
+                    'author': author,
                     'description': description,
-                    'text': f"{title} {description}".lower()
+                    'full_content': full_content,
+                    'summary': summary,
+                    'entities': entities,
+                    'text': f"{title} {description} {full_content}".lower()
                 })
+
+            continue
 
         i += 1
 
@@ -801,6 +882,115 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, 
             f.write('\n'.join(content))
         print(f"✓ Generated {filename}")
 
+def generate_enhanced_ongoing_cache(signals, stories, date_str):
+    """Generate enhanced ongoing cache with signal clustering and entity tracking"""
+
+    output = []
+
+    # Header with statistics
+    output.append("=" * 80)
+    output.append(f"ENHANCED ANALYSIS: {date_str}")
+    output.append("=" * 80)
+
+    total_stories = sum(signal['story_count'] for signal in signals)
+    outlets = set(story['outlet'] for story in stories)
+
+    output.append(f"Total Stories: {len(stories)} | Clustered: {total_stories} | Unique Outlets: {len(outlets)} | Signals: {len(signals)}")
+
+    # Top trends
+    top_trends = []
+    for signal in signals[:5]:
+        momentum_symbol = {"rising": "↑", "stable": "→", "declining": "↓"}.get(signal['momentum'], "→")
+        top_trends.append(f"{signal['cluster_name']} ({momentum_symbol}{signal['story_count']})")
+
+    if top_trends:
+        output.append(f"Top Signals: {' | '.join(top_trends)}")
+
+    output.append("")
+
+    # Generate signal-based sections
+    for signal in signals:
+        output.append("=" * 80)
+        output.append(f"SIGNAL: {signal['cluster_name']} [{signal['story_count']} stories, {signal['momentum'].title()}]")
+        output.append("=" * 80)
+        output.append(signal['description'])
+
+        # Key players
+        entities = signal.get('entities', {})
+        brands = entities.get('brands', [])[:5]
+        technologies = entities.get('technologies', [])[:5]
+
+        entity_parts = []
+        if brands:
+            entity_parts.append(f"Brands[{', '.join(brands)}]")
+        if technologies:
+            entity_parts.append(f"Tech[{', '.join(technologies)}]")
+
+        if entity_parts:
+            output.append(f"Key Players: {' | '.join(entity_parts)}")
+
+        output.append("")
+
+        # Stories within this signal
+        for story in signal.get('stories', [])[:15]:  # Limit to 15 stories per signal
+            # Title
+            output.append(f"• {story.get('title', 'Untitled')}")
+
+            # Metadata line
+            meta_parts = []
+            outlet = story.get('outlet', 'Unknown')
+            date = story.get('date', '')
+            if date:
+                try:
+                    # Format date nicely
+                    dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
+                    date_formatted = dt.strftime('%b %d, %Y')
+                    meta_parts.append(f"SOURCE: {outlet} | DATE: {date_formatted}")
+                except:
+                    meta_parts.append(f"SOURCE: {outlet}")
+            else:
+                meta_parts.append(f"SOURCE: {outlet}")
+
+            if meta_parts:
+                output.append(f"  {meta_parts[0]}")
+
+            # Summary
+            summary = story.get('summary', story.get('description', ''))
+            if summary:
+                # Wrap summary to ~80 chars per line
+                summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
+                for line in summary_lines[:3]:  # Max 3 lines
+                    output.append(f"  {line}")
+
+            # Entities
+            story_entities = story.get('entities', {})
+            entity_tags = []
+
+            for category in ['brands', 'technologies', 'companies']:
+                items = story_entities.get(category, [])
+                if items:
+                    label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
+                    entity_tags.append(f"{label}[{', '.join(items[:3])}]")
+
+            if entity_tags:
+                output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
+
+            # URL
+            url = story.get('url', '')
+            if url:
+                output.append(f"  URL: {url}")
+
+            output.append("")
+
+        output.append("")
+
+    # Write to file (append to existing if within timeframe)
+    # For now, we'll create a new enhanced file
+    with open('ongoing_summary_cache_enhanced.txt', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(output))
+
+    print(f"   ✓ Generated ongoing_summary_cache_enhanced.txt ({len(output)} lines)")
+
 def main():
     print("━" * 80)
     print("RSS Summary Analyzer - Enhanced Edition")
@@ -871,6 +1061,52 @@ def main():
     print("📱 Generating LinkedIn content chunks...")
     generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, google_trends)
     print()
+
+    # Generate signal clusters (if available)
+    signals = []
+    if CLUSTERING_AVAILABLE:
+        print("🔍 Clustering stories into signals...")
+        try:
+            clusterer = SignalClusterer(min_cluster_size=3)
+            signals = clusterer.cluster_stories(stories, trend_data)
+            print(f"   Identified {len(signals)} signals")
+            print()
+        except Exception as e:
+            print(f"   ⚠️  Clustering failed: {e}")
+            print()
+
+    # Generate JSON scaffold (if available)
+    if SCAFFOLD_AVAILABLE and signals:
+        print("📊 Generating analysis scaffold JSON...")
+        try:
+            generator = ScaffoldGenerator()
+            scaffold = generator.generate_scaffold(signals, stories, trend_data)
+
+            # Write scaffold to JSON file
+            with open('analysis_scaffold.json', 'w', encoding='utf-8') as f:
+                json.dump(scaffold, f, indent=2, ensure_ascii=False)
+
+            print(f"   ✓ Generated analysis_scaffold.json")
+            print(f"   • {len(signals)} signals identified")
+            print(f"   • {scaffold['meta']['timeframe']['total_stories']} total stories")
+            print(f"   • {scaffold['meta']['timeframe']['unique_outlets']} unique outlets")
+            print(f"   • {len(scaffold['trends']['emerging'])} emerging trends")
+            print(f"   • {len(scaffold['trends']['building'])} building trends")
+            print(f"   • {len(scaffold['trends']['lasting'])} lasting trends")
+            print(f"   • {len(scaffold['north_star_questions'])} strategic questions")
+            print()
+        except Exception as e:
+            print(f"   ⚠️  Scaffold generation failed: {e}")
+            print()
+
+    # Generate enhanced ongoing cache (if we have signals)
+    if signals:
+        print("📝 Generating enhanced ongoing cache with signals...")
+        try:
+            generate_enhanced_ongoing_cache(signals, stories, date_str)
+        except Exception as e:
+            print(f"   ⚠️  Enhanced cache generation failed: {e}")
+            print()
 
     print("━" * 80)
     print("✓ Analysis Complete!")
