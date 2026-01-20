@@ -24,66 +24,66 @@ except ImportError:
     nlp = None
 
 
-# Industry-specific entity patterns
+# Industry-specific entity patterns (using non-capturing groups to avoid tuple returns)
 BRAND_PATTERNS = [
     # Major tech platforms
-    r'\b(Google|Meta|Facebook|Instagram|WhatsApp|Microsoft|Apple|Amazon|Netflix|Disney|TikTok|YouTube|LinkedIn)\b',
+    r'\b(?:Google|Meta|Facebook|Instagram|WhatsApp|Microsoft|Apple|Amazon|Netflix|Disney|TikTok|YouTube|LinkedIn)\b',
     # Ad tech & martech
-    r'\b(The Trade Desk|Roku|Nielsen|Comscore|Oracle|Salesforce|Adobe|HubSpot|Mailchimp)\b',
+    r'\b(?:The Trade Desk|Roku|Nielsen|Comscore|Oracle|Salesforce|Adobe|HubSpot|Mailchimp)\b',
     # Brands & retailers
-    r'\b(Nike|Adidas|Coca-Cola|Pepsi|McDonald\'s|Starbucks|Walmart|Target|Amazon)\b',
+    r'\b(?:Nike|Adidas|Coca-Cola|Pepsi|McDonald\'s|Starbucks|Walmart|Target)\b',
     # Automotive
-    r'\b(Tesla|Ford|GM|Toyota|Honda|BMW|Mercedes|Audi|Lexus|Porsche)\b',
+    r'\b(?:Tesla|Ford|GM|Toyota|Honda|BMW|Mercedes|Audi|Lexus|Porsche)\b',
     # Fast food & CPG
-    r'\b(Mondelēz|Oreo|Chips Ahoy|Campbell\'s|Heineken|Tiffany|Listerine|Cava|Heinz)\b',
+    r'\b(?:Mondelēz|Oreo|Chips Ahoy|Campbell\'s|Heineken|Tiffany|Listerine|Cava|Heinz)\b',
     # Financial services
-    r'\b(Rocket|Rocket Mortgage|Zillow|Redfin|Realtor\.com|Quicken Loans|Chase|Wells Fargo|Bank of America)\b',
+    r'\b(?:Rocket|Rocket Mortgage|Zillow|Redfin|Realtor\.com|Quicken Loans|Chase|Wells Fargo|Bank of America)\b',
     # Media & entertainment
-    r'\b(Warner Bros|Universal|Paramount|HBO|Hulu|Peacock|ESPN|CNN|CNBC|NBC|ABC|CBS|Fox)\b',
+    r'\b(?:Warner Bros|Universal|Paramount|HBO|Hulu|Peacock|ESPN|CNN|CNBC|NBC|ABC|CBS|Fox)\b',
     # Airlines & travel
-    r'\b(United|Delta|American Airlines|Southwest|Jet2|Airbnb|Booking\.com|Expedia)\b',
+    r'\b(?:United|Delta|American Airlines|Southwest|Jet2|Airbnb|Booking\.com|Expedia)\b',
     # Telecom
-    r'\b(T-Mobile|Verizon|AT&T|Sprint|Comcast|Spectrum)\b',
+    r'\b(?:T-Mobile|Verizon|AT&T|Sprint|Comcast|Spectrum)\b',
     # Retail & ecommerce
-    r'\b(eBay|Etsy|Shopify|Wayfair|Chewy|Instacart|DoorDash|Uber Eats)\b',
+    r'\b(?:eBay|Etsy|Shopify|Wayfair|Chewy|Instacart|DoorDash|Uber Eats)\b',
     # Insurance
-    r'\b(Allstate|State Farm|Geico|Progressive|Aviva)\b',
+    r'\b(?:Allstate|State Farm|Geico|Progressive|Aviva)\b',
 ]
 
 AGENCY_PATTERNS = [
-    r'\b(Ogilvy|BBDO|DDB|Publicis|WPP|Omnicom|IPG|Dentsu|Havas|Saatchi & Saatchi|Wieden\+Kennedy|AKQA|R/GA|Droga5|72andSunny|Mother|VCCP|Adam & Eve/DDB|Anomaly|Rapp|Who Wot Why)\b',
+    r'\b(?:Ogilvy|BBDO|DDB|Publicis|WPP|Omnicom|IPG|Dentsu|Havas|Saatchi & Saatchi|Wieden\+Kennedy|AKQA|R/GA|Droga5|72andSunny|Mother|VCCP|Adam & Eve/DDB|Anomaly|Rapp|Who Wot Why)\b',
 ]
 
 TECHNOLOGY_PATTERNS = [
     # AI & ML
-    r'\b(ChatGPT|GPT-4|GPT-3|Claude|Gemini|DALL-E|Midjourney|Stable Diffusion|LLM|GenAI|Generative AI|Machine Learning|Deep Learning|Neural Network)\b',
+    r'\b(?:ChatGPT|GPT-4|GPT-3|Claude|Gemini|DALL-E|Midjourney|Stable Diffusion|LLM|GenAI|Generative AI|Machine Learning|Deep Learning|Neural Network)\b',
     # Ad tech
-    r'\b(CTV|OTT|AVOD|SVOD|FAST|programmatic|DSP|SSP|DMP|CDP|header bidding|prebid)\b',
+    r'\b(?:CTV|OTT|AVOD|SVOD|FAST|programmatic|DSP|SSP|DMP|CDP|header bidding|prebid)\b',
     # Marketing tech
-    r'\b(attribution|measurement|personalization|optimization|A/B testing|multivariate testing|journey orchestration)\b',
+    r'\b(?:attribution|measurement|personalization|optimization|A/B testing|multivariate testing|journey orchestration)\b',
     # Emerging tech
-    r'\b(blockchain|Web3|metaverse|VR|AR|XR|NFT|cryptocurrency|Bitcoin|Ethereum)\b',
+    r'\b(?:blockchain|Web3|metaverse|VR|AR|XR|NFT|cryptocurrency|Bitcoin|Ethereum)\b',
     # Platforms & tools
-    r'\b(Google Analytics|Google Ads|Facebook Ads|Instagram Ads|TikTok Ads|Snapchat Ads|Pinterest Ads)\b',
+    r'\b(?:Google Analytics|Google Ads|Facebook Ads|Instagram Ads|TikTok Ads|Snapchat Ads|Pinterest Ads)\b',
 ]
 
 PEOPLE_PATTERNS = [
-    # Common exec titles that might be missed
+    # Common exec titles that might be missed (capturing group for the name)
     r'\b([A-Z][a-z]+ [A-Z][a-z]+)(?:\s+(?:CEO|CMO|CTO|CFO|COO|VP|SVP|EVP|President|Director|Manager))\b',
 ]
 
 PRODUCT_PATTERNS = [
     # Tech products
-    r'\b(iPhone|iPad|Mac|MacBook|AirPods|Apple Watch|Vision Pro|Surface|Xbox|PlayStation|Quest|Oculus)\b',
+    r'\b(?:iPhone|iPad|Mac|MacBook|AirPods|Apple Watch|Vision Pro|Surface|Xbox|PlayStation|Quest|Oculus)\b',
     # Platforms
-    r'\b(AWS|Azure|Google Cloud|GCP|Salesforce Platform|Adobe Experience Cloud)\b',
+    r'\b(?:AWS|Azure|Google Cloud|GCP|Salesforce Platform|Adobe Experience Cloud)\b',
     # Software
-    r'\b(Photoshop|Illustrator|Premiere|After Effects|Figma|Canva|Slack|Teams|Zoom)\b',
+    r'\b(?:Photoshop|Illustrator|Premiere|After Effects|Figma|Canva|Slack|Teams|Zoom)\b',
 ]
 
 # Metrics & KPIs
 METRICS_PATTERNS = [
-    r'\b(ROI|ROAS|CTR|CPC|CPM|CPA|CPI|CPL|LTV|CAC|conversion rate|engagement rate|bounce rate|impressions|reach|frequency)\b',
+    r'\b(?:ROI|ROAS|CTR|CPC|CPM|CPA|CPI|CPL|LTV|CAC|conversion rate|engagement rate|bounce rate|impressions|reach|frequency)\b',
 ]
 
 
@@ -170,10 +170,19 @@ class EntityExtractor:
         cleaned_entities = {}
         for category, entity_set in entities.items():
             # Remove empty strings, single characters, and common false positives
-            cleaned = {
-                e.strip() for e in entity_set
-                if len(e.strip()) > 1 and not e.lower() in ['new', 'more', 'get', 'see', 'the', 'and']
-            }
+            cleaned = set()
+            for e in entity_set:
+                # Handle both strings and potential tuples/lists
+                if isinstance(e, (tuple, list)):
+                    # If it's a tuple/list, join non-empty elements
+                    e = ' '.join(str(x) for x in e if x)
+                elif not isinstance(e, str):
+                    e = str(e)
+
+                e = e.strip()
+                if len(e) > 1 and e.lower() not in ['new', 'more', 'get', 'see', 'the', 'and']:
+                    cleaned.add(e)
+
             # Convert to sorted list
             cleaned_entities[category] = sorted(list(cleaned))
 
