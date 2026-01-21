@@ -1,26 +1,31 @@
 {
   "meta": {
-    "generated_at": "2026-01-21T15:07:21.451978",
+    "generated_at": "2026-01-21T19:56:44.672769",
     "timeframe": {
-      "period": "June 13 - January 21, 2026",
-      "coverage_days": 3144,
+      "period": "March 08 - January 21, 2026",
+      "coverage_days": 685,
       "date_range": [
-        "2017-06-13",
+        "2024-03-08",
         "2026-01-21"
       ],
-      "total_stories": 119,
-      "unique_outlets": 12,
+      "total_stories": 110,
+      "unique_outlets": 11,
       "outlets_breakdown": {
-        "Uncategorized": 119
+        "Mortgage Industry": 20,
+        "Consumer Housing": 10,
+        "Consumer Lifestyle": 10,
+        "Enterprise Culture": 10,
+        "Financial Services": 10,
+        "Community": 50
       }
     }
   },
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "Netflix & measurement - Ai (↑28 mentions)",
-        "TikTok & Programmatic - Programmatic (↑21 mentions)",
-        "YouTube & CTV - Uk (↑17 mentions)"
+        "Bank of America & AI - Submitted (↑46 mentions)",
+        "FHA & reporting - Mortgage (↑27 mentions)",
+        "AI & artificial intelligence - New (↑16 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -28,767 +33,48 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "22 M&A/partnership announcements detected"
+        "4 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
       "cluster_id": "signal_003",
-      "cluster_name": "Netflix & measurement - Ai",
-      "description": "Stories featuring Netflix, Heineken, Warner Bros focusing on measurement, ChatGPT, Claude.",
-      "frequency": 28,
+      "cluster_name": "Bank of America & AI - Submitted",
+      "description": "Stories featuring Bank of America, Pennymac focusing on AI.",
+      "frequency": 46,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 28,
-      "first_seen": "2017-06-13T23:11:15+00:00",
-      "peak_date": "2026-01-21T14:00:00+00:00",
+      "story_count": 46,
+      "first_seen": "2024-03-08T00:39:36+00:00",
+      "peak_date": "2026-01-21T19:32:53+00:00",
       "outlets": [
-        "IPG Media Lab",
-        "CIO Dive - Latest News",
-        "Ad Tech Daily",
+        "HomeOwners & Investors",
+        "Mortgage Professional",
+        "Fintech: financial technology",
+        "Latest Content - Good Housekeeping",
         "Banking Dive - Latest News",
-        "AdExchanger",
-        "Marketing Dive - Latest News",
-        "Fast Company",
-        "More About Advertising",
-        "Adweek Feed",
-        "Campaign UK More Latest RSS Feed",
-        "Adpulp"
+        "HousingWire",
+        "Mortgages",
+        "First Time Home Buyer",
+        "Work",
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "Niantic Marks Pokémon Go’s One-Year Anniversary With DOOH Campaign",
-          "outlet": "IPG Media Lab",
-          "date": "2017-06-13T23:11:15.000Z",
-          "url": "https://ipglab.com/2017/06/13/niantic-marks-pokemon-gos-one-year-anniversary-with-dooh-campaign/",
-          "summary": "What Happened Niantic, the company behind Pokémon Go, is celebrating the one-year anniversary of its smash hit game with a digital out-of-home campaign that utilizes real-time data to highlight its gl",
+          "title": "Revolut lost 10,000 CHF for 3 months after a rejected transfer – even regulator involvement hasn’t fixed it",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-21T00:38:41.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qiizn9/revolut_lost_10000_chf_for_3_months_after_a/",
+          "summary": "submitted by    /u/bankster_vaduz",
           "relevance_score": 0.85
         },
         {
-          "title": "In Chile, Corona Takes People On A Photographic Journey",
-          "outlet": "Adpulp",
-          "date": "2025-11-12T17:02:48.000Z",
-          "url": "https://www.adpulp.com/in-chile-corona-takes-people-on-a-photographic-journey/",
-          "summary": "To celebrate 100 years of Corona in Chile, DAVID Buenos Aires used pinhole photography—a lensless technique developed in the 19th century that relies solely on a box, a small aperture, and natural lig",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "UMG taps NYT’s Hannah Poferl to lead its data strategy",
-          "outlet": "CIO Dive - Latest News",
-          "date": "2026-01-15T18:50:20.000Z",
-          "url": "https://www.ciodive.com/news/universal-music-group-hannah-poferl-chief-data-officer/809776/",
-          "summary": "The New York Times’ first chief data officer has joined the music company to lead data efforts, a growing priority in today’s AI-focused enterprise.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Why Hershey’s first campaign in 8 years kicks off with an Olympics tie-in",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-21T14:00:00.000Z",
-          "url": "https://www.marketingdive.com/news/why-hersheys-first-campaign-in-8-years-kicks-off-with-an-olympics-tie-in/809645/",
-          "summary": "The effort seeks to reinvigorate the company’s flagship brand, explains Hershey Company executive Vinny Rinaldi.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Why Dos Equis revived the Most Interesting Man amid category headwinds",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-16T13:30:00.000Z",
-          "url": "https://www.marketingdive.com/news/why-dos-equis-revived-the-most-interesting-man-amid-category-headwinds/809453/",
-          "summary": "Alison Payne, CMO for parent company Heineken USA, explains how the iconic character is being reimagined for the social-digital world.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Campaign Trail: Equinox uses AI to contrast fitness with digital fakery",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-16T13:00:00.000Z",
-          "url": "https://www.marketingdive.com/news/campaign-trail-equinox-uses-ai-to-contrast-fitness-with-digital-fakery/809381/",
-          "summary": "Created with agency Angry Gods, “Question Everything But Yourself” tackles an age of unreality that is being exacerbated by the meteoric rise of AI.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "When Prompted, ChatGPT Offers Helpful Down-to-Earth Advice",
-          "outlet": "Adpulp",
-          "date": "2025-10-29T19:46:07.000Z",
-          "url": "https://www.adpulp.com/when-prompted-chatgpt-offers-helpful-down-to-earth-advice/",
-          "summary": "How do you use ChatGPT? Is the AI assistant currently reducing your workload and making you more productive? In this new ad campaign, the use cases for the technology are simpler than that. “The goal ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "In New Spot from Mother, Claude.AI Is the AI for Problem Solvers",
-          "outlet": "Adpulp",
-          "date": "2025-10-01T17:40:51.000Z",
-          "url": "https://www.adpulp.com/in-new-spot-from-mother-claude-ai-is-the-ai-for-problem-solvers/",
-          "summary": "Claude.AI is the AI for problem solvers. In this new anthem spot from Mother, the narrator says, “There’s never been a better time to have a problem. To be stuck, to be overwhelmed, to be impatient, t",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A Jury Orders EDO To Pay $18.3 Million To iSpot Over Data Misuse",
-          "outlet": "AdExchanger",
-          "date": "2026-01-20T15:00:24.000Z",
-          "url": "https://www.adexchanger.com/measurement/a-jury-orders-edo-to-pay-18-3-million-to-ispot-over-data-misuse/",
-          "summary": "A jury in California awarded $18.3 million to video measurement firm iSpot to resolve its lawsuit against EDO, a measurement company co-founded by actor Ed Norton.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Inside The Mind Of A Former Privacy Regulator",
-          "outlet": "AdExchanger",
-          "date": "2026-01-20T06:00:58.000Z",
-          "url": "https://www.adexchanger.com/data-privacy-roundup/inside-the-mind-of-a-former-privacy-regulator/",
-          "summary": "How do privacy regulators decide which companies to poke? Often, it’s a consumer complaint. Other times, it’s a headline. And, sometimes, it’s just personal. Regulators are consumers, too, after all. ",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "Netflix",
-          "Heineken",
-          "Warner Bros",
-          "YouTube",
-          "Comscore",
-          "Walmart"
-        ],
-        "agencies": [
-          "Adam & Eve/DDB",
-          "Mother"
-        ],
-        "technologies": [
-          "measurement",
-          "ChatGPT",
-          "Claude",
-          "Optimization",
-          "generative AI"
-        ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": []
-      },
-      "related_buzzwords": [
-        "ai",
-        "time",
-        "company",
-        "year",
-        "digital"
-      ]
-    },
-    {
-      "cluster_id": "signal_001",
-      "cluster_name": "TikTok & Programmatic - Programmatic",
-      "description": "Stories featuring TikTok, Paramount, LinkedIn focusing on Programmatic, programmatic, TikTok ads.",
-      "frequency": 21,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 21,
-      "first_seen": "2017-06-13T23:17:00+00:00",
-      "peak_date": "2026-01-21T14:43:03+00:00",
-      "outlets": [
-        "IPG Media Lab",
-        "CIO Dive - Latest News",
-        "Ad Tech Daily",
-        "AdExchanger",
-        "Marketing Dive - Latest News",
-        "Fast Company",
-        "VideoWeek",
-        "Adweek Feed",
-        "Adpulp"
-      ],
-      "stories": [
-        {
-          "title": "Readpeak Turbo Charges Leadership Team with Top Talent from Pinterest, Hearst, and The Trade Desk as It Accelerates European Expansion",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-10-17T13:24:41.000Z",
-          "url": "https://adtechdaily.com/2025/10/17/readpeak-turbo-charges-leadership-team-with-top-talent-from-pinterest-hearst-and-the-trade-desk-as-it-accelerates-european-expansion/",
-          "summary": "Native adtech scale-up makes a trio of senior appointments across the UK and France Readpeak, the leading programmatic native advertising platform, trusted by brands including IKEA, BMW, and Bosch, ha",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Ex-Pinterest Marketer Andréa Mallard Named Microsoft AI CMO",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T11:36:13.000Z",
-          "url": "https://www.adweek.com/brand-marketing/ex-pinterest-marketer-andrea-mallard-named-microsoft-ai-cmo/",
-          "summary": "Microsoft AI (MAI) has named Andréa Mallard as chief marketing officer (CMO). The exec, who left Pinterest in January after seven years, confirmed her new role in a LinkedIn post. […]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-08-28T12:12:00.000Z",
-          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
-          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Perion Partners with KT Corporation and NHN AD to Drive New Advertising Revenue in Korea’s High-Growth Programmatic Market",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-08-26T15:17:15.000Z",
-          "url": "https://adtechdaily.com/2025/08/26/perion-partners-with-kt-corporation-and-nhn-ad-to-drive-new-advertising-revenue-in-koreas-high-growth-programmatic-market/",
-          "summary": "KT Taps Perion to Attract Global Advertisers; NHN AD Expands Access to Korean Premium Media NEW YORK & TEL AVIV, Israel — Perion Network Ltd. (NASDAQ & TASE: PERI), a leader in advanced technology sol",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "DoubleVerify’s 2025 Global Insights Report Uncovers North America’s Shifting Digital Ad Landscape",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-08-25T20:54:07.000Z",
-          "url": "https://adtechdaily.com/2025/08/25/doubleverifys-2025-global-insights-report-uncovers-north-americas-shifting-digital-ad-landscape/",
-          "summary": "From rising bot fraud to the growing impact of attention metrics, DV’s latest report reveals key trends shaping media quality and performance NEW YORK — DoubleVerify (“DV”) (NYSE: DV), the leading sof",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Europe’s BVOD/SVOD Matchmaking Continues, as M6 Agrees Distribution Partnership with Prime Video",
-          "outlet": "VideoWeek",
-          "date": "2026-01-20T14:15:42.000Z",
-          "url": "https://videoweek.com/2026/01/20/europes-bvod-svod-matchmaking-continues-as-m6-agrees-distribution-partnership-with-prime-video/",
-          "summary": "It’s just seven months since Netflix co-CEO Greg Peters and TF1 chairman and CEO Rodolphe Belmer posed for photos on a balcony in Cannes as the two announced a new partnership to host TF1’s content an",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Snapchat Goes All In On Self-Serve Ad Platform And Tools",
-          "outlet": "IPG Media Lab",
-          "date": "2017-06-13T23:17:00.000Z",
-          "url": "https://ipglab.com/2017/06/13/snapchat-goes-all-in-on-self-serve-ad-platform-and-tools-to-lure-brands/",
-          "summary": "What Happened Snapchat is going all in on self-serve ad platform and tools to make it easier for brands advertisers to create video ads and launch their campaigns with three new initiatives. To start ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Paramount Steps Up Its Game With Programmatic Ads in Premium Live Sports",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-21T09:00:00.000Z",
-          "url": "https://www.adweek.com/convergent-tv/paramount-steps-up-its-game-with-programmatic-ads-in-premium-live-sports/",
-          "summary": "Paramount takes a big swing with guaranteed placements in live moments.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "TikTok Turns to Pixels to Show Advertisers What Happens Beyond Its Walled Garden",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T11:30:55.000Z",
-          "url": "https://www.adweek.com/media/tiktok-shop-off-site-performance-pixel-tracking/",
-          "summary": "The app’s new Off-site Performance Analysis tool aims to quantify sales that occur far from TikTok Shop and TikTok ads.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Hailey Whitters Makes Music & Sweet Butter for Land O’ Lakes",
-          "outlet": "Adpulp",
-          "date": "2025-10-17T01:24:28.000Z",
-          "url": "https://www.adpulp.com/hailey-whitters-makes-music-sweet-butter-for-land-o-lakes/",
-          "summary": "Note: On this day 21 years ago, I made my first six posts to this website. This was before the dawn of social media, and my posts back then were mostly short bursts of information, much like what came",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "TikTok",
-          "Paramount",
-          "LinkedIn",
-          "Microsoft",
-          "BMW",
-          "The Trade Desk",
-          "Netflix"
-        ],
-        "agencies": [],
-        "technologies": [
-          "Programmatic",
-          "programmatic",
-          "TikTok ads",
-          "Measurement",
-          "attribution",
-          "measurement",
-          "SVOD"
-        ],
-        "companies": [],
-        "people": [
-          "With The"
-        ],
-        "locations": [],
-        "products": [
-          "AWS",
-          "quest"
-        ],
-        "metrics": [
-          "reach"
-        ]
-      },
-      "related_buzzwords": [
-        "programmatic",
-        "tiktok",
-        "platform",
-        "media",
-        "brands"
-      ]
-    },
-    {
-      "cluster_id": "signal_004",
-      "cluster_name": "YouTube & CTV - Uk",
-      "description": "Stories featuring YouTube, Google focusing on CTV, ChatGPT, generative AI.",
-      "frequency": 17,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 17,
-      "first_seen": "2025-08-29T15:28:50+00:00",
-      "peak_date": "2026-01-21T13:00:00+00:00",
-      "outlets": [
-        "VideoWeek",
-        "CIO Dive - Latest News",
-        "Ad Tech Daily",
-        "Marketing Dive - Latest News",
-        "Fast Company",
-        "More About Advertising",
-        "Campaign UK More Latest RSS Feed",
-        "Adpulp"
-      ],
-      "stories": [
-        {
-          "title": "Ofcom Lays Out New PSB Prominence Code for CTV Platforms",
-          "outlet": "VideoWeek",
-          "date": "2026-01-15T12:59:28.000Z",
-          "url": "https://videoweek.com/2026/01/15/ofcom-lays-out-new-psb-prominence-code-for-ctv-platforms/",
-          "summary": "As part of the UK’s Media Act which passed in 2024, connected TV platforms operating in the UK are obligated to make sure services, channels, and content from the UK’s public service broadcasters (PSB",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A Deeper Look at Barb’s Data as YouTube’s UK Reach Surpasses the BBC’s",
-          "outlet": "VideoWeek",
-          "date": "2026-01-14T13:13:29.000Z",
-          "url": "https://videoweek.com/2026/01/14/a-deeper-look-at-barbs-data-as-youtubes-reach-surpasses-the-bbcs/",
-          "summary": "It seems at the moment that every few months, the ‘YouTube vs TV’ debate will flare up afresh as a new dataset on the UK’s media habits is released, prompting strong headlines proclaiming either the d",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Week in Charts: CTV and AI Flagged as Key Growth Areas, Publishers Look to Video to Fend Off AI Threat, and Global Content Spend on the Rise",
-          "outlet": "VideoWeek",
-          "date": "2026-01-20T14:00:07.000Z",
-          "url": "https://videoweek.com/2026/01/20/week-in-charts-ctv-and-ai-flagged-as-key-growth-areas-publishers-look-to-video-to-fend-off-ai-threat-and-global-content-spend-on-the-rise/",
-          "summary": "In this week's Week in Charts, CTV and AI flagged as key growth areas, publishers look to video to fend off AI threat, and global content spend on the rise. To have Week in Charts delivered to your in",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "YouTube revamps visual identity amid shifting entertainment landscape",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-20T15:58:00.000Z",
-          "url": "https://www.marketingdive.com/news/youtube-revamps-visual-identity-as-entertainment-landscape-shifts/809983/",
-          "summary": "A new typeface and illustration style are complemented by the Google-owned platform’s first motion identity, which mimics the feel of creator content.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Wurl and TVision Unveil New Report Linking Emotion Alignment to Higher Ad Attention on Streaming TV",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-08-29T15:28:50.000Z",
-          "url": "https://adtechdaily.com/2025/08/29/wurl-and-tvision-unveil-new-report-linking-emotion-alignment-to-higher-ad-attention-on-streaming-tv/",
-          "summary": "First-of-its-kind analysis shows ads that are emotionally aligned with surrounding content consistently capture greater attention and drive performance PALO ALTO, Calif. — Wurl, a leader in the stream",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "“We View YouTube as the ‘Fourth Broadcaster'” – Buy-Side View with the7stars’ James Wheatley",
-          "outlet": "VideoWeek",
-          "date": "2026-01-21T09:07:24.000Z",
-          "url": "https://videoweek.com/2026/01/21/we-view-youtube-as-the-fourth-broadcaster-buy-side-view-with-the7stars-james-wheatley/",
-          "summary": "As YouTube’s reach surpasses that of any other individual channel or service in the UK, the role of YouTube on media plans continues to fuel debate across the industry. In this edition of the Buy-Side",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Clarins switches UK media account",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T10:00:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/clarins-switches-uk-media-account/1945750",
-          "summary": "Move follows competitive pitch.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Golden Quarter Marked by “Budgetary Stasis” as UK Marketers Prioritise Performance Channels",
-          "outlet": "VideoWeek",
-          "date": "2026-01-15T06:00:32.000Z",
-          "url": "https://videoweek.com/2026/01/15/golden-quarter-marked-by-budgetary-stasis-as-uk-marketers-prioritise-performance-channels/",
-          "summary": "As data from UK retailers emerges to indicate disappointing Christmas sales, reports on the advertising front suggests the final quarter of 2025 delivered a mixed bag for marketing spend While forecas",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "ChatGPT to begin testing ads as generative AI competition heats up",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-20T14:30:43.000Z",
-          "url": "https://www.marketingdive.com/news/chatgpt-to-begin-testing-ads-as-generative-ai-competition-heats-up/809964/",
-          "summary": "OpenAI said that advertising will not influence the answers ChatGPT provides and that ads and sponsored content would be clearly labeled.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "C2c Railway appoints media agency",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T11:00:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/c2c-railway-appoints-media-agency/1945752",
-          "summary": "The railway network serves 26 stations across East London and South Essex.",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "YouTube",
-          "Google"
-        ],
-        "agencies": [],
-        "technologies": [
-          "CTV",
-          "ChatGPT",
-          "generative AI",
-          "GenAI",
-          "Generative AI"
-        ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [
-          "reach",
-          "Reach"
-        ]
-      },
-      "related_buzzwords": [
-        "uk",
-        "youtube",
-        "content",
-        "media",
-        "ctv"
-      ]
-    },
-    {
-      "cluster_id": "signal_006",
-      "cluster_name": "Apple & Saatchi & Saatchi - Saatchi",
-      "description": "Stories featuring Apple, Google, YouTube focusing on VR, Gemini, GenAI.",
-      "frequency": 16,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 16,
-      "first_seen": "2017-06-30T20:41:02+00:00",
-      "peak_date": "2026-01-21T11:30:00+00:00",
-      "outlets": [
-        "IPG Media Lab",
-        "VideoWeek",
-        "Ad Tech Daily",
-        "AdExchanger",
-        "Marketing Dive - Latest News",
-        "Fast Company",
-        "More About Advertising",
-        "Adweek Feed",
-        "Campaign UK More Latest RSS Feed",
-        "Adpulp"
-      ],
-      "stories": [
-        {
-          "title": "Oikos Goes All-In on Streaming for Its Seventh Super Bowl Ad",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T20:00:00.000Z",
-          "url": "https://www.adweek.com/brand-marketing/oikos-super-bowl-60-ad/",
-          "summary": "The yogurt brand shared an exclusive teaser of its upcoming spot, which features Derrick Henry and Kathryn Hahn.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Skittles goes solo for Super Bowl",
-          "outlet": "More About Advertising",
-          "date": "2026-01-20T09:10:02.000Z",
-          "url": "https://www.moreaboutadvertising.com/2026/01/skittles-goes-solo-for-super-bowl/?utm_source=rss&utm_medium=rss&utm_campaign=skittles-goes-solo-for-super-bowl",
-          "summary": "Not long to the Super Bowl and the ads have started to appear, not least this extended teaser for Skittles featuring Elijah Wood in Tolkien mode. He (or someone pretending to be him) will appear on yo",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Apple taps Google Gemini to power AI features in multiyear deal",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-15T16:30:35.000Z",
-          "url": "https://www.marketingdive.com/news/apple-taps-google-gemini-to-power-ai-features-in-multiyear-deal/809697/",
-          "summary": "The pact around Gemini technology provides a potential advantage for Google in its race against OpenAI, which also works with Apple.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "MAA Ad of the Week: British Heart Foundation from Saatchi & Saatchi",
-          "outlet": "More About Advertising",
-          "date": "2026-01-19T02:11:47.000Z",
-          "url": "https://www.moreaboutadvertising.com/2026/01/maa-ad-of-the-week-british-heart-foundation-from-saatchi-saatchi/?utm_source=rss&utm_medium=rss&utm_campaign=maa-ad-of-the-week-british-heart-foundation-from-saatchi-saatchi",
-          "summary": "We’re used to seeing memorials to dead people, Saatchi & Saatchi is marking the 65th anniversary of the British Heart Foundation with 65 striking red benches across the UK commemorating people who’ve ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Sir John Believes In the Value of “Original, Unaided Thought”",
-          "outlet": "Adpulp",
-          "date": "2025-10-20T17:11:50.000Z",
-          "url": "https://www.adpulp.com/sir-john-believes-in-the-value-of-original-unaided-thought/",
-          "summary": "In July, Sir John Hegarty offered a challenge to the ageism problem that continues to plague the ad agency business. The founding partner of Saatchi & Saatchi, co-founder of Bartle Bogle Hegarty, and ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Evaluation of Unity’s VR Room Ad Standard",
-          "outlet": "IPG Media Lab",
-          "date": "2017-07-20T21:34:34.000Z",
-          "url": "https://ipglab.com/2017/07/20/evaluation-of-unitys-vr-room-ad-standard/",
-          "summary": "How It Works Last week, Unity in partnership with the Interactive Advertising Bureau (IAB) and Lionsgate announced they are developing the first ever virtual reality ad format called a Virtual Room. T",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How brands can assert control as AI rewrites advertising’s playbook",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-20T13:00:00.000Z",
-          "url": "https://www.marketingdive.com/news/how-brands-can-assert-control-ai-rewrites-advertising-playbook/809611/",
-          "summary": "As promises of one-stop, AI-powered solutions proliferate, marketers will need to navigate the changed ecosystem and separate reality from hype.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Indeed’s New AI Search Agent Helps Job Seekers Hit the Curveball",
-          "outlet": "Adpulp",
-          "date": "2025-11-08T17:14:19.000Z",
-          "url": "https://www.adpulp.com/indeeds-new-ai-search-agent-helps-job-seekers-hit-the-curveball/",
-          "summary": "Finding a new job can be a brutal, lonely, and defeating process. It can also help the job seeker focus on what matters most. For instance, do you want to work 60 hours per week with ultra-competitive",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "AdGreetz and DAIVID Partnership Brings AI-Generated, AI-Optimized Ad Campaigns to SMBs Worldwide",
-          "outlet": "Ad Tech Daily",
-          "date": "2025-09-29T15:36:50.000Z",
-          "url": "https://adtechdaily.com/2025/09/29/adgreetz-and-daivid-partnership-brings-ai-generated-ai-optimized-ad-campaigns-to-smbs-worldwide/",
-          "summary": "Global deal sees small and medium-sized businesses gain access to personalized GenAI ads and tools to test their effectiveness before launch LONDON, UK; LOS ANGELES, CALIFORNIA – Small and medium-size",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Week in Review: BBC to Make Content for YouTube, AI Video Startup Higgsfield Raises $80 Million, and Channel 4 Reaches Streaming Tipping Point",
-          "outlet": "VideoWeek",
-          "date": "2026-01-16T13:58:16.000Z",
-          "url": "https://videoweek.com/2026/01/16/week-in-review-bbc-to-make-content-for-youtube-ai-video-startup-higgsfield-raises-80-million-and-channel-4-reaches-streaming-tipping-point/",
-          "summary": "In this week's Week in Review: the BBC is reportedly set to announced a deal with YouTube, Channel 4 reaches a streaming tipping point, and AI video startup Higgsfield reaches a $1.4 billion valuation",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "Apple",
-          "Google",
-          "YouTube"
-        ],
-        "agencies": [
-          "Saatchi & Saatchi"
-        ],
-        "technologies": [
-          "VR",
-          "Gemini",
-          "GenAI"
-        ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [
-          "Mac"
-        ],
-        "metrics": []
-      },
-      "related_buzzwords": [
-        "saatchi",
-        "ad",
-        "vr",
-        "apple",
-        "ai"
-      ]
-    },
-    {
-      "cluster_id": "signal_000",
-      "cluster_name": "Omnicom & Zillow - Creative",
-      "description": "Stories featuring Zillow.",
-      "frequency": 16,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 16,
-      "first_seen": "2025-12-19T19:25:29+00:00",
-      "peak_date": "2026-01-21T12:00:00+00:00",
-      "outlets": [
-        "VideoWeek",
-        "CIO Dive - Latest News",
-        "Banking Dive - Latest News",
-        "AdExchanger",
-        "Marketing Dive - Latest News",
-        "Fast Company",
-        "More About Advertising",
-        "Adweek Feed",
-        "Campaign UK More Latest RSS Feed",
-        "Adpulp"
-      ],
-      "stories": [
-        {
-          "title": "Zamora picks creative agency to develop global campaign for limoncello brand",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T11:00:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/zamora-picks-creative-agency-develop-global-campaign-limoncello-brand/1945709",
-          "summary": "The review was handled directly by the wines and spirits company.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "M&M’s spokescandies suit up as Marvel superheroes for global campaign",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "2026-01-15T15:53:00.000Z",
-          "url": "https://www.marketingdive.com/news/mms-spokescandies-suit-up-as-marvel-superheroes-for-global-campaign/809609/",
-          "summary": "The Mars candy brand is aligning the blockbuster-inspired collaboration with “It’s More Fun Together,” a creative platform it debuted last year.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Seven creative agencies to watch in 2026",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T09:30:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/seven-creative-agencies-watch-2026/1945593",
-          "summary": "Campaign's selection of the creative agencies to keep an eye on in 2026.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "What to expect from the AI boom this year",
-          "outlet": "CIO Dive - Latest News",
-          "date": "2026-01-16T12:00:00.000Z",
-          "url": "https://www.ciodive.com/news/generative-agentic-ai-global-spending-forecast-gartner/809783/",
-          "summary": "Global spending on AI will surpass $2.5 trillion as M&A activity gains steam and agentic tools spread across the software industry, according to Gartner’s 2026 forecast.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Are UK government campaigns making the most of our creative industries?",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T11:00:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/uk-government-campaigns-making-creative-industries/1945804",
-          "summary": "The government's mechanised and opaque process behind its agency roster failed the creative ecosystem.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Autotrader picks Fabric Social as agency of record",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T10:12:54.000Z",
-          "url": "https://www.campaignlive.co.uk/article/autotrader-picks-fabric-social-agency-record/1945796",
-          "summary": "Three agencies competed in the final round.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "VIA Taps Matt O’Rourke as CCO After Yearlong Search",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T09:00:00.000Z",
-          "url": "https://www.adweek.com/agencies/via-taps-matt-orourke-as-cco-after-yearlong-search/",
-          "summary": "The indie agency brings back the creative leadership role after experimenting with different models",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "What Macclesfield FC can teach independent agencies",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "2026-01-21T11:30:00.000Z",
-          "url": "https://www.campaignlive.co.uk/article/macclesfield-fc-teach-independent-agencies/1945787",
-          "summary": "Running an independent agency, it is always going to be much harder to get those wins. We have to put everything we have into it, every single day.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "George Parker: why agencies of the future don’t last",
-          "outlet": "More About Advertising",
-          "date": "2026-01-19T19:32:32.000Z",
-          "url": "https://www.moreaboutadvertising.com/2026/01/george-parker-why-agencies-of-the-future-dont-last/?utm_source=rss&utm_medium=rss&utm_campaign=george-parker-why-agencies-of-the-future-dont-last",
-          "summary": "Considering the current frenzied state of the agency and holding company business and the Omnicom/Interpublic merger that promises around 4,000 job cuts – and a focus on such esoteric bullshit as AI a",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "St Luke’s sells majority stake to BBD Perfect Storm",
-          "outlet": "More About Advertising",
-          "date": "2026-01-19T06:39:43.000Z",
-          "url": "https://www.moreaboutadvertising.com/2026/01/st-lukes-sells-majority-stake-to-bbd-perfect-storm/?utm_source=rss&utm_medium=rss&utm_campaign=st-lukes-sells-majority-stake-to-bbd-perfect-storm",
-          "summary": "BBD Perfect Storm has taken a majority stake in St Luke’s, bringing together two independent agencies. Both agency brands will continue to operate separately (for the time being at least) and BBD Perf",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "Zillow"
-        ],
-        "agencies": [
-          "Omnicom"
-        ],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": []
-      },
-      "related_buzzwords": [
-        "creative",
-        "agencies",
-        "agency",
-        "2026",
-        "forecast"
-      ]
-    },
-    {
-      "cluster_id": "signal_005",
-      "cluster_name": "Bank of America & WPP - Ceo",
-      "description": "Stories featuring Bank of America, YouTube, Heinz.",
-      "frequency": 13,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 13,
-      "first_seen": "2026-01-14T19:01:43+00:00",
-      "peak_date": "2026-01-21T14:33:43+00:00",
-      "outlets": [
-        "CIO Dive - Latest News",
-        "Banking Dive - Latest News",
-        "More About Advertising",
-        "Fast Company",
-        "VideoWeek",
-        "Adweek Feed"
-      ],
-      "stories": [
-        {
-          "title": "BofA joins Citi, Wells in projecting lower headcounts this year",
+          "title": "‘We’re coming’ to ‘fight you,’ PNC’s Demchak warns banks",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-15T17:01:52.000Z",
-          "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
-          "summary": "Bank of America CEO Brian Moynihan expects his bank’s workforce to shrink as the lender leans into AI. Citi CEO Jane Fraser, meanwhile, said the “bar is raised” for working at the bank.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Fifth Third CEO flags acquisition-related cuts",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-20T17:04:41.000Z",
-          "url": "https://www.bankingdive.com/news/fifth-third-comerica-layoffs-job-cuts-ceo-spence-earnings/810003/",
-          "summary": "A WARN notice Comerica filed this month indicates 184 jobs are being reduced at the Dallas-based bank’s Frisco, Texas, location.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Hornby’s T&P in a bind as CEO Appleby shuffles into WPP Media",
-          "outlet": "More About Advertising",
-          "date": "2026-01-20T14:36:29.000Z",
-          "url": "https://www.moreaboutadvertising.com/2026/01/hornbys-tp-in-a-bind-as-ceo-appleby-shuffles-into-wpp-media/?utm_source=rss&utm_medium=rss&utm_campaign=hornbys-tp-in-a-bind-as-ceo-appleby-shuffles-into-wpp-media",
-          "summary": "Well that didn’t work did it? Victoria Appleby, who took over as CEO of WPP’s T&P agency – formerly The&Partnership – a year ago is now off to be WPP Media’s newly-annointed president for growth. Appl",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Big banks continue the hunt for AI-driven efficiencies",
-          "outlet": "CIO Dive - Latest News",
-          "date": "2026-01-16T19:59:49.000Z",
-          "url": "https://www.ciodive.com/news/banks-pursue-ai-efficiency-gains/809898/",
-          "summary": "Executives at BNY, Bank of America and others who reported Q4 2025 earnings discussed AI investments — and when they’re hoping to see them pay off.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Big banks continue the hunt for AI-driven efficiencies",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-20T15:17:00.000Z",
-          "url": "https://www.bankingdive.com/news/banks-pursue-ai-efficiency-gains-bny-bofa-citi-morgan-stanley-goldman/809975/",
-          "summary": "Executives at BNY, Bank of America and others who reported Q4 2025 earnings discussed AI investments – and when they’re hoping to see them pay off.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "First Horizon calls out Raleigh as a market of interest",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-16T16:55:28.000Z",
-          "url": "https://www.bankingdive.com/news/first-horizon-cfo-dmuchowski-southeast-bank-mergers-acquisitions/809873/",
-          "summary": "The bank’s CFO said First Horizon isn’t interested in a large acquisition, but if a smaller bank with a handful of branches were to come for sale, “we’re going to run the math.”",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "PNC mandates 5-day RTO starting May 4",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-15T17:14:28.000Z",
-          "url": "https://www.bankingdive.com/news/pnc-mandates-5-day-rto-starting-may-4/809758/",
-          "summary": "Whispers about a return to full-time office work have been stirring at PNC since CEO Bill Demchak said in a December fireside chat that remote work “hurts” companies.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "From Hooters to Building a Health Empire at AG1 with Kat Cole",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T15:24:58.000Z",
-          "url": "https://www.adweek.com/brand-marketing/from-hooters-to-building-a-health-empire-at-ag1-with-kat-cole/",
-          "summary": "How the CEO took the wellness brand from DTC to global markets.",
+          "date": "2026-01-21T16:16:32.000Z",
+          "url": "https://www.bankingdive.com/news/pnc-bank-ceo-demchak-earnings-regional-scale-automation/810116/",
+          "summary": "“A regional bank that’s trying to protect its moat in a shrinking market, as the large banks and PNC come into their market, is a tough place to be,” CEO Bill Demchak said.",
           "relevance_score": 0.85
         },
         {
@@ -800,145 +86,662 @@
           "relevance_score": 0.85
         },
         {
+          "title": "Which parts of bank account opening cause the most customer drop-off?",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-21T16:39:34.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qj2usc/which_parts_of_bank_account_opening_cause_the/",
+          "summary": "At least in Canada and the US, account opening online is a pretty long painful process due to KYC/AML requirements. There are easily 10 screens for personal details, citizenship, employment info etc.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Survey shows distrust of real estate investors in housing market",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T16:52:35.000Z",
+          "url": "https://www.housingwire.com/articles/housing-investor-distrust-survey/",
+          "summary": "A Clever Offers survey finds 73% of Americans blame investors for the housing shortage, with 79% supporting regulation.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "2026 housing market sees more balance as inventory rises and price growth slows",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T16:14:29.000Z",
+          "url": "https://www.housingwire.com/articles/2026-housing-inventory-trends/",
+          "summary": "The national housing market posted a significant increase in new listing activity this week as seasonal momentum builds With mortgage rates steady near 6% and spreads closer to normal levels, early 20",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Treasury yields dip after Trump rules out military invasion of Greenland",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-21T15:03:41.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/treasury-yields-dip-after-trump-rules-out-military-invasion-of-greenland/562656",
+          "summary": "Markets breathe easier as Trump calls for negotiations on Greenland, but dismisses prospect of using force",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Fifth Third CEO flags acquisition-related cuts",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-20T17:04:41.000Z",
+          "url": "https://www.bankingdive.com/news/fifth-third-comerica-layoffs-job-cuts-ceo-spence-earnings/810003/",
+          "summary": "A WARN notice Comerica filed this month indicates 184 jobs are being reduced at the Dallas-based bank’s Frisco, Texas, location.",
+          "relevance_score": 0.85
+        },
+        {
           "title": "Senator probes BNY for more Epstein info",
           "outlet": "Banking Dive - Latest News",
           "date": "2026-01-16T17:28:06.000Z",
           "url": "https://www.bankingdive.com/news/bny-wyden-epstein-probe-vince-letter-sar-kyc-due-diligence-bofa/809876/",
           "summary": "Sen. Ron Wyden asked the bank for details related to 18 $1 million wire transfers between accounts linked to late sex offender Jeffrey Epstein, as well as BNY’s KYC procedures and names of individual ",
           "relevance_score": 0.85
+        },
+        {
+          "title": "WWYD? Asked for a sewer scope and listing agent says not necessary because seller gets line snaked every 15 months",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T01:43:24.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qikhp6/wwyd_asked_for_a_sewer_scope_and_listing_agent/",
+          "summary": "Title says it all I asked for one last thing, a sewer scope for my peace of mind I asked to set up the sewer scope appointment and the listing agent responded that the seller gets the sewer line regul",
+          "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
           "Bank of America",
-          "YouTube",
-          "Heinz"
+          "Pennymac"
         ],
-        "agencies": [
-          "WPP"
+        "agencies": [],
+        "technologies": [
+          "AI"
         ],
-        "technologies": [],
         "companies": [],
         "people": [
           "Fifth Third"
         ],
         "locations": [],
-        "products": [],
-        "metrics": []
+        "products": [
+          "Refinance"
+        ],
+        "metrics": [
+          "affordability"
+        ],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": [
+          "housing market",
+          "housing shortage",
+          "inspection"
+        ]
       },
       "related_buzzwords": [
+        "submitted",
+        "trump",
+        "market",
         "bank",
-        "ceo",
-        "bank america",
-        "america",
-        "bny"
+        "ceo"
       ]
     },
     {
-      "cluster_id": "signal_002",
-      "cluster_name": "Amazon & Prebid - Powered",
-      "description": "Stories featuring Amazon, Walmart focusing on Prebid, programmatic, fast.",
-      "frequency": 8,
+      "cluster_id": "signal_001",
+      "cluster_name": "FHA & reporting - Mortgage",
+      "description": "Stories featuring FHA, Zillow, Home Depot focusing on reporting, AI.",
+      "frequency": 27,
       "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 8,
-      "first_seen": "2017-06-15T20:58:15+00:00",
-      "peak_date": "2026-01-21T14:00:29+00:00",
+      "confidence": "high",
+      "story_count": 27,
+      "first_seen": "2024-03-22T04:14:24+00:00",
+      "peak_date": "2026-01-21T19:30:45+00:00",
       "outlets": [
-        "Adweek Feed",
-        "CIO Dive - Latest News",
-        "IPG Media Lab",
-        "AdExchanger"
+        "Fast Company - leadership",
+        "HomeOwners & Investors",
+        "Mortgage Professional",
+        "Fintech: financial technology",
+        "Banking Dive - Latest News",
+        "HousingWire",
+        "Mortgages",
+        "First Time Home Buyer",
+        "Work",
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "Here Comes Dash Wand, An Alexa-Powered Barcode Scanner For Your Kitchen",
-          "outlet": "IPG Media Lab",
-          "date": "2017-06-15T20:59:58.000Z",
-          "url": "https://ipglab.com/2017/06/15/here-comes-dash-wand-an-alexa-powered-barcode-scanner-for-your-kitchen/",
-          "summary": "What Happened Amazon continues with its master plan of conquering every room of the smart home with the launch of yet another Alexa-powered connected device. The Dash Wand, which the ecommerce giant u",
+          "title": "Mortgage underwriter from India looking to shift to US mortgage process",
+          "outlet": "Mortgages",
+          "date": "2026-01-21T18:24:20.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qj5suw/mortgage_underwriter_from_india_looking_to_shift/",
+          "summary": "Hi, I’m a mortgage underwriter from India with experience in home loans, income analysis and credit assessment. I want to move into US mortgage underwriting and later work in the US or Canada. Can som",
           "relevance_score": 0.85
         },
         {
-          "title": "Pinterest Taps Ex-Amazon Exec as CMO to Fuel Commerce Ambitions",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-20T14:50:09.000Z",
-          "url": "https://www.adweek.com/brand-marketing/pinterest-taps-ex-amazon-exec-as-cmo-to-fuel-commerce-ambitions/",
-          "summary": "Pinterest is continuing its transformation into a full-scale shopping hub with the addition of two key executives. Amazon’s former global brand and marketing vice president, Claudine Cheever, will ass",
+          "title": "Trade groups urge White House to lower FHA premiums, ease loan fees",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T19:30:45.000Z",
+          "url": "https://www.housingwire.com/articles/fha-premiums-loan-fees/",
+          "summary": "Mortgage trade groups urge the White House to end tri-merge credit reporting and cut FHA premiums to ease home loan costs.",
           "relevance_score": 0.85
         },
         {
-          "title": "Pentaleap Is Powering Macy&#8217;s Ad Deal With Amazon",
-          "outlet": "Adweek Feed",
-          "date": "2026-01-21T06:00:00.000Z",
-          "url": "https://www.adweek.com/programmatic/pentaleap-macys-ad-deal-amazon/",
-          "summary": "The retailer is using the tech startup's ad server and mediation layer.",
+          "title": "Business trip. I want to rent my own car (at my own expense) so I don't need to share it with anyone or be in charge of driving people around. Company is pushing back. Thoughts?",
+          "outlet": "Work",
+          "date": "2026-01-21T18:27:57.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qj5whz/business_trip_i_want_to_rent_my_own_car_at_my_own/",
+          "summary": "I have a couple of mild/moderate GI issues and I'm also trying to get pregnant, so there's a possibility that I'll be expecting on this trip. I still want to go! I'm just trying to find ways to make i",
           "relevance_score": 0.85
         },
         {
-          "title": "Can Amazon Be Luxurious?; The Declaration Of Dependence",
-          "outlet": "AdExchanger",
-          "date": "2026-01-21T05:03:14.000Z",
-          "url": "https://www.adexchanger.com/daily-news-roundup/wednesday-21012026/",
-          "summary": "A Life Of Luxury The internet is a powerhouse for commerce – just not so much when it comes to the luxury category.  Although that’s hardly surprising. Over the past several years, fast-fashion and di",
+          "title": "Self-employed borrowers face limited loan options as new homebuilding lags, says executive",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-20T23:12:15.000Z",
+          "url": "https://www.mpamag.com/us/specialty/commercial/self-employed-borrowers-face-limited-loan-options-as-new-homebuilding-lags-says-executive/562547",
+          "summary": "How brokers can help those with non-traditional income",
           "relevance_score": 0.85
         },
         {
-          "title": "Updates On Boundless Retail: From Omni-Channel To Customer-Centric",
-          "outlet": "IPG Media Lab",
-          "date": "2017-06-28T22:48:53.000Z",
-          "url": "https://ipglab.com/2017/06/28/updates-on-boundless-retail-from-omni-channel-to-customer-centric/",
-          "summary": "In this first entry of our “Updates on Boundless Retail” series, we take a closer look at Amazon’s and Walmart’s recent acquisitions, how they are becoming more alike than ever in terms of the shoppin",
+          "title": "Klarna to offer after-purchase BNPL",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-21T16:20:00.000Z",
+          "url": "https://www.bankingdive.com/news/klarna-offer-after-purchase-bnpl-onepay-walmart/810131/",
+          "summary": "Shoppers will be able to convert purchases into installment loans after the transaction, the company said Tuesday.",
           "relevance_score": 0.85
         },
         {
-          "title": "Introducing Amazon EC2 X8aedz instances powered by 5th Gen AMD EPYC processors for memory-intensive workloads",
-          "outlet": "CIO Dive - Latest News",
-          "date": "2026-01-20T10:00:00.000Z",
-          "url": "https://www.ciodive.com/spons/introducing-amazon-ec2-x8aedz-instances-powered-by-5th-gen-amd-epyc-process/809057/",
-          "summary": "Delivering up to two times higher compute performance compared to previous generation X2iezn instances.",
+          "title": "Crypto lender Nexo fined $500K by California regulator",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-21T12:18:37.000Z",
+          "url": "https://www.bankingdive.com/news/nexo-california-dfpi-500k-fine-license-borrowers-ability-repay/810069/",
+          "summary": "Nexo issued loans without a state license and without considering borrowers’ ability to repay, the regulator said. A Nexo spokesperson said the “legacy issues” do not “reflect the company’s current op",
           "relevance_score": 0.85
         },
         {
-          "title": "A Win For Open Standards: Amazon’s Prebid Adapter Goes Live",
-          "outlet": "AdExchanger",
-          "date": "2026-01-21T14:00:29.000Z",
-          "url": "https://www.adexchanger.com/publishers/a-win-for-open-standards-amazons-prebid-adapter-goes-live/",
-          "summary": "When Amazon Publisher Services (APS) announced plans to release a Prebid adapter last year, it marked a notable victory for open standards over controlled, proprietary integrations. Now, Amazon’s prom",
+          "title": "What's up with cold calls to see if we want to sell our house? Does this method actually work?",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T19:13:30.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qj7737/whats_up_with_cold_calls_to_see_if_we_want_to/",
+          "summary": "In my mind people wanting to sell will contact their realtors. They dont need a phone call asking if they want to sell to decide it. What am I missing here? Also I'd maybe not mind it so much if it wa",
           "relevance_score": 0.85
         },
         {
-          "title": "Amazon Opens Program For Creating “Watch & Shop” Apps For Fire TV",
-          "outlet": "IPG Media Lab",
-          "date": "2017-06-15T20:58:15.000Z",
-          "url": "https://ipglab.com/2017/06/15/amazon-opens-program-for-creating-watch-shop-apps-for-fire-tv/",
-          "summary": "What Happened Amazon is launching a program that invites video content owners to create shoppable streaming apps for their content on Fire TV streaming products. The so-called “Watch and Shop apps,” w",
+          "title": "Financing on a home with foundation issues in Texas",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T18:53:39.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qj6mil/financing_on_a_home_with_foundation_issues_in/",
+          "summary": "Is it pretty safe to assume conventional financing will not allow for closing on a home with foundation issues It’s Texas where every home has foundation issues and it’s about a 10k fix Thanks in adva",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why did my mortgage company make a trust for themselves?",
+          "outlet": "Mortgages",
+          "date": "2026-01-21T17:02:39.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qj3ijt/why_did_my_mortgage_company_make_a_trust_for/",
+          "summary": "I got a letter that my mortgage company (Rocket Mortgage) sold my mortgage to another company (RCKT Mortgage Trust 2025-CES11), but that the new owners will let the old owners continue to service the ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Coworker is so bad I get home shaking and nauseous. Advice?",
+          "outlet": "Work",
+          "date": "2026-01-20T20:44:12.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qicx4k/coworker_is_so_bad_i_get_home_shaking_and/",
+          "summary": "First, I’ll clarify this lady is not my boss. She’s my coworker.",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Amazon",
-          "Walmart"
+          "FHA",
+          "Zillow",
+          "Home Depot",
+          "USDA",
+          "Rocket Mortgage"
         ],
         "agencies": [],
         "technologies": [
-          "Prebid",
-          "programmatic",
-          "fast"
+          "reporting",
+          "AI"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [
+          "Refinance",
+          "refinance",
+          "USDA loan",
+          "Arm"
+        ],
+        "metrics": [
+          "affordability",
+          "Affordability",
+          "credit score"
+        ],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "mortgage",
+        "home",
+        "work",
+        "loan",
+        "hi"
+      ]
+    },
+    {
+      "cluster_id": "signal_004",
+      "cluster_name": "AI & artificial intelligence - New",
+      "description": "Coverage of AI, artificial intelligence.",
+      "frequency": 16,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 16,
+      "first_seen": "2026-01-20T19:36:03+00:00",
+      "peak_date": "2026-01-21T19:30:38+00:00",
+      "outlets": [
+        "Fast Company - leadership",
+        "Banking Dive - Latest News",
+        "HousingWire",
+        "First Time Home Buyer",
+        "Fintech: financial technology",
+        "Apartment Therapy| Saving the world, one room at a time"
+      ],
+      "stories": [
+        {
+          "title": "Solopreneurship can be dream come true for many. But there’s a hidden cost",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-21T07:00:00.000Z",
+          "url": "https://www.fastcompany.com/91476779/solopreneurship-can-be-a-dream-come-true-but-theres-a-growing-cost?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "From greater flexibility to a sense of ownership and the hope of financial gain, solopreneurship feels like the new American dream. However, there’s a hidden cost to that dream that has nothing to do ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Bish bash bosh - we did it! Middlesex, NC, 350k cash",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-21T00:06:09.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qii7o8/bish_bash_bosh_we_did_it_middlesex_nc_350k_cash/",
+          "summary": "Been looking for a new construction house with my wife and our 2.5 year old son in a quiet and well-kept area. It’s a roomy starter home, there is no more hauling groceries upstairs, no more neighbors",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Crypto-to-EUR payment compliance without building your own banking stack",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-20T19:36:03.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qib212/cryptotoeur_payment_compliance_without_building/",
+          "summary": "More freelancers and small EU businesses getting paid in stables every month, but turning USDC into clean EUR bills still feels like walking a compliance tightrope Banks flag everything crypto-adjacen",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "This Heavy-Duty Shelf Set Is a Game-Changing Storage Upgrade for Small Closets",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-21T19:18:43.000Z",
+          "url": "https://www.apartmenttherapy.com/origami-heavy-duty-3-tier-rack-reviews-37535952?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "Living in New York City means storage is always the limiting factor, especially when it comes to closets. No matter how much I edit my wardrobe, there never seems to be enough space for shoes, bags, o",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "This Mattress Feels Like a Splurge — But It’s Surprisingly Affordable",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-21T15:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/sleep-number-comfortmode-mattress-37535908?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "And it’s even comfy for hot and cold sleepers.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "4 strategies for building a ‘good enough’ financial plan and portfolio",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-21T15:26:34.000Z",
+          "url": "https://www.fastcompany.com/91478424/4-strategies-building-good-enough-financial-plan-portfolio?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "I’m a classic satisficer: I’m usually quick about making decisions and often fall back on the tried-and-true. Some people are optimizers, carefully analyzing almost every choice, whether it’s a new so",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "We did it! Queensland Australia, 647k, 5.6%",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-21T11:38:49.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qivmqg/we_did_it_queensland_australia_647k_56/",
+          "summary": "We bought our first house, it feels so surreal. It’s small, old and full of charm!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The AI future of real estate runs straight through the MLS",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T19:30:38.000Z",
+          "url": "https://www.housingwire.com/articles/the-ai-future-of-real-estate-runs-straight-through-the-mls/",
+          "summary": "A new white paper shows how autonomous systems capable of planning, reasoning and executing multi-step workflows will reshape the industry.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Google Glass, Amazon Fire, Friendster: Why great ideas from successful companies fail",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-21T10:26:00.000Z",
+          "url": "https://www.fastcompany.com/91462988/google-glass-amazon-fire-friendster-why-great-ideas-from-successful-companies-fail-great-ideas-fail-google-glass?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "In the world of business, we tend to believe that success is a direct result of talent, resources, and a “great idea.” We expect that if a company has a track record of dominance, like Google, Amazon,",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Payments fraud risks grow with AI",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-21T15:31:00.000Z",
+          "url": "https://www.bankingdive.com/news/payments-fraud-risks-ai-artificial-intelligence/810139/",
+          "summary": "The artificial intelligence threats are mounting, but so are the defenses, as new industry trends take hold, from agentic commerce to passkey adoption.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
+          "AI",
+          "artificial intelligence"
         ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
-        "metrics": []
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
       },
       "related_buzzwords": [
-        "amazon",
-        "powered",
-        "amazon amazon",
-        "comes",
-        "commerce"
+        "new",
+        "feels",
+        "true",
+        "ai",
+        "feels like"
+      ]
+    },
+    {
+      "cluster_id": "signal_002",
+      "cluster_name": "AI & SaaS - Time",
+      "description": "Coverage of AI, SaaS.",
+      "frequency": 10,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 10,
+      "first_seen": "2026-01-20T21:50:39+00:00",
+      "peak_date": "2026-01-21T18:15:27+00:00",
+      "outlets": [
+        "Fast Company - leadership",
+        "Mortgage Professional",
+        "Fintech: financial technology",
+        "Latest Content - Good Housekeeping",
+        "Mortgages",
+        "First Time Home Buyer",
+        "Work",
+        "Apartment Therapy| Saving the world, one room at a time"
+      ],
+      "stories": [
+        {
+          "title": "Here’s how to use AI to fuel creativity instead of destroy it",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-21T07:00:00.000Z",
+          "url": "https://www.fastcompany.com/91473539/how-to-use-ai-to-power-creativity-instead-of-destroy-it?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "A few years ago, I discovered a tomato sauce recipe that was surprisingly simple: just canned tomatoes, butter, salt, and an onion It inspired me to experiment, adding this and that each time to see h",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Early-stage fintech security feels broken — curious how other founders are handling this",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-21T12:37:29.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qiws3w/earlystage_fintech_security_feels_broken_curious/",
+          "summary": "I’ve been spending time with early-stage fintech and SaaS teams (Seed–Series A), and I keep seeing the same pattern repeat:",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "PSA ’Today’ Fans: We Know When Savannah Guthrie Is Coming Back on the Air",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-21T10:32:00.000Z",
+          "url": "https://www.goodhousekeeping.com/entertainment/tv-shows/a70063301/today-show-2026-savannah-guthrie-health-return-instagram/",
+          "summary": "It’s time to mark your calendars!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "What real fintech trends from today’s headlines do you think will actually shape 2026?",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-21T18:15:27.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qj5jw7/what_real_fintech_trends_from_todays_headlines_do/",
+          "summary": "There’s a lot of fintech news and momentum right now, and it feels like we’re entering a more pragmatic, execution‑focused phase of innovation rather than just hype.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The Best Way to Frame, Hang, and Display Photos on Your Wall",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-21T13:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/january-cure-2026-how-to-hang-artwork-37521490?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "It's time to dress up your walls.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trump signs order to curb Wall Street’s grip on starter homes",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-21T14:23:37.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/trump-signs-order-to-curb-wall-streets-grip-on-starter-homes/562650",
+          "summary": "New order targets big landlords as affordability pressures squeeze first‑time buyers",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "New homeowner question: upgrades that actually help day-to-day?",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-20T21:50:39.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qieqmj/new_homeowner_question_upgrades_that_actually/",
+          "summary": "We just bought our first home, and instead of doing everything at once, we’ve been taking a slow, budget-conscious approach to upgrades.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Should I lock in? 6.125%",
+          "outlet": "Mortgages",
+          "date": "2026-01-21T18:07:19.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qj5brg/should_i_lock_in_6125/",
+          "summary": "I have the option to lock in today at 6.125%, or I can wait and lock in over the next 2 weeks as we are still over a month from closing. Do we think it will fluctuate down in that time? Is this a good",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Refinance below 5%?",
+          "outlet": "Mortgages",
+          "date": "2026-01-21T00:21:17.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qiiko4/refinance_below_5/",
+          "summary": "Anyone seeing refi rates at 5% or below?",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Confusion after sending a teams message",
+          "outlet": "Work",
+          "date": "2026-01-21T09:48:48.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qitqzs/confusion_after_sending_a_teams_message/",
+          "summary": "Long story short at my company we are offering three (3) options for the upcoming winter storm. You need to pick one so we have an idea about head count for production planning.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
+          "AI",
+          "SaaS"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [
+          "Refinance"
+        ],
+        "metrics": [
+          "affordability"
+        ],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "time",
+        "fintech",
+        "today",
+        "wall",
+        "refinance"
+      ]
+    },
+    {
+      "cluster_id": "signal_000",
+      "cluster_name": "Compass & VA - Inspection",
+      "description": "Stories featuring Compass, VA.",
+      "frequency": 8,
+      "momentum": "stable",
+      "confidence": "medium",
+      "story_count": 8,
+      "first_seen": "2024-12-09T23:47:41+00:00",
+      "peak_date": "2026-01-21T17:41:24+00:00",
+      "outlets": [
+        "Work",
+        "HomeOwners & Investors",
+        "HousingWire"
+      ],
+      "stories": [
+        {
+          "title": "Protect yourselves from Credit Agencies selling your information. www.optoutprescreen.com",
+          "outlet": "HomeOwners & Investors",
+          "date": "2024-12-09T23:47:41.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1hao3ij/protect_yourselves_from_credit_agencies_selling/",
+          "summary": "One of the most common questions posted here is:",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Sellers’ agents frustration",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T17:30:30.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qj4aj3/sellers_agents_frustration/",
+          "summary": "I hate the sellers’ agent I know they’re empty because the sellers were eager to sell I guess we now wait and see if the sellers sign it today or not",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Seattle-based mega team joins Real from Compass",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T16:17:21.000Z",
+          "url": "https://www.housingwire.com/articles/seattle-based-mega-team-joins-real-from-compass/",
+          "summary": "The team was recognized by RealTrends Verified as Seattle’s top-selling large team for three consecutive years from 2021 to 2023.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Sellers marking all disclosures unknown even after prospective buyers had inspections and found major problems. Once they know a problem has been identified don’t they legally have to disclose?",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T15:53:14.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qj1kp7/sellers_marking_all_disclosures_unknown_even/",
+          "summary": "This came up under another question I posted - commenters saying they wish they could share their inspection reports that resulted in the sale falling through (especially with major misrepresentations",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why are we supposed to pretend it’s about anything but money?",
+          "outlet": "Work",
+          "date": "2026-01-21T14:04:05.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qiyq1u/why_are_we_supposed_to_pretend_its_about_anything/",
+          "summary": "My job just rolled out one of those employee surveys with questions like, What do you find most meaningful about your role? and What would help you feel more engaged at work? and a bunch of similar no",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Buyer waived inspection now he changed his mind",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T09:25:05.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qitdhq/buyer_waived_inspection_now_he_changed_his_mind/",
+          "summary": "We are selling our house and an extremely interested buyer who is on younger side wanted to buy our house , I gave him an extremely good price because I really wanted to save myself the headaches to f",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trump announces investor ‘ban,’ MBS purchases and credit card rate cap in Davos",
+          "outlet": "HousingWire",
+          "date": "2026-01-21T16:18:00.000Z",
+          "url": "https://www.housingwire.com/articles/trump-housing-ban-mbs-credit/",
+          "summary": "President Donald Trump said the U.S. will not “become a nation of renters” as he announced what he described as a ban on large institutional investors purchasing single-family homes.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "on the fence about selling investment property - Boston suburbs",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-21T17:41:24.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qj4ld1/on_the_fence_about_selling_investment_property/",
+          "summary": "Long story short is that I own a multi-family home that I used to live in. I kept it for a while thinking my elderly parents would move closer to me and they could live in it. Well that didn't happen.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "Compass",
+          "VA"
+        ],
+        "agencies": [],
+        "technologies": [],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": [
+          "inspection"
+        ]
+      },
+      "related_buzzwords": [
+        "inspection",
+        "selling",
+        "sellers",
+        "questions",
+        "team"
+      ]
+    },
+    {
+      "cluster_id": "signal_005",
+      "cluster_name": "insights - Key",
+      "description": "Coverage of insights.",
+      "frequency": 3,
+      "momentum": "stable",
+      "confidence": "low",
+      "story_count": 3,
+      "first_seen": "2026-01-20T21:17:29+00:00",
+      "peak_date": "2026-01-21T17:30:00+00:00",
+      "outlets": [
+        "Fast Company - leadership"
+      ],
+      "stories": [
+        {
+          "title": "5 reasons why you should laugh more and not take yourself so seriously",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-20T21:17:29.000Z",
+          "url": "https://www.fastcompany.com/91478051/5-reasons-why-you-should-laugh-more-and-not-take-yourself-so-seriously?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Below, Chris Duffy shares five key insights from his new book, Humor Me: How Laughing More Can Make You Present, Creative, Connected, and Happy.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "5 reasons why cutting back on alcohol is so hard",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-21T17:30:00.000Z",
+          "url": "https://www.fastcompany.com/91478171/5-reasons-why-cutting-back-on-alcohol-is-so-hard?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Below, Charles Knowles shares five key insights from his new book, Why We Drink Too Much: The Impact of Alcohol on Our Bodies and Culture.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "5 ways to finish what you started, according to a productivity expert",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-20T22:30:00.000Z",
+          "url": "https://www.fastcompany.com/91478057/5-ways-to-finish-what-you-started-according-to-a-productivity-expert?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Below, Chris Bailey shares five key insights from his new book, Intentional: How to Finish What You Start.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
+          "insights"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "insights",
+        "key",
+        "key insights",
+        "new book",
+        "shares key"
       ]
     }
   ],
@@ -947,56 +750,32 @@
     "building": [],
     "lasting": [
       {
-        "name": "Netflix & measurement - Ai",
+        "name": "Bank of America & AI - Submitted",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 28,
+        "mention_count": 46,
         "key_players": [
-          "Netflix",
-          "Heineken",
-          "Warner Bros"
+          "Bank of America",
+          "Pennymac"
         ]
       },
       {
-        "name": "TikTok & Programmatic - Programmatic",
+        "name": "FHA & reporting - Mortgage",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 21,
+        "mention_count": 27,
         "key_players": [
-          "TikTok",
-          "Paramount",
-          "LinkedIn"
+          "FHA",
+          "Zillow",
+          "Home Depot"
         ]
       },
       {
-        "name": "YouTube & CTV - Uk",
-        "duration_weeks": 12,
-        "stability_score": 0.85,
-        "mention_count": 17,
-        "key_players": [
-          "YouTube",
-          "Google"
-        ]
-      },
-      {
-        "name": "Apple & Saatchi & Saatchi - Saatchi",
+        "name": "AI & artificial intelligence - New",
         "duration_weeks": 12,
         "stability_score": 0.85,
         "mention_count": 16,
-        "key_players": [
-          "Apple",
-          "Google",
-          "YouTube"
-        ]
-      },
-      {
-        "name": "Omnicom & Zillow - Creative",
-        "duration_weeks": 12,
-        "stability_score": 0.85,
-        "mention_count": 16,
-        "key_players": [
-          "Zillow"
-        ]
+        "key_players": []
       }
     ]
   },
@@ -1005,31 +784,36 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "Netflix & measurement - Ai",
+        "shift": "Bank of America & AI - Submitted",
         "drivers": [
-          "measurement",
-          "ChatGPT",
-          "Claude"
+          "AI"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early majority"
       },
       {
-        "shift": "YouTube & CTV - Uk",
+        "shift": "FHA & reporting - Mortgage",
         "drivers": [
-          "CTV",
-          "ChatGPT",
-          "generative AI"
+          "reporting",
+          "AI"
+        ],
+        "timeline": "12-18 months",
+        "adoption_stage": "early majority"
+      },
+      {
+        "shift": "AI & artificial intelligence - New",
+        "drivers": [
+          "AI",
+          "artificial intelligence"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
       },
       {
-        "shift": "Apple & Saatchi & Saatchi - Saatchi",
+        "shift": "AI & SaaS - Time",
         "drivers": [
-          "VR",
-          "Gemini",
-          "GenAI"
+          "AI",
+          "SaaS"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
@@ -1039,7 +823,19 @@
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in Netflix & measurement - Ai",
+        "risk": "AI implementation challenges in Bank of America & AI - Submitted",
+        "probability": "medium",
+        "impact": "high",
+        "mitigation": "Human oversight and quality control processes"
+      },
+      {
+        "risk": "AI implementation challenges in AI & artificial intelligence - New",
+        "probability": "medium",
+        "impact": "high",
+        "mitigation": "Human oversight and quality control processes"
+      },
+      {
+        "risk": "AI implementation challenges in AI & SaaS - Time",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -1051,7 +847,7 @@
   },
   "north_star_questions": [
     {
-      "question": "How will Netflix & measurement - Ai reshape competitive dynamics in the industry?",
+      "question": "How will Bank of America & AI - Submitted reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
         "signal_003"
@@ -1059,7 +855,7 @@
       "urgency": "medium"
     },
     {
-      "question": "What are the long-term implications of Netflix & measurement - Ai for market structure?",
+      "question": "What are the long-term implications of Bank of America & AI - Submitted for market structure?",
       "category": "Market Dynamics",
       "signals": [
         "signal_003"
@@ -1067,7 +863,7 @@
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when netflix & measurement - ai?",
+      "question": "How do consumers perceive brand authenticity when bank of america & ai - submitted?",
       "category": "Cultural Impact",
       "signals": [
         "signal_003"
@@ -1076,10 +872,10 @@
     }
   ],
   "raw_data_summary": {
-    "total_articles": 119,
-    "articles_with_full_content": 60,
-    "unique_entities_extracted": 48,
-    "clusters_identified": 7,
+    "total_articles": 110,
+    "articles_with_full_content": 54,
+    "unique_entities_extracted": 25,
+    "clusters_identified": 6,
     "outliers": 0
   }
 }
