@@ -998,6 +998,13 @@ def main():
         print("⚠️  No stories found - skipping analysis")
         return
 
+    # Extract buzzwords for trend analysis
+    print("🔍 Extracting buzzwords...")
+    for story in stories:
+        story['buzzwords'] = extract_buzzwords(story['text'])
+    print(f"   Processed {len(stories)} stories")
+    print()
+
     # Load trend data
     print("📈 Loading trend data...")
     trend_data = load_trend_data()
