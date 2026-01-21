@@ -1113,6 +1113,7 @@ def main():
         print("🎯 Generating macro trend synthesis...")
         try:
             generate_macro_synthesis(signals, stories, trend_data, output_file='macro_trends.json')
+            print(f"   ✓ Generated macro_trends.json")
             print(f"   • Processed view of ongoing trends and narratives")
             print(f"   • Strategic synthesis for downstream LLM analysis")
             print()
