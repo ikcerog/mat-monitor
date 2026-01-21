@@ -40,11 +40,7 @@ jobs:
         run: npm ci
 
       - name: Install Python dependencies
-        run: |
-          pip3 install -r requirements.txt
-          # Note: spaCy model download may fail due to network restrictions
-          # System will gracefully fall back to pattern-based entity extraction
-          python3 -m spacy download en_core_web_sm || echo "⚠️  spaCy model download failed - using pattern-based extraction"
+        run: pip3 install -r requirements.txt
 
       - name: Run RSS collector
         run: npm run collect

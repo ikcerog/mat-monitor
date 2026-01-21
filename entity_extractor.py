@@ -1,27 +1,12 @@
 #!/usr/bin/env python3
 """
 Advanced Entity Extraction Module
-Uses spaCy NER + custom patterns for industry-specific entity extraction
+Uses custom regex patterns for industry-specific entity extraction
 """
 
 import re
 from collections import defaultdict
 from typing import Dict, List, Set
-
-try:
-    import spacy
-    from spacy.matcher import Matcher
-    SPACY_AVAILABLE = True
-    try:
-        nlp = spacy.load("en_core_web_sm")
-    except OSError:
-        print("⚠️  spaCy model 'en_core_web_sm' not found. Run: python3 -m spacy download en_core_web_sm")
-        SPACY_AVAILABLE = False
-        nlp = None
-except ImportError:
-    print("⚠️  spaCy not installed. Entity extraction will use pattern matching only. Run: pip3 install spacy")
-    SPACY_AVAILABLE = False
-    nlp = None
 
 
 # Industry-specific entity patterns (using non-capturing groups to avoid tuple returns)
@@ -88,10 +73,9 @@ METRICS_PATTERNS = [
 
 
 class EntityExtractor:
-    """Advanced entity extraction combining spaCy NER and custom patterns"""
+    """Advanced entity extraction using custom regex patterns"""
 
     def __init__(self):
-        self.nlp = nlp if SPACY_AVAILABLE else None
         self.brand_regex = re.compile('|'.join(BRAND_PATTERNS), re.IGNORECASE)
         self.agency_regex = re.compile('|'.join(AGENCY_PATTERNS), re.IGNORECASE)
         self.tech_regex = re.compile('|'.join(TECHNOLOGY_PATTERNS), re.IGNORECASE)
@@ -101,7 +85,7 @@ class EntityExtractor:
 
     def extract_entities(self, text: str, title: str = "") -> Dict[str, List[str]]:
         """
-        Extract entities from text using spaCy NER + custom patterns
+        Extract entities from text using custom regex patterns
 
         Args:
             text: Article content
@@ -124,47 +108,18 @@ class EntityExtractor:
         # Combine title and text (title gets processed separately for emphasis)
         full_text = f"{title} {title} {text}"  # Title appears twice for weight
 
-        # 1. Pattern-based extraction (always runs)
+        # Pattern-based extraction
         entities['brands'].update(self._extract_pattern(self.brand_regex, full_text))
         entities['agencies'].update(self._extract_pattern(self.agency_regex, full_text))
         entities['technologies'].update(self._extract_pattern(self.tech_regex, full_text))
         entities['products'].update(self._extract_pattern(self.product_regex, full_text))
         entities['metrics'].update(self._extract_pattern(self.metrics_regex, full_text))
 
-        # 2. spaCy NER extraction (if available)
-        if self.nlp and len(full_text) < 1000000:  # Limit to 1M chars for performance
-            try:
-                doc = self.nlp(full_text[:100000])  # Process first 100k chars
-
-                for ent in doc.ents:
-                    entity_text = ent.text.strip()
-
-                    # Organizations
-                    if ent.label_ == "ORG":
-                        # Categorize as brand, agency, or company
-                        if self._is_agency(entity_text):
-                            entities['agencies'].add(entity_text)
-                        elif self._is_known_brand(entity_text):
-                            entities['brands'].add(entity_text)
-                        else:
-                            entities['companies'].add(entity_text)
-
-                    # People
-                    elif ent.label_ == "PERSON":
-                        # Filter out common false positives
-                        if len(entity_text) > 3 and not entity_text.lower() in ['new', 'more', 'how', 'what']:
-                            entities['people'].add(entity_text)
-
-                    # Locations
-                    elif ent.label_ in ["GPE", "LOC"]:
-                        entities['locations'].add(entity_text)
-
-                    # Products
-                    elif ent.label_ == "PRODUCT":
-                        entities['products'].add(entity_text)
-
-            except Exception as e:
-                print(f"⚠️  spaCy processing error: {e}")
+        # Extract people names (from PEOPLE_PATTERNS)
+        people_matches = self.people_regex.findall(full_text)
+        if people_matches:
+            # people_matches will be a list of captured names
+            entities['people'].update(people_matches)
 
         # 3. Clean and deduplicate
         cleaned_entities = {}
@@ -192,21 +147,6 @@ class EntityExtractor:
         """Extract entities using regex pattern"""
         matches = regex.findall(text)
         return set(matches) if matches else set()
-
-    def _is_agency(self, text: str) -> bool:
-        """Check if organization is a known agency"""
-        agencies = ['ogilvy', 'bbdo', 'ddb', 'publicis', 'wpp', 'omnicom', 'ipg', 'dentsu',
-                   'havas', 'saatchi', 'wieden', 'akqa', 'r/ga', 'droga5', 'mother', 'vccp',
-                   'anomaly', 'rapp']
-        return any(agency in text.lower() for agency in agencies)
-
-    def _is_known_brand(self, text: str) -> bool:
-        """Check if organization is a known brand"""
-        brands = ['nike', 'adidas', 'coca-cola', 'pepsi', 'starbucks', 'mcdonalds',
-                 'apple', 'google', 'microsoft', 'amazon', 'meta', 'facebook', 'netflix',
-                 'disney', 'tiktok', 'tesla', 'ford', 'toyota', 'lexus', 'heineken',
-                 'tiffany', 'listerine', 'campbell', 'oreo', 'cava']
-        return any(brand in text.lower() for brand in brands)
 
     def extract_from_story(self, story: Dict) -> Dict[str, List[str]]:
         """
