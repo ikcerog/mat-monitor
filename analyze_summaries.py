@@ -21,6 +21,7 @@ import sys
 from entity_extractor import EntityExtractor
 from content_summarizer import ContentSummarizer
 from json_story_exporter import export_stories_json
+from macro_trend_synthesizer import generate_macro_synthesis
 
 try:
     from signal_clustering import SignalClusterer
@@ -1106,6 +1107,18 @@ def main():
     except Exception as e:
         print(f"   ⚠️  JSON export failed: {e}")
         print()
+
+    # Generate macro trend synthesis (the processed, considered view)
+    if signals:
+        print("🎯 Generating macro trend synthesis...")
+        try:
+            generate_macro_synthesis(signals, stories, trend_data, output_file='macro_trends.json')
+            print(f"   • Processed view of ongoing trends and narratives")
+            print(f"   • Strategic synthesis for downstream LLM analysis")
+            print()
+        except Exception as e:
+            print(f"   ⚠️  Macro synthesis failed: {e}")
+            print()
 
     print("━" * 80)
     print("✓ Analysis Complete!")
