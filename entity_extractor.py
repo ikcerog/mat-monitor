@@ -10,65 +10,84 @@ from typing import Dict, List, Set
 
 
 # Industry-specific entity patterns (using non-capturing groups to avoid tuple returns)
+# Focus: US Housing, Mortgage, Consumer Lifestyle, Enterprise Culture, Storytelling
+
 BRAND_PATTERNS = [
-    # Major tech platforms
-    r'\b(?:Google|Meta|Facebook|Instagram|WhatsApp|Microsoft|Apple|Amazon|Netflix|Disney|TikTok|YouTube|LinkedIn)\b',
-    # Ad tech & martech
-    r'\b(?:The Trade Desk|Roku|Nielsen|Comscore|Oracle|Salesforce|Adobe|HubSpot|Mailchimp)\b',
-    # Brands & retailers
-    r'\b(?:Nike|Adidas|Coca-Cola|Pepsi|McDonald\'s|Starbucks|Walmart|Target)\b',
-    # Automotive
-    r'\b(?:Tesla|Ford|GM|Toyota|Honda|BMW|Mercedes|Audi|Lexus|Porsche)\b',
-    # Fast food & CPG
-    r'\b(?:Mondelēz|Oreo|Chips Ahoy|Campbell\'s|Heineken|Tiffany|Listerine|Cava|Heinz)\b',
-    # Financial services
-    r'\b(?:Rocket|Rocket Mortgage|Zillow|Redfin|Realtor\.com|Quicken Loans|Chase|Wells Fargo|Bank of America)\b',
-    # Media & entertainment
-    r'\b(?:Warner Bros|Universal|Paramount|HBO|Hulu|Peacock|ESPN|CNN|CNBC|NBC|ABC|CBS|Fox)\b',
-    # Airlines & travel
-    r'\b(?:United|Delta|American Airlines|Southwest|Jet2|Airbnb|Booking\.com|Expedia)\b',
-    # Telecom
-    r'\b(?:T-Mobile|Verizon|AT&T|Sprint|Comcast|Spectrum)\b',
-    # Retail & ecommerce
-    r'\b(?:eBay|Etsy|Shopify|Wayfair|Chewy|Instacart|DoorDash|Uber Eats)\b',
-    # Insurance
-    r'\b(?:Allstate|State Farm|Geico|Progressive|Aviva)\b',
+    # Mortgage lenders & servicers
+    r'\b(?:Rocket Mortgage|Rocket Companies|Quicken Loans|Better\.com|loanDepot|United Wholesale Mortgage|UWM|Guaranteed Rate|Caliber Home Loans|HomePoint Financial|PennyMac|Mr\. Cooper|CrossCountry Mortgage|Movement Mortgage|New American Funding)\b',
+    # Banks with mortgage divisions
+    r'\b(?:Wells Fargo|Chase|JPMorgan Chase|Bank of America|U\.S\. Bank|PNC Bank|Truist|Citizens Bank|TD Bank|HSBC|Citibank)\b',
+    # Real estate platforms
+    r'\b(?:Zillow|Redfin|Realtor\.com|Compass|Opendoor|Offerpad|RedfinNow|Zillow Offers|iBuyer|Knock)\b',
+    # Consumer housing & lifestyle brands
+    r'\b(?:IKEA|Wayfair|Home Depot|Lowe\'s|West Elm|Pottery Barn|Crate & Barrel|Williams Sonoma|CB2|Article)\b',
+    # Insurance & title companies
+    r'\b(?:First American|Fidelity National|Old Republic|Stewart Title|CoreLogic|Allstate|State Farm|Liberty Mutual)\b',
+    # Fintech & mortgage tech
+    r'\b(?:Blend|Ellie Mae|ICE Mortgage Technology|Black Knight|Roostify|SimpleNexus|DocuSign|Snapdocs|Stavvy|Notarize)\b',
+    # Credit & verification
+    r'\b(?:Equifax|Experian|TransUnion|FICO|VantageScore|Fannie Mae|Freddie Mac|FHA|VA|USDA)\b',
+    # Real estate franchises
+    r'\b(?:Keller Williams|RE/MAX|Coldwell Banker|Century 21|Berkshire Hathaway HomeServices|Sotheby\'s International Realty|eXp Realty)\b',
 ]
 
 AGENCY_PATTERNS = [
-    r'\b(?:Ogilvy|BBDO|DDB|Publicis|WPP|Omnicom|IPG|Dentsu|Havas|Saatchi & Saatchi|Wieden\+Kennedy|AKQA|R/GA|Droga5|72andSunny|Mother|VCCP|Adam & Eve/DDB|Anomaly|Rapp|Who Wot Why)\b',
+    # Creative agencies (for storytelling/brand work)
+    r'\b(?:Wieden\+Kennedy|Ogilvy|AKQA|R/GA|Droga5|72andSunny|Mother|VCCP|Anomaly|Huge|Work & Co|Collins|Pentagram|Wolff Olins)\b',
 ]
 
 TECHNOLOGY_PATTERNS = [
-    # AI & ML
-    r'\b(?:ChatGPT|GPT-4|GPT-3|Claude|Gemini|DALL-E|Midjourney|Stable Diffusion|LLM|GenAI|Generative AI|Machine Learning|Deep Learning|Neural Network)\b',
-    # Ad tech
-    r'\b(?:CTV|OTT|AVOD|SVOD|FAST|programmatic|DSP|SSP|DMP|CDP|header bidding|prebid)\b',
-    # Marketing tech
-    r'\b(?:attribution|measurement|personalization|optimization|A/B testing|multivariate testing|journey orchestration)\b',
-    # Emerging tech
-    r'\b(?:blockchain|Web3|metaverse|VR|AR|XR|NFT|cryptocurrency|Bitcoin|Ethereum)\b',
-    # Platforms & tools
-    r'\b(?:Google Analytics|Google Ads|Facebook Ads|Instagram Ads|TikTok Ads|Snapchat Ads|Pinterest Ads)\b',
+    # Mortgage & lending tech
+    r'\b(?:LOS|loan origination system|POS|point of sale|digital mortgage|eClosing|eNote|MISMO|automated underwriting|AUS|DU|Desktop Underwriter|LP|Loan Prospector|URLA|1003)\b',
+    # CRM & customer experience
+    r'\b(?:Salesforce|HubSpot|customer experience|CX|personalization|journey mapping|omnichannel|engagement platform)\b',
+    # AI & automation (storytelling/customer-focused)
+    r'\b(?:AI|artificial intelligence|machine learning|chatbot|virtual assistant|predictive analytics|NLP|natural language processing|sentiment analysis)\b',
+    # Data & analytics
+    r'\b(?:data analytics|business intelligence|BI|visualization|dashboard|reporting|insights|predictive modeling)\b',
+    # Digital experience
+    r'\b(?:UX|user experience|UI|design thinking|mobile app|web app|responsive design|accessibility)\b',
+    # Cloud & infrastructure (minimal - only if essential to story)
+    r'\b(?:cloud platform|SaaS|API integration|microservices)\b',
 ]
 
 PEOPLE_PATTERNS = [
-    # Common exec titles that might be missed (capturing group for the name)
-    r'\b([A-Z][a-z]+ [A-Z][a-z]+)(?:\s+(?:CEO|CMO|CTO|CFO|COO|VP|SVP|EVP|President|Director|Manager))\b',
+    # Common exec titles (capturing group for the name)
+    r'\b([A-Z][a-z]+ [A-Z][a-z]+)(?:\s+(?:CEO|CMO|CTO|CFO|COO|VP|SVP|EVP|President|Director|Chief|Head of|Managing Director))\b',
 ]
 
 PRODUCT_PATTERNS = [
-    # Tech products
-    r'\b(?:iPhone|iPad|Mac|MacBook|AirPods|Apple Watch|Vision Pro|Surface|Xbox|PlayStation|Quest|Oculus)\b',
-    # Platforms
-    r'\b(?:AWS|Azure|Google Cloud|GCP|Salesforce Platform|Adobe Experience Cloud)\b',
-    # Software
-    r'\b(?:Photoshop|Illustrator|Premiere|After Effects|Figma|Canva|Slack|Teams|Zoom)\b',
+    # Mortgage products
+    r'\b(?:30-year fixed|15-year fixed|adjustable-rate mortgage|ARM|FHA loan|VA loan|USDA loan|jumbo loan|conventional loan|conforming loan|non-conforming|HELOC|home equity line|refinance|cash-out refi|rate-and-term refi)\b',
+    # Digital tools
+    r'\b(?:mobile app|mortgage calculator|rate comparison tool|pre-approval|digital application|eSign|digital closing)\b',
+    # Consumer products (home-related)
+    r'\b(?:smart home|home security|Ring|Nest|Ecobee|SimpliSafe)\b',
 ]
 
 # Metrics & KPIs
 METRICS_PATTERNS = [
-    r'\b(?:ROI|ROAS|CTR|CPC|CPM|CPA|CPI|CPL|LTV|CAC|conversion rate|engagement rate|bounce rate|impressions|reach|frequency)\b',
+    # Mortgage & housing metrics
+    r'\b(?:interest rate|mortgage rate|APR|basis points|bps|loan-to-value|LTV|debt-to-income|DTI|credit score|FICO score|median home price|housing inventory|days on market|DOM|absorption rate)\b',
+    # Business metrics
+    r'\b(?:ROI|return on investment|customer satisfaction|CSAT|NPS|Net Promoter Score|conversion rate|retention rate|churn rate|loan volume|origination volume|pull-through rate)\b',
+    # Consumer metrics
+    r'\b(?:affordability|home affordability index|first-time homebuyer|buyer demand|seller market|buyer market)\b',
+]
+
+# Cultural & workplace terms
+CULTURAL_PATTERNS = [
+    r'\b(?:company culture|workplace culture|employee experience|remote work|hybrid work|work-life balance|mental health|wellbeing|diversity|equity|inclusion|DEI|belonging|psychological safety|team building|collaboration|innovation culture|best place to work|employer brand|talent acquisition|retention|employee engagement|purpose-driven|mission-driven|values-driven)\b',
+]
+
+# Storytelling & content terms
+STORYTELLING_PATTERNS = [
+    r'\b(?:brand story|brand narrative|storytelling|content marketing|thought leadership|customer story|case study|testimonial|user-generated content|UGC|authentic|authenticity|human-centered|empathy|emotional connection|brand voice|brand positioning|messaging|narrative arc|compelling story)\b',
+]
+
+# Housing market terms
+HOUSING_PATTERNS = [
+    r'\b(?:housing market|real estate market|home prices|home values|appreciation|depreciation|housing shortage|inventory shortage|supply and demand|seller\'s market|buyer\'s market|bidding war|multiple offers|contingency|appraisal|inspection|closing costs|down payment|earnest money|escrow|title insurance)\b',
 ]
 
 
@@ -82,6 +101,9 @@ class EntityExtractor:
         self.people_regex = re.compile('|'.join(PEOPLE_PATTERNS))
         self.product_regex = re.compile('|'.join(PRODUCT_PATTERNS), re.IGNORECASE)
         self.metrics_regex = re.compile('|'.join(METRICS_PATTERNS), re.IGNORECASE)
+        self.cultural_regex = re.compile('|'.join(CULTURAL_PATTERNS), re.IGNORECASE)
+        self.storytelling_regex = re.compile('|'.join(STORYTELLING_PATTERNS), re.IGNORECASE)
+        self.housing_regex = re.compile('|'.join(HOUSING_PATTERNS), re.IGNORECASE)
 
     def extract_entities(self, text: str, title: str = "") -> Dict[str, List[str]]:
         """
@@ -102,7 +124,10 @@ class EntityExtractor:
             'people': set(),
             'locations': set(),
             'products': set(),
-            'metrics': set()
+            'metrics': set(),
+            'cultural_themes': set(),
+            'storytelling_themes': set(),
+            'housing_terms': set()
         }
 
         # Combine title and text (title gets processed separately for emphasis)
@@ -114,6 +139,9 @@ class EntityExtractor:
         entities['technologies'].update(self._extract_pattern(self.tech_regex, full_text))
         entities['products'].update(self._extract_pattern(self.product_regex, full_text))
         entities['metrics'].update(self._extract_pattern(self.metrics_regex, full_text))
+        entities['cultural_themes'].update(self._extract_pattern(self.cultural_regex, full_text))
+        entities['storytelling_themes'].update(self._extract_pattern(self.storytelling_regex, full_text))
+        entities['housing_terms'].update(self._extract_pattern(self.housing_regex, full_text))
 
         # Extract people names (from PEOPLE_PATTERNS)
         people_matches = self.people_regex.findall(full_text)

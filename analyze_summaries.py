@@ -20,6 +20,7 @@ import sys
 # Import enhancement modules
 from entity_extractor import EntityExtractor
 from content_summarizer import ContentSummarizer
+from json_story_exporter import export_stories_json
 
 try:
     from signal_clustering import SignalClusterer
@@ -1093,6 +1094,18 @@ def main():
         except Exception as e:
             print(f"   ⚠️  Enhanced cache generation failed: {e}")
             print()
+
+    # Generate JSON export for LLM consumption
+    print("📊 Generating JSON story export for LLM consumption...")
+    try:
+        export_stories_json(stories, signals, output_file='stories_export.json')
+        print(f"   ✓ Generated stories_export.json")
+        print(f"   • {len(stories)} stories exported")
+        print(f"   • Tabular format optimized for LLM analysis")
+        print()
+    except Exception as e:
+        print(f"   ⚠️  JSON export failed: {e}")
+        print()
 
     print("━" * 80)
     print("✓ Analysis Complete!")
