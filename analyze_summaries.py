@@ -17,34 +17,22 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import sys
 
-# Import new enhancement modules
-try:
-    from entity_extractor import EntityExtractor
-    ENTITY_EXTRACTION_AVAILABLE = True
-except ImportError:
-    ENTITY_EXTRACTION_AVAILABLE = False
-    print("⚠️  entity_extractor module not found. Advanced entity extraction disabled.")
-
-try:
-    from content_summarizer import ContentSummarizer
-    SUMMARIZATION_AVAILABLE = True
-except ImportError:
-    SUMMARIZATION_AVAILABLE = False
-    print("⚠️  content_summarizer module not found. Advanced summarization disabled.")
+# Import enhancement modules
+from entity_extractor import EntityExtractor
+from content_summarizer import ContentSummarizer
 
 try:
     from signal_clustering import SignalClusterer
     CLUSTERING_AVAILABLE = True
 except ImportError:
     CLUSTERING_AVAILABLE = False
-    print("⚠️  signal_clustering module not found. Signal clustering disabled.")
+    print("⚠️  scikit-learn not installed. Signal clustering disabled. Run: pip3 install scikit-learn numpy")
 
 try:
     from scaffold_generator import ScaffoldGenerator
     SCAFFOLD_AVAILABLE = True
 except ImportError:
     SCAFFOLD_AVAILABLE = False
-    print("⚠️  scaffold_generator module not found. JSON scaffold generation disabled.")
 
 try:
     from pytrends.request import TrendReq
@@ -113,9 +101,9 @@ def extract_stories(content):
     current_source = None
     current_category = None
 
-    # Initialize extractors if available
-    entity_extractor = EntityExtractor() if ENTITY_EXTRACTION_AVAILABLE else None
-    summarizer = ContentSummarizer(max_sentences=3) if SUMMARIZATION_AVAILABLE else None
+    # Initialize extractors
+    entity_extractor = EntityExtractor()
+    summarizer = ContentSummarizer(max_sentences=3)
 
     lines = content.split('\n')
     i = 0
@@ -171,15 +159,13 @@ def extract_stories(content):
                 i += 1
 
             if title:
-                # Extract entities if available
-                entities = {}
-                if entity_extractor:
-                    text_for_extraction = f"{description} {full_content}" if full_content else description
-                    entities = entity_extractor.extract_entities(text_for_extraction, title)
+                # Extract entities
+                text_for_extraction = f"{description} {full_content}" if full_content else description
+                entities = entity_extractor.extract_entities(text_for_extraction, title)
 
-                # Generate summary if we have full content
+                # Generate summary
                 summary = ''
-                if summarizer and full_content and len(full_content) > len(description) + 100:
+                if full_content and len(full_content) > len(description) + 100:
                     summary = summarizer.summarize(full_content, title, entities)
                 elif description:
                     summary = description[:200]  # Use description as fallback

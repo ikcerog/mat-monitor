@@ -76,17 +76,11 @@ mat-monitor/
 ## New Dependencies
 
 ### Python (install with `pip3 install -r requirements.txt`)
-- `spacy>=3.7.0` - NLP for entity extraction
 - `scikit-learn>=1.3.0` - Clustering and vectorization
 - `numpy>=1.24.0` - Numerical operations
 - `pytrends>=4.9.0` - Google Trends (already installed)
 
-### spaCy Model (optional, for enhanced NER)
-```bash
-python3 -m spacy download en_core_web_sm
-```
-
-**Note**: If spaCy model fails to download, the system will still work using pattern-based entity extraction.
+**Note**: Signal clustering requires scikit-learn and numpy. If not available, the system will still work without clustering.
 
 ## How It Works
 
@@ -113,15 +107,13 @@ analyze_summaries.py (enhanced)
 
 ### Entity Extraction
 
-**Pattern-based** (always works):
-- Regex patterns for 100+ known brands
-- Technology terms (AI, CTV, programmatic, etc.)
+**Pattern-based** regex extraction:
+- 100+ known brands (Google, Meta, Nike, Lexus, etc.)
+- Technology terms (AI, GenAI, CTV, programmatic, etc.)
+- Agencies (AKQA, Ogilvy, Publicis, etc.)
+- Products (iPhone, AWS, Salesforce, etc.)
+- Metrics (ROI, ROAS, CTR, etc.)
 - Industry-specific terminology
-
-**NLP-based** (if spaCy available):
-- Named Entity Recognition for ORG, PERSON, GPE, PRODUCT
-- Contextual entity classification
-- Higher accuracy, broader coverage
 
 ### Signal Clustering
 
@@ -285,14 +277,10 @@ See exactly which:
 
 ## Troubleshooting
 
-### "Entity extraction not available"
-- spaCy not installed → Run: `pip3 install spacy`
-- spaCy model missing → Run: `python3 -m spacy download en_core_web_sm`
-- Network blocked → System will use pattern-based extraction (still works!)
-
 ### "Clustering not available"
 - scikit-learn missing → Run: `pip3 install scikit-learn numpy`
 - System will group all stories into one cluster (degraded but functional)
+- JSON scaffold generation will still work
 
 ### "No full content captured"
 - Some RSS feeds don't provide full content
