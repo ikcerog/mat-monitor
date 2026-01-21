@@ -998,18 +998,11 @@ def main():
         print("⚠️  No stories found - skipping analysis")
         return
 
-    # Analyze stories
-    print("📊 Analyzing stories...")
-    popular_stories, obscure_stories = analyze_stories(stories)
-    print(f"   Popular stories: {len(popular_stories)}")
-    print(f"   Obscure stories: {len(obscure_stories)}")
-    print()
-
     # Load trend data
     print("📈 Loading trend data...")
     trend_data = load_trend_data()
 
-    # Analyze trends
+    # Analyze trends (updates trend_data with historical tracking)
     print("🔍 Analyzing trends...")
     trends = analyze_trends(stories, trend_data)
     print(f"   Emerging trends: {len(trends['emerging'])}")
@@ -1017,37 +1010,8 @@ def main():
     print(f"   Lasting trends: {len(trends['lasting'])}")
     print()
 
-    # Update ongoing cache (this modifies trend_data with seen_stories)
-    date_str = datetime.now().strftime('%m/%d/%Y')
-    print("📝 Updating ongoing cache...")
-    update_ongoing_cache(stories, date_str, trend_data)
-    print()
-
-    # Save trend data (must come AFTER update_ongoing_cache to include seen_stories)
+    # Save trend data
     save_trend_data(trend_data)
-
-    # Generate summary files
-    print("📝 Generating summary files...")
-    generate_summary_file(
-        popular_stories,
-        'summary_popular.txt',
-        'POPULAR TOPICS & TRENDS'
-    )
-    generate_summary_file(
-        obscure_stories,
-        'summary_obscure.txt',
-        'OBSCURE OPPORTUNITIES & EMERGING STORIES'
-    )
-    print()
-
-    # Fetch Google Trends data for housing
-    print("🌐 Analyzing Google Trends for housing/mortgage...")
-    google_trends = analyze_google_trends_for_housing()
-    print()
-
-    # Generate LinkedIn chunks
-    print("📱 Generating LinkedIn content chunks...")
-    generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, google_trends)
     print()
 
     # Generate signal clusters (if available)
