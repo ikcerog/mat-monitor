@@ -870,9 +870,41 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, 
             f.write('\n'.join(content))
         print(f"✓ Generated {filename}")
 
-def generate_enhanced_ongoing_cache(signals, stories, date_str):
-    """Generate enhanced ongoing cache with signal clustering and entity tracking"""
+def generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data):
+    """
+    Generate enhanced ongoing cache with signal clustering and entity tracking.
+    Accumulates over time (keeps 2-4 weeks of history).
+    Works with or without signals.
+    """
 
+    # Read existing cache to preserve historical entries
+    existing_content = []
+    if Path('ongoing_summary_cache_enhanced.txt').exists():
+        with open('ongoing_summary_cache_enhanced.txt', 'r', encoding='utf-8') as f:
+            existing_content = f.read()
+
+    # Remove entries older than 4 weeks
+    MAX_WEEKS_TO_KEEP = 4
+    cutoff_date = datetime.now() - timedelta(weeks=MAX_WEEKS_TO_KEEP)
+
+    # Parse existing entries to keep recent ones
+    filtered_sections = []
+    if existing_content:
+        # Split by date headers and filter by date
+        sections = existing_content.split("=" * 80)
+        for section in sections:
+            if "ENHANCED ANALYSIS:" in section:
+                # Extract date from section
+                date_match = re.search(r'(\d{2}/\d{2}/\d{4})', section)
+                if date_match:
+                    try:
+                        entry_date = datetime.strptime(date_match.group(1), '%m/%d/%Y')
+                        if entry_date >= cutoff_date:
+                            filtered_sections.append("=" * 80 + section)
+                    except:
+                        pass
+
+    # Start building new entry
     output = []
 
     # Header with statistics
@@ -880,104 +912,171 @@ def generate_enhanced_ongoing_cache(signals, stories, date_str):
     output.append(f"ENHANCED ANALYSIS: {date_str}")
     output.append("=" * 80)
 
-    total_stories = sum(signal['story_count'] for signal in signals)
     outlets = set(story['outlet'] for story in stories)
 
-    output.append(f"Total Stories: {len(stories)} | Clustered: {total_stories} | Unique Outlets: {len(outlets)} | Signals: {len(signals)}")
+    if signals:
+        # Signal-based output
+        total_stories = sum(signal['story_count'] for signal in signals)
+        output.append(f"Total Stories: {len(stories)} | Clustered: {total_stories} | Unique Outlets: {len(outlets)} | Signals: {len(signals)}")
 
-    # Top trends
-    top_trends = []
-    for signal in signals[:5]:
-        momentum_symbol = {"rising": "↑", "stable": "→", "declining": "↓"}.get(signal['momentum'], "→")
-        top_trends.append(f"{signal['cluster_name']} ({momentum_symbol}{signal['story_count']})")
+        # Top trends
+        top_trends = []
+        for signal in signals[:5]:
+            momentum_symbol = {"rising": "↑", "stable": "→", "declining": "↓"}.get(signal['momentum'], "→")
+            top_trends.append(f"{signal['cluster_name']} ({momentum_symbol}{signal['story_count']})")
 
-    if top_trends:
-        output.append(f"Top Signals: {' | '.join(top_trends)}")
-
-    output.append("")
-
-    # Generate signal-based sections
-    for signal in signals:
-        output.append("=" * 80)
-        output.append(f"SIGNAL: {signal['cluster_name']} [{signal['story_count']} stories, {signal['momentum'].title()}]")
-        output.append("=" * 80)
-        output.append(signal['description'])
-
-        # Key players
-        entities = signal.get('entities', {})
-        brands = entities.get('brands', [])[:5]
-        technologies = entities.get('technologies', [])[:5]
-
-        entity_parts = []
-        if brands:
-            entity_parts.append(f"Brands[{', '.join(brands)}]")
-        if technologies:
-            entity_parts.append(f"Tech[{', '.join(technologies)}]")
-
-        if entity_parts:
-            output.append(f"Key Players: {' | '.join(entity_parts)}")
+        if top_trends:
+            output.append(f"Top Signals: {' | '.join(top_trends)}")
 
         output.append("")
 
-        # Stories within this signal
-        for story in signal.get('stories', [])[:15]:  # Limit to 15 stories per signal
-            # Title
-            output.append(f"• {story.get('title', 'Untitled')}")
+        # Generate signal-based sections
+        for signal in signals:
+            output.append("=" * 80)
+            output.append(f"SIGNAL: {signal['cluster_name']} [{signal['story_count']} stories, {signal['momentum'].title()}]")
+            output.append("=" * 80)
+            output.append(signal['description'])
 
-            # Metadata line
-            meta_parts = []
-            outlet = story.get('outlet', 'Unknown')
-            date = story.get('date', '')
-            if date:
-                try:
-                    # Format date nicely
-                    dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
-                    date_formatted = dt.strftime('%b %d, %Y')
-                    meta_parts.append(f"SOURCE: {outlet} | DATE: {date_formatted}")
-                except:
-                    meta_parts.append(f"SOURCE: {outlet}")
-            else:
-                meta_parts.append(f"SOURCE: {outlet}")
+            # Key players
+            entities = signal.get('entities', {})
+            brands = entities.get('brands', [])[:5]
+            technologies = entities.get('technologies', [])[:5]
 
-            if meta_parts:
-                output.append(f"  {meta_parts[0]}")
+            entity_parts = []
+            if brands:
+                entity_parts.append(f"Brands[{', '.join(brands)}]")
+            if technologies:
+                entity_parts.append(f"Tech[{', '.join(technologies)}]")
 
-            # Summary
-            summary = story.get('summary', story.get('description', ''))
-            if summary:
-                # Wrap summary to ~80 chars per line
-                summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
-                for line in summary_lines[:3]:  # Max 3 lines
-                    output.append(f"  {line}")
-
-            # Entities
-            story_entities = story.get('entities', {})
-            entity_tags = []
-
-            for category in ['brands', 'technologies', 'companies']:
-                items = story_entities.get(category, [])
-                if items:
-                    label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
-                    entity_tags.append(f"{label}[{', '.join(items[:3])}]")
-
-            if entity_tags:
-                output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
-
-            # URL
-            url = story.get('url', '')
-            if url:
-                output.append(f"  URL: {url}")
+            if entity_parts:
+                output.append(f"Key Players: {' | '.join(entity_parts)}")
 
             output.append("")
 
+            # Stories within this signal
+            for story in signal.get('stories', [])[:15]:  # Limit to 15 stories per signal
+                # Title
+                output.append(f"• {story.get('title', 'Untitled')}")
+
+                # Metadata line
+                meta_parts = []
+                outlet = story.get('outlet', 'Unknown')
+                date = story.get('date', '')
+                if date:
+                    try:
+                        # Format date nicely
+                        dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
+                        date_formatted = dt.strftime('%b %d, %Y')
+                        meta_parts.append(f"SOURCE: {outlet} | DATE: {date_formatted}")
+                    except:
+                        meta_parts.append(f"SOURCE: {outlet}")
+                else:
+                    meta_parts.append(f"SOURCE: {outlet}")
+
+                if meta_parts:
+                    output.append(f"  {meta_parts[0]}")
+
+                # Summary
+                summary = story.get('summary', story.get('description', ''))
+                if summary:
+                    # Wrap summary to ~80 chars per line
+                    summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
+                    for line in summary_lines[:3]:  # Max 3 lines
+                        output.append(f"  {line}")
+
+                # Entities
+                story_entities = story.get('entities', {})
+                entity_tags = []
+
+                for category in ['brands', 'technologies', 'companies']:
+                    items = story_entities.get(category, [])
+                    if items:
+                        label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
+                        entity_tags.append(f"{label}[{', '.join(items[:3])}]")
+
+                if entity_tags:
+                    output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
+
+                # URL
+                url = story.get('url', '')
+                if url:
+                    output.append(f"  URL: {url}")
+
+                output.append("")
+
+            output.append("")
+    else:
+        # Fallback: No signals, organize by topic/outlet
+        output.append(f"Total Stories: {len(stories)} | Unique Outlets: {len(outlets)}")
+        output.append("Note: Signal clustering unavailable - showing stories by outlet")
         output.append("")
 
-    # Write to file (append to existing if within timeframe)
-    # For now, we'll create a new enhanced file
-    with open('ongoing_summary_cache_enhanced.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(output))
+        # Group stories by outlet
+        stories_by_outlet = {}
+        for story in stories:
+            outlet = story.get('outlet', 'Unknown')
+            if outlet not in stories_by_outlet:
+                stories_by_outlet[outlet] = []
+            stories_by_outlet[outlet].append(story)
 
-    print(f"   ✓ Generated ongoing_summary_cache_enhanced.txt ({len(output)} lines)")
+        # Sort outlets by story count
+        sorted_outlets = sorted(stories_by_outlet.items(), key=lambda x: len(x[1]), reverse=True)
+
+        for outlet, outlet_stories in sorted_outlets:
+            output.append("=" * 80)
+            output.append(f"OUTLET: {outlet} [{len(outlet_stories)} stories]")
+            output.append("=" * 80)
+            output.append("")
+
+            # Show top stories from this outlet
+            for story in outlet_stories[:15]:  # Limit to 15 per outlet
+                output.append(f"• {story.get('title', 'Untitled')}")
+
+                # Metadata
+                date = story.get('date', '')
+                if date:
+                    try:
+                        dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
+                        date_formatted = dt.strftime('%b %d, %Y')
+                        output.append(f"  DATE: {date_formatted}")
+                    except:
+                        pass
+
+                # Summary
+                summary = story.get('summary', story.get('description', ''))
+                if summary:
+                    summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
+                    for line in summary_lines[:3]:
+                        output.append(f"  {line}")
+
+                # Entities
+                story_entities = story.get('entities', {})
+                entity_tags = []
+                for category in ['brands', 'technologies', 'companies']:
+                    items = story_entities.get(category, [])
+                    if items:
+                        label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
+                        entity_tags.append(f"{label}[{', '.join(items[:3])}]")
+                if entity_tags:
+                    output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
+
+                # URL
+                url = story.get('url', '')
+                if url:
+                    output.append(f"  URL: {url}")
+
+                output.append("")
+
+            output.append("")
+
+    # Combine new content with filtered historical content
+    final_output = '\n'.join(output) + '\n\n' + '\n'.join(filtered_sections)
+
+    # Write to file
+    with open('ongoing_summary_cache_enhanced.txt', 'w', encoding='utf-8') as f:
+        f.write(final_output)
+
+    print(f"   ✓ Generated ongoing_summary_cache_enhanced.txt ({len(output)} new lines, keeping {MAX_WEEKS_TO_KEEP} weeks)")
 
 def main():
     print("━" * 80)
@@ -1058,14 +1157,16 @@ def main():
             print(f"   ⚠️  Scaffold generation failed: {e}")
             print()
 
-    # Generate enhanced ongoing cache (if we have signals)
-    if signals:
-        print("📝 Generating enhanced ongoing cache with signals...")
-        try:
-            generate_enhanced_ongoing_cache(signals, stories, date_str)
-        except Exception as e:
-            print(f"   ⚠️  Enhanced cache generation failed: {e}")
-            print()
+    # Generate enhanced ongoing cache (always runs, works with or without signals)
+    print("📝 Generating enhanced ongoing cache...")
+    try:
+        date_str = datetime.now().strftime('%m/%d/%Y')
+        generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data)
+    except Exception as e:
+        print(f"   ⚠️  Enhanced cache generation failed: {e}")
+        import traceback
+        traceback.print_exc()
+        print()
 
     # Generate JSON export for LLM consumption
     print("📊 Generating JSON story export for LLM consumption...")
