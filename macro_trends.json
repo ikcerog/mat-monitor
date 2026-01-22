@@ -1,33 +1,53 @@
 {
   "meta": {
-    "generated_at": "2026-01-22T08:04:03.435232",
-    "synthesis_period": "Week of January 16 - 22, 2026",
+    "generated_at": "2026-01-22T15:23:04.830289",
+    "synthesis_period": "March 08 - January 22, 2026",
     "data_points": {
-      "total_stories": 60,
-      "total_signals": 5,
-      "time_span_days": 6
+      "total_stories": 110,
+      "total_signals": 6,
+      "time_span_days": 686
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ikea - room",
-      "theme": "Industry Dynamics",
+      "narrative": "Storytelling focus on first american & insights - new",
+      "theme": "Brand & Storytelling",
       "supporting_signals": [
-        "signal_004",
-        "signal_003",
         "signal_002",
-        "signal_000"
+        "signal_003"
       ],
-      "story_count": 48,
+      "story_count": 33,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "FHA"
+          "First American"
         ],
         "technologies": [
-          "reporting"
+          "insights"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: va & saas - house",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_004",
+        "signal_000"
+      ],
+      "story_count": 21,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "VA",
+          "IKEA"
+        ],
+        "technologies": [
+          "saas"
         ],
         "themes": []
       },
@@ -44,15 +64,52 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "Work Submitted Mortgage",
+          "story_count": 46,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "VA & saas - House",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Trump Affordability Buyers",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 74,
+      "key_themes": [
+        "empathy"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "First American & insights - New",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Trump Affordability Buyers",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 33,
+      "key_themes": [
+        "Authentic",
+        "empathy"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
@@ -64,37 +121,19 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "IKEA - Room",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "FHA & reporting - Trump",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & insights - New",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Said Ceo Bank",
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Bank",
           "story_count": 10,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Like Shoppers Company",
-          "story_count": 5,
+          "name": "IKEA - Shared",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 60,
+      "story_count": 16,
       "key_themes": []
     }
   },
@@ -102,7 +141,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 5,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -115,15 +154,23 @@
         "mentions": 1
       },
       {
-        "name": "FHA",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "Redfin",
+        "mentions": 1
+      },
+      {
+        "name": "Zillow",
+        "mentions": 1
+      },
+      {
+        "name": "VA",
         "mentions": 1
       }
     ],
@@ -134,25 +181,38 @@
       },
       {
         "name": "insights",
-        "mentions": 2
-      },
-      {
-        "name": "reporting",
         "mentions": 1
       },
       {
         "name": "artificial intelligence",
         "mentions": 1
+      },
+      {
+        "name": "saas",
+        "mentions": 1
       }
     ],
     "influential_voices": [
+      {
+        "name": "Jay Promisco",
+        "mentions": 1
+      },
       {
         "name": "Fifth Third",
         "mentions": 1
       }
     ],
     "cultural_movements": [],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "Authentic",
+        "frequency": 1
+      },
+      {
+        "approach": "empathy",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -163,11 +223,15 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 3,
+      "story_count": 74,
+      "top_signals": [
+        "Work Submitted Mortgage",
+        "VA & saas - House",
+        "Trump Affordability Buyers"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on work submitted mortgage"
     },
     "enterprise_culture": {
       "signal_count": 0,
@@ -177,11 +241,14 @@
       "key_insight": "Limited coverage in this period"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 2,
+      "story_count": 33,
+      "top_signals": [
+        "First American & insights - New",
+        "Trump Affordability Buyers"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: first american & insights - new"
     }
   },
   "emerging_patterns": [
@@ -189,29 +256,29 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "IKEA - Room",
-        "FHA & reporting - Trump",
-        "AI & insights - New"
+        "First American & insights - New",
+        "VA & saas - House",
+        "Trump Affordability Buyers"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA - Room",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ikea - room.",
+    "headline": "Focus on Work Submitted Mortgage",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on work submitted mortgage.",
     "key_shifts": [],
     "dominant_themes": [],
     "attention_areas": [
-      "IKEA - Room",
-      "FHA & reporting - Trump",
-      "AI & insights - New"
+      "Work Submitted Mortgage",
+      "First American & insights - New",
+      "VA & saas - House"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?"
     ]
   },
   "macro_observations": [
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "High coverage intensity with 110 stories across 6 themes",
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
