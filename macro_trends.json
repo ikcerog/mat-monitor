@@ -1,27 +1,31 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T08:03:09.917935",
-    "synthesis_period": "March 08 - January 24, 2026",
+    "generated_at": "2026-01-25T08:03:12.868965",
+    "synthesis_period": "Week of January 22 - 25, 2026",
     "data_points": {
-      "total_stories": 110,
-      "total_signals": 6,
-      "time_span_days": 688
+      "total_stories": 60,
+      "total_signals": 5,
+      "time_span_days": 3
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: submitted did applications",
+      "narrative": "Industry movement: ai - bank",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
-        "signal_005"
+        "signal_000",
+        "signal_004"
       ],
-      "story_count": 16,
+      "story_count": 15,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
-        "technologies": [],
+        "brands": [
+          "Bank of America"
+        ],
+        "technologies": [
+          "AI"
+        ],
         "themes": []
       },
       "time_depth": "developing",
@@ -39,41 +43,28 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "insights - Home",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "VA - Today",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Hi Got Keys",
-          "story_count": 8,
+          "id": "signal_002",
+          "name": "Housing Home Market",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 54,
+      "story_count": 10,
       "key_themes": [
-        "equity",
-        "messaging"
+        "equity"
       ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "VA - Today",
-          "story_count": 21,
+          "id": "signal_003",
+          "name": "Rule Real Best",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 4,
       "key_themes": [
         "messaging"
       ]
@@ -82,21 +73,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "insights - Home",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & SaaS - Bold",
-          "story_count": 13,
+          "id": "signal_002",
+          "name": "Housing Home Market",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 38,
+      "story_count": 10,
       "key_themes": [
-        "collaboration",
         "equity"
       ]
     },
@@ -104,36 +88,33 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Bank of America & CrossCountry Mortgage - Affordability",
-          "story_count": 35,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & SaaS - Bold",
-          "story_count": 13,
+          "name": "IKEA & CrossCountry Mortgage - New",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "Submitted Did Applications",
-          "story_count": 8,
+          "id": "signal_000",
+          "name": "AI - Bank",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Bank of America - Affordability",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 56,
-      "key_themes": [
-        "collaboration",
-        "equity"
-      ]
+      "story_count": 46,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 5,
       "declining": 0
     },
     "hot_topics": [],
@@ -142,52 +123,37 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "IKEA",
+        "mentions": 2
+      },
+      {
         "name": "Bank of America",
         "mentions": 1
       },
       {
         "name": "CrossCountry Mortgage",
         "mentions": 1
-      },
-      {
-        "name": "IKEA",
-        "mentions": 1
-      },
-      {
-        "name": "Wayfair",
-        "mentions": 1
-      },
-      {
-        "name": "VA",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 6
-      },
-      {
-        "name": "SaaS",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "insights",
         "mentions": 1
-      },
+      }
+    ],
+    "influential_voices": [
       {
-        "name": "artificial intelligence",
+        "name": "Our Cleaning",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
     "cultural_movements": [
       {
         "theme": "equity",
-        "frequency": 2
-      },
-      {
-        "theme": "collaboration",
         "frequency": 1
       }
     ],
@@ -207,59 +173,56 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 3,
-      "story_count": 54,
+      "signal_count": 1,
+      "story_count": 10,
       "top_signals": [
-        "insights - Home",
-        "VA - Today",
-        "Hi Got Keys"
+        "Housing Home Market"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on insights - home"
+      "key_insight": "Market narrative centered on housing home market"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 38,
+      "signal_count": 1,
+      "story_count": 10,
       "top_signals": [
-        "insights - Home",
-        "AI & SaaS - Bold"
+        "Housing Home Market"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on insights - home"
+      "key_insight": "Cultural emphasis on housing home market"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 21,
+      "story_count": 4,
       "top_signals": [
-        "VA - Today"
+        "Rule Real Best"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: va - today"
+      "key_insight": "Storytelling direction: rule real best"
     }
   },
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "2 new topic(s) appearing",
+      "description": "5 new topic(s) appearing",
       "examples": [
-        "VA - Today",
-        "AI & SaaS - Bold"
+        "IKEA & CrossCountry Mortgage - New",
+        "Housing Home Market",
+        "AI - Bank"
       ],
-      "significance": "medium"
+      "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Bank of America & CrossCountry Mortgage - Affordability",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on bank of america & crosscountry mortgage - affordability.",
+    "headline": "Focus on IKEA & CrossCountry Mortgage - New",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ikea & crosscountry mortgage - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "collaboration"
+      "equity"
     ],
     "attention_areas": [
-      "Bank of America & CrossCountry Mortgage - Affordability",
-      "insights - Home",
-      "VA - Today"
+      "IKEA & CrossCountry Mortgage - New",
+      "Housing Home Market",
+      "AI - Bank"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -267,9 +230,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
