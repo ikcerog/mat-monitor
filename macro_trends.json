@@ -1,27 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T08:04:00.164806",
-    "synthesis_period": "Week of January 22 - 26, 2026",
+    "generated_at": "2026-01-27T08:04:19.377118",
+    "synthesis_period": "March 08 - January 27, 2026",
     "data_points": {
-      "total_stories": 60,
-      "total_signals": 5,
-      "time_span_days": 4
+      "total_stories": 110,
+      "total_signals": 6,
+      "time_span_days": 691
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: laundry say simple",
+      "narrative": "Industry movement: work payment building",
       "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_002",
         "signal_003",
-        "signal_004"
+        "signal_005"
       ],
-      "story_count": 14,
+      "story_count": 35,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "Redfin"
         ],
         "technologies": [],
         "themes": []
@@ -33,46 +34,60 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "Rocket Companies & Rocket Mortgage - Mortgage",
+          "story_count": 18,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 18,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & insights - New",
+          "story_count": 48,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Rocket Companies & Rocket Mortgage - Mortgage",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_002",
-          "name": "Housing Home Market",
-          "story_count": 9,
+          "name": "Work Payment Building",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Redfin - Away",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 94,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "AI & IKEA - Bank",
-          "story_count": 12,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 12,
-      "key_themes": [
-        "messaging"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Housing Home Market",
+          "id": "signal_004",
+          "name": "Submitted Based Software",
           "story_count": 9,
           "momentum": "stable"
         }
@@ -87,24 +102,18 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "insights & CrossCountry Mortgage - Bathroom",
-          "story_count": 25,
+          "name": "AI & insights - New",
+          "story_count": 48,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "Laundry Say Simple",
-          "story_count": 8,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Bank of America - Affordability",
-          "story_count": 6,
+          "id": "signal_005",
+          "name": "Day Valentine Valentine Day",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 55,
       "key_themes": []
     }
   },
@@ -112,7 +121,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 5,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -121,26 +130,42 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Bank of America",
+        "name": "FHA",
+        "mentions": 2
+      },
+      {
+        "name": "Rocket Companies",
         "mentions": 1
       },
       {
-        "name": "CrossCountry Mortgage",
+        "name": "Rocket Mortgage",
         "mentions": 1
       },
       {
-        "name": "IKEA",
+        "name": "blend",
+        "mentions": 1
+      },
+      {
+        "name": "First American",
+        "mentions": 1
+      },
+      {
+        "name": "Redfin",
+        "mentions": 1
+      },
+      {
+        "name": "New American Funding",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "name": "insights",
-        "mentions": 2
+        "mentions": 1
       }
     ],
     "influential_voices": [],
@@ -150,79 +175,77 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "messaging",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "housing_market": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 18,
       "top_signals": [
-        "Housing Home Market"
+        "Rocket Companies & Rocket Mortgage - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on housing home market"
+      "key_insight": "Primary focus on rocket companies & rocket mortgage - mortgage with mixed momentum"
+    },
+    "housing_market": {
+      "signal_count": 4,
+      "story_count": 94,
+      "top_signals": [
+        "AI & insights - New",
+        "Rocket Companies & Rocket Mortgage - Mortgage",
+        "Work Payment Building"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on ai & insights - new"
     },
     "enterprise_culture": {
       "signal_count": 1,
       "story_count": 9,
       "top_signals": [
-        "Housing Home Market"
+        "Submitted Based Software"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on housing home market"
+      "key_insight": "Cultural emphasis on submitted based software"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 12,
-      "top_signals": [
-        "AI & IKEA - Bank"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & ikea - bank"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "5 new topic(s) appearing",
+      "description": "3 new topic(s) appearing",
       "examples": [
-        "insights & CrossCountry Mortgage - Bathroom",
-        "AI & IKEA - Bank",
-        "Housing Home Market"
+        "Rocket Companies & Rocket Mortgage - Mortgage",
+        "Redfin - Away",
+        "Day Valentine Valentine Day"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on insights & CrossCountry Mortgage - Bathroom",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on insights & crosscountry mortgage - bathroom.",
+    "headline": "Focus on AI & insights - New",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - new.",
     "key_shifts": [],
     "dominant_themes": [
       "equity"
     ],
     "attention_areas": [
-      "insights & CrossCountry Mortgage - Bathroom",
-      "AI & IKEA - Bank",
-      "Housing Home Market"
+      "AI & insights - New",
+      "Rocket Companies & Rocket Mortgage - Mortgage",
+      "Work Payment Building"
     ],
     "strategic_questions": [
+      "What's driving technology adoption patterns?",
       "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "High coverage intensity with 110 stories across 6 themes",
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
