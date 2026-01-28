@@ -1,33 +1,61 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T08:04:19.377118",
-    "synthesis_period": "March 08 - January 27, 2026",
+    "generated_at": "2026-01-28T08:03:48.902255",
+    "synthesis_period": "March 08 - January 28, 2026",
     "data_points": {
       "total_stories": 110,
       "total_signals": 6,
-      "time_span_days": 691
+      "time_span_days": 692
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: work payment building",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward first american & u.s. bank - bank",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_002",
-        "signal_003",
-        "signal_005"
+        "signal_005",
+        "signal_004"
       ],
-      "story_count": 35,
+      "story_count": 61,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "First American",
+          "U.S. Bank"
+        ],
+        "technologies": [
+          "AI"
+        ],
+        "themes": [
+          "Equity",
+          "equity",
+          "retention"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Housing market dynamics showing fha & huge - home",
+      "theme": "Housing Market",
+      "supporting_signals": [
+        "signal_002",
+        "signal_003"
+      ],
+      "story_count": 30,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "FHA"
         ],
         "technologies": [],
-        "themes": []
+        "themes": [
+          "equity"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -36,45 +64,47 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_000",
+          "id": "signal_001",
           "name": "Rocket Companies & Rocket Mortgage - Mortgage",
-          "story_count": 18,
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 18,
+      "story_count": 11,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
+          "id": "signal_002",
+          "name": "FHA & huge - Home",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_001",
-          "name": "AI & insights - New",
-          "story_count": 48,
+          "name": "Rocket Companies & Rocket Mortgage - Mortgage",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Rocket Companies & Rocket Mortgage - Mortgage",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Work Payment Building",
-          "story_count": 17,
+          "name": "Los - Closing",
+          "story_count": 8,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Redfin - Away",
-          "story_count": 11,
+          "name": "Stand Friendly Markets",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 94,
-      "key_themes": []
+      "story_count": 49,
+      "key_themes": [
+        "equity"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -86,34 +116,35 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
+          "id": "signal_005",
+          "name": "First American & U.S. Bank - Bank",
+          "story_count": 56,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "FHA & huge - Home",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_004",
-          "name": "Submitted Based Software",
-          "story_count": 9,
+          "name": "AI - Tried",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 85,
       "key_themes": [
-        "equity"
+        "Equity",
+        "equity",
+        "retention"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "AI & insights - New",
-          "story_count": 48,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Day Valentine Valentine Day",
-          "story_count": 7,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 55,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     }
   },
@@ -130,10 +161,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "FHA",
-        "mentions": 2
-      },
-      {
         "name": "Rocket Companies",
         "mentions": 1
       },
@@ -142,29 +169,33 @@
         "mentions": 1
       },
       {
-        "name": "blend",
-        "mentions": 1
-      },
-      {
         "name": "First American",
         "mentions": 1
       },
       {
-        "name": "Redfin",
+        "name": "U.S. Bank",
         "mentions": 1
       },
       {
-        "name": "New American Funding",
+        "name": "FHA",
+        "mentions": 1
+      },
+      {
+        "name": "VA",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
+        "mentions": 4
+      },
+      {
+        "name": "Los",
         "mentions": 2
       },
       {
-        "name": "insights",
+        "name": "Insights",
         "mentions": 1
       }
     ],
@@ -172,6 +203,14 @@
     "cultural_movements": [
       {
         "theme": "equity",
+        "frequency": 2
+      },
+      {
+        "theme": "retention",
+        "frequency": 1
+      },
+      {
+        "theme": "Equity",
         "frequency": 1
       }
     ],
@@ -180,7 +219,7 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 18,
+      "story_count": 11,
       "top_signals": [
         "Rocket Companies & Rocket Mortgage - Mortgage"
       ],
@@ -189,23 +228,25 @@
     },
     "housing_market": {
       "signal_count": 4,
-      "story_count": 94,
+      "story_count": 49,
       "top_signals": [
-        "AI & insights - New",
+        "FHA & huge - Home",
         "Rocket Companies & Rocket Mortgage - Mortgage",
-        "Work Payment Building"
+        "Los - Closing"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & insights - new"
+      "key_insight": "Market narrative centered on fha & huge - home"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 9,
+      "signal_count": 3,
+      "story_count": 85,
       "top_signals": [
-        "Submitted Based Software"
+        "First American & U.S. Bank - Bank",
+        "FHA & huge - Home",
+        "AI - Tried"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on submitted based software"
+      "key_insight": "Cultural emphasis on first american & u.s. bank - bank"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -218,34 +259,35 @@
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "3 new topic(s) appearing",
+      "description": "4 new topic(s) appearing",
       "examples": [
-        "Rocket Companies & Rocket Mortgage - Mortgage",
-        "Redfin - Away",
-        "Day Valentine Valentine Day"
+        "FHA & huge - Home",
+        "Los - Closing",
+        "Stand Friendly Markets"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & insights - New",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - new.",
+    "headline": "Focus on First American & U.S. Bank - Bank",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on first american & u.s. bank - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity"
+      "equity",
+      "Equity"
     ],
     "attention_areas": [
-      "AI & insights - New",
-      "Rocket Companies & Rocket Mortgage - Mortgage",
-      "Work Payment Building"
+      "First American & U.S. Bank - Bank",
+      "FHA & huge - Home",
+      "Rocket Companies & Rocket Mortgage - Mortgage"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?",
       "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
     "High coverage intensity with 110 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
