@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T08:03:48.896324",
+    "generated_at": "2026-01-29T08:27:32.240443",
     "timeframe": {
-      "period": "March 08 - January 28, 2026",
-      "coverage_days": 692,
+      "period": "March 08 - January 29, 2026",
+      "coverage_days": 693,
       "date_range": [
         "2024-03-08",
-        "2026-01-28"
+        "2026-01-29"
       ],
       "total_stories": 110,
       "unique_outlets": 11,
@@ -23,9 +23,9 @@
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "First American & U.S. Bank - Bank (↑56 mentions)",
-        "FHA & huge - Home (↑24 mentions)",
-        "Rocket Companies & Rocket Mortgage - Mortgage (↑11 mentions)"
+        "AI & ai - 2025 (↑38 mentions)",
+        "Wayfair & Rocket Mortgage - House (↑22 mentions)",
+        "Compass & huge - New (↑16 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -33,249 +33,385 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "3 M&A/partnership announcements detected"
+        "8 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
-      "cluster_id": "signal_005",
-      "cluster_name": "First American & U.S. Bank - Bank",
-      "description": "Stories featuring First American, U.S. Bank.",
-      "frequency": 56,
+      "cluster_id": "signal_001",
+      "cluster_name": "AI & ai - 2025",
+      "description": "Stories featuring Wells Fargo, chase focusing on AI, ai, bi.",
+      "frequency": 38,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 56,
+      "story_count": 38,
       "first_seen": "2024-03-08T00:39:36+00:00",
-      "peak_date": "2026-01-28T06:04:18+00:00",
+      "peak_date": "2026-01-29T08:17:09+00:00",
       "outlets": [
-        "Banking Dive - Latest News",
-        "First Time Home Buyer",
-        "HomeOwners & Investors",
+        "Mortgages",
         "Work",
         "Mortgage Professional",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Fintech: financial technology",
+        "HomeOwners & Investors",
+        "Fast Company - leadership",
         "Latest Content - Good Housekeeping",
+        "Banking Dive - Latest News",
         "HousingWire",
-        "Mortgages",
-        "Fast Company - leadership"
+        "Fintech: financial technology",
+        "First Time Home Buyer",
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "What do you actually want from a banking app as a young user?",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-01-27T09:24:07.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1qo9574/what_do_you_actually_want_from_a_banking_app_as_a/",
-          "summary": "We’re trying to understand how young people actually experience banking apps today.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Eastern Bank eschews M&A in face of investor complaint",
+          "title": "Judge rejects HoldCo’s challenge of Comerica-Fifth Third deal",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-26T16:48:11.000Z",
-          "url": "https://www.bankingdive.com/news/eastern-bank-acquisitions-mergers-holdco-earnings/810496/",
-          "summary": "Activist investor HoldCo Asset Management urged the bank to sell to a larger regional, such as M&T. Executives Friday said Eastern, after completing a deal last October, had attained “the size and sca",
+          "date": "2026-01-28T16:26:27.000Z",
+          "url": "https://www.bankingdive.com/news/holdco-lawsuit-comerica-fifth-third-deal-delaware-judge/810725/",
+          "summary": "After the activist investor filed an emergency motion to stall the merger’s closing, set for Feb. 1, a Delaware Court of Chancery judge denied it, saying Monday that HoldCo failed “to clear that high ",
           "relevance_score": 0.85
         },
         {
-          "title": "What do today’s houses have that future buyers will want to remove right away? 😄",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-27T13:28:14.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qodu03/what_do_todays_houses_have_that_future_buyers/",
-          "summary": "Mostly things that are trendy right now 😄",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Looking for input on best corporate cards for startups",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-01-27T20:31:23.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1qopmpq/looking_for_input_on_best_corporate_cards_for/",
-          "summary": "We're looking into corporate card options atm and was wondering what founders on reddit had to say One of the biggest assets that will be mission critical is per card limitations, merchant locks, and ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Why it pays to believe in luck",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-01-27T17:30:00.000Z",
-          "url": "https://www.fastcompany.com/91477575/why-it-pays-to-believe-in-luck?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "The oil tycoon J. Paul Getty was rumoured to have said that his three rules for how to become rich were: Rise early. Work hard. Strike oil. It’s one of those eminently quotable remarks because it capt",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Former Citi exec sues bank, alleging sexual harassment",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-27T17:22:14.000Z",
-          "url": "https://www.bankingdive.com/news/former-citi-exec-sues-bank-alleging-sexual-harassment/810627/",
-          "summary": "Citi’s former global head of platform and experiences said she was subject to a campaign of sexual harassment, manipulation and grooming involving the bank’s wealth chief.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "SEC agrees to dismiss Gemini lawsuit",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-26T17:27:26.000Z",
-          "url": "https://www.bankingdive.com/news/sec-agrees-to-dismiss-gemini-lawsuit/810508/",
-          "summary": "The lawsuit, regarding Gemini Earn, is appropriate to dismiss because its investors have already received 100% of their money back, the SEC said.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Goldman to pay CEO Solomon $47M for 2025",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-26T17:01:27.000Z",
-          "url": "https://www.bankingdive.com/news/goldman-sachs-ceo-solomon-47-million-pay-20-raise-apple-card-waldron-dimon/810505/",
-          "summary": "The payout marks David Solomon’s third consecutive annual raise of 20% or more and likely will make him the best-compensated chief executive among the six biggest U.S. banks.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How payment processing works",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-26T10:00:00.000Z",
-          "url": "https://www.bankingdive.com/spons/how-payment-processing-works/809934/",
-          "summary": "Learn how card payments move from checkout to your bank account.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I f'ed up",
+          "title": "How do you deal with coworkers you don’t trust?",
           "outlet": "Work",
-          "date": "2026-01-27T14:32:47.000Z",
-          "url": "https://www.reddit.com/r/work/comments/1qoffwk/i_fed_up/",
-          "summary": "I recently quit my HR job To be honest, I started to hate the job—I was bad at it, it wasn’t even my area of expertise, and things kept piling up, so I quit Here’s where I really messed up",
+          "date": "2026-01-28T23:51:48.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qpsacx/how_do_you_deal_with_coworkers_you_dont_trust/",
+          "summary": "Hi everyone!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Foreclosure auction volume reaches highest level since Q2 2020",
+          "outlet": "HousingWire",
+          "date": "2026-01-29T05:01:00.000Z",
+          "url": "https://www.housingwire.com/articles/q4-2025-foreclosure-auctions/",
+          "summary": "Foreclosure auction volume rose 48% in Q4 2025, led by Florida, but sales rates fell to a 23-quarter low, Auction.com reported.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Starbucks’ Most Viral Secret Menu Drink Doesn’t Even Have Coffee",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-28T22:37:00.000Z",
+          "url": "https://www.goodhousekeeping.com/food-products/g70177647/starbucks-most-viral-secret-menu-drinks/",
+          "summary": "Plus, more off-menu favorites that dominated the internet in 2025.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Costco's Selling Giant Wine Glasses That Hold 5 Bottles Each, and the Internet's Freaking Out",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-28T22:10:10.000Z",
+          "url": "https://www.goodhousekeeping.com/life/money/a70175669/costco-wine-glasses-2026/",
+          "summary": "Real talk: They aren’t for drinking.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "This Harvard-affiliated study on night owls reveals surprising heart health findings",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-28T16:00:30.000Z",
+          "url": "https://www.fastcompany.com/91482442/this-harvard-affiliated-study-night-owls-reveals-surprising-heart-health-findings?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Being a night owl can be bad for your heart.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Nomura spinoff Laser Digital applies for OCC charter",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-28T19:37:15.000Z",
+          "url": "https://www.bankingdive.com/news/laser-digital-fintech-digital-asset-nomura-national-trust-bank-charter-occ/810768/",
+          "summary": "The digital-asset firm is vying for a national trust banking charter, the same license for which Circle, Ripple and Paxos were conditionally approved.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Wells Fargo, BNP Paribas bolster AI leadership",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-28T16:00:18.000Z",
+          "url": "https://www.bankingdive.com/news/wells-fargo-ai-faraz-shafiq-saul-van-beurden-bnp-paribas/810717/",
+          "summary": "As banks chase AI innovations and efficiencies, they’re hiring executives focused solely on the technology’s growth.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Closing in 10 days. HOA says they won't transfer the \"deeded\" boat slip until I prove competency? (Maryland)",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-28T12:32:39.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qpa438/closing_in_10_days_hoa_says_they_wont_transfer/",
+          "summary": "I’m currently under contract for a waterfront townhouse in Maryland. The main selling point was the deeded deep-water slip that comes with the unit.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "I did it! Rochester NY, 166K, 6%",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-28T14:06:55.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qpca3b/i_did_it_rochester_ny_166k_6/",
+          "summary": "Bought a cute little 3 bedroom cape with a fenced in backyard for my dog this week. Honestly hasn't been a long road for me - this was my first offer - but the stress of homebuying is NO joke. I was s",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "First American",
-          "U.S. Bank"
+          "Wells Fargo",
+          "chase"
+        ],
+        "agencies": [],
+        "technologies": [
+          "AI",
+          "ai",
+          "bi"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [
+          "affordability"
+        ],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "ai",
+        "2025",
+        "submitted",
+        "selling",
+        "study"
+      ]
+    },
+    {
+      "cluster_id": "signal_004",
+      "cluster_name": "Wayfair & Rocket Mortgage - House",
+      "description": "Stories featuring Wayfair, Rocket Mortgage.",
+      "frequency": 22,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 22,
+      "first_seen": "2026-01-28T03:45:25+00:00",
+      "peak_date": "2026-01-29T08:04:00+00:00",
+      "outlets": [
+        "Mortgages",
+        "Work",
+        "Mortgage Professional",
+        "HomeOwners & Investors",
+        "Latest Content - Good Housekeeping",
+        "HousingWire",
+        "Fintech: financial technology",
+        "First Time Home Buyer",
+        "Apartment Therapy| Saving the world, one room at a time"
+      ],
+      "stories": [
+        {
+          "title": "Should I buy a house as a single person or wait until I'm married?",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-28T19:36:36.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qplk1k/should_i_buy_a_house_as_a_single_person_or_wait/",
+          "summary": "I (F27) can afford up to $400k with 20% down payment on my own. However, I have a boyfriend (M29) who just started Law school and will not be financially stable until probably 5 years (full ride thank",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Seller wants to reclaim property 15 days after closing??",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-28T03:45:25.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qp0gkf/seller_wants_to_reclaim_property_15_days_after/",
+          "summary": "Post closed— thank you for the ones who had ACTUAL helpful information! For people who said just give it back, I hope when you buy a house and the previous owner comes back requesting items that they ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Before you buy, have the trees on a property inspected by an Arborist AND plant new appropriate trees ASAP after you buy.",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-28T16:47:01.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qpgmdm/before_you_buy_have_the_trees_on_a_property/",
+          "summary": "If you are buying a new house and the property has trees, have them checked out. Mature trees that are diseased will cost a lot to have removed. “Weed” trees like the Tree of Heaven are invasive and w",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "At what point do crypto payment gateways become core fintech infrastructure rather than a feature?",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-28T20:49:11.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qpnjdf/at_what_point_do_crypto_payment_gateways_become/",
+          "summary": "I’ve been looking more closely at crypto payment gateways from a fintech perspective, and I’m curious how others here think about where they really sit in the stack.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "8 Vintage Items from Your Grandma's House Making a Comeback in 2026",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-28T16:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/trending-vintage-grandma-decor-37536748?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "There’s something so comforting about the vintage trends we’re seeing everywhere right now. Vintage and vintage-inspired pieces are as popular as ever, of course — as are design details like lace, fri",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "8 Kitchen Tools That Have Basically Disappeared Over the Years",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-28T22:41:03.000Z",
+          "url": "https://www.goodhousekeeping.com/life/a70147122/kitchen-tools-that-have-basically-disappeared-over-the-years/",
+          "summary": "Your grandparents probably had most of these in their kitchen. Your kids won’t recognize a single one.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "House-buying power surges as incomes and rates finally align",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-29T06:09:25.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/house-buying-power-surges-as-incomes-and-rates-finally-align/563540",
+          "summary": "Affordability hit a three-year high, but tight inventory kept the recovery fragile",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Would you buy a house if the house next door had a barking dog?",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-29T01:16:27.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qpubeb/would_you_buy_a_house_if_the_house_next_door_had/",
+          "summary": "Would it influence your decision to buy or not buy? Or would you not care?",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "More Owners Under Water?",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-28T16:42:07.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qpghdp/more_owners_under_water/",
+          "summary": "There’s been about 4-5 posts in this thread in the last 24 hours from buyers expressing concerns that their homes have lost significant value in the last couple of years, and there’s been a sharp upti",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Shared driveway advertised but no easement found after public record search. How big of a deal is this?",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-29T02:02:14.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qpvdke/shared_driveway_advertised_but_no_easement_found/",
+          "summary": "Looking at a single family home in a small town in NJ. The listing says “shared alley way with one car parking” and there’s a visible driveway between the house and the neighbor that both seem to use.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "Wayfair",
+          "Rocket Mortgage"
         ],
         "agencies": [],
         "technologies": [],
         "companies": [],
         "people": [],
         "locations": [],
-        "products": [
-          "Ring"
+        "products": [],
+        "metrics": [
+          "Affordability"
         ],
-        "metrics": [],
         "cultural_themes": [
-          "Equity",
-          "equity"
+          "mental health"
         ],
         "storytelling_themes": [],
-        "housing_terms": []
+        "housing_terms": [
+          "down payment"
+        ]
       },
       "related_buzzwords": [
-        "bank",
-        "said",
-        "best",
-        "use",
-        "right"
+        "house",
+        "just",
+        "payment",
+        "buy",
+        "years"
       ]
     },
     {
-      "cluster_id": "signal_002",
-      "cluster_name": "FHA & huge - Home",
-      "description": "Stories featuring FHA.",
-      "frequency": 24,
+      "cluster_id": "signal_005",
+      "cluster_name": "Compass & huge - New",
+      "description": "Stories featuring Compass, OpenDoor, New American Funding.",
+      "frequency": 16,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 24,
-      "first_seen": "2026-01-27T03:14:43+00:00",
-      "peak_date": "2026-01-28T07:19:54+00:00",
+      "story_count": 16,
+      "first_seen": "2026-01-28T10:53:00+00:00",
+      "peak_date": "2026-01-29T08:07:40+00:00",
       "outlets": [
-        "First Time Home Buyer",
-        "HomeOwners & Investors",
+        "Mortgages",
         "Work",
         "Mortgage Professional",
-        "Apartment Therapy| Saving the world, one room at a time",
+        "HomeOwners & Investors",
+        "Fast Company - leadership",
         "HousingWire",
-        "Mortgages",
-        "Fast Company - leadership"
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "Guys I’m about to buy my first home and I’m starting to feel terrified.",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-01-28T00:12:06.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qovhmx/guys_im_about_to_buy_my_first_home_and_im/",
-          "summary": "Ok so at first I was extremely happy and excited My wife and I have a combined gross income of 73k annually Is it normal to feel like this or are we making a huge mistake?",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Seller trying to raise price last minute",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-28T02:24:40.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qoym7n/seller_trying_to_raise_price_last_minute/",
-          "summary": "We put in an offer of $210,000 with 3% concessions on a house listed for $215,000. They countered at asking price, still with 3% concessions. We accepted their counter offer. This house was on the mar",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Home buying in California",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-28T06:41:12.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qp3yfn/home_buying_in_california/",
-          "summary": "Let me start off by saying no one in my family has ever purchased a home so I don’t have access to very much information or people with experience to discuss my plans with We want to purchase our firs",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I finally have enough for a down payment but now I'm too scared to actually buy",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-01-28T03:29:50.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qp04at/i_finally_have_enough_for_a_down_payment_but_now/",
-          "summary": "I've been saving for 5 years. I have 20% down payment saved. Pre-approved for a mortgage. Looking at houses in my budget. Should be exciting, right?",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Is Buying a House Worth It",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-01-27T20:12:43.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qop413/is_buying_a_house_worth_it/",
-          "summary": "For context, my wife and I (both 26) currently rent an apartment for roughly $2,000/mo and pull in $6,000/mo net.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How much house can I afford at 147k salary ?",
+          "title": "Jumbo loan; 5.635% rate with relationship discount; no points; 30-yr fixed. Reasonable?",
           "outlet": "Mortgages",
-          "date": "2026-01-27T21:11:25.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qoqr3v/how_much_house_can_i_afford_at_147k_salary/",
-          "summary": "Take home 3k biweekly after maxing retirement.",
+          "date": "2026-01-29T07:40:04.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qq28p6/jumbo_loan_5635_rate_with_relationship_discount/",
+          "summary": "Received an estimate of 5.625% on a 30-year fixed jumbo loan from a big bank...for purchase of a new construction home.",
           "relevance_score": 0.85
         },
         {
-          "title": "Is $700K home too much for us?",
+          "title": "‘We don’t need rates to fall out of the sky’: Brokers optimistic despite Fed pause",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-28T19:21:38.000Z",
+          "url": "https://www.mpamag.com/us/specialty/wholesale/we-dont-need-rates-to-fall-out-of-the-sky-brokers-optimistic-despite-fed-pause/563484",
+          "summary": "Mortgage professionals hoping for rate stability rather than huge drops in 2026",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "As it happened: Fed holds rates, Powell addresses media",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-28T17:45:00.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/as-it-happened-fed-holds-rates-powell-addresses-media/563476",
+          "summary": "Reaction from Jerome Powell and brokers on the Fed’s first meeting of the year",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "5.875% rate for 780+ credit- good or can I find better?",
           "outlet": "Mortgages",
-          "date": "2026-01-27T18:53:55.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qomukb/is_700k_home_too_much_for_us/",
-          "summary": "My partner and I are looking to buy a new home within the next few months and I’m having some anxiety about what we can afford. My husband has more comfortability with a greater purchase price but I n",
+          "date": "2026-01-29T03:35:46.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qpxibv/5875_rate_for_780_credit_good_or_can_i_find_better/",
+          "summary": "Not paying any points and got my lender to drop his fees from $1995 to $0. Not paying any points. Loan is 835,750 which is the max payment before interest rates jump up for jumbo loan. 30yr fixed. Hou",
           "relevance_score": 0.85
         },
         {
-          "title": "White House proposal would keep Medicare Advantage rates stable in 2027",
+          "title": "New construction loan: To lock or not to lock",
+          "outlet": "Mortgages",
+          "date": "2026-01-29T08:07:40.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qq2pz0/new_construction_loan_to_lock_or_not_to_lock/",
+          "summary": "The home that we are looking to buy will not be ready for ~3months. At this point, does it make sense to lock the rate?",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Remover GF from FHA Mortgage",
+          "outlet": "Mortgages",
+          "date": "2026-01-28T15:13:57.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qpe0yi/remover_gf_from_fha_mortgage/",
+          "summary": "I recently bought a new build and my interest rate is 4.5%. My gf and I are breaking up but she’s on both the mortgage and title with a 70/30 split with me being the 70. We were intending to be engage",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "This 500-Square-Foot London Flat Completely Undoes a Gray “Investor Special”",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-28T17:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/small-london-flat-turned-colorful-37536643?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "This couple turned a bland 120-year-old London flat into a warm, vintage-filled home that feels personal and is layered with color and art.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Rate uptick cools fragile refi rebound, drags mortgage demand lower",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-28T20:00:15.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/rate-uptick-cools-fragile-refi-rebound-drags-mortgage-demand-lower/563486",
+          "summary": "A three‑week high in rates quickly cooled a fragile refinancing rebound",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "15-year vs 30-year mortgage what made you choose one over the other?",
+          "outlet": "Mortgages",
+          "date": "2026-01-28T17:00:46.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qph0es/15year_vs_30year_mortgage_what_made_you_choose/",
+          "summary": "I’m curious how people decide between shorter-term loans and longer ones.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Cardinal Financial launches nondelegated correspondent program",
           "outlet": "HousingWire",
-          "date": "2026-01-27T21:56:05.000Z",
-          "url": "https://www.housingwire.com/articles/white-house-medicare-advantage-rates-2027/",
-          "summary": "The Centers for Medicare and Medicaid Services (CMS) said payments to Medicare Advantage plans would rise by an estimated 0.09% on average in 2027 — far below expectations from Wall Street analysts.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "At what point did you realize your ‘dream home’ was just marketing?",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-28T07:19:54.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qp4mwg/at_what_point_did_you_realize_your_dream_home_was/",
-          "summary": "At first everything looked perfect in the ads and brochures.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We did it! Minnesota, $285k (6.5%)",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-01-27T22:49:48.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qotewc/we_did_it_minnesota_285k_65/",
-          "summary": "submitted by    /u/DeltaMx11",
+          "date": "2026-01-28T19:12:21.000Z",
+          "url": "https://www.housingwire.com/articles/cardinal-non-delegated-program/",
+          "summary": "Cardinal Financial’s new nondelegated correspondent program gives independent lenders access to Octane tech and expanded loan products.",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
+          "Compass",
+          "OpenDoor",
+          "New American Funding",
           "FHA"
         ],
         "agencies": [
@@ -286,192 +422,90 @@
         "people": [],
         "locations": [],
         "products": [
-          "conventional loan"
-        ],
-        "metrics": [],
-        "cultural_themes": [
-          "equity"
-        ],
-        "storytelling_themes": [],
-        "housing_terms": [
-          "down payment",
-          "home prices",
-          "contingency"
-        ]
-      },
-      "related_buzzwords": [
-        "home",
-        "house",
-        "did",
-        "like",
-        "submitted"
-      ]
-    },
-    {
-      "cluster_id": "signal_001",
-      "cluster_name": "Rocket Companies & Rocket Mortgage - Mortgage",
-      "description": "Stories featuring Rocket Companies, Rocket Mortgage, VA focusing on Insights.",
-      "frequency": 11,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 11,
-      "first_seen": "2024-03-22T04:14:24+00:00",
-      "peak_date": "2026-01-28T06:37:14+00:00",
-      "outlets": [
-        "Mortgages",
-        "First Time Home Buyer",
-        "HousingWire",
-        "Mortgage Professional"
-      ],
-      "stories": [
-        {
-          "title": "Rocket faces new class action over alleged mortgage steering",
-          "outlet": "Mortgage Professional",
-          "date": "2026-01-27T14:26:48.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/rocket-faces-new-class-action-over-alleged-mortgage-steering/563282",
-          "summary": "Suit claims referral network pushed borrowers into costlier Rocket Mortgage loans",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Rocket CFO touts ‘all-weather’ model as mortgage market improves",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T20:51:32.000Z",
-          "url": "https://www.housingwire.com/articles/rocket-2026-mortgage-growth/",
-          "summary": "Brian Brown, chief financial officer and treasurer for Rocket Companies, expects continued improvement in the mortgage market in 2026, building on momentum that emerged in the second half of 2025.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mortgage investor claims Cushman & Wakefield inflated appraisals on 25 loans",
-          "outlet": "Mortgage Professional",
-          "date": "2026-01-27T12:32:22.000Z",
-          "url": "https://www.mpamag.com/us/news/general/mortgage-investor-claims-cushman-wakefield-inflated-appraisals-on-25-loans/563271",
-          "summary": "25 loans defaulted. Now a federal lawsuit alleges the appraisals were way off",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Help with Mortgage Rate Shock & Reviewing Refi Options: Current (Sweet) Rate Expiring Soon",
-          "outlet": "Mortgages",
-          "date": "2026-01-28T00:45:40.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qowawf/help_with_mortgage_rate_shock_reviewing_refi/",
-          "summary": "My wife and I live in a HCOL area and have an ongoing primary home mortgage at super sweet low interest rate, which unfortunately will expire in Sep 2026.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "VA Loan Residual Income Marginal – Looking for Veteran Insights",
-          "outlet": "Mortgages",
-          "date": "2026-01-28T06:37:14.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qp3vxi/va_loan_residual_income_marginal_looking_for/",
-          "summary": "Hello everyone,",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Increasing 1099 income mortgage calculation",
-          "outlet": "Mortgages",
-          "date": "2026-01-28T01:01:01.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qowo1q/increasing_1099_income_mortgage_calculation/",
-          "summary": "Hi All,",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mortgage rates steady ahead of Fed meeting as eyes turn to spring housing market",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T18:35:21.000Z",
-          "url": "https://www.housingwire.com/articles/mortgage-rates-fed-spring/",
-          "summary": "Federal Reserve policymakers are set to wrap up what’s expected to be an uneventful two-day meeting on Wednesday. Mortgage rates remain the low-6% range and aren’t likely to swing one way or the other",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Advocates warn Trump credit shake-up risks 2008-style mortgage fallout",
-          "outlet": "Mortgage Professional",
-          "date": "2026-01-27T22:12:59.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/advocates-warn-trump-credit-shake-up-risks-2008-style-mortgage-fallout/563323",
-          "summary": "Groups press FHFA to slow credit score overhaul amid rising delinquencies",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Looking for ideas for Weekly Threads",
-          "outlet": "Mortgages",
-          "date": "2024-03-22T04:14:24.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1bkqnk3/looking_for_ideas_for_weekly_threads/",
-          "summary": "Hi everyone,",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Need a lender! (CA)",
-          "outlet": "Mortgages",
-          "date": "2026-01-28T05:18:40.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1qp2eqn/need_a_lender_ca/",
-          "summary": "Hi everyone! I’m looking to purchase a plot of land, but the lender I spoke to is requiring 30-40% down, is there anyone who knows of any lenders who can lend on the transaction for 10% down??? Thank ",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "Rocket Companies",
-          "Rocket Mortgage",
-          "VA"
-        ],
-        "agencies": [],
-        "technologies": [
-          "Insights"
-        ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [
-          "VA Loan"
+          "jumbo loan",
+          "30-year fixed",
+          "Jumbo loan"
         ],
         "metrics": [
-          "credit score",
-          "Mortgage Rate",
           "interest rate"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
-        "housing_terms": [
-          "housing market"
-        ]
+        "housing_terms": []
       },
       "related_buzzwords": [
+        "new",
+        "rate",
+        "loan",
         "mortgage",
-        "hi",
-        "rocket",
-        "looking",
-        "income"
+        "year"
       ]
     },
     {
       "cluster_id": "signal_000",
-      "cluster_name": "Los - Closing",
-      "description": "Coverage of Los.",
-      "frequency": 8,
+      "cluster_name": "mother - Got",
+      "description": "Cluster of related stories.",
+      "frequency": 12,
       "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 8,
-      "first_seen": "2026-01-27T03:56:00+00:00",
-      "peak_date": "2026-01-28T04:59:52+00:00",
+      "confidence": "high",
+      "story_count": 12,
+      "first_seen": "2025-10-07T10:07:56+00:00",
+      "peak_date": "2026-01-29T07:02:24+00:00",
       "outlets": [
-        "First Time Home Buyer",
-        "HomeOwners & Investors",
-        "Mortgage Professional",
+        "Mortgages",
+        "Fast Company - leadership",
         "HousingWire",
-        "Fast Company - leadership"
+        "Fintech: financial technology",
+        "First Time Home Buyer",
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "RealTrends Verified agent Kevin Stewart joins The Resident Group as partner",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T19:20:37.000Z",
-          "url": "https://www.housingwire.com/articles/kevin-stewart-resident-group-partner/",
-          "summary": "Kevin Stewart joins The Resident Group as a partner after closing $31.8 million in 2024 sales, reuniting with Jon and Lauren Grauman.",
+          "title": "Cold and flu season is disproportionately impacting this group of employees",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-29T06:00:00.000Z",
+          "url": "https://www.fastcompany.com/91479442/cold-and-flu-season-is-hurting-working-mothers?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "It was mid-morning when Nadine Jones got the daycare call every working mother dreads—her son spiked a fever and needed to be picked up.",
           "relevance_score": 0.85
         },
         {
-          "title": "Seller wants to reclaim property 15 days after closing??",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-28T03:45:25.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qp0gkf/seller_wants_to_reclaim_property_15_days_after/",
-          "summary": "Location: Montana",
+          "title": "Building fintech for areas with unreliable internet. How do you approach offline payments?",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-29T07:02:24.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qq1m2l/building_fintech_for_areas_with_unreliable/",
+          "summary": "Interesting problem I'm working on: if you're building payments for emerging markets, you can't assume reliable connectivity.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Building a financial management tool for startups using Plaid. Trying to proof-test",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-28T13:08:08.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qpavje/building_a_financial_management_tool_for_startups/",
+          "summary": "After the past years in fintech and working on my own startup, i came across a lot of founders and small biz owners who struggle with tracking expense and customers, especially with bookkeeping and ex",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Jim Park on appraisal workforce shortage and regulatory shifts",
+          "outlet": "HousingWire",
+          "date": "2026-01-28T21:42:11.000Z",
+          "url": "https://www.housingwire.com/articles/appraisal-industry-challenges/",
+          "summary": "The U.S. appraisal industry faces a shrinking workforce, regulatory changes and new tech requirements, impacting housing and lending.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Update on \"got the keys\" posts",
+          "outlet": "First Time Home Buyer",
+          "date": "2025-10-07T10:07:56.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1o0andx/update_on_got_the_keys_posts/",
+          "summary": "Hi everyone.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "We did it! Washington state, $465k, 5.49%",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-29T01:43:25.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qpuxsz/we_did_it_washington_state_465k_549/",
+          "summary": "Been a long process, closing got pushed back twice. Due to appraisal and sellers lack of motivation to finish repairs but we got er done!",
           "relevance_score": 0.85
         },
         {
@@ -483,246 +517,306 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Broker shares his family’s recipe for closing more deals in a crowded market",
-          "outlet": "Mortgage Professional",
-          "date": "2026-01-27T23:10:36.000Z",
-          "url": "https://www.mpamag.com/us/specialty/wholesale/broker-shares-his-familys-recipe-for-closing-more-deals-in-a-crowded-market/563326",
-          "summary": "Byron taking lessons learned from his father to help his community",
+          "title": "How do y’all not feel like you’re getting fleeced?",
+          "outlet": "Mortgages",
+          "date": "2026-01-29T01:59:28.000Z",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1qpvb2t/how_do_yall_not_feel_like_youre_getting_fleeced/",
+          "summary": "I make decent money, I live in a pretty cheap place To keep this short, I make ~115k a year, my credit score is 604, I got approved for $140000 They are a bit sparse, but I know how to work on things ",
           "relevance_score": 0.85
         },
         {
-          "title": "Onity Group raises $200M in debt, reports strong estimated Q4 earnings",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T22:11:01.000Z",
-          "url": "https://www.housingwire.com/articles/onity-group-debt-earnings/",
-          "summary": "On the back of stronger estimated financial earnings, Onity Group — the parent company of PHH Mortgage Corp and Liberty Reverse Mortgage — raised $200 million through a debt offering to qualified inve",
+          "title": "why does it feel like compliance analysts get all the stress but none of the credit?",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-28T13:51:08.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qpbw0u/why_does_it_feel_like_compliance_analysts_get_all/",
+          "summary": "i’ve been working in compliance/fincrime for a while now, and something that keeps bothering me is how invisible the work feels. when things go wrong, compliance gets blamed, but when things go right,",
           "relevance_score": 0.85
         },
         {
-          "title": "‘Cold call with me’: The new TikTok trend built on phone call awkwardness",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-01-27T20:00:00.000Z",
-          "url": "https://www.fastcompany.com/91480562/cold-call-with-me-the-new-tiktok-trend-built-on-phone-call-awkwardness?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Sales reps, business owners and recruiters are documenting their cold calls online and cashing in on the viral content.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Trump executive order overrides Los Angeles wildfire rebuilding plan",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T21:20:28.000Z",
-          "url": "https://www.housingwire.com/articles/trump-california-wildfire-order/",
-          "summary": "President Donald Trump on Tuesday announced an executive order that allows the federal government to override state and local regulations during recovery efforts from last year’s Los Angeles wildfires",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Realtor took appliances even though it was in the listing",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-01-27T03:56:00.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1qo33nh/realtor_took_appliances_even_though_it_was_in_the/",
-          "summary": "It was listed before the holidays and the house was in our dream neighborhood so we wanted to move fast When we questioned what happened to our appliances, our realtor ended up telling us because it w",
+          "title": "SEC filings in practice",
+          "outlet": "Fintech: financial technology",
+          "date": "2026-01-28T20:38:57.000Z",
+          "url": "https://www.reddit.com/r/fintech/comments/1qpn9oh/sec_filings_in_practice/",
+          "summary": "Question for folks working at the intersection of fintech + public market data",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [],
-        "agencies": [],
-        "technologies": [
-          "Los"
+        "agencies": [
+          "mother"
         ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": [
-          "inspection",
-          "escrow"
-        ]
-      },
-      "related_buzzwords": [
-        "closing",
-        "group",
-        "million",
-        "los",
-        "cold"
-      ]
-    },
-    {
-      "cluster_id": "signal_003",
-      "cluster_name": "Stand Friendly Markets",
-      "description": "Cluster of related stories.",
-      "frequency": 6,
-      "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 6,
-      "first_seen": "2026-01-23T17:21:25+00:00",
-      "peak_date": "2026-01-27T19:18:10+00:00",
-      "outlets": [
-        "Banking Dive - Latest News",
-        "First Time Home Buyer",
-        "Mortgage Professional",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "HousingWire",
-        "Fast Company - leadership"
-      ],
-      "stories": [
-        {
-          "title": "Here are the US's top 10 buyer-friendly markets",
-          "outlet": "Mortgage Professional",
-          "date": "2026-01-27T08:35:40.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/here-are-the-uss-top-10-buyer-friendly-markets/563240",
-          "summary": "Midwest and Sun Belt stand out on affordability",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Smith Douglas Homes promotes Scott Bowles to Regional President",
-          "outlet": "HousingWire",
-          "date": "2026-01-27T19:18:10.000Z",
-          "url": "https://www.housingwire.com/articles/smith-douglas-southeast-expansion/",
-          "summary": "On Monday, Smith Douglas Homes announced the creation of a new role — Regional President, Southeast The new position comes as the Georgia-based builder expanded into several new southeastern markets l",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "FDIC conditionally approves Ford, GM ILC charters",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-01-23T17:21:25.000Z",
-          "url": "https://www.bankingdive.com/news/fdic-conditionally-approves-ford-gm-ilc-charters/810377/",
-          "summary": "Both automakers must stand up their respective banks within 12 months. After that, they must maintain a minimum 15% tier 1 leverage ratio.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A neuroscientist’s 10 signs you’re doing better in life than you think",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-01-27T09:30:00.000Z",
-          "url": "https://www.fastcompany.com/91480344/a-neuroscientists-10-signs-youre-doing-better-than-you-think-in-life?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Many people spend an incredible amount of time worrying about how to be more successful in life. But what if that’s the wrong question? What if the real struggle for lots of us isn’t how to be success",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Second offer rejected due to inspection in contract",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-01-27T16:03:32.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qohwj9/second_offer_rejected_due_to_inspection_in/",
-          "summary": "Long story short - we've put two offers on this house, we know at least one other offer fell through from another interested buyer. The first time it was rejected because they wanted to stay in the ho",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "This Small-Space-Friendly Gem Is Going to Keep Me Cozy for the Rest of Winter (It’s Under $50!)",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-01-27T18:45:00.000Z",
-          "url": "https://www.apartmenttherapy.com/dreo-space-heater-qvc-deal-january-2026-37536690?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "It packs a punch!",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [],
         "technologies": [],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
         "metrics": [
-          "affordability"
+          "credit score"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
         "housing_terms": [
-          "inspection"
+          "appraisal",
+          "escrow"
         ]
       },
       "related_buzzwords": [
-        "stand",
-        "friendly",
-        "markets",
-        "10",
-        "buyer"
+        "got",
+        "working",
+        "appraisal",
+        "cold",
+        "fintech"
       ]
     },
     {
-      "cluster_id": "signal_004",
-      "cluster_name": "AI - Tried",
-      "description": "Coverage of AI.",
-      "frequency": 5,
+      "cluster_id": "signal_003",
+      "cluster_name": "U.S. Bank - Said",
+      "description": "Stories featuring U.S. Bank.",
+      "frequency": 11,
       "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 5,
-      "first_seen": "2026-01-27T10:58:04+00:00",
-      "peak_date": "2026-01-28T05:45:27+00:00",
+      "confidence": "high",
+      "story_count": 11,
+      "first_seen": "2026-01-26T17:27:26+00:00",
+      "peak_date": "2026-01-29T05:51:46+00:00",
       "outlets": [
-        "Fast Company - leadership",
-        "Latest Content - Good Housekeeping",
+        "Work",
+        "Mortgage Professional",
+        "Banking Dive - Latest News",
         "HousingWire",
-        "Fintech: financial technology"
+        "First Time Home Buyer"
       ],
       "stories": [
         {
-          "title": "I Tried the 30-Second Declutter Trick — Here’s What Happened",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-01-27T22:51:00.000Z",
-          "url": "https://www.goodhousekeeping.com/home/organizing/a70162924/30-sec-declutter-test/",
-          "summary": "This strategy can can help you make quick decisions and spend less time decluttering.",
+          "title": "Former Citi exec sues bank, alleging sexual harassment",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-27T17:22:14.000Z",
+          "url": "https://www.bankingdive.com/news/former-citi-exec-sues-bank-alleging-sexual-harassment/810627/",
+          "summary": "Citi’s former global head of platform and experiences said she was subject to a campaign of sexual harassment, manipulation and grooming involving the bank’s wealth chief.",
           "relevance_score": 0.85
         },
         {
-          "title": "Taskrabbit’s founder: AI is making traditional skills obsolete",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-01-27T12:49:00.000Z",
-          "url": "https://www.fastcompany.com/91466669/ai-is-making-skills-obsolete-creativity-is-the-new-work-currency-ai-transforming-work-skills-creativity?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "In 2008, we published the first listing on a bare-bones website called RunMyErrand.com: a single task, posted by someone who needed help, to be completed by an individual who had opted into making the",
+          "title": "U.S. Bank CEO, other Minnesota execs seek ‘de-escalation’",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-27T16:59:01.000Z",
+          "url": "https://www.bankingdive.com/news/us-bank-ceo-kedia-minneapolis-execs-ice-protests/810624/",
+          "summary": "Gunjan Kedia and other CEOs of large Minnesota-based companies urged local and federal officials to collaborate on “real solutions” in the wake of a second shooting death by federal immigration agents",
           "relevance_score": 0.85
         },
         {
-          "title": "Vertyx adds AI-powered borrower retention tools to servicing platform",
+          "title": "SEC agrees to dismiss Gemini lawsuit",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-26T17:27:26.000Z",
+          "url": "https://www.bankingdive.com/news/sec-agrees-to-dismiss-gemini-lawsuit/810508/",
+          "summary": "The lawsuit, regarding Gemini Earn, is appropriate to dismiss because its investors have already received 100% of their money back, the SEC said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Gen X investors are confident, but they often lack formal retirement plans",
           "outlet": "HousingWire",
-          "date": "2026-01-27T19:40:12.000Z",
-          "url": "https://www.housingwire.com/articles/ai-borrower-retention-vertyx/",
-          "summary": "Mortgage servicing technology provider Vertyx on Tuesday announced the release of a new Borrower Relationship Management capability that aims to help servicers and investors identify borrower retentio",
+          "date": "2026-01-28T22:39:00.000Z",
+          "url": "https://www.housingwire.com/articles/gen-x-investors-retirement-plans/",
+          "summary": "Forty percent of Gen Xers said they do not have a formal written financial plan. Among those who do, half created the plan independently.",
           "relevance_score": 0.85
         },
         {
-          "title": "AI fatigue in fintech is real. And it’s getting worse",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-01-27T10:58:04.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1qoaraw/ai_fatigue_in_fintech_is_real_and_its_getting/",
-          "summary": "I’m seeing more and more fintech products slap “AI-powered” on the landing page, but very few actually understand finance deeply enough to deserve it.",
+          "title": "Miami’s foreign money wave pushes condo market into new territory",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-29T05:51:46.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/miamis-foreign-money-wave-pushes-condo-market-into-new-territory/563534",
+          "summary": "Global capital kept flowing into Miami property even as local headwinds intensified",
           "relevance_score": 0.85
         },
         {
-          "title": "Anyone here tried an AI headshot Pro generator yet?",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-01-28T05:45:27.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1qp2xft/anyone_here_tried_an_ai_headshot_pro_generator_yet/",
-          "summary": "Curious what",
+          "title": "Federal Reserve announces first rate decision of 2026",
+          "outlet": "Mortgage Professional",
+          "date": "2026-01-28T19:00:00.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/federal-reserve-announces-first-rate-decision-of-2026/563448",
+          "summary": "After three straight cuts, the central bank makes its first move of the year",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Prosperity Bank continues its Texas tear",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-28T17:32:27.000Z",
+          "url": "https://www.bankingdive.com/news/prosperity-to-buy-stellar-bank-houston-2-billion-texas/810741/",
+          "summary": "The Houston-based lender agreed to buy Stellar Bank in a roughly $2 billion deal expected to close in the second quarter. The transaction would be Prosperity’s third announced acquisition since July.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Under contract but worrying Termite Inspection report?",
+          "outlet": "First Time Home Buyer",
+          "date": "2026-01-29T00:48:04.000Z",
+          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1qptni8/under_contract_but_worrying_termite_inspection/",
+          "summary": "We are under contract for a home in Pittsburg, CA. The home looks incredible and perfect for us but termite report came back and said there were active termites in the crawlspace. Report recommended t",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "NAR, .RealEstate helping Realtors build online presence",
+          "outlet": "HousingWire",
+          "date": "2026-01-28T20:10:33.000Z",
+          "url": "https://www.housingwire.com/articles/nar-realestate-helping-realtors-build-online-presence/",
+          "summary": "The platform includes new website technology, onboarding tools and features to help agents establish an online presence more quickly.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Ally taps former acting OCC chief as policy adviser",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-01-27T16:39:44.000Z",
+          "url": "https://www.bankingdive.com/news/ally-financial-hood-occ-policy-adviser-rhodes/810622/",
+          "summary": "Rodney Hood, who has served as acting comptroller of the currency and chair of the National Credit Union Administration, will serve as a senior policy adviser to Ally CEO Michael Rhodes.",
           "relevance_score": 0.85
         }
       ],
       "entities": {
-        "brands": [],
-        "agencies": [],
-        "technologies": [
-          "AI"
+        "brands": [
+          "U.S. Bank"
         ],
+        "agencies": [],
+        "technologies": [],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": [
+          "Inspection"
+        ]
+      },
+      "related_buzzwords": [
+        "bank",
+        "said",
+        "head",
+        "federal",
+        "investors"
+      ]
+    },
+    {
+      "cluster_id": "signal_002",
+      "cluster_name": "IKEA - Best",
+      "description": "Stories featuring IKEA.",
+      "frequency": 11,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 11,
+      "first_seen": "2026-01-28T06:04:18+00:00",
+      "peak_date": "2026-01-29T06:00:00+00:00",
+      "outlets": [
+        "Work",
+        "HomeOwners & Investors",
+        "Fast Company - leadership",
+        "Latest Content - Good Housekeeping",
+        "Apartment Therapy| Saving the world, one room at a time"
+      ],
+      "stories": [
+        {
+          "title": "The Best Sewing Machines, According to Testing by Sewing Pros",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-29T05:11:00.000Z",
+          "url": "https://www.goodhousekeeping.com/appliances/g16/sewing-machine-reviews/",
+          "summary": "It's time for your own Project Runway at home.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "If work leaves you no time for life, try this calendar trick",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-28T07:00:00.000Z",
+          "url": "https://www.fastcompany.com/91481229/if-work-leaves-you-no-time-for-life-try-this-calendar-trick?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "When people complain about a lack of work-life balance, they’re typically feeling that they are spending too much time working. They may be spending a lot of combined time at the office and commuting,",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The 22 Best Deals to Shop This Week from Dyson, IKEA, and More",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-28T22:15:00.000Z",
+          "url": "https://www.apartmenttherapy.com/best-home-lifestyle-deals-of-the-week-37510533?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "I even got you some exclusive discounts!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "We Spent Three Weeks Tasting Espresso to Find the Best Machines",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-28T22:44:00.000Z",
+          "url": "https://www.goodhousekeeping.com/appliances/coffee-maker-reviews/g29069348/best-espresso-machines/",
+          "summary": "We've made over 50 cups of espresso to find the best machines.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The world’s best talent has stopped dreaming of America. Where will it go next?",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-01-29T06:00:00.000Z",
+          "url": "https://www.fastcompany.com/91477829/the-worlds-top-talent-has-stopped-dreaming-of-america?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "For a generation, the smartest people I knew dreamed of moving to America.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Talking shit about everyone at work normal?",
+          "outlet": "Work",
+          "date": "2026-01-28T15:22:43.000Z",
+          "url": "https://www.reddit.com/r/work/comments/1qpe9ds/talking_shit_about_everyone_at_work_normal/",
+          "summary": "Is it normal for a workplace where everyone talks shit about everyone else? It's a fucking nightmare and my anxiety and stress levels are so high because of it. People are miserable and they dig into ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The Best National LEGO Day Deals to Shop Right Now — Up to 30% Off!",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-01-28T21:45:00.000Z",
+          "url": "https://www.apartmenttherapy.com/best-national-lego-day-deals-2026-37536871?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "Flowers, gemstones, and more!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "10 Best Luxury Mattress of 2026, Tested by Textiles Pros",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-01-28T23:25:00.000Z",
+          "url": "https://www.goodhousekeeping.com/home-products/g44675390/best-luxury-mattress/",
+          "summary": "Our pros say these pricey mattresses are worth the splurge.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "My condo dropped 32% in 4 years",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-28T06:04:18.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qp3afs/my_condo_dropped_32_in_4_years/",
+          "summary": "I bought a 1 bed condo in Dt oakland in 2020, and have been looking at comps in my building as I’ve been thinking of moving.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Asking someone to sell their unlisted home.",
+          "outlet": "HomeOwners & Investors",
+          "date": "2026-01-28T23:29:17.000Z",
+          "url": "https://www.reddit.com/r/RealEstate/comments/1qprqd8/asking_someone_to_sell_their_unlisted_home/",
+          "summary": "Im moving back to my home town after over 20 years. My father built the house I grew up in and I've been considering asking if theyd be interested in selling. My first assumption is I'd need to offer ",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "IKEA"
+        ],
+        "agencies": [],
+        "technologies": [],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
         "metrics": [],
         "cultural_themes": [
-          "retention"
+          "work-life balance"
         ],
         "storytelling_themes": [],
-        "housing_terms": []
+        "housing_terms": [
+          "closing costs"
+        ]
       },
       "related_buzzwords": [
-        "ai",
-        "tried",
-        "powered",
-        "ai powered",
-        "time"
+        "best",
+        "pros",
+        "moving",
+        "machines",
+        "people"
       ]
     }
   ],
@@ -731,22 +825,34 @@
     "building": [],
     "lasting": [
       {
-        "name": "First American & U.S. Bank - Bank",
+        "name": "AI & ai - 2025",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 56,
+        "mention_count": 38,
         "key_players": [
-          "First American",
-          "U.S. Bank"
+          "Wells Fargo",
+          "chase"
         ]
       },
       {
-        "name": "FHA & huge - Home",
+        "name": "Wayfair & Rocket Mortgage - House",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 24,
+        "mention_count": 22,
         "key_players": [
-          "FHA"
+          "Wayfair",
+          "Rocket Mortgage"
+        ]
+      },
+      {
+        "name": "Compass & huge - New",
+        "duration_weeks": 12,
+        "stability_score": 0.85,
+        "mention_count": 16,
+        "key_players": [
+          "Compass",
+          "OpenDoor",
+          "New American Funding"
         ]
       }
     ]
@@ -756,19 +862,33 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "AI - Tried",
+        "shift": "AI & ai - 2025",
         "drivers": [
-          "AI"
+          "AI",
+          "ai",
+          "bi"
         ],
         "timeline": "12-18 months",
-        "adoption_stage": "early adopters"
+        "adoption_stage": "early majority"
       }
     ]
   },
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in AI - Tried",
+        "risk": "AI implementation challenges in AI & ai - 2025",
+        "probability": "medium",
+        "impact": "high",
+        "mitigation": "Human oversight and quality control processes"
+      },
+      {
+        "risk": "AI implementation challenges in Wayfair & Rocket Mortgage - House",
+        "probability": "medium",
+        "impact": "high",
+        "mitigation": "Human oversight and quality control processes"
+      },
+      {
+        "risk": "AI implementation challenges in U.S. Bank - Said",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -780,34 +900,34 @@
   },
   "north_star_questions": [
     {
-      "question": "What are the long-term implications of First American & U.S. Bank - Bank for market structure?",
-      "category": "Market Dynamics",
-      "signals": [
-        "signal_005"
-      ],
-      "urgency": "medium"
-    },
-    {
-      "question": "How do consumers perceive brand authenticity when first american & u.s. bank - bank?",
-      "category": "Cultural Impact",
-      "signals": [
-        "signal_005"
-      ],
-      "urgency": "medium"
-    },
-    {
-      "question": "How will AI - Tried reshape competitive dynamics in the industry?",
+      "question": "How will AI & ai - 2025 reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
-        "signal_004"
+        "signal_001"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "question": "What are the long-term implications of AI & ai - 2025 for market structure?",
+      "category": "Market Dynamics",
+      "signals": [
+        "signal_001"
+      ],
+      "urgency": "medium"
+    },
+    {
+      "question": "How do consumers perceive brand authenticity when ai & ai - 2025?",
+      "category": "Cultural Impact",
+      "signals": [
+        "signal_001"
       ],
       "urgency": "medium"
     }
   ],
   "raw_data_summary": {
     "total_articles": 110,
-    "articles_with_full_content": 60,
-    "unique_entities_extracted": 26,
+    "articles_with_full_content": 57,
+    "unique_entities_extracted": 29,
     "clusters_identified": 6,
     "outliers": 0
   }
