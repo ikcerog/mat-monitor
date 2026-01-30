@@ -1,37 +1,39 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T08:27:32.246710",
-    "synthesis_period": "March 08 - January 29, 2026",
+    "generated_at": "2026-01-30T08:25:51.812904",
+    "synthesis_period": "March 08 - January 30, 2026",
     "data_points": {
       "total_stories": 110,
       "total_signals": 6,
-      "time_span_days": 693
+      "time_span_days": 694
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: compass & huge - new",
+      "narrative": "Industry movement: ikea - cabinet",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_000",
-        "signal_003"
+        "signal_003",
+        "signal_001",
+        "signal_004",
+        "signal_005"
       ],
-      "story_count": 39,
+      "story_count": 76,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Compass",
-          "OpenDoor",
-          "New American Funding",
-          "FHA",
+          "IKEA",
+          "VA",
           "U.S. Bank"
         ],
-        "technologies": [],
+        "technologies": [
+          "Dashboard",
+          "SaaS"
+        ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -40,56 +42,39 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & ai - 2025",
-          "story_count": 38,
+          "id": "signal_000",
+          "name": "PennyMac & Rocket Companies - Mortgage",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Wayfair & Rocket Mortgage - House",
-          "story_count": 22,
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Life",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 60,
-      "key_themes": [
-        "mental health"
-      ]
+      "story_count": 34,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Wayfair & Rocket Mortgage - House",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "mother - Got",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "U.S. Bank - Said",
-          "story_count": 11,
+          "name": "IKEA - Cabinet",
+          "story_count": 32,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "IKEA - Best",
-          "story_count": 11,
+          "name": "AI & artificial intelligence - Life",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 56,
-      "key_themes": [
-        "mental health",
-        "work-life balance"
-      ]
+      "story_count": 44,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -99,43 +84,39 @@
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [
-        {
-          "id": "signal_004",
-          "name": "Wayfair & Rocket Mortgage - House",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "IKEA - Best",
-          "story_count": 11,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 33,
-      "key_themes": [
-        "mental health",
-        "work-life balance"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & ai - 2025",
-          "story_count": 38,
+          "name": "Dashboard - Company",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Life",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "VA & SaaS - Best",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Compass & huge - New",
-          "story_count": 16,
+          "name": "U.S. Bank - Ceo",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 54,
+      "story_count": 56,
       "key_themes": []
     }
   },
@@ -152,7 +133,23 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Compass",
+        "name": "U.S. Bank",
+        "mentions": 2
+      },
+      {
+        "name": "VA",
+        "mentions": 2
+      },
+      {
+        "name": "PennyMac",
+        "mentions": 1
+      },
+      {
+        "name": "Rocket Companies",
+        "mentions": 1
+      },
+      {
+        "name": "FHA",
         "mentions": 1
       },
       {
@@ -160,11 +157,7 @@
         "mentions": 1
       },
       {
-        "name": "Wayfair",
-        "mentions": 1
-      },
-      {
-        "name": "Rocket Mortgage",
+        "name": "Mr. Cooper",
         "mentions": 1
       },
       {
@@ -174,82 +167,61 @@
       {
         "name": "chase",
         "mentions": 1
-      },
-      {
-        "name": "U.S. Bank",
-        "mentions": 1
-      },
-      {
-        "name": "OpenDoor",
-        "mentions": 1
-      },
-      {
-        "name": "New American Funding",
-        "mentions": 1
-      },
-      {
-        "name": "FHA",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 4
+        "mentions": 6
       },
       {
-        "name": "ai",
+        "name": "artificial intelligence",
+        "mentions": 2
+      },
+      {
+        "name": "reporting",
         "mentions": 1
       },
       {
-        "name": "bi",
+        "name": "Dashboard",
+        "mentions": 1
+      },
+      {
+        "name": "SaaS",
         "mentions": 1
       }
     ],
     "influential_voices": [],
-    "cultural_movements": [
-      {
-        "theme": "work-life balance",
-        "frequency": 1
-      },
-      {
-        "theme": "mental health",
-        "frequency": 1
-      }
-    ],
+    "cultural_movements": [],
     "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 2,
-      "story_count": 60,
+      "story_count": 34,
       "top_signals": [
-        "AI & ai - 2025",
-        "Wayfair & Rocket Mortgage - House"
+        "PennyMac & Rocket Companies - Mortgage",
+        "AI & artificial intelligence - Life"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & ai - 2025 with mixed momentum"
+      "key_insight": "Primary focus on pennymac & rocket companies - mortgage with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 4,
-      "story_count": 56,
+      "signal_count": 2,
+      "story_count": 44,
       "top_signals": [
-        "Wayfair & Rocket Mortgage - House",
-        "mother - Got",
-        "U.S. Bank - Said"
+        "IKEA - Cabinet",
+        "AI & artificial intelligence - Life"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on wayfair & rocket mortgage - house"
+      "key_insight": "Market narrative centered on ikea - cabinet"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 33,
-      "top_signals": [
-        "Wayfair & Rocket Mortgage - House",
-        "IKEA - Best"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wayfair & rocket mortgage - house"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -262,36 +234,31 @@
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "4 new topic(s) appearing",
+      "description": "3 new topic(s) appearing",
       "examples": [
-        "Wayfair & Rocket Mortgage - House",
-        "Compass & huge - New",
-        "U.S. Bank - Said"
+        "PennyMac & Rocket Companies - Mortgage",
+        "VA & SaaS - Best",
+        "U.S. Bank - Ceo"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & ai - 2025",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ai - 2025.",
+    "headline": "Focus on IKEA - Cabinet",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea - cabinet.",
     "key_shifts": [],
-    "dominant_themes": [
-      "mental health",
-      "work-life balance"
-    ],
+    "dominant_themes": [],
     "attention_areas": [
-      "AI & ai - 2025",
-      "Wayfair & Rocket Mortgage - House",
-      "Compass & huge - New"
+      "IKEA - Cabinet",
+      "Dashboard - Company",
+      "PennyMac & Rocket Companies - Mortgage"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?",
-      "How are cultural shifts influencing industry direction?"
+      "What's driving technology adoption patterns?"
     ]
   },
   "macro_observations": [
     "High coverage intensity with 110 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Strong cultural/workplace narrative emerging"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
