@@ -1,32 +1,31 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T08:28:48.888863",
-    "synthesis_period": "Week of January 30 - 04, 2026",
+    "generated_at": "2026-02-05T08:32:16.288019",
+    "synthesis_period": "Week of February 03 - 05, 2026",
     "data_points": {
       "total_stories": 60,
       "total_signals": 5,
-      "time_span_days": 5
+      "time_span_days": 2
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: huge - worth",
+      "narrative": "Industry movement: new buyers buildings",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
+        "signal_001",
         "signal_000",
-        "signal_001"
+        "signal_002"
       ],
-      "story_count": 20,
+      "story_count": 19,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "JPMorgan Chase",
+          "U.S. Bank"
         ],
-        "technologies": [
-          "AI"
-        ],
+        "technologies": [],
         "themes": []
       },
       "time_depth": "emerging",
@@ -38,40 +37,26 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Bank",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Experian & reporting - Mortgage",
+          "id": "signal_000",
+          "name": "JPMorgan Chase & U.S. Bank - Bank",
           "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 8,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Bank",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "Experian & reporting - Mortgage",
+          "name": "Market Housing Market Housing",
           "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 8,
       "key_themes": [
         "equity"
       ]
@@ -86,20 +71,21 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Bank",
-          "story_count": 32,
+          "id": "signal_004",
+          "name": "AI & Compass - Work",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Experian & reporting - Mortgage",
+          "name": "Market Housing Market Housing",
           "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 41,
       "key_themes": [
+        "collaboration",
         "equity"
       ]
     },
@@ -107,32 +93,27 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Bank",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_004",
-          "name": "Huge - Worth",
-          "story_count": 8,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "IKEA - Way",
-          "story_count": 6,
+          "name": "AI & Compass - Work",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI - Day",
-          "story_count": 6,
+          "name": "New Buyers Buildings",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Wool Mattress Better",
+          "story_count": 3,
           "momentum": "stable"
         }
       ],
-      "story_count": 52,
+      "story_count": 44,
       "key_themes": [
+        "collaboration",
         "equity"
       ]
     }
@@ -150,41 +131,25 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Experian",
+        "name": "Compass",
         "mentions": 1
       },
       {
-        "name": "IKEA",
-        "mentions": 1
-      },
-      {
-        "name": "Redfin",
-        "mentions": 1
-      },
-      {
-        "name": "Rocket Mortgage",
+        "name": "JPMorgan Chase",
         "mentions": 1
       },
       {
         "name": "U.S. Bank",
-        "mentions": 1
-      },
-      {
-        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 4
+        "mentions": 5
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "reporting",
         "mentions": 1
       }
     ],
@@ -193,40 +158,42 @@
       {
         "theme": "equity",
         "frequency": 2
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 8,
       "top_signals": [
-        "AI & artificial intelligence - Bank",
-        "Experian & reporting - Mortgage"
+        "JPMorgan Chase & U.S. Bank - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - bank with mixed momentum"
+      "key_insight": "Primary focus on jpmorgan chase & u.s. bank - bank with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 2,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 8,
       "top_signals": [
-        "AI & artificial intelligence - Bank",
-        "Experian & reporting - Mortgage"
+        "Market Housing Market Housing"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & artificial intelligence - bank"
+      "key_insight": "Market narrative centered on market housing market housing"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 40,
+      "story_count": 41,
       "top_signals": [
-        "AI & artificial intelligence - Bank",
-        "Experian & reporting - Mortgage"
+        "AI & Compass - Work",
+        "Market Housing Market Housing"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - bank"
+      "key_insight": "Cultural emphasis on ai & compass - work"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -241,24 +208,25 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "AI & artificial intelligence - Bank",
-        "Huge - Worth",
-        "Experian & reporting - Mortgage"
+        "AI & Compass - Work",
+        "New Buyers Buildings",
+        "Market Housing Market Housing"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Bank",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - bank.",
+    "headline": "Focus on AI & Compass - Work",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ai & compass - work.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity"
+      "equity",
+      "collaboration"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Bank",
-      "Huge - Worth",
-      "Experian & reporting - Mortgage"
+      "AI & Compass - Work",
+      "New Buyers Buildings",
+      "Market Housing Market Housing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -267,6 +235,7 @@
   },
   "macro_observations": [
     "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
   ]
 }
