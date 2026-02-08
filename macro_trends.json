@@ -1,32 +1,40 @@
 {
   "meta": {
-    "generated_at": "2026-02-07T08:06:50.776469",
-    "synthesis_period": "March 08 - February 07, 2026",
+    "generated_at": "2026-02-08T08:21:03.992555",
+    "synthesis_period": "March 08 - February 08, 2026",
     "data_points": {
       "total_stories": 110,
       "total_signals": 6,
-      "time_span_days": 702
+      "time_span_days": 703
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: year crisis job",
+      "narrative": "Industry movement: compass & zillow - hi",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
+        "signal_002",
+        "signal_004",
+        "signal_005",
         "signal_003"
       ],
-      "story_count": 18,
+      "story_count": 81,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "VA",
+          "Compass",
+          "Zillow",
+          "Pottery Barn",
+          "USDA"
         ],
-        "technologies": [],
+        "technologies": [
+          "UI"
+        ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -35,13 +43,13 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Zillow - Estate",
-          "story_count": 12,
+          "id": "signal_000",
+          "name": "AI & artificial intelligence - Fintech",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
+      "story_count": 7,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -49,48 +57,31 @@
       "signals": [
         {
           "id": "signal_002",
-          "name": "Opendoor & opendoor - Just",
-          "story_count": 42,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Realtor.com & AI - Mortgage",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "huge - Home",
-          "story_count": 17,
+          "name": "Compass & Zillow - Hi",
+          "story_count": 49,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & Zillow - Estate",
-          "story_count": 12,
+          "name": "Bank of America & United Wholesale Mortgage - Mortgage",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Just Bank New",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 92,
-      "key_themes": [
-        "Case Study"
-      ]
+      "story_count": 82,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "Opendoor & opendoor - Just",
-          "story_count": 42,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 42,
-      "key_themes": [
-        "Case Study"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
@@ -102,25 +93,25 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Zillow - Estate",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Year Crisis Job",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "Redfin - Work",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Bank of America - Chief",
-          "story_count": 9,
+          "name": "VA - Refinance",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & artificial intelligence - Fintech",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 28,
       "key_themes": []
     }
   },
@@ -137,7 +128,15 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "VA",
+        "mentions": 2
+      },
+      {
         "name": "Zillow",
+        "mentions": 2
+      },
+      {
+        "name": "Redfin",
         "mentions": 2
       },
       {
@@ -149,15 +148,7 @@
         "mentions": 1
       },
       {
-        "name": "VA",
-        "mentions": 1
-      },
-      {
         "name": "Compass",
-        "mentions": 1
-      },
-      {
-        "name": "Redfin",
         "mentions": 1
       },
       {
@@ -165,22 +156,22 @@
         "mentions": 1
       },
       {
+        "name": "Pottery Barn",
+        "mentions": 1
+      },
+      {
         "name": "United Wholesale Mortgage",
         "mentions": 1
       },
       {
-        "name": "Opendoor",
-        "mentions": 1
-      },
-      {
-        "name": "opendoor",
+        "name": "USDA",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 8
+        "mentions": 6
       },
       {
         "name": "artificial intelligence",
@@ -193,33 +184,28 @@
     ],
     "influential_voices": [],
     "cultural_movements": [],
-    "storytelling_approaches": [
-      {
-        "approach": "Case Study",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 12,
+      "story_count": 7,
       "top_signals": [
-        "AI & Zillow - Estate"
+        "AI & artificial intelligence - Fintech"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & zillow - estate with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - fintech with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 4,
-      "story_count": 92,
+      "signal_count": 3,
+      "story_count": 82,
       "top_signals": [
-        "Opendoor & opendoor - Just",
-        "Realtor.com & AI - Mortgage",
-        "huge - Home"
+        "Compass & Zillow - Hi",
+        "Bank of America & United Wholesale Mortgage - Mortgage",
+        "Just Bank New"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on opendoor & opendoor - just"
+      "key_insight": "Market narrative centered on compass & zillow - hi"
     },
     "enterprise_culture": {
       "signal_count": 0,
@@ -229,36 +215,34 @@
       "key_insight": "Limited coverage in this period"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 42,
-      "top_signals": [
-        "Opendoor & opendoor - Just"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: opendoor & opendoor - just"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "4 new topic(s) appearing",
+      "description": "3 new topic(s) appearing",
       "examples": [
-        "huge - Home",
-        "AI & Zillow - Estate",
-        "Year Crisis Job"
+        "Bank of America & United Wholesale Mortgage - Mortgage",
+        "Just Bank New",
+        "AI & artificial intelligence - Fintech"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Opendoor & opendoor - Just",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on opendoor & opendoor - just.",
+    "headline": "Focus on Compass & Zillow - Hi",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on compass & zillow - hi.",
     "key_shifts": [],
     "dominant_themes": [],
     "attention_areas": [
-      "Opendoor & opendoor - Just",
-      "Realtor.com & AI - Mortgage",
-      "huge - Home"
+      "Compass & Zillow - Hi",
+      "Bank of America & United Wholesale Mortgage - Mortgage",
+      "Just Bank New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?"
