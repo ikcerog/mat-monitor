@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-12T08:33:58.163138",
-    "synthesis_period": "Week of February 09 - 12, 2026",
+    "generated_at": "2026-02-13T08:32:54.734248",
+    "synthesis_period": "Week of February 10 - 13, 2026",
     "data_points": {
       "total_stories": 60,
       "total_signals": 5,
@@ -11,29 +11,24 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Housing market dynamics showing redfin - home",
-      "theme": "Housing Market",
+      "narrative": "Industry movement: west elm & pennymac - new",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_001"
+        "signal_000",
+        "signal_003"
       ],
-      "story_count": 17,
+      "story_count": 20,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin",
-          "PennyMac",
+          "West Elm",
           "Pennymac",
-          "Zillow"
+          "Wells Fargo"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "accessibility"
+          "reporting"
         ],
-        "themes": [
-          "equity"
-        ]
+        "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -44,35 +39,52 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Wells Fargo - Bank",
-          "story_count": 10,
+          "id": "signal_002",
+          "name": "insights & JPMorgan Chase - Time",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "digital mortgage & Pennymac - Reverse",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "reporting & Wells Fargo - Fraud",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 42,
       "key_themes": [
-        "psychological safety"
+        "DEI",
+        "Equity",
+        "collaboration",
+        "equity"
       ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Redfin - Home",
-          "story_count": 9,
+          "id": "signal_001",
+          "name": "digital mortgage & Pennymac - Reverse",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Market",
-          "story_count": 8,
+          "id": "signal_003",
+          "name": "reporting & Wells Fargo - Fraud",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 21,
       "key_themes": [
+        "Equity",
+        "collaboration",
         "equity"
       ]
     },
@@ -86,47 +98,43 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Wells Fargo - Bank",
-          "story_count": 10,
+          "id": "signal_002",
+          "name": "insights & JPMorgan Chase - Time",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "Redfin - Home",
-          "story_count": 9,
+          "id": "signal_001",
+          "name": "digital mortgage & Pennymac - Reverse",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 19,
+      "story_count": 33,
       "key_themes": [
-        "equity",
-        "psychological safety"
+        "DEI",
+        "Equity",
+        "collaboration",
+        "equity"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & Pottery Barn - Style",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Market",
-          "story_count": 8,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_000",
-          "name": "insights - Day",
-          "story_count": 6,
+          "name": "West Elm & Pennymac - New",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ceo",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 41,
+      "story_count": 18,
       "key_themes": []
     }
   },
@@ -143,53 +151,41 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "PennyMac",
-        "mentions": 1
-      },
-      {
         "name": "Pennymac",
-        "mentions": 1
-      },
-      {
-        "name": "Zillow",
-        "mentions": 1
-      },
-      {
-        "name": "Pottery Barn",
-        "mentions": 1
-      },
-      {
-        "name": "Redfin",
-        "mentions": 1
-      },
-      {
-        "name": "Fannie Mae",
-        "mentions": 1
-      },
-      {
-        "name": "Mr. Cooper",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "Wells Fargo",
+        "mentions": 2
+      },
+      {
+        "name": "West Elm",
+        "mentions": 1
+      },
+      {
+        "name": "UWM",
+        "mentions": 1
+      },
+      {
+        "name": "JPMorgan Chase",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 3
+        "mentions": 4
+      },
+      {
+        "name": "insights",
+        "mentions": 2
       },
       {
         "name": "artificial intelligence",
         "mentions": 1
       },
       {
-        "name": "accessibility",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
+        "name": "digital mortgage",
         "mentions": 1
       },
       {
@@ -197,19 +193,22 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [
-      {
-        "name": "Texas Capital",
-        "mentions": 1
-      }
-    ],
+    "influential_voices": [],
     "cultural_movements": [
       {
         "theme": "equity",
         "frequency": 1
       },
       {
-        "theme": "psychological safety",
+        "theme": "Equity",
+        "frequency": 1
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
+        "theme": "DEI",
         "frequency": 1
       }
     ],
@@ -217,32 +216,35 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 10,
+      "signal_count": 3,
+      "story_count": 42,
       "top_signals": [
-        "Wells Fargo - Bank"
+        "insights & JPMorgan Chase - Time",
+        "digital mortgage & Pennymac - Reverse",
+        "reporting & Wells Fargo - Fraud"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wells fargo - bank with mixed momentum"
+      "key_insight": "Primary focus on insights & jpmorgan chase - time with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 8,
+      "signal_count": 2,
+      "story_count": 21,
       "top_signals": [
-        "AI & artificial intelligence - Market"
+        "digital mortgage & Pennymac - Reverse",
+        "reporting & Wells Fargo - Fraud"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & artificial intelligence - market"
+      "key_insight": "Market narrative centered on digital mortgage & pennymac - reverse"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 19,
+      "story_count": 33,
       "top_signals": [
-        "Wells Fargo - Bank",
-        "Redfin - Home"
+        "insights & JPMorgan Chase - Time",
+        "digital mortgage & Pennymac - Reverse"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wells fargo - bank"
+      "key_insight": "Cultural emphasis on insights & jpmorgan chase - time"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -257,25 +259,25 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "AI & Pottery Barn - Style",
-        "Wells Fargo - Bank",
-        "Redfin - Home"
+        "insights & JPMorgan Chase - Time",
+        "digital mortgage & Pennymac - Reverse",
+        "West Elm & Pennymac - New"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Pottery Barn - Style",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ai & pottery barn - style.",
+    "headline": "Focus on insights & JPMorgan Chase - Time",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on insights & jpmorgan chase - time.",
     "key_shifts": [],
     "dominant_themes": [
-      "psychological safety",
+      "DEI",
       "equity"
     ],
     "attention_areas": [
-      "AI & Pottery Barn - Style",
-      "Wells Fargo - Bank",
-      "Redfin - Home"
+      "insights & JPMorgan Chase - Time",
+      "digital mortgage & Pennymac - Reverse",
+      "West Elm & Pennymac - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -284,6 +286,7 @@
   },
   "macro_observations": [
     "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
   ]
 }
