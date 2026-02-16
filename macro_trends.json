@@ -1,29 +1,32 @@
 {
   "meta": {
-    "generated_at": "2026-02-15T08:21:58.072501",
-    "synthesis_period": "Week of February 11 - 15, 2026",
+    "generated_at": "2026-02-16T08:35:04.199073",
+    "synthesis_period": "Week of February 11 - 16, 2026",
     "data_points": {
       "total_stories": 60,
       "total_signals": 5,
-      "time_span_days": 4
+      "time_span_days": 5
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: stewart title & u.s. bank - bank",
+      "narrative": "Industry movement: u.s. bank & ai - ceo",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
-        "signal_003"
+        "signal_000",
+        "signal_002",
+        "signal_001"
       ],
-      "story_count": 18,
+      "story_count": 23,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Stewart Title",
           "U.S. Bank",
-          "JPMorgan Chase"
+          "Wells Fargo",
+          "Realtor.com",
+          "Redfin",
+          "Zillow"
         ],
         "technologies": [
           "AI"
@@ -39,53 +42,33 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Stewart Title & U.S. Bank - Bank",
-          "story_count": 11,
+          "id": "signal_003",
+          "name": "Stewart Title & IKEA - Mortgage",
+          "story_count": 29,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "Pennymac & UWM - Mortgage",
-          "story_count": 9,
+          "id": "signal_000",
+          "name": "U.S. Bank & AI - Ceo",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
+      "story_count": 40,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Old Republic & IKEA - Time",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Stewart Title & U.S. Bank - Bank",
-          "story_count": 11,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "Pennymac & UWM - Mortgage",
-          "story_count": 9,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Real Real Estate Estate",
-          "story_count": 6,
+          "id": "signal_003",
+          "name": "Stewart Title & IKEA - Mortgage",
+          "story_count": 29,
           "momentum": "stable"
         }
       ],
-      "story_count": 53,
-      "key_themes": [
-        "DEI"
-      ]
+      "story_count": 29,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -97,13 +80,13 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Old Republic & IKEA - Time",
-          "story_count": 27,
+          "id": "signal_004",
+          "name": "Like Work Job",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 27,
+      "story_count": 8,
       "key_themes": [
         "DEI"
       ]
@@ -112,13 +95,19 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Institute Housekeeping Institute Housekeeping",
-          "story_count": 7,
+          "id": "signal_002",
+          "name": "Realtor.com & Redfin - Organizers",
+          "story_count": 6,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Wayfair - Presidents Day",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 7,
+      "story_count": 12,
       "key_themes": []
     }
   },
@@ -135,15 +124,27 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "Realtor.com",
+        "mentions": 1
+      },
+      {
+        "name": "Redfin",
+        "mentions": 1
+      },
+      {
+        "name": "Zillow",
+        "mentions": 1
+      },
+      {
         "name": "Stewart Title",
         "mentions": 1
       },
       {
-        "name": "Old Republic",
+        "name": "IKEA",
         "mentions": 1
       },
       {
-        "name": "IKEA",
+        "name": "Wayfair",
         "mentions": 1
       },
       {
@@ -159,23 +160,11 @@
         "mentions": 1
       },
       {
-        "name": "Mr. Cooper",
-        "mentions": 1
-      },
-      {
         "name": "JPMorgan Chase",
-        "mentions": 1
-      },
-      {
-        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
-      {
-        "name": "reporting",
-        "mentions": 1
-      },
       {
         "name": "AI",
         "mentions": 1
@@ -193,33 +182,31 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 2,
-      "story_count": 20,
+      "story_count": 40,
       "top_signals": [
-        "Stewart Title & U.S. Bank - Bank",
-        "Pennymac & UWM - Mortgage"
+        "Stewart Title & IKEA - Mortgage",
+        "U.S. Bank & AI - Ceo"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on stewart title & u.s. bank - bank with mixed momentum"
+      "key_insight": "Primary focus on stewart title & ikea - mortgage with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 4,
-      "story_count": 53,
+      "signal_count": 1,
+      "story_count": 29,
       "top_signals": [
-        "Old Republic & IKEA - Time",
-        "Stewart Title & U.S. Bank - Bank",
-        "Pennymac & UWM - Mortgage"
+        "Stewart Title & IKEA - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on old republic & ikea - time"
+      "key_insight": "Market narrative centered on stewart title & ikea - mortgage"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 27,
+      "story_count": 8,
       "top_signals": [
-        "Old Republic & IKEA - Time"
+        "Like Work Job"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on old republic & ikea - time"
+      "key_insight": "Cultural emphasis on like work job"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -234,24 +221,24 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "Old Republic & IKEA - Time",
-        "Stewart Title & U.S. Bank - Bank",
-        "Pennymac & UWM - Mortgage"
+        "Stewart Title & IKEA - Mortgage",
+        "U.S. Bank & AI - Ceo",
+        "Like Work Job"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Old Republic & IKEA - Time",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on old republic & ikea - time.",
+    "headline": "Focus on Stewart Title & IKEA - Mortgage",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on stewart title & ikea - mortgage.",
     "key_shifts": [],
     "dominant_themes": [
       "DEI"
     ],
     "attention_areas": [
-      "Old Republic & IKEA - Time",
-      "Stewart Title & U.S. Bank - Bank",
-      "Pennymac & UWM - Mortgage"
+      "Stewart Title & IKEA - Mortgage",
+      "U.S. Bank & AI - Ceo",
+      "Like Work Job"
     ],
     "strategic_questions": [
       "How are cultural shifts influencing industry direction?"
