@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-17T08:34:15.227096",
-    "synthesis_period": "Week of February 11 - 17, 2026",
+    "generated_at": "2026-02-18T08:34:34.223864",
+    "synthesis_period": "Week of February 12 - 18, 2026",
     "data_points": {
       "total_stories": 60,
       "total_signals": 5,
@@ -11,52 +11,25 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: reporting & ikea - just",
+      "narrative": "Industry movement: west elm & ikea - ceo",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_004"
+        "signal_004",
+        "signal_000",
+        "signal_001"
       ],
-      "story_count": 31,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "West Elm",
           "IKEA",
-          "JPMorgan Chase",
-          "Coldwell Banker",
-          "U.S. Bank"
+          "Bank of America",
+          "Pottery Barn",
+          "Redfin"
         ],
-        "technologies": [
-          "reporting",
-          "AI"
-        ],
+        "technologies": [],
         "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Housing market dynamics showing ai & insights - home",
-      "theme": "Housing Market",
-      "supporting_signals": [
-        "signal_001",
-        "signal_000"
-      ],
-      "story_count": 19,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Wells Fargo",
-          "Home Depot"
-        ],
-        "technologies": [
-          "AI",
-          "insights"
-        ],
-        "themes": [
-          "equity"
-        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -67,49 +40,27 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "reporting & IKEA - Just",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & insights - Home",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "Pennymac & UWM - Mortgage",
+          "name": "AI & artificial intelligence - Mortgage",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 43,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 10,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & insights - Home",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Home Depot - Presidents",
-          "story_count": 6,
+          "name": "Redfin - Affordability",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 19,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 7,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -121,37 +72,41 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & insights - Home",
-          "story_count": 13,
+          "id": "signal_003",
+          "name": "insights - New",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 13,
+      "story_count": 12,
       "key_themes": [
-        "equity"
+        "collaboration"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & insights - Home",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "West Elm & IKEA - Ceo",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & Coldwell Banker - Bank",
-          "story_count": 11,
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Mortgage",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Pottery Barn - Best",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 24,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 41,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -167,7 +122,11 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Coldwell Banker",
+        "name": "West Elm",
+        "mentions": 1
+      },
+      {
+        "name": "Pottery Barn",
         "mentions": 1
       },
       {
@@ -175,37 +134,25 @@
         "mentions": 1
       },
       {
-        "name": "Home Depot",
+        "name": "Redfin",
         "mentions": 1
       },
       {
-        "name": "Pennymac",
+        "name": "Rocket Mortgage",
         "mentions": 1
       },
       {
-        "name": "UWM",
-        "mentions": 1
-      },
-      {
-        "name": "U.S. Bank",
-        "mentions": 1
-      },
-      {
-        "name": "JPMorgan Chase",
-        "mentions": 1
-      },
-      {
-        "name": "Wells Fargo",
+        "name": "Bank of America",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 3
+        "mentions": 4
       },
       {
-        "name": "reporting",
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -213,10 +160,15 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "New Robinhood",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
-        "theme": "equity",
+        "theme": "collaboration",
         "frequency": 1
       }
     ],
@@ -224,33 +176,31 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 3,
-      "story_count": 43,
+      "signal_count": 1,
+      "story_count": 10,
       "top_signals": [
-        "reporting & IKEA - Just",
-        "AI & insights - Home",
-        "Pennymac & UWM - Mortgage"
+        "AI & artificial intelligence - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on reporting & ikea - just with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - mortgage with mixed momentum"
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 13,
+      "story_count": 7,
       "top_signals": [
-        "AI & insights - Home"
+        "Redfin - Affordability"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & insights - home"
+      "key_insight": "Market narrative centered on redfin - affordability"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 13,
+      "story_count": 12,
       "top_signals": [
-        "AI & insights - Home"
+        "insights - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & insights - home"
+      "key_insight": "Cultural emphasis on insights - new"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -265,24 +215,24 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "reporting & IKEA - Just",
-        "AI & insights - Home",
-        "AI & Coldwell Banker - Bank"
+        "West Elm & IKEA - Ceo",
+        "insights - New",
+        "AI & artificial intelligence - Mortgage"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on reporting & IKEA - Just",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on reporting & ikea - just.",
+    "headline": "Focus on West Elm & IKEA - Ceo",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on west elm & ikea - ceo.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity"
+      "collaboration"
     ],
     "attention_areas": [
-      "reporting & IKEA - Just",
-      "AI & insights - Home",
-      "AI & Coldwell Banker - Bank"
+      "West Elm & IKEA - Ceo",
+      "insights - New",
+      "AI & artificial intelligence - Mortgage"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
