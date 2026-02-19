@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-02-18T08:34:34.219275",
+    "generated_at": "2026-02-19T08:32:49.118988",
     "timeframe": {
-      "period": "Week of February 12-18, 2026",
-      "coverage_days": 6,
+      "period": "Week of February 17-19, 2026",
+      "coverage_days": 2,
       "date_range": [
-        "2026-02-12",
-        "2026-02-18"
+        "2026-02-17",
+        "2026-02-19"
       ],
       "total_stories": 60,
       "unique_outlets": 6,
@@ -22,9 +22,9 @@
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "West Elm & IKEA - Ceo (↑23 mentions)",
-        "insights - New (↑12 mentions)",
-        "AI & artificial intelligence - Mortgage (↑10 mentions)"
+        "insights & huge - Mortgage (↑41 mentions)",
+        "JPMorgan Chase & Bank of America - Bank (↑7 mentions)",
+        "AI & Artificial intelligence - Agents (↑6 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -32,288 +32,60 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "3 M&A/partnership announcements detected"
+        "1 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
-      "cluster_id": "signal_004",
-      "cluster_name": "West Elm & IKEA - Ceo",
-      "description": "Stories featuring West Elm, IKEA, Bank of America.",
-      "frequency": 23,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 23,
-      "first_seen": "2026-02-12T17:11:16+00:00",
-      "peak_date": "2026-02-18T01:36:38+00:00",
-      "outlets": [
-        "Latest Content - Good Housekeeping",
-        "HousingWire",
-        "Fast Company - leadership",
-        "Mortgage Professional",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Banking Dive - Latest News"
-      ],
-      "stories": [
-        {
-          "title": "Dive Deposits: Want a bigger raise? Don’t be a long-tenured bank CEO",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-17T16:46:47.000Z",
-          "url": "https://www.bankingdive.com/news/bank-of-america-bofa-ceo-pay-moynihan-41-million-17-raise-tenure/812342/",
-          "summary": "Bank of America’s $41 million payday for Brian Moynihan shows two trends: Newer big-bank CEOs received larger raises. And Moynihan’s 2025 compensation may have been held back by a comparatively better",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Morgan Stanley pays CEO Pick $45M for 2025",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-12T17:11:16.000Z",
-          "url": "https://www.bankingdive.com/news/morgan-stanley-45-milion-pay-ted-pick-gorman-dimon-solomon-32-percent-raise-scharf-fairbank-40/812104/",
-          "summary": "The package adds to evidence that $40 million is the emerging benchmark by which big-bank CEO annual compensation is measured.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "United’s Dan Duffy on the ‘perfect storm’: Why positioning, not productivity, will define the next brokerage cycle",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T20:06:33.000Z",
-          "url": "https://www.housingwire.com/articles/united-real-estate-growth-strategy/",
-          "summary": "For Dan Duffy, CEO of United Real Estate Group, the current market is not defined by disruption alone It is defined by positioning — years of deliberate preparation colliding with a period of industry",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "5 Expert-Approved Ways to Prep Your Garden for Spring",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-17T21:17:18.000Z",
-          "url": "https://www.goodhousekeeping.com/home/gardening/a70396251/ways-to-prep-your-garden-for-spring/",
-          "summary": "Follow these practical steps to set your garden up for success.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Citi pays CEO Fraser $42M for 2025",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-13T17:28:21.000Z",
-          "url": "https://www.bankingdive.com/news/citi-pay-ceo-jane-fraser-42-million-21-percent-raise-mexico-russia-tech-modernization-occ-reorg/812235/",
-          "summary": "The bank touted progress in modernizing its tech, continuing to exit foreign retail markets and marching toward the medium-term goal of its reorganization.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Chicago suburb sues Fifth Third for ex-mayor’s alleged theft",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-13T17:28:21.000Z",
-          "url": "https://www.bankingdive.com/news/chicago-suburb-sues-fifth-third-for-ex-mayors-alleged-theft/812234/",
-          "summary": "Fifth Third acted in violation of “reasonable” banking standards by allowing Dolton’s then-mayor to cash $1.9 million in vendor checks without the village clerk’s signature, a lawsuit alleged.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Goldman legal chief resigns over Epstein ties",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-13T16:15:49.000Z",
-          "url": "https://www.bankingdive.com/news/goldman-legal-chief-ruemmler-resigns-over-epstein-ties/812218/",
-          "summary": "Kathryn Ruemmler will leave the bank June 30, after the Justice Department’s release of Epstein-related documents revealed the extent of her ties to the late financier and convicted sex offender.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Exclusive: UMortgage rolls out flat-fee broker compensation model",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T19:35:17.000Z",
-          "url": "https://www.housingwire.com/articles/umortgage-flat-fee-loan-officers/",
-          "summary": "UMortgage is rolling out a flat-fee broker model that waives certain charges for originators who close more than 50 loans per year, part of a broader push to more than quadruple its sales force to 1,0",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "This Once-Blank Wall Is Now a Warm, Character-Filled Entryway",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-18T01:36:38.000Z",
-          "url": "https://www.apartmenttherapy.com/white-entryway-makeover-arched-mirror-ba-37538148?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "“Making the entryway extra special” was on these DIYers’ to-do list when they moved in.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I Just Discovered This “Gorgeous” West Elm Floor Lamp for Just $30 (I’m in Shock)",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-17T21:00:00.000Z",
-          "url": "https://www.apartmenttherapy.com/west-elm-sculptural-floor-lamp-37539683?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "It’s not even on sale. How is this possible?",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "West Elm",
-          "IKEA",
-          "Bank of America"
-        ],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "ceo",
-        "bank",
-        "entryway",
-        "perfect",
-        "just"
-      ]
-    },
-    {
-      "cluster_id": "signal_003",
-      "cluster_name": "insights - New",
-      "description": "Coverage of insights.",
-      "frequency": 12,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 12,
-      "first_seen": "2026-02-15T09:00:00+00:00",
-      "peak_date": "2026-02-18T01:45:00+00:00",
-      "outlets": [
-        "Latest Content - Good Housekeeping",
-        "HousingWire",
-        "Fast Company - leadership",
-        "Mortgage Professional",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Banking Dive - Latest News"
-      ],
-      "stories": [
-        {
-          "title": "The new math of land deals in Texas growth corridors",
-          "outlet": "HousingWire",
-          "date": "2026-02-18T01:45:00.000Z",
-          "url": "https://www.housingwire.com/articles/texas-land-residual-value-vs-speculation-dallas-reset/",
-          "summary": "Two people can look at the same parcel of land and come away with wildly different ideas and “facts” that determine how to value it. While there are more than three categories of landowner, most can b",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "5 things to remember on your journey to excellence",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-16T09:00:00.000Z",
-          "url": "https://www.fastcompany.com/91492999/5-things-to-remember-on-your-journey-to-excellence?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Below, Brad Stulberg shares five key insights from his new book, The Way of Excellence: A Guide to True Greatness and Deep Satisfaction in a Chaotic World.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "This Kitchen Staple Looks Even Better in the Bedroom",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-17T20:15:00.000Z",
-          "url": "https://www.apartmenttherapy.com/salt-and-pepper-floral-style-trend-instagram-37539067?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "You’ll never look at this vintage find the same way again.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The Space-Saving Appliances That Will Change the Way You Think About Your Small Kitchen",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-17T16:27:50.000Z",
-          "url": "https://www.apartmenttherapy.com/the-space-saving-appliances-that-will-change-the-way-you-think-about-your-small-kitchen-37538042?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "As a New Yorker who shares in a converted two-bedroom apartment, life feels most claustrophobic in my kitchen, where meal prep, entertaining, and cleanup all must happen within a few square feet I che",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Rayse, OneKey MLS partner on agent value tools in New York",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T20:40:56.000Z",
-          "url": "https://www.housingwire.com/articles/rayse-onekey-mls-partner-on-agent-value-tools-in-new-york/",
-          "summary": "Rayse has partnered with OneKey Multiple Listing Service (MLS) to offer its agent value and transparency platform as an enhanced member benefit to more than 43,000 Realtors serving Long Island, Manhat",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "‘Grind mode’? ‘Routine maxxing’? Social media debates the ‘best’ full-on approach to work",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-16T08:00:00.000Z",
-          "url": "https://www.fastcompany.com/91491163/grind-mode-routine-maxxing-social-media-debates-the-best-full-on-approach-to-work?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "A viral X post from late last year pitted images depicting two hustle-culture lifestyles side by side: tech bro hoodie and Notes app icon on one side, a business suit and a copy of Cal Newport’s Deep ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A first-lien HELOC? One originator changing the way brokers think about the product",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-17T12:59:37.000Z",
-          "url": "https://www.mpamag.com/us/specialty/wholesale/a-first-lien-heloc-one-originator-changing-the-way-brokers-think-about-the-product/565372",
-          "summary": "The product that one executive says could change the industry",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "New Robinhood CFO takes seat amid ‘crypto winter’",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-17T12:00:00.000Z",
-          "url": "https://www.bankingdive.com/news/new-robinhood-cfo-steps-amid-crypto-winter-verma/812341/",
-          "summary": "The trading platform’s newly appointed CFO Shiv Verma assured shareholders the company is “long-term bullish” on crypto, while stressing ongoing product diversification.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The new forces shaping for financial trust",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-17T10:00:00.000Z",
-          "url": "https://www.bankingdive.com/spons/the-new-forces-shaping-for-financial-trust/811915/",
-          "summary": "How financial services CIOs should harness powerful forces to protect trust and enable growth.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "<strong>I’m a Garden Writer, and These Are the First Things I Plant in Spring</strong>",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-17T22:13:03.000Z",
-          "url": "https://www.goodhousekeeping.com/home/gardening/a70280240/im-a-garden-writer-and-these-are-the-first-things-i-plant-in-spring/",
-          "summary": "Here’s what I’m prioritizing for the upcoming season.",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [],
-        "technologies": [
-          "insights"
-        ],
-        "companies": [],
-        "people": [
-          "New Robinhood"
-        ],
-        "locations": [],
-        "products": [
-          "HELOC"
-        ],
-        "metrics": [],
-        "cultural_themes": [
-          "collaboration"
-        ],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "new",
-        "growth",
-        "way",
-        "value",
-        "product"
-      ]
-    },
-    {
       "cluster_id": "signal_002",
-      "cluster_name": "AI & artificial intelligence - Mortgage",
-      "description": "Stories featuring Rocket Mortgage focusing on AI, artificial intelligence.",
-      "frequency": 10,
+      "cluster_name": "insights & huge - Mortgage",
+      "description": "Stories featuring RE/MAX focusing on insights.",
+      "frequency": 41,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 10,
-      "first_seen": "2026-02-16T09:00:00+00:00",
-      "peak_date": "2026-02-17T22:03:56+00:00",
+      "story_count": 41,
+      "first_seen": "2026-02-17T16:37:04+00:00",
+      "peak_date": "2026-02-19T08:07:00+00:00",
       "outlets": [
         "Fast Company - leadership",
+        "Apartment Therapy| Saving the world, one room at a time",
+        "HousingWire",
+        "Latest Content - Good Housekeeping",
         "Mortgage Professional",
-        "Banking Dive - Latest News",
-        "HousingWire"
+        "Banking Dive - Latest News"
       ],
       "stories": [
         {
-          "title": "Fed moves to pull mortgages back into banking fold",
+          "title": "Bank capital relief may not quickly shift mortgage market dynamics",
+          "outlet": "HousingWire",
+          "date": "2026-02-18T22:38:30.000Z",
+          "url": "https://www.housingwire.com/articles/fed-mortgage-capital-rules/",
+          "summary": "Regulatory changes to how banks treat mortgage assets — anticipated this week by Federal Reserve Vice Chair Michelle Bowman — may have an impact on the mortgage market over time, analysts said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Long-term unemployment affects 1 in 4 U.S. job seekers",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-18T18:30:00.000Z",
+          "url": "https://www.fastcompany.com/91494005/long-term-unemployment-affects-1-in-4-u-s-job-seekers?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "It now takes more than 23 weeks on average for an unemployed person in the US to find a new job. For 1 in 4 unemployed people, or 1.8 million Americans, they are still job hunting six months later.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "What the Fed’s new mortgage banking push could mean for brokers",
           "outlet": "Mortgage Professional",
-          "date": "2026-02-17T14:46:24.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/fed-moves-to-pull-mortgages-back-into-banking-fold/565593",
-          "summary": "Bowman outlines plan to address 'significant migration' of mortgage origination away from the banking channel",
+          "date": "2026-02-18T21:35:54.000Z",
+          "url": "https://www.mpamag.com/us/specialty/wholesale/what-the-feds-new-mortgage-banking-push-could-mean-for-brokers/565802",
+          "summary": "As the Fed moves to lure banks back into mortgages, what's next for the broker channel?",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Fed official dangles ‘several’ cuts, but only if inflation behaves",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-18T17:50:54.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/fed-official-dangles-several-cuts-but-only-if-inflation-behaves/565783",
+          "summary": "Goolsbee’s cautious optimism kept mortgage markets guessing on how far rates could fall",
           "relevance_score": 0.85
         },
         {
@@ -325,277 +97,156 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Mortgage industry failing Spanish-speaking buyers as Hispanic homeownership surges, says broker",
+          "title": "Concierge program offers upfront prep funds for @properties Christie’s International Real Estate sellers",
+          "outlet": "HousingWire",
+          "date": "2026-02-18T21:05:47.000Z",
+          "url": "https://www.housingwire.com/articles/concierge-home-prep-loans/",
+          "summary": "@properties Concierge lets sellers borrow up to $50,000 for home prep, with no payments until closing or 12 months.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Oprah-Loved Olive Oil Brand Just Dropped a New Flavor—and We're Obsessed",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-18T21:25:00.000Z",
+          "url": "https://www.goodhousekeeping.com/food-products/a70329770/brightland-sumo-citrus-olive-oil/",
+          "summary": "Sumo Citrus fans, this one’s for you.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "New data reveals huge opportunity for brokers when purchase mortgages surge",
           "outlet": "Mortgage Professional",
-          "date": "2026-02-17T12:59:58.000Z",
-          "url": "https://www.mpamag.com/us/specialty/wholesale/mortgage-industry-failing-spanish-speaking-buyers-as-hispanic-homeownership-surges-says-broker/565373",
-          "summary": "Why the language barrier is holding back Hispanic buyers",
+          "date": "2026-02-18T21:40:57.000Z",
+          "url": "https://www.mpamag.com/us/specialty/wholesale/new-data-reveals-huge-opportunity-for-brokers-when-purchase-mortgages-surge/565803",
+          "summary": "Surprising data from JD Power about loyalty in purchase transactions",
           "relevance_score": 0.85
         },
         {
-          "title": "Borrower sues Rocket Mortgage, MERS over Mississippi foreclosure",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-17T12:48:10.000Z",
-          "url": "https://www.mpamag.com/us/news/general/borrower-sues-rocket-mortgage-mers-over-mississippi-foreclosure/565578",
-          "summary": "The allegations go beyond foreclosure — loan assignments are in the crosshairs",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Delta Media powers unified digital platform for Keyes and Illustrated Properties",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T22:03:56.000Z",
-          "url": "https://www.housingwire.com/articles/delta-media-keyes-platform/",
-          "summary": "Delta Media Group and Tiny Wins help Keyes launch a unified, AI-enabled platform for agents and clients in South Florida.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "PHH Mortgage bolsters AI-driven subservicing technology",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T19:24:56.000Z",
-          "url": "https://www.housingwire.com/articles/phh-mortgage-lasi-ai-updates/",
-          "summary": "PHH Mortgage Corp., a subsidiary of Onity Group and the parent of Liberty Reverse Mortgage, on Monday announced updates to its artificial intelligence (AI)-powered assistant for subservicing clients P",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mutual of Omaha to sponsor reverse mortgage broker certification program",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T18:36:06.000Z",
-          "url": "https://www.housingwire.com/articles/mutual-omaha-namb-reverse-mortgage/",
-          "summary": "The National Association of Mortgage Brokers (NAMB) announced Tuesday that leading reverse lender Mutual of Omaha Mortgage is partnering with the trade group as the exclusive sponsor for a reverse mor",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Union Home Mortgage brings on M&A veteran Renee Hildebrand",
-          "outlet": "HousingWire",
-          "date": "2026-02-17T21:16:35.000Z",
-          "url": "https://www.housingwire.com/articles/union-home-mortgage-ma-hildebrand/",
-          "summary": "Union Home Mortgage has shown a strong appetite for mergers and acquisitions by hiring Renee Hildebrand from Guild Mortgage to seek new opportunities, the company announced Tuesday.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Demand for AI-related skills is up 109% since last year. What that means for you",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-16T09:00:00.000Z",
-          "url": "https://www.fastcompany.com/91492708/demand-for-ai-related-skills-is-up-109-since-last-year-what-that-means-for-you?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "AI inspired many employers to take a wait-and-see approach to hiring in 2025, but new data suggest they’ll be returning to the market in search of certain skills in 2026.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Why your AI pilot will fail in production (and how to fix it)",
+          "title": "Singapore super-app Grab to acquire US fintech Stash",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-17T10:00:00.000Z",
-          "url": "https://www.bankingdive.com/spons/why-your-ai-pilot-will-fail-in-production-and-how-to-fix-it/811780/",
-          "summary": "Executives need to draw a straight line between AI spend and bottom-line impact.",
+          "date": "2026-02-18T19:12:38.000Z",
+          "url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/",
+          "summary": "The deal is set to close in the third quarter, when Grab will pay $425 million to acquire a majority interest in the fintech, then buy the rest at market value over the next three years.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Mixed-density housing keeps expanding as affordability reaches a breaking point",
+          "outlet": "HousingWire",
+          "date": "2026-02-19T08:07:00.000Z",
+          "url": "https://www.housingwire.com/articles/mixed-density-housing-keeps-expanding-as-affordability-reaches-a-breaking-point/",
+          "summary": "Housing affordability – and its impact on Americans’ quality of life – is becoming a market- and generation-defining issue. Higher interest rates, constrained inventory, rising land costs, and slower ",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Rocket Mortgage"
+          "RE/MAX"
         ],
-        "agencies": [],
+        "agencies": [
+          "huge"
+        ],
         "technologies": [
-          "AI",
-          "artificial intelligence"
+          "insights"
         ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
-        "metrics": [],
+        "metrics": [
+          "affordability"
+        ],
         "cultural_themes": [],
         "storytelling_themes": [],
-        "housing_terms": []
+        "housing_terms": [
+          "Housing market",
+          "title insurance"
+        ]
       },
       "related_buzzwords": [
         "mortgage",
-        "ai",
-        "fed",
-        "banking",
-        "reverse"
+        "years",
+        "new",
+        "job",
+        "months"
       ]
     },
     {
-      "cluster_id": "signal_000",
-      "cluster_name": "Pottery Barn - Best",
-      "description": "Stories featuring Pottery Barn.",
-      "frequency": 8,
-      "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 8,
-      "first_seen": "2026-02-14T17:00:00+00:00",
-      "peak_date": "2026-02-18T03:34:00+00:00",
-      "outlets": [
-        "Latest Content - Good Housekeeping",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Fast Company - leadership"
-      ],
-      "stories": [
-        {
-          "title": "We Tested 40+ Meat Subscription Boxes—Here Are the Best",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-18T03:26:00.000Z",
-          "url": "https://www.goodhousekeeping.com/food-products/g32669091/best-meat-delivery-services/",
-          "summary": "From budget-friendly picks to premium splurges, these are the meat subscriptions that delivered every time.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We Tested (and Rated!) All the Sofas at Pottery Barn — Here Are the Best for Every Type of Need",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-17T19:45:00.000Z",
-          "url": "https://www.apartmenttherapy.com/the-most-comfortable-sofas-at-pottery-barn-37137488?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "We've simplified the online shopping process.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "6 Best Meal Replacement Shakes Dietitians Actually Recommend",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-18T03:34:00.000Z",
-          "url": "https://www.goodhousekeeping.com/food-products/g63224054/best-meal-replacement-shakes/",
-          "summary": "These expert-approved picks make it easy to get balanced nutrition on busy days.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We Tried Dozens of Eye Creams; These 19 Are the Best",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-17T22:43:00.000Z",
-          "url": "https://www.goodhousekeeping.com/beauty/anti-aging/g26858923/best-eye-creams/",
-          "summary": "Real women saw a difference in wrinkles, dark circles, and puffiness using these.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "9 Best Hair Dryer Brushes That Make Styling So Much Easier",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-17T21:24:00.000Z",
-          "url": "https://www.goodhousekeeping.com/beauty-products/hair-styling-tool-reviews/g29035773/hair-dryer-brushes/",
-          "summary": "Get salon quality blowouts at home in one quick step.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "25 Best 50th Birthday Gifts to Celebrate Their Major Milestone",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-17T22:16:00.000Z",
-          "url": "https://www.goodhousekeeping.com/holidays/g70177697/best-50th-birthday-gifts/",
-          "summary": "Find a thoughtful gift for your spouse, best friend, or parent.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "When bullying happens at work",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-17T09:30:00.000Z",
-          "url": "https://www.fastcompany.com/91490522/when-bullying-happens-at-work?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Most of us assume bullying is something we age out of by middle school, high school at the latest. By the time you’re a professional—especially one with credentials, experience, and a résumé you worke",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "With one word, Travis Kelce may have (unintentionally) revealed his retirement plans",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-14T17:00:00.000Z",
-          "url": "https://www.fastcompany.com/91492728/with-1-word-travis-kelce-may-have-unintentionally-revealed-retirement-plans?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Will Kansas City Chiefs tight end Travis Kelce retire after this football season Kelce has not yet delivered a public answer to this question, and there’s widespread speculation But his choice of word",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "Pottery Barn"
-        ],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "best",
-        "make",
-        "picks",
-        "tested",
-        "delivered"
-      ]
-    },
-    {
-      "cluster_id": "signal_001",
-      "cluster_name": "Redfin - Affordability",
-      "description": "Stories featuring Redfin.",
+      "cluster_id": "signal_004",
+      "cluster_name": "JPMorgan Chase & Bank of America - Bank",
+      "description": "Stories featuring JPMorgan Chase, Bank of America.",
       "frequency": 7,
       "momentum": "stable",
       "confidence": "medium",
       "story_count": 7,
-      "first_seen": "2026-02-17T09:00:00+00:00",
-      "peak_date": "2026-02-18T08:11:00+00:00",
+      "first_seen": "2026-02-17T16:46:47+00:00",
+      "peak_date": "2026-02-19T06:30:00+00:00",
       "outlets": [
         "Latest Content - Good Housekeeping",
-        "Fast Company - leadership",
+        "Banking Dive - Latest News",
         "Mortgage Professional",
-        "HousingWire"
+        "Fast Company - leadership"
       ],
       "stories": [
         {
-          "title": "Renters gain rare edge as vacancies climb and rents drift lower",
+          "title": "Warren targets Dimon for help on interest rate caps",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-18T17:01:00.000Z",
+          "url": "https://www.bankingdive.com/news/warren-dimon-jpmorgan-credit-card-interest-rate-cap-state-bill/812464/",
+          "summary": "The senator says her bill emulates a proposal by the JPMorgan Chase CEO to let states determine their own card interest rate limits.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "JPMorgan Chase targets 160 branch openings this year",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-18T16:18:55.000Z",
+          "url": "https://www.bankingdive.com/news/jpmorgan-chase-160-branch-openings-2026/812460/",
+          "summary": "The largest U.S. lender flagged the Carolinas, Florida, Pennsylvania, Kansas, Massachusetts and Tennessee as states where it’s planning “major expansion” this year.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Rate hikes still on the table, Fed minutes show",
           "outlet": "Mortgage Professional",
-          "date": "2026-02-17T16:54:26.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/renters-gain-rare-edge-as-vacancies-climb-and-rents-drift-lower/565614",
-          "summary": "A softer rental market offered tenants leverage but left affordability questions for housing pros",
+          "date": "2026-02-18T22:00:27.000Z",
+          "url": "https://www.mpamag.com/us/news/general/rate-hikes-still-on-the-table-fed-minutes-show/565805",
+          "summary": "Division at the central bank grows with decisionmakers split on the path ahead",
           "relevance_score": 0.85
         },
         {
-          "title": "Redfin data shows fragile home price gains",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-17T17:08:19.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/redfin-data-shows-fragile-home-price-gains/565616",
-          "summary": "Modest price gains masked a deeper shift in leverage toward selective buyers",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How soaring insurance costs are burying homeowners: 'Where's my bundle?'",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-17T21:33:25.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/how-soaring-insurance-costs-are-burying-homeowners-wheres-my-bundle/565641",
-          "summary": "Affordability isn't all about home prices and rates",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Affordability squeeze keeps US builder confidence stuck near two‑year lows",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-17T19:03:07.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/affordability-squeeze-keeps-us-builder-confidence-stuck-near-twoyear-lows/565628",
-          "summary": "Index slid as incentives persisted and buyers stayed cautious",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The Inflation You Can’t Budget Around: Why Housing Search Must Move From Price to Monthly Payment",
-          "outlet": "HousingWire",
-          "date": "2026-02-18T08:11:00.000Z",
-          "url": "https://www.housingwire.com/articles/the-inflation-you-cant-budget-around-why-housing-search-must-move-from-price-to-monthly-payment/",
-          "summary": "Inflation didn’t just make things “more expensive.” It broke household planning—because the largest line item in most budgets, housing, is still shopped with the wrong unit of measure. When families b",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I’m a Dietitian Who Relied on the Factor Meals for a Year—Here Are My Thoughts",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-18T03:47:00.000Z",
-          "url": "https://www.goodhousekeeping.com/food-products/a60583087/factor-meals-review/",
-          "summary": "After a year with Factor, I’m sharing the real pros and cons, my favorite meals, and why I ultimately decided to cancel.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The ‘Menopause Penalty’: When biology meets broken work systems",
+          "title": "Apply now to Fast Company’s 2026 Best Workplaces for Innovators awards",
           "outlet": "Fast Company - leadership",
-          "date": "2026-02-17T09:00:00.000Z",
-          "url": "https://www.fastcompany.com/91486866/menopause-penalty-when-biology-meets-broken-work-systems?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "After 50, too many women reduce their working hours, become trapped in lower-quality jobs, or exit the labor market altogether Many are calling this phenomenon the “menopause penalty”—a midlife equiva",
+          "date": "2026-02-18T17:00:00.000Z",
+          "url": "https://www.fastcompany.com/91494170/apply-now-to-fast-companys-2026-best-workplaces-for-innovators-awards?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "The deadline to claim the early-bird rate for Fast Company’s Best Workplaces for Innovators is quickly approaching—Friday, February 20, at 11:59 p.m. Pacific time.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "TikTok Says This One Hack Will Bring Your Faux Fur Back to Life",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-18T21:28:38.000Z",
+          "url": "https://www.goodhousekeeping.com/life/a70407103/tiktok-faux-fur-hack/",
+          "summary": "Try this before throwing away your vests and coats.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How emotional intelligence can help us overcome imposter syndrome",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-19T06:30:00.000Z",
+          "url": "https://www.fastcompany.com/91494234/how-emotional-intelligence-can-help-us-overcome-imposter-syndrome?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Imposter syndrome happens when we have the feeling that we do not deserve what we have achieved, fearing that we’ll be discovered to be fakes or frauds Our successes, we tell ourselves, were achieved ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Dive Deposits: Want a bigger raise? Don’t be a long-tenured bank CEO",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-17T16:46:47.000Z",
+          "url": "https://www.bankingdive.com/news/bank-of-america-bofa-ceo-pay-moynihan-41-million-17-raise-tenure/812342/",
+          "summary": "Bank of America’s $41 million payday for Brian Moynihan shows two trends: Newer big-bank CEOs received larger raises. And Moynihan’s 2025 compensation may have been held back by a comparatively better",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Redfin"
+          "JPMorgan Chase",
+          "Bank of America"
         ],
         "agencies": [],
         "technologies": [],
@@ -604,21 +255,181 @@
         "locations": [],
         "products": [],
         "metrics": [
-          "Affordability",
-          "affordability"
+          "interest rate"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
-        "housing_terms": [
-          "home prices"
-        ]
+        "housing_terms": []
       },
       "related_buzzwords": [
-        "affordability",
-        "year",
-        "price",
-        "home",
-        "housing"
+        "bank",
+        "rate",
+        "jpmorgan",
+        "jpmorgan chase",
+        "chase"
+      ]
+    },
+    {
+      "cluster_id": "signal_001",
+      "cluster_name": "AI & Artificial intelligence - Agents",
+      "description": "Coverage of AI, Artificial intelligence.",
+      "frequency": 6,
+      "momentum": "stable",
+      "confidence": "medium",
+      "story_count": 6,
+      "first_seen": "2026-02-18T16:28:00+00:00",
+      "peak_date": "2026-02-19T06:00:00+00:00",
+      "outlets": [
+        "Banking Dive - Latest News",
+        "HousingWire",
+        "Fast Company - leadership"
+      ],
+      "stories": [
+        {
+          "title": "16 indispensable AI tools for real estate agents",
+          "outlet": "HousingWire",
+          "date": "2026-02-18T21:32:39.000Z",
+          "url": "https://www.housingwire.com/articles/ai-tools-real-estate/",
+          "summary": "Artificial intelligence (AI) tools equip real estate agents with unprecedented capabilities While ChatGPT has become a go-to tool for many of us, there are tons of AI tools for real estate that offer ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "AI adoption reaches 82% among real estate agents, RPR reports",
+          "outlet": "HousingWire",
+          "date": "2026-02-18T19:27:29.000Z",
+          "url": "https://www.housingwire.com/articles/ai-adoption-real-estate/",
+          "summary": "RPR finds most agents use AI for writing and marketing, yet many want better training and worry about output accuracy.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Klarna CEO says firm will likely reduce its workforce by 1,000 employees by 2030—partially due to AI",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-18T20:30:00.000Z",
+          "url": "https://www.fastcompany.com/91494604/klarna-ceo-says-firm-will-likely-reduce-size-by-1000-employees-by-2030-partially-due-to-ai?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Sebastian Siemiatkowski, CEO of Swedish fintech company Klarna, says the organization is set to employ drastically fewer people. And he says he shares his outlook on the workforce with another CEO: An",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "TD’s US head of AI weighs in on agents",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-18T16:28:00.000Z",
+          "url": "https://www.bankingdive.com/news/td-bank-ai-head-ted-paris-agents/812415/",
+          "summary": "Successful AI projects hinge on envisioning the full production environment where employees and customers will engage with the technology, Ted Paris said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "CoStar Group cuts jobs amid AI rollout and Homes.com focus",
+          "outlet": "HousingWire",
+          "date": "2026-02-18T21:17:36.000Z",
+          "url": "https://www.housingwire.com/articles/costar-group-layoffs-ai/",
+          "summary": "CoStar Group reduces workforce, citing AI-driven efficiencies and continued commitment to Homes.com despite investor pressure.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why the ADHD brain is a perfect pairing for AI",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-19T06:00:00.000Z",
+          "url": "https://www.fastcompany.com/91493923/why-the-adhd-brain-is-a-perfect-pairing-for-ai?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "In 2013, when Meredith O’Connor was 16, the music video for her debut single “Celebrity” went viral. Afterward, she channeled her own stardom into championing childhood mental health: As a hyperactive",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
+          "AI",
+          "Artificial intelligence"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [
+          "mental health"
+        ],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "ai",
+        "agents",
+        "workforce",
+        "says",
+        "real"
+      ]
+    },
+    {
+      "cluster_id": "signal_003",
+      "cluster_name": "IKEA - Items",
+      "description": "Stories featuring IKEA.",
+      "frequency": 4,
+      "momentum": "stable",
+      "confidence": "low",
+      "story_count": 4,
+      "first_seen": "2026-02-18T10:30:00+00:00",
+      "peak_date": "2026-02-18T22:46:00+00:00",
+      "outlets": [
+        "Latest Content - Good Housekeeping",
+        "Apartment Therapy| Saving the world, one room at a time",
+        "Fast Company - leadership"
+      ],
+      "stories": [
+        {
+          "title": "Distrust and disempowerment prevent allyship in the workplace, research shows",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-18T10:30:00.000Z",
+          "url": "https://www.fastcompany.com/91491187/distrust-and-disempowerment-prevent-allyship-in-the-workplace-research-shows?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "What really holds people back from stepping up as allies in support of their marginalized colleagues? For example, why don’t more men say something when they see a colleague or a customer make a sexis",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Designers Say These Are the 6 IKEA Items They Can’t Live Without",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-18T19:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/designers-must-have-ikea-storage-pieces-37539705?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "We’d panic if these were ever discontinued!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "IKEA'S Newest Kids' Collection Feels Like a Colorful Storybook Come to Life",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-18T21:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/ikea-grejsimojs-kids-collection-drop-37539885?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "This is what would happen if kids designed home decor (complimentary!).",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "48 Clever Amazon Travel Items That'll Help Your Trip Go Smoothly",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-18T22:46:00.000Z",
+          "url": "https://www.goodhousekeeping.com/travel-products/g70291449/best-travel-items-on-amazon-2026/",
+          "summary": "Expert-approved Amazon travel items for your best trip yet.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "IKEA"
+        ],
+        "agencies": [],
+        "technologies": [],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "ikea",
+        "items",
+        "say",
+        "ikea ikea",
+        "support"
       ]
     }
   ],
@@ -627,14 +438,12 @@
     "building": [],
     "lasting": [
       {
-        "name": "West Elm & IKEA - Ceo",
+        "name": "insights & huge - Mortgage",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 23,
+        "mention_count": 41,
         "key_players": [
-          "West Elm",
-          "IKEA",
-          "Bank of America"
+          "RE/MAX"
         ]
       }
     ]
@@ -644,10 +453,10 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "AI & artificial intelligence - Mortgage",
+        "shift": "AI & Artificial intelligence - Agents",
         "drivers": [
           "AI",
-          "artificial intelligence"
+          "Artificial intelligence"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
@@ -657,7 +466,7 @@
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in AI & artificial intelligence - Mortgage",
+        "risk": "AI implementation challenges in AI & Artificial intelligence - Agents",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -669,35 +478,35 @@
   },
   "north_star_questions": [
     {
-      "question": "What are the long-term implications of West Elm & IKEA - Ceo for market structure?",
+      "question": "What are the long-term implications of insights & huge - Mortgage for market structure?",
       "category": "Market Dynamics",
       "signals": [
-        "signal_004"
+        "signal_002"
       ],
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when west elm & ikea - ceo?",
+      "question": "How do consumers perceive brand authenticity when insights & huge - mortgage?",
       "category": "Cultural Impact",
       "signals": [
-        "signal_004"
+        "signal_002"
       ],
       "urgency": "medium"
     },
     {
-      "question": "How will AI & artificial intelligence - Mortgage reshape competitive dynamics in the industry?",
+      "question": "How will AI & Artificial intelligence - Agents reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
-        "signal_002"
+        "signal_001"
       ],
       "urgency": "medium"
     }
   ],
   "raw_data_summary": {
     "total_articles": 60,
-    "articles_with_full_content": 21,
-    "unique_entities_extracted": 15,
-    "clusters_identified": 5,
-    "outliers": 0
+    "articles_with_full_content": 20,
+    "unique_entities_extracted": 13,
+    "clusters_identified": 4,
+    "outliers": 2
   }
 }

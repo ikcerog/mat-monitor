@@ -1,37 +1,34 @@
 {
   "meta": {
-    "generated_at": "2026-02-18T08:34:34.223864",
-    "synthesis_period": "Week of February 12 - 18, 2026",
+    "generated_at": "2026-02-19T08:32:49.122780",
+    "synthesis_period": "Week of February 17 - 19, 2026",
     "data_points": {
       "total_stories": 60,
-      "total_signals": 5,
-      "time_span_days": 6
+      "total_signals": 4,
+      "time_span_days": 2
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: west elm & ikea - ceo",
+      "narrative": "Industry movement: jpmorgan chase & bank of america - bank",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_004",
-        "signal_000",
-        "signal_001"
+        "signal_003"
       ],
-      "story_count": 38,
+      "story_count": 11,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "West Elm",
-          "IKEA",
+          "JPMorgan Chase",
           "Bank of America",
-          "Pottery Barn",
-          "Redfin"
+          "IKEA"
         ],
         "technologies": [],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "emerging",
       "outlook": "evolving"
     }
   ],
@@ -40,26 +37,26 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Mortgage",
-          "story_count": 10,
+          "id": "signal_004",
+          "name": "JPMorgan Chase & Bank of America - Bank",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 7,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Redfin - Affordability",
-          "story_count": 7,
+          "id": "signal_002",
+          "name": "insights & huge - Mortgage",
+          "story_count": 41,
           "momentum": "stable"
         }
       ],
-      "story_count": 7,
+      "story_count": 41,
       "key_themes": []
     },
     "customer_experience": {
@@ -72,48 +69,44 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "insights - New",
-          "story_count": 12,
+          "id": "signal_001",
+          "name": "AI & Artificial intelligence - Agents",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
+      "story_count": 6,
       "key_themes": [
-        "collaboration"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "West Elm & IKEA - Ceo",
-          "story_count": 23,
+          "id": "signal_001",
+          "name": "AI & Artificial intelligence - Agents",
+          "story_count": 6,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Mortgage",
-          "story_count": 10,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Pottery Barn - Best",
-          "story_count": 8,
+          "id": "signal_003",
+          "name": "IKEA - Items",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 41,
-      "key_themes": []
+      "story_count": 10,
+      "key_themes": [
+        "mental health"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 5,
+      "stable": 4,
       "declining": 0
     },
     "hot_topics": [],
@@ -122,23 +115,15 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "West Elm",
-        "mentions": 1
-      },
-      {
-        "name": "Pottery Barn",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
-        "mentions": 1
+        "mentions": 2
       },
       {
-        "name": "Redfin",
-        "mentions": 1
+        "name": "JPMorgan Chase",
+        "mentions": 2
       },
       {
-        "name": "Rocket Mortgage",
+        "name": "RE/MAX",
         "mentions": 1
       },
       {
@@ -149,10 +134,10 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 4
+        "mentions": 6
       },
       {
-        "name": "artificial intelligence",
+        "name": "Artificial intelligence",
         "mentions": 1
       },
       {
@@ -160,15 +145,10 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [
-      {
-        "name": "New Robinhood",
-        "mentions": 1
-      }
-    ],
+    "influential_voices": [],
     "cultural_movements": [
       {
-        "theme": "collaboration",
+        "theme": "mental health",
         "frequency": 1
       }
     ],
@@ -177,30 +157,30 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 7,
       "top_signals": [
-        "AI & artificial intelligence - Mortgage"
+        "JPMorgan Chase & Bank of America - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - mortgage with mixed momentum"
+      "key_insight": "Primary focus on jpmorgan chase & bank of america - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 7,
+      "story_count": 41,
       "top_signals": [
-        "Redfin - Affordability"
+        "insights & huge - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on redfin - affordability"
+      "key_insight": "Market narrative centered on insights & huge - mortgage"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 12,
+      "story_count": 6,
       "top_signals": [
-        "insights - New"
+        "AI & Artificial intelligence - Agents"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on insights - new"
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - agents"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -213,26 +193,26 @@
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "5 new topic(s) appearing",
+      "description": "4 new topic(s) appearing",
       "examples": [
-        "West Elm & IKEA - Ceo",
-        "insights - New",
-        "AI & artificial intelligence - Mortgage"
+        "insights & huge - Mortgage",
+        "JPMorgan Chase & Bank of America - Bank",
+        "AI & Artificial intelligence - Agents"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on West Elm & IKEA - Ceo",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on west elm & ikea - ceo.",
+    "headline": "Focus on insights & huge - Mortgage",
+    "executive_summary": "Analysis of 58 stories across 4 thematic areas. mixed momentum across the landscape. Primary attention on insights & huge - mortgage.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration"
+      "mental health"
     ],
     "attention_areas": [
-      "West Elm & IKEA - Ceo",
-      "insights - New",
-      "AI & artificial intelligence - Mortgage"
+      "insights & huge - Mortgage",
+      "JPMorgan Chase & Bank of America - Bank",
+      "AI & Artificial intelligence - Agents"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -240,6 +220,7 @@
     ]
   },
   "macro_observations": [
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players"
   ]
 }
