@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-02-20T08:31:02.983261",
+    "generated_at": "2026-02-22T08:06:53.677067",
     "timeframe": {
-      "period": "Week of February 18-20, 2026",
-      "coverage_days": 2,
+      "period": "Week of February 18-22, 2026",
+      "coverage_days": 4,
       "date_range": [
         "2026-02-18",
-        "2026-02-20"
+        "2026-02-22"
       ],
       "total_stories": 60,
       "unique_outlets": 6,
@@ -22,9 +22,9 @@
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "JPMorgan Chase & IKEA - Best (↑35 mentions)",
-        "AI & Bank of America - Sales (↑10 mentions)",
-        "IKEA - New (↑9 mentions)"
+        "AI & Zillow - Home (↑30 mentions)",
+        "JPMorgan Chase - Court (↑9 mentions)",
+        "IKEA - Won (↑8 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -32,360 +32,334 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "3 M&A/partnership announcements detected"
+        "2 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
-      "cluster_id": "signal_004",
-      "cluster_name": "JPMorgan Chase & IKEA - Best",
-      "description": "Stories featuring JPMorgan Chase, IKEA, First American focusing on AI.",
-      "frequency": 35,
+      "cluster_id": "signal_002",
+      "cluster_name": "AI & Zillow - Home",
+      "description": "Stories featuring Zillow, Opendoor, iBuyer focusing on AI, artificial intelligence.",
+      "frequency": 30,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 35,
-      "first_seen": "2026-02-18T14:12:46+00:00",
-      "peak_date": "2026-02-20T08:23:00+00:00",
+      "story_count": 30,
+      "first_seen": "2026-02-18T19:12:38+00:00",
+      "peak_date": "2026-02-22T03:59:50+00:00",
       "outlets": [
-        "HousingWire",
-        "Banking Dive - Latest News",
-        "Apartment Therapy| Saving the world, one room at a time",
         "Latest Content - Good Housekeeping",
         "Fast Company - leadership",
-        "Mortgage Professional"
+        "Mortgage Professional",
+        "Banking Dive - Latest News",
+        "Apartment Therapy| Saving the world, one room at a time",
+        "HousingWire"
       ],
       "stories": [
         {
-          "title": "For Toll Brothers, disciplined execution beats market uncertainty",
+          "title": "New home sales still at multiyear highs",
           "outlet": "HousingWire",
-          "date": "2026-02-19T21:48:35.000Z",
-          "url": "https://www.housingwire.com/articles/toll-brothers-q1-2026-operating-model-analysis/",
-          "summary": "Today’s headwinds new-home market rewards homebuilding teams that do the hardest things the best. In that light, a glib explanation for Toll Brothers’ Q1 2026 performance would be to point to geograph",
+          "date": "2026-02-20T20:21:55.000Z",
+          "url": "https://www.housingwire.com/articles/housing-permits-new-home-sales/",
+          "summary": "With all the housing drama lately going on, one truth has stayed constant for years: new home sales are holding up due to rate buy-downs, but housing permits are still at recession levels First and fo",
           "relevance_score": 0.85
         },
         {
-          "title": "Why the best problem-solvers think like jazz musicians",
+          "title": "2025 new-home sales inched up; concessions weakened prices",
+          "outlet": "HousingWire",
+          "date": "2026-02-20T20:12:41.000Z",
+          "url": "https://www.housingwire.com/articles/new-home-sales-increased-in-2025/",
+          "summary": "A delayed December new-home sales release showed a slight increase in 2025 over a year earlier, but median new-home sales prices decreased, reflecting a challenging homebuilding market weighed down by",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Opendoor posts $1.3B loss in 2025 but sees path to profitability",
+          "outlet": "HousingWire",
+          "date": "2026-02-20T20:31:51.000Z",
+          "url": "https://www.housingwire.com/articles/opendoor-2025-loss-profit/",
+          "summary": "Opendoor lost $1.3B in 2025 as home sales and purchases fell, but executives project breakeven by end of 2026.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Weekly pending home sales back to year-over-year growth as we head into spring",
+          "outlet": "HousingWire",
+          "date": "2026-02-22T01:37:16.000Z",
+          "url": "https://www.housingwire.com/articles/pending-sales-inventory-growth-2026/",
+          "summary": "Weekly pending home sales, which had shown year-over-year growth up until the late-January snowstorm, got back on track with year-over-year growth again last week One thing to remember about our weekl",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Designers Say Painted Doors Are the Next Big Home Trend",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-21T19:00:00.000Z",
+          "url": "https://www.goodhousekeeping.com/home/decorating-ideas/a70410150/painted-doors-next-big-trend/",
+          "summary": "One designer says painted doors \"instantly add depth and polish to the space.\"",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "‘Gen V’ Star Jaz Sinclair Swears By This Tip To Keep Her Skin “Happy”",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-21T14:22:00.000Z",
+          "url": "https://www.goodhousekeeping.com/entertainment/celebrity-news/a70347165/gen-v-jaz-sinclair-sol-de-janiero-beauty-secrets/",
+          "summary": "The actress let us in on her go-to beauty and wellness routine.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "6 Reasons Why Birds Aren't Coming to Your Yard—and How to Fix It",
+          "outlet": "Latest Content - Good Housekeeping",
+          "date": "2026-02-21T13:15:00.000Z",
+          "url": "https://www.goodhousekeeping.com/home/gardening/a70394856/reasons-why-birds-arent-attracted-to-your-yard/",
+          "summary": "Birding experts say your outdoor space could be missing several key elements.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why it’s so refreshing that Olympic champion Alysa Liu, who quit skating at 16, says she didn’t ‘need’ a gold medal",
           "outlet": "Fast Company - leadership",
-          "date": "2026-02-19T20:24:59.000Z",
-          "url": "https://www.fastcompany.com/91480883/why-the-best-problem-solvers-think-like-jazz-musicians?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Picture a jazz quartet mid-performance The bassist anchors the rhythm with meticulous precision—years of practice evident in every note It’s something far more valuable: the dynamic interplay between ",
+          "date": "2026-02-20T23:08:14.000Z",
+          "url": "https://www.fastcompany.com/91496469/why-its-so-refreshing-that-olympic-champion-alysa-liu-who-quit-skating-at-16-says-she-didnt-need-a-gold-medal?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Alysa Liu, who quit skating at 16, didn’t “need” a gold medal, she told reporters in Milan—she had already found joy.",
           "relevance_score": 0.85
         },
         {
-          "title": "Gov. Pritzker calls for zoning reform to buoy Illinois housing access",
-          "outlet": "HousingWire",
-          "date": "2026-02-19T22:29:28.000Z",
-          "url": "https://www.housingwire.com/articles/illinois-affordability-housing-policy/",
-          "summary": "Illinois state lawmakers took up housing affordability last year. The results underwhelmed. Now, Gov. J.B. Pritzker is pushing to put housing at the center of Illinois’ broader affordability agenda.​ ",
+          "title": "Sam Altman thinks AI is being unduly blamed for layoffs",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-20T22:14:04.000Z",
+          "url": "https://www.fastcompany.com/91495694/even-sam-altman-thinks-ceos-are-blaming-ai-for-layoffs?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "As major employers have slashed jobs over the past year, many have cited artificial intelligence or automation to justify the cuts. AI was referenced in nearly 55,000 layoffs in 2025, according to out",
           "relevance_score": 0.85
         },
         {
-          "title": "Quince’s Bestselling Luggage Just Dropped in Price (I’m Shopping for Spring Break!)",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-19T19:45:00.000Z",
-          "url": "https://www.apartmenttherapy.com/quince-luggage-price-drop-february-2026-37540091?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "And they come in versatile colors!",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The 11 Best Colognes That Teens are Wearing Right Now",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T23:04:00.000Z",
-          "url": "https://www.goodhousekeeping.com/beauty-products/g70234770/cologne-for-teen-guys/",
-          "summary": "I smelled hundreds of colognes and asked parents about their teen's favorite colognes—here's the ones they're actually wearing.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "8 Best Latex Mattresses of 2026, Tested by Our Experts",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T22:34:00.000Z",
-          "url": "https://www.goodhousekeeping.com/home-products/g39978279/best-latex-mattresses/",
-          "summary": "These top-tested picks offer the perfect balance of breathability, contour, and support.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We Tested 64 Bras to Find The Best for Large Breasts",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T22:16:00.000Z",
-          "url": "https://www.goodhousekeeping.com/clothing/bra-reviews/g164/best-bras-for-large-busts/",
-          "summary": "Nine supportive and comfortable bras for over a DD-cup size? Yes, really!",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We've Put 70+ Luggage Brands to the Test: These Are the Best",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T21:31:00.000Z",
-          "url": "https://www.goodhousekeeping.com/travel-products/g26898407/best-luggage-brands/",
-          "summary": "These top luggage brands offer something for every type of traveler.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Seven years in the making: The trigger leads victory that changes everything for homebuyers",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-20T05:00:00.000Z",
-          "url": "https://www.mpamag.com/us/news/general/seven-years-in-the-making-the-trigger-leads-victory-that-changes-everything-for-homebuyers/565998",
-          "summary": "As trigger leads are curtailed, Valerie Saunders explains how NAMB’s long campaign reshaped borrower privacy protections",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mortgage rates hit three-year low as market weighs spring comeback",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-19T18:07:15.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/mortgage-rates-hit-three-year-low-as-market-weighs-spring-comeback/565945",
-          "summary": "The drop stirred hopes for refis and spring buyers",
+          "title": "Reese Witherspoon says ‘don’t chase your dreams’—do this instead",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-20T20:00:00.000Z",
+          "url": "https://www.fastcompany.com/91496107/reese-witherspoon-says-dont-chase-your-dreams-do-this-instead?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "We’re told from a young age to follow our dreams. But for Oscar-winning actress Reese Witherspoon, chasing your dreams is overrated. Instead, she recommends a different approach, especially for young ",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "JPMorgan Chase",
-          "IKEA",
-          "First American"
+          "Zillow",
+          "Opendoor",
+          "iBuyer",
+          "Chase",
+          "chase"
         ],
         "agencies": [],
         "technologies": [
-          "AI"
+          "AI",
+          "artificial intelligence"
         ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
-        "metrics": [
-          "affordability",
-          "first-time homebuyer",
-          "interest rate"
-        ],
-        "cultural_themes": [
-          "equity"
-        ],
+        "metrics": [],
+        "cultural_themes": [],
         "storytelling_themes": [],
-        "housing_terms": [
-          "home prices"
-        ]
+        "housing_terms": []
       },
       "related_buzzwords": [
-        "best",
-        "tested",
-        "digital",
-        "tried",
-        "luggage"
+        "home",
+        "sales",
+        "2025",
+        "say",
+        "home sales"
       ]
     },
     {
-      "cluster_id": "signal_003",
-      "cluster_name": "AI & Bank of America - Sales",
-      "description": "Stories featuring Bank of America focusing on AI.",
-      "frequency": 10,
+      "cluster_id": "signal_004",
+      "cluster_name": "JPMorgan Chase - Court",
+      "description": "Stories featuring JPMorgan Chase.",
+      "frequency": 9,
       "momentum": "stable",
-      "confidence": "high",
-      "story_count": 10,
-      "first_seen": "2026-02-18T15:10:00+00:00",
-      "peak_date": "2026-02-20T07:00:00+00:00",
+      "confidence": "medium",
+      "story_count": 9,
+      "first_seen": "2026-02-18T17:01:00+00:00",
+      "peak_date": "2026-02-20T20:56:15+00:00",
       "outlets": [
         "Banking Dive - Latest News",
         "HousingWire",
-        "Fast Company - leadership",
         "Mortgage Professional"
       ],
       "stories": [
         {
-          "title": "Older women worry about retirement security, making them prime reverse mortgage candidates",
-          "outlet": "HousingWire",
-          "date": "2026-02-19T23:04:22.000Z",
-          "url": "https://www.housingwire.com/articles/older-women-retirement-survey/",
-          "summary": "Women who are 50 and older are feeling the pinch of rising costs and economic uncertainty, even as they enjoy time with their family and hobbies, according to a new AARP survey.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Bachman Realty Group joins The Real Brokerage",
-          "outlet": "HousingWire",
-          "date": "2026-02-19T18:41:07.000Z",
-          "url": "https://www.housingwire.com/articles/bachman-realty-group-joins-the-real-brokerage/",
-          "summary": "Led by Tiffany and Greg Bachman, the team closed 650 transactions in 2025 totaling $245 million in sales volume, according to the company.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Our brains are wired to ignore information. Here are neuroscience-backed tips for communicating memorably",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-20T07:00:00.000Z",
-          "url": "https://www.fastcompany.com/91474800/the-neuroscience-of-how-to-be-persuasive?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "The human brain is engineered to ignore most of what it sees and hears, according to the neuroscientists I interviewed for the audio original Viral Voices. If that’s the case, how are you supposed to ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Real estate investor blasts Mamdani budget plans: \"All the New Yorkers will suffer\"",
+          "title": "Supreme Court strikes down Trump tariffs",
           "outlet": "Mortgage Professional",
-          "date": "2026-02-19T19:17:18.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/real-estate-investor-blasts-mamdani-budget-plans-all-the-new-yorkers-will-suffer/565952",
-          "summary": "Other real estate experts are not as negative on NYC's future",
+          "date": "2026-02-20T15:16:49.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/supreme-court-strikes-down-trump-tariffs/566096",
+          "summary": "Could the tariff ruling cause mortgage rates to soar?",
           "relevance_score": 0.85
         },
         {
-          "title": "No exodus after all? Manhattan luxury market sales accelerate under Mamdani",
-          "outlet": "HousingWire",
-          "date": "2026-02-19T20:56:49.000Z",
-          "url": "https://www.housingwire.com/articles/no-exodus-after-all-manhattan-luxury-market-stable-under-mamdani/",
-          "summary": "With Zohran Mamdani mayor and debate over a possible city wealth tax or property tax increase, market data shows no sign of a luxury exodus.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Leading the digital shift: DocMagic’s Leah Sommerville on scaling sales and paperless innovation",
-          "outlet": "HousingWire",
-          "date": "2026-02-19T17:57:04.000Z",
-          "url": "https://www.housingwire.com/articles/leah-sommerville-digital-mortgage/",
-          "summary": "For more than a decade, the HousingWire Rising Stars award has recognized professionals ages 40 and under who are driving measurable impact across housing Since being named a 2025 Rising Star, Leah So",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Pending home sales slip again",
+          "title": "Trump announces new 10% global tariff",
           "outlet": "Mortgage Professional",
-          "date": "2026-02-19T16:03:56.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/pending-home-sales-slip-again/565928",
-          "summary": "Rates eased, but contracts still fell as tight supply kept buyers on the sidelines",
+          "date": "2026-02-20T20:10:50.000Z",
+          "url": "https://www.mpamag.com/us/news/general/trump-announces-new-10-global-tariff/566145",
+          "summary": "President escalates trade war after Supreme Court setback",
           "relevance_score": 0.85
         },
         {
-          "title": "Bank of America overhauls rewards program",
+          "title": "Faster Fed cuts could be ahead after Supreme Court tariff bombshell",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-20T18:59:06.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/faster-fed-cuts-could-be-ahead-after-supreme-court-tariff-bombshell/566123",
+          "summary": "Court ruling on Trump tariffs jolted bonds and brought earlier rate cuts into view",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trump's global tariff plan 'blowing smoke' after court defeat: Legal expert",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-20T20:33:54.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/trumps-global-tariff-plan-blowing-smoke-after-court-defeat-legal-expert/566137",
+          "summary": "Why mortgage rates hang in the balance with refund fight ahead",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Tariff decision good news for commercial real estate sector, CEO says",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-20T17:52:17.000Z",
+          "url": "https://www.mpamag.com/us/specialty/commercial/tariff-decision-good-news-for-commercial-real-estate-sector-ceo-says/566117",
+          "summary": "Supreme Court move eased cost pressures and restored predictability for investors",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "JPMorgan’s lawyers deny Trump ‘blacklist’ claims",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-19T11:15:00.000Z",
-          "url": "https://www.bankingdive.com/news/bofa-rewards-program-consumer-loyalty-retail-bank-hines-droesch/812521/",
-          "summary": "The bank’s new program will offer rewards to personal checking account clients regardless of their balance, making 30 million existing customers eligible to join.",
+          "date": "2026-02-20T17:10:35.000Z",
+          "url": "https://www.bankingdive.com/news/jpmorgan-trump-debanking-suit-dimon-federal-court-blacklist/812712/",
+          "summary": "The bank said CEO Jamie Dimon should not have been named as a defendant and asked for the president’s debanking case to move to federal court.",
           "relevance_score": 0.85
         },
         {
-          "title": "5 ways to find your team’s AI sweet spot",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-19T11:07:00.000Z",
-          "url": "https://www.fastcompany.com/91494406/ai-workplace-sweet-spot?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "The pressure to adopt AI is relentless. Boards, investors, and the market tell us that if we don’t, we’ll be left behind. The result is a frantic gold rush to implement AI for AI’s sake, leading to ex",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Gemini loses 3 C-suite executives",
+          "title": "Warren targets Dimon for help on interest rate caps",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-18T15:10:00.000Z",
-          "url": "https://www.bankingdive.com/news/gemini-cfo-coo-clo-exit-abruptly-crypto-winter-winklevoss-ipo-chen-meade-beard-stojanovic-freedman/812404/",
-          "summary": "The crypto exchange's CFO, chief operating officer and legal chief are leaving the company five months after its IPO. Gemini this month announced layoffs and a strategic pivot.",
+          "date": "2026-02-18T17:01:00.000Z",
+          "url": "https://www.bankingdive.com/news/warren-dimon-jpmorgan-credit-card-interest-rate-cap-state-bill/812464/",
+          "summary": "The senator says her bill emulates a proposal by the JPMorgan Chase CEO to let states determine their own card interest rate limits.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trade groups push for lower MSR capital charges, tailored mortgage risk weights",
+          "outlet": "HousingWire",
+          "date": "2026-02-20T20:56:15.000Z",
+          "url": "https://www.housingwire.com/articles/mortgage-lender-groups-bank-capital-rules/",
+          "summary": "Eight trade groups representing lenders are urging federal regulators to revise bank capital rules by adopting a more tailored risk weight for mortgages held on balance sheets and by significantly cut",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Court says borrowers can't void mortgage after acquiring proper title",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-20T14:02:56.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/court-says-borrowers-cant-void-mortgage-after-acquiring-proper-title/566073",
+          "summary": "The couple got clean title, then sued to cancel their mortgage. Here's what happened next",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Bank of America"
+          "JPMorgan Chase"
         ],
         "agencies": [],
-        "technologies": [
-          "AI"
-        ],
+        "technologies": [],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
         "metrics": [
-          "ROI"
+          "interest rate"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "sales",
-        "according",
-        "real",
-        "mamdani",
-        "ai"
+        "court",
+        "mortgage",
+        "trump",
+        "tariff",
+        "supreme court"
       ]
     },
     {
-      "cluster_id": "signal_002",
-      "cluster_name": "IKEA - New",
+      "cluster_id": "signal_003",
+      "cluster_name": "IKEA - Won",
       "description": "Stories featuring IKEA.",
-      "frequency": 9,
+      "frequency": 8,
       "momentum": "stable",
       "confidence": "medium",
-      "story_count": 9,
-      "first_seen": "2026-02-18T19:12:38+00:00",
-      "peak_date": "2026-02-19T21:55:00+00:00",
+      "story_count": 8,
+      "first_seen": "2026-02-19T15:21:29+00:00",
+      "peak_date": "2026-02-21T20:00:00+00:00",
       "outlets": [
-        "HousingWire",
         "Banking Dive - Latest News",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Latest Content - Good Housekeeping",
+        "HousingWire",
         "Fast Company - leadership",
-        "Mortgage Professional"
+        "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "Wendy’s Is Closing Hundreds of Locations Nationwide—But There's Some Good News Too",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T21:49:00.000Z",
-          "url": "https://www.goodhousekeeping.com/food-products/a70406250/wendys-closing-locations-2026/",
-          "summary": "Stores may be closing, but new deals are on the horizon.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Pizza Hut Is Closing Hundreds of Locations—Here’s What to Know",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T19:24:11.000Z",
-          "url": "https://www.goodhousekeeping.com/life/a70392373/pizza-hut-closing-hundreds-of-locations/",
-          "summary": "The move will affect approximately 250 stores.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Peanuts Fans Are Already Going Wild Over This New Snoopy LEGO Set",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T21:26:00.000Z",
-          "url": "https://www.goodhousekeeping.com/childrens-products/toy-reviews/a70408514/snoopy-lego-set-2026/",
-          "summary": "It's under $100!",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "IKEA Fans Are Mesmerized by a \"Genius\" DIY Transformation",
+          "title": "IKEA's “Last Chance” Chair Is the Secret to Making Neutral Rooms Look Expensive",
           "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-19T15:15:00.000Z",
-          "url": "https://www.apartmenttherapy.com/contact-paper-ikea-transformation-37539605?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "It looks like a designer piece worth thousands.",
+          "date": "2026-02-21T14:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/ikea-alvsta-chairs-love-letter-37539868?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "They won’t be around for much longer.",
           "relevance_score": 0.85
         },
         {
-          "title": "For some job seekers, Tinder is the new LinkedIn",
+          "title": "This Stylish IKEA Bookshelf Looks Like Custom Built-Ins for Way Less",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-20T22:46:48.000Z",
+          "url": "https://www.apartmenttherapy.com/ikea-ladmakare-storage-combination-37538184?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "You’d genuinely never guess this piece came from IKEA.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "IKEA Has a “Folksy” New Storage Gem That Gives Off Swedish Cottage Vibes",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-21T16:15:00.000Z",
+          "url": "https://www.apartmenttherapy.com/ikea-ommjange-baskets-37540158?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "And they won’t be around forever.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "I Discovered the Chicest Way to Use a Toilet Paper Holder (It Looks So Expensive",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-21T16:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/toilet-paper-holder-hack-37539611?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "Bonus: It smells great, too.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "In a job market this bleak, more candidates pay for ‘reverse recruiting’",
           "outlet": "Fast Company - leadership",
-          "date": "2026-02-19T15:45:00.000Z",
-          "url": "https://www.fastcompany.com/91494608/for-some-job-seekers-tinder-is-the-new-linkedin?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "They say job hunting is just like dating. Some are taking that advice literally.",
+          "date": "2026-02-20T16:00:00.000Z",
+          "url": "https://www.fastcompany.com/91495390/in-a-job-market-this-bleak-more-candidates-pay-for-reverse-recruiting?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "Those in steady employment in 2026 might feel like they won the lottery, as the number of job openings dwindles at the same time as layoffs continue to hit.",
           "relevance_score": 0.85
         },
         {
-          "title": "REMAX promotes Chris Lim to president, adds new global sales leaders",
+          "title": "January “green shoots” won’t tell homebuilders what July will",
           "outlet": "HousingWire",
-          "date": "2026-02-19T17:45:03.000Z",
-          "url": "https://www.housingwire.com/articles/remax-leadership-changes/",
-          "summary": "REMAX promoted Chris Lim to president and announced new global sales leaders, signaling a focus on growth and modernization.",
+          "date": "2026-02-20T21:40:17.000Z",
+          "url": "https://www.housingwire.com/articles/cautious-overoptimism-homebuilders-2026/",
+          "summary": "If you walked the aisles at this year’s International Builders Show, you could feel it. The vibe wasn’t panic. It wasn’t euphoria. It was something in between – a cautious optimism that maybe, just ma",
           "relevance_score": 0.85
         },
         {
-          "title": "30 Best Dungeons & Dragons Gifts for D&D Fans of Every Level",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-02-19T21:55:00.000Z",
-          "url": "https://www.goodhousekeeping.com/holidays/gift-ideas/g70419238/dungeons-and-dragons-gift-ideas/",
-          "summary": "These feel as good as rolling a natural 20.",
+          "title": "This IKEA Hack Doubled Storage in a Small Kitchen Without Adding Cabinets",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-21T20:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/ikea-malm-kitchen-island-hack-2-37539759?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "It’s ingenious.",
           "relevance_score": 0.85
         },
         {
-          "title": "January new-build mortgage demand edges higher",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-19T15:04:41.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/january-new-build-mortgage-demand-edges-higher/565920",
-          "summary": "MBA data pointed to modest new-home gains in a market still constrained by affordability",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Singapore super-app Grab to acquire US fintech Stash",
+          "title": "Remitly hires Santander alum as its next CEO",
           "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-18T19:12:38.000Z",
-          "url": "https://www.bankingdive.com/news/grab-singapore-app-acquire-stash-fintech-ai-investing-banking/812490/",
-          "summary": "The deal is set to close in the third quarter, when Grab will pay $425 million to acquire a majority interest in the fintech, then buy the rest at market value over the next three years.",
+          "date": "2026-02-19T15:21:29.000Z",
+          "url": "https://www.bankingdive.com/news/remitly-hires-santander-openbank-gunningham-ceo-oppenheimer-chair/812570/",
+          "summary": "Sebastian Gunningham served as vice chair of Santander’s Openbank platform. He replaces Remitly co-founder Matt Oppenheimer, who will move into a board chair role.",
           "relevance_score": 0.85
         }
       ],
@@ -399,43 +373,175 @@
         "people": [],
         "locations": [],
         "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "ikea",
+        "won",
+        "chair",
+        "expensive",
+        "looks"
+      ]
+    },
+    {
+      "cluster_id": "signal_001",
+      "cluster_name": "bi & Bank of America - Bank",
+      "description": "Stories featuring Bank of America focusing on bi, AI.",
+      "frequency": 7,
+      "momentum": "stable",
+      "confidence": "medium",
+      "story_count": 7,
+      "first_seen": "2026-02-18T16:28:00+00:00",
+      "peak_date": "2026-02-20T18:00:56+00:00",
+      "outlets": [
+        "Banking Dive - Latest News",
+        "HousingWire",
+        "Fast Company - leadership"
+      ],
+      "stories": [
+        {
+          "title": "TD aims to retain its branch ‘essence’ amid brand refresh",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-20T10:50:00.000Z",
+          "url": "https://www.bankingdive.com/news/td-bank-consumer-deposits-retail-banking-digital-brand-refresh/812611/",
+          "summary": "As the bank leans into digital banking, it wants to meet evolving consumer expectations, deepen relationships and retain customers.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why staying solo is a strategic decision",
+          "outlet": "Fast Company - leadership",
+          "date": "2026-02-20T18:00:56.000Z",
+          "url": "https://www.fastcompany.com/91491282/why-staying-solo-is-a-strategic-decision?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "At one point in my life, I managed a team of seven. My days consisted of one-on-one calls, performance reviews, and running interference between the team, other departments, and customers.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Klarna pursues more banking customers",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-20T15:07:00.000Z",
+          "url": "https://www.bankingdive.com/news/klarna-pursues-more-banking-customers-26-million-loss-siemiatkowski/812703/",
+          "summary": "The company is targeting more long-term loan and debit card customers as an avenue for growth as sees its second consecutive quarterly loss.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Bank of America overhauls rewards program",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-19T11:15:00.000Z",
+          "url": "https://www.bankingdive.com/news/bofa-rewards-program-consumer-loyalty-retail-bank-hines-droesch/812521/",
+          "summary": "The bank’s new program will offer rewards to personal checking account clients regardless of their balance, making 30 million existing customers eligible to join.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "TD’s US head of AI weighs in on agents",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-18T16:28:00.000Z",
+          "url": "https://www.bankingdive.com/news/td-bank-ai-head-ted-paris-agents/812415/",
+          "summary": "Successful AI projects hinge on envisioning the full production environment where employees and customers will engage with the technology, Ted Paris said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Study finds wide credit score gaps across bureaus amid tri-merge debate",
+          "outlet": "HousingWire",
+          "date": "2026-02-20T17:18:12.000Z",
+          "url": "https://www.housingwire.com/articles/credit-score-discrepancies-trimerge/",
+          "summary": "A study by Andrew Davidson & Co found meaningful credit score discrepancies among the three major bureaus — a key data point for those arguing in favor of maintaining the tri-merge standard rather tha",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Democratic senators press Bowman on Fed changes",
+          "outlet": "Banking Dive - Latest News",
+          "date": "2026-02-20T17:08:23.000Z",
+          "url": "https://www.bankingdive.com/news/democratic-senators-press-bowman-on-fed-changes/812711/",
+          "summary": "Lawmakers led by Elizabeth Warren pressed Michelle Bowman over allegations that she fired bank examiners and launched a new review of Silicon Valley Bank’s collapse.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "Bank of America"
+        ],
+        "agencies": [],
+        "technologies": [
+          "bi",
+          "AI"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
         "metrics": [
-          "affordability"
+          "credit score"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "new",
-        "fans",
-        "set",
-        "closing",
-        "job"
+        "bank",
+        "customers",
+        "amid",
+        "banking",
+        "ai"
       ]
     },
     {
-      "cluster_id": "signal_001",
-      "cluster_name": "White Week Cost",
+      "cluster_id": "signal_000",
+      "cluster_name": "Life Forgotten Step",
       "description": "Cluster of related stories.",
-      "frequency": 3,
+      "frequency": 6,
       "momentum": "stable",
-      "confidence": "low",
-      "story_count": 3,
+      "confidence": "medium",
+      "story_count": 6,
       "first_seen": "2026-02-18T17:34:11+00:00",
-      "peak_date": "2026-02-20T02:00:00+00:00",
+      "peak_date": "2026-02-21T19:00:00+00:00",
       "outlets": [
         "Banking Dive - Latest News",
         "Fast Company - leadership",
+        "Mortgage Professional",
         "Apartment Therapy| Saving the world, one room at a time"
       ],
       "stories": [
         {
-          "title": "White men file workplace discrimination claims but are less likely to face inequity",
+          "title": "One Unexpected Paint Color Brought This Forgotten Room Back to Life",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-21T19:00:00.000Z",
+          "url": "https://www.apartmenttherapy.com/office-makeover-green-trim-painted-ceiling-ba-2-37539755?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "No white ceilings here!",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "See How a “Neglected” Spare Space Became the Prettiest Room in This House",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-21T15:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/spare-room-to-jewel-box-before-and-after-makeover-37540148?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "The secret? Bold color, strategic light fixtures, and a sleeper sofa that’s a step up from Grandma’s setup.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Third Circuit blocks borrowers from reviving forgotten foreclosure defenses",
+          "outlet": "Mortgage Professional",
+          "date": "2026-02-20T13:58:55.000Z",
+          "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/third-circuit-blocks-borrowers-from-reviving-forgotten-foreclosure-defenses/566072",
+          "summary": "Miss this critical step in foreclosure and defenses vanish – even if you raised them before",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "15 Under-the-Radar Kitchen and Bath Heroes That’ll Make Life Better",
+          "outlet": "Apartment Therapy| Saving the world, one room at a time",
+          "date": "2026-02-20T21:30:00.000Z",
+          "url": "https://www.apartmenttherapy.com/best-products-of-kbis-2026-37540256?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
+          "summary": "You’re going to love this list.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Shifting views of travel and big life plans could change how you hire people",
           "outlet": "Fast Company - leadership",
-          "date": "2026-02-19T19:58:43.000Z",
-          "url": "https://www.fastcompany.com/91493825/white-men-file-workplace-discrimination-claims-but-are-less-likely-to-face-inequity?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "In December 2025, Andrea Lucas, the chair of the U.S. Equal Employment Opportunity Commission, invited white men to file more sex- and race-based discrimination complaints against their employers.",
+          "date": "2026-02-20T17:20:04.000Z",
+          "url": "https://www.fastcompany.com/91495003/shifting-views-of-travel-and-big-life-plans-could-change-how-you-hire-people?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+          "summary": "The worst days of the pandemic are long behind us, but the world is still reeling from its aftereffects. For some people, this has driven a dramatic reprioritizing of what’s important in their lives, ",
           "relevance_score": 0.85
         },
         {
@@ -445,14 +551,6 @@
           "url": "https://www.bankingdive.com/news/white-house-report-cfpb-regulatory-burden-cost-consumers-billions/812473/",
           "summary": "The report follows two others released last week by the Government Accountability Office and Senate Democrats that drew different conclusions.",
           "relevance_score": 0.85
-        },
-        {
-          "title": "I Swapped White for This Cozy Blue — and My Kitchen Feels So Much Warmer",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-20T02:00:00.000Z",
-          "url": "https://www.apartmenttherapy.com/white-kitchen-dining-makeover-blue-paint-ba-37538175?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "The blue reminds me of wildflowers!",
-          "relevance_score": 0.85
         }
       ],
       "entities": {
@@ -469,71 +567,11 @@
         "housing_terms": []
       },
       "related_buzzwords": [
+        "life",
+        "forgotten",
+        "step",
         "white",
-        "week",
-        "cost",
-        "opportunity",
-        "chair"
-      ]
-    },
-    {
-      "cluster_id": "signal_000",
-      "cluster_name": "Free Tiny Room",
-      "description": "Cluster of related stories.",
-      "frequency": 3,
-      "momentum": "stable",
-      "confidence": "low",
-      "story_count": 3,
-      "first_seen": "2026-02-19T17:00:00+00:00",
-      "peak_date": "2026-02-19T21:30:00+00:00",
-      "outlets": [
-        "Apartment Therapy| Saving the world, one room at a time"
-      ],
-      "stories": [
-        {
-          "title": "5 Basically Free, Tiny Tweaks That Will Transform Your Bathroom",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-19T20:00:00.000Z",
-          "url": "https://www.apartmenttherapy.com/free-ways-to-revamp-bathroom-stager-2-37538179?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "I love a free hack.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "An Architect Reimagined Her 485-Square-Foot Studio with a Lofted Steel Bedroom",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-19T17:00:00.000Z",
-          "url": "https://www.apartmenttherapy.com/485-square-foot-madrid-studio-apartment-37539874?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "Architect Mariana de Delás transformed a tiny, unimpressive Madrid studio apartment with a custom-designed steel gangway that made room for a stylish bedroom, study, and storage.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "5 Surprising Secrets to a Functional, Clutter-Free Entryway",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-19T21:30:00.000Z",
-          "url": "https://www.apartmenttherapy.com/organized-entryway-for-kids-stuff-37539888?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "It’s all about zones!",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "free",
-        "tiny",
-        "room",
-        "years",
-        "women"
+        "room"
       ]
     }
   ],
@@ -542,14 +580,14 @@
     "building": [],
     "lasting": [
       {
-        "name": "JPMorgan Chase & IKEA - Best",
+        "name": "AI & Zillow - Home",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 35,
+        "mention_count": 30,
         "key_players": [
-          "JPMorgan Chase",
-          "IKEA",
-          "First American"
+          "Zillow",
+          "Opendoor",
+          "iBuyer"
         ]
       }
     ]
@@ -559,16 +597,18 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "JPMorgan Chase & IKEA - Best",
+        "shift": "AI & Zillow - Home",
         "drivers": [
-          "AI"
+          "AI",
+          "artificial intelligence"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early majority"
       },
       {
-        "shift": "AI & Bank of America - Sales",
+        "shift": "bi & Bank of America - Bank",
         "drivers": [
+          "bi",
           "AI"
         ],
         "timeline": "12-18 months",
@@ -579,7 +619,7 @@
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in AI & Bank of America - Sales",
+        "risk": "AI implementation challenges in AI & Zillow - Home",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -591,26 +631,26 @@
   },
   "north_star_questions": [
     {
-      "question": "How will JPMorgan Chase & IKEA - Best reshape competitive dynamics in the industry?",
+      "question": "How will AI & Zillow - Home reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
-        "signal_004"
+        "signal_002"
       ],
       "urgency": "medium"
     },
     {
-      "question": "What are the long-term implications of JPMorgan Chase & IKEA - Best for market structure?",
+      "question": "What are the long-term implications of AI & Zillow - Home for market structure?",
       "category": "Market Dynamics",
       "signals": [
-        "signal_004"
+        "signal_002"
       ],
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when jpmorgan chase & ikea - best?",
+      "question": "How do consumers perceive brand authenticity when ai & zillow - home?",
       "category": "Cultural Impact",
       "signals": [
-        "signal_004"
+        "signal_002"
       ],
       "urgency": "medium"
     }
@@ -618,7 +658,7 @@
   "raw_data_summary": {
     "total_articles": 60,
     "articles_with_full_content": 20,
-    "unique_entities_extracted": 11,
+    "unique_entities_extracted": 13,
     "clusters_identified": 5,
     "outliers": 0
   }
