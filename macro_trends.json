@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T08:37:27.543225",
-    "synthesis_period": "Week of February 18 - 23, 2026",
+    "generated_at": "2026-02-25T08:37:10.755943",
+    "synthesis_period": "Week of February 20 - 25, 2026",
     "data_points": {
       "total_stories": 60,
       "total_signals": 5,
@@ -11,22 +11,22 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: opendoor & ibuyer - sales",
+      "narrative": "Industry movement: keller williams & wayfair - best",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_004",
+        "signal_000",
+        "signal_001",
         "signal_002"
       ],
-      "story_count": 22,
+      "story_count": 42,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Opendoor",
-          "iBuyer",
-          "Chase",
-          "chase",
-          "JPMorgan Chase"
+          "Redfin",
+          "Keller Williams",
+          "Wayfair",
+          "Pottery Barn",
+          "Mr. Cooper"
         ],
         "technologies": [],
         "themes": []
@@ -40,69 +40,98 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
+          "id": "signal_000",
+          "name": "Keller Williams & Wayfair - Best",
+          "story_count": 26,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_004",
-          "name": "Chase & chase - Don",
-          "story_count": 8,
+          "name": "Wells Fargo - New",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & LOs - Investments",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 8,
-      "key_themes": []
+      "story_count": 44,
+      "key_themes": [
+        "equity",
+        "messaging"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Market",
-          "story_count": 28,
+          "id": "signal_000",
+          "name": "Keller Williams & Wayfair - Best",
+          "story_count": 26,
           "momentum": "stable"
         }
       ],
-      "story_count": 28,
+      "story_count": 26,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Wells Fargo - New",
+          "story_count": 11,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 11,
+      "key_themes": [
+        "equity",
+        "messaging"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Wells Fargo - New",
+          "story_count": 11,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 11,
+      "key_themes": [
+        "equity",
+        "messaging"
+      ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & IKEA - Market",
-          "story_count": 28,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Court Fed Mortgage",
-          "story_count": 10,
+          "name": "Realtor.com & Redfin - Got",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Opendoor & iBuyer - Sales",
-          "story_count": 9,
+          "name": "AI & LOs - Investments",
+          "story_count": 7,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "IKEA - Colors",
-          "story_count": 5,
+          "name": "West Elm - Storage",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 52,
+      "story_count": 23,
       "key_themes": []
     }
   },
@@ -119,82 +148,108 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "IKEA",
-        "mentions": 3
+        "name": "Redfin",
+        "mentions": 2
+      },
+      {
+        "name": "West Elm",
+        "mentions": 2
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 2
+      },
+      {
+        "name": "Realtor.com",
+        "mentions": 1
       },
       {
         "name": "Zillow",
         "mentions": 1
       },
       {
-        "name": "Opendoor",
+        "name": "Keller Williams",
         "mentions": 1
       },
       {
-        "name": "iBuyer",
+        "name": "Wayfair",
         "mentions": 1
       },
       {
-        "name": "Chase",
+        "name": "Pottery Barn",
         "mentions": 1
       },
       {
-        "name": "chase",
+        "name": "Mr. Cooper",
         "mentions": 1
       },
       {
-        "name": "Bank of America",
-        "mentions": 1
-      },
-      {
-        "name": "JPMorgan Chase",
+        "name": "Rocket Mortgage",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 4
+        "mentions": 7
       },
       {
-        "name": "artificial intelligence",
+        "name": "LOs",
         "mentions": 1
       }
     ],
     "influential_voices": [],
-    "cultural_movements": [],
-    "storytelling_approaches": []
+    "cultural_movements": [
+      {
+        "theme": "equity",
+        "frequency": 1
+      }
+    ],
+    "storytelling_approaches": [
+      {
+        "approach": "messaging",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 8,
+      "signal_count": 3,
+      "story_count": 44,
       "top_signals": [
-        "Chase & chase - Don"
+        "Keller Williams & Wayfair - Best",
+        "Wells Fargo - New",
+        "AI & LOs - Investments"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on chase & chase - don with mixed momentum"
+      "key_insight": "Primary focus on keller williams & wayfair - best with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 26,
+      "top_signals": [
+        "Keller Williams & Wayfair - Best"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on keller williams & wayfair - best"
     },
     "enterprise_culture": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 11,
+      "top_signals": [
+        "Wells Fargo - New"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on wells fargo - new"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 11,
+      "top_signals": [
+        "Wells Fargo - New"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: wells fargo - new"
     }
   },
   "emerging_patterns": [
@@ -202,25 +257,28 @@
       "pattern_type": "new_emergence",
       "description": "5 new topic(s) appearing",
       "examples": [
-        "AI & IKEA - Market",
-        "Court Fed Mortgage",
-        "Opendoor & iBuyer - Sales"
+        "Keller Williams & Wayfair - Best",
+        "Realtor.com & Redfin - Got",
+        "Wells Fargo - New"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Market",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - market.",
+    "headline": "Focus on Keller Williams & Wayfair - Best",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on keller williams & wayfair - best.",
     "key_shifts": [],
-    "dominant_themes": [],
+    "dominant_themes": [
+      "equity"
+    ],
     "attention_areas": [
-      "AI & IKEA - Market",
-      "Court Fed Mortgage",
-      "Opendoor & iBuyer - Sales"
+      "Keller Williams & Wayfair - Best",
+      "Realtor.com & Redfin - Got",
+      "Wells Fargo - New"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?"
+      "What's driving technology adoption patterns?",
+      "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
