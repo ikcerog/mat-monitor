@@ -1,41 +1,60 @@
 {
   "meta": {
-    "generated_at": "2026-02-26T08:35:31.276069",
-    "synthesis_period": "Week of February 23 - 26, 2026",
+    "generated_at": "2026-03-01T08:06:05.948746",
+    "synthesis_period": "Week of February 25 - 01, 2026",
     "data_points": {
       "total_stories": 60,
-      "total_signals": 4,
-      "time_span_days": 3
+      "total_signals": 5,
+      "time_span_days": 4
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward wells fargo & ikea - trump",
-      "theme": "Workplace & Culture",
+      "narrative": "Industry movement: make work want",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_002"
+        "signal_001",
+        "signal_000"
       ],
-      "story_count": 40,
+      "story_count": 27,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Wells Fargo",
           "IKEA",
-          "Wayfair"
+          "Compass"
+        ],
+        "technologies": [],
+        "themes": []
+      },
+      "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ikea & u.s. bank - bank",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_003",
+        "signal_004"
+      ],
+      "story_count": 17,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "IKEA",
+          "U.S. Bank",
+          "HSBC",
+          "loanDepot"
         ],
         "technologies": [
-          "insights",
-          "Los"
+          "AI",
+          "customer experience",
+          "artificial intelligence"
         ],
-        "themes": [
-          "equity",
-          "DEI",
-          "diversity"
-        ]
+        "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -44,32 +63,29 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Wells Fargo & IKEA - Trump",
-          "story_count": 28,
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 28,
-      "key_themes": [
-        "DEI",
-        "diversity",
-        "equity",
-        "inclusion"
-      ]
+      "story_count": 7,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "New Housing Spring",
-          "story_count": 10,
+          "id": "signal_002",
+          "name": "Freddie Mac & insights - Affordability",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
-      "key_themes": []
+      "story_count": 16,
+      "key_themes": [
+        "equity"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -81,37 +97,46 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Wells Fargo & IKEA - Trump",
-          "story_count": 28,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "Los - Buyer",
-          "story_count": 12,
+          "name": "Freddie Mac & insights - Affordability",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 16,
       "key_themes": [
-        "DEI",
-        "diversity",
-        "equity",
-        "inclusion"
+        "equity"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "Make Work Want",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "IKEA & Compass - Space",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "IKEA & U.S. Bank - Bank",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_004",
-          "name": "AI & Zillow - People",
-          "story_count": 8,
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 8,
+      "story_count": 44,
       "key_themes": []
     }
   },
@@ -119,7 +144,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 4,
+      "stable": 5,
       "declining": 0
     },
     "hot_topics": [],
@@ -128,23 +153,31 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Wells Fargo",
+        "name": "Freddie Mac",
         "mentions": 2
       },
       {
-        "name": "Zillow",
-        "mentions": 1
-      },
-      {
-        "name": "ICE Mortgage Technology",
-        "mentions": 1
+        "name": "Compass",
+        "mentions": 2
       },
       {
         "name": "IKEA",
+        "mentions": 2
+      },
+      {
+        "name": "loanDepot",
         "mentions": 1
       },
       {
-        "name": "Wayfair",
+        "name": "FICO",
+        "mentions": 1
+      },
+      {
+        "name": "U.S. Bank",
+        "mentions": 1
+      },
+      {
+        "name": "HSBC",
         "mentions": 1
       }
     ],
@@ -154,15 +187,15 @@
         "mentions": 5
       },
       {
-        "name": "loan origination system",
-        "mentions": 1
-      },
-      {
-        "name": "Los",
-        "mentions": 1
+        "name": "artificial intelligence",
+        "mentions": 3
       },
       {
         "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "customer experience",
         "mentions": 1
       }
     ],
@@ -170,18 +203,6 @@
     "cultural_movements": [
       {
         "theme": "equity",
-        "frequency": 3
-      },
-      {
-        "theme": "DEI",
-        "frequency": 1
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
-      },
-      {
-        "theme": "inclusion",
         "frequency": 1
       }
     ],
@@ -190,31 +211,30 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 28,
+      "story_count": 7,
       "top_signals": [
-        "Wells Fargo & IKEA - Trump"
+        "AI & artificial intelligence - Intelligence"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wells fargo & ikea - trump with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - intelligence with mixed momentum"
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 16,
       "top_signals": [
-        "New Housing Spring"
+        "Freddie Mac & insights - Affordability"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on new housing spring"
+      "key_insight": "Market narrative centered on freddie mac & insights - affordability"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 16,
       "top_signals": [
-        "Wells Fargo & IKEA - Trump",
-        "Los - Buyer"
+        "Freddie Mac & insights - Affordability"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wells fargo & ikea - trump"
+      "key_insight": "Cultural emphasis on freddie mac & insights - affordability"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -227,27 +247,26 @@
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "4 new topic(s) appearing",
+      "description": "5 new topic(s) appearing",
       "examples": [
-        "Wells Fargo & IKEA - Trump",
-        "Los - Buyer",
-        "New Housing Spring"
+        "Freddie Mac & insights - Affordability",
+        "Make Work Want",
+        "IKEA & Compass - Space"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Wells Fargo & IKEA - Trump",
-    "executive_summary": "Analysis of 58 stories across 4 thematic areas. mixed momentum across the landscape. Primary attention on wells fargo & ikea - trump.",
+    "headline": "Focus on Freddie Mac & insights - Affordability",
+    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on freddie mac & insights - affordability.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "DEI"
+      "equity"
     ],
     "attention_areas": [
-      "Wells Fargo & IKEA - Trump",
-      "Los - Buyer",
-      "New Housing Spring"
+      "Freddie Mac & insights - Affordability",
+      "Make Work Want",
+      "IKEA & Compass - Space"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -255,8 +274,6 @@
     ]
   },
   "macro_observations": [
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
