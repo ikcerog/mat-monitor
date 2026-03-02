@@ -1,57 +1,30 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T08:06:05.948746",
-    "synthesis_period": "Week of February 25 - 01, 2026",
+    "generated_at": "2026-03-02T08:34:51.324607",
+    "synthesis_period": "March 08 - March 02, 2026",
     "data_points": {
-      "total_stories": 60,
-      "total_signals": 5,
-      "time_span_days": 4
+      "total_stories": 110,
+      "total_signals": 6,
+      "time_span_days": 725
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: make work want",
+      "narrative": "Industry movement: fico - kitchen",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_000"
+        "signal_002",
+        "signal_003",
+        "signal_005"
       ],
       "story_count": 27,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Compass"
+          "FICO"
         ],
         "technologies": [],
-        "themes": []
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ikea & u.s. bank - bank",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_003",
-        "signal_004"
-      ],
-      "story_count": 17,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "U.S. Bank",
-          "HSBC",
-          "loanDepot"
-        ],
-        "technologies": [
-          "AI",
-          "customer experience",
-          "artificial intelligence"
-        ],
         "themes": []
       },
       "time_depth": "developing",
@@ -64,46 +37,70 @@
       "signals": [
         {
           "id": "signal_004",
-          "name": "AI & artificial intelligence - Intelligence",
-          "story_count": 7,
+          "name": "artificial intelligence & AI - Fintech",
+          "story_count": 43,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & insights - Mortgage",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 7,
-      "key_themes": []
+      "story_count": 71,
+      "key_themes": [
+        "case study",
+        "equity"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Freddie Mac & insights - Affordability",
-          "story_count": 16,
+          "id": "signal_000",
+          "name": "AI & insights - Mortgage",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "VA - Home",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 40,
       "key_themes": [
         "equity"
       ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "artificial intelligence & AI - Fintech",
+          "story_count": 43,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 43,
+      "key_themes": [
+        "case study"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Freddie Mac & insights - Affordability",
-          "story_count": 16,
+          "id": "signal_000",
+          "name": "AI & insights - Mortgage",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 28,
       "key_themes": [
         "equity"
       ]
@@ -112,39 +109,48 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Make Work Want",
-          "story_count": 14,
+          "id": "signal_004",
+          "name": "artificial intelligence & AI - Fintech",
+          "story_count": 43,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "IKEA & Compass - Space",
-          "story_count": 13,
+          "name": "AI & insights - Mortgage",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "FICO - Kitchen",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "IKEA & U.S. Bank - Bank",
-          "story_count": 10,
+          "name": "Submitted Did 75",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Intelligence",
+          "id": "signal_005",
+          "name": "Keeps Common Gardening",
           "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 44,
-      "key_themes": []
+      "story_count": 98,
+      "key_themes": [
+        "case study",
+        "equity"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 5,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -179,6 +185,18 @@
       {
         "name": "HSBC",
         "mentions": 1
+      },
+      {
+        "name": "VA",
+        "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "USDA",
+        "mentions": 1
       }
     ],
     "key_technologies": [
@@ -192,7 +210,7 @@
       },
       {
         "name": "insights",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "customer experience",
@@ -206,67 +224,76 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "case study",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 7,
+      "signal_count": 2,
+      "story_count": 71,
       "top_signals": [
-        "AI & artificial intelligence - Intelligence"
+        "artificial intelligence & AI - Fintech",
+        "AI & insights - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - intelligence with mixed momentum"
+      "key_insight": "Primary focus on artificial intelligence & ai - fintech with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 16,
+      "signal_count": 2,
+      "story_count": 40,
       "top_signals": [
-        "Freddie Mac & insights - Affordability"
+        "AI & insights - Mortgage",
+        "VA - Home"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on freddie mac & insights - affordability"
+      "key_insight": "Market narrative centered on ai & insights - mortgage"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 16,
+      "story_count": 28,
       "top_signals": [
-        "Freddie Mac & insights - Affordability"
+        "AI & insights - Mortgage"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on freddie mac & insights - affordability"
+      "key_insight": "Cultural emphasis on ai & insights - mortgage"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 43,
+      "top_signals": [
+        "artificial intelligence & AI - Fintech"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: artificial intelligence & ai - fintech"
     }
   },
   "emerging_patterns": [
     {
       "pattern_type": "new_emergence",
-      "description": "5 new topic(s) appearing",
+      "description": "3 new topic(s) appearing",
       "examples": [
-        "Freddie Mac & insights - Affordability",
-        "Make Work Want",
-        "IKEA & Compass - Space"
+        "AI & insights - Mortgage",
+        "VA - Home",
+        "FICO - Kitchen"
       ],
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Freddie Mac & insights - Affordability",
-    "executive_summary": "Analysis of 60 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on freddie mac & insights - affordability.",
+    "headline": "Focus on artificial intelligence & AI - Fintech",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - fintech.",
     "key_shifts": [],
     "dominant_themes": [
       "equity"
     ],
     "attention_areas": [
-      "Freddie Mac & insights - Affordability",
-      "Make Work Want",
-      "IKEA & Compass - Space"
+      "artificial intelligence & AI - Fintech",
+      "AI & insights - Mortgage",
+      "VA - Home"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -274,6 +301,7 @@
     ]
   },
   "macro_observations": [
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period"
   ]
 }
