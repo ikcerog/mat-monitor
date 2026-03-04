@@ -97,40 +97,40 @@ def read_summary_cache(filepath='summary_cache.txt'):
         sys.exit(1)
 
 def extract_stories(content):
-    """Extract individual stories from the enhanced content format"""
+    """Extract individual stories from the summary cache.
+    Handles both the legacy structured format (TITLE:/URL:/DATE: prefixes)
+    and the current plain-text format output by rss-collector.js.
+    """
     stories = []
     current_feed = None
     current_source = None
     current_category = None
 
-    # Initialize extractors
     entity_extractor = EntityExtractor()
     summarizer = ContentSummarizer(max_sentences=3)
 
     lines = content.split('\n')
     i = 0
+
     while i < len(lines):
         line = lines[i].strip()
 
-        # Check for feed header
         if line.startswith('FEED:'):
             current_feed = line.replace('FEED:', '').strip()
             i += 1
             continue
 
-        # Check for source URL
         if line.startswith('SOURCE:'):
             current_source = line.replace('SOURCE:', '').strip()
             i += 1
             continue
 
-        # Check for category
         if line.startswith('CATEGORY:'):
             current_category = line.replace('CATEGORY:', '').strip()
             i += 1
             continue
 
-        # Check for story title (new format: TITLE: ...)
+        # --- Legacy structured format (TITLE: prefix) ---
         if line.startswith('TITLE:'):
             title = line.replace('TITLE:', '').strip()
             url = ''
@@ -139,39 +139,31 @@ def extract_stories(content):
             date = ''
             author = ''
 
-            # Parse all story fields
             i += 1
             while i < len(lines):
-                line = lines[i].strip()
-
-                if line.startswith('URL:'):
-                    url = line.replace('URL:', '').strip()
-                elif line.startswith('DATE:'):
-                    date = line.replace('DATE:', '').strip()
-                elif line.startswith('AUTHOR:'):
-                    author = line.replace('AUTHOR:', '').strip()
-                elif line.startswith('DESCRIPTION:'):
-                    description = line.replace('DESCRIPTION:', '').strip()
-                elif line.startswith('CONTENT:'):
-                    full_content = line.replace('CONTENT:', '').strip()
-                elif line.startswith('---') or line.startswith('TITLE:') or line.startswith('FEED:'):
-                    # End of this story
+                fl = lines[i].strip()
+                if fl.startswith('URL:'):
+                    url = fl.replace('URL:', '').strip()
+                elif fl.startswith('DATE:'):
+                    date = fl.replace('DATE:', '').strip()
+                elif fl.startswith('AUTHOR:'):
+                    author = fl.replace('AUTHOR:', '').strip()
+                elif fl.startswith('DESCRIPTION:'):
+                    description = fl.replace('DESCRIPTION:', '').strip()
+                elif fl.startswith('CONTENT:'):
+                    full_content = fl.replace('CONTENT:', '').strip()
+                elif fl.startswith('---') or fl.startswith('TITLE:') or fl.startswith('FEED:'):
                     break
-
+                else:
+                    # Multi-line CONTENT continuation
+                    if full_content:
+                        full_content += ' ' + fl
                 i += 1
 
             if title:
-                # Extract entities
                 text_for_extraction = f"{description} {full_content}" if full_content else description
                 entities = entity_extractor.extract_entities(text_for_extraction, title)
-
-                # Generate summary
-                summary = ''
-                if full_content and len(full_content) > len(description) + 100:
-                    summary = summarizer.summarize(full_content, title, entities)
-                elif description:
-                    summary = description[:200]  # Use description as fallback
-
+                summary = summarizer.summarize(full_content, title, entities) if full_content and len(full_content) > len(description) + 100 else description[:200]
                 stories.append({
                     'feed': current_feed or 'Unknown',
                     'outlet': current_feed or 'Unknown',
@@ -187,7 +179,53 @@ def extract_stories(content):
                     'entities': entities,
                     'text': f"{title} {description} {full_content}".lower()
                 })
+            continue
 
+        # --- Current plain-text format (no prefixes) ---
+        # A title is a non-empty line that is not a URL and not a meta header,
+        # and we must be inside a FEED section.
+        if (line and current_feed
+                and not line.startswith('http')
+                and not line.startswith('Last updated:')
+                and not line.startswith('Total feeds:')):
+
+            title = line
+            url = ''
+            description_parts = []
+
+            i += 1
+            while i < len(lines):
+                nl = lines[i].strip()
+                if not nl:
+                    # Blank line ends the story
+                    break
+                if nl.startswith('FEED:') or nl.startswith('SOURCE:'):
+                    break
+                if nl.startswith('http') and not url:
+                    url = nl
+                else:
+                    description_parts.append(nl)
+                i += 1
+
+            description = ' '.join(description_parts)
+            if title:
+                entities = entity_extractor.extract_entities(description, title)
+                summary = description[:200] if description else ''
+                stories.append({
+                    'feed': current_feed or 'Unknown',
+                    'outlet': current_feed or 'Unknown',
+                    'feed_category': current_category,
+                    'source_url': current_source,
+                    'title': title,
+                    'url': url,
+                    'date': '',
+                    'author': '',
+                    'description': description,
+                    'full_content': '',
+                    'summary': summary,
+                    'entities': entities,
+                    'text': f"{title} {description}".lower()
+                })
             continue
 
         i += 1
