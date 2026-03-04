@@ -5,7 +5,7 @@ const path = require('path');
 
 const parser = new Parser({
   customFields: {
-    item: ['content:encoded', 'description', 'summary', 'author', 'creator', 'dc:creator']
+    item: ['content:encoded', 'description', 'summary']
   },
   timeout: 30000 // 30 second timeout per feed
 });
@@ -74,36 +74,21 @@ async function fetchFeed(feedConfig, index, total) {
 }
 
 /**
- * Process feed items into enhanced structured format
+ * Process feed items into clean text (headlines and descriptions only)
  */
 function processFeedItems(feed, config, settings) {
   const items = feed.items.slice(0, settings.maxArticlesPerFeed || 10);
   let output = `\nFEED: ${feed.title || config.name}\n`;
-  output += `SOURCE: ${config.url}\n`;
-  output += `CATEGORY: ${config.category || 'Uncategorized'}\n\n`;
+  output += `SOURCE: ${config.url}\n\n`;
 
   items.forEach((item, index) => {
-    // Title
-    output += `TITLE: ${item.title || 'Untitled'}\n`;
+    output += `${item.title || 'Untitled'}\n`;
 
-    // URL
     if (item.link) {
-      output += `URL: ${item.link}\n`;
+      output += `${item.link}\n`;
     }
 
-    // Publication date
-    if (item.pubDate || item.isoDate) {
-      const date = item.isoDate || item.pubDate;
-      output += `DATE: ${date}\n`;
-    }
-
-    // Author
-    const author = item.author || item.creator || item['dc:creator'] || '';
-    if (author) {
-      output += `AUTHOR: ${author}\n`;
-    }
-
-    // Brief description (~300 chars)
+    // Get brief description only - no full content
     let description = '';
     if (item.contentSnippet) {
       description = item.contentSnippet;
@@ -113,33 +98,15 @@ function processFeedItems(feed, config, settings) {
       description = htmlToCleanText(item.summary);
     }
 
+    // Trim description to ~300 characters for conciseness
     if (description) {
       if (description.length > 300) {
         description = description.substring(0, 300) + '...';
       }
-      output += `DESCRIPTION: ${description}\n`;
+      output += `${description}\n`;
     }
 
-    // Full content (if available)
-    let fullContent = '';
-    if (item['content:encoded']) {
-      fullContent = htmlToCleanText(item['content:encoded']);
-    } else if (item.content && typeof item.content === 'string') {
-      fullContent = htmlToCleanText(item.content);
-    } else if (item.contentEncoded) {
-      fullContent = htmlToCleanText(item.contentEncoded);
-    }
-
-    if (fullContent && fullContent.length > description.length + 100) {
-      // Only include if substantially longer than description
-      // Limit to 5000 chars for performance
-      if (fullContent.length > 5000) {
-        fullContent = fullContent.substring(0, 5000) + '...';
-      }
-      output += `CONTENT: ${fullContent}\n`;
-    }
-
-    output += `---\n`;
+    output += `\n`;
   });
 
   return output;
