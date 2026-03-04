@@ -890,19 +890,23 @@ def generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data):
     # Parse existing entries to keep recent ones
     filtered_sections = []
     if existing_content:
-        # Split by date headers and filter by date
-        sections = existing_content.split("=" * 80)
-        for section in sections:
-            if "ENHANCED ANALYSIS:" in section:
-                # Extract date from section
-                date_match = re.search(r'(\d{2}/\d{2}/\d{4})', section)
-                if date_match:
-                    try:
-                        entry_date = datetime.strptime(date_match.group(1), '%m/%d/%Y')
-                        if entry_date >= cutoff_date:
-                            filtered_sections.append("=" * 80 + section)
-                    except:
-                        pass
+        # Split at each day boundary so the full block (header + signals + stories)
+        # stays together. Splitting by '=' * 80 alone breaks content into tiny
+        # fragments — only the date-header fragment contained "ENHANCED ANALYSIS:",
+        # so all signal/story content was silently discarded on every run.
+        # Using a lookahead keeps "ENHANCED ANALYSIS:" as the start of each block.
+        day_blocks = re.split(r'={80}\n(?=ENHANCED ANALYSIS:)', existing_content)
+        for block in day_blocks:
+            if "ENHANCED ANALYSIS:" not in block:
+                continue
+            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', block)
+            if date_match:
+                try:
+                    entry_date = datetime.strptime(date_match.group(1), '%m/%d/%Y')
+                    if entry_date >= cutoff_date:
+                        filtered_sections.append("=" * 80 + "\n" + block.rstrip())
+                except:
+                    pass
 
     # Start building new entry
     output = []
