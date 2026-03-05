@@ -1,31 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T08:34:51.318799",
+    "generated_at": "2026-03-05T08:30:57.693062",
     "timeframe": {
-      "period": "March 08 - March 02, 2026",
-      "coverage_days": 725,
-      "date_range": [
-        "2024-03-08",
-        "2026-03-02"
-      ],
-      "total_stories": 110,
-      "unique_outlets": 11,
-      "outlets_breakdown": {
-        "Mortgage Industry": 20,
-        "Consumer Housing": 10,
-        "Consumer Lifestyle": 10,
-        "Enterprise Culture": 10,
-        "Financial Services": 10,
-        "Community": 50
-      }
+      "period": "Recent period",
+      "coverage_days": 7,
+      "date_range": [],
+      "total_stories": 99,
+      "unique_outlets": 10,
+      "outlets_breakdown": {}
     }
   },
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "artificial intelligence & AI - Fintech (↑43 mentions)",
-        "AI & insights - Mortgage (↑28 mentions)",
-        "VA - Home (↑12 mentions)"
+        "IKEA & AI - Brand (↑18 mentions)",
+        "Experian & Insights - Ad (↑18 mentions)",
+        "AI & SaaS - Netflix (↑17 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -33,731 +23,906 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "7 M&A/partnership announcements detected"
+        "8 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
-      "cluster_id": "signal_004",
-      "cluster_name": "artificial intelligence & AI - Fintech",
-      "description": "Stories featuring loanDepot, IKEA, HSBC focusing on artificial intelligence, AI, customer experience.",
-      "frequency": 43,
+      "cluster_id": "signal_003",
+      "cluster_name": "IKEA & AI - Brand",
+      "description": "Stories featuring IKEA focusing on AI.",
+      "frequency": 18,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 43,
-      "first_seen": "2024-03-22T04:14:24+00:00",
-      "peak_date": "2026-03-02T08:12:54+00:00",
+      "story_count": 18,
+      "first_seen": null,
+      "peak_date": null,
       "outlets": [
-        "HomeOwners & Investors",
-        "Latest Content - Good Housekeeping",
-        "HousingWire",
-        "Banking Dive - Latest News",
-        "Work",
-        "First Time Home Buyer",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Fintech: financial technology",
-        "Mortgage Professional",
-        "Fast Company - leadership",
-        "Mortgages"
+        "More About Advertising",
+        "Adweek Feed",
+        "AdExchanger",
+        "Marketing Dive - Latest News",
+        "Ad Tech Daily",
+        "CIO Dive - Latest News",
+        "Campaign UK More Latest RSS Feed",
+        "Adpulp"
       ],
       "stories": [
         {
-          "title": "KeyBank wants 10% boost in its commercial-banking workforce",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-26T15:21:16.000Z",
-          "url": "https://www.bankingdive.com/news/keybank-commercial-banking-hiring-gavrity/813205/",
-          "summary": "After hiring a Kansas City-based family office team, the Cleveland-based regional seeks to add commercial bankers in New York, Chicago, Southern California and Atlanta.",
+          "title": "How Brooks Brothers is refreshing the oldest apparel brand in the US",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/how-brooks-brothers-is-refreshing-the-oldest-apparel-brand-in-the-us/813627/",
+          "summary": "Marisa Thalberg, chief customer and marketing officer at Catalyst Brands, details how the “Make It Yours” campaign transforms the brand’s positioning.",
           "relevance_score": 0.85
         },
         {
-          "title": "JPMorgan warns a ‘parallel banking system’ is emerging—and it could put trillions in deposits at risk",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-28T09:00:00.000Z",
-          "url": "https://www.fastcompany.com/91497394/jp-morgan-warns-a-parallel-banking-system-is-emerging-and-it-could-put-trillions-in-deposits-at-risk?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Stablecoins that offer interest-bearing rewards may increasingly resemble bank deposits. But unlike traditional deposits, they lack the regulatory safeguards that undergird the banking system. That ga",
+          "title": "Merrell’s first global brand platform looks to redefine the outdoors",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/merrells-first-global-brand-platform-looks-to-redefine-the-outdoors/813474/",
+          "summary": "Created with Uncommon Creative Studio, the “It Starts Outside” campaign will roll out globally across social, digital and connected TV.",
           "relevance_score": 0.85
         },
         {
-          "title": "Payoneer applies for OCC’s national trust bank charter",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-25T16:10:06.000Z",
-          "url": "https://www.bankingdive.com/news/payoneer-applies-occ-national-trust-bank-charter-bridge/813092/",
-          "summary": "The cross-border platform joins the influx of fintechs seeking banking licenses to issue and custody stablecoins. The OCC has conditionally approved at least seven trust bank charters since December.",
+          "title": "WPP's Jon Cook on designing the company around how a “consumer consumes a brand”",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/wpps-jon-cook-designing-company-around-%E2%80%9Cconsumer-consumes-brand%E2%80%9D/1950181",
+          "summary": "The chief executive of WPP Creative says: “No consumer looks at a brand and says, 'That's media' or 'That's creative'.”",
           "relevance_score": 0.85
         },
         {
-          "title": "Help with a school fintech project - I want to hear from you!",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-03-02T04:41:31.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1rijfwl/help_with_a_school_fintech_project_i_want_to_hear/",
-          "summary": "Hello everyone, I’m a business student at a leading Canadian university working on a thematic case study for the fintech industry.",
+          "title": "A+E Turns Brands Into Lifetime Movies as It Looks to Compete in Upfront Pitch",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/convergent-tv/ae-turns-brands-lifetime-movies-upfront-pitch/",
+          "summary": "A+E Global Media announces new content and brand creative studio.",
           "relevance_score": 0.85
         },
         {
-          "title": "Developing a Texas Based P2P Lending Platform (not a promotion)",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-03-02T00:01:43.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1ridgiq/developing_a_texas_based_p2p_lending_platform_not/",
-          "summary": "Since well before June 2024, I've been looking to diversify my own investments into some fixed income assets. I then learned that the SEC cracked down on P2P companies, hence why Prosper is the only o",
+          "title": "Readpeak Turbo Charges Leadership Team with Top Talent from Pinterest, Hearst, and The Trade Desk as It Accelerates European Expansion",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/10/17/readpeak-turbo-charges-leadership-team-with-top-talent-from-pinterest-hearst-and-the-trade-desk-as-it-accelerates-european-expansion/",
+          "summary": "Native adtech scale-up makes a trio of senior appointments across the UK and France Readpeak, the leading programmatic native advertising platform, trusted by brands including IKEA, BMW, and Bosch, ha",
           "relevance_score": 0.85
         },
         {
-          "title": "Millrose outperforms with disciplined growth, strong partnerships",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T21:17:08.000Z",
-          "url": "https://www.housingwire.com/articles/millrose-earnings-q4-2025/",
-          "summary": "Now one for the books, the 2025 homebuilding market slowed in new construction, resulting in contract cancellations and reduced takedown activity. Millrose Properties, whose epic scale and timing laun",
+          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
+          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
           "relevance_score": 0.85
         },
         {
-          "title": "3 affordable networking options that work better than LinkedIn",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-28T11:00:00.000Z",
-          "url": "https://www.fastcompany.com/91498978/creative-and-affordable-networking-opportunities-beyond-linkedin?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Networking as a solopreneur can feel impossible LinkedIn is full of the sort of hustle-culture aficionados who think yoga at 4 a.m Asking friends and family to make referrals for you gives you flashba",
+          "title": "6sense Expands Executive Team to Scale Innovation and Advance Leadership in AI-Powered Revenue Marketing",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/08/27/6sense-expands-executive-team-to-scale-innovation-and-advance-leadership-in-ai-powered-revenue-marketing/",
+          "summary": "SAN FRANCISCO — 6sense®, the first AI-powered revenue marketing platform, today announced three strategic executive appointments: Tim O’Neil as Chief Sales Officer, Amir Ravandoust as Chief Operating ",
           "relevance_score": 0.85
         },
         {
-          "title": "In a 600-word X post, Jack Dorsey justifies his decision to lay off 40% of Block’s workforce",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-27T17:00:00.000Z",
-          "url": "https://www.fastcompany.com/91500048/in-a-626-word-x-post-jack-dorsey-justifies-his-decision-to-lay-off-40-of-blocks-workforce?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "On Thursday, Block CEO Jack Dorsey announced that his fintech company, which owns Square and Cash App, would be laying off a whopping 40% of its workforce, slashing over 4,000 jobs.",
+          "title": "Why Papa Johns is going back to basics in latest marketing shakeup",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/why-papa-johns-is-going-back-to-basics-in-latest-marketing-shakeup/813542/",
+          "summary": "The chain recently supported its pan pizza launch with a campaign that spanned social, influencer and other media channels.",
           "relevance_score": 0.85
         },
         {
-          "title": "Building Broker–Lender Partnerships That Actually Work",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-27T17:45:44.000Z",
-          "url": "https://www.mpamag.com/us/news/broker-intel/building-brokerlender-partnerships-that-actually-work/566913",
-          "summary": "In a market where one missed detail can kill a deal, Tom Ahles reveals how smart brokers are redefining lender partnerships: demanding consistency, real transparency, and direct access to decision-mak",
+          "title": "Manifest Hires BarkleyOKRP Veteran to Lead Client Division",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/agencies/manifest-hires-barkleyokrp-veteran-to-lead-client-division/",
+          "summary": "Manifest hired its first post-merger chief client officer to unify client leadership across the newly integrated content strategy and data-performance agency.",
           "relevance_score": 0.85
         },
         {
-          "title": "Washington’s FS Bancorp boosts Portland presence",
-          "outlet": "Banking Dive - Latest News",
-          "date": "2026-02-27T17:32:41.000Z",
-          "url": "https://www.bankingdive.com/news/1st-security-pacific-west-portland-34-million-merger/813392/",
-          "summary": "The bank’s $34.6 million merger with Oregon-based Pacific West, set to close in the third quarter, will create a lender with 31 locations and $3.6 billion in assets.",
+          "title": "Doner and Colle McCoy Merge to Form DonerColle Partners",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/doner-and-colle-mccoy-merge-to-form-donercolle-partners/",
+          "summary": "DETROIT — Stagwell agencies Doner and Colle McVoy have joined forces to form DonerColle Partners, a new entity created to serve the brands that move America. As the Midwest emerges as the demographic ",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "loanDepot",
-          "IKEA",
-          "HSBC"
+          "IKEA"
         ],
         "agencies": [],
         "technologies": [
-          "artificial intelligence",
-          "AI",
-          "customer experience"
+          "AI"
         ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
-        "metrics": [
-          "affordability"
-        ],
+        "metrics": [],
         "cultural_themes": [],
-        "storytelling_themes": [
-          "case study"
-        ],
+        "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "fintech",
-        "banking",
-        "work",
-        "actually",
-        "looking"
+        "brand",
+        "marketing",
+        "brands",
+        "chief",
+        "campaign"
       ]
     },
     {
       "cluster_id": "signal_000",
-      "cluster_name": "AI & insights - Mortgage",
-      "description": "Stories featuring Freddie Mac, Compass, IKEA focusing on AI, insights, artificial intelligence.",
-      "frequency": 28,
+      "cluster_name": "Experian & Insights - Ad",
+      "description": "Stories featuring Experian focusing on Insights.",
+      "frequency": 18,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 28,
-      "first_seen": "2026-02-25T17:00:01+00:00",
-      "peak_date": "2026-03-02T05:14:44+00:00",
+      "story_count": 18,
+      "first_seen": null,
+      "peak_date": null,
       "outlets": [
-        "HomeOwners & Investors",
-        "Latest Content - Good Housekeeping",
-        "HousingWire",
-        "Banking Dive - Latest News",
-        "Work",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Mortgage Professional",
-        "Fast Company - leadership",
-        "Mortgages"
+        "More About Advertising",
+        "AdExchanger",
+        "Marketing Dive - Latest News",
+        "Ad Tech Daily",
+        "CIO Dive - Latest News",
+        "Campaign UK More Latest RSS Feed",
+        "Adpulp",
+        "Fast Company"
       ],
       "stories": [
         {
-          "title": "Will war with Iran send mortgage rates higher or lower?",
-          "outlet": "HousingWire",
-          "date": "2026-03-01T00:18:22.000Z",
-          "url": "https://www.housingwire.com/articles/will-war-with-iran-send-mortgage-rates-higher-or-lower/",
-          "summary": "Spring is right around the corner and mortgage rates are already under 6%, but now we have a new variable: war with Iran Now the question is whether the conflict in Iran will send rates lower or highe",
+          "title": "Wurl and TVision Unveil New Report Linking Emotion Alignment to Higher Ad Attention on Streaming TV",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/08/29/wurl-and-tvision-unveil-new-report-linking-emotion-alignment-to-higher-ad-attention-on-streaming-tv/",
+          "summary": "First-of-its-kind analysis shows ads that are emotionally aligned with surrounding content consistently capture greater attention and drive performance PALO ALTO, Calif. — Wurl, a leader in the stream",
           "relevance_score": 0.85
         },
         {
-          "title": "Mortgage rates fall to multiyear lows in time for spring housing market",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T19:38:04.000Z",
-          "url": "https://www.housingwire.com/articles/mortgage-rates-fall-spring/",
-          "summary": "Mortgage rates are at multiyear lows, whether you quote Mortgage News Daily at 5.99% or Freddie Mac weekly data at 5.98% The drop has come at a good time, as the spring housing market is about to star",
+          "title": "Trade Desk ups bid to improve CTV advertising value with Ventura Ecosystem",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/trade-desk-ups-bid-to-improve-ctv-advertising-value-with-ventura-ecosystem/813401/",
+          "summary": "The new industry collaboration is meant to deliver a more transparent marketplace and includes initial partners Nexxen and TV operating system V.",
           "relevance_score": 0.85
         },
         {
-          "title": "Mortgage rates drop under 6% for first time in nearly four years",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-26T17:33:06.000Z",
-          "url": "https://www.mpamag.com/us/mortgage-industry/market-updates/mortgage-rates-drop-under-6-for-first-time-in-nearly-four-years/566751",
-          "summary": "Freddie Mac says rates haven't been this low since September 2022, stirring hopes of a better spring housing market",
+          "title": "Why Amazon Is Gaining Ground In CTV And The Trade Desk Is Losing Its Lead",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/on-tv-and-video/why-amazon-is-gaining-ground-in-ctv-and-the-trade-desk-is-losing-its-lead/",
+          "summary": "CTV advertising is booming, with the channel growing by 13% in 2025 to $26.6 billion and projected to hit $51 billion by 2029. In this environment, you’d expect to see sustained overperformance from T",
           "relevance_score": 0.85
         },
         {
-          "title": "Tavant agentic AI portal connects lenders, real estate agents, borrowers",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T21:40:34.000Z",
-          "url": "https://www.housingwire.com/articles/tavant-agentic-ai-portal-connects-lenders-real-estate-borrowers/",
-          "summary": "At the Mortgage Bankers Association’s Servicing Solutions Conference & Expo 2026 in Dallas, Tavant unveiled its TOUCHLESS Servicing Portal and embedded artificial intelligence (AI) agent MAYA — expand",
+          "title": "Axe ad shows football fan up for the (World) cup",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/axe-ad-shows-football-fan-world-cup/1950474",
+          "summary": "Campaign created by Lola Madrid.",
           "relevance_score": 0.85
         },
         {
-          "title": "Capital One joins BPC housing affordability council",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T20:24:19.000Z",
-          "url": "https://www.housingwire.com/articles/capital-one-joins-bpc-housing-affordability-council/",
-          "summary": "Council members share insights and contribute to policy discussions related to housing supply, affordability and access.",
+          "title": "Lola’s LOL for Axe – but will Trump have the last laugh?",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/2026/03/lolas-lol-for-axe-but-will-trump-have-the-last-laugh/?utm_source=rss&utm_medium=rss&utm_campaign=lolas-lol-for-axe-but-will-trump-have-the-last-laugh",
+          "summary": "‘Smell your best when you look your worst’ is a pretty attractive proposition and it’s the latest for Unilever’s Axe from the ever-inventive crew at Lola Madrid (formerly Lola MullenLowe.) The residue",
           "relevance_score": 0.85
         },
         {
-          "title": "AI Is Changing Mortgage Origination, but the Broker’s Role Is Still Central",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-27T19:14:28.000Z",
-          "url": "https://www.mpamag.com/us/news/broker-intel/ai-is-changing-mortgage-origination-but-the-brokers-role-is-still-central/566922",
-          "summary": "AI is rewriting the rules of mortgage origination but it’s not replacing brokers, it’s amplifying the best ones. In this insight-packed piece, Green Haven Capital Inc. broker Kevin Oto shows how AI is",
+          "title": "PurpleLab Expands the Healthcare Advertising Ecosystem with Consecutive Strategic Partnerships",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/09/30/purplelab-expands-the-healthcare-advertising-ecosystem-with-consecutive-strategic-partnerships/",
+          "summary": "The healthcare analytics company partnered with Experian, DeepIntent, InsightsRx, and Comscore to deliver scale, precision, privacy-conscious targeting, and real-time measurement for pharmaceutical ad",
           "relevance_score": 0.85
         },
         {
-          "title": "Rocket announces partnership with Compass alongside strong Q4 financial report",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-26T23:02:33.000Z",
-          "url": "https://www.mpamag.com/us/specialty/wholesale/rocket-announces-partnership-with-compass-alongside-strong-q4-financial-report/566775",
-          "summary": "Rocket Pro's Niemiec looks to 'help brokers win in this new world'",
+          "title": "Thinkbox strategy chief urges industry to switch “acronym soup” for “total TV”",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/thinkbox-strategy-chief-urges-industry-switch-%E2%80%9Cacronym-soup%E2%80%9D-%E2%80%9Ctotal-tv%E2%80%9D/1950441",
+          "summary": "Elliot Millard, chief strategy officer at Thinkbox, criticised the acronyms the industry uses to define TV.",
           "relevance_score": 0.85
         },
         {
-          "title": "Why new housing bills in Congress may fall short on easing borrowers' affordability woes",
-          "outlet": "Mortgage Professional",
-          "date": "2026-02-26T23:02:24.000Z",
-          "url": "https://www.mpamag.com/us/specialty/wholesale/why-new-housing-bills-in-congress-may-fall-short-on-easing-borrowers-affordability-woes/566776",
-          "summary": "NAMB president hopes bill passage will be the first step",
+          "title": "Omar Oakes: Trump’s attack on Iran isn’t ‘wag the dog’. It’s so much worse than that",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/2026/03/omar-oakes-trumps-attack-on-iran-isnt-wag-the-dog-its-so-much-worse-than-that/?utm_source=rss&utm_medium=rss&utm_campaign=omar-oakes-trumps-attack-on-iran-isnt-wag-the-dog-its-so-much-worse-than-that",
+          "summary": "Ayatollah Khamenei is dead. The Supreme Leader of Iran — killed, along with much of his inner circle, in sweeping strikes launched by the United States and Israel. It was one of the most consequential",
           "relevance_score": 0.85
         },
         {
-          "title": "USDA rural home loan rates shopping?",
-          "outlet": "Mortgages",
-          "date": "2026-03-02T03:40:37.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1rii7os/usda_rural_home_loan_rates_shopping/",
-          "summary": "I know it’s normal to shop for competitive mortgage rates from different lenders.",
+          "title": "Content Creators Didn’t Kill Publisher Video. They Rebuilt The Ad Model",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/publishers/content-creators-didnt-kill-publisher-video-they-rebuilt-the-ad-model/",
+          "summary": "As audiences spend more time with creator-led video on YouTube and TikTok, the traditional publisher video stack looks out of touch. Those generic 30-second ad spots and low-effort reworks of existing",
           "relevance_score": 0.85
         },
         {
-          "title": "New Jersey reverse mortgage counseling bill would have ‘chilling effect’ on senior home equity use, NRMLA says",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T22:00:00.000Z",
-          "url": "https://www.housingwire.com/articles/nrmla-nj-reverse-mortgage-bill/",
-          "summary": "NRMLA this week sent a letter to a New Jersey lawmaker, stating its opposition to a legislative proposal tied to reverse mortgage counseling requirements in the Garden State.",
+          "title": "Comcast Spinoff Versant Media Stakes Its Future On Streaming",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/tv/comcast-spinoff-versant-media-stakes-its-future-on-streaming/",
+          "summary": "Versant Media Group reported its first earnings as a publicly traded company. The portfolio of networks, which includes CNBC, MS NOW (formerly MSNBC), USA Network, E! and Fandango, was spun off from C",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Freddie Mac",
-          "Compass",
-          "IKEA",
-          "U.S. Bank",
-          "Wells Fargo",
-          "USDA"
+          "Experian"
         ],
         "agencies": [],
         "technologies": [
+          "Insights"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [
+          "collaboration"
+        ],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "ad",
+        "tv",
+        "attention",
+        "lola",
+        "ctv"
+      ]
+    },
+    {
+      "cluster_id": "signal_004",
+      "cluster_name": "AI & SaaS - Netflix",
+      "description": "Coverage of AI, SaaS, artificial intelligence.",
+      "frequency": 17,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 17,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "Adweek Feed",
+        "AdExchanger",
+        "Marketing Dive - Latest News",
+        "Ad Tech Daily",
+        "CIO Dive - Latest News",
+        "Adpulp",
+        "Fast Company"
+      ],
+      "stories": [
+        {
+          "title": "CMOs face risks locking brands into agency AI platforms: Gartner",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/cmos-face-risks-locking-brands-into-agency-ai-platforms-gartner/813780/",
+          "summary": "The researcher predicts that half of agencies’ proprietary AI platforms will become obsolete by 2029 and emphasized the value of human talent.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Netflix Taps Amazon’s Shopping Data to Sharpen Ad Targeting",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/convergent-tv/netflix-taps-amazons-shopping-data-to-sharpen-ad-targeting/",
+          "summary": "The move pairs Amazon’s shopping signals with Netflix’s new Conversion API as the streamer courts performance budgets.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Ad Agencies Are Embracing ‘Vibe Coding’ to Build GEO Products for Clients",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/media/ad-agencies-embrace-vibe-coding/",
+          "summary": "From two-hour builds to full SaaS platforms, agencies are using Anthropic's Claude to create custom tools that track how brands show up in AI-generated answers.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Amazon Audiences Are Coming To Netflix",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/marketers/amazon-audiences-are-coming-to-netflix/",
+          "summary": "Amazon audiences will be trending on Netflix soon. Amazon Ads announced that, starting next quarter, US media buyers will be able to tap Amazon Audiences for targeting when they run Netflix campaigns ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Netflix Embraces The CAPI Trend; Can AI Save The News?",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/daily-news-roundup/thursday-05032026/",
+          "summary": "Netflix unveils a conversion API; some publishers are using AI tools to expand their footprints; and CFOs are getting more involved in marketing decisions. The post Netflix Embraces The CAPI Trend; Ca",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Censuswide Research Finds UK CMOs in Balancing Act with Consumers on Use of AI and Brand Activism",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/09/29/censuswide-research-finds-uk-cmos-in-balancing-act-with-consumers-on-use-of-ai-and-brand-activism/",
+          "summary": "       89% of CMOs are using Generative AI and 78% are leveraging traditional AI. However, consumer comfort with GenAI use is low.       A polarised landscape: 50% of UK consumers want or expect bra",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Havas Bets on AI Veteran Sharona Sankar-King to Lead Proprietary Tech Push",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/agencies/havas-converged-ai-sharona-sankar-king-proprietary-tech-push/",
+          "summary": "Havas Media Network North America has hired data and AI veteran Sharona Sankar-King as chief data and product officer to lead its Converged.AI platform.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Dstillery Has A New Agentic AI Interface For Refining Audiences Faster",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/marketers/dstillery-has-a-new-agentic-ai-interface-for-refining-audiences-faster/",
+          "summary": "DS-1, a new agentic AI interface developed by audience platform Dstillery, aims to reduce manual inefficiencies within audience curation. The post Dstillery Has A New Agentic AI Interface For Refining",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Microsoft expands sovereign cloud capabilities to support AI models",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/microsoft-expands-sovereign-cloud-capabilities/813831/",
+          "summary": "Vendors are vying for customer budgets as geopolitical tensions and regulatory demands drive businesses to maintain control over their data.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "AI training efforts give ROI a boost",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/AI-training-datacamp-skills-ROI/813559/",
+          "summary": "Data and AI literacy have emerged as critical skills in the enterprise as the value of investments comes into focus, according to a DataCamp report.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
           "AI",
-          "insights",
-          "artificial intelligence"
+          "SaaS",
+          "artificial intelligence",
+          "LOS",
+          "chatbot"
         ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
         "metrics": [
-          "affordability",
-          "Affordability",
-          "Mortgage Rate"
+          "ROI"
         ],
-        "cultural_themes": [
-          "equity"
-        ],
-        "storytelling_themes": [],
-        "housing_terms": [
-          "housing market"
-        ]
-      },
-      "related_buzzwords": [
-        "mortgage",
-        "new",
-        "rates",
-        "ai",
-        "compass"
-      ]
-    },
-    {
-      "cluster_id": "signal_001",
-      "cluster_name": "VA - Home",
-      "description": "Stories featuring VA.",
-      "frequency": 12,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 12,
-      "first_seen": "2026-02-28T18:12:38+00:00",
-      "peak_date": "2026-03-02T07:39:03+00:00",
-      "outlets": [
-        "HomeOwners & Investors",
-        "Latest Content - Good Housekeeping",
-        "First Time Home Buyer",
-        "Fast Company - leadership",
-        "Mortgages"
-      ],
-      "stories": [
-        {
-          "title": "10 Best Muscle Recovery Tools for at-Home Workouts",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T14:25:00.000Z",
-          "url": "https://www.goodhousekeeping.com/health-products/g70248878/best-recovery-athletic-gear/",
-          "summary": "Sore today? These recovery must-haves have your back—no gym trip required.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Refinance offer",
-          "outlet": "Mortgages",
-          "date": "2026-03-02T03:45:53.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1riibmy/refinance_offer/",
-          "summary": "How’s this offer rated from 1 to 10 in today’s market?",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Buyers demanding credit after closing",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-02-28T18:12:38.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1rh9mbw/buyers_demanding_credit_after_closing/",
-          "summary": "We sold our home in CO to an offer with no inspection contingency. The contract also had a clause where buyers would get 8k credit from escrow, and language that says house is sold as-is and no furthe",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Can a joint home owner (unmarried) rent out our home to a family of 3, 2 of which live and sleep in the living room (NC)",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-03-02T00:45:12.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1rieg59/can_a_joint_home_owner_unmarried_rent_out_our/",
-          "summary": "This was done without my consent",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Removing PMI on Conventional",
-          "outlet": "Mortgages",
-          "date": "2026-03-02T07:39:03.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1rimloc/removing_pmi_on_conventional/",
-          "summary": "Ok. My Principal Balance is $332,000. My Automated Home Valuation is $414,500. Can I request remove PMI without an appraisal since this is 80%? My original home sale value was $396,000.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Best move in my situation",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-03-02T04:59:29.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1rijs2i/best_move_in_my_situation/",
-          "summary": "Hi, i'm 23 and I live in canada and have all my registered accounts maxed for a down-payment + a 30k bonus for moving out (around 120k for a downpayment) I live in a small city where workers come in a",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We Close In Two Days 😎",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-02T04:36:12.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1rijcb9/we_close_in_two_days/",
-          "summary": "Just excited. My wife and I are closing on our first home 332k in NC.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "3 years into a chapter 13 bankruptcy. Buying a home soon.",
-          "outlet": "Mortgages",
-          "date": "2026-03-02T01:25:18.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1rifcoi/3_years_into_a_chapter_13_bankruptcy_buying_a/",
-          "summary": "Edit: we are using a VA loan.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Cleaning Experts Say This is the Best Way to Clean Hardwood Floors",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T19:00:00.000Z",
-          "url": "https://www.goodhousekeeping.com/home/cleaning/a70472137/best-way-clean-hardwood-floors/",
-          "summary": "Keep your hardwood floors sparkling with these pro tips.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How to go from a small business to a fast-growing company",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-03-01T08:00:00.000Z",
-          "url": "https://www.fastcompany.com/91488609/how-to-go-from-a-small-business-to-a-fast-growing-company?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "Small-business owners are up against a lot. It can be difficult to come up with the funding required to take an idea and turn it into something profitable, especially in an economy that can often feel",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "VA"
-        ],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [
-          "VA loan",
-          "Refinance"
-        ],
-        "metrics": [],
         "cultural_themes": [],
         "storytelling_themes": [],
-        "housing_terms": [
-          "contingency",
-          "escrow",
-          "inspection",
-          "appraisal"
-        ]
+        "housing_terms": []
       },
       "related_buzzwords": [
-        "home",
-        "best",
-        "today",
-        "offer",
-        "required"
+        "ai",
+        "netflix",
+        "data",
+        "amazon",
+        "using"
       ]
     },
     {
       "cluster_id": "signal_002",
-      "cluster_name": "FICO - Kitchen",
-      "description": "Stories featuring FICO.",
-      "frequency": 11,
+      "cluster_name": "AI & artificial intelligence - New",
+      "description": "Coverage of AI, artificial intelligence, LOS.",
+      "frequency": 16,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 11,
-      "first_seen": "2026-02-27T15:51:24+00:00",
-      "peak_date": "2026-03-02T06:00:00+00:00",
+      "story_count": 16,
+      "first_seen": null,
+      "peak_date": null,
       "outlets": [
-        "Latest Content - Good Housekeeping",
-        "Work",
-        "HousingWire",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Fintech: financial technology",
-        "Fast Company - leadership"
+        "More About Advertising",
+        "Adweek Feed",
+        "Marketing Dive - Latest News",
+        "Campaign UK More Latest RSS Feed",
+        "Adpulp",
+        "Fast Company"
       ],
       "stories": [
         {
-          "title": "This Thrift Store Kitchen Score Instantly Elevates a Bathroom",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-03-01T14:30:00.000Z",
-          "url": "https://www.apartmenttherapy.com/crochet-doily-bathroom-accessories-hack-37541279?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "It’s likely on full display at your local Goodwill.",
+          "title": "McDonald's outdoor campaign offers snapshots of nights out ending at the fast-food chain",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/mcdonalds-outdoor-campaign-offers-snapshots-nights-ending-fast-food-chain/1950487",
+          "summary": "Leo UK made the work.",
           "relevance_score": 0.85
         },
         {
-          "title": "Navigating a late-career change",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-03-02T06:00:00.000Z",
-          "url": "https://www.fastcompany.com/91499664/navigating-a-late-career-change?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "People change jobs all the time. According to the Bureau of Labor Statistics, the oldest people in the workforce have probably held more than 12 jobs over the course of their lives. Those aren’t just ",
+          "title": "Indy agency offers ad newcomer Cindy Rose a helping hand",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/2026/03/indy-agency-offers-ad-newcomer-cindy-rose-a-helping-hand/?utm_source=rss&utm_medium=rss&utm_campaign=indy-agency-offers-ad-newcomer-cindy-rose-a-helping-hand",
+          "summary": "Independent agency UltraSuperNew (left) has noticed that new WPP CEO Cindy Rose has never actually worked in an ad agency and has offered to help out. (Don’t know why they’re so surprised, these days ",
           "relevance_score": 0.85
         },
         {
-          "title": "By 2035 the way regular people send and store money globally may look completly different and most of us have no idea its already happenin",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-03-01T18:07:32.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1ri4a6v/by_2035_the_way_regular_people_send_and_store/",
-          "summary": "(just something i researched and wrote myself, figured this community would find it worth discussing)",
+          "title": "Indeed’s New AI Search Agent Helps Job Seekers Hit the Curveball",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/indeeds-new-ai-search-agent-helps-job-seekers-hit-the-curveball/",
+          "summary": "Finding a new job can be a brutal, lonely, and defeating process. It can also help the job seeker focus on what matters most. For instance, do you want to work 60 hours per week with ultra-competitive",
           "relevance_score": 0.85
         },
         {
-          "title": "A Dingy ’70s Kitchen Gets a Bright, Space-Saving Redo",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-03-01T19:00:00.000Z",
-          "url": "https://www.apartmenttherapy.com/70s-to-white-kitchen-reno-2-37540937?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "\"This kitchen was practically screaming for a makeover,\" says the designer behind the redo.",
+          "title": "When Prompted, ChatGPT Offers Helpful Down-to-Earth Advice",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/when-prompted-chatgpt-offers-helpful-down-to-earth-advice/",
+          "summary": "How do you use ChatGPT? Is the AI assistant currently reducing your workload and making you more productive? In this new ad campaign, the use cases for the technology are simpler than that. “The goal ",
           "relevance_score": 0.85
         },
         {
-          "title": "This $174 Walmart Dresser Instantly Elevated My Tiny Bedroom",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-02-28T19:30:00.000Z",
-          "url": "https://www.apartmenttherapy.com/walmart-fluted-dresser-review-37541362?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "Every piece of furniture has to work overtime when you’re living in a small space. Storage needs to be smart, and proportions should definitely be taken into account., Unfortunately, if we’re being ho",
+          "title": "Graza olive oil enters new category with largest paid campaign to date",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/graza-olive-oil-enters-new-category-with-largest-paid-campaign-to-date/813675/",
+          "summary": "“Seriously Serious” uses absurdist humor to highlight how the marketer is bringing its quality-first approach to the mayonnaise category.",
           "relevance_score": 0.85
         },
         {
-          "title": "The Hottest Kitchen Trend in 2026? Ice Cubes",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T14:05:00.000Z",
-          "url": "https://www.goodhousekeeping.com/appliances/a70500874/ice-cubes-2026-kitchen-trend/",
-          "summary": "From nugget ice to craft cubes, new kitchen appliances keep drinks perfectly chilled.",
+          "title": "Zoom appoints global media agency of record",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/zoom-appoints-global-media-agency-record/1950436",
+          "summary": "Independent agency PMG will establish a cross-functional team to work with Zoom.",
           "relevance_score": 0.85
         },
         {
-          "title": "9 Reusable Items I Swear Have Helped Me Save Hundreds at the Grocery Store",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T13:45:00.000Z",
-          "url": "https://www.goodhousekeeping.com/life/g70423230/reusable-items-ive-been-buying/",
-          "summary": "I always recommend these eco-friendly products.",
+          "title": "OffBall and Togethxr Team Up on a New Playbook for Sports Media",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/media/offball-togethxr-partnership-sports-media/",
+          "summary": "The partnership reflects a new model for lean sports media—one where shared resources beat raising capital.",
           "relevance_score": 0.85
         },
         {
-          "title": "The new second shift is burning out both parents",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-02-27T15:51:24.000Z",
-          "url": "https://www.fastcompany.com/91496750/new-second-shift-burning-out-both-parents?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "The other night, I heard cabinets opening in the kitchen and the shuffling of bags and containers As I unloaded the dishwasher, I realized two things Second: The second shift isn’t women’s work anymor",
+          "title": "The Getty Is “ALL FOR ART”",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/the-getty-is-all-for-art/",
+          "summary": "LOS ANGELES — The J. Paul Getty Trust introduced a new brand identity that captures the breadth and complexity of its work and defines and symbolizes what makes it unlike any other arts institution in",
           "relevance_score": 0.85
         },
         {
-          "title": "am i about to get fired?",
-          "outlet": "Work",
-          "date": "2026-03-02T02:49:44.000Z",
-          "url": "https://www.reddit.com/r/work/comments/1rih5ju/am_i_about_to_get_fired/",
-          "summary": "so i’m 17f and i just started working at a beauty supply store(i do online so basically i’m free always) this week i worked 34 hours (5 days) and then next week i only work 21 hours( 4 days).",
+          "title": "In Chile, Corona Takes People On A Photographic Journey",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/in-chile-corona-takes-people-on-a-photographic-journey/",
+          "summary": "To celebrate 100 years of Corona in Chile, DAVID Buenos Aires used pinhole photography—a lensless technique developed in the 19th century that relies solely on a box, a small aperture, and natural lig",
           "relevance_score": 0.85
         },
         {
-          "title": "AD Mortgage research shows minor FICO improvements can ease homebuying costs",
-          "outlet": "HousingWire",
-          "date": "2026-02-27T18:07:02.000Z",
-          "url": "https://www.housingwire.com/articles/credit-score-study-mortgage-cost/",
-          "summary": "The AD Mortgage study found that in most states, it takes 1.5 to 3 years to raise an average FICO score to the 760 prime threshold.",
+          "title": "Why I take founders on a 3-mile hike before writing a check",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91501794/why-i-take-founders-on-a-three-mile-hike-before-writing-a-check",
+          "summary": "My team often jokes about the “Vulcan Mind Meld.” They say I need to share a brain with a founder before we can write a check. They aren’t wrong, but the process isn’t science fiction. It’s usually ju",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [
+          "VCCP"
+        ],
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "LOS"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "new",
+        "work",
+        "agency",
+        "uk",
+        "process"
+      ]
+    },
+    {
+      "cluster_id": "signal_007",
+      "cluster_name": "Redfin & insights - Design",
+      "description": "Stories featuring Redfin focusing on insights.",
+      "frequency": 10,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 10,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "More About Advertising",
+        "AdExchanger",
+        "Adpulp",
+        "Fast Company",
+        "Banking Dive - Latest News"
+      ],
+      "stories": [
+        {
+          "title": "Systems design and the semantic revolution",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91502133/systems-design-and-the-semantic-revolution",
+          "summary": "When I was in high school in the 1990s, my physics teacher pulled me aside with a question he couldn’t shake: “How do they get every computer in the world to talk to every other computer?” He’d seen h",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Instacart Entertained Its Way to The Top (of Minds)",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/instacart-entertained-its-way-to-the-top-of-minds/",
+          "summary": "Super Bowl Sunday came and went. What about all the ads? Are these high dollar productions that cost a mint to run now lost in time and soon to be forgotten? Or will they endure in the minds of fans f",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Rocket and Redfin Want to Turn Strangers Into Neighbors",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/rocket-and-redfin-want-to-turn-strangers-into-neighbors/",
+          "summary": "DETROIT — Rocket and Redfin’s Super Bowl ad, “America Needs Neighbors Like You,” is a rallying cry for American neighborhoods focused on the enduring power of being a good neighbor. Set to Lady Gaga’s",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Aldi reviews creative account",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/2026/03/aldi-reviews-creative-account/?utm_source=rss&utm_medium=rss&utm_campaign=aldi-reviews-creative-account",
+          "summary": "Aldi is reportedly reviewing its creative account for what seems like most of the world (including the US and China) and also the UK where McCann Manchester has handled the business since 2005. It als",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Your brand is only as strong as the leaders who carry it",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91502174/your-brand-is-only-as-strong-as-the-leaders-who-carry-it",
+          "summary": "At the Exceptional Women Alliance, we enable high-level women to mentor each other to achieve personal and professional happiness through sisterhood. As the nonprofit organization’s founder, chair, an",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "What Marketers Miss When Their Data Isn’t Inclusive",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/adexchanger-talks/what-marketers-miss-when-their-data-isnt-inclusive/",
+          "summary": "Marketers endlessly talk about growth and ROI, but they leave potential on the table when they don’t fully measure key segments of their audience. Nowhere is that disconnect more obvious than with Bla",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Why forward-looking organizations apply a design lens",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91502102/why-forward-looking-organizations-apply-a-design-lens",
+          "summary": "In too many organizations, design is treated as a downstream function or even a cost center. In the best case, it’s a nice-to-have that is applied to refine or beautify after strategy is set, budgets ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trump assaulted renewable energy. Now America is more vulnerable to Iran’s fossil fuel shocks",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91502090/trump-assaulted-renewable-energy-now-america-is-more-vulnerable-to-iran-fossil-fuel-shocks",
+          "summary": "Throughout his presidency, Donald Trump has hindered the growth of renewable energy and instead propped up fossil fuels like oil and coal. That has made the country more vulnerable to the effects of g",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "‘A threat to the survival of the planet’: Insider trading fears rise over Polymarket nuclear war market",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91502721/polymarket-nuclear-war-market-bets-raise-insider-trading-fear",
+          "summary": "Nuclear detonation could mark the start of World War III, plunging the planet into the deadliest conflict in human history. But on the bright side, it could have turned a profit for a few lucky gamble",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "OCC’s proposed threshold change divides bank trade groups",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/occ-proposal-bank-asset-threshold-change-700b-icba/813788/",
+          "summary": "Community lenders warned that boosting an asset threshold to $700 billion from $50 billion would go “far beyond what is appropriate or safe.” But large banks want the heightened standards scrapped.",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "FICO"
+          "Redfin"
         ],
         "agencies": [],
-        "technologies": [],
+        "technologies": [
+          "insights"
+        ],
         "companies": [],
         "people": [],
         "locations": [],
         "products": [],
         "metrics": [
-          "FICO score",
-          "credit score"
+          "ROI"
         ],
         "cultural_themes": [],
         "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "kitchen",
-        "store",
-        "score",
-        "space",
-        "instantly"
-      ]
-    },
-    {
-      "cluster_id": "signal_003",
-      "cluster_name": "Submitted Did 75",
-      "description": "Cluster of related stories.",
-      "frequency": 9,
-      "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 9,
-      "first_seen": "2024-03-08T00:39:36+00:00",
-      "peak_date": "2026-03-02T05:34:13+00:00",
-      "outlets": [
-        "Fintech: financial technology",
-        "First Time Home Buyer",
-        "Apartment Therapy| Saving the world, one room at a time",
-        "Mortgages"
-      ],
-      "stories": [
-        {
-          "title": "We did it! Hudson Valley NY, 216k 5.875%",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-01T23:05:21.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1ric455/we_did_it_hudson_valley_ny_216k_5875/",
-          "summary": "submitted by    /u/Icy_Foundation3534",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I did it! South Texas, 190k, 5.75%",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-02-28T23:11:23.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1rhh0re/i_did_it_south_texas_190k_575/",
-          "summary": "submitted by    /u/Funnyonol",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I did it! Pittsburgh, 210k, 6.12%",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-01T14:55:50.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1rhz9cy/i_did_it_pittsburgh_210k_612/",
-          "summary": "submitted by    /u/JustSomeBS",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We did it! FL $329k 5.75%",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-02T04:45:34.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1rijilr/we_did_it_fl_329k_575/",
-          "summary": "submitted by    /u/Ok_Committee_8091",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I did it, Skopje 150k € at 3.15% for 30 years",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-01T17:01:16.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1ri2hhu/i_did_it_skopje_150k_at_315_for_30_years/",
-          "summary": "submitted by    /u/Toddster_1994",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I Tried a Mural in My Dining Room — Here's What I Did Wrong",
-          "outlet": "Apartment Therapy| Saving the world, one room at a time",
-          "date": "2026-03-01T22:30:00.000Z",
-          "url": "https://www.apartmenttherapy.com/mural-wallpaper-trend-tips-37541321?utm_source=RSS&utm_medium=feed&utm_campaign=Category%2FChannel%3A+main",
-          "summary": "Learn from my mistakes.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "We did it! Vancouver BC, 549k, 4.4%",
-          "outlet": "First Time Home Buyer",
-          "date": "2026-03-01T22:57:40.000Z",
-          "url": "https://www.reddit.com/r/FirstTimeHomeBuyer/comments/1ribx6y/we_did_it_vancouver_bc_549k_44/",
-          "summary": "submitted by    /u/officialwitchh",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mortgages is back open!",
-          "outlet": "Mortgages",
-          "date": "2024-03-08T00:39:36.000Z",
-          "url": "https://www.reddit.com/r/Mortgages/comments/1b9a79n/mortgages_is_back_open/",
-          "summary": "submitted by    /u/dMyab",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Criei um exchange",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-03-02T05:34:13.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1rikg0k/criei_um_exchange/",
-          "summary": "submitted by    /u/lordzluiz",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "submitted",
-        "did",
-        "75",
-        "open",
-        "12"
+        "design",
+        "world",
+        "like",
+        "high",
+        "talk"
       ]
     },
     {
       "cluster_id": "signal_005",
-      "cluster_name": "Keeps Common Gardening",
-      "description": "Cluster of related stories.",
+      "cluster_name": "AI & TD Bank - Bank",
+      "description": "Stories featuring TD Bank, JPMorgan Chase focusing on AI.",
+      "frequency": 9,
+      "momentum": "stable",
+      "confidence": "medium",
+      "story_count": 9,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "CIO Dive - Latest News",
+        "Banking Dive - Latest News",
+        "Campaign UK More Latest RSS Feed"
+      ],
+      "stories": [
+        {
+          "title": "TD Bank eyes $150M in claims cost reductions — with help from AI",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/td-bank-eyes-150m-claims-cost-reductions-ai/813554/",
+          "summary": "A core tenet of the banking giant’s AI strategy is to “build once and use many times,” Group President and CEO Raymond Chun said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "JPMorgan, Barclays, Fifth Third sued over Tricolor",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/jpmorgan-barclays-fifth-third-sued-tricolor-fraud/813504/",
+          "summary": "Asset-backed securities investors accused the banks of ignoring “giant red flags” about the bankrupt subprime auto lender and “enabling” its “massive fraud.”",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Kraken receives Fed master account, in a first for crypto",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/kraken-receives-fed-master-account-crypto-skinny-account-custodia/813814/",
+          "summary": "Access to the Federal Reserve’s payment system has long been a dream for cryptocurrency firms, including Custodia Bank, which has sued the central bank in pursuit of access.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Citi pushes client co-creation in e-commerce",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/citi-digital-assets-payments-fintechs-ecommerce-agentic-ai/813701/",
+          "summary": "The bank has endeavored to work “hand in glove” with fintechs, rather than build tools thinking it will beat them, an executive said. “We want them to actually use the platform.”",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Ohio bank taps next CEO",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/civista-bank-ceo-shaffer-parcher-ohio-banking/813640/",
+          "summary": "Civista Bank, which recently acquired in-state peer The Farmers Savings Bank, will promote its president, Chuck Parcher, to CEO when Dennis Shaffer exits in August.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "TD eyes $150M in cost reductions – with help from AI",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/td-bank-150m-insurance-cost-reductions-ai-chun-salom/813637/",
+          "summary": "A core tenet of the bank’s AI strategy is to “build once and use many times,” CEO Raymond Chun said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Would a bank buy PayPal?",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/would-bank-buy-paypal-jpmorgan-capital-one/813656/",
+          "summary": "Whether major banks, such as JPMorgan Chase and Capital One, might have an interest in owning PayPal could turn on their ability to monetize that two-sided network.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "WPP Media hires global client president from Publicis",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/wpp-media-hires-global-client-president-publicis/1950397",
+          "summary": "She will join on 17 March.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Edward Jones gets FDIC’s nod for ILC charter",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/edward-jones-ilc-charter-fdic-approve-industrial-bank-utah/813515/",
+          "summary": "The approval caps a nearly six-year journey for the investment firm, which aims to launch an industrial bank next year.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "TD Bank",
+          "JPMorgan Chase"
+        ],
+        "agencies": [],
+        "technologies": [
+          "AI"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "bank",
+        "jpmorgan",
+        "president",
+        "sued",
+        "banks"
+      ]
+    },
+    {
+      "cluster_id": "signal_006",
+      "cluster_name": "AI - News",
+      "description": "Coverage of AI.",
       "frequency": 7,
       "momentum": "stable",
       "confidence": "medium",
       "story_count": 7,
-      "first_seen": "2024-12-09T23:47:41+00:00",
-      "peak_date": "2026-03-01T21:15:42+00:00",
+      "first_seen": null,
+      "peak_date": null,
       "outlets": [
-        "HomeOwners & Investors",
-        "Latest Content - Good Housekeeping",
-        "Work",
-        "Fintech: financial technology",
-        "Fast Company - leadership"
+        "CIO Dive - Latest News",
+        "Adweek Feed",
+        "AdExchanger"
       ],
       "stories": [
         {
-          "title": "The Biggest Pruning Mistake That Keeps Your Shrubs From Blooming",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T13:35:00.000Z",
-          "url": "https://www.goodhousekeeping.com/home/gardening/a70513914/pruning-mistake-that-keeps-shrubs-from-blooming/",
-          "summary": "Understanding one simple concept will resolve this common gardening issue.",
+          "title": "Week of Feb. 23 Evening News Ratings: World News Tonight Is No. 1 Across the Board",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/tvnewser/week-of-feb-23-2026-evening-news-ratings/",
+          "summary": "WNT reclaimed the demo lead by way of 39,000 additional viewers.",
           "relevance_score": 0.85
         },
         {
-          "title": "Protect yourselves from Credit Agencies selling your information. www.optoutprescreen.com",
-          "outlet": "HomeOwners & Investors",
-          "date": "2024-12-09T23:47:41.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1hao3ij/protect_yourselves_from_credit_agencies_selling/",
-          "summary": "One of the most common questions posted here is:",
+          "title": "Week of Feb. 23 Morning News Ratings: Today Keeps Lead for 6 Weeks",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/tvnewser/week-of-feb-23-2026-morning-news-ratings/",
+          "summary": "GMA was the only morning show with week-to-week gains in both measured categories.",
           "relevance_score": 0.85
         },
         {
-          "title": "Coworker keeps gaming the system and dumping work on everyone else. How would you handle this?",
-          "outlet": "Work",
-          "date": "2026-03-01T21:15:42.000Z",
-          "url": "https://www.reddit.com/r/work/comments/1ri9cir/coworker_keeps_gaming_the_system_and_dumping_work/",
-          "summary": "Hello,",
+          "title": "Take It To The Bank; LLMs Might Just Be ID Graphs That Need No IDs",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/daily-news-roundup/wednesday-04032026/",
+          "summary": "Roll Credits The days of easy-on, no-minimum, sign-up-by-credit-card digital ad auctions are ending – and with them the sweet credit card rewards loophole.  Google Ads began phasing out credit and deb",
           "relevance_score": 0.85
         },
         {
-          "title": "'The Old Farmer's Almanac' Wants You To Try This Ancient Gardening Trick",
-          "outlet": "Latest Content - Good Housekeeping",
-          "date": "2026-03-01T14:31:00.000Z",
-          "url": "https://www.goodhousekeeping.com/home/gardening/a70515597/farmers-almanac-garden-moon-planting/",
-          "summary": "Say, what now?",
+          "title": "EXCLUSIVE: WPP Elevates Nancy Hall to CEO of WPP Media U.S.",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/agencies/exclusive-wpp-elevates-nancy-hall-ceo-wpp-media-us/",
+          "summary": "Hall's promotion arrives a week after WPP announced a substantial reorg designed to recover steep financial losses.",
           "relevance_score": 0.85
         },
         {
-          "title": "Two-thirds of Gen Z say they rely on self-taught skills to find a job",
-          "outlet": "Fast Company - leadership",
-          "date": "2026-03-01T06:00:00.000Z",
-          "url": "https://www.fastcompany.com/91499388/two-thirds-of-gen-z-say-they-rely-on-self-taught-skills-to-find-a-job?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-          "summary": "“Do you want to know the biggest career hack I’ve learned in 25 years of recruiting?”",
+          "title": "Everything You Know About News Advertising Is Wrong",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/brand-marketing/everything-you-know-about-news-advertising-is-wrong/",
+          "summary": "The case for increasing investments in news advertising to grow your business.",
           "relevance_score": 0.85
         },
         {
-          "title": "My solution to contract enforcement",
-          "outlet": "Fintech: financial technology",
-          "date": "2026-03-01T20:01:44.000Z",
-          "url": "https://www.reddit.com/r/fintech/comments/1ri7e3x/my_solution_to_contract_enforcement/",
-          "summary": "In talking with teams across ops, finance, and legal, a common pattern keeps coming up as companies scale:",
+          "title": "Meta Has A New Way To Measure Social Engagement (Because Clicks Don’t Cut It)",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/social-media/meta-has-a-new-way-to-measure-social-engagement-because-clicks-dont-cut-it/",
+          "summary": "Meta is making a change to how it reports click-based attribution. Starting later this month, Meta advertisers will no longer only see “click-through attribution.” Instead, Meta will segment the socia",
           "relevance_score": 0.85
         },
         {
-          "title": "Sold my house and closing on Thursday. I am writing a document to help the buyers with some things. I was going to mention there is a wall switch in one room that doesn't control the ceiling fan and you need to use the remote ...",
-          "outlet": "HomeOwners & Investors",
-          "date": "2026-03-01T15:27:18.000Z",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1ri018l/sold_my_house_and_closing_on_thursday_i_am/",
-          "summary": "But now I am wondering if that is something I was supposed to disclose? When I bought the house it had this issue, and I just never really thought about it. I don't think I have enough time to get it ",
+          "title": "Albertsons brings AI expertise to board",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/albertsons-board-of-directors-AI-brian-rice-mcdonalds/813557/",
+          "summary": "The grocery company expanded its board to include McDonald’s EVP and Global CIO Brian Rice, who brings decades of digital leadership experience.",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [],
+        "technologies": [
+          "AI"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "news",
+        "week",
+        "meta",
+        "wpp",
+        "board"
+      ]
+    },
+    {
+      "cluster_id": "signal_001",
+      "cluster_name": "Said Leaving Ve",
+      "description": "Cluster of related stories.",
+      "frequency": 4,
+      "momentum": "stable",
+      "confidence": "low",
+      "story_count": 4,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "CIO Dive - Latest News",
+        "Banking Dive - Latest News"
+      ],
+      "stories": [
+        {
+          "title": "KeyBank CIO resigns",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/keybank-amy-brady-cio-resign-health-clark-khayat-cfo/813650/",
+          "summary": "Amy Brady is leaving for personal health reasons, the bank said. She’ll stay in a nonexecutive role through May with CFO Clark Khayat tapped to lead the technology and operations function.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Zions Bancorporation sees executive shuffle",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/zions-jennifer-smith-cio-technology-operations-chief-leaving-mayer-collins/813657/",
+          "summary": "Jennifer Smith, Zions’ chief technology and operations officer who also serves as CIO, is leaving, the Salt Lake City-based bank confirmed Tuesday. Two executives will split her duties.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "KeyBank CIO resigns",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/keybank-amy-brady-cio-resign-health-clark-khayat-cfo/813644/",
+          "summary": "Amy Brady is leaving for “personal health considerations,” the bank said. She’ll stay in a nonexecutive role through May 31 but will be eligible for her 2026 incentive, a Scotiabank-related equity awa",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Dell reacts to memory chip crunch as PC, server revenues soar",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/dell-memory-chip-crunch-pc-server-market-contracts/813420/",
+          "summary": "“We're compressing discounting,” COO Jeff Clarke said Thursday. “Our quotes are valid for the shortest period of time they've ever been.”",
           "relevance_score": 0.85
         }
       ],
@@ -770,16 +935,18 @@
         "locations": [],
         "products": [],
         "metrics": [],
-        "cultural_themes": [],
+        "cultural_themes": [
+          "equity"
+        ],
         "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "keeps",
-        "common",
-        "gardening",
-        "biggest",
-        "say"
+        "said",
+        "leaving",
+        "ve",
+        "cio",
+        "time"
       ]
     }
   ],
@@ -788,26 +955,36 @@
     "building": [],
     "lasting": [
       {
-        "name": "artificial intelligence & AI - Fintech",
+        "name": "IKEA & AI - Brand",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 43,
+        "mention_count": 18,
         "key_players": [
-          "loanDepot",
-          "IKEA",
-          "HSBC"
+          "IKEA"
         ]
       },
       {
-        "name": "AI & insights - Mortgage",
+        "name": "Experian & Insights - Ad",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 28,
+        "mention_count": 18,
         "key_players": [
-          "Freddie Mac",
-          "Compass",
-          "IKEA"
+          "Experian"
         ]
+      },
+      {
+        "name": "AI & SaaS - Netflix",
+        "duration_weeks": 12,
+        "stability_score": 0.85,
+        "mention_count": 17,
+        "key_players": []
+      },
+      {
+        "name": "AI & artificial intelligence - New",
+        "duration_weeks": 12,
+        "stability_score": 0.85,
+        "mention_count": 16,
+        "key_players": []
       }
     ]
   },
@@ -816,37 +993,67 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "artificial intelligence & AI - Fintech",
+        "shift": "IKEA & AI - Brand",
         "drivers": [
-          "artificial intelligence",
-          "AI",
-          "customer experience"
+          "AI"
         ],
         "timeline": "12-18 months",
-        "adoption_stage": "early majority"
+        "adoption_stage": "early adopters"
       },
       {
-        "shift": "AI & insights - Mortgage",
+        "shift": "AI & SaaS - Netflix",
         "drivers": [
           "AI",
-          "insights",
+          "SaaS",
           "artificial intelligence"
         ],
         "timeline": "12-18 months",
-        "adoption_stage": "early majority"
+        "adoption_stage": "early adopters"
+      },
+      {
+        "shift": "AI & artificial intelligence - New",
+        "drivers": [
+          "AI",
+          "artificial intelligence",
+          "LOS"
+        ],
+        "timeline": "12-18 months",
+        "adoption_stage": "early adopters"
+      },
+      {
+        "shift": "AI & TD Bank - Bank",
+        "drivers": [
+          "AI"
+        ],
+        "timeline": "12-18 months",
+        "adoption_stage": "early adopters"
+      },
+      {
+        "shift": "AI - News",
+        "drivers": [
+          "AI"
+        ],
+        "timeline": "12-18 months",
+        "adoption_stage": "early adopters"
       }
     ]
   },
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in artificial intelligence & AI - Fintech",
+        "risk": "AI implementation challenges in IKEA & AI - Brand",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
       },
       {
-        "risk": "AI implementation challenges in AI & insights - Mortgage",
+        "risk": "AI implementation challenges in AI & SaaS - Netflix",
+        "probability": "medium",
+        "impact": "high",
+        "mitigation": "Human oversight and quality control processes"
+      },
+      {
+        "risk": "AI implementation challenges in AI & artificial intelligence - New",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -858,35 +1065,35 @@
   },
   "north_star_questions": [
     {
-      "question": "How will artificial intelligence & AI - Fintech reshape competitive dynamics in the industry?",
+      "question": "How will IKEA & AI - Brand reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
-        "signal_004"
+        "signal_003"
       ],
       "urgency": "medium"
     },
     {
-      "question": "What are the long-term implications of artificial intelligence & AI - Fintech for market structure?",
+      "question": "What are the long-term implications of IKEA & AI - Brand for market structure?",
       "category": "Market Dynamics",
       "signals": [
-        "signal_004"
+        "signal_003"
       ],
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when artificial intelligence & ai - fintech?",
+      "question": "How do consumers perceive brand authenticity when ikea & ai - brand?",
       "category": "Cultural Impact",
       "signals": [
-        "signal_004"
+        "signal_003"
       ],
       "urgency": "medium"
     }
   ],
   "raw_data_summary": {
-    "total_articles": 110,
-    "articles_with_full_content": 51,
-    "unique_entities_extracted": 28,
-    "clusters_identified": 6,
+    "total_articles": 99,
+    "articles_with_full_content": 0,
+    "unique_entities_extracted": 16,
+    "clusters_identified": 8,
     "outliers": 0
   }
 }

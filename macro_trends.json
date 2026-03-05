@@ -1,31 +1,87 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T08:34:51.324607",
-    "synthesis_period": "March 08 - March 02, 2026",
+    "generated_at": "2026-03-05T08:30:57.700451",
+    "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 110,
-      "total_signals": 6,
-      "time_span_days": 725
+      "total_stories": 99,
+      "total_signals": 8,
+      "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: fico - kitchen",
+      "narrative": "Industry movement: ikea & ai - brand",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
         "signal_003",
-        "signal_005"
+        "signal_007",
+        "signal_005",
+        "signal_006"
       ],
-      "story_count": 27,
+      "story_count": 44,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "FICO"
+          "IKEA",
+          "Redfin",
+          "TD Bank",
+          "JPMorgan Chase"
         ],
-        "technologies": [],
+        "technologies": [
+          "AI",
+          "insights"
+        ],
         "themes": []
+      },
+      "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Technology adoption wave: ai & saas - netflix",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_004",
+        "signal_002"
+      ],
+      "story_count": 33,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "LOS",
+          "SaaS",
+          "chatbot"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Cultural shift toward experian & insights - ad",
+      "theme": "Workplace & Culture",
+      "supporting_signals": [
+        "signal_000",
+        "signal_001"
+      ],
+      "story_count": 22,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Experian"
+        ],
+        "technologies": [
+          "Insights"
+        ],
+        "themes": [
+          "collaboration",
+          "equity"
+        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -36,72 +92,46 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & AI - Fintech",
-          "story_count": 43,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & insights - Mortgage",
-          "story_count": 28,
+          "id": "signal_005",
+          "name": "AI & TD Bank - Bank",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 71,
-      "key_themes": [
-        "case study",
-        "equity"
-      ]
+      "story_count": 9,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "AI & insights - Mortgage",
-          "story_count": 28,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "VA - Home",
-          "story_count": 12,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 40,
-      "key_themes": [
-        "equity"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & AI - Fintech",
-          "story_count": 43,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 43,
-      "key_themes": [
-        "case study"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_000",
-          "name": "AI & insights - Mortgage",
-          "story_count": 28,
+          "name": "Experian & Insights - Ad",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Said Leaving Ve",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 28,
+      "story_count": 22,
       "key_themes": [
+        "collaboration",
         "equity"
       ]
     },
@@ -109,48 +139,45 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & AI - Fintech",
-          "story_count": 43,
+          "id": "signal_003",
+          "name": "IKEA & AI - Brand",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "AI & insights - Mortgage",
-          "story_count": 28,
+          "id": "signal_004",
+          "name": "AI & SaaS - Netflix",
+          "story_count": 17,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "FICO - Kitchen",
-          "story_count": 11,
+          "name": "AI & artificial intelligence - New",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "Submitted Did 75",
-          "story_count": 9,
+          "id": "signal_007",
+          "name": "Redfin & insights - Design",
+          "story_count": 10,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "Keeps Common Gardening",
+          "id": "signal_006",
+          "name": "AI - News",
           "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 98,
-      "key_themes": [
-        "case study",
-        "equity"
-      ]
+      "story_count": 68,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 8,
       "declining": 0
     },
     "hot_topics": [],
@@ -159,141 +186,117 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Freddie Mac",
-        "mentions": 2
-      },
-      {
-        "name": "Compass",
-        "mentions": 2
+        "name": "Redfin",
+        "mentions": 1
       },
       {
         "name": "IKEA",
-        "mentions": 2
-      },
-      {
-        "name": "loanDepot",
         "mentions": 1
       },
       {
-        "name": "FICO",
+        "name": "Experian",
         "mentions": 1
       },
       {
-        "name": "U.S. Bank",
+        "name": "TD Bank",
         "mentions": 1
       },
       {
-        "name": "HSBC",
-        "mentions": 1
-      },
-      {
-        "name": "VA",
-        "mentions": 1
-      },
-      {
-        "name": "Wells Fargo",
-        "mentions": 1
-      },
-      {
-        "name": "USDA",
+        "name": "JPMorgan Chase",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 5
+        "mentions": 22
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
-      },
-      {
-        "name": "insights",
         "mentions": 2
       },
       {
-        "name": "customer experience",
+        "name": "LOS",
+        "mentions": 2
+      },
+      {
+        "name": "SaaS",
+        "mentions": 1
+      },
+      {
+        "name": "Insights",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "chatbot",
         "mentions": 1
       }
     ],
     "influential_voices": [],
     "cultural_movements": [
       {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
         "theme": "equity",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "case study",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 71,
+      "signal_count": 1,
+      "story_count": 9,
       "top_signals": [
-        "artificial intelligence & AI - Fintech",
-        "AI & insights - Mortgage"
+        "AI & TD Bank - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on artificial intelligence & ai - fintech with mixed momentum"
+      "key_insight": "Primary focus on ai & td bank - bank with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 2,
-      "story_count": 40,
-      "top_signals": [
-        "AI & insights - Mortgage",
-        "VA - Home"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & insights - mortgage"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 28,
+      "signal_count": 2,
+      "story_count": 22,
       "top_signals": [
-        "AI & insights - Mortgage"
+        "Experian & Insights - Ad",
+        "Said Leaving Ve"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & insights - mortgage"
+      "key_insight": "Cultural emphasis on experian & insights - ad"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 43,
-      "top_signals": [
-        "artificial intelligence & AI - Fintech"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: artificial intelligence & ai - fintech"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "new_emergence",
-      "description": "3 new topic(s) appearing",
-      "examples": [
-        "AI & insights - Mortgage",
-        "VA - Home",
-        "FICO - Kitchen"
-      ],
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & AI - Fintech",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - fintech.",
+    "headline": "Focus on IKEA & AI - Brand",
+    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - brand.",
     "key_shifts": [],
     "dominant_themes": [
+      "collaboration",
       "equity"
     ],
     "attention_areas": [
-      "artificial intelligence & AI - Fintech",
-      "AI & insights - Mortgage",
-      "VA - Home"
+      "IKEA & AI - Brand",
+      "Experian & Insights - Ad",
+      "AI & SaaS - Netflix"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -301,7 +304,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players"
   ]
 }
