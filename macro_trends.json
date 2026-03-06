@@ -1,60 +1,59 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T08:30:57.700451",
+    "generated_at": "2026-03-06T08:25:50.134547",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 99,
-      "total_signals": 8,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ikea & ai - brand",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward ai & vccp - bank",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_003",
-        "signal_007",
-        "signal_005",
-        "signal_006"
+        "signal_004",
+        "signal_003"
       ],
-      "story_count": 44,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Redfin",
-          "TD Bank",
-          "JPMorgan Chase"
+          "Experian",
+          "Wells Fargo",
+          "IKEA"
         ],
         "technologies": [
-          "AI",
-          "insights"
+          "AI"
         ],
-        "themes": []
+        "themes": [
+          "equity",
+          "collaboration"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_03",
-      "narrative": "Technology adoption wave: ai & saas - netflix",
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
+        "signal_005",
         "signal_002"
       ],
-      "story_count": 33,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "LOS",
-          "SaaS",
-          "chatbot"
+          "artificial intelligence",
+          "reporting",
+          "Insights"
         ],
         "themes": []
       },
@@ -62,26 +61,23 @@
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Cultural shift toward experian & insights - ad",
-      "theme": "Workplace & Culture",
+      "thread_id": "thread_03",
+      "narrative": "Industry movement: ai - executive",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
-        "signal_001"
+        "signal_001",
+        "signal_000"
       ],
-      "story_count": 22,
+      "story_count": 29,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian"
+          "Redfin"
         ],
         "technologies": [
-          "Insights"
+          "AI"
         ],
-        "themes": [
-          "collaboration",
-          "equity"
-        ]
+        "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -92,14 +88,16 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & TD Bank - Bank",
-          "story_count": 9,
+          "id": "signal_004",
+          "name": "AI & VCCP - Bank",
+          "story_count": 29,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
-      "key_themes": []
+      "story_count": 29,
+      "key_themes": [
+        "equity"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -117,19 +115,19 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Experian & Insights - Ad",
-          "story_count": 18,
+          "id": "signal_004",
+          "name": "AI & VCCP - Bank",
+          "story_count": 29,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "Said Leaving Ve",
-          "story_count": 4,
+          "id": "signal_003",
+          "name": "IKEA - Trade",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
+      "story_count": 40,
       "key_themes": [
         "collaboration",
         "equity"
@@ -139,37 +137,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "IKEA & AI - Brand",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & SaaS - Netflix",
-          "story_count": 17,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI & artificial intelligence - New",
-          "story_count": 16,
+          "name": "LOS & Insights - Brand",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_007",
-          "name": "Redfin & insights - Design",
-          "story_count": 10,
+          "id": "signal_001",
+          "name": "AI - Executive",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "AI - News",
-          "story_count": 7,
+          "id": "signal_000",
+          "name": "Redfin & AI - Tv",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 68,
+      "story_count": 69,
       "key_themes": []
     }
   },
@@ -177,7 +169,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 8,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -198,29 +190,21 @@
         "mentions": 1
       },
       {
-        "name": "TD Bank",
-        "mentions": 1
-      },
-      {
-        "name": "JPMorgan Chase",
+        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 22
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 28
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "SaaS",
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -228,15 +212,20 @@
         "mentions": 1
       },
       {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "chatbot",
+        "name": "reporting",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Dark Horses",
+        "mentions": 1
+      },
+      {
+        "name": "Its First",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
         "theme": "collaboration",
@@ -252,12 +241,12 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 29,
       "top_signals": [
-        "AI & TD Bank - Bank"
+        "AI & VCCP - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & td bank - bank with mixed momentum"
+      "key_insight": "Primary focus on ai & vccp - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -268,13 +257,13 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 22,
+      "story_count": 40,
       "top_signals": [
-        "Experian & Insights - Ad",
-        "Said Leaving Ve"
+        "AI & VCCP - Bank",
+        "IKEA - Trade"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on experian & insights - ad"
+      "key_insight": "Cultural emphasis on ai & vccp - bank"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -286,17 +275,17 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & AI - Brand",
-    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - brand.",
+    "headline": "Focus on AI & VCCP - Bank",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & vccp - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "equity"
+      "equity",
+      "collaboration"
     ],
     "attention_areas": [
-      "IKEA & AI - Brand",
-      "Experian & Insights - Ad",
-      "AI & SaaS - Netflix"
+      "AI & VCCP - Bank",
+      "AI & artificial intelligence - Ai Ai",
+      "LOS & Insights - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -304,7 +293,9 @@
     ]
   },
   "macro_observations": [
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
