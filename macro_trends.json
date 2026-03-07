@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-06T08:25:50.134547",
+    "generated_at": "2026-03-07T08:05:00.953089",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,75 +11,29 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward ai & vccp - bank",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_004",
-        "signal_003"
-      ],
-      "story_count": 40,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian",
-          "Wells Fargo",
-          "IKEA"
-        ],
-        "technologies": [
-          "AI"
-        ],
-        "themes": [
-          "equity",
-          "collaboration"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_005",
-        "signal_002"
-      ],
-      "story_count": 40,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "LOS",
-          "artificial intelligence",
-          "reporting",
-          "Insights"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: ai - executive",
+      "narrative": "Industry movement: ai & ogilvy - bank",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_001",
-        "signal_000"
+        "signal_003",
+        "signal_002",
+        "signal_004"
       ],
-      "story_count": 29,
+      "story_count": 70,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "IKEA",
+          "Experian",
+          "Wells Fargo"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "LOS"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -88,16 +42,14 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & VCCP - Bank",
-          "story_count": 29,
+          "id": "signal_001",
+          "name": "AI & Ogilvy - Bank",
+          "story_count": 26,
           "momentum": "stable"
         }
       ],
-      "story_count": 29,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 26,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -115,22 +67,16 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & VCCP - Bank",
-          "story_count": 29,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "IKEA - Trade",
-          "story_count": 11,
+          "id": "signal_000",
+          "name": "Redfin & AI - Ads",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 16,
       "key_themes": [
-        "collaboration",
-        "equity"
+        "mental health",
+        "work-life balance"
       ]
     },
     "industry_transformation": {
@@ -138,30 +84,30 @@
       "signals": [
         {
           "id": "signal_005",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 22,
+          "name": "AI & artificial intelligence - Uk",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "LOS - New",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "LOS & Insights - Brand",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI - Executive",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Redfin & AI - Tv",
+          "name": "VCCP & Mother - Social",
           "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Trump Just Iran",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 69,
+      "story_count": 67,
       "key_themes": []
     }
   },
@@ -197,19 +143,15 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 24
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 2
       },
       {
         "name": "LOS",
         "mentions": 2
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "Insights",
-        "mentions": 1
       },
       {
         "name": "reporting",
@@ -218,7 +160,11 @@
     ],
     "influential_voices": [
       {
-        "name": "Dark Horses",
+        "name": "Stock The",
+        "mentions": 1
+      },
+      {
+        "name": "Trade Desk",
         "mentions": 1
       },
       {
@@ -228,11 +174,11 @@
     ],
     "cultural_movements": [
       {
-        "theme": "collaboration",
+        "theme": "mental health",
         "frequency": 1
       },
       {
-        "theme": "equity",
+        "theme": "work-life balance",
         "frequency": 1
       }
     ],
@@ -241,12 +187,12 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 29,
+      "story_count": 26,
       "top_signals": [
-        "AI & VCCP - Bank"
+        "AI & Ogilvy - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & vccp - bank with mixed momentum"
+      "key_insight": "Primary focus on ai & ogilvy - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -256,14 +202,13 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 16,
       "top_signals": [
-        "AI & VCCP - Bank",
-        "IKEA - Trade"
+        "Redfin & AI - Ads"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & vccp - bank"
+      "key_insight": "Cultural emphasis on redfin & ai - ads"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -275,17 +220,17 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & VCCP - Bank",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & vccp - bank.",
+    "headline": "Focus on AI & Ogilvy - Bank",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ogilvy - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "collaboration"
+      "mental health",
+      "work-life balance"
     ],
     "attention_areas": [
-      "AI & VCCP - Bank",
-      "AI & artificial intelligence - Ai Ai",
-      "LOS & Insights - Brand"
+      "AI & Ogilvy - Bank",
+      "AI & artificial intelligence - Uk",
+      "LOS - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -295,7 +240,6 @@
   "macro_observations": [
     "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
