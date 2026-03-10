@@ -1,116 +1,121 @@
 {
   "meta": {
-    "generated_at": "2026-03-10T19:14:54.788398",
-    "synthesis_period": "March 08 - March 02, 2026",
+    "generated_at": "2026-03-07T08:05:00.953089",
+    "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 514,
-      "total_signals": 1,
-      "time_span_days": 725
+      "total_stories": 109,
+      "total_signals": 6,
+      "time_span_days": 0
     }
   },
-  "narrative_threads": [],
+  "narrative_threads": [
+    {
+      "thread_id": "thread_01",
+      "narrative": "Industry movement: ai & ogilvy - bank",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_001",
+        "signal_003",
+        "signal_002",
+        "signal_004"
+      ],
+      "story_count": 70,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "IKEA",
+          "Experian",
+          "Wells Fargo"
+        ],
+        "technologies": [
+          "AI",
+          "LOS"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    }
+  ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
           "id": "signal_001",
-          "name": "Mixed Stories",
-          "story_count": 514,
+          "name": "AI & Ogilvy - Bank",
+          "story_count": 26,
           "momentum": "stable"
         }
       ],
-      "story_count": 514,
-      "key_themes": [
-        "Equity",
-        "Remote work",
-        "belonging",
-        "case study",
-        "collaboration"
-      ]
+      "story_count": 26,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "Mixed Stories",
-          "story_count": 514,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 514,
-      "key_themes": [
-        "Equity",
-        "Remote work",
-        "belonging",
-        "case study",
-        "collaboration"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "Mixed Stories",
-          "story_count": 514,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 514,
-      "key_themes": [
-        "Equity",
-        "Remote work",
-        "belonging",
-        "case study",
-        "collaboration"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Mixed Stories",
-          "story_count": 514,
+          "id": "signal_000",
+          "name": "Redfin & AI - Ads",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 514,
+      "story_count": 16,
       "key_themes": [
-        "Equity",
-        "Remote work",
-        "belonging",
-        "case study",
-        "collaboration"
+        "mental health",
+        "work-life balance"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Mixed Stories",
-          "story_count": 514,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Uk",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "LOS - New",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "VCCP & Mother - Social",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Trump Just Iran",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 514,
-      "key_themes": [
-        "Equity",
-        "Remote work",
-        "belonging",
-        "case study",
-        "collaboration"
-      ]
+      "story_count": 67,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 1,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -119,96 +124,57 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Compass",
-        "mentions": 11
-      },
-      {
-        "name": "loanDepot",
-        "mentions": 6
-      },
-      {
-        "name": "FICO",
-        "mentions": 4
-      },
-      {
-        "name": "Freddie Mac",
-        "mentions": 2
-      },
-      {
-        "name": "compass",
-        "mentions": 2
-      },
-      {
-        "name": "Zillow",
-        "mentions": 2
-      },
-      {
-        "name": "loandepot",
+        "name": "Redfin",
         "mentions": 1
       },
       {
-        "name": "UWM",
+        "name": "IKEA",
         "mentions": 1
       },
       {
-        "name": "FHA",
+        "name": "Experian",
         "mentions": 1
       },
       {
-        "name": "Quicken Loans",
+        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 31
-      },
-      {
-        "name": "insights",
-        "mentions": 5
+        "mentions": 24
       },
       {
         "name": "artificial intelligence",
-        "mentions": 4
-      },
-      {
-        "name": "ai",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "name": "LOS",
-        "mentions": 1
-      },
-      {
-        "name": "UX",
-        "mentions": 1
-      },
-      {
-        "name": "customer experience",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "reporting",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Stock The",
+        "mentions": 1
+      },
+      {
+        "name": "Trade Desk",
+        "mentions": 1
+      },
+      {
+        "name": "Its First",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
-        "theme": "equity",
-        "frequency": 6
-      },
-      {
-        "theme": "Equity",
-        "frequency": 1
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
-      },
-      {
-        "theme": "collaboration",
+        "theme": "mental health",
         "frequency": 1
       },
       {
@@ -216,66 +182,55 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "storytelling",
-        "frequency": 1
-      },
-      {
-        "approach": "case study",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 514,
+      "story_count": 26,
       "top_signals": [
-        "Mixed Stories"
+        "AI & Ogilvy - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on mixed stories with mixed momentum"
+      "key_insight": "Primary focus on ai & ogilvy - bank with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 514,
-      "top_signals": [
-        "Mixed Stories"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on mixed stories"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 514,
+      "story_count": 16,
       "top_signals": [
-        "Mixed Stories"
+        "Redfin & AI - Ads"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on mixed stories"
+      "key_insight": "Cultural emphasis on redfin & ai - ads"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 514,
-      "top_signals": [
-        "Mixed Stories"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: mixed stories"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Mixed Stories",
-    "executive_summary": "Analysis of 514 stories across 1 thematic areas. mixed momentum across the landscape. Primary attention on mixed stories.",
+    "headline": "Focus on AI & Ogilvy - Bank",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ogilvy - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "Equity"
+      "mental health",
+      "work-life balance"
     ],
     "attention_areas": [
-      "Mixed Stories"
+      "AI & Ogilvy - Bank",
+      "AI & artificial intelligence - Uk",
+      "LOS - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -283,8 +238,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 514 stories across 1 themes",
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
