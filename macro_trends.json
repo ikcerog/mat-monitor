@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-07T08:05:00.953089",
+    "generated_at": "2026-03-11T08:28:44.376382",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,29 +11,53 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai & ogilvy - bank",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & wells fargo - new",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_005",
         "signal_001",
-        "signal_003",
-        "signal_002",
         "signal_004"
       ],
-      "story_count": 70,
+      "story_count": 68,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian",
           "Wells Fargo"
         ],
         "technologies": [
           "AI",
+          "reporting",
+          "insights",
+          "artificial intelligence",
           "LOS"
         ],
         "themes": []
       },
       "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: redfin & experian - ads",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_002",
+        "signal_003"
+      ],
+      "story_count": 29,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Redfin",
+          "Experian",
+          "IKEA"
+        ],
+        "technologies": [
+          "AI"
+        ],
+        "themes": []
+      },
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -42,13 +66,13 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Ogilvy - Bank",
-          "story_count": 26,
+          "id": "signal_005",
+          "name": "AI & Wells Fargo - New",
+          "story_count": 32,
           "momentum": "stable"
         }
       ],
-      "story_count": 26,
+      "story_count": 32,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -59,56 +83,70 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "workplace_culture": {
-      "description": "Enterprise culture and employee experience",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "Redfin & AI - Ads",
-          "story_count": 16,
+          "name": "Ogilvy & LOS - Brand",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 31,
       "key_themes": [
-        "mental health",
-        "work-life balance"
+        "messaging",
+        "user-generated content"
       ]
+    },
+    "workplace_culture": {
+      "description": "Enterprise culture and employee experience",
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
           "id": "signal_005",
-          "name": "AI & artificial intelligence - Uk",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "LOS - New",
-          "story_count": 19,
+          "name": "AI & Wells Fargo - New",
+          "story_count": 32,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "VCCP & Mother - Social",
-          "story_count": 14,
+          "name": "Redfin & Experian - Ads",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Trump Just Iran",
-          "story_count": 11,
+          "name": "AI & reporting - Year",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & IKEA - Week",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 67,
-      "key_themes": []
+      "story_count": 97,
+      "key_themes": [
+        "messaging"
+      ]
     }
   },
   "momentum_analysis": {
@@ -143,56 +181,52 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
+        "mentions": 25
       },
       {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "name": "reporting",
+        "mentions": 3
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "reporting",
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Stock The",
-        "mentions": 1
-      },
-      {
         "name": "Trade Desk",
         "mentions": 1
-      },
-      {
-        "name": "Its First",
-        "mentions": 1
       }
     ],
-    "cultural_movements": [
+    "cultural_movements": [],
+    "storytelling_approaches": [
       {
-        "theme": "mental health",
+        "approach": "messaging",
         "frequency": 1
       },
       {
-        "theme": "work-life balance",
+        "approach": "user-generated content",
         "frequency": 1
       }
-    ],
-    "storytelling_approaches": []
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 26,
+      "story_count": 32,
       "top_signals": [
-        "AI & Ogilvy - Bank"
+        "AI & Wells Fargo - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & ogilvy - bank with mixed momentum"
+      "key_insight": "Primary focus on ai & wells fargo - new with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -202,39 +236,50 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 16,
-      "top_signals": [
-        "Redfin & AI - Ads"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Cultural emphasis on redfin & ai - ads"
-    },
-    "brand_storytelling": {
       "signal_count": 0,
       "story_count": 0,
       "top_signals": [],
       "momentum": "stable",
       "key_insight": "Limited coverage in this period"
+    },
+    "brand_storytelling": {
+      "signal_count": 2,
+      "story_count": 31,
+      "top_signals": [
+        "AI & artificial intelligence - Ai Ai",
+        "Ogilvy & LOS - Brand"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & artificial intelligence - ai ai"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "reporting",
+        "insights",
+        "artificial intelligence",
+        "LOS"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Ogilvy - Bank",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ogilvy - bank.",
+    "headline": "Focus on AI & Wells Fargo - New",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & wells fargo - new.",
     "key_shifts": [],
-    "dominant_themes": [
-      "mental health",
-      "work-life balance"
-    ],
+    "dominant_themes": [],
     "attention_areas": [
-      "AI & Ogilvy - Bank",
-      "AI & artificial intelligence - Uk",
-      "LOS - New"
+      "AI & Wells Fargo - New",
+      "Redfin & Experian - Ads",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?",
-      "How are cultural shifts influencing industry direction?"
+      "What's driving technology adoption patterns?"
     ]
   },
   "macro_observations": [
