@@ -1,39 +1,38 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T08:29:15.071546",
+    "generated_at": "2026-03-19T08:33:06.918935",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
-      "total_signals": 6,
+      "total_signals": 5,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ikea & insights - ad",
+      "narrative": "Technology adoption wave: los & los - year",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
-        "signal_000",
-        "signal_001"
+        "signal_001",
+        "signal_004"
       ],
-      "story_count": 81,
+      "story_count": 60,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Ikea",
-          "Realtor.com"
+          "IKEA",
+          "Chase"
         ],
         "technologies": [
           "LOS",
           "AI",
-          "Insights",
-          "UI",
-          "reporting"
+          "Los",
+          "reporting",
+          "artificial intelligence"
         ],
         "themes": [
-          "diversity"
+          "mental health"
         ]
       },
       "time_depth": "sustained",
@@ -41,22 +40,25 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: experian - 2026",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward ai - uk",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_003",
-        "signal_002"
+        "signal_002",
+        "signal_005"
       ],
-      "story_count": 14,
+      "story_count": 22,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian"
+          "Redfin"
         ],
         "technologies": [
           "AI"
         ],
-        "themes": []
+        "themes": [
+          "collaboration",
+          "inclusion"
+        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -65,9 +67,18 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "Los & LOS - Year",
+          "story_count": 38,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 38,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -79,69 +90,73 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Ogilvy & Redfin - Awards",
+          "id": "signal_002",
+          "name": "AI - Uk",
           "story_count": 14,
           "momentum": "stable"
         }
       ],
       "story_count": 14,
       "key_themes": [
-        "storytelling"
+        "authenticity",
+        "collaboration"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & artificial intelligence - Use",
-          "story_count": 24,
+          "id": "signal_001",
+          "name": "Los & LOS - Year",
+          "story_count": 38,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI - Uk",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Redfin - Quality",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 24,
+      "story_count": 60,
       "key_themes": [
-        "diversity"
+        "authenticity",
+        "collaboration",
+        "inclusion",
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Ikea & Insights - Ad",
-          "story_count": 39,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & artificial intelligence - Use",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "Wieden+Kennedy & VCCP - Bank",
-          "story_count": 18,
+          "name": "Los & LOS - Year",
+          "story_count": 38,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Experian - 2026",
-          "story_count": 8,
+          "name": "Mother & AI - Media",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI - Barb",
-          "story_count": 6,
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 95,
+      "story_count": 85,
       "key_themes": [
-        "diversity"
+        "mental health"
       ]
     }
   },
@@ -149,7 +164,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 5,
       "declining": 0
     },
     "hot_topics": [],
@@ -158,15 +173,7 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Ikea",
-        "mentions": 2
-      },
-      {
         "name": "Redfin",
-        "mentions": 1
-      },
-      {
-        "name": "Realtor.com",
         "mentions": 1
       },
       {
@@ -176,19 +183,23 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Chase",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "Insights",
+        "name": "Los",
         "mentions": 1
       },
       {
@@ -196,56 +207,54 @@
         "mentions": 1
       },
       {
-        "name": "UI",
+        "name": "machine learning",
         "mentions": 1
       },
       {
         "name": "reporting",
         "mentions": 1
-      },
-      {
-        "name": "dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "Los",
-        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Avi Zimak",
+        "name": "North America",
         "mentions": 1
       },
       {
-        "name": "Chief Delta",
-        "mentions": 1
-      },
-      {
-        "name": "Omnicom Omnicom",
+        "name": "Former Google",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
-        "theme": "diversity",
+        "theme": "inclusion",
+        "frequency": 1
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
+        "theme": "mental health",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
-        "approach": "storytelling",
+        "approach": "authenticity",
         "frequency": 1
       }
     ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 38,
+      "top_signals": [
+        "Los & LOS - Year"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on los & los - year with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -255,50 +264,39 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 24,
+      "signal_count": 3,
+      "story_count": 60,
       "top_signals": [
-        "AI & artificial intelligence - Use"
+        "Los & LOS - Year",
+        "AI - Uk",
+        "Redfin - Quality"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - use"
+      "key_insight": "Cultural emphasis on los & los - year"
     },
     "brand_storytelling": {
       "signal_count": 1,
       "story_count": 14,
       "top_signals": [
-        "Ogilvy & Redfin - Awards"
+        "AI - Uk"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ogilvy & redfin - awards"
+      "key_insight": "Storytelling direction: ai - uk"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "LOS",
-        "AI",
-        "Insights",
-        "UI",
-        "reporting"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Ikea & Insights - Ad",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & insights - ad.",
+    "headline": "Focus on Los & LOS - Year",
+    "executive_summary": "Analysis of 107 stories across 5 thematic areas. mixed momentum across the landscape. Primary attention on los & los - year.",
     "key_shifts": [],
     "dominant_themes": [
-      "diversity"
+      "mental health",
+      "collaboration"
     ],
     "attention_areas": [
-      "Ikea & Insights - Ad",
-      "AI & artificial intelligence - Use",
-      "Wieden+Kennedy & VCCP - Bank"
+      "Los & LOS - Year",
+      "Mother & AI - Media",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -306,8 +304,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 107 stories across 5 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
