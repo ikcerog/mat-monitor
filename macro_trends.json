@@ -1,165 +1,209 @@
 {
   "meta": {
-    "generated_at": "2026-03-20T08:32:01.352725",
+    "generated_at": "2026-03-21T08:08:39.156397",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 161,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: mother & los - new",
+      "narrative": "Technology adoption wave: ogilvy & mother - 2026",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
+        "signal_006",
+        "signal_003",
         "signal_001",
-        "signal_004",
-        "signal_000"
+        "signal_000",
+        "signal_008"
       ],
-      "story_count": 89,
+      "story_count": 107,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Redfin",
-          "IKEA",
-          "U.S. Bank",
-          "Experian",
-          "Chase"
+          "IKEA"
         ],
         "technologies": [
+          "UX",
           "AI",
           "LOS",
-          "reporting",
-          "artificial intelligence",
-          "machine learning"
+          "Los",
+          "dashboard"
         ],
         "themes": [
           "collaboration",
           "inclusion",
-          "mission-driven"
+          "mental health"
         ]
       },
       "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ux - link comments",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_009",
+        "signal_005",
+        "signal_007"
+      ],
+      "story_count": 22,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "U.S. Bank"
+        ],
+        "technologies": [
+          "UX",
+          "AI"
+        ],
+        "themes": []
+      },
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "VCCP & R/GA - Year",
-          "story_count": 11,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 11,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "pos & UX - Marketing",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 13,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & mobile app - Created",
+          "id": "signal_000",
+          "name": "AI & reporting - Media",
           "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI - Buy",
-          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 19,
       "key_themes": [
-        "Authentic",
-        "authenticity",
-        "mission-driven"
+        "authenticity"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Mother & LOS - New",
-          "story_count": 33,
+          "id": "signal_006",
+          "name": "Ogilvy & Mother - 2026",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Security",
-          "story_count": 26,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & mobile app - Created",
+          "name": "Wieden+Kennedy & Experian - Agency",
           "story_count": 19,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "2026 Content Creative",
-          "story_count": 9,
+          "id": "signal_008",
+          "name": "UX & mobile app - Created",
+          "story_count": 17,
           "momentum": "stable"
         }
       ],
-      "story_count": 87,
+      "story_count": 83,
       "key_themes": [
-        "Authentic",
+        "DEI",
         "collaboration",
-        "inclusion",
-        "mental health",
-        "mission-driven"
+        "diversity",
+        "equity",
+        "inclusion"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Mother & LOS - New",
-          "story_count": 33,
+          "id": "signal_006",
+          "name": "Ogilvy & Mother - 2026",
+          "story_count": 25,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Redfin & IKEA - Brand",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Security",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & mobile app - Created",
-          "story_count": 19,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "VCCP & R/GA - Year",
-          "story_count": 11,
+          "name": "AI & reporting - Media",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_008",
+          "name": "UX & mobile app - Created",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "pos & UX - Marketing",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_009",
+          "name": "UX - Link Comments",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "U.S. Bank - Said",
+          "story_count": 7,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
+          "name": "AI -  Dark Wing",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 89,
+      "story_count": 142,
       "key_themes": [
-        "Authentic",
+        "authenticity",
         "collaboration",
         "inclusion",
-        "mission-driven"
+        "mental health"
       ]
     }
   },
@@ -167,7 +211,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -190,19 +234,27 @@
       {
         "name": "U.S. Bank",
         "mentions": 1
-      },
-      {
-        "name": "Chase",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 29
+        "mentions": 25
+      },
+      {
+        "name": "UX",
+        "mentions": 5
       },
       {
         "name": "LOS",
+        "mentions": 2
+      },
+      {
+        "name": "pos",
+        "mentions": 2
+      },
+      {
+        "name": "insights",
         "mentions": 2
       },
       {
@@ -218,6 +270,10 @@
         "mentions": 1
       },
       {
+        "name": "Los",
+        "mentions": 1
+      },
+      {
         "name": "reporting",
         "mentions": 1
       }
@@ -229,23 +285,23 @@
         "frequency": 2
       },
       {
+        "theme": "inclusion",
+        "frequency": 2
+      },
+      {
+        "theme": "equity",
+        "frequency": 2
+      },
+      {
         "theme": "mental health",
         "frequency": 1
       },
       {
-        "theme": "mission-driven",
-        "frequency": 1
-      },
-      {
-        "theme": "inclusion",
+        "theme": "DEI",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
-      {
-        "approach": "Authentic",
-        "frequency": 1
-      },
       {
         "approach": "authenticity",
         "frequency": 1
@@ -254,13 +310,11 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 11,
-      "top_signals": [
-        "VCCP & R/GA - Year"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Primary focus on vccp & r/ga - year with mixed momentum"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
       "signal_count": 0,
@@ -271,24 +325,23 @@
     },
     "enterprise_culture": {
       "signal_count": 4,
-      "story_count": 87,
+      "story_count": 83,
       "top_signals": [
-        "Mother & LOS - New",
-        "AI & artificial intelligence - Security",
-        "AI & mobile app - Created"
+        "Ogilvy & Mother - 2026",
+        "AI & artificial intelligence - Ai Ai",
+        "Wieden+Kennedy & Experian - Agency"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on mother & los - new"
+      "key_insight": "Cultural emphasis on ogilvy & mother - 2026"
     },
     "brand_storytelling": {
-      "signal_count": 2,
-      "story_count": 30,
+      "signal_count": 1,
+      "story_count": 19,
       "top_signals": [
-        "AI & mobile app - Created",
-        "AI - Buy"
+        "AI & reporting - Media"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & mobile app - created"
+      "key_insight": "Storytelling direction: ai & reporting - media"
     }
   },
   "emerging_patterns": [
@@ -296,28 +349,28 @@
       "pattern_type": "technology_wave",
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
+        "UX",
         "AI",
         "LOS",
-        "reporting",
-        "artificial intelligence",
-        "machine learning"
+        "Los",
+        "dashboard"
       ],
-      "signal_count": 4,
+      "signal_count": 6,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Mother & LOS - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on mother & los - new.",
+    "headline": "Focus on Ogilvy & Mother - 2026",
+    "executive_summary": "Analysis of 161 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on ogilvy & mother - 2026.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
       "inclusion"
     ],
     "attention_areas": [
-      "Mother & LOS - New",
-      "AI & artificial intelligence - Security",
-      "AI & mobile app - Created"
+      "Ogilvy & Mother - 2026",
+      "Redfin & IKEA - Brand",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -325,9 +378,10 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 161 stories across 10 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
+    "Technology-heavy coverage (13 technologies tracked)",
     "Strong cultural/workplace narrative emerging"
   ]
 }
