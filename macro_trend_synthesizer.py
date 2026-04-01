@@ -6,7 +6,7 @@ that synthesizes trends, themes, and narratives for LLM consumption
 """
 
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from collections import Counter, defaultdict
 from typing import List, Dict, Set
 
@@ -614,7 +614,7 @@ class MacroTrendSynthesizer:
         """Check if date is recent"""
         try:
             date = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
-            return (datetime.now() - date.replace(tzinfo=None)).days <= days
+            return (datetime.now(timezone.utc) - date).days <= days
         except:
             return False
 

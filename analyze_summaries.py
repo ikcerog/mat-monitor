@@ -409,8 +409,8 @@ def update_ongoing_cache(stories, date_str, trend_data):
     cutoff_8weeks = datetime.now() - timedelta(weeks=8)
     # We can't easily date the titles, so we'll just limit the size
     if len(seen_stories) > 5000:  # Keep max 5000 titles
-        # Keep only the most recent 3000
-        trend_data['seen_stories'] = set(list(seen_stories)[-3000:])
+        # Sets are unordered; arbitrarily trim to 3000 to cap memory
+        trend_data['seen_stories'] = set(list(seen_stories)[:3000])
 
     if not new_stories:
         print(f"✓ No new stories to add to {ONGOING_CACHE_FILE}")
