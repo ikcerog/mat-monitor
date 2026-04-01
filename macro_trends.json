@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-29T08:31:52.555725",
+    "generated_at": "2026-04-01T08:54:43.903437",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,26 +11,25 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: ai & ogilvy - media",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
-        "signal_000",
+        "signal_004",
         "signal_001",
-        "signal_004"
+        "signal_003"
       ],
-      "story_count": 56,
+      "story_count": 43,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Experian",
+          "Redfin",
+          "U.S. Bank",
+          "Wells Fargo",
           "Bank of America"
         ],
         "technologies": [
-          "AI",
-          "LOS",
-          "artificial intelligence",
-          "user experience",
-          "predictive modeling"
+          "AI"
         ],
         "themes": []
       },
@@ -41,16 +40,10 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "housing_market_dynamics": {
-      "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Home Depot & bi - Like",
+          "id": "signal_003",
+          "name": "U.S. Bank & Wells Fargo - Said",
           "story_count": 11,
           "momentum": "stable"
         }
@@ -58,60 +51,83 @@
       "story_count": 11,
       "key_themes": []
     },
-    "customer_experience": {
-      "description": "Consumer-facing improvements and storytelling",
+    "housing_market_dynamics": {
+      "description": "Consumer housing market trends and shifts",
       "signals": [],
       "story_count": 0,
       "key_themes": []
     },
+    "customer_experience": {
+      "description": "Consumer-facing improvements and storytelling",
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "IKEA & AI - Programmatic",
+          "story_count": 26,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "LOS & Redfin - Campaign",
+          "story_count": 19,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 45,
+      "key_themes": [
+        "authenticity",
+        "collaboration"
+      ]
+    },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Cloud",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "LOS & Redfin - Campaign",
+          "story_count": 19,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 40,
+      "key_themes": [
+        "authenticity",
+        "collaboration",
+        "employee experience"
+      ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & VCCP - Advertisers",
-          "story_count": 42,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & LOS - Week",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & Bank of America - Video",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Home Depot & bi - Like",
-          "story_count": 11,
+          "name": "AI & artificial intelligence - Cloud",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "point of sale & AI - Women",
-          "story_count": 7,
+          "name": "AI & Ogilvy - Media",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Redfin - Just",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 109,
-      "key_themes": []
+      "story_count": 53,
+      "key_themes": [
+        "employee experience"
+      ]
     }
   },
   "momentum_analysis": {
@@ -127,16 +143,12 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Bank of America",
-        "mentions": 3
-      },
-      {
-        "name": "Home Depot",
-        "mentions": 1
-      },
-      {
         "name": "Redfin",
-        "mentions": 1
+        "mentions": 2
+      },
+      {
+        "name": "U.S. Bank",
+        "mentions": 2
       },
       {
         "name": "IKEA",
@@ -147,41 +159,29 @@
         "mentions": 1
       },
       {
-        "name": "Zillow",
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "TD Bank",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 36
+        "mentions": 23
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "Salesforce",
-        "mentions": 2
-      },
-      {
-        "name": "point of sale",
-        "mentions": 1
-      },
-      {
-        "name": "bi",
-        "mentions": 1
-      },
-      {
         "name": "artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "user experience",
-        "mentions": 1
-      },
-      {
-        "name": "predictive modeling",
         "mentions": 1
       },
       {
@@ -189,86 +189,84 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [
+    "influential_voices": [],
+    "cultural_movements": [
       {
-        "name": "Pamela Anderson",
-        "mentions": 1
+        "theme": "collaboration",
+        "frequency": 1
       },
       {
-        "name": "State Street",
-        "mentions": 1
-      },
-      {
-        "name": "Onetime Marketing",
-        "mentions": 1
+        "theme": "employee experience",
+        "frequency": 1
       }
     ],
-    "cultural_movements": [],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "authenticity",
+        "frequency": 2
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "housing_market": {
       "signal_count": 1,
       "story_count": 11,
       "top_signals": [
-        "Home Depot & bi - Like"
+        "U.S. Bank & Wells Fargo - Said"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on home depot & bi - like"
+      "key_insight": "Primary focus on u.s. bank & wells fargo - said with mixed momentum"
+    },
+    "housing_market": {
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 2,
+      "story_count": 40,
+      "top_signals": [
+        "AI & artificial intelligence - Cloud",
+        "LOS & Redfin - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - cloud"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 2,
+      "story_count": 45,
+      "top_signals": [
+        "IKEA & AI - Programmatic",
+        "LOS & Redfin - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ikea & ai - programmatic"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "LOS",
-        "artificial intelligence",
-        "user experience",
-        "predictive modeling"
-      ],
-      "signal_count": 5,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & VCCP - Advertisers",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & vccp - advertisers.",
+    "headline": "Focus on IKEA & AI - Programmatic",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - programmatic.",
     "key_shifts": [],
-    "dominant_themes": [],
+    "dominant_themes": [
+      "employee experience",
+      "collaboration"
+    ],
     "attention_areas": [
-      "AI & VCCP - Advertisers",
-      "AI & artificial intelligence - Ai Ai",
-      "AI & LOS - Week"
+      "IKEA & AI - Programmatic",
+      "AI & artificial intelligence - Cloud",
+      "LOS & Redfin - Campaign"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?"
+      "What's driving technology adoption patterns?",
+      "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
     "High coverage intensity with 109 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
