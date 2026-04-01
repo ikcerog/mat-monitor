@@ -362,7 +362,7 @@ class ScaffoldGenerator:
                 categories_used.add('Market Dynamics')
 
             # Cultural/Brand questions
-            if any(cat in entities for cat in ['brands', 'companies']) and 'Cultural Impact' not in categories_used:
+            if any(entities.get(cat) for cat in ['brands', 'companies']) and 'Cultural Impact' not in categories_used:
                 top_brands = entities.get('brands', [])[:2]
                 if top_brands:
                     questions.append({

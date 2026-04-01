@@ -54,11 +54,13 @@ async function fetchFeed(feedConfig, index, total) {
     console.log(`[${index}/${total}] Fetching: ${feedConfig.name}...`);
 
     // Race between feed fetch and timeout
+    // Use .unref() so the timer doesn't keep the process alive if the feed resolves first
     const feed = await Promise.race([
       parser.parseURL(feedConfig.url),
-      new Promise((_, reject) =>
-        setTimeout(() => reject(new Error('Timeout')), FEED_TIMEOUT)
-      )
+      new Promise((_, reject) => {
+        const timer = setTimeout(() => reject(new Error('Timeout')), FEED_TIMEOUT);
+        timer.unref();
+      })
     ]);
 
     const duration = ((Date.now() - startTime) / 1000).toFixed(1);
@@ -228,7 +230,11 @@ async function main() {
 }
 
 // Run main function
-main().catch(error => {
-  console.error('Fatal error:', error);
-  process.exit(1);
-});
+// process.exit(0) ensures the script terminates even if open HTTP sockets
+// from timed-out feeds keep the Node.js event loop alive
+main()
+  .then(() => process.exit(0))
+  .catch(error => {
+    console.error('Fatal error:', error);
+    process.exit(1);
+  });

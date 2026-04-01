@@ -219,7 +219,7 @@ def _has_mortgage_focus(story: Dict) -> bool:
     mortgage_brands = ['rocket mortgage', 'better.com', 'loandepot', 'uwm', 'guaranteed rate']
     mortgage_terms = ['mortgage', 'loan', 'lending', 'refinance', 'apr', 'interest rate']
 
-    has_brand = any(brand.lower() in entities.get('brands', []) for brand in mortgage_brands)
+    has_brand = any(brand.lower() in [b.lower() for b in entities.get('brands', [])] for brand in mortgage_brands)
     has_term = any(term in text for term in mortgage_terms)
     has_product = any('loan' in p.lower() for p in entities.get('products', []))
 
