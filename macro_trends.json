@@ -1,39 +1,72 @@
 {
   "meta": {
-    "generated_at": "2026-04-01T08:54:43.903437",
+    "generated_at": "2026-04-02T08:41:28.987438",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 165,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai & ogilvy - media",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: redfin & los - 로직을",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
+        "signal_000",
         "signal_001",
-        "signal_003"
+        "signal_004",
+        "signal_009",
+        "signal_005"
       ],
-      "story_count": 43,
+      "story_count": 100,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian",
           "Redfin",
-          "U.S. Bank",
+          "HSBC",
+          "Home Depot",
           "Wells Fargo",
-          "Bank of America"
+          "IKEA"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "UX",
+          "los",
+          "chatbot",
+          "LOS"
+        ],
+        "themes": [
+          "employee experience",
+          "collaboration"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ux - link comments",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_002",
+        "signal_008",
+        "signal_003"
+      ],
+      "story_count": 45,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "article"
+        ],
+        "technologies": [
+          "UX",
+          "LOS"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -42,62 +75,61 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "U.S. Bank & Wells Fargo - Said",
-          "story_count": 11,
+          "id": "signal_009",
+          "name": "Los & AI - Bank",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 11,
+      "story_count": 16,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_006",
+          "name": "pos & AI - Marketing",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 13,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "IKEA & AI - Programmatic",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "LOS & Redfin - Campaign",
-          "story_count": 19,
+          "id": "signal_007",
+          "name": "Ogilvy & Experian - Company",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 45,
+      "story_count": 7,
       "key_themes": [
-        "authenticity",
-        "collaboration"
+        "authenticity"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Cloud",
-          "story_count": 21,
+          "id": "signal_001",
+          "name": "AI & chatbot - Ai Ai",
+          "story_count": 27,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "LOS & Redfin - Campaign",
-          "story_count": 19,
+          "id": "signal_004",
+          "name": "reporting & AI - Media",
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 47,
       "key_themes": [
-        "authenticity",
         "collaboration",
         "employee experience"
       ]
@@ -106,26 +138,63 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Cloud",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & Ogilvy - Media",
-          "story_count": 19,
+          "id": "signal_000",
+          "name": "Redfin & los - 로직을",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Redfin - Just",
+          "name": "AI & chatbot - Ai Ai",
+          "story_count": 27,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "reporting & AI - Media",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "UX - Link Comments",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_009",
+          "name": "Los & AI - Bank",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_008",
+          "name": "LOS - Food",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "pos & AI - Marketing",
           "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Mother & article - Work",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "artificial intelligence & AI",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 53,
+      "story_count": 158,
       "key_themes": [
+        "collaboration",
         "employee experience"
       ]
     }
@@ -134,7 +203,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -144,11 +213,7 @@
     "dominant_brands": [
       {
         "name": "Redfin",
-        "mentions": 2
-      },
-      {
-        "name": "U.S. Bank",
-        "mentions": 2
+        "mentions": 1
       },
       {
         "name": "IKEA",
@@ -159,33 +224,61 @@
         "mentions": 1
       },
       {
+        "name": "Home Depot",
+        "mentions": 1
+      },
+      {
         "name": "Wells Fargo",
         "mentions": 1
       },
       {
-        "name": "TD Bank",
+        "name": "HSBC",
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "article",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 32
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 4
+      },
+      {
+        "name": "UX",
+        "mentions": 3
+      },
+      {
+        "name": "reporting",
+        "mentions": 2
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "artificial intelligence",
+        "name": "pos",
+        "mentions": 2
+      },
+      {
+        "name": "chatbot",
         "mentions": 1
       },
       {
-        "name": "cloud platform",
+        "name": "customer experience",
+        "mentions": 1
+      },
+      {
+        "name": "los",
+        "mentions": 1
+      },
+      {
+        "name": "Los",
         "mentions": 1
       }
     ],
@@ -203,19 +296,19 @@
     "storytelling_approaches": [
       {
         "approach": "authenticity",
-        "frequency": 2
+        "frequency": 1
       }
     ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 11,
+      "story_count": 16,
       "top_signals": [
-        "U.S. Bank & Wells Fargo - Said"
+        "Los & AI - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on u.s. bank & wells fargo - said with mixed momentum"
+      "key_insight": "Primary focus on los & ai - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -226,38 +319,51 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 40,
+      "story_count": 47,
       "top_signals": [
-        "AI & artificial intelligence - Cloud",
-        "LOS & Redfin - Campaign"
+        "AI & chatbot - Ai Ai",
+        "reporting & AI - Media"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - cloud"
+      "key_insight": "Cultural emphasis on ai & chatbot - ai ai"
     },
     "brand_storytelling": {
-      "signal_count": 2,
-      "story_count": 45,
+      "signal_count": 1,
+      "story_count": 7,
       "top_signals": [
-        "IKEA & AI - Programmatic",
-        "LOS & Redfin - Campaign"
+        "Ogilvy & Experian - Company"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ikea & ai - programmatic"
+      "key_insight": "Storytelling direction: ogilvy & experian - company"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "UX",
+        "los",
+        "chatbot",
+        "LOS"
+      ],
+      "signal_count": 6,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & AI - Programmatic",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - programmatic.",
+    "headline": "Focus on Redfin & los - 로직을",
+    "executive_summary": "Analysis of 165 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on redfin & los - 로직을.",
     "key_shifts": [],
     "dominant_themes": [
       "employee experience",
       "collaboration"
     ],
     "attention_areas": [
-      "IKEA & AI - Programmatic",
-      "AI & artificial intelligence - Cloud",
-      "LOS & Redfin - Campaign"
+      "Redfin & los - 로직을",
+      "AI & chatbot - Ai Ai",
+      "reporting & AI - Media"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -265,8 +371,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 165 stories across 10 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Strong cultural/workplace narrative emerging"
+    "Technology-heavy coverage (12 technologies tracked)"
   ]
 }
