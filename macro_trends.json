@@ -1,36 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-04-08T08:46:29.146418",
+    "generated_at": "2026-04-09T08:56:02.513561",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 161,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ikea & ai - created",
+      "narrative": "Technology adoption wave: ai & insights - new",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_004",
-        "signal_001"
+        "signal_003",
+        "signal_001",
+        "signal_002"
       ],
-      "story_count": 71,
+      "story_count": 84,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "IKEA",
-          "Redfin"
+          "article"
         ],
         "technologies": [
           "AI",
           "insights",
-          "artificial intelligence",
-          "LOS",
-          "Insights"
+          "UX",
+          "Insights",
+          "artificial intelligence"
         ],
         "themes": []
       },
@@ -39,22 +39,51 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: mother & droga5 - week",
+      "narrative": "Industry movement: droga5 & los - brand",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_005",
-        "signal_003",
-        "signal_002"
+        "signal_008",
+        "signal_009",
+        "signal_004",
+        "signal_006"
       ],
-      "story_count": 38,
+      "story_count": 52,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Experian",
-          "U.S. Bank"
+          "Redfin"
         ],
         "technologies": [
-          "AI"
+          "LOS",
+          "UX",
+          "AI",
+          "pos"
+        ],
+        "themes": []
+      },
+      "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Housing market dynamics showing ai & saas - marketing",
+      "theme": "Housing Market",
+      "supporting_signals": [
+        "signal_007",
+        "signal_000"
+      ],
+      "story_count": 25,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Home Depot"
+        ],
+        "technologies": [
+          "AI",
+          "SaaS",
+          "UX"
         ],
         "themes": []
       },
@@ -71,15 +100,39 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_007",
+          "name": "AI & SaaS - Marketing",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Home Depot & mother - April",
+          "story_count": 9,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 25,
+      "key_themes": [
+        "Storytelling"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_007",
+          "name": "AI & SaaS - Marketing",
+          "story_count": 16,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 16,
+      "key_themes": [
+        "Storytelling"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
@@ -91,51 +144,71 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "IKEA & AI - Created",
-          "story_count": 34,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
+          "id": "signal_003",
+          "name": "AI & insights - New",
+          "story_count": 38,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Mother & artificial intelligence - Media",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Mother & Droga5 - Week",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "U.S. Bank & AI - Chief",
-          "story_count": 13,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Trump Make House",
+          "name": "AI & chatbot - Fintech",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Droga5 & LOS - Brand",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
+          "name": "AI & SaaS - Marketing",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_008",
+          "name": "Redfin & UX - Shows",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_009",
+          "name": "Comments Link Comments Submitted",
           "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Ogilvy & AI - Wpp",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "pos - Location",
+          "story_count": 3,
           "momentum": "stable"
         }
       ],
-      "story_count": 109,
-      "key_themes": []
+      "story_count": 152,
+      "key_themes": [
+        "Storytelling"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -143,10 +216,6 @@
   },
   "entity_landscape": {
     "dominant_brands": [
-      {
-        "name": "U.S. Bank",
-        "mentions": 1
-      },
       {
         "name": "Redfin",
         "mentions": 1
@@ -158,24 +227,40 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Home Depot",
+        "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 39
       },
       {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "name": "UX",
+        "mentions": 5
+      },
+      {
+        "name": "insights",
+        "mentions": 3
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "insights",
+        "name": "pos",
         "mentions": 2
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 1
       },
       {
         "name": "Insights",
@@ -184,16 +269,37 @@
       {
         "name": "CX",
         "mentions": 1
+      },
+      {
+        "name": "SaaS",
+        "mentions": 1
+      },
+      {
+        "name": "chatbot",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
         "name": "Erivo Brooks",
         "mentions": 1
+      },
+      {
+        "name": "With Tecovas",
+        "mentions": 1
+      },
+      {
+        "name": "First Global",
+        "mentions": 1
       }
     ],
     "cultural_movements": [],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "Storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -218,11 +324,13 @@
       "key_insight": "Limited coverage in this period"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 16,
+      "top_signals": [
+        "AI & SaaS - Marketing"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & saas - marketing"
     }
   },
   "emerging_patterns": [
@@ -232,31 +340,32 @@
       "technologies": [
         "AI",
         "insights",
-        "artificial intelligence",
-        "LOS",
-        "Insights"
+        "UX",
+        "Insights",
+        "artificial intelligence"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & AI - Created",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - created.",
+    "headline": "Focus on AI & insights - New",
+    "executive_summary": "Analysis of 161 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - new.",
     "key_shifts": [],
     "dominant_themes": [],
     "attention_areas": [
-      "IKEA & AI - Created",
+      "AI & insights - New",
       "AI & artificial intelligence - Ai Ai",
-      "Mother & artificial intelligence - Media"
+      "AI & chatbot - Fintech"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?"
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 161 stories across 10 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Technology-heavy coverage (10 technologies tracked)"
   ]
 }
