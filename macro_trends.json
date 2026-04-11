@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-10T08:57:00.201314",
+    "generated_at": "2026-04-11T08:27:21.535580",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,22 +11,27 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: droga5 & los - week",
+      "narrative": "Technology adoption wave: droga5 & pos - ad",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
+        "signal_005",
+        "signal_002",
         "signal_001"
       ],
-      "story_count": 56,
+      "story_count": 81,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "Redfin",
+          "IKEA",
+          "Experian"
         ],
         "technologies": [
-          "LOS",
+          "Los",
           "AI",
-          "artificial intelligence"
+          "pos",
+          "Chatbot",
+          "insights"
         ],
         "themes": []
       },
@@ -35,26 +40,20 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: droga5 & pos - prices",
+      "narrative": "Industry movement: ai & ogilvy - global",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
         "signal_004",
-        "signal_002",
+        "signal_000",
         "signal_003"
       ],
-      "story_count": 53,
+      "story_count": 28,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian",
-          "blend"
-        ],
+        "brands": [],
         "technologies": [
           "AI",
-          "pos",
-          "Chatbot"
+          "LOS"
         ],
         "themes": []
       },
@@ -73,19 +72,19 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Droga5 & LOS - Week",
-          "story_count": 30,
+          "id": "signal_002",
+          "name": "AI & IKEA - Week",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & blend - New",
-          "story_count": 12,
+          "id": "signal_000",
+          "name": "LOS - Said",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 42,
+      "story_count": 33,
       "key_themes": []
     },
     "customer_experience": {
@@ -104,37 +103,37 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Droga5 & LOS - Week",
-          "story_count": 30,
+          "id": "signal_005",
+          "name": "Droga5 & pos - Ad",
+          "story_count": 34,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & IKEA - Week",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Droga5 & pos - Prices",
-          "story_count": 21,
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "IKEA & Experian - Publishers",
-          "story_count": 14,
+          "name": "AI & Ogilvy - Global",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Chatbot - Major",
-          "story_count": 6,
+          "name": "Droga5 - Campaign",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 97,
+      "story_count": 101,
       "key_themes": []
     }
   },
@@ -151,10 +150,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "blend",
-        "mentions": 1
-      },
-      {
         "name": "Redfin",
         "mentions": 1
       },
@@ -170,10 +165,14 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 29
+        "mentions": 28
       },
       {
         "name": "LOS",
+        "mentions": 2
+      },
+      {
+        "name": "Los",
         "mentions": 2
       },
       {
@@ -187,11 +186,15 @@
       {
         "name": "Chatbot",
         "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Under New",
+        "name": "Julius Baer",
         "mentions": 1
       }
     ],
@@ -208,13 +211,13 @@
     },
     "housing_market": {
       "signal_count": 2,
-      "story_count": 42,
+      "story_count": 33,
       "top_signals": [
-        "Droga5 & LOS - Week",
-        "AI & blend - New"
+        "AI & IKEA - Week",
+        "LOS - Said"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on droga5 & los - week"
+      "key_insight": "Market narrative centered on ai & ikea - week"
     },
     "enterprise_culture": {
       "signal_count": 0,
@@ -231,16 +234,30 @@
       "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "Los",
+        "AI",
+        "pos",
+        "Chatbot",
+        "insights"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on Droga5 & LOS - Week",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & los - week.",
+    "headline": "Focus on Droga5 & pos - Ad",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & pos - ad.",
     "key_shifts": [],
     "dominant_themes": [],
     "attention_areas": [
-      "Droga5 & LOS - Week",
-      "AI & artificial intelligence - Ai Ai",
-      "Droga5 & pos - Prices"
+      "Droga5 & pos - Ad",
+      "AI & IKEA - Week",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?"
