@@ -1,60 +1,62 @@
 {
   "meta": {
-    "generated_at": "2026-04-12T08:33:29.994847",
+    "generated_at": "2026-04-13T09:22:52.093199",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
+      "total_stories": 110,
       "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
+      "thread_id": "thread_01",
       "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_003",
-        "signal_002"
+        "signal_002",
+        "signal_005",
+        "signal_003"
       ],
-      "story_count": 59,
+      "story_count": 64,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "Experian"
         ],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "LOS",
-          "chatbot",
-          "insights"
+          "artificial intelligence",
+          "insights",
+          "pos"
         ],
-        "themes": []
+        "themes": [
+          "retention",
+          "remote work"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_01",
-      "narrative": "Industry movement: ai & ikea - week",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: redfin - brands",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_001",
-        "signal_005",
+        "signal_000",
         "signal_004"
       ],
-      "story_count": 50,
+      "story_count": 46,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian"
+          "Redfin",
+          "IKEA"
         ],
         "technologies": [
-          "AI",
-          "LOS"
+          "AI"
         ],
         "themes": []
       },
@@ -73,13 +75,13 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Week",
-          "story_count": 30,
+          "id": "signal_003",
+          "name": "pos & Droga5 - Major",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 14,
       "key_themes": []
     },
     "customer_experience": {
@@ -90,46 +92,71 @@
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 26,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & Droga5 - New",
+          "story_count": 24,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 50,
+      "key_themes": [
+        "remote work",
+        "retention"
+      ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "insights & pos - Tv",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "AI & Droga5 - Media",
-          "story_count": 17,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Chief Transformation Officer",
-          "story_count": 11,
+          "name": "AI & Droga5 - New",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Redfin - Brands",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "IKEA & AI - Tv",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "pos & Droga5 - Major",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Droga5 & LOS - Campaign",
-          "story_count": 9,
+          "name": "AI - Wpp",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 79,
-      "key_themes": []
+      "story_count": 110,
+      "key_themes": [
+        "remote work",
+        "retention"
+      ]
     }
   },
   "momentum_analysis": {
@@ -160,14 +187,10 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 30
+        "mentions": 31
       },
       {
         "name": "LOS",
-        "mentions": 2
-      },
-      {
-        "name": "insights",
         "mentions": 2
       },
       {
@@ -183,7 +206,7 @@
         "mentions": 1
       },
       {
-        "name": "chatbot",
+        "name": "insights",
         "mentions": 1
       }
     ],
@@ -193,7 +216,16 @@
         "mentions": 1
       }
     ],
-    "cultural_movements": [],
+    "cultural_movements": [
+      {
+        "theme": "retention",
+        "frequency": 1
+      },
+      {
+        "theme": "remote work",
+        "frequency": 1
+      }
+    ],
     "storytelling_approaches": []
   },
   "focus_area_insights": {
@@ -206,19 +238,22 @@
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 30,
+      "story_count": 14,
       "top_signals": [
-        "AI & IKEA - Week"
+        "pos & Droga5 - Major"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai & ikea - week"
+      "key_insight": "Market narrative centered on pos & droga5 - major"
     },
     "enterprise_culture": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 2,
+      "story_count": 50,
+      "top_signals": [
+        "AI & artificial intelligence - Ai Ai",
+        "AI & Droga5 - New"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - ai ai"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -234,32 +269,37 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "artificial intelligence",
         "LOS",
-        "chatbot",
-        "insights"
+        "artificial intelligence",
+        "insights",
+        "pos"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Week",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - week.",
+    "headline": "Focus on AI & artificial intelligence - Ai Ai",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
     "key_shifts": [],
-    "dominant_themes": [],
+    "dominant_themes": [
+      "retention",
+      "remote work"
+    ],
     "attention_areas": [
-      "AI & IKEA - Week",
       "AI & artificial intelligence - Ai Ai",
-      "insights & pos - Tv"
+      "AI & Droga5 - New",
+      "Redfin - Brands"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?"
+      "What's driving technology adoption patterns?",
+      "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
