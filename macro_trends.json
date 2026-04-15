@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T09:06:32.579524",
+    "generated_at": "2026-04-15T09:07:18.186546",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -10,59 +10,53 @@
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ogilvy - growth",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: los & redfin - new",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_001",
+        "signal_002",
         "signal_003",
-        "signal_002"
+        "signal_000"
       ],
-      "story_count": 55,
+      "story_count": 74,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Redfin",
           "IKEA",
-          "State Farm"
-        ],
-        "technologies": [
-          "AI",
-          "Omnichannel"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: state farm & ai - brand",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_000",
-        "signal_004"
-      ],
-      "story_count": 54,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "State Farm",
+          "U.S. bank",
+          "Bank of America",
           "Experian"
         ],
         "technologies": [
           "AI",
           "LOS",
-          "pos",
-          "Chatbot",
-          "artificial intelligence"
+          "artificial intelligence",
+          "Omnichannel"
         ],
         "themes": [
           "collaboration"
         ]
       },
       "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ogilvy - wpp",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_005",
+        "signal_001"
+      ],
+      "story_count": 21,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [],
+        "themes": []
+      },
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -75,92 +69,74 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_003",
-          "name": "State Farm & AI - Deal",
-          "story_count": 12,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 12,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "State Farm & AI - Brand",
-          "story_count": 28,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 28,
-      "key_themes": [
-        "brand positioning",
-        "collaboration"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "State Farm & AI - Brand",
-          "story_count": 28,
+          "id": "signal_002",
+          "name": "LOS & Redfin - New",
+          "story_count": 46,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 26,
+          "name": "AI & Droga5 - Week",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 54,
+      "story_count": 60,
       "key_themes": [
-        "brand positioning",
-        "collaboration"
+        "collaboration",
+        "workplace culture"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "State Farm & AI - Brand",
-          "story_count": 28,
+          "id": "signal_002",
+          "name": "LOS & Redfin - New",
+          "story_count": 46,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
+          "id": "signal_003",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 26,
+          "story_count": 17,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Ogilvy - Growth",
-          "story_count": 18,
+          "name": "Ogilvy - Wpp",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & Omnichannel - Publishers",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Droga5 & Redfin - Brands",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI - Wpp",
+          "name": "Publicis President Appoints",
           "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 97,
+      "story_count": 95,
       "key_themes": [
-        "brand positioning",
         "collaboration"
       ]
     }
@@ -178,10 +154,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "State Farm",
-        "mentions": 2
-      },
-      {
         "name": "Redfin",
         "mentions": 1
       },
@@ -192,20 +164,24 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "U.S. bank",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 29
+        "mentions": 24
       },
       {
         "name": "LOS",
         "mentions": 2
-      },
-      {
-        "name": "pos",
-        "mentions": 1
       },
       {
         "name": "artificial intelligence",
@@ -214,17 +190,17 @@
       {
         "name": "Omnichannel",
         "mentions": 1
-      },
-      {
-        "name": "Chatbot",
-        "mentions": 1
-      },
-      {
-        "name": "Artificial intelligence",
-        "mentions": 1
       }
     ],
     "influential_voices": [
+      {
+        "name": "Layoffs Disney",
+        "mentions": 1
+      },
+      {
+        "name": "Byline Bank",
+        "mentions": 1
+      },
       {
         "name": "Julius Baer",
         "mentions": 1
@@ -233,15 +209,14 @@
     "cultural_movements": [
       {
         "theme": "collaboration",
-        "frequency": 2
-      }
-    ],
-    "storytelling_approaches": [
+        "frequency": 1
+      },
       {
-        "approach": "brand positioning",
+        "theme": "workplace culture",
         "frequency": 1
       }
-    ]
+    ],
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -252,46 +227,56 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 12,
-      "top_signals": [
-        "State Farm & AI - Deal"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on state farm & ai - deal"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 54,
+      "story_count": 60,
       "top_signals": [
-        "State Farm & AI - Brand",
-        "AI & artificial intelligence - Ai Ai"
+        "LOS & Redfin - New",
+        "AI & Droga5 - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on state farm & ai - brand"
+      "key_insight": "Cultural emphasis on los & redfin - new"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 28,
-      "top_signals": [
-        "State Farm & AI - Brand"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: state farm & ai - brand"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "LOS",
+        "artificial intelligence",
+        "Omnichannel"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on State Farm & AI - Brand",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on state farm & ai - brand.",
+    "headline": "Focus on LOS & Redfin - New",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on los & redfin - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration"
+      "collaboration",
+      "workplace culture"
     ],
     "attention_areas": [
-      "State Farm & AI - Brand",
+      "LOS & Redfin - New",
       "AI & artificial intelligence - Ai Ai",
-      "Ogilvy - Growth"
+      "AI & Droga5 - Week"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
