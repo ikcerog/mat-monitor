@@ -1,41 +1,41 @@
 {
   "meta": {
-    "generated_at": "2026-04-15T09:07:18.186546",
+    "generated_at": "2026-04-16T09:06:44.609495",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 164,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: los & redfin - new",
+      "narrative": "Technology adoption wave: wells fargo & u.s. bank - bank",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_002",
-        "signal_003",
-        "signal_000"
+        "signal_001",
+        "signal_006",
+        "signal_005"
       ],
-      "story_count": 74,
+      "story_count": 84,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin",
-          "IKEA",
+          "Wells Fargo",
           "U.S. bank",
-          "Bank of America",
-          "Experian"
+          "Bank of America"
         ],
         "technologies": [
+          "UX",
           "AI",
           "LOS",
-          "artificial intelligence",
-          "Omnichannel"
+          "dashboard",
+          "artificial intelligence"
         ],
         "themes": [
-          "collaboration"
+          "diversity"
         ]
       },
       "time_depth": "sustained",
@@ -43,17 +43,27 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ogilvy - wpp",
+      "narrative": "Industry movement: ogilvy & experian - brand",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_001"
+        "signal_003",
+        "signal_000",
+        "signal_004",
+        "signal_007",
+        "signal_008"
       ],
-      "story_count": 21,
+      "story_count": 70,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
-        "technologies": [],
+        "brands": [
+          "Experian",
+          "IKEA",
+          "Redfin"
+        ],
+        "technologies": [
+          "AI",
+          "UX"
+        ],
         "themes": []
       },
       "time_depth": "developing",
@@ -63,42 +73,58 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "Wells Fargo & U.S. bank - Bank",
+          "story_count": 26,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 26,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_009",
+          "name": "pos - Marketing",
+          "story_count": 10,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 10,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_005",
+          "name": "AI & Insights - Media",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 12,
+      "key_themes": [
+        "authentic"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "LOS & Redfin - New",
-          "story_count": 46,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & Droga5 - Week",
-          "story_count": 14,
+          "id": "signal_006",
+          "name": "UX & LOS - New",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 60,
+      "story_count": 21,
       "key_themes": [
-        "collaboration",
-        "workplace culture"
+        "diversity"
       ]
     },
     "industry_transformation": {
@@ -106,38 +132,63 @@
       "signals": [
         {
           "id": "signal_002",
-          "name": "LOS & Redfin - New",
-          "story_count": 46,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Ogilvy - Wpp",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & Omnichannel - Publishers",
-          "story_count": 11,
+          "name": "Wells Fargo & U.S. bank - Bank",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Publicis President Appoints",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 25,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Ogilvy & Experian - Brand",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & IKEA - Agency",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "UX & LOS - New",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & Insights - Media",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Redfin & UX - Help",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
+          "name": "Comments Link Comments Submitted",
           "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_008",
+          "name": "Submitted  Dark Wing  Dark Wing Link  Dark Wing",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 95,
+      "story_count": 154,
       "key_themes": [
-        "collaboration"
+        "authentic",
+        "diversity"
       ]
     }
   },
@@ -145,7 +196,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -153,6 +204,10 @@
   },
   "entity_landscape": {
     "dominant_brands": [
+      {
+        "name": "Bank of America",
+        "mentions": 2
+      },
       {
         "name": "Redfin",
         "mentions": 1
@@ -166,7 +221,7 @@
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "Wells Fargo",
         "mentions": 1
       },
       {
@@ -177,54 +232,65 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
+        "mentions": 27
+      },
+      {
+        "name": "UX",
+        "mentions": 5
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 2
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "artificial intelligence",
+        "name": "pos",
+        "mentions": 2
+      },
+      {
+        "name": "Insights",
         "mentions": 1
       },
       {
-        "name": "Omnichannel",
+        "name": "ai",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Layoffs Disney",
-        "mentions": 1
-      },
-      {
         "name": "Byline Bank",
-        "mentions": 1
-      },
-      {
-        "name": "Julius Baer",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
-        "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "workplace culture",
+        "theme": "diversity",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "authentic",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 26,
+      "top_signals": [
+        "Wells Fargo & U.S. bank - Bank"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on wells fargo & u.s. bank - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -234,21 +300,22 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 60,
+      "signal_count": 1,
+      "story_count": 21,
       "top_signals": [
-        "LOS & Redfin - New",
-        "AI & Droga5 - Week"
+        "UX & LOS - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on los & redfin - new"
+      "key_insight": "Cultural emphasis on ux & los - new"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 12,
+      "top_signals": [
+        "AI & Insights - Media"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & insights - media"
     }
   },
   "emerging_patterns": [
@@ -256,27 +323,27 @@
       "pattern_type": "technology_wave",
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
+        "UX",
         "AI",
         "LOS",
-        "artificial intelligence",
-        "Omnichannel"
+        "dashboard",
+        "artificial intelligence"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on LOS & Redfin - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on los & redfin - new.",
+    "headline": "Focus on Wells Fargo & U.S. bank - Bank",
+    "executive_summary": "Analysis of 164 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on wells fargo & u.s. bank - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "workplace culture"
+      "diversity"
     ],
     "attention_areas": [
-      "LOS & Redfin - New",
+      "Wells Fargo & U.S. bank - Bank",
       "AI & artificial intelligence - Ai Ai",
-      "AI & Droga5 - Week"
+      "Ogilvy & Experian - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -284,9 +351,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "High coverage intensity with 164 stories across 10 themes",
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
