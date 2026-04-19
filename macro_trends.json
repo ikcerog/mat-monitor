@@ -1,39 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T08:32:54.269354",
+    "generated_at": "2026-04-19T08:38:48.367429",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 168,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ogilvy & los - brand",
+      "narrative": "Technology adoption wave: ux & ai - media",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_003",
-        "signal_000",
-        "signal_001"
+        "signal_006",
+        "signal_009"
       ],
-      "story_count": 76,
+      "story_count": 60,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian",
-          "Truist",
           "U.S. Bank",
           "Bank of America"
         ],
         "technologies": [
           "AI",
+          "UX",
           "LOS",
-          "artificial intelligence",
-          "Salesforce",
-          "insights"
+          "user experience",
+          "artificial intelligence"
         ],
         "themes": [
           "diversity"
@@ -44,20 +41,25 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: redfin - media",
+      "narrative": "Industry movement: droga5 & ai - week",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
         "signal_004",
-        "signal_005"
+        "signal_002",
+        "signal_005",
+        "signal_001",
+        "signal_007"
       ],
-      "story_count": 33,
+      "story_count": 57,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Redfin"
         ],
-        "technologies": [],
+        "technologies": [
+          "AI",
+          "dashboard"
+        ],
         "themes": []
       },
       "time_depth": "developing",
@@ -73,21 +75,36 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_008",
+          "name": "artificial intelligence & IKEA - New",
+          "story_count": 43,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "pos & AI - Marketing",
+          "story_count": 8,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 51,
+      "key_themes": [
+        "authenticity"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Huge - Tv",
-          "story_count": 15,
+          "id": "signal_008",
+          "name": "artificial intelligence & IKEA - New",
+          "story_count": 43,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
+      "story_count": 43,
       "key_themes": [
         "authenticity"
       ]
@@ -97,12 +114,12 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "Ogilvy & LOS - Brand",
-          "story_count": 38,
+          "name": "UX & AI - Media",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 38,
+      "story_count": 28,
       "key_themes": [
         "diversity"
       ]
@@ -112,44 +129,61 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "Ogilvy & LOS - Brand",
-          "story_count": 38,
+          "name": "UX & AI - Media",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
+          "id": "signal_006",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & Huge - Tv",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Redfin - Media",
-          "story_count": 15,
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Droga5 - Campaign",
-          "story_count": 11,
+          "name": "Droga5 & AI - Week",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Submitted Comments Link Comments",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "News April Iran",
+          "name": "Fintech Need Career",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "dashboard - Working",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "pos & AI - Marketing",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_009",
+          "name": "AI & Ogilvy - Design",
           "story_count": 7,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
+          "name": "Redfin - American",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 109,
+      "story_count": 125,
       "key_themes": [
-        "authenticity",
         "diversity"
       ]
     }
@@ -158,7 +192,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -189,19 +223,31 @@
       {
         "name": "U.S. Bank",
         "mentions": 1
+      },
+      {
+        "name": "Zillow",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
+        "mentions": 31
+      },
+      {
+        "name": "UX",
+        "mentions": 5
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "LOS",
+        "mentions": 2
+      },
+      {
+        "name": "pos",
         "mentions": 2
       },
       {
@@ -209,7 +255,15 @@
         "mentions": 1
       },
       {
-        "name": "insights",
+        "name": "chatbot",
+        "mentions": 1
+      },
+      {
+        "name": "user experience",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
         "mentions": 1
       }
     ],
@@ -241,29 +295,31 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 43,
+      "top_signals": [
+        "artificial intelligence & IKEA - New"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on artificial intelligence & ikea - new"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 38,
+      "story_count": 28,
       "top_signals": [
-        "Ogilvy & LOS - Brand"
+        "UX & AI - Media"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ogilvy & los - brand"
+      "key_insight": "Cultural emphasis on ux & ai - media"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 15,
+      "story_count": 43,
       "top_signals": [
-        "AI & Huge - Tv"
+        "artificial intelligence & IKEA - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & huge - tv"
+      "key_insight": "Storytelling direction: artificial intelligence & ikea - new"
     }
   },
   "emerging_patterns": [
@@ -272,26 +328,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
+        "UX",
         "LOS",
-        "artificial intelligence",
-        "Salesforce",
-        "insights"
+        "user experience",
+        "artificial intelligence"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Ogilvy & LOS - Brand",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ogilvy & los - brand.",
+    "headline": "Focus on artificial intelligence & IKEA - New",
+    "executive_summary": "Analysis of 168 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - new.",
     "key_shifts": [],
     "dominant_themes": [
       "diversity"
     ],
     "attention_areas": [
-      "Ogilvy & LOS - Brand",
-      "AI & artificial intelligence - Ai Ai",
-      "AI & Huge - Tv"
+      "artificial intelligence & IKEA - New",
+      "UX & AI - Media",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -299,7 +355,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 168 stories across 10 themes",
     "Limited momentum suggests consolidation or quieter period"
   ]
 }
