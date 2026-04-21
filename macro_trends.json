@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-20T09:28:50.494286",
+    "generated_at": "2026-04-21T09:14:30.457630",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,24 +11,25 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: los & ikea - brand",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_003",
-        "signal_002",
-        "signal_004",
-        "signal_005"
+        "signal_005",
+        "signal_001"
       ],
-      "story_count": 67,
+      "story_count": 57,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Truist",
           "Redfin"
         ],
         "technologies": [
-          "LOS"
+          "AI",
+          "insights",
+          "artificial intelligence",
+          "LOS",
+          "Salesforce"
         ],
         "themes": []
       },
@@ -37,27 +38,25 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: ai & mother - brand",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
-        "signal_001"
+        "signal_002",
+        "signal_004"
       ],
-      "story_count": 42,
+      "story_count": 22,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian"
+          "Experian",
+          "Truist"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "LOS",
-          "Salesforce"
+          "AI"
         ],
         "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -78,13 +77,13 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Experian & AI - Ad",
-          "story_count": 17,
+          "id": "signal_000",
+          "name": "LOS & IKEA - New",
+          "story_count": 30,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 30,
       "key_themes": [
         "authenticity"
       ]
@@ -100,45 +99,37 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "LOS & IKEA - Brand",
-          "story_count": 33,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Droga5 - New",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "Experian & AI - Ad",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Redfin - American",
-          "story_count": 8,
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "News Week Ratings",
-          "story_count": 5,
+          "name": "AI & CX - Ad",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI & VCCP - Social",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & Mother - Brand",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Experian & Truist - Company",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 109,
-      "key_themes": [
-        "authenticity"
-      ]
+      "story_count": 79,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -173,7 +164,11 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 27
+      },
+      {
+        "name": "insights",
+        "mentions": 2
       },
       {
         "name": "artificial intelligence",
@@ -184,6 +179,10 @@
         "mentions": 2
       },
       {
+        "name": "CX",
+        "mentions": 1
+      },
+      {
         "name": "Salesforce",
         "mentions": 1
       }
@@ -191,7 +190,7 @@
     "influential_voices": [
       {
         "name": "Morgan Stanley",
-        "mentions": 1
+        "mentions": 2
       }
     ],
     "cultural_movements": [],
@@ -226,24 +225,38 @@
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 17,
+      "story_count": 30,
       "top_signals": [
-        "Experian & AI - Ad"
+        "LOS & IKEA - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: experian & ai - ad"
+      "key_insight": "Storytelling direction: los & ikea - new"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "insights",
+        "artificial intelligence",
+        "LOS",
+        "Salesforce"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on LOS & IKEA - Brand",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on los & ikea - brand.",
+    "headline": "Focus on LOS & IKEA - New",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on los & ikea - new.",
     "key_shifts": [],
     "dominant_themes": [],
     "attention_areas": [
-      "LOS & IKEA - Brand",
+      "LOS & IKEA - New",
       "AI & artificial intelligence - Ai Ai",
-      "Droga5 - New"
+      "AI & CX - Ad"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?"
