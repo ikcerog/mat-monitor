@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T09:14:30.457630",
+    "generated_at": "2026-04-22T09:08:36.097927",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,25 +11,25 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "narrative": "Technology adoption wave: ai & cx - wpp",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_003",
-        "signal_005",
+        "signal_002",
         "signal_001"
       ],
-      "story_count": 57,
+      "story_count": 52,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "Redfin",
+          "Experian"
         ],
         "technologies": [
           "AI",
-          "insights",
+          "CX",
+          "Los",
           "artificial intelligence",
-          "LOS",
-          "Salesforce"
+          "LOS"
         ],
         "themes": []
       },
@@ -38,22 +38,47 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & mother - brand",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward wieden+kennedy & ikea - brand",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_002",
-        "signal_004"
+        "signal_003",
+        "signal_000"
       ],
-      "story_count": 22,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian",
-          "Truist"
+          "IKEA"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "LOS"
         ],
+        "themes": [
+          "Collaboration",
+          "collaboration",
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Industry movement: wells fargo & truist - said",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_004",
+        "signal_005"
+      ],
+      "story_count": 17,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Wells Fargo",
+          "Truist"
+        ],
+        "technologies": [],
         "themes": []
       },
       "time_depth": "developing",
@@ -63,8 +88,15 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Wells Fargo & Truist - Said",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 12,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -77,58 +109,75 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
+          "id": "signal_003",
+          "name": "Wieden+Kennedy & IKEA - Brand",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "LOS & IKEA - New",
-          "story_count": 30,
+          "name": "Droga5 & LOS - Campaign",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 40,
       "key_themes": [
-        "authenticity"
+        "Collaboration",
+        "authenticity",
+        "collaboration",
+        "mental health",
+        "storytelling"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_003",
+          "name": "Wieden+Kennedy & IKEA - Brand",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Droga5 & LOS - Campaign",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 40,
+      "key_themes": [
+        "Collaboration",
+        "authenticity",
+        "collaboration",
+        "mental health",
+        "storytelling"
+      ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & CX - Ad",
-          "story_count": 18,
+          "id": "signal_002",
+          "name": "AI & CX - Wpp",
+          "story_count": 32,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & VCCP - Social",
-          "story_count": 17,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & Mother - Brand",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Experian & Truist - Company",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "Cook Apple Tim Cook",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 79,
+      "story_count": 57,
       "key_themes": []
     }
   },
@@ -157,6 +206,10 @@
         "mentions": 1
       },
       {
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
         "name": "Truist",
         "mentions": 1
       }
@@ -164,15 +217,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
-      },
-      {
-        "name": "insights",
-        "mentions": 2
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 26
       },
       {
         "name": "LOS",
@@ -183,7 +228,11 @@
         "mentions": 1
       },
       {
-        "name": "Salesforce",
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "Los",
         "mentions": 1
       }
     ],
@@ -191,10 +240,35 @@
       {
         "name": "Morgan Stanley",
         "mentions": 2
+      },
+      {
+        "name": "Gartner Distinguished",
+        "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
       }
     ],
-    "cultural_movements": [],
+    "cultural_movements": [
+      {
+        "theme": "Collaboration",
+        "frequency": 1
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
+        "theme": "mental health",
+        "frequency": 1
+      }
+    ],
     "storytelling_approaches": [
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      },
       {
         "approach": "authenticity",
         "frequency": 1
@@ -203,11 +277,13 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 12,
+      "top_signals": [
+        "Wells Fargo & Truist - Said"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on wells fargo & truist - said with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -217,54 +293,49 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 30,
+      "signal_count": 2,
+      "story_count": 40,
       "top_signals": [
-        "LOS & IKEA - New"
+        "Wieden+Kennedy & IKEA - Brand",
+        "Droga5 & LOS - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: los & ikea - new"
+      "key_insight": "Cultural emphasis on wieden+kennedy & ikea - brand"
+    },
+    "brand_storytelling": {
+      "signal_count": 2,
+      "story_count": 40,
+      "top_signals": [
+        "Wieden+Kennedy & IKEA - Brand",
+        "Droga5 & LOS - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: wieden+kennedy & ikea - brand"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "insights",
-        "artificial intelligence",
-        "LOS",
-        "Salesforce"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on LOS & IKEA - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on los & ikea - new.",
+    "headline": "Focus on AI & CX - Wpp",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & cx - wpp.",
     "key_shifts": [],
-    "dominant_themes": [],
+    "dominant_themes": [
+      "Collaboration",
+      "collaboration"
+    ],
     "attention_areas": [
-      "LOS & IKEA - New",
-      "AI & artificial intelligence - Ai Ai",
-      "AI & CX - Ad"
+      "AI & CX - Wpp",
+      "Wieden+Kennedy & IKEA - Brand",
+      "AI & artificial intelligence - Ai Ai"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?"
+      "What's driving technology adoption patterns?",
+      "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
     "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
