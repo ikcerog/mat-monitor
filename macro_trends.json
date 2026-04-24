@@ -1,24 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T09:16:01.056301",
+    "generated_at": "2026-04-24T09:19:56.746342",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 100,
-      "total_signals": 8,
+      "total_stories": 110,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "narrative": "Technology adoption wave: ogilvy & omnichannel - company",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_004",
-        "signal_003",
-        "signal_002"
+        "signal_001"
       ],
-      "story_count": 47,
+      "story_count": 59,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -26,11 +25,11 @@
           "Experian"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "LOS",
+          "customer experience",
+          "Omnichannel",
           "omnichannel",
-          "CX"
+          "CX",
+          "AI"
         ],
         "themes": []
       },
@@ -39,24 +38,19 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai - tv",
+      "narrative": "Industry movement: bank lender palantir",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_007",
-        "signal_005",
+        "signal_003",
         "signal_000"
       ],
-      "story_count": 43,
+      "story_count": 16,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Redfin"
         ],
-        "technologies": [
-          "AI",
-          "LOS"
-        ],
+        "technologies": [],
         "themes": []
       },
       "time_depth": "developing",
@@ -72,27 +66,45 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "reporting & Home Depot - Brand",
+          "story_count": 20,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 20,
+      "key_themes": [
+        "authenticity"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "reporting & Home Depot - Brand",
+          "story_count": 20,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 20,
+      "key_themes": [
+        "authenticity"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "VCCP - Bank",
-          "story_count": 10,
+          "id": "signal_005",
+          "name": "Droga5 - Campaign",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 15,
       "key_themes": [
         "mental health"
       ]
@@ -102,56 +114,46 @@
       "signals": [
         {
           "id": "signal_004",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "omnichannel & AI - Brands",
-          "story_count": 17,
+          "name": "Ogilvy & Omnichannel - Company",
+          "story_count": 36,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI - Tv",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_007",
-          "name": "Droga5 & LOS - Campaign",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Redfin - Set",
-          "story_count": 9,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "King Burger Cmo",
-          "story_count": 7,
+          "name": "AI & insights - Ai Ai",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Experian & CX - Ceo",
-          "story_count": 7,
+          "name": "reporting & Home Depot - Brand",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Bank Lender Palantir",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Mother & Redfin - Day",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 90,
-      "key_themes": []
+      "story_count": 95,
+      "key_themes": [
+        "authenticity"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 8,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -159,6 +161,10 @@
   },
   "entity_landscape": {
     "dominant_brands": [
+      {
+        "name": "Home Depot",
+        "mentions": 1
+      },
       {
         "name": "Redfin",
         "mentions": 1
@@ -175,15 +181,31 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 23
       },
       {
         "name": "LOS",
         "mentions": 2
+      },
+      {
+        "name": "customer experience",
+        "mentions": 2
+      },
+      {
+        "name": "reporting",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "Omnichannel",
+        "mentions": 1
       },
       {
         "name": "omnichannel",
@@ -192,15 +214,11 @@
       {
         "name": "CX",
         "mentions": 1
-      },
-      {
-        "name": "customer experience",
-        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Job As",
+        "name": "Dave Colford",
         "mentions": 1
       },
       {
@@ -218,7 +236,12 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "authenticity",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -237,19 +260,21 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 15,
       "top_signals": [
-        "VCCP - Bank"
+        "Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on vccp - bank"
+      "key_insight": "Cultural emphasis on droga5 - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 20,
+      "top_signals": [
+        "reporting & Home Depot - Brand"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: reporting & home depot - brand"
     }
   },
   "emerging_patterns": [
@@ -257,9 +282,9 @@
       "pattern_type": "technology_wave",
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
-        "AI",
-        "artificial intelligence",
+        "customer experience",
         "LOS",
+        "Omnichannel",
         "omnichannel",
         "CX"
       ],
@@ -268,16 +293,16 @@
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ai Ai",
-    "executive_summary": "Analysis of 100 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
+    "headline": "Focus on Ogilvy & Omnichannel - Company",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ogilvy & omnichannel - company.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Ai Ai",
-      "omnichannel & AI - Brands",
-      "AI - Tv"
+      "Ogilvy & Omnichannel - Company",
+      "AI & insights - Ai Ai",
+      "reporting & Home Depot - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -285,7 +310,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 100 stories across 8 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
