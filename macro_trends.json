@@ -1,151 +1,170 @@
 {
   "meta": {
-    "generated_at": "2026-04-24T09:19:56.746342",
+    "generated_at": "2026-04-25T08:38:09.941835",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 110,
-      "total_signals": 6,
+      "total_stories": 99,
+      "total_signals": 8,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ogilvy & omnichannel - company",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_004",
-        "signal_001"
-      ],
-      "story_count": 59,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian"
-        ],
-        "technologies": [
-          "customer experience",
-          "Omnichannel",
-          "omnichannel",
-          "CX",
-          "AI"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: bank lender palantir",
+      "narrative": "Industry movement: ogilvy - tv",
       "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_005",
         "signal_003",
-        "signal_000"
+        "signal_002",
+        "signal_007"
       ],
-      "story_count": 16,
+      "story_count": 41,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Redfin"
+          "Ikea",
+          "IKEA",
+          "HSBC",
+          "Wells Fargo"
         ],
         "technologies": [],
         "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_006",
+        "signal_001"
+      ],
+      "story_count": 35,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "LOS",
+          "AI",
+          "artificial intelligence",
+          "customer experience",
+          "insights"
+        ],
+        "themes": [
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "Wells Fargo - Bank",
+          "story_count": 10,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 10,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "reporting & Home Depot - Brand",
-          "story_count": 20,
+          "id": "signal_000",
+          "name": "Home Depot & Omnichannel - Advertisers",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
-      "key_themes": [
-        "authenticity"
-      ]
+      "story_count": 6,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "reporting & Home Depot - Brand",
-          "story_count": 20,
+          "id": "signal_004",
+          "name": "reporting & Mother - Media",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Droga5 & LOS - New",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
+      "story_count": 33,
       "key_themes": [
-        "authenticity"
+        "authenticity",
+        "mental health",
+        "storytelling"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Droga5 - Campaign",
-          "story_count": 15,
+          "id": "signal_001",
+          "name": "Droga5 & LOS - New",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
+      "story_count": 16,
       "key_themes": [
-        "mental health"
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Ogilvy & Omnichannel - Company",
-          "story_count": 36,
+          "id": "signal_006",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 23,
+          "name": "Droga5 & LOS - New",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "reporting & Home Depot - Brand",
-          "story_count": 20,
+          "id": "signal_005",
+          "name": "Ogilvy - Tv",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Bank Lender Palantir",
-          "story_count": 10,
+          "name": "Ikea & IKEA - Week",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Mother & Redfin - Day",
-          "story_count": 6,
+          "id": "signal_007",
+          "name": "News Nbc Nbc News",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 95,
+      "story_count": 66,
       "key_themes": [
-        "authenticity"
+        "mental health",
+        "storytelling"
       ]
     }
   },
@@ -153,7 +172,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 8,
       "declining": 0
     },
     "hot_topics": [],
@@ -166,7 +185,7 @@
         "mentions": 1
       },
       {
-        "name": "Redfin",
+        "name": "Ikea",
         "mentions": 1
       },
       {
@@ -176,27 +195,27 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "HSBC",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 18
       },
       {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "customer experience",
-        "mentions": 2
-      },
-      {
         "name": "reporting",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
         "mentions": 1
       },
       {
@@ -208,21 +227,17 @@
         "mentions": 1
       },
       {
-        "name": "omnichannel",
+        "name": "customer experience",
         "mentions": 1
       },
       {
-        "name": "CX",
+        "name": "insights",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
         "name": "Dave Colford",
-        "mentions": 1
-      },
-      {
-        "name": "Gartner Distinguished",
         "mentions": 1
       },
       {
@@ -238,6 +253,10 @@
     ],
     "storytelling_approaches": [
       {
+        "approach": "storytelling",
+        "frequency": 1
+      },
+      {
         "approach": "authenticity",
         "frequency": 1
       }
@@ -245,11 +264,13 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 10,
+      "top_signals": [
+        "Wells Fargo - Bank"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on wells fargo - bank with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -260,49 +281,36 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 15,
+      "story_count": 16,
       "top_signals": [
-        "Droga5 - Campaign"
+        "Droga5 & LOS - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 - campaign"
+      "key_insight": "Cultural emphasis on droga5 & los - new"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 20,
+      "signal_count": 2,
+      "story_count": 33,
       "top_signals": [
-        "reporting & Home Depot - Brand"
+        "reporting & Mother - Media",
+        "Droga5 & LOS - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: reporting & home depot - brand"
+      "key_insight": "Storytelling direction: reporting & mother - media"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "customer experience",
-        "LOS",
-        "Omnichannel",
-        "omnichannel",
-        "CX"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Ogilvy & Omnichannel - Company",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ogilvy & omnichannel - company.",
+    "headline": "Focus on AI & artificial intelligence - Ai Ai",
+    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "Ogilvy & Omnichannel - Company",
-      "AI & insights - Ai Ai",
-      "reporting & Home Depot - Brand"
+      "AI & artificial intelligence - Ai Ai",
+      "reporting & Mother - Media",
+      "Droga5 & LOS - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -310,8 +318,6 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
