@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-04-27T10:00:57.176113",
+    "generated_at": "2026-04-28T10:03:00.651361",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,28 +11,31 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ikea & droga5 - news",
+      "narrative": "Industry movement: chase & mother - data",
       "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_001",
+        "signal_002",
         "signal_004",
-        "signal_005",
-        "signal_002"
+        "signal_005"
       ],
-      "story_count": 28,
+      "story_count": 67,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Ikea",
-          "Wells Fargo",
-          "HSBC"
+          "chase",
+          "IKEA",
+          "HSBC",
+          "Experian",
+          "Wells Fargo"
         ],
         "technologies": [
-          "LOS",
-          "AI"
+          "artificial intelligence",
+          "LOS"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -41,44 +44,41 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "LOS & Wells Fargo - Bank",
-          "story_count": 9,
+          "id": "signal_001",
+          "name": "chase & Mother - Data",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Experian & Wells Fargo - Year",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 43,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "reporting & Home Depot - New",
-          "story_count": 38,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 38,
-      "key_themes": [
-        "mental health"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Mother & Omnichannel - Social",
-          "story_count": 22,
+          "id": "signal_003",
+          "name": "State Farm & Droga5 - Campaign",
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
+      "story_count": 20,
       "key_themes": [
-        "authenticity",
-        "empathy",
+        "collaboration",
+        "mental health",
         "storytelling"
       ]
     },
@@ -86,49 +86,43 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "reporting & Home Depot - New",
-          "story_count": 38,
+          "id": "signal_003",
+          "name": "State Farm & Droga5 - Campaign",
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 38,
+      "story_count": 20,
       "key_themes": [
-        "mental health"
+        "collaboration",
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "reporting & Home Depot - New",
-          "story_count": 38,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Agents",
-          "story_count": 21,
+          "id": "signal_000",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Ikea & Droga5 - News",
-          "story_count": 10,
+          "name": "LOS & Citizens Bank - Bank",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "Ogilvy & AI - Apple",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "Ogilvy - Born",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 78,
-      "key_themes": [
-        "mental health"
-      ]
+      "story_count": 46,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -144,11 +138,11 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Home Depot",
+        "name": "chase",
         "mentions": 1
       },
       {
-        "name": "Ikea",
+        "name": "State Farm",
         "mentions": 1
       },
       {
@@ -160,11 +154,19 @@
         "mentions": 1
       },
       {
+        "name": "Citizens Bank",
+        "mentions": 1
+      },
+      {
         "name": "Wells Fargo",
         "mentions": 1
       },
       {
         "name": "HSBC",
+        "mentions": 1
+      },
+      {
+        "name": "knock",
         "mentions": 1
       }
     ],
@@ -174,41 +176,33 @@
         "mentions": 22
       },
       {
+        "name": "artificial intelligence",
+        "mentions": 3
+      },
+      {
         "name": "LOS",
         "mentions": 2
       },
       {
-        "name": "reporting",
-        "mentions": 1
-      },
-      {
-        "name": "mobile app",
-        "mentions": 1
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "Omnichannel",
-        "mentions": 1
-      },
-      {
-        "name": "customer experience",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
+        "name": "chatbot",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Dave Colford",
+        "name": "Born Social",
+        "mentions": 1
+      },
+      {
+        "name": "Associated Bank",
         "mentions": 1
       }
     ],
     "cultural_movements": [
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -218,26 +212,19 @@
       {
         "approach": "storytelling",
         "frequency": 1
-      },
-      {
-        "approach": "authenticity",
-        "frequency": 1
-      },
-      {
-        "approach": "empathy",
-        "frequency": 1
       }
     ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 9,
+      "signal_count": 2,
+      "story_count": 43,
       "top_signals": [
-        "LOS & Wells Fargo - Bank"
+        "chase & Mother - Data",
+        "Experian & Wells Fargo - Year"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on los & wells fargo - bank with mixed momentum"
+      "key_insight": "Primary focus on chase & mother - data with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -248,35 +235,36 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 38,
+      "story_count": 20,
       "top_signals": [
-        "reporting & Home Depot - New"
+        "State Farm & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on reporting & home depot - new"
+      "key_insight": "Cultural emphasis on state farm & droga5 - campaign"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 22,
+      "story_count": 20,
       "top_signals": [
-        "Mother & Omnichannel - Social"
+        "State Farm & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: mother & omnichannel - social"
+      "key_insight": "Storytelling direction: state farm & droga5 - campaign"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on reporting & Home Depot - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on reporting & home depot - new.",
+    "headline": "Focus on chase & Mother - Data",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on chase & mother - data.",
     "key_shifts": [],
     "dominant_themes": [
+      "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "reporting & Home Depot - New",
-      "Mother & Omnichannel - Social",
-      "AI & artificial intelligence - Agents"
+      "chase & Mother - Data",
+      "AI & artificial intelligence - Ai Ai",
+      "State Farm & Droga5 - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
