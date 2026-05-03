@@ -1,56 +1,54 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T08:54:53.977658",
+    "generated_at": "2026-05-03T09:09:08.527131",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 99,
+      "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: anomaly & saas - billion",
+      "narrative": "Technology adoption wave: ai & saas - tech",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
         "signal_001",
         "signal_002"
       ],
-      "story_count": 74,
+      "story_count": 42,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
           "Experian"
         ],
         "technologies": [
           "AI",
-          "LOS",
           "SaaS",
-          "reporting",
-          "artificial intelligence"
+          "mobile app",
+          "artificial intelligence",
+          "du"
         ],
-        "themes": [
-          "Diversity"
-        ]
+        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: droga5 - campaign",
+      "narrative": "Industry movement: ai - billion",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_003"
+        "signal_000",
+        "signal_004"
       ],
-      "story_count": 24,
+      "story_count": 26,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "IKEA"
+        ],
         "technologies": [
           "AI"
         ],
@@ -69,30 +67,44 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "AI - Billion",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 27,
+      "key_themes": [
+        "Authenticity"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & LOS - New",
-          "story_count": 21,
+          "id": "signal_003",
+          "name": "Droga5 & LOS - Campaign",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "huge & AI - Creative",
-          "story_count": 11,
+          "id": "signal_006",
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 32,
+      "story_count": 25,
       "key_themes": [
         "Authenticity",
-        "mental health",
         "storytelling"
       ]
     },
@@ -100,22 +112,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Possible",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "huge & AI - Creative",
-          "story_count": 11,
+          "id": "signal_005",
+          "name": "huge & insights - Health",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 35,
+      "story_count": 4,
       "key_themes": [
-        "Authenticity",
-        "Diversity",
         "mental health"
       ]
     },
@@ -123,40 +127,33 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Anomaly & SaaS - Billion",
-          "story_count": 29,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Possible",
-          "story_count": 24,
+          "name": "AI & SaaS - Tech",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI & LOS - New",
-          "story_count": 21,
+          "name": "AI & artificial intelligence - Possible",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "Droga5 - Campaign",
-          "story_count": 15,
+          "id": "signal_006",
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "AI - Bank",
-          "story_count": 9,
+          "id": "signal_004",
+          "name": "IKEA & AI - Tv",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 98,
+      "story_count": 65,
       "key_themes": [
-        "Diversity",
-        "storytelling"
+        "Authenticity"
       ]
     }
   },
@@ -164,7 +161,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 7,
       "declining": 0
     },
     "hot_topics": [],
@@ -184,7 +181,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "name": "LOS",
@@ -207,7 +204,11 @@
         "mentions": 1
       },
       {
-        "name": "reporting",
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "chatbot",
         "mentions": 1
       }
     ],
@@ -219,12 +220,8 @@
     ],
     "cultural_movements": [
       {
-        "theme": "Diversity",
-        "frequency": 1
-      },
-      {
         "theme": "mental health",
-        "frequency": 1
+        "frequency": 2
       }
     ],
     "storytelling_approaches": [
@@ -247,31 +244,32 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 35,
+      "signal_count": 1,
+      "story_count": 15,
       "top_signals": [
-        "AI & artificial intelligence - Possible",
-        "huge & AI - Creative"
+        "AI - Billion"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - possible"
+      "key_insight": "Market narrative centered on ai - billion"
+    },
+    "enterprise_culture": {
+      "signal_count": 1,
+      "story_count": 4,
+      "top_signals": [
+        "huge & insights - Health"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on huge & insights - health"
     },
     "brand_storytelling": {
       "signal_count": 2,
-      "story_count": 32,
+      "story_count": 25,
       "top_signals": [
-        "AI & LOS - New",
-        "huge & AI - Creative"
+        "Droga5 & LOS - Campaign",
+        "AI & Anomaly - Marketing"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & los - new"
+      "key_insight": "Storytelling direction: droga5 & los - campaign"
     }
   },
   "emerging_patterns": [
@@ -280,27 +278,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "LOS",
         "SaaS",
-        "reporting",
-        "artificial intelligence"
+        "mobile app",
+        "artificial intelligence",
+        "du"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & SaaS - Billion",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & saas - billion.",
+    "headline": "Focus on AI & SaaS - Tech",
+    "executive_summary": "Analysis of 97 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & saas - tech.",
     "key_shifts": [],
     "dominant_themes": [
-      "Diversity",
       "mental health"
     ],
     "attention_areas": [
-      "Anomaly & SaaS - Billion",
+      "AI & SaaS - Tech",
       "AI & artificial intelligence - Possible",
-      "AI & LOS - New"
+      "AI - Billion"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -308,9 +305,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
