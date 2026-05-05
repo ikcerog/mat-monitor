@@ -1,86 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T10:02:43.949769",
+    "generated_at": "2026-05-05T09:32:25.155387",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 99,
-      "total_signals": 8,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - data",
-      "theme": "Technology & Innovation",
+      "thread_id": "thread_02",
+      "narrative": "Cultural shift toward mother & ikea - bank",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_001",
-        "signal_004",
-        "signal_002"
+        "signal_000",
+        "signal_002",
+        "signal_004"
       ],
-      "story_count": 52,
+      "story_count": 57,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "IKEA",
+          "Experian",
+          "Citizens Bank"
+        ],
         "technologies": [
           "AI",
-          "artificial intelligence",
-          "du",
-          "SaaS",
-          "mobile app"
+          "insights"
         ],
-        "themes": []
+        "themes": [
+          "remote work",
+          "mental health",
+          "Psychological safety"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: anomaly & droga5 - cmo",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: ai & 72andsunny - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_003",
-        "signal_000"
+        "signal_001",
+        "signal_003"
       ],
-      "story_count": 30,
+      "story_count": 46,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "article",
-          "IKEA"
-        ],
+        "brands": [],
         "technologies": [
-          "AI"
+          "AI",
+          "LOS",
+          "artificial intelligence",
+          "du",
+          "mobile app"
         ],
         "themes": []
       },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Cultural shift toward los - new",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_006",
-        "signal_007"
-      ],
-      "story_count": 17,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian"
-        ],
-        "technologies": [
-          "LOS"
-        ],
-        "themes": [
-          "DEI",
-          "mental health"
-        ]
-      },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -101,21 +81,22 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Data",
-          "story_count": 27,
+          "id": "signal_000",
+          "name": "Mother & IKEA - Bank",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & LOS - Partnership",
-          "story_count": 12,
+          "id": "signal_003",
+          "name": "Droga5 & LOS - Campaign",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 41,
       "key_themes": [
-        "Authenticity",
+        "content marketing",
+        "remote work",
         "storytelling"
       ]
     },
@@ -123,22 +104,31 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "LOS - New",
-          "story_count": 11,
+          "id": "signal_000",
+          "name": "Mother & IKEA - Bank",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_007",
-          "name": "huge & Experian - Health",
-          "story_count": 6,
+          "id": "signal_002",
+          "name": "huge & AI - Health",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "AI - Data",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 57,
       "key_themes": [
-        "DEI",
-        "mental health"
+        "Psychological safety",
+        "content marketing",
+        "mental health",
+        "psychological safety",
+        "remote work"
       ]
     },
     "industry_transformation": {
@@ -146,44 +136,25 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Data",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & insights - Year",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & LOS - Partnership",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Anomaly & Droga5 - Cmo",
-          "story_count": 11,
+          "name": "AI & 72andSunny - Ai Ai",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI - Bank",
-          "story_count": 10,
+          "name": "Droga5 & LOS - Campaign",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "IKEA - Media",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "Points Said Guardian",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 82,
+      "story_count": 52,
       "key_themes": [
-        "Authenticity",
         "storytelling"
       ]
     }
@@ -192,7 +163,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 8,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -209,14 +180,14 @@
         "mentions": 1
       },
       {
-        "name": "article",
+        "name": "Citizens Bank",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 30
+        "mentions": 33
       },
       {
         "name": "LOS",
@@ -228,10 +199,6 @@
       },
       {
         "name": "du",
-        "mentions": 1
-      },
-      {
-        "name": "SaaS",
         "mentions": 1
       },
       {
@@ -252,16 +219,24 @@
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 2
+        "frequency": 1
       },
       {
-        "theme": "DEI",
+        "theme": "Psychological safety",
+        "frequency": 1
+      },
+      {
+        "theme": "psychological safety",
+        "frequency": 1
+      },
+      {
+        "theme": "remote work",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
-        "approach": "Authenticity",
+        "approach": "content marketing",
         "frequency": 1
       },
       {
@@ -286,53 +261,40 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 17,
+      "signal_count": 3,
+      "story_count": 57,
       "top_signals": [
-        "LOS - New",
-        "huge & Experian - Health"
+        "Mother & IKEA - Bank",
+        "huge & AI - Health",
+        "AI - Data"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on los - new"
+      "key_insight": "Cultural emphasis on mother & ikea - bank"
     },
     "brand_storytelling": {
       "signal_count": 2,
-      "story_count": 39,
+      "story_count": 41,
       "top_signals": [
-        "AI & artificial intelligence - Data",
-        "AI & LOS - Partnership"
+        "Mother & IKEA - Bank",
+        "Droga5 & LOS - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & artificial intelligence - data"
+      "key_insight": "Storytelling direction: mother & ikea - bank"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "artificial intelligence",
-        "du",
-        "SaaS",
-        "mobile app"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Data",
-    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - data.",
+    "headline": "Focus on AI & 72andSunny - Ai Ai",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & 72andsunny - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
-      "DEI",
+      "remote work",
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Data",
-      "AI & insights - Year",
-      "AI & LOS - Partnership"
+      "AI & 72andSunny - Ai Ai",
+      "Mother & IKEA - Bank",
+      "huge & AI - Health"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -340,7 +302,9 @@
     ]
   },
   "macro_observations": [
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
