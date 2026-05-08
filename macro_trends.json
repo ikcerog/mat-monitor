@@ -1,103 +1,91 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T10:10:30.111737",
+    "generated_at": "2026-05-08T09:01:09.162346",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 163,
-      "total_signals": 10,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: mother & droga5 - brand",
+      "narrative": "Technology adoption wave: ogilvy & ikea - brand",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_001",
+        "signal_002",
         "signal_004",
-        "signal_008",
-        "signal_006"
+        "signal_005"
       ],
-      "story_count": 99,
+      "story_count": 81,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "article",
+          "Ikea",
           "IKEA",
-          "Citizens Bank"
+          "article",
+          "JPMorgan Chase",
+          "Bank of America"
         ],
         "technologies": [
           "AI",
-          "UX",
           "LOS",
-          "mobile app",
-          "Insights"
+          "insights",
+          "bi",
+          "omnichannel"
         ],
-        "themes": []
+        "themes": [
+          "mental health",
+          "collaboration"
+        ]
       },
       "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai - criteo",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_000",
-        "signal_005",
-        "signal_002",
-        "signal_007"
-      ],
-      "story_count": 35,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "design thinking",
-          "pos"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "housing_market_dynamics": {
-      "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "VCCP & Experian - Media",
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ai Ai",
           "story_count": 17,
           "momentum": "stable"
         }
       ],
       "story_count": 17,
-      "key_themes": [
-        "storytelling"
-      ]
+      "key_themes": []
+    },
+    "housing_market_dynamics": {
+      "description": "Consumer housing market trends and shifts",
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "VCCP & Experian - Media",
-          "story_count": 17,
+          "id": "signal_001",
+          "name": "Ogilvy & Ikea - Brand",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "VCCP & AI - Trade",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 56,
       "key_themes": [
+        "collaboration",
+        "content marketing",
+        "mental health",
         "storytelling"
       ]
     },
@@ -105,15 +93,31 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_009",
-          "name": "huge - Agency",
-          "story_count": 12,
+          "id": "signal_001",
+          "name": "Ogilvy & Ikea - Brand",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "VCCP & AI - Trade",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & Experian - Year",
+          "story_count": 25,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
+      "story_count": 81,
       "key_themes": [
-        "mental health"
+        "collaboration",
+        "content marketing",
+        "equity",
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
@@ -121,62 +125,49 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "Mother & Droga5 - Brand",
-          "story_count": 37,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Tech",
-          "story_count": 29,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_008",
-          "name": "Mother & omnichannel - Hybrid",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "AI & LOS - New",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI - Criteo",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Link Comments Comments Submitted",
-          "story_count": 12,
+          "name": "Ogilvy & Ikea - Brand",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "design thinking - Feel",
-          "story_count": 6,
+          "name": "VCCP & AI - Trade",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_007",
-          "name": "pos - Location",
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Droga5 & Bank of America - Created",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Warner Warner Bros Bros",
           "story_count": 3,
           "momentum": "stable"
         }
       ],
-      "story_count": 134,
-      "key_themes": []
+      "story_count": 84,
+      "key_themes": [
+        "collaboration",
+        "content marketing",
+        "mental health",
+        "storytelling"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 10,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -184,6 +175,10 @@
   },
   "entity_landscape": {
     "dominant_brands": [
+      {
+        "name": "Ikea",
+        "mentions": 1
+      },
       {
         "name": "IKEA",
         "mentions": 1
@@ -197,22 +192,22 @@
         "mentions": 1
       },
       {
-        "name": "Citizens Bank",
+        "name": "U.S. Bank",
+        "mentions": 1
+      },
+      {
+        "name": "JPMorgan Chase",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 35
-      },
-      {
-        "name": "UX",
-        "mentions": 3
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 21
       },
       {
         "name": "LOS",
@@ -223,43 +218,63 @@
         "mentions": 2
       },
       {
-        "name": "mobile app",
-        "mentions": 2
-      },
-      {
-        "name": "chatbot",
-        "mentions": 2
-      },
-      {
-        "name": "pos",
-        "mentions": 2
+        "name": "artificial intelligence",
+        "mentions": 1
       },
       {
         "name": "omnichannel",
         "mentions": 1
       },
       {
+        "name": "Omnichannel",
+        "mentions": 1
+      },
+      {
         "name": "Insights",
+        "mentions": 1
+      },
+      {
+        "name": "bi",
+        "mentions": 1
+      },
+      {
+        "name": "Artificial intelligence",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "New Disney",
+        "name": "The Latest",
         "mentions": 1
       },
       {
-        "name": "Tech Recipes",
+        "name": "Breed Of",
+        "mentions": 1
+      },
+      {
+        "name": "Trade Desk",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
         "theme": "mental health",
-        "frequency": 2
+        "frequency": 1
+      },
+      {
+        "theme": "equity",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": [
+      {
+        "approach": "content marketing",
+        "frequency": 1
+      },
       {
         "approach": "storytelling",
         "frequency": 1
@@ -268,38 +283,41 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
+      "signal_count": 1,
+      "story_count": 17,
+      "top_signals": [
+        "AI & artificial intelligence - Ai Ai"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
+    },
+    "housing_market": {
       "signal_count": 0,
       "story_count": 0,
       "top_signals": [],
       "momentum": "stable",
       "key_insight": "Limited coverage in this period"
     },
-    "housing_market": {
-      "signal_count": 1,
-      "story_count": 17,
-      "top_signals": [
-        "VCCP & Experian - Media"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on vccp & experian - media"
-    },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 12,
+      "signal_count": 3,
+      "story_count": 81,
       "top_signals": [
-        "huge - Agency"
+        "Ogilvy & Ikea - Brand",
+        "VCCP & AI - Trade",
+        "AI & Experian - Year"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on huge - agency"
+      "key_insight": "Cultural emphasis on ogilvy & ikea - brand"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 17,
+      "signal_count": 2,
+      "story_count": 56,
       "top_signals": [
-        "VCCP & Experian - Media"
+        "Ogilvy & Ikea - Brand",
+        "VCCP & AI - Trade"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: vccp & experian - media"
+      "key_insight": "Storytelling direction: ogilvy & ikea - brand"
     }
   },
   "emerging_patterns": [
@@ -308,26 +326,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "UX",
         "LOS",
-        "mobile app",
-        "Insights"
+        "insights",
+        "bi",
+        "omnichannel"
       ],
       "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Mother & Droga5 - Brand",
-    "executive_summary": "Analysis of 163 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on mother & droga5 - brand.",
+    "headline": "Focus on Ogilvy & Ikea - Brand",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ogilvy & ikea - brand.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health"
+      "mental health",
+      "collaboration"
     ],
     "attention_areas": [
-      "Mother & Droga5 - Brand",
-      "AI & artificial intelligence - Tech",
-      "Mother & omnichannel - Hybrid"
+      "Ogilvy & Ikea - Brand",
+      "VCCP & AI - Trade",
+      "AI & Experian - Year"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -335,9 +354,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 163 stories across 10 themes",
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Technology-heavy coverage (14 technologies tracked)"
+    "Strong cultural/workplace narrative emerging"
   ]
 }
