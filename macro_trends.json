@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-11T10:50:09.260533",
+    "generated_at": "2026-05-12T10:16:41.950146",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,54 +11,30 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - intelligence",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_000",
-        "signal_004"
+        "signal_001",
+        "signal_003",
+        "signal_002"
       ],
-      "story_count": 57,
+      "story_count": 64,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "JPMorgan Chase",
-          "article"
+          "U.S. Bank",
+          "IKEA"
         ],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "LOS",
-          "Artificial intelligence",
+          "artificial intelligence",
+          "insights",
           "Omnichannel"
         ],
         "themes": [
-          "mental health",
-          "collaboration"
+          "mental health"
         ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & ikea - chief",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_001",
-        "signal_002"
-      ],
-      "story_count": 33,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian"
-        ],
-        "technologies": [
-          "AI"
-        ],
-        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
@@ -67,22 +43,30 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [
-        {
-          "id": "signal_005",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 29,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 29,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_003",
+          "name": "AI & Collins - Ad",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & Home Depot - World Cup",
+          "story_count": 15,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 39,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -95,27 +79,19 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "Droga5 & U.S. Bank - News",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "LOS & artificial intelligence - Brand",
-          "story_count": 17,
+          "name": "AI & Collins - Ad",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "VCCP & AI - Ctv",
-          "story_count": 11,
+          "name": "AI & Droga5 - Campaign",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 47,
+      "story_count": 37,
       "key_themes": [
-        "collaboration",
-        "equity",
         "mental health"
       ]
     },
@@ -123,39 +99,32 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 29,
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Chief",
-          "story_count": 17,
+          "id": "signal_003",
+          "name": "AI & Collins - Ad",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "LOS & artificial intelligence - Brand",
+          "name": "Ogilvy & CX - Creative",
           "story_count": 17,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Collins - Advertising",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "VCCP & AI - Ctv",
-          "story_count": 11,
+          "name": "AI & LOS - Brand",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 90,
+      "story_count": 81,
       "key_themes": [
-        "collaboration",
         "mental health"
       ]
     }
@@ -173,6 +142,10 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "Home Depot",
+        "mentions": 1
+      },
+      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -183,24 +156,16 @@
       {
         "name": "U.S. Bank",
         "mentions": 1
-      },
-      {
-        "name": "JPMorgan Chase",
-        "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 32
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "LOS",
@@ -215,21 +180,17 @@
         "mentions": 1
       },
       {
-        "name": "Artificial intelligence",
+        "name": "CX",
+        "mentions": 1
+      },
+      {
+        "name": "Los",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "New Ads",
-        "mentions": 1
-      },
-      {
-        "name": "Breed Of",
-        "mentions": 1
-      },
-      {
-        "name": "Trade Desk",
+        "name": "North America",
         "mentions": 1
       }
     ],
@@ -237,45 +198,36 @@
       {
         "theme": "mental health",
         "frequency": 2
-      },
-      {
-        "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "equity",
-        "frequency": 1
       }
     ],
     "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 29,
-      "top_signals": [
-        "AI & artificial intelligence - Ai Ai"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
-    },
-    "housing_market": {
       "signal_count": 0,
       "story_count": 0,
       "top_signals": [],
       "momentum": "stable",
       "key_insight": "Limited coverage in this period"
     },
-    "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 47,
+    "housing_market": {
+      "signal_count": 1,
+      "story_count": 24,
       "top_signals": [
-        "Droga5 & U.S. Bank - News",
-        "LOS & artificial intelligence - Brand",
-        "VCCP & AI - Ctv"
+        "AI & Collins - Ad"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 & u.s. bank - news"
+      "key_insight": "Market narrative centered on ai & collins - ad"
+    },
+    "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 37,
+      "top_signals": [
+        "AI & Collins - Ad",
+        "AI & Droga5 - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & collins - ad"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -291,9 +243,9 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "artificial intelligence",
         "LOS",
-        "Artificial intelligence",
+        "artificial intelligence",
+        "insights",
         "Omnichannel"
       ],
       "signal_count": 3,
@@ -301,17 +253,16 @@
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ai Ai",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
+    "headline": "Focus on AI & artificial intelligence - Intelligence",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - intelligence.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "equity"
+      "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Ai Ai",
-      "Droga5 & U.S. Bank - News",
-      "AI & IKEA - Chief"
+      "AI & artificial intelligence - Intelligence",
+      "AI & Collins - Ad",
+      "Ogilvy & CX - Creative"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
