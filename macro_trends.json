@@ -1,38 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T10:02:38.366028",
+    "generated_at": "2026-05-15T10:09:26.434911",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 162,
+      "total_signals": 10,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & ogilvy - new",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_003",
+        "signal_001",
+        "signal_006",
         "signal_004",
-        "signal_005"
+        "signal_000",
+        "signal_008"
       ],
-      "story_count": 64,
+      "story_count": 99,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "Experian",
+          "article"
+        ],
         "technologies": [
           "AI",
-          "LOS",
+          "UX",
+          "insights",
           "artificial intelligence",
-          "insights"
+          "reporting"
         ],
         "themes": [
           "mental health"
         ]
       },
       "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ikea - platform",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_002",
+        "signal_005",
+        "signal_007",
+        "signal_009"
+      ],
+      "story_count": 44,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "IKEA"
+        ],
+        "technologies": [],
+        "themes": []
+      },
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -47,92 +75,131 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & article - Marketing",
-          "story_count": 12,
+          "id": "signal_003",
+          "name": "AI & user experience - Marketing",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
-      "key_themes": []
+      "story_count": 19,
+      "key_themes": [
+        "messaging"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_003",
-          "name": "AI & Ogilvy - New",
-          "story_count": 27,
+          "name": "AI & user experience - Marketing",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "UX & article - Questions",
+          "story_count": 17,
           "momentum": "stable"
         }
       ],
-      "story_count": 27,
+      "story_count": 64,
       "key_themes": [
-        "mental health",
-        "messaging"
+        "case study",
+        "messaging",
+        "thought leadership"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & Ogilvy - New",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "U.S. Bank & AI - Support",
-          "story_count": 24,
+          "id": "signal_004",
+          "name": "insights & Ogilvy - Campaign",
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 20,
       "key_themes": [
-        "equity",
-        "mental health",
-        "messaging"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & Ogilvy - New",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "insights & artificial intelligence - Data",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & article - Marketing",
-          "story_count": 12,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Droga5 - World Cup",
+          "name": "IKEA - Platform",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "AI & saas - Week",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "insights & Ogilvy - Campaign",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & user experience - Marketing",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "UX & article - Questions",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_008",
+          "name": "pos & insights - Time",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Comments Link Comments Submitted",
           "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
+          "name": "Cannes Year Maa",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_009",
+          "name": "Dark Wing Submitted  Dark Wing  Dark Wing Link",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 85,
+      "story_count": 162,
       "key_themes": [
+        "case study",
         "mental health",
-        "messaging"
+        "messaging",
+        "thought leadership"
       ]
     }
   },
@@ -140,7 +207,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 10,
       "declining": 0
     },
     "hot_topics": [],
@@ -149,59 +216,87 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "U.S. Bank",
-        "mentions": 2
-      },
-      {
-        "name": "article",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 30
+        "mentions": 31
       },
       {
-        "name": "artificial intelligence",
-        "mentions": 3
+        "name": "UX",
+        "mentions": 5
       },
       {
         "name": "insights",
+        "mentions": 3
+      },
+      {
+        "name": "artificial intelligence",
         "mentions": 2
       },
       {
-        "name": "LOS",
+        "name": "pos",
         "mentions": 2
+      },
+      {
+        "name": "reporting",
+        "mentions": 2
+      },
+      {
+        "name": "Insights",
+        "mentions": 1
+      },
+      {
+        "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "saas",
+        "mentions": 1
+      },
+      {
+        "name": "user experience",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Southern Europe",
+        "name": "North America",
+        "mentions": 1
+      },
+      {
+        "name": "Weber Shandwick",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 2
-      },
-      {
-        "theme": "equity",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
         "approach": "messaging",
+        "frequency": 1
+      },
+      {
+        "approach": "thought leadership",
+        "frequency": 1
+      },
+      {
+        "approach": "case study",
         "frequency": 1
       }
     ]
@@ -222,23 +317,24 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 51,
+      "signal_count": 1,
+      "story_count": 20,
       "top_signals": [
-        "AI & Ogilvy - New",
-        "U.S. Bank & AI - Support"
+        "insights & Ogilvy - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & ogilvy - new"
+      "key_insight": "Cultural emphasis on insights & ogilvy - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 27,
+      "signal_count": 3,
+      "story_count": 64,
       "top_signals": [
-        "AI & Ogilvy - New"
+        "AI & artificial intelligence - Ai Ai",
+        "AI & user experience - Marketing",
+        "UX & article - Questions"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & ogilvy - new"
+      "key_insight": "Storytelling direction: ai & artificial intelligence - ai ai"
     }
   },
   "emerging_patterns": [
@@ -247,26 +343,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "LOS",
+        "UX",
+        "insights",
         "artificial intelligence",
-        "insights"
+        "reporting"
       ],
-      "signal_count": 4,
+      "signal_count": 6,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Ogilvy - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ogilvy - new.",
+    "headline": "Focus on AI & artificial intelligence - Ai Ai",
+    "executive_summary": "Analysis of 162 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "equity"
+      "mental health"
     ],
     "attention_areas": [
-      "AI & Ogilvy - New",
-      "U.S. Bank & AI - Support",
-      "AI & artificial intelligence - Ai Ai"
+      "AI & artificial intelligence - Ai Ai",
+      "IKEA - Platform",
+      "AI & saas - Week"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -274,9 +370,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 162 stories across 10 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Technology-heavy coverage (11 technologies tracked)"
   ]
 }
