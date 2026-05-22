@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-21T10:55:12.202575",
+    "generated_at": "2026-05-22T10:36:58.122131",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -10,20 +10,21 @@
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & mother - uk",
+      "thread_id": "thread_01",
+      "narrative": "Industry movement: anomaly & ai - media",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
+        "signal_003",
         "signal_000",
-        "signal_002"
+        "signal_004",
+        "signal_005"
       ],
-      "story_count": 46,
+      "story_count": 44,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "JPMorgan Chase",
           "IKEA",
-          "Experian",
           "Wells Fargo"
         ],
         "technologies": [
@@ -31,31 +32,7 @@
         ],
         "themes": []
       },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & los - google",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_004",
-        "signal_005"
-      ],
-      "story_count": 37,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "LOS",
-          "artificial intelligence"
-        ],
-        "themes": [
-          "collaboration"
-        ]
-      },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -64,19 +41,32 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Marketing",
+          "story_count": 42,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "Wieden+Kennedy & Wells Fargo - World",
+          "name": "AI & Droga5 - Programmatic",
           "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 13,
+      "story_count": 55,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Marketing",
+          "story_count": 42,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 42,
       "key_themes": []
     },
     "customer_experience": {
@@ -89,22 +79,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & Anomaly - Campaign",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & artificial intelligence - Publicis",
-          "story_count": 12,
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Tv",
+          "story_count": 23,
           "momentum": "stable"
         }
       ],
-      "story_count": 38,
+      "story_count": 23,
       "key_themes": [
-        "collaboration",
-        "diversity",
         "mental health"
       ]
     },
@@ -112,33 +94,39 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & LOS - Google",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & Mother - Uk",
-          "story_count": 21,
+          "name": "AI & artificial intelligence - Marketing",
+          "story_count": 42,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI - Media",
+          "name": "AI & artificial intelligence - Tv",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Anomaly & AI - Media",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Wieden+Kennedy - World",
           "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AI & artificial intelligence - Publicis",
-          "story_count": 12,
+          "name": "Way Mccain Maa",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 70,
+      "story_count": 96,
       "key_themes": [
-        "collaboration"
+        "mental health"
       ]
     }
   },
@@ -155,6 +143,10 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "JPMorgan Chase",
+        "mentions": 2
+      },
+      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -167,6 +159,10 @@
         "mentions": 1
       },
       {
+        "name": "HSBC",
+        "mentions": 1
+      },
+      {
         "name": "Wells Fargo",
         "mentions": 1
       }
@@ -174,11 +170,19 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 34
+        "mentions": 33
       },
       {
         "name": "artificial intelligence",
         "mentions": 3
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "reporting",
+        "mentions": 1
       },
       {
         "name": "LOS",
@@ -188,14 +192,6 @@
     "influential_voices": [],
     "cultural_movements": [
       {
-        "theme": "collaboration",
-        "frequency": 2
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
-      },
-      {
         "theme": "mental health",
         "frequency": 1
       }
@@ -204,13 +200,14 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 13,
+      "signal_count": 2,
+      "story_count": 55,
       "top_signals": [
-        "Wieden+Kennedy & Wells Fargo - World"
+        "AI & artificial intelligence - Marketing",
+        "AI & Droga5 - Programmatic"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wieden+kennedy & wells fargo - world with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - marketing with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -220,14 +217,13 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 38,
+      "signal_count": 1,
+      "story_count": 23,
       "top_signals": [
-        "AI & Anomaly - Campaign",
-        "AI & artificial intelligence - Publicis"
+        "AI & artificial intelligence - Tv"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & anomaly - campaign"
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - tv"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -239,17 +235,16 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & Anomaly - Campaign",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & anomaly - campaign.",
+    "headline": "Focus on AI & artificial intelligence - Marketing",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - marketing.",
     "key_shifts": [],
     "dominant_themes": [
-      "diversity",
       "mental health"
     ],
     "attention_areas": [
-      "AI & Anomaly - Campaign",
-      "AI & LOS - Google",
-      "AI & Mother - Uk"
+      "AI & artificial intelligence - Marketing",
+      "AI & artificial intelligence - Tv",
+      "Anomaly & AI - Media"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -258,8 +253,6 @@
   },
   "macro_observations": [
     "High coverage intensity with 109 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
