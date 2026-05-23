@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-22T10:36:58.122131",
+    "generated_at": "2026-05-23T09:29:12.588279",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,28 +11,29 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: anomaly & ai - media",
+      "narrative": "Industry movement: insights & wieden+kennedy - world",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
         "signal_000",
-        "signal_004",
-        "signal_005"
+        "signal_005",
+        "signal_004"
       ],
-      "story_count": 44,
+      "story_count": 52,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "JPMorgan Chase",
           "IKEA",
-          "Wells Fargo"
+          "Liberty Mutual",
+          "JPMorgan Chase",
+          "HSBC"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "insights"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -41,33 +42,29 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Marketing",
-          "story_count": 42,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & Droga5 - Programmatic",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "JPMorgan Chase & AI",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 55,
+      "story_count": 9,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Marketing",
-          "story_count": 42,
+          "id": "signal_002",
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 42,
-      "key_themes": []
+      "story_count": 18,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -80,13 +77,20 @@
       "signals": [
         {
           "id": "signal_002",
-          "name": "AI & artificial intelligence - Tv",
-          "story_count": 23,
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Droga5 & AI - Week",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 23,
+      "story_count": 32,
       "key_themes": [
+        "collaboration",
         "mental health"
       ]
     },
@@ -94,37 +98,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
+          "id": "signal_000",
+          "name": "insights & Wieden+Kennedy - World",
+          "story_count": 31,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Marketing",
-          "story_count": 42,
+          "name": "AI & artificial intelligence - Use",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI & artificial intelligence - Tv",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Anomaly & AI - Media",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Wieden+Kennedy - World",
-          "story_count": 12,
+          "name": "AI & Anomaly - Marketing",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Way Mccain Maa",
-          "story_count": 6,
+          "name": "AI - Year",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 96,
+      "story_count": 86,
       "key_themes": [
         "mental health"
       ]
@@ -144,7 +142,7 @@
     "dominant_brands": [
       {
         "name": "JPMorgan Chase",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "IKEA",
@@ -161,20 +159,16 @@
       {
         "name": "HSBC",
         "mentions": 1
-      },
-      {
-        "name": "Wells Fargo",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 31
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "name": "insights",
@@ -187,10 +181,18 @@
       {
         "name": "LOS",
         "mentions": 1
+      },
+      {
+        "name": "Los",
+        "mentions": 1
       }
     ],
     "influential_voices": [],
     "cultural_movements": [
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -200,14 +202,13 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 55,
+      "signal_count": 1,
+      "story_count": 9,
       "top_signals": [
-        "AI & artificial intelligence - Marketing",
-        "AI & Droga5 - Programmatic"
+        "JPMorgan Chase & AI"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - marketing with mixed momentum"
+      "key_insight": "Primary focus on jpmorgan chase & ai with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -217,13 +218,14 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 23,
+      "signal_count": 2,
+      "story_count": 32,
       "top_signals": [
-        "AI & artificial intelligence - Tv"
+        "AI & Anomaly - Marketing",
+        "Droga5 & AI - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - tv"
+      "key_insight": "Cultural emphasis on ai & anomaly - marketing"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -235,16 +237,17 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Marketing",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - marketing.",
+    "headline": "Focus on insights & Wieden+Kennedy - World",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on insights & wieden+kennedy - world.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health"
+      "mental health",
+      "collaboration"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Marketing",
-      "AI & artificial intelligence - Tv",
-      "Anomaly & AI - Media"
+      "insights & Wieden+Kennedy - World",
+      "AI & artificial intelligence - Use",
+      "AI & Anomaly - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -253,6 +256,8 @@
   },
   "macro_observations": [
     "High coverage intensity with 109 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
