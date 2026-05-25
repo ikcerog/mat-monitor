@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T09:45:38.246617",
+    "generated_at": "2026-05-25T11:39:35.769991",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,13 +11,14 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: insights & anomaly - tv",
+      "narrative": "Technology adoption wave: ai & insights - media",
       "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_001",
         "signal_002",
-        "signal_001"
+        "signal_000"
       ],
-      "story_count": 65,
+      "story_count": 64,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -25,14 +26,13 @@
         ],
         "technologies": [
           "AI",
-          "insights",
           "artificial intelligence",
+          "insights",
           "reporting",
           "LOS"
         ],
         "themes": [
-          "hybrid work",
-          "remote work"
+          "collaboration"
         ]
       },
       "time_depth": "sustained",
@@ -40,21 +40,20 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & experian - company",
+      "narrative": "Industry movement: anomaly & ai - advertising",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
-        "signal_005",
-        "signal_000"
+        "signal_003",
+        "signal_005"
       ],
-      "story_count": 31,
+      "story_count": 26,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
           "Experian",
           "JPMorgan Chase",
-          "HSBC",
-          "IKEA"
+          "HSBC"
         ],
         "technologies": [
           "AI"
@@ -72,28 +71,18 @@
         {
           "id": "signal_005",
           "name": "JPMorgan Chase & AI",
-          "story_count": 7,
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 7,
+      "story_count": 5,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "insights & Anomaly - Tv",
-          "story_count": 38,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 38,
-      "key_themes": [
-        "hybrid work",
-        "remote work"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -105,58 +94,55 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "insights & Anomaly - Tv",
-          "story_count": 38,
+          "id": "signal_001",
+          "name": "AI & insights - Media",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
+          "id": "signal_004",
           "name": "Wieden+Kennedy & Droga5 - World",
-          "story_count": 13,
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 52,
       "key_themes": [
         "collaboration",
-        "hybrid work",
-        "mental health",
-        "remote work"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "insights & Anomaly - Tv",
-          "story_count": 38,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 27,
+          "name": "AI & insights - Media",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & Experian - Company",
-          "story_count": 18,
+          "id": "signal_002",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Anomaly & AI - Advertising",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "IKEA & AI - Programmatic",
-          "story_count": 6,
+          "name": "AI & artificial intelligence - Workers",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 89,
+      "story_count": 85,
       "key_themes": [
-        "hybrid work",
-        "remote work"
+        "collaboration"
       ]
     }
   },
@@ -196,7 +182,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 31
       },
       {
         "name": "artificial intelligence",
@@ -224,14 +210,6 @@
       {
         "theme": "mental health",
         "frequency": 1
-      },
-      {
-        "theme": "hybrid work",
-        "frequency": 1
-      },
-      {
-        "theme": "remote work",
-        "frequency": 1
       }
     ],
     "storytelling_approaches": []
@@ -239,7 +217,7 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 7,
+      "story_count": 5,
       "top_signals": [
         "JPMorgan Chase & AI"
       ],
@@ -247,23 +225,21 @@
       "key_insight": "Primary focus on jpmorgan chase & ai with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 38,
-      "top_signals": [
-        "insights & Anomaly - Tv"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on insights & anomaly - tv"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 51,
+      "story_count": 52,
       "top_signals": [
-        "insights & Anomaly - Tv",
+        "AI & insights - Media",
         "Wieden+Kennedy & Droga5 - World"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on insights & anomaly - tv"
+      "key_insight": "Cultural emphasis on ai & insights - media"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -273,19 +249,33 @@
       "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "insights",
+        "reporting",
+        "LOS"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on insights & Anomaly - Tv",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on insights & anomaly - tv.",
+    "headline": "Focus on AI & insights - Media",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - media.",
     "key_shifts": [],
     "dominant_themes": [
-      "hybrid work",
-      "remote work"
+      "collaboration",
+      "mental health"
     ],
     "attention_areas": [
-      "insights & Anomaly - Tv",
-      "AI & artificial intelligence - Ai Ai",
-      "AI & Experian - Company"
+      "AI & insights - Media",
+      "AI & LOS - Ai Ai",
+      "Anomaly & AI - Advertising"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
