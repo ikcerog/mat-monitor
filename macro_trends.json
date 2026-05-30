@@ -1,41 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T10:59:52.850470",
+    "generated_at": "2026-05-30T09:46:46.639177",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 163,
-      "total_signals": 10,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: vccp & mother - cannes",
+      "narrative": "Technology adoption wave: mother & reporting - ad",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_007",
-        "signal_008",
-        "signal_004",
         "signal_003",
-        "signal_001"
+        "signal_001",
+        "signal_004"
       ],
-      "story_count": 116,
+      "story_count": 79,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Wells Fargo",
-          "U.S. bank",
-          "IKEA",
-          "Experian"
+          "Experian",
+          "Wells Fargo"
         ],
         "technologies": [
           "AI",
-          "insights",
-          "UX",
-          "UI",
-          "artificial intelligence"
+          "artificial intelligence",
+          "reporting",
+          "Salesforce",
+          "dashboard"
         ],
         "themes": [
           "collaboration"
@@ -46,19 +41,19 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Storytelling focus on saas - fintech",
-      "theme": "Brand & Storytelling",
+      "narrative": "Industry movement: vccp - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_006",
+        "signal_000",
         "signal_002"
       ],
-      "story_count": 27,
+      "story_count": 20,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
-        "technologies": [
-          "SaaS"
+        "brands": [
+          "IKEA"
         ],
+        "technologies": [],
         "themes": []
       },
       "time_depth": "developing",
@@ -70,22 +65,14 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_007",
+          "id": "signal_001",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_008",
-          "name": "Wells Fargo & omnichannel - Bank",
-          "story_count": 22,
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 45,
-      "key_themes": [
-        "collaboration"
-      ]
+      "story_count": 20,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -95,50 +82,27 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_006",
-          "name": "SaaS - Fintech",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Ads Media Week",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & UI - Trust",
-          "story_count": 11,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 38,
-      "key_themes": [
-        "authentic",
-        "case study",
-        "content marketing"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_008",
-          "name": "Wells Fargo & omnichannel - Bank",
-          "story_count": 22,
+          "id": "signal_003",
+          "name": "Mother & reporting - Ad",
+          "story_count": 43,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
+          "id": "signal_005",
           "name": "VCCP & Droga5 - Campaign",
-          "story_count": 12,
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 34,
+      "story_count": 53,
       "key_themes": [
         "collaboration",
         "mental health"
@@ -148,52 +112,39 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "VCCP & Mother - Cannes",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_007",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_008",
-          "name": "Wells Fargo & omnichannel - Bank",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "reporting & IKEA - Advertising",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "UI & AI - Submitted",
-          "story_count": 13,
+          "name": "Mother & reporting - Ad",
+          "story_count": 43,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & UI - Trust",
-          "story_count": 11,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
-          "id": "signal_009",
-          "name": "Wieden+Kennedy - Nike",
+          "id": "signal_004",
+          "name": "artificial intelligence & AI - Bank",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "VCCP - World",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "IKEA - Global",
           "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 124,
+      "story_count": 99,
       "key_themes": [
-        "collaboration",
-        "content marketing"
+        "collaboration"
       ]
     }
   },
@@ -201,7 +152,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 10,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -209,10 +160,6 @@
   },
   "entity_landscape": {
     "dominant_brands": [
-      {
-        "name": "Wells Fargo",
-        "mentions": 3
-      },
       {
         "name": "IKEA",
         "mentions": 1
@@ -222,33 +169,17 @@
         "mentions": 1
       },
       {
-        "name": "U.S. bank",
+        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
-      },
-      {
-        "name": "UI",
-        "mentions": 3
+        "mentions": 22
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "insights",
-        "mentions": 2
-      },
-      {
-        "name": "SaaS",
-        "mentions": 2
-      },
-      {
-        "name": "UX",
         "mentions": 2
       },
       {
@@ -260,11 +191,15 @@
         "mentions": 1
       },
       {
-        "name": "omnichannel",
+        "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "LOS",
+        "name": "UI",
+        "mentions": 1
+      },
+      {
+        "name": "Salesforce",
         "mentions": 1
       }
     ],
@@ -284,28 +219,14 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "content marketing",
-        "frequency": 1
-      },
-      {
-        "approach": "authentic",
-        "frequency": 1
-      },
-      {
-        "approach": "case study",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 45,
+      "signal_count": 1,
+      "story_count": 20,
       "top_signals": [
-        "AI & artificial intelligence - Ai Ai",
-        "Wells Fargo & omnichannel - Bank"
+        "AI & artificial intelligence - Ai Ai"
       ],
       "momentum": "mixed",
       "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
@@ -319,24 +240,20 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 34,
+      "story_count": 53,
       "top_signals": [
-        "Wells Fargo & omnichannel - Bank",
+        "Mother & reporting - Ad",
         "VCCP & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wells fargo & omnichannel - bank"
+      "key_insight": "Cultural emphasis on mother & reporting - ad"
     },
     "brand_storytelling": {
-      "signal_count": 3,
-      "story_count": 38,
-      "top_signals": [
-        "SaaS - Fintech",
-        "Ads Media Week",
-        "AI & UI - Trust"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: saas - fintech"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
@@ -345,27 +262,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "insights",
-        "UX",
-        "UI",
-        "artificial intelligence"
+        "artificial intelligence",
+        "reporting",
+        "Salesforce",
+        "dashboard"
       ],
-      "signal_count": 6,
+      "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on VCCP & Mother - Cannes",
-    "executive_summary": "Analysis of 163 stories across 10 thematic areas. mixed momentum across the landscape. Primary attention on vccp & mother - cannes.",
+    "headline": "Focus on Mother & reporting - Ad",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on mother & reporting - ad.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "VCCP & Mother - Cannes",
+      "Mother & reporting - Ad",
       "AI & artificial intelligence - Ai Ai",
-      "Wells Fargo & omnichannel - Bank"
+      "artificial intelligence & AI - Bank"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -373,9 +290,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 163 stories across 10 themes",
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
-    "Technology-heavy coverage (14 technologies tracked)"
+    "Strong cultural/workplace narrative emerging"
   ]
 }
