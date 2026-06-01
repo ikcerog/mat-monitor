@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-31T10:03:39.815793",
+    "generated_at": "2026-06-01T13:19:52.892535",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,28 +11,28 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: vccp & mother - work",
+      "narrative": "Technology adoption wave: vccp & mother - bank",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_000",
-        "signal_001"
+        "signal_002",
+        "signal_004"
       ],
-      "story_count": 61,
+      "story_count": 71,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian",
           "Wells Fargo"
         ],
         "technologies": [
           "artificial intelligence",
-          "Salesforce",
           "AI",
+          "Salesforce",
           "dashboard",
           "LOS"
         ],
         "themes": [
-          "mental health"
+          "collaboration"
         ]
       },
       "time_depth": "sustained",
@@ -40,17 +40,22 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: droga5 - week",
+      "narrative": "Industry movement: ikea & experian - new",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_003",
         "signal_005"
       ],
-      "story_count": 15,
+      "story_count": 27,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
-        "technologies": [],
+        "brands": [
+          "IKEA",
+          "Experian"
+        ],
+        "technologies": [
+          "du"
+        ],
         "themes": []
       },
       "time_depth": "developing",
@@ -62,8 +67,8 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Ai Ai",
+          "id": "signal_002",
+          "name": "AI & dashboard - Data",
           "story_count": 22,
           "momentum": "stable"
         }
@@ -73,15 +78,8 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "reporting & AI - Home",
-          "story_count": 14,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 14,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
@@ -95,18 +93,18 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "VCCP & Mother - Work",
-          "story_count": 39,
+          "name": "VCCP & Mother - Bank",
+          "story_count": 37,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "VCCP & IKEA - Media",
-          "story_count": 19,
+          "id": "signal_001",
+          "name": "Droga5 - Created",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 58,
+      "story_count": 48,
       "key_themes": [
         "collaboration",
         "mental health"
@@ -117,38 +115,38 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "VCCP & Mother - Work",
-          "story_count": 39,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 22,
+          "name": "VCCP & Mother - Bank",
+          "story_count": 37,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "reporting & AI - Home",
-          "story_count": 14,
+          "name": "AI & dashboard - Data",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Droga5 - Week",
-          "story_count": 9,
+          "name": "IKEA & Experian - New",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Week",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Anomaly - Cup",
-          "story_count": 6,
+          "name": "Anomaly & du - World Cup",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 90,
+      "story_count": 98,
       "key_themes": [
-        "mental health"
+        "collaboration"
       ]
     }
   },
@@ -175,31 +173,23 @@
       {
         "name": "Wells Fargo",
         "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
-      },
-      {
-        "name": "Zillow",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 24
       },
       {
         "name": "artificial intelligence",
         "mentions": 2
       },
       {
-        "name": "dashboard",
+        "name": "du",
         "mentions": 1
       },
       {
-        "name": "reporting",
+        "name": "dashboard",
         "mentions": 1
       },
       {
@@ -238,29 +228,27 @@
       "signal_count": 1,
       "story_count": 22,
       "top_signals": [
-        "AI & artificial intelligence - Ai Ai"
+        "AI & dashboard - Data"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
+      "key_insight": "Primary focus on ai & dashboard - data with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 14,
-      "top_signals": [
-        "reporting & AI - Home"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on reporting & ai - home"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 58,
+      "story_count": 48,
       "top_signals": [
-        "VCCP & Mother - Work",
-        "VCCP & IKEA - Media"
+        "VCCP & Mother - Bank",
+        "Droga5 - Created"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on vccp & mother - work"
+      "key_insight": "Cultural emphasis on vccp & mother - bank"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -286,17 +274,17 @@
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on VCCP & Mother - Work",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & mother - work.",
+    "headline": "Focus on VCCP & Mother - Bank",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & mother - bank.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "collaboration"
+      "collaboration",
+      "mental health"
     ],
     "attention_areas": [
-      "VCCP & Mother - Work",
-      "AI & artificial intelligence - Ai Ai",
-      "VCCP & IKEA - Media"
+      "VCCP & Mother - Bank",
+      "AI & dashboard - Data",
+      "IKEA & Experian - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
