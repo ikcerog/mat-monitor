@@ -1,62 +1,61 @@
 {
   "meta": {
-    "generated_at": "2026-06-01T13:19:52.892535",
+    "generated_at": "2026-06-02T11:54:19.613298",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 99,
+      "total_signals": 8,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: vccp & mother - bank",
-      "theme": "Technology & Innovation",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ai - performance",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
-        "signal_002",
-        "signal_004"
+        "signal_007",
+        "signal_006",
+        "signal_005",
+        "signal_002"
       ],
-      "story_count": 71,
+      "story_count": 42,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Wells Fargo"
-        ],
+        "brands": [],
         "technologies": [
-          "artificial intelligence",
           "AI",
-          "Salesforce",
-          "dashboard",
-          "LOS"
+          "du",
+          "artificial intelligence"
         ],
-        "themes": [
-          "collaboration"
-        ]
+        "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ikea & experian - new",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Cultural shift toward droga5 & mother - media",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
+        "signal_000",
         "signal_003",
-        "signal_005"
+        "signal_004"
       ],
-      "story_count": 27,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian"
-        ],
+        "brands": [],
         "technologies": [
-          "du"
+          "Salesforce",
+          "AI",
+          "insights"
         ],
-        "themes": []
+        "themes": [
+          "employee engagement",
+          "collaboration",
+          "diversity"
+        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -67,13 +66,13 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & dashboard - Data",
-          "story_count": 22,
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Data",
+          "story_count": 17,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
+      "story_count": 17,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -84,29 +83,50 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Droga5 & insights - Campaign",
+          "story_count": 10,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 10,
+      "key_themes": [
+        "authentic",
+        "diversity",
+        "mental health",
+        "storytelling"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_000",
-          "name": "VCCP & Mother - Bank",
-          "story_count": 37,
+          "name": "Droga5 & Mother - Media",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "Droga5 - Created",
-          "story_count": 11,
+          "id": "signal_003",
+          "name": "AI - Bank",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Droga5 & insights - Campaign",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 48,
+      "story_count": 40,
       "key_themes": [
+        "authentic",
         "collaboration",
+        "diversity",
+        "employee engagement",
         "mental health"
       ]
     },
@@ -114,47 +134,45 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "VCCP & Mother - Bank",
-          "story_count": 37,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & dashboard - Data",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "IKEA & Experian - New",
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Data",
           "story_count": 17,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Week",
+          "id": "signal_007",
+          "name": "AI - Performance",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "du & VCCP - World",
           "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Anomaly & du - World Cup",
-          "story_count": 10,
+          "name": "Football Fast Food",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "artificial intelligence - Trade",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 98,
-      "key_themes": [
-        "collaboration"
-      ]
+      "story_count": 59,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 8,
       "declining": 0
     },
     "hot_topics": [],
@@ -163,14 +181,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "IKEA",
-        "mentions": 1
-      },
-      {
-        "name": "Experian",
-        "mentions": 1
-      },
-      {
         "name": "Wells Fargo",
         "mentions": 1
       }
@@ -178,7 +188,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
+        "mentions": 22
       },
       {
         "name": "artificial intelligence",
@@ -189,23 +199,23 @@
         "mentions": 1
       },
       {
-        "name": "dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "LOS",
-        "mentions": 1
-      },
-      {
         "name": "UI",
         "mentions": 1
       },
       {
         "name": "Salesforce",
         "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
       }
     ],
     "influential_voices": [
+      {
+        "name": "Nate Olmstead",
+        "mentions": 1
+      },
       {
         "name": "Wells Fargo",
         "mentions": 1
@@ -217,21 +227,38 @@
         "frequency": 1
       },
       {
+        "theme": "diversity",
+        "frequency": 1
+      },
+      {
         "theme": "mental health",
+        "frequency": 1
+      },
+      {
+        "theme": "employee engagement",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "authentic",
+        "frequency": 1
+      },
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 22,
+      "story_count": 17,
       "top_signals": [
-        "AI & dashboard - Data"
+        "AI & artificial intelligence - Data"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & dashboard - data with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - data with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -241,50 +268,39 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 48,
+      "signal_count": 3,
+      "story_count": 40,
       "top_signals": [
-        "VCCP & Mother - Bank",
-        "Droga5 - Created"
+        "Droga5 & Mother - Media",
+        "AI - Bank",
+        "Droga5 & insights - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on vccp & mother - bank"
+      "key_insight": "Cultural emphasis on droga5 & mother - media"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 10,
+      "top_signals": [
+        "Droga5 & insights - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: droga5 & insights - campaign"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "artificial intelligence",
-        "AI",
-        "Salesforce",
-        "dashboard",
-        "LOS"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on VCCP & Mother - Bank",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & mother - bank.",
+    "headline": "Focus on Droga5 & Mother - Media",
+    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & mother - media.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "mental health"
+      "employee engagement",
+      "collaboration"
     ],
     "attention_areas": [
-      "VCCP & Mother - Bank",
-      "AI & dashboard - Data",
-      "IKEA & Experian - New"
+      "Droga5 & Mother - Media",
+      "AI & artificial intelligence - Data",
+      "AI - Performance"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -292,7 +308,6 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
