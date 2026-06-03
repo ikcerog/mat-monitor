@@ -1,63 +1,42 @@
 {
   "meta": {
-    "generated_at": "2026-06-02T11:54:19.613298",
+    "generated_at": "2026-06-03T12:26:31.790872",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 99,
-      "total_signals": 8,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai - performance",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: artificial intelligence & ikea - new",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_007",
-        "signal_006",
-        "signal_005",
-        "signal_002"
+        "signal_001",
+        "signal_003"
       ],
-      "story_count": 42,
+      "story_count": 60,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "IKEA",
+          "Experian",
+          "UWM",
+          "United Wholesale Mortgage",
+          "Wells Fargo"
+        ],
         "technologies": [
+          "artificial intelligence",
           "AI",
-          "du",
-          "artificial intelligence"
+          "LOS",
+          "UI",
+          "chatbot"
         ],
         "themes": []
       },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_01",
-      "narrative": "Cultural shift toward droga5 & mother - media",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_000",
-        "signal_003",
-        "signal_004"
-      ],
-      "story_count": 40,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "Salesforce",
-          "AI",
-          "insights"
-        ],
-        "themes": [
-          "employee engagement",
-          "collaboration",
-          "diversity"
-        ]
-      },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -67,35 +46,46 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Data",
-          "story_count": 17,
+          "name": "artificial intelligence & IKEA - New",
+          "story_count": 38,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 60,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "AI - Marketing",
+          "story_count": 9,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 9,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Droga5 & insights - Campaign",
-          "story_count": 10,
+          "id": "signal_002",
+          "name": "Group Media Advertising",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 14,
       "key_themes": [
         "authentic",
-        "diversity",
-        "mental health",
         "storytelling"
       ]
     },
@@ -103,30 +93,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Droga5 & Mother - Media",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI - Bank",
-          "story_count": 10,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Droga5 & insights - Campaign",
-          "story_count": 10,
+          "id": "signal_005",
+          "name": "Droga5 & AI - Video",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 14,
       "key_themes": [
-        "authentic",
-        "collaboration",
-        "diversity",
-        "employee engagement",
         "mental health"
       ]
     },
@@ -135,36 +109,24 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Data",
-          "story_count": 17,
+          "name": "artificial intelligence & IKEA - New",
+          "story_count": 38,
           "momentum": "stable"
         },
         {
-          "id": "signal_007",
-          "name": "AI - Performance",
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "du - Cup",
           "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "du & VCCP - World",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Football Fast Food",
-          "story_count": 9,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "artificial intelligence - Trade",
-          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 59,
+      "story_count": 72,
       "key_themes": []
     }
   },
@@ -172,7 +134,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 8,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -181,14 +143,30 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "IKEA",
+        "mentions": 1
+      },
+      {
+        "name": "Experian",
+        "mentions": 1
+      },
+      {
         "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "UWM",
+        "mentions": 1
+      },
+      {
+        "name": "United Wholesale Mortgage",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 22
+        "mentions": 27
       },
       {
         "name": "artificial intelligence",
@@ -199,21 +177,33 @@
         "mentions": 1
       },
       {
+        "name": "LOS",
+        "mentions": 1
+      },
+      {
         "name": "UI",
         "mentions": 1
       },
       {
-        "name": "Salesforce",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
+        "name": "chatbot",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Nate Olmstead",
+        "name": "Media Group",
+        "mentions": 1
+      },
+      {
+        "name": "Push Global",
+        "mentions": 1
+      },
+      {
+        "name": "Marketing The",
+        "mentions": 1
+      },
+      {
+        "name": "North America",
         "mentions": 1
       },
       {
@@ -223,19 +213,7 @@
     ],
     "cultural_movements": [
       {
-        "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
-      },
-      {
         "theme": "mental health",
-        "frequency": 1
-      },
-      {
-        "theme": "employee engagement",
         "frequency": 1
       }
     ],
@@ -252,13 +230,14 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 17,
+      "signal_count": 2,
+      "story_count": 60,
       "top_signals": [
-        "AI & artificial intelligence - Data"
+        "artificial intelligence & IKEA - New",
+        "AI & artificial intelligence - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - data with mixed momentum"
+      "key_insight": "Primary focus on artificial intelligence & ikea - new with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -268,39 +247,36 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 14,
       "top_signals": [
-        "Droga5 & Mother - Media",
-        "AI - Bank",
-        "Droga5 & insights - Campaign"
+        "Droga5 & AI - Video"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 & mother - media"
+      "key_insight": "Cultural emphasis on droga5 & ai - video"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 14,
       "top_signals": [
-        "Droga5 & insights - Campaign"
+        "Group Media Advertising"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: droga5 & insights - campaign"
+      "key_insight": "Storytelling direction: group media advertising"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Droga5 & Mother - Media",
-    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & mother - media.",
+    "headline": "Focus on artificial intelligence & IKEA - New",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "employee engagement",
-      "collaboration"
+      "mental health"
     ],
     "attention_areas": [
-      "Droga5 & Mother - Media",
-      "AI & artificial intelligence - Data",
-      "AI - Performance"
+      "artificial intelligence & IKEA - New",
+      "AI & artificial intelligence - Ai Ai",
+      "Group Media Advertising"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -308,8 +284,8 @@
     ]
   },
   "macro_observations": [
+    "High coverage intensity with 109 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
