@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T09:50:11.640860",
+    "generated_at": "2026-06-07T10:18:14.718817",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 109,
@@ -11,54 +11,33 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & reporting - new",
+      "narrative": "Technology adoption wave: reporting & experian - week",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_001",
+        "signal_003",
+        "signal_004",
         "signal_005",
-        "signal_002",
-        "signal_004"
+        "signal_001"
       ],
-      "story_count": 89,
+      "story_count": 85,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
           "Experian",
-          "JPMorgan Chase"
+          "article",
+          "JPMorgan Chase",
+          "IKEA"
         ],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "Reporting",
           "UI",
-          "LOS"
-        ],
-        "themes": [
-          "mental health"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: world cup cup world",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_000",
-        "signal_003"
-      ],
-      "story_count": 20,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
+          "artificial intelligence",
           "mobile app"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -67,14 +46,16 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 22,
+          "id": "signal_004",
+          "name": "AI & UI - Ai Ai",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
-      "key_themes": []
+      "story_count": 28,
+      "key_themes": [
+        "messaging"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -84,21 +65,30 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "AI & UI - Ai Ai",
+          "story_count": 28,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 28,
+      "key_themes": [
+        "messaging"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Health",
-          "story_count": 9,
+          "id": "signal_000",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 15,
       "key_themes": [
         "mental health"
       ]
@@ -107,45 +97,39 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Reporting - New",
-          "story_count": 42,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & Droga5 - Google",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "World Cup Cup World",
-          "story_count": 12,
+          "id": "signal_003",
+          "name": "Reporting & Experian - Week",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & artificial intelligence - Health",
-          "story_count": 9,
+          "name": "AI & UI - Ai Ai",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "mobile app - Just",
-          "story_count": 8,
+          "id": "signal_005",
+          "name": "mobile app & IKEA - Just",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI & LOS - Google",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "World Cup Cup World",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 109,
+      "story_count": 94,
       "key_themes": [
-        "mental health"
+        "messaging"
       ]
     }
   },
@@ -171,6 +155,10 @@
       },
       {
         "name": "JPMorgan Chase",
+        "mentions": 1
+      },
+      {
+        "name": "article",
         "mentions": 1
       }
     ],
@@ -202,10 +190,6 @@
       {
         "name": "point of sale",
         "mentions": 1
-      },
-      {
-        "name": "Artificial intelligence",
-        "mentions": 1
       }
     ],
     "influential_voices": [
@@ -220,17 +204,22 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "messaging",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 22,
+      "story_count": 28,
       "top_signals": [
-        "AI & LOS - Ai Ai"
+        "AI & UI - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & los - ai ai with mixed momentum"
+      "key_insight": "Primary focus on ai & ui - ai ai with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -241,19 +230,21 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 15,
       "top_signals": [
-        "AI & artificial intelligence - Health"
+        "Anomaly & artificial intelligence - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - health"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 28,
+      "top_signals": [
+        "AI & UI - Ai Ai"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & ui - ai ai"
     }
   },
   "emerging_patterns": [
@@ -262,26 +253,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "artificial intelligence",
         "Reporting",
         "UI",
-        "LOS"
+        "artificial intelligence",
+        "mobile app"
       ],
       "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Reporting - New",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & reporting - new.",
+    "headline": "Focus on Reporting & Experian - Week",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on reporting & experian - week.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "AI & Reporting - New",
-      "AI & LOS - Ai Ai",
-      "AI & Droga5 - Google"
+      "Reporting & Experian - Week",
+      "AI & UI - Ai Ai",
+      "Anomaly & artificial intelligence - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
