@@ -1,84 +1,39 @@
 {
   "meta": {
-    "generated_at": "2026-06-11T12:00:19.452193",
+    "generated_at": "2026-06-12T11:31:13.681621",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 99,
-      "total_signals": 8,
+      "total_stories": 109,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai - ai ai",
+      "narrative": "Industry movement: world cup cup world",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_004",
         "signal_003",
-        "signal_001"
-      ],
-      "story_count": 43,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "UX"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & ikea - google",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
         "signal_002",
-        "signal_007",
-        "signal_000"
-      ],
-      "story_count": 35,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian"
-        ],
-        "technologies": [
-          "AI",
-          "LOS",
-          "artificial intelligence",
-          "Insights",
-          "insights"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_006",
         "signal_005"
       ],
-      "story_count": 21,
+      "story_count": 56,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Experian",
           "Truist",
-          "Bank of America"
+          "Ikea",
+          "IKEA"
         ],
-        "technologies": [],
-        "themes": [
-          "mental health",
-          "remote work"
-        ]
+        "technologies": [
+          "dashboard",
+          "AI",
+          "artificial intelligence"
+        ],
+        "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -99,73 +54,71 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "AKQA & insights - Campaign",
+          "story_count": 34,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 34,
+      "key_themes": [
+        "mental health",
+        "storytelling"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Truist & Bank of America - Bank",
-          "story_count": 9,
+          "id": "signal_000",
+          "name": "AKQA & insights - Campaign",
+          "story_count": 34,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 34,
       "key_themes": [
         "mental health",
-        "remote work"
+        "storytelling"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI - Ai Ai",
-          "story_count": 18,
+          "id": "signal_001",
+          "name": "AI & omnichannel - Ai Ai",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & IKEA - Google",
-          "story_count": 14,
+          "id": "signal_004",
+          "name": "World Cup Cup World",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Mother & UX - World Cup",
+          "name": "dashboard & Experian - Advertising",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Anomaly & Ikea - Account",
           "story_count": 13,
           "momentum": "stable"
         },
         {
-          "id": "signal_007",
-          "name": "AI & artificial intelligence - Video",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "Creative Ads Liveramp",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & VCCP - Cannes",
-          "story_count": 8,
+          "id": "signal_005",
+          "name": "AKQA & artificial intelligence - New",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 78,
+      "story_count": 75,
       "key_themes": []
     }
   },
@@ -173,7 +126,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 8,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -186,6 +139,10 @@
         "mentions": 2
       },
       {
+        "name": "Ikea",
+        "mentions": 1
+      },
+      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -194,37 +151,37 @@
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "U.S. Bank",
+        "mentions": 1
+      },
+      {
+        "name": "article",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "Insights",
-        "mentions": 1
+        "mentions": 20
       },
       {
         "name": "insights",
         "mentions": 1
       },
       {
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
+        "mentions": 1
+      },
+      {
+        "name": "omnichannel",
+        "mentions": 1
+      },
+      {
         "name": "LOS",
-        "mentions": 1
-      },
-      {
-        "name": "UX",
-        "mentions": 1
-      },
-      {
-        "name": "chatbot",
         "mentions": 1
       }
     ],
@@ -241,14 +198,15 @@
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 2
-      },
-      {
-        "theme": "remote work",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -266,50 +224,36 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 21,
+      "signal_count": 1,
+      "story_count": 34,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign",
-        "Truist & Bank of America - Bank"
+        "AKQA & insights - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on akqa & insights - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 34,
+      "top_signals": [
+        "AKQA & insights - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: akqa & insights - campaign"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "LOS",
-        "artificial intelligence",
-        "Insights",
-        "insights"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI - Ai Ai",
-    "executive_summary": "Analysis of 99 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ai - ai ai.",
+    "headline": "Focus on AKQA & insights - Campaign",
+    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on akqa & insights - campaign.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "remote work"
+      "mental health"
     ],
     "attention_areas": [
-      "AI - Ai Ai",
-      "AI & IKEA - Google",
-      "Mother & UX - World Cup"
+      "AKQA & insights - Campaign",
+      "AI & omnichannel - Ai Ai",
+      "World Cup Cup World"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -317,7 +261,7 @@
     ]
   },
   "macro_observations": [
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "High coverage intensity with 109 stories across 6 themes",
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
