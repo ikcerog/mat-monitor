@@ -1,41 +1,43 @@
 {
   "meta": {
-    "generated_at": "2026-06-12T11:31:13.681621",
+    "generated_at": "2026-06-13T10:17:05.565069",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
-      "total_signals": 6,
+      "total_stories": 120,
+      "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: world cup cup world",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & droga5 - video",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
+        "signal_006",
         "signal_003",
-        "signal_002",
-        "signal_005"
+        "signal_005",
+        "signal_004"
       ],
-      "story_count": 56,
+      "story_count": 82,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
+          "article",
           "Experian",
-          "Truist",
-          "Ikea",
-          "IKEA"
+          "Ikea"
         ],
         "technologies": [
-          "dashboard",
           "AI",
-          "artificial intelligence"
+          "insights",
+          "pos",
+          "user experience",
+          "omnichannel"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -56,15 +58,27 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
+          "id": "signal_006",
+          "name": "AI & Droga5 - Video",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "insights & user experience - Ads",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "AKQA & insights - Campaign",
-          "story_count": 34,
+          "name": "AI & AKQA - Ceo",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 34,
+      "story_count": 61,
       "key_themes": [
-        "mental health",
+        "messaging",
         "storytelling"
       ]
     },
@@ -72,61 +86,62 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AKQA & insights - Campaign",
-          "story_count": 34,
+          "id": "signal_002",
+          "name": "Anomaly & artificial intelligence - New",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 34,
+      "story_count": 16,
       "key_themes": [
-        "mental health",
-        "storytelling"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & omnichannel - Ai Ai",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "World Cup Cup World",
-          "story_count": 16,
+          "id": "signal_006",
+          "name": "AI & Droga5 - Video",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "dashboard & Experian - Advertising",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Anomaly & Ikea - Account",
-          "story_count": 13,
+          "name": "insights & user experience - Ads",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AKQA & artificial intelligence - New",
-          "story_count": 11,
+          "name": "AI & omnichannel - Ai Ai",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "World Cup World Cup",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Ikea & VCCP - Week",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 75,
-      "key_themes": []
+      "story_count": 95,
+      "key_themes": [
+        "messaging"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 7,
       "declining": 0
     },
     "hot_topics": [],
@@ -134,10 +149,6 @@
   },
   "entity_landscape": {
     "dominant_brands": [
-      {
-        "name": "Truist",
-        "mentions": 2
-      },
       {
         "name": "Ikea",
         "mentions": 1
@@ -148,6 +159,14 @@
       },
       {
         "name": "Experian",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "Truist",
         "mentions": 1
       },
       {
@@ -162,14 +181,18 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 20
+        "mentions": 24
       },
       {
         "name": "insights",
-        "mentions": 1
+        "mentions": 3
       },
       {
         "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "user experience",
         "mentions": 1
       },
       {
@@ -182,6 +205,14 @@
       },
       {
         "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "SaaS",
+        "mentions": 1
+      },
+      {
+        "name": "pos",
         "mentions": 1
       }
     ],
@@ -205,6 +236,10 @@
       {
         "approach": "storytelling",
         "frequency": 1
+      },
+      {
+        "approach": "messaging",
+        "frequency": 1
       }
     ]
   },
@@ -225,35 +260,50 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 34,
+      "story_count": 16,
       "top_signals": [
-        "AKQA & insights - Campaign"
+        "Anomaly & artificial intelligence - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on akqa & insights - campaign"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - new"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 34,
+      "signal_count": 2,
+      "story_count": 37,
       "top_signals": [
-        "AKQA & insights - Campaign"
+        "AI & Droga5 - Video",
+        "AI & AKQA - Ceo"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: akqa & insights - campaign"
+      "key_insight": "Storytelling direction: ai & droga5 - video"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "insights",
+        "pos",
+        "user experience",
+        "omnichannel"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AKQA & insights - Campaign",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on akqa & insights - campaign.",
+    "headline": "Focus on AI & Droga5 - Video",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & droga5 - video.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "AKQA & insights - Campaign",
-      "AI & omnichannel - Ai Ai",
-      "World Cup Cup World"
+      "AI & Droga5 - Video",
+      "insights & user experience - Ads",
+      "AI & omnichannel - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -261,7 +311,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period"
   ]
 }
