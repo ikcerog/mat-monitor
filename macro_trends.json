@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T13:42:18.472586",
+    "generated_at": "2026-06-16T12:41:56.317815",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 109,
+      "total_stories": 110,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,56 +11,35 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: artificial intelligence & ai - right",
+      "narrative": "Technology adoption wave: ai & insights - video",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_004",
-        "signal_001"
+        "signal_003",
+        "signal_001",
+        "signal_005",
+        "signal_000"
       ],
-      "story_count": 64,
+      "story_count": 93,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
+          "Ikea",
           "Experian",
-          "Bank of America",
-          "Truist",
-          "U.S. Bank"
+          "Truist"
         ],
         "technologies": [
           "AI",
+          "SaaS",
+          "insights",
           "artificial intelligence",
-          "Personalization",
-          "user experience",
-          "omnichannel"
+          "LOS"
         ],
         "themes": [
-          "Mental health",
           "mental health"
         ]
       },
       "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ikea & mother - uk",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_005",
-        "signal_003"
-      ],
-      "story_count": 16,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Ikea",
-          "IKEA"
-        ],
-        "technologies": [],
-        "themes": []
-      },
-      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -79,40 +58,29 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 29,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 29,
-      "key_themes": [
-        "empathy",
-        "mental health"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "artificial intelligence & AI - Right",
-          "story_count": 30,
+          "id": "signal_005",
+          "name": "AI & AKQA - Data",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 29,
+          "name": "AI & Bank of America - Bank",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 59,
+      "story_count": 31,
       "key_themes": [
-        "Mental health",
-        "empathy",
+        "diversity",
         "mental health"
       ]
     },
@@ -120,39 +88,38 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "artificial intelligence & AI - Right",
-          "story_count": 30,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & omnichannel - Ai Ai",
-          "story_count": 21,
+          "id": "signal_003",
+          "name": "AI & insights - Video",
+          "story_count": 34,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "insights & dashboard - Brands",
-          "story_count": 13,
+          "name": "AI & artificial intelligence - Businesses",
+          "story_count": 29,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Ikea & Mother - Uk",
+          "name": "AI & AKQA - Data",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "CX & SaaS - Years",
           "story_count": 9,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "Cup World Cup World",
+          "id": "signal_004",
+          "name": "Ikea & Mother - World Cup",
           "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 80,
+      "story_count": 100,
       "key_themes": [
-        "Mental health",
         "mental health"
       ]
     }
@@ -197,10 +164,14 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 27
       },
       {
         "name": "artificial intelligence",
+        "mentions": 2
+      },
+      {
+        "name": "SaaS",
         "mentions": 2
       },
       {
@@ -208,19 +179,11 @@
         "mentions": 1
       },
       {
+        "name": "CX",
+        "mentions": 1
+      },
+      {
         "name": "Personalization",
-        "mentions": 1
-      },
-      {
-        "name": "user experience",
-        "mentions": 1
-      },
-      {
-        "name": "dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "omnichannel",
         "mentions": 1
       },
       {
@@ -228,11 +191,11 @@
         "mentions": 1
       },
       {
-        "name": "SaaS",
+        "name": "Artificial intelligence",
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "reporting",
         "mentions": 1
       }
     ],
@@ -245,19 +208,14 @@
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 2
+        "frequency": 1
       },
       {
-        "theme": "Mental health",
+        "theme": "diversity",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "empathy",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -276,22 +234,20 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 59,
+      "story_count": 31,
       "top_signals": [
-        "artificial intelligence & AI - Right",
-        "Anomaly & Droga5 - Campaign"
+        "AI & AKQA - Data",
+        "AI & Bank of America - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on artificial intelligence & ai - right"
+      "key_insight": "Cultural emphasis on ai & akqa - data"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 29,
-      "top_signals": [
-        "Anomaly & Droga5 - Campaign"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: anomaly & droga5 - campaign"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
@@ -300,27 +256,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
+        "SaaS",
+        "insights",
         "artificial intelligence",
-        "Personalization",
-        "user experience",
-        "omnichannel"
+        "LOS"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & AI - Right",
-    "executive_summary": "Analysis of 109 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - right.",
+    "headline": "Focus on AI & insights - Video",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - video.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health",
-      "Mental health"
+      "diversity"
     ],
     "attention_areas": [
-      "artificial intelligence & AI - Right",
-      "Anomaly & Droga5 - Campaign",
-      "AI & omnichannel - Ai Ai"
+      "AI & insights - Video",
+      "AI & artificial intelligence - Businesses",
+      "AI & AKQA - Data"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -328,9 +284,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 109 stories across 6 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Technology-heavy coverage (10 technologies tracked)",
     "Strong cultural/workplace narrative emerging"
   ]
 }
