@@ -1,43 +1,41 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T12:41:56.317815",
+    "generated_at": "2026-06-17T12:08:00.665787",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 110,
-      "total_signals": 6,
+      "total_stories": 119,
+      "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & insights - video",
+      "narrative": "Technology adoption wave: ai & zillow - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_003",
-        "signal_001",
-        "signal_005",
-        "signal_000"
+        "signal_000",
+        "signal_002",
+        "signal_006"
       ],
-      "story_count": 93,
+      "story_count": 84,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Zillow",
           "IKEA",
-          "Ikea",
-          "Experian",
-          "Truist"
+          "Truist",
+          "Ikea"
         ],
         "technologies": [
           "AI",
+          "LOS",
+          "Insights",
           "SaaS",
-          "insights",
-          "artificial intelligence",
-          "LOS"
+          "reporting"
         ],
-        "themes": [
-          "mental health"
-        ]
+        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
@@ -52,36 +50,47 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "Home Depot & Experian - World Cup",
+          "story_count": 11,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 11,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Cannes People Real",
+          "story_count": 10,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 10,
+      "key_themes": [
+        "mental health",
+        "storytelling"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & AKQA - Data",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & Bank of America - Bank",
+          "id": "signal_004",
+          "name": "Cannes People Real",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 31,
+      "story_count": 10,
       "key_themes": [
-        "diversity",
-        "mental health"
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
@@ -89,46 +98,50 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "AI & insights - Video",
-          "story_count": 34,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Businesses",
-          "story_count": 29,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & AKQA - Data",
-          "story_count": 21,
+          "name": "AI & Zillow - Ai Ai",
+          "story_count": 36,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "CX & SaaS - Years",
-          "story_count": 9,
+          "name": "Droga5 & AI - Publicis",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Ikea & Mother - World Cup",
-          "story_count": 7,
+          "id": "signal_005",
+          "name": "artificial intelligence - Deal",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & Anomaly - Video",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "Ikea & Mother - Creative",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Home Depot & Experian - World Cup",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 100,
-      "key_themes": [
-        "mental health"
-      ]
+      "story_count": 109,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 7,
       "declining": 0
     },
     "hot_topics": [],
@@ -137,12 +150,16 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Ikea",
-        "mentions": 2
+        "name": "Home Depot",
+        "mentions": 1
       },
       {
-        "name": "Truist",
-        "mentions": 2
+        "name": "Ikea",
+        "mentions": 1
+      },
+      {
+        "name": "Zillow",
+        "mentions": 1
       },
       {
         "name": "IKEA",
@@ -153,41 +170,33 @@
         "mentions": 1
       },
       {
-        "name": "Bank of America",
-        "mentions": 1
-      },
-      {
-        "name": "U.S. Bank",
+        "name": "Truist",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 32
       },
       {
         "name": "artificial intelligence",
         "mentions": 2
       },
       {
-        "name": "SaaS",
+        "name": "reporting",
         "mentions": 2
       },
       {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "CX",
-        "mentions": 1
-      },
-      {
-        "name": "Personalization",
-        "mentions": 1
-      },
-      {
         "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "Insights",
+        "mentions": 1
+      },
+      {
+        "name": "SaaS",
         "mentions": 1
       },
       {
@@ -195,13 +204,25 @@
         "mentions": 1
       },
       {
-        "name": "reporting",
+        "name": "Accessibility",
+        "mentions": 1
+      },
+      {
+        "name": "Los",
+        "mentions": 1
+      },
+      {
+        "name": "accessibility",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Platform Solutions",
+        "name": "Publicis Groupe",
+        "mentions": 1
+      },
+      {
+        "name": "Eurasia Group",
         "mentions": 1
       }
     ],
@@ -209,13 +230,14 @@
       {
         "theme": "mental health",
         "frequency": 1
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -233,21 +255,22 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 31,
+      "signal_count": 1,
+      "story_count": 10,
       "top_signals": [
-        "AI & AKQA - Data",
-        "AI & Bank of America - Bank"
+        "Cannes People Real"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & akqa - data"
+      "key_insight": "Cultural emphasis on cannes people real"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 10,
+      "top_signals": [
+        "Cannes People Real"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: cannes people real"
     }
   },
   "emerging_patterns": [
@@ -256,27 +279,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "SaaS",
-        "insights",
-        "artificial intelligence",
-        "LOS"
+        "reporting",
+        "LOS",
+        "Insights",
+        "SaaS"
       ],
-      "signal_count": 4,
+      "signal_count": 5,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & insights - Video",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - video.",
+    "headline": "Focus on AI & Zillow - Ai Ai",
+    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & zillow - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "diversity"
+      "mental health"
     ],
     "attention_areas": [
-      "AI & insights - Video",
-      "AI & artificial intelligence - Businesses",
-      "AI & AKQA - Data"
+      "AI & Zillow - Ai Ai",
+      "Droga5 & AI - Publicis",
+      "artificial intelligence - Deal"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -284,8 +306,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
+    "High coverage intensity with 119 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Strong cultural/workplace narrative emerging"
+    "Technology-heavy coverage (13 technologies tracked)"
   ]
 }
