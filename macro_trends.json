@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T13:22:11.281914",
+    "generated_at": "2026-06-23T10:50:22.772815",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 120,
@@ -11,51 +11,47 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ad",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: 72andsunny & ogilvy - cannes",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
+        "signal_004",
         "signal_002",
-        "signal_003"
+        "signal_000"
       ],
-      "story_count": 68,
+      "story_count": 44,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "IKEA",
+          "Experian"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "Chatbot",
-          "chatbot",
-          "LOS"
-        ],
-        "themes": [
-          "diversity"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: insights - bank",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_005",
-        "signal_006"
-      ],
-      "story_count": 26,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "insights"
+          "artificial intelligence"
         ],
         "themes": []
       },
       "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Cultural shift toward bank financial buy",
+      "theme": "Workplace & Culture",
+      "supporting_signals": [
+        "signal_006",
+        "signal_005"
+      ],
+      "story_count": 31,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [],
+        "themes": [
+          "collaboration",
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -70,46 +66,43 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "VCCP & Experian - Marketing",
-          "story_count": 22,
+          "id": "signal_001",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 29,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "insights - Marketing",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
+      "story_count": 45,
       "key_themes": [
-        "collaboration",
         "content marketing",
-        "mental health"
+        "storytelling"
       ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "VCCP & Experian - Marketing",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
+          "id": "signal_001",
           "name": "AI & LOS - Ai Ai",
-          "story_count": 19,
+          "story_count": 29,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & insights - Brand",
-          "story_count": 17,
+          "name": "insights - Marketing",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 58,
+      "story_count": 45,
       "key_themes": [
-        "collaboration",
         "content marketing",
-        "mental health",
         "storytelling"
       ]
     },
@@ -117,31 +110,22 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Ad",
-          "story_count": 32,
+          "id": "signal_006",
+          "name": "Bank Financial Buy",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "VCCP & Experian - Marketing",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Value Business Strategy",
-          "story_count": 4,
+          "id": "signal_005",
+          "name": "Droga5 - Brand",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 58,
+      "story_count": 31,
       "key_themes": [
         "collaboration",
-        "content marketing",
-        "diversity",
-        "mental health",
-        "retention"
+        "mental health"
       ]
     },
     "industry_transformation": {
@@ -149,47 +133,31 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Ad",
-          "story_count": 32,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 29,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "VCCP & Experian - Marketing",
-          "story_count": 22,
+          "name": "72andSunny & Ogilvy - Cannes",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & insights - Brand",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "insights - Bank",
+          "name": "IKEA & Experian - Amazon",
           "story_count": 14,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "Anomaly - Cannes",
+          "id": "signal_000",
+          "name": "Anomaly & artificial intelligence - New",
           "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 116,
+      "story_count": 73,
       "key_themes": [
-        "collaboration",
-        "content marketing",
-        "diversity",
-        "mental health",
         "storytelling"
       ]
     }
@@ -213,31 +181,19 @@
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
+        "mentions": 28
       },
       {
         "name": "insights",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "Chatbot",
-        "mentions": 1
-      },
-      {
-        "name": "chatbot",
         "mentions": 1
       },
       {
@@ -247,36 +203,32 @@
       {
         "name": "SaaS",
         "mentions": 1
+      },
+      {
+        "name": "ai",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Ad Business",
+        "name": "Publicis Groupe",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
-        "theme": "diversity",
-        "frequency": 1
+        "theme": "collaboration",
+        "frequency": 2
       },
       {
         "theme": "mental health",
-        "frequency": 1
-      },
-      {
-        "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "retention",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
         "approach": "storytelling",
-        "frequency": 2
+        "frequency": 1
       },
       {
         "approach": "content marketing",
@@ -293,62 +245,48 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 29,
+      "top_signals": [
+        "AI & LOS - Ai Ai"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on ai & los - ai ai"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 58,
+      "signal_count": 2,
+      "story_count": 31,
       "top_signals": [
-        "AI & artificial intelligence - Ad",
-        "VCCP & Experian - Marketing",
-        "Value Business Strategy"
+        "Bank Financial Buy",
+        "Droga5 - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - ad"
+      "key_insight": "Cultural emphasis on bank financial buy"
     },
     "brand_storytelling": {
-      "signal_count": 3,
-      "story_count": 58,
+      "signal_count": 2,
+      "story_count": 45,
       "top_signals": [
-        "VCCP & Experian - Marketing",
         "AI & LOS - Ai Ai",
-        "AI & insights - Brand"
+        "insights - Marketing"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: vccp & experian - marketing"
+      "key_insight": "Storytelling direction: ai & los - ai ai"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "artificial intelligence",
-        "insights",
-        "Chatbot",
-        "chatbot"
-      ],
-      "signal_count": 4,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ad",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ad.",
+    "headline": "Focus on AI & LOS - Ai Ai",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & los - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
-      "diversity",
+      "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Ad",
-      "VCCP & Experian - Marketing",
-      "AI & LOS - Ai Ai"
+      "AI & LOS - Ai Ai",
+      "72andSunny & Ogilvy - Cannes",
+      "insights - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -358,7 +296,6 @@
   "macro_observations": [
     "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
