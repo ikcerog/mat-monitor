@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T10:36:26.589623",
+    "generated_at": "2026-06-25T10:30:31.279722",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 119,
+      "total_stories": 120,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,23 +11,26 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & los - ai ai",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - data",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
-        "signal_004"
+        "signal_004",
+        "signal_003",
+        "signal_002"
       ],
-      "story_count": 46,
+      "story_count": 58,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
           "AI",
+          "artificial intelligence",
           "LOS",
-          "customer experience"
+          "insights",
+          "reporting"
         ],
         "themes": [
-          "collaboration"
+          "mental health"
         ]
       },
       "time_depth": "sustained",
@@ -35,18 +38,17 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & anomaly - campaign",
+      "narrative": "Industry movement: cannes lions cannes lions",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_006"
+        "signal_001",
+        "signal_000"
       ],
-      "story_count": 23,
+      "story_count": 19,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "article"
+          "Truist"
         ],
         "technologies": [
           "AI"
@@ -66,45 +68,29 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "insights & artificial intelligence - Marketing",
-          "story_count": 26,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 26,
-      "key_themes": [
-        "mental health"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 26,
+          "id": "signal_006",
+          "name": "AI & Mother - Ad",
+          "story_count": 35,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & huge - Media",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Adweek House Adweek House",
-          "story_count": 5,
+          "name": "AI & artificial intelligence - Data",
+          "story_count": 28,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 63,
       "key_themes": [
-        "authenticity",
-        "collaboration",
+        "authentic",
         "storytelling"
       ]
     },
@@ -112,70 +98,61 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "insights & artificial intelligence - Marketing",
-          "story_count": 26,
+          "id": "signal_002",
+          "name": "AI & Droga5 - Agency",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & huge - Media",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Ogilvy - Cannes",
-          "story_count": 19,
+          "id": "signal_005",
+          "name": "Ogilvy - Grand",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 65,
+      "story_count": 23,
       "key_themes": [
         "belonging",
         "collaboration",
-        "inclusion",
-        "mental health",
-        "storytelling"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Data",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "insights & AI - Video",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 26,
+          "name": "AI & Droga5 - Agency",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "insights & artificial intelligence - Marketing",
-          "story_count": 26,
+          "name": "Cannes Lions Cannes Lions",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & huge - Media",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & Anomaly - Campaign",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "Droga5 & IKEA - Bank",
-          "story_count": 10,
+          "id": "signal_000",
+          "name": "Truist & AI - Bank",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 95,
+      "story_count": 77,
       "key_themes": [
-        "collaboration",
         "mental health",
         "storytelling"
       ]
@@ -202,18 +179,22 @@
         "mentions": 1
       },
       {
-        "name": "article",
+        "name": "Truist",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 30
       },
       {
         "name": "insights",
         "mentions": 3
+      },
+      {
+        "name": "reporting",
+        "mentions": 1
       },
       {
         "name": "artificial intelligence",
@@ -222,32 +203,20 @@
       {
         "name": "LOS",
         "mentions": 1
-      },
-      {
-        "name": "customer experience",
-        "mentions": 1
-      },
-      {
-        "name": "pos",
-        "mentions": 1
       }
     ],
     "influential_voices": [],
     "cultural_movements": [
       {
-        "theme": "collaboration",
-        "frequency": 2
-      },
-      {
         "theme": "belonging",
         "frequency": 1
       },
       {
-        "theme": "mental health",
+        "theme": "collaboration",
         "frequency": 1
       },
       {
-        "theme": "inclusion",
+        "theme": "mental health",
         "frequency": 1
       }
     ],
@@ -257,7 +226,7 @@
         "frequency": 2
       },
       {
-        "approach": "authenticity",
+        "approach": "authentic",
         "frequency": 1
       }
     ]
@@ -278,26 +247,24 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 65,
+      "signal_count": 2,
+      "story_count": 23,
       "top_signals": [
-        "insights & artificial intelligence - Marketing",
-        "AI & huge - Media",
-        "Ogilvy - Cannes"
+        "AI & Droga5 - Agency",
+        "Ogilvy - Grand"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on insights & artificial intelligence - marketing"
+      "key_insight": "Cultural emphasis on ai & droga5 - agency"
     },
     "brand_storytelling": {
-      "signal_count": 3,
-      "story_count": 51,
+      "signal_count": 2,
+      "story_count": 63,
       "top_signals": [
-        "AI & LOS - Ai Ai",
-        "AI & huge - Media",
-        "Adweek House Adweek House"
+        "AI & Mother - Ad",
+        "AI & artificial intelligence - Data"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & los - ai ai"
+      "key_insight": "Storytelling direction: ai & mother - ad"
     }
   },
   "emerging_patterns": [
@@ -306,27 +273,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
+        "artificial intelligence",
         "LOS",
         "insights",
-        "artificial intelligence",
-        "pos"
+        "reporting"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & LOS - Ai Ai",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & los - ai ai.",
+    "headline": "Focus on AI & Mother - Ad",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & mother - ad.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "mental health"
+      "mental health",
+      "belonging"
     ],
     "attention_areas": [
-      "AI & LOS - Ai Ai",
-      "insights & artificial intelligence - Marketing",
-      "AI & huge - Media"
+      "AI & Mother - Ad",
+      "AI & artificial intelligence - Data",
+      "insights & AI - Video"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -334,9 +301,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 119 stories across 7 themes",
+    "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
