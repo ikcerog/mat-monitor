@@ -1,31 +1,55 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T09:52:54.650942",
+    "generated_at": "2026-06-28T10:16:54.047706",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
-      "total_signals": 7,
+      "total_stories": 111,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: artificial intelligence & droga5 - new",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & los - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_006",
-        "signal_003",
-        "signal_004"
+        "signal_001",
+        "signal_005"
       ],
-      "story_count": 39,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "Truist"
         ],
         "technologies": [
-          "artificial intelligence"
+          "AI",
+          "LOS",
+          "artificial intelligence",
+          "UI"
+        ],
+        "themes": [
+          "remote work"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ogilvy & mother - grand prix",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_002",
+        "signal_004"
+      ],
+      "story_count": 19,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "AI"
         ],
         "themes": []
       },
@@ -44,26 +68,28 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "insights & huge - Marketing",
-          "story_count": 10,
+          "id": "signal_003",
+          "name": "IKEA & Experian - Advertising",
+          "story_count": 23,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
-      "key_themes": []
+      "story_count": 23,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Ogilvy & AI - Cannes",
-          "story_count": 19,
+          "id": "signal_000",
+          "name": "Droga5 & AI - Created",
+          "story_count": 31,
           "momentum": "stable"
         }
       ],
-      "story_count": 19,
+      "story_count": 31,
       "key_themes": [
         "Authenticity"
       ]
@@ -72,26 +98,27 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Droga5 & reporting - Years",
-          "story_count": 30,
+          "id": "signal_003",
+          "name": "IKEA & Experian - Advertising",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Anomaly & artificial intelligence - Fintech",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 39,
       "key_themes": [
-        "mental health"
+        "mental health",
+        "remote work"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
-        {
-          "id": "signal_006",
-          "name": "artificial intelligence & Droga5 - New",
-          "story_count": 24,
-          "momentum": "stable"
-        },
         {
           "id": "signal_001",
           "name": "AI & LOS - Ai Ai",
@@ -99,27 +126,35 @@
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "Fifa World World Cup",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "Anomaly & artificial intelligence - Fintech",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Ogilvy & Mother - Grand Prix",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Brand Want Anti",
-          "story_count": 6,
+          "name": "AI - Choose",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 61,
-      "key_themes": []
+      "story_count": 57,
+      "key_themes": [
+        "remote work"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -138,16 +173,16 @@
       {
         "name": "Truist",
         "mentions": 1
+      },
+      {
+        "name": "Zillow",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
-      },
-      {
-        "name": "reporting",
-        "mentions": 1
+        "mentions": 26
       },
       {
         "name": "artificial intelligence",
@@ -158,11 +193,7 @@
         "mentions": 1
       },
       {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "SaaS",
+        "name": "UI",
         "mentions": 1
       }
     ],
@@ -170,6 +201,10 @@
     "cultural_movements": [
       {
         "theme": "mental health",
+        "frequency": 1
+      },
+      {
+        "theme": "remote work",
         "frequency": 1
       }
     ],
@@ -189,42 +224,46 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 30,
+      "story_count": 23,
       "top_signals": [
-        "Droga5 & reporting - Years"
+        "IKEA & Experian - Advertising"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 & reporting - years"
+      "key_insight": "Market narrative centered on ikea & experian - advertising"
+    },
+    "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 39,
+      "top_signals": [
+        "IKEA & Experian - Advertising",
+        "Anomaly & artificial intelligence - Fintech"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ikea & experian - advertising"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 19,
+      "story_count": 31,
       "top_signals": [
-        "Ogilvy & AI - Cannes"
+        "Droga5 & AI - Created"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ogilvy & ai - cannes"
+      "key_insight": "Storytelling direction: droga5 & ai - created"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Droga5 & reporting - Years",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & reporting - years.",
+    "headline": "Focus on Droga5 & AI - Created",
+    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on droga5 & ai - created.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health"
+      "mental health",
+      "remote work"
     ],
     "attention_areas": [
-      "Droga5 & reporting - Years",
-      "artificial intelligence & Droga5 - New",
+      "Droga5 & AI - Created",
+      "IKEA & Experian - Advertising",
       "AI & LOS - Ai Ai"
     ],
     "strategic_questions": [
@@ -233,8 +272,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 111 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
