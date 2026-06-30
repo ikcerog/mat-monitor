@@ -1,38 +1,40 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T12:19:01.047678",
+    "generated_at": "2026-06-30T10:45:21.512346",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
-      "total_signals": 7,
+      "total_stories": 110,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - tech",
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: anomaly & artificial intelligence - campaign",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_001",
+        "signal_000",
+        "signal_003",
         "signal_004",
-        "signal_000"
+        "signal_005"
       ],
-      "story_count": 61,
+      "story_count": 73,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Equifax",
+          "JPMorgan Chase",
           "Experian"
         ],
         "technologies": [
           "AI",
           "artificial intelligence",
+          "reporting",
           "LOS",
-          "insights",
           "SaaS"
         ],
         "themes": [
+          "collaboration",
           "mental health"
         ]
       },
@@ -40,36 +42,42 @@
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & huge - media",
+      "thread_id": "thread_01",
+      "narrative": "Industry movement: vccp & ikea - world",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_002",
-        "signal_005",
-        "signal_006"
+        "signal_001",
+        "signal_002"
       ],
-      "story_count": 59,
+      "story_count": 37,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "IKEA",
+          "Equifax"
         ],
-        "technologies": [
-          "AI"
-        ],
+        "technologies": [],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 24,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 24,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -81,15 +89,17 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & Ogilvy - Cannes",
-          "story_count": 20,
+          "id": "signal_005",
+          "name": "AI & insights - Post",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
+      "story_count": 13,
       "key_themes": [
-        "Authenticity"
+        "Empathy",
+        "collaboration",
+        "storytelling"
       ]
     },
     "workplace_culture": {
@@ -97,14 +107,29 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "Anomaly & AI - Said",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "huge & Experian - Media",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & insights - Post",
           "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 13,
+      "story_count": 54,
       "key_themes": [
-        "mental health"
+        "Empathy",
+        "collaboration",
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
@@ -112,51 +137,47 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Tech",
+          "name": "VCCP & IKEA - World",
           "story_count": 28,
           "momentum": "stable"
         },
         {
+          "id": "signal_000",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_003",
-          "name": "AI & huge - Media",
-          "story_count": 22,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & Ogilvy - Cannes",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "IKEA & AI - Advertising",
-          "story_count": 13,
+          "name": "huge & Experian - Media",
+          "story_count": 17,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Droga5 - Created",
+          "name": "AI & insights - Post",
           "story_count": 13,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Anomaly & AI - Said",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "Mother & Ogilvy - Grand Prix",
-          "story_count": 11,
+          "id": "signal_002",
+          "name": "Mother & Ogilvy - Cannes",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 120,
+      "story_count": 110,
       "key_themes": [
-        "Authenticity",
-        "mental health"
+        "Empathy",
+        "collaboration",
+        "mental health",
+        "storytelling"
       ]
     }
   },
@@ -164,7 +185,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -183,23 +204,27 @@
       {
         "name": "Equifax",
         "mentions": 1
+      },
+      {
+        "name": "JPMorgan Chase",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 30
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "LOS",
-        "mentions": 1
+        "mentions": 24
       },
       {
         "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "LOS",
         "mentions": 1
       },
       {
@@ -215,8 +240,17 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "State Fair",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
+      {
+        "theme": "collaboration",
+        "frequency": 2
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -224,18 +258,24 @@
     ],
     "storytelling_approaches": [
       {
-        "approach": "Authenticity",
+        "approach": "storytelling",
+        "frequency": 1
+      },
+      {
+        "approach": "Empathy",
         "frequency": 1
       }
     ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 24,
+      "top_signals": [
+        "Anomaly & artificial intelligence - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on anomaly & artificial intelligence - campaign with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -245,22 +285,24 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 13,
+      "signal_count": 3,
+      "story_count": 54,
       "top_signals": [
-        "Anomaly & AI - Said"
+        "Anomaly & artificial intelligence - Campaign",
+        "huge & Experian - Media",
+        "AI & insights - Post"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & ai - said"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 20,
+      "story_count": 13,
       "top_signals": [
-        "AI & Ogilvy - Cannes"
+        "AI & insights - Post"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & ogilvy - cannes"
+      "key_insight": "Storytelling direction: ai & insights - post"
     }
   },
   "emerging_patterns": [
@@ -270,25 +312,26 @@
       "technologies": [
         "AI",
         "artificial intelligence",
+        "reporting",
         "LOS",
-        "insights",
         "SaaS"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Tech",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - tech.",
+    "headline": "Focus on VCCP & IKEA - World",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & ikea - world.",
     "key_shifts": [],
     "dominant_themes": [
+      "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Tech",
-      "AI & huge - Media",
-      "AI & Ogilvy - Cannes"
+      "VCCP & IKEA - World",
+      "Anomaly & artificial intelligence - Campaign",
+      "AI & LOS - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -296,8 +339,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
