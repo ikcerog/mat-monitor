@@ -1,62 +1,56 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T10:58:34.101743",
+    "generated_at": "2026-07-02T10:24:36.104451",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 119,
-      "total_signals": 7,
+      "total_stories": 101,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: artificial intelligence & droga5 - new",
+      "narrative": "Technology adoption wave: ai & reporting - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_003",
         "signal_002",
-        "signal_006"
+        "signal_000",
+        "signal_004"
       ],
-      "story_count": 80,
+      "story_count": 57,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Equifax"
-        ],
+        "brands": [],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "reporting",
-          "pos",
-          "Omnichannel"
+          "Omnichannel",
+          "LOS",
+          "omnichannel"
         ],
-        "themes": [
-          "mental health"
-        ]
+        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & anomaly - cannes",
-      "theme": "Industry Dynamics",
+      "narrative": "Housing market dynamics showing huge & realtor.com - marketing",
+      "theme": "Housing Market",
       "supporting_signals": [
         "signal_001",
-        "signal_000",
-        "signal_004"
+        "signal_005"
       ],
-      "story_count": 39,
+      "story_count": 26,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian"
+          "Realtor.com"
         ],
         "technologies": [
-          "AI"
+          "SaaS",
+          "Salesforce"
         ],
         "themes": []
       },
@@ -73,35 +67,52 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "huge & Realtor.com - Marketing",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Tv Like Marketers",
+          "story_count": 11,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 26,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "omnichannel & customer experience - Media",
-          "story_count": 9,
+          "id": "signal_003",
+          "name": "Anomaly & artificial intelligence - New",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
-      "key_themes": []
+      "story_count": 18,
+      "key_themes": [
+        "brand story",
+        "mental health"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & Equifax - Publishers",
-          "story_count": 16,
+          "id": "signal_003",
+          "name": "Anomaly & artificial intelligence - New",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 18,
       "key_themes": [
+        "brand story",
         "mental health"
       ]
     },
@@ -109,59 +120,39 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "artificial intelligence & Droga5 - New",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & Omnichannel - Ai Ai",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & Anomaly - Cannes",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "AI & Equifax - Publishers",
-          "story_count": 16,
+          "name": "AI & reporting - Ai Ai",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Experian - Wpp",
-          "story_count": 10,
+          "name": "omnichannel & AI - Media",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "omnichannel & customer experience - Media",
-          "story_count": 9,
+          "id": "signal_001",
+          "name": "huge & Realtor.com - Marketing",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "World Cup World Cup",
-          "story_count": 9,
+          "name": "AI & reporting - Cannes",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 119,
-      "key_themes": [
-        "mental health"
-      ]
+      "story_count": 72,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -178,7 +169,7 @@
         "mentions": 1
       },
       {
-        "name": "Equifax",
+        "name": "Realtor.com",
         "mentions": 1
       }
     ],
@@ -186,10 +177,6 @@
       {
         "name": "AI",
         "mentions": 27
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
       },
       {
         "name": "reporting",
@@ -200,7 +187,7 @@
         "mentions": 1
       },
       {
-        "name": "customer experience",
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -212,11 +199,27 @@
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "SaaS",
+        "mentions": 1
+      },
+      {
+        "name": "Salesforce",
         "mentions": 1
       }
     ],
     "influential_voices": [
+      {
+        "name": "Stop Shop",
+        "mentions": 1
+      },
+      {
+        "name": "Becomes First",
+        "mentions": 1
+      },
+      {
+        "name": "Denise Moreno",
+        "mentions": 1
+      },
       {
         "name": "Capital One",
         "mentions": 1
@@ -228,7 +231,12 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "brand story",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -239,27 +247,31 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 15,
+      "top_signals": [
+        "huge & Realtor.com - Marketing"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on huge & realtor.com - marketing"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 16,
+      "story_count": 18,
       "top_signals": [
-        "AI & Equifax - Publishers"
+        "Anomaly & artificial intelligence - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & equifax - publishers"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - new"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 18,
+      "top_signals": [
+        "Anomaly & artificial intelligence - New"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: anomaly & artificial intelligence - new"
     }
   },
   "emerging_patterns": [
@@ -268,26 +280,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "artificial intelligence",
         "reporting",
-        "pos",
-        "Omnichannel"
+        "Omnichannel",
+        "LOS",
+        "omnichannel"
       ],
       "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & Droga5 - New",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & droga5 - new.",
+    "headline": "Focus on AI & reporting - Ai Ai",
+    "executive_summary": "Analysis of 101 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & reporting - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "artificial intelligence & Droga5 - New",
-      "AI & Omnichannel - Ai Ai",
-      "AI & Anomaly - Cannes"
+      "AI & reporting - Ai Ai",
+      "omnichannel & AI - Media",
+      "Anomaly & artificial intelligence - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -295,7 +307,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 119 stories across 7 themes",
+    "High coverage intensity with 101 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
