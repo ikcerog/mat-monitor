@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-03T10:21:54.789832",
+    "generated_at": "2026-07-04T09:55:15.671939",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 121,
@@ -11,22 +11,23 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: artificial intelligence & ikea - world",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & reporting - tech",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
-        "signal_003",
-        "signal_004"
+        "signal_001",
+        "signal_000",
+        "signal_003"
       ],
       "story_count": 53,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "IKEA"
-        ],
+        "brands": [],
         "technologies": [
-          "artificial intelligence",
-          "AI"
+          "AI",
+          "reporting",
+          "Omnichannel",
+          "LOS",
+          "omnichannel"
         ],
         "themes": []
       },
@@ -35,28 +36,22 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & reporting - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: ai - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_000"
+        "signal_005",
+        "signal_004"
       ],
-      "story_count": 39,
+      "story_count": 21,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "article"
-        ],
+        "brands": [],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "reporting",
-          "Omnichannel",
-          "LOS"
+          "AI"
         ],
         "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -66,61 +61,58 @@
       "signals": [
         {
           "id": "signal_006",
-          "name": "Chase & omnichannel - Marketing",
-          "story_count": 18,
+          "name": "Chase & IKEA - Brand",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 18,
+      "story_count": 22,
       "key_themes": [
-        "authenticity",
         "brand story"
       ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_006",
-          "name": "Chase & omnichannel - Marketing",
-          "story_count": 18,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 18,
-      "key_themes": [
-        "authenticity",
-        "brand story"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
+          "id": "signal_002",
+          "name": "artificial intelligence & Anomaly - Campaign",
+          "story_count": 25,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_006",
-          "name": "Chase & omnichannel - Marketing",
-          "story_count": 18,
+          "name": "Chase & IKEA - Brand",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 18,
+      "story_count": 47,
       "key_themes": [
         "authenticity",
-        "brand story"
+        "brand story",
+        "mental health"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Control Banking New",
-          "story_count": 11,
+          "id": "signal_002",
+          "name": "artificial intelligence & Anomaly - Campaign",
+          "story_count": 25,
           "momentum": "stable"
         }
       ],
-      "story_count": 11,
+      "story_count": 25,
       "key_themes": [
+        "authenticity",
         "mental health"
       ]
     },
@@ -128,47 +120,38 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "artificial intelligence & IKEA - World",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & reporting - Ai Ai",
-          "story_count": 29,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "Chase & omnichannel - Marketing",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "VCCP & Droga5 - Campaign",
-          "story_count": 12,
+          "name": "AI & reporting - Tech",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "artificial intelligence & AI - Like",
-          "story_count": 10,
+          "name": "omnichannel & AI - Post",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Media",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI - World",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Anomaly & AI - New",
+          "name": "AI - Creative",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 110,
-      "key_themes": [
-        "authenticity",
-        "brand story"
-      ]
+      "story_count": 74,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -194,20 +177,16 @@
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 31
+        "mentions": 29
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "name": "reporting",
@@ -223,18 +202,6 @@
       },
       {
         "name": "LOS",
-        "mentions": 1
-      },
-      {
-        "name": "Artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "SaaS",
-        "mentions": 1
-      },
-      {
-        "name": "Salesforce",
         "mentions": 1
       }
     ],
@@ -268,12 +235,12 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 18,
+      "story_count": 22,
       "top_signals": [
-        "Chase & omnichannel - Marketing"
+        "Chase & IKEA - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on chase & omnichannel - marketing with mixed momentum"
+      "key_insight": "Primary focus on chase & ikea - brand with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -284,21 +251,22 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 11,
+      "story_count": 25,
       "top_signals": [
-        "Control Banking New"
+        "artificial intelligence & Anomaly - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on control banking new"
+      "key_insight": "Cultural emphasis on artificial intelligence & anomaly - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 18,
+      "signal_count": 2,
+      "story_count": 47,
       "top_signals": [
-        "Chase & omnichannel - Marketing"
+        "artificial intelligence & Anomaly - Campaign",
+        "Chase & IKEA - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: chase & omnichannel - marketing"
+      "key_insight": "Storytelling direction: artificial intelligence & anomaly - campaign"
     }
   },
   "emerging_patterns": [
@@ -308,25 +276,25 @@
       "technologies": [
         "AI",
         "reporting",
-        "artificial intelligence",
         "Omnichannel",
-        "LOS"
+        "LOS",
+        "omnichannel"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & IKEA - World",
-    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - world.",
+    "headline": "Focus on artificial intelligence & Anomaly - Campaign",
+    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & anomaly - campaign.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "artificial intelligence & IKEA - World",
-      "AI & reporting - Ai Ai",
-      "Chase & omnichannel - Marketing"
+      "artificial intelligence & Anomaly - Campaign",
+      "AI & reporting - Tech",
+      "Chase & IKEA - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
