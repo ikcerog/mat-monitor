@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-08T10:01:03.943471",
+    "generated_at": "2026-07-09T10:46:24.325639",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 102,
+      "total_stories": 111,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,25 +11,35 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward ai & droga5 - week",
-      "theme": "Workplace & Culture",
+      "narrative": "Technology adoption wave: ai & state farm - ad",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_002"
+        "signal_003",
+        "signal_004",
+        "signal_002",
+        "signal_000"
       ],
-      "story_count": 46,
+      "story_count": 92,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "State Farm",
           "IKEA",
-          "State Farm"
+          "Experian",
+          "U.S. Bank",
+          "Liberty Mutual"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "ai",
+          "LOS",
+          "Artificial intelligence",
+          "artificial intelligence"
         ],
         "themes": [
-          "Equity",
-          "mental health"
+          "mental health",
+          "equity",
+          "Equity"
         ]
       },
       "time_depth": "sustained",
@@ -37,44 +47,18 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & insights - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: insights - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_003"
+        "signal_005",
+        "signal_001"
       ],
-      "story_count": 34,
+      "story_count": 19,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "AI",
           "insights",
-          "LOS",
-          "SaaS",
-          "artificial intelligence"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: experian & ai - bank",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_005",
-        "signal_004"
-      ],
-      "story_count": 22,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian",
-          "U.S. Bank"
-        ],
-        "technologies": [
           "AI"
         ],
         "themes": []
@@ -100,15 +84,16 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 21,
+          "id": "signal_002",
+          "name": "AI & insights - Use",
+          "story_count": 23,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 23,
       "key_themes": [
         "authentic",
+        "authenticity",
         "storytelling"
       ]
     },
@@ -116,21 +101,22 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & Droga5 - Week",
-          "story_count": 29,
+          "id": "signal_003",
+          "name": "AI & State Farm - Ad",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & State Farm - New",
-          "story_count": 17,
+          "id": "signal_000",
+          "name": "AI & Anomaly - Agency",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 46,
+      "story_count": 42,
       "key_themes": [
         "Equity",
+        "equity",
         "mental health"
       ]
     },
@@ -138,34 +124,49 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Experian & AI - Bank",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "artificial intelligence & AI",
-          "story_count": 13,
+          "name": "AI & State Farm - Ad",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "World Cup World Cup",
+          "name": "Artificial intelligence & artificial intelligence - Marke...",
+          "story_count": 27,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & insights - Use",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "insights - World",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & Anomaly - Agency",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI - Financial",
           "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 56,
+      "story_count": 111,
       "key_themes": [
+        "Equity",
         "authentic",
-        "storytelling"
+        "authenticity",
+        "equity",
+        "mental health"
       ]
     }
   },
@@ -194,6 +195,10 @@
         "mentions": 1
       },
       {
+        "name": "Liberty Mutual",
+        "mentions": 1
+      },
+      {
         "name": "U.S. Bank",
         "mentions": 1
       }
@@ -201,22 +206,22 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 29
       },
       {
-        "name": "artificial intelligence",
-        "mentions": 3
+        "name": "insights",
+        "mentions": 2
       },
       {
         "name": "Artificial intelligence",
         "mentions": 1
       },
       {
-        "name": "insights",
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
-        "name": "reporting",
+        "name": "ai",
         "mentions": 1
       },
       {
@@ -226,23 +231,27 @@
       {
         "name": "SaaS",
         "mentions": 1
+      },
+      {
+        "name": "personalization",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Cultural Movement",
-        "mentions": 1
-      },
-      {
-        "name": "Former Fitzco",
-        "mentions": 1
-      },
-      {
-        "name": "An Xbox",
+        "name": "Former Nike",
         "mentions": 1
       }
     ],
     "cultural_movements": [
+      {
+        "theme": "equity",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -259,6 +268,10 @@
       },
       {
         "approach": "storytelling",
+        "frequency": 1
+      },
+      {
+        "approach": "authenticity",
         "frequency": 1
       }
     ]
@@ -280,37 +293,51 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 46,
+      "story_count": 42,
       "top_signals": [
-        "AI & Droga5 - Week",
-        "AI & State Farm - New"
+        "AI & State Farm - Ad",
+        "AI & Anomaly - Agency"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & droga5 - week"
+      "key_insight": "Cultural emphasis on ai & state farm - ad"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 21,
+      "story_count": 23,
       "top_signals": [
-        "AI & insights - Ai Ai"
+        "AI & insights - Use"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & insights - ai ai"
+      "key_insight": "Storytelling direction: ai & insights - use"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "ai",
+        "LOS",
+        "Artificial intelligence",
+        "artificial intelligence"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Droga5 - Week",
-    "executive_summary": "Analysis of 102 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & droga5 - week.",
+    "headline": "Focus on AI & State Farm - Ad",
+    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & state farm - ad.",
     "key_shifts": [],
     "dominant_themes": [
-      "Equity",
-      "mental health"
+      "mental health",
+      "equity"
     ],
     "attention_areas": [
-      "AI & Droga5 - Week",
-      "AI & insights - Ai Ai",
-      "AI & State Farm - New"
+      "AI & State Farm - Ad",
+      "Artificial intelligence & artificial intelligence - Marke...",
+      "AI & insights - Use"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -318,7 +345,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 102 stories across 6 themes",
+    "High coverage intensity with 111 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
