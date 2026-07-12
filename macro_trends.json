@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T09:11:38.251064",
+    "generated_at": "2026-07-12T09:30:45.917513",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 111,
@@ -11,28 +11,31 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: personalization & insights - bank",
+      "narrative": "Technology adoption wave: artificial intelligence & ai - week",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_001"
+        "signal_001",
+        "signal_003",
+        "signal_005"
       ],
-      "story_count": 60,
+      "story_count": 86,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Liberty Mutual",
-          "Article"
+          "IKEA",
+          "Experian",
+          "Liberty Mutual"
         ],
         "technologies": [
-          "personalization",
-          "insights",
           "AI",
-          "ai",
-          "LOS"
+          "artificial intelligence",
+          "Artificial intelligence",
+          "SaaS",
+          "personalization"
         ],
         "themes": [
-          "equity"
+          "remote work",
+          "hybrid work"
         ]
       },
       "time_depth": "sustained",
@@ -40,20 +43,24 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ai - ads",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward insights - does",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_005",
-        "signal_004"
+        "signal_000",
+        "signal_002"
       ],
-      "story_count": 22,
+      "story_count": 20,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
+          "insights",
           "AI"
         ],
-        "themes": []
+        "themes": [
+          "equity",
+          "mental health"
+        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -70,14 +77,16 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Marketing",
-          "story_count": 16,
+          "id": "signal_001",
+          "name": "artificial intelligence & AI - Week",
+          "story_count": 33,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
-      "key_themes": []
+      "story_count": 33,
+      "key_themes": [
+        "remote work"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -89,61 +98,70 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "artificial intelligence & AI - Week",
+          "story_count": 33,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "IKEA & Experian - Advertising",
+          "story_count": 31,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "personalization & insights - Bank",
-          "story_count": 38,
+          "name": "insights - Does",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
           "name": "AI & Anomaly - Campaign",
-          "story_count": 13,
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 84,
       "key_themes": [
         "equity",
-        "mental health"
+        "hybrid work",
+        "mental health",
+        "remote work"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "personalization & insights - Bank",
-          "story_count": 38,
+          "id": "signal_001",
+          "name": "artificial intelligence & AI - Week",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
+          "id": "signal_003",
+          "name": "IKEA & Experian - Advertising",
+          "story_count": 31,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
           "name": "AI & ai - Ai Ai",
           "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "AI - Ads",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Marketing",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_004",
-          "name": "World Cup World Cup",
-          "story_count": 6,
+          "name": "World World Cup Cup",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 98,
+      "story_count": 91,
       "key_themes": [
-        "equity"
+        "hybrid work",
+        "remote work"
       ]
     }
   },
@@ -170,16 +188,12 @@
       {
         "name": "Liberty Mutual",
         "mentions": 1
-      },
-      {
-        "name": "Article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
@@ -206,11 +220,15 @@
         "mentions": 1
       },
       {
-        "name": "chatbot",
+        "name": "insights",
         "mentions": 1
       },
       {
-        "name": "insights",
+        "name": "pos",
+        "mentions": 1
+      },
+      {
+        "name": "SaaS",
         "mentions": 1
       }
     ],
@@ -232,6 +250,14 @@
       {
         "theme": "equity",
         "frequency": 1
+      },
+      {
+        "theme": "hybrid work",
+        "frequency": 1
+      },
+      {
+        "theme": "remote work",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": []
@@ -245,21 +271,24 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 51,
+      "signal_count": 1,
+      "story_count": 33,
       "top_signals": [
-        "personalization & insights - Bank",
-        "AI & Anomaly - Campaign"
+        "artificial intelligence & AI - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on personalization & insights - bank"
+      "key_insight": "Market narrative centered on artificial intelligence & ai - week"
+    },
+    "enterprise_culture": {
+      "signal_count": 4,
+      "story_count": 84,
+      "top_signals": [
+        "artificial intelligence & AI - Week",
+        "IKEA & Experian - Advertising",
+        "insights - Does"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on artificial intelligence & ai - week"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -275,27 +304,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "personalization",
-        "insights",
-        "ai",
-        "LOS"
+        "artificial intelligence",
+        "Artificial intelligence",
+        "SaaS",
+        "personalization"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on personalization & insights - Bank",
-    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & insights - bank.",
+    "headline": "Focus on artificial intelligence & AI - Week",
+    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - week.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "mental health"
+      "remote work",
+      "hybrid work"
     ],
     "attention_areas": [
-      "personalization & insights - Bank",
-      "AI & ai - Ai Ai",
-      "AI - Ads"
+      "artificial intelligence & AI - Week",
+      "IKEA & Experian - Advertising",
+      "AI & ai - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -306,6 +335,7 @@
     "High coverage intensity with 111 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
+    "Technology-heavy coverage (10 technologies tracked)",
     "Strong cultural/workplace narrative emerging"
   ]
 }
