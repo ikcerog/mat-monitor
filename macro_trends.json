@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-13T10:45:02.391351",
+    "generated_at": "2026-07-14T09:31:04.840930",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 110,
+      "total_stories": 111,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,38 +11,11 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: anomaly & artificial intelligence - media",
+      "narrative": "Technology adoption wave: ai & chatbot - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
         "signal_003",
-        "signal_004"
-      ],
-      "story_count": 68,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA"
-        ],
-        "technologies": [
-          "artificial intelligence",
-          "AI",
-          "LOS",
-          "UX",
-          "chatbot"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Cultural shift toward droga5 & ai - ad",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_001",
-        "signal_005"
+        "signal_001"
       ],
       "story_count": 30,
       "momentum": "mixed",
@@ -50,11 +23,13 @@
         "brands": [],
         "technologies": [
           "AI",
-          "personalization"
+          "chatbot",
+          "LOS",
+          "machine learning",
+          "UX"
         ],
         "themes": [
-          "mental health",
-          "equity"
+          "mental health"
         ]
       },
       "time_depth": "sustained",
@@ -70,68 +45,96 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "AI & insights - Marketing",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Anomaly - Agency",
+          "story_count": 11,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 29,
+      "key_themes": [
+        "remote work"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "artificial intelligence - Brand",
+          "story_count": 41,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 41,
+      "key_themes": [
+        "case study"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Droga5 & AI - Ad",
-          "story_count": 20,
+          "id": "signal_000",
+          "name": "AI & insights - Marketing",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "personalization - Bank",
+          "id": "signal_002",
+          "name": "AI & U.S. Bank - Bank",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Mother & chatbot - Campaign",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 39,
       "key_themes": [
         "equity",
-        "mental health"
+        "mental health",
+        "remote work"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Anomaly & artificial intelligence - Media",
-          "story_count": 35,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 23,
+          "name": "AI & chatbot - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Experian & AI - Advertising",
-          "story_count": 12,
+          "name": "AI & insights - Marketing",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "chatbot & pos - Think",
+          "id": "signal_001",
+          "name": "Mother & chatbot - Campaign",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 80,
-      "key_themes": []
+      "story_count": 48,
+      "key_themes": [
+        "mental health",
+        "remote work"
+      ]
     }
   },
   "momentum_analysis": {
@@ -153,19 +156,27 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "U.S. Bank",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 25
       },
       {
         "name": "chatbot",
+        "mentions": 2
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -173,15 +184,15 @@
         "mentions": 1
       },
       {
+        "name": "machine learning",
+        "mentions": 1
+      },
+      {
         "name": "UX",
         "mentions": 1
       },
       {
-        "name": "personalization",
-        "mentions": 1
-      },
-      {
-        "name": "pos",
+        "name": "SaaS",
         "mentions": 1
       }
     ],
@@ -193,10 +204,6 @@
       {
         "name": "Executive Vice",
         "mentions": 1
-      },
-      {
-        "name": "Former Media",
-        "mentions": 1
       }
     ],
     "cultural_movements": [
@@ -207,9 +214,18 @@
       {
         "theme": "equity",
         "frequency": 1
+      },
+      {
+        "theme": "remote work",
+        "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "case study",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -220,28 +236,33 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 30,
+      "signal_count": 1,
+      "story_count": 11,
       "top_signals": [
-        "Droga5 & AI - Ad",
-        "personalization - Bank"
+        "Anomaly - Agency"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 & ai - ad"
+      "key_insight": "Market narrative centered on anomaly - agency"
+    },
+    "enterprise_culture": {
+      "signal_count": 3,
+      "story_count": 39,
+      "top_signals": [
+        "AI & insights - Marketing",
+        "AI & U.S. Bank - Bank",
+        "Mother & chatbot - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & insights - marketing"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 41,
+      "top_signals": [
+        "artificial intelligence - Brand"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: artificial intelligence - brand"
     }
   },
   "emerging_patterns": [
@@ -249,28 +270,28 @@
       "pattern_type": "technology_wave",
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
-        "artificial intelligence",
         "AI",
+        "chatbot",
         "LOS",
-        "UX",
-        "chatbot"
+        "machine learning",
+        "UX"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & artificial intelligence - Media",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & artificial intelligence - media.",
+    "headline": "Focus on artificial intelligence - Brand",
+    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence - brand.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
+      "remote work",
       "equity"
     ],
     "attention_areas": [
-      "Anomaly & artificial intelligence - Media",
-      "AI & LOS - Ai Ai",
-      "Droga5 & AI - Ad"
+      "artificial intelligence - Brand",
+      "AI & chatbot - Ai Ai",
+      "AI & insights - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -278,7 +299,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
+    "High coverage intensity with 111 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
