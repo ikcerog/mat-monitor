@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T09:44:24.890225",
+    "generated_at": "2026-07-16T09:50:13.686636",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 111,
+      "total_stories": 110,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,48 +11,34 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & chatbot - meta",
+      "narrative": "Technology adoption wave: ai & ikea - year",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_001",
-        "signal_005"
+        "signal_003"
       ],
-      "story_count": 53,
+      "story_count": 70,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
+          "Experian",
+          "Bank of America",
           "U.S. Bank",
-          "JPMorgan Chase",
-          "IKEA"
+          "Wells Fargo"
         ],
         "technologies": [
           "AI",
-          "artificial intelligence",
           "chatbot",
-          "LOS",
-          "machine learning"
+          "personalization",
+          "artificial intelligence",
+          "insights"
         ],
-        "themes": []
+        "themes": [
+          "equity"
+        ]
       },
       "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: review bank clients",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_004",
-        "signal_000"
-      ],
-      "story_count": 22,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [],
-        "themes": []
-      },
-      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -61,35 +47,31 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & chatbot - Meta",
-          "story_count": 29,
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Use",
+          "story_count": 30,
           "momentum": "stable"
         }
       ],
-      "story_count": 29,
+      "story_count": 30,
       "key_themes": [
-        "brand voice"
+        "brand voice",
+        "equity"
       ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "artificial intelligence & IKEA - World",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & insights - Marketing",
-          "story_count": 16,
+          "id": "signal_004",
+          "name": "insights & reporting - Marketing",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 12,
       "key_themes": [
+        "authenticity",
         "remote work"
       ]
     },
@@ -97,21 +79,31 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & chatbot - Meta",
-          "story_count": 29,
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Use",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Experience Brand Time",
-          "story_count": 7,
+          "id": "signal_004",
+          "name": "insights & reporting - Marketing",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI - Publicis",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 36,
+      "story_count": 52,
       "key_themes": [
-        "brand voice"
+        "authenticity",
+        "brand voice",
+        "empathy",
+        "equity",
+        "remote work"
       ]
     },
     "workplace_culture": {
@@ -119,19 +111,28 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 20,
+          "name": "AI & artificial intelligence - Use",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & insights - Marketing",
-          "story_count": 16,
+          "id": "signal_004",
+          "name": "insights & reporting - Marketing",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 36,
+      "story_count": 53,
       "key_themes": [
+        "authenticity",
+        "brand voice",
+        "equity",
         "mental health",
         "remote work"
       ]
@@ -141,32 +142,34 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & chatbot - Meta",
-          "story_count": 29,
+          "name": "AI & IKEA - Year",
+          "story_count": 40,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "artificial intelligence & IKEA - World",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & insights - Marketing",
-          "story_count": 16,
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Use",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Review Bank Clients",
-          "story_count": 15,
+          "name": "insights & reporting - Marketing",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Ogilvy & Ikea - World",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 84,
+      "story_count": 89,
       "key_themes": [
+        "authenticity",
         "brand voice",
+        "equity",
         "remote work"
       ]
     }
@@ -196,17 +199,25 @@
         "mentions": 1
       },
       {
-        "name": "JPMorgan Chase",
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "Ikea",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 31
+        "mentions": 27
       },
       {
-        "name": "chatbot",
+        "name": "insights",
         "mentions": 3
       },
       {
@@ -214,23 +225,15 @@
         "mentions": 3
       },
       {
-        "name": "insights",
-        "mentions": 2
-      },
-      {
-        "name": "Insights",
-        "mentions": 1
+        "name": "chatbot",
+        "mentions": 3
       },
       {
         "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "machine learning",
-        "mentions": 1
-      },
-      {
-        "name": "UX",
+        "name": "personalization",
         "mentions": 1
       },
       {
@@ -244,17 +247,17 @@
     ],
     "influential_voices": [
       {
-        "name": "Cultural Takeover",
-        "mentions": 1
-      },
-      {
-        "name": "Executive Vice",
+        "name": "The Publicis",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
         "theme": "mental health",
+        "frequency": 1
+      },
+      {
+        "theme": "equity",
         "frequency": 1
       },
       {
@@ -266,46 +269,55 @@
       {
         "approach": "brand voice",
         "frequency": 1
+      },
+      {
+        "approach": "authenticity",
+        "frequency": 1
+      },
+      {
+        "approach": "empathy",
+        "frequency": 1
       }
     ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 29,
+      "story_count": 30,
       "top_signals": [
-        "AI & chatbot - Meta"
+        "AI & artificial intelligence - Use"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & chatbot - meta with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - use with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 24,
-      "top_signals": [
-        "artificial intelligence & IKEA - World"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on artificial intelligence & ikea - world"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 36,
+      "signal_count": 3,
+      "story_count": 53,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign",
-        "AI & insights - Marketing"
+        "AI & artificial intelligence - Use",
+        "insights & reporting - Marketing",
+        "Anomaly & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - use"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 29,
+      "signal_count": 3,
+      "story_count": 52,
       "top_signals": [
-        "AI & chatbot - Meta"
+        "AI & artificial intelligence - Use",
+        "insights & reporting - Marketing",
+        "AI - Publicis"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & chatbot - meta"
+      "key_insight": "Storytelling direction: ai & artificial intelligence - use"
     }
   },
   "emerging_patterns": [
@@ -314,27 +326,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "insights",
-        "artificial intelligence",
         "chatbot",
-        "LOS"
+        "insights",
+        "personalization",
+        "artificial intelligence"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & chatbot - Meta",
-    "executive_summary": "Analysis of 111 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & chatbot - meta.",
+    "headline": "Focus on AI & IKEA - Year",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - year.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
+      "equity",
       "remote work"
     ],
     "attention_areas": [
-      "AI & chatbot - Meta",
-      "artificial intelligence & IKEA - World",
-      "Anomaly & Droga5 - Campaign"
+      "AI & IKEA - Year",
+      "AI & artificial intelligence - Use",
+      "insights & reporting - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -342,10 +354,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 111 stories across 6 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Technology-heavy coverage (10 technologies tracked)",
     "Strong cultural/workplace narrative emerging"
   ]
 }
