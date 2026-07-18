@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-17T09:31:16.026203",
+    "generated_at": "2026-07-18T09:12:29.874123",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 120,
@@ -11,32 +11,29 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: artificial intelligence & ai - revenue",
-      "theme": "Technology & Innovation",
+      "narrative": "Cultural shift toward vccp & omnichannel - campaign",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_003",
-        "signal_006",
         "signal_002",
-        "signal_005"
+        "signal_004"
       ],
-      "story_count": 68,
+      "story_count": 48,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
           "Experian",
-          "Wells Fargo"
+          "Truist",
+          "Bank of America",
+          "article"
         ],
         "technologies": [
-          "AI",
-          "insights",
-          "artificial intelligence",
-          "bi",
-          "reporting"
+          "omnichannel",
+          "artificial intelligence"
         ],
         "themes": [
-          "equity",
-          "mental health"
+          "mental health",
+          "DEI",
+          "diversity"
         ]
       },
       "time_depth": "sustained",
@@ -44,21 +41,22 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ogilvy & personalization - world",
+      "narrative": "Industry movement: ikea & ai - week",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
-        "signal_004"
+        "signal_001",
+        "signal_003",
+        "signal_000"
       ],
-      "story_count": 38,
+      "story_count": 45,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "IKEA"
         ],
         "technologies": [
-          "personalization",
-          "chatbot"
+          "AI",
+          "personalization"
         ],
         "themes": []
       },
@@ -72,72 +70,63 @@
       "signals": [
         {
           "id": "signal_005",
-          "name": "Wells Fargo & AI",
-          "story_count": 4,
+          "name": "AI & insights - Insights",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 4,
-      "key_themes": []
+      "story_count": 16,
+      "key_themes": [
+        "equity"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Marketing Brand Tv",
-          "story_count": 14,
+          "id": "signal_006",
+          "name": "Marketing Common Marketers",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 14,
-      "key_themes": [
-        "authenticity"
-      ]
+      "story_count": 11,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_006",
-          "name": "AI & Mother - Publicis",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "Marketing Brand Tv",
-          "story_count": 14,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 34,
-      "key_themes": [
-        "authenticity",
-        "brand voice",
-        "equity"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "AI & Mother - Publicis",
-          "story_count": 20,
+          "id": "signal_002",
+          "name": "VCCP & omnichannel - Campaign",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "omnichannel & Anomaly - Healthcare",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "72andSunny & artificial intelligence - Bank",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & insights - Insights",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 33,
+      "story_count": 64,
       "key_themes": [
-        "brand voice",
+        "DEI",
+        "diversity",
         "equity",
+        "inclusion",
         "mental health"
       ]
     },
@@ -145,47 +134,33 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "artificial intelligence & AI - Revenue",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Ogilvy & personalization - World",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "AI & Mother - Publicis",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Bank of America & chatbot - Year",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "omnichannel & Anomaly - Healthcare",
-          "story_count": 13,
+          "id": "signal_001",
+          "name": "IKEA & AI - Week",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Wells Fargo & AI",
-          "story_count": 4,
+          "name": "AI & insights - Insights",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Ogilvy - World",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "personalization - Ad",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 106,
+      "story_count": 61,
       "key_themes": [
-        "brand voice",
-        "equity",
-        "mental health"
+        "equity"
       ]
     }
   },
@@ -206,45 +181,41 @@
         "mentions": 2
       },
       {
-        "name": "Bank of America",
-        "mentions": 2
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Truist",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
+        "mentions": 17
       },
       {
         "name": "insights",
         "mentions": 3
       },
       {
-        "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "chatbot",
-        "mentions": 2
-      },
-      {
         "name": "omnichannel",
         "mentions": 1
       },
       {
-        "name": "bi",
-        "mentions": 1
-      },
-      {
-        "name": "reporting",
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -258,48 +229,50 @@
       {
         "name": "personalization",
         "mentions": 1
-      }
-    ],
-    "influential_voices": [
+      },
       {
-        "name": "The Publicis",
+        "name": "chatbot",
         "mentions": 1
       },
       {
-        "name": "Executive Vice",
+        "name": "SaaS",
         "mentions": 1
       }
     ],
+    "influential_voices": [],
     "cultural_movements": [
+      {
+        "theme": "equity",
+        "frequency": 2
+      },
       {
         "theme": "mental health",
         "frequency": 1
       },
       {
-        "theme": "equity",
-        "frequency": 1
-      }
-    ],
-    "storytelling_approaches": [
-      {
-        "approach": "brand voice",
+        "theme": "DEI",
         "frequency": 1
       },
       {
-        "approach": "authenticity",
+        "theme": "diversity",
+        "frequency": 1
+      },
+      {
+        "theme": "inclusion",
         "frequency": 1
       }
-    ]
+    ],
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 4,
+      "story_count": 16,
       "top_signals": [
-        "Wells Fargo & AI"
+        "AI & insights - Insights"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wells fargo & ai with mixed momentum"
+      "key_insight": "Primary focus on ai & insights - insights with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -309,53 +282,37 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 33,
+      "signal_count": 3,
+      "story_count": 64,
       "top_signals": [
-        "AI & Mother - Publicis",
-        "omnichannel & Anomaly - Healthcare"
+        "VCCP & omnichannel - Campaign",
+        "72andSunny & artificial intelligence - Bank",
+        "AI & insights - Insights"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & mother - publicis"
+      "key_insight": "Cultural emphasis on vccp & omnichannel - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 2,
-      "story_count": 34,
-      "top_signals": [
-        "AI & Mother - Publicis",
-        "Marketing Brand Tv"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & mother - publicis"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "insights",
-        "artificial intelligence",
-        "bi",
-        "reporting"
-      ],
-      "signal_count": 4,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & AI - Revenue",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - revenue.",
+    "headline": "Focus on VCCP & omnichannel - Campaign",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on vccp & omnichannel - campaign.",
     "key_shifts": [],
     "dominant_themes": [
       "equity",
       "mental health"
     ],
     "attention_areas": [
-      "artificial intelligence & AI - Revenue",
-      "Ogilvy & personalization - World",
-      "AI & Mother - Publicis"
+      "VCCP & omnichannel - Campaign",
+      "72andSunny & artificial intelligence - Bank",
+      "IKEA & AI - Week"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -365,7 +322,6 @@
   "macro_observations": [
     "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Technology-heavy coverage (10 technologies tracked)"
+    "Strong cultural/workplace narrative emerging"
   ]
 }
