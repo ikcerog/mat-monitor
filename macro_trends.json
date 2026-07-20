@@ -1,65 +1,69 @@
 {
   "meta": {
-    "generated_at": "2026-07-19T09:31:36.285404",
+    "generated_at": "2026-07-20T10:34:48.665418",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 110,
-      "total_signals": 6,
+      "total_stories": 120,
+      "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: vccp & omnichannel - brand",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: 72andsunny & droga5 - brand",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_006",
         "signal_001",
-        "signal_003"
+        "signal_005",
+        "signal_000"
       ],
-      "story_count": 67,
+      "story_count": 62,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian",
           "Truist",
-          "Wells Fargo"
+          "Bank of America",
+          "IKEA"
         ],
         "technologies": [
-          "insights",
-          "omnichannel",
-          "artificial intelligence",
-          "personalization",
           "AI"
         ],
-        "themes": [
-          "mental health",
-          "equity"
-        ]
+        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: ogilvy - world",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & insights - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
+        "signal_002",
         "signal_004",
-        "signal_005"
+        "signal_003"
       ],
-      "story_count": 26,
+      "story_count": 58,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "Wells Fargo",
+          "Experian"
         ],
-        "technologies": [],
-        "themes": []
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "insights",
+          "LOS",
+          "machine learning"
+        ],
+        "themes": [
+          "equity",
+          "mental health"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -68,52 +72,35 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & insights - Insights",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "AI & insights - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
+      "story_count": 20,
       "key_themes": [
         "equity"
       ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "VCCP & omnichannel - Brand",
-          "story_count": 52,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "72andSunny - Marketing",
-          "story_count": 17,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 69,
-      "key_themes": [
-        "mental health",
-        "messaging"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "VCCP & omnichannel - Brand",
-          "story_count": 52,
+          "id": "signal_004",
+          "name": "artificial intelligence & personalization - Ad",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 52,
+      "story_count": 19,
       "key_themes": [
-        "mental health",
         "messaging"
       ]
     },
@@ -121,60 +108,71 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "VCCP & omnichannel - Brand",
-          "story_count": 52,
+          "id": "signal_002",
+          "name": "AI & insights - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & insights - Insights",
-          "story_count": 15,
+          "name": "AI & omnichannel - Real",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 67,
+      "story_count": 39,
       "key_themes": [
         "equity",
-        "mental health",
-        "messaging"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "VCCP & omnichannel - Brand",
-          "story_count": 52,
+          "id": "signal_006",
+          "name": "72andSunny & Droga5 - Brand",
+          "story_count": 32,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Ogilvy - World",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & insights - Insights",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "AI & insights - Ai Ai",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Bank Banking Branches",
-          "story_count": 6,
+          "name": "artificial intelligence & personalization - Ad",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI & omnichannel - Real",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "VCCP & AI - Week",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Bank of America - Fed",
-          "story_count": 5,
+          "name": "Ogilvy - World",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "IKEA - Agencies",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 93,
+      "story_count": 120,
       "key_themes": [
         "equity",
         "mental health",
@@ -186,7 +184,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 7,
       "declining": 0
     },
     "hot_topics": [],
@@ -218,22 +216,26 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 15
+        "mentions": 23
       },
       {
         "name": "insights",
-        "mentions": 4
+        "mentions": 3
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 2
       },
       {
         "name": "omnichannel",
         "mentions": 1
       },
       {
-        "name": "artificial intelligence",
+        "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "LOS",
+        "name": "machine learning",
         "mentions": 1
       },
       {
@@ -266,55 +268,67 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 15,
+      "story_count": 20,
       "top_signals": [
-        "AI & insights - Insights"
+        "AI & insights - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & insights - insights with mixed momentum"
+      "key_insight": "Primary focus on ai & insights - ai ai with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 52,
-      "top_signals": [
-        "VCCP & omnichannel - Brand"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on vccp & omnichannel - brand"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 67,
+      "story_count": 39,
       "top_signals": [
-        "VCCP & omnichannel - Brand",
-        "AI & insights - Insights"
+        "AI & insights - Ai Ai",
+        "AI & omnichannel - Real"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on vccp & omnichannel - brand"
+      "key_insight": "Cultural emphasis on ai & insights - ai ai"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 52,
+      "story_count": 19,
       "top_signals": [
-        "VCCP & omnichannel - Brand"
+        "artificial intelligence & personalization - Ad"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: vccp & omnichannel - brand"
+      "key_insight": "Storytelling direction: artificial intelligence & personalization - ad"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "insights",
+        "LOS",
+        "machine learning"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on VCCP & omnichannel - Brand",
-    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & omnichannel - brand.",
+    "headline": "Focus on 72andSunny & Droga5 - Brand",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on 72andsunny & droga5 - brand.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "equity"
+      "equity",
+      "mental health"
     ],
     "attention_areas": [
-      "VCCP & omnichannel - Brand",
-      "72andSunny - Marketing",
-      "Ogilvy - World"
+      "72andSunny & Droga5 - Brand",
+      "AI & insights - Ai Ai",
+      "artificial intelligence & personalization - Ad"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -322,9 +336,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 110 stories across 6 themes",
+    "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
