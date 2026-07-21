@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T10:34:48.665418",
+    "generated_at": "2026-07-21T10:09:18.382580",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
+      "total_stories": 119,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,59 +11,78 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: 72andsunny & droga5 - brand",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: omnichannel & ai - ad",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_006",
         "signal_001",
-        "signal_005",
-        "signal_000"
+        "signal_002",
+        "signal_005"
       ],
-      "story_count": 62,
+      "story_count": 80,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Experian",
           "Truist",
           "Bank of America",
-          "IKEA"
+          "JPMorgan Chase",
+          "Wells Fargo"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "omnichannel",
+          "artificial intelligence",
+          "personalization",
+          "ai"
         ],
-        "themes": []
+        "themes": [
+          "equity"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & insights - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_002",
-        "signal_004",
+        "signal_000",
         "signal_003"
       ],
-      "story_count": 58,
+      "story_count": 20,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [],
+        "themes": [
+          "mental health",
+          "Diversity"
+        ]
+      },
+      "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Industry movement: ikea & pos - agencies",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_004",
+        "signal_006"
+      ],
+      "story_count": 19,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Wells Fargo",
-          "Experian"
+          "IKEA"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence",
-          "insights",
-          "LOS",
-          "machine learning"
+          "pos"
         ],
-        "themes": [
-          "equity",
-          "mental health"
-        ]
+        "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -72,16 +91,14 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 20,
+          "id": "signal_005",
+          "name": "AI & Bank of America - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 21,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -91,37 +108,35 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & personalization - Ad",
-          "story_count": 19,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 19,
-      "key_themes": [
-        "messaging"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 20,
+          "id": "signal_001",
+          "name": "omnichannel & AI - Ad",
+          "story_count": 32,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & omnichannel - Real",
-          "story_count": 19,
+          "name": "Hearts Ace Hearts Ace",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 52,
       "key_themes": [
+        "Diversity",
         "equity",
         "mental health"
       ]
@@ -130,53 +145,39 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "72andSunny & Droga5 - Brand",
+          "id": "signal_001",
+          "name": "omnichannel & AI - Ad",
           "story_count": 32,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI & insights - Ai Ai",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & personalization - Ad",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & omnichannel - Real",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "VCCP & AI - Week",
-          "story_count": 13,
+          "name": "artificial intelligence & personalization - Sports",
+          "story_count": 27,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Ogilvy - World",
-          "story_count": 9,
+          "name": "AI & Bank of America - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "IKEA - Agencies",
+          "id": "signal_004",
+          "name": "IKEA & pos - Agencies",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "Ogilvy - World Cup",
           "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 120,
+      "story_count": 99,
       "key_themes": [
-        "equity",
-        "mental health",
-        "messaging"
+        "equity"
       ]
     }
   },
@@ -193,7 +194,11 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Wells Fargo",
+        "name": "Bank of America",
+        "mentions": 2
+      },
+      {
+        "name": "JPMorgan Chase",
         "mentions": 2
       },
       {
@@ -205,29 +210,29 @@
         "mentions": 1
       },
       {
-        "name": "Truist",
+        "name": "Wells Fargo",
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "Truist",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
-      },
-      {
-        "name": "insights",
-        "mentions": 3
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 22
       },
       {
         "name": "omnichannel",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "ai",
         "mentions": 1
       },
       {
@@ -239,16 +244,29 @@
         "mentions": 1
       },
       {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
         "name": "personalization",
         "mentions": 1
       },
       {
-        "name": "chatbot",
+        "name": "pos",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Force One",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
+      {
+        "theme": "Diversity",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -258,22 +276,17 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "messaging",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 20,
+      "story_count": 21,
       "top_signals": [
-        "AI & insights - Ai Ai"
+        "AI & Bank of America - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & insights - ai ai with mixed momentum"
+      "key_insight": "Primary focus on ai & bank of america - ai ai with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -283,23 +296,22 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 39,
+      "signal_count": 3,
+      "story_count": 52,
       "top_signals": [
-        "AI & insights - Ai Ai",
-        "AI & omnichannel - Real"
+        "omnichannel & AI - Ad",
+        "Anomaly & Droga5 - Campaign",
+        "Hearts Ace Hearts Ace"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & insights - ai ai"
+      "key_insight": "Cultural emphasis on omnichannel & ai - ad"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 19,
-      "top_signals": [
-        "artificial intelligence & personalization - Ad"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: artificial intelligence & personalization - ad"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
@@ -308,27 +320,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
+        "omnichannel",
         "artificial intelligence",
-        "insights",
-        "LOS",
-        "machine learning"
+        "personalization",
+        "ai"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on 72andSunny & Droga5 - Brand",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on 72andsunny & droga5 - brand.",
+    "headline": "Focus on omnichannel & AI - Ad",
+    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on omnichannel & ai - ad.",
     "key_shifts": [],
     "dominant_themes": [
       "equity",
       "mental health"
     ],
     "attention_areas": [
-      "72andSunny & Droga5 - Brand",
-      "AI & insights - Ai Ai",
-      "artificial intelligence & personalization - Ad"
+      "omnichannel & AI - Ad",
+      "artificial intelligence & personalization - Sports",
+      "AI & Bank of America - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -336,8 +348,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 119 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Strong cultural/workplace narrative emerging"
   ]
 }
