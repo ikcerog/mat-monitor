@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T10:09:18.382580",
+    "generated_at": "2026-07-22T10:08:35.076801",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 119,
@@ -11,31 +11,26 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: omnichannel & ai - ad",
-      "theme": "Technology & Innovation",
+      "narrative": "Cultural shift toward ikea & experian - new",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
         "signal_001",
-        "signal_002",
-        "signal_005"
+        "signal_002"
       ],
-      "story_count": 80,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
           "Experian",
-          "Truist",
-          "Bank of America",
-          "JPMorgan Chase",
-          "Wells Fargo"
+          "Liberty Mutual"
         ],
         "technologies": [
-          "AI",
-          "omnichannel",
-          "artificial intelligence",
-          "personalization",
-          "ai"
+          "insights",
+          "pos"
         ],
         "themes": [
+          "mental health",
           "equity"
         ]
       },
@@ -44,41 +39,24 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_000",
-        "signal_003"
-      ],
-      "story_count": 20,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [],
-        "themes": [
-          "mental health",
-          "Diversity"
-        ]
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: ikea & pos - agencies",
+      "narrative": "Industry movement: bank of america & ai - senate",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
-        "signal_006"
+        "signal_000",
+        "signal_006",
+        "signal_003"
       ],
-      "story_count": 19,
+      "story_count": 37,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "Bank of America",
+          "TD Bank",
+          "article"
         ],
         "technologies": [
-          "pos"
+          "AI",
+          "visualization"
         ],
         "themes": []
       },
@@ -93,11 +71,11 @@
         {
           "id": "signal_005",
           "name": "AI & Bank of America - Ai Ai",
-          "story_count": 21,
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 22,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -108,35 +86,37 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "artificial intelligence - Ad",
+          "story_count": 20,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 20,
+      "key_themes": [
+        "messaging"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_001",
-          "name": "omnichannel & AI - Ad",
-          "story_count": 32,
+          "name": "IKEA & Experian - New",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Anomaly & Droga5 - Campaign",
+          "id": "signal_002",
+          "name": "Liberty Mutual & Anomaly - Time",
           "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Hearts Ace Hearts Ace",
-          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 52,
+      "story_count": 40,
       "key_themes": [
-        "Diversity",
         "equity",
         "mental health"
       ]
@@ -145,40 +125,32 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "omnichannel & AI - Ad",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "artificial intelligence & personalization - Sports",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_005",
           "name": "AI & Bank of America - Ai Ai",
-          "story_count": 21,
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "IKEA & pos - Agencies",
-          "story_count": 11,
+          "id": "signal_000",
+          "name": "Bank of America & AI - Senate",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_006",
-          "name": "Ogilvy - World Cup",
-          "story_count": 8,
+          "name": "Droga5 & article - Week",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "visualization - Cup",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 99,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 59,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -195,11 +167,15 @@
     "dominant_brands": [
       {
         "name": "Bank of America",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "JPMorgan Chase",
         "mentions": 2
+      },
+      {
+        "name": "Liberty Mutual",
+        "mentions": 1
       },
       {
         "name": "IKEA",
@@ -210,22 +186,18 @@
         "mentions": 1
       },
       {
-        "name": "Wells Fargo",
+        "name": "TD Bank",
         "mentions": 1
       },
       {
-        "name": "Truist",
+        "name": "article",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 22
-      },
-      {
-        "name": "omnichannel",
-        "mentions": 1
+        "mentions": 23
       },
       {
         "name": "artificial intelligence",
@@ -244,29 +216,20 @@
         "mentions": 1
       },
       {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "personalization",
+        "name": "visualization",
         "mentions": 1
       },
       {
         "name": "pos",
         "mentions": 1
-      }
-    ],
-    "influential_voices": [
+      },
       {
-        "name": "Force One",
+        "name": "insights",
         "mentions": 1
       }
     ],
+    "influential_voices": [],
     "cultural_movements": [
-      {
-        "theme": "Diversity",
-        "frequency": 1
-      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -276,12 +239,17 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "messaging",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 21,
+      "story_count": 22,
       "top_signals": [
         "AI & Bank of America - Ai Ai"
       ],
@@ -296,51 +264,38 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 52,
+      "signal_count": 2,
+      "story_count": 40,
       "top_signals": [
-        "omnichannel & AI - Ad",
-        "Anomaly & Droga5 - Campaign",
-        "Hearts Ace Hearts Ace"
+        "IKEA & Experian - New",
+        "Liberty Mutual & Anomaly - Time"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on omnichannel & ai - ad"
+      "key_insight": "Cultural emphasis on ikea & experian - new"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 20,
+      "top_signals": [
+        "artificial intelligence - Ad"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: artificial intelligence - ad"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "omnichannel",
-        "artificial intelligence",
-        "personalization",
-        "ai"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on omnichannel & AI - Ad",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on omnichannel & ai - ad.",
+    "headline": "Focus on IKEA & Experian - New",
+    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ikea & experian - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
-      "mental health"
+      "mental health",
+      "equity"
     ],
     "attention_areas": [
-      "omnichannel & AI - Ad",
-      "artificial intelligence & personalization - Sports",
-      "AI & Bank of America - Ai Ai"
+      "IKEA & Experian - New",
+      "AI & Bank of America - Ai Ai",
+      "artificial intelligence - Ad"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -349,7 +304,6 @@
   },
   "macro_observations": [
     "High coverage intensity with 119 stories across 7 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Strong cultural/workplace narrative emerging"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
