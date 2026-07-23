@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T10:08:35.076801",
+    "generated_at": "2026-07-23T10:07:16.135158",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 119,
+      "total_stories": 120,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,52 +11,25 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward ikea & experian - new",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_001",
-        "signal_002"
-      ],
-      "story_count": 40,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian",
-          "Liberty Mutual"
-        ],
-        "technologies": [
-          "insights",
-          "pos"
-        ],
-        "themes": [
-          "mental health",
-          "equity"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: bank of america & ai - senate",
+      "narrative": "Industry movement: liberty mutual & anomaly - campaign",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_000",
         "signal_006",
-        "signal_003"
+        "signal_002"
       ],
-      "story_count": 37,
+      "story_count": 39,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Liberty Mutual",
+          "article",
+          "chase",
           "Bank of America",
-          "TD Bank",
-          "article"
+          "JPMorgan Chase"
         ],
         "technologies": [
-          "AI",
-          "visualization"
+          "AI"
         ],
         "themes": []
       },
@@ -69,33 +42,47 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & Bank of America - Ai Ai",
-          "story_count": 22,
+          "id": "signal_000",
+          "name": "Liberty Mutual & Anomaly - Campaign",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Bank of America & AI - Bank America",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 22,
+      "story_count": 31,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_005",
+          "name": "Marketing People Job",
+          "story_count": 21,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 21,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "artificial intelligence - Ad",
-          "story_count": 20,
+          "id": "signal_001",
+          "name": "Week Content Week Charts",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
+      "story_count": 10,
       "key_themes": [
+        "brand voice",
         "messaging"
       ]
     },
@@ -103,21 +90,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "IKEA & Experian - New",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Liberty Mutual & Anomaly - Time",
-          "story_count": 16,
+          "id": "signal_003",
+          "name": "artificial intelligence & IKEA - Ad",
+          "story_count": 27,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 27,
       "key_themes": [
-        "equity",
         "mental health"
       ]
     },
@@ -125,31 +105,19 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & Bank of America - Ai Ai",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Bank of America & AI - Senate",
-          "story_count": 18,
+          "id": "signal_004",
+          "name": "AI & ai - Ai Ai",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_006",
-          "name": "Droga5 & article - Week",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "visualization - Cup",
-          "story_count": 6,
+          "name": "London Hearts Ace",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 59,
+      "story_count": 31,
       "key_themes": []
     }
   },
@@ -167,11 +135,7 @@
     "dominant_brands": [
       {
         "name": "Bank of America",
-        "mentions": 3
-      },
-      {
-        "name": "JPMorgan Chase",
-        "mentions": 2
+        "mentions": 4
       },
       {
         "name": "Liberty Mutual",
@@ -186,60 +150,61 @@
         "mentions": 1
       },
       {
-        "name": "TD Bank",
+        "name": "JPMorgan Chase",
         "mentions": 1
       },
       {
         "name": "article",
+        "mentions": 1
+      },
+      {
+        "name": "chase",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
-        "mentions": 1
+        "mentions": 3
       },
       {
         "name": "ai",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "machine learning",
-        "mentions": 1
-      },
-      {
-        "name": "visualization",
-        "mentions": 1
-      },
-      {
-        "name": "pos",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
+        "name": "Artificial intelligence",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Appoints New",
+        "mentions": 1
+      },
+      {
+        "name": "Eastern Bank",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
         "theme": "mental health",
         "frequency": 1
-      },
-      {
-        "theme": "equity",
-        "frequency": 1
       }
     ],
     "storytelling_approaches": [
+      {
+        "approach": "brand voice",
+        "frequency": 1
+      },
       {
         "approach": "messaging",
         "frequency": 1
@@ -248,13 +213,14 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 22,
+      "signal_count": 2,
+      "story_count": 31,
       "top_signals": [
-        "AI & Bank of America - Ai Ai"
+        "Liberty Mutual & Anomaly - Campaign",
+        "Bank of America & AI - Bank America"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & bank of america - ai ai with mixed momentum"
+      "key_insight": "Primary focus on liberty mutual & anomaly - campaign with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -264,38 +230,36 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 40,
+      "signal_count": 1,
+      "story_count": 27,
       "top_signals": [
-        "IKEA & Experian - New",
-        "Liberty Mutual & Anomaly - Time"
+        "artificial intelligence & IKEA - Ad"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ikea & experian - new"
+      "key_insight": "Cultural emphasis on artificial intelligence & ikea - ad"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 20,
+      "story_count": 10,
       "top_signals": [
-        "artificial intelligence - Ad"
+        "Week Content Week Charts"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: artificial intelligence - ad"
+      "key_insight": "Storytelling direction: week content week charts"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & Experian - New",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ikea & experian - new.",
+    "headline": "Focus on artificial intelligence & IKEA - Ad",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - ad.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "equity"
+      "mental health"
     ],
     "attention_areas": [
-      "IKEA & Experian - New",
-      "AI & Bank of America - Ai Ai",
-      "artificial intelligence - Ad"
+      "artificial intelligence & IKEA - Ad",
+      "Liberty Mutual & Anomaly - Campaign",
+      "AI & ai - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -303,7 +267,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 119 stories across 7 themes",
+    "High coverage intensity with 120 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period"
   ]
 }
