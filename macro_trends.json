@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-24T10:01:45.117720",
+    "generated_at": "2026-07-25T09:22:30.770804",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 120,
@@ -11,46 +11,43 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
+      "narrative": "Cultural shift toward ai & ikea - growth",
       "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_002",
-        "signal_001",
-        "signal_003"
+        "signal_003",
+        "signal_005"
       ],
-      "story_count": 54,
+      "story_count": 42,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian"
+          "IKEA"
         ],
         "technologies": [
-          "AI",
-          "artificial intelligence"
+          "AI"
         ],
         "themes": [
-          "mental health",
-          "equity",
-          "purpose-driven"
+          "Mental Health",
+          "purpose-driven",
+          "mental health"
         ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: liberty mutual & ai - brand",
+      "thread_id": "thread_03",
+      "narrative": "Industry movement: ai & bank of america - bank",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_004"
+        "signal_006",
+        "signal_001",
+        "signal_000"
       ],
-      "story_count": 27,
+      "story_count": 40,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Liberty Mutual",
           "Bank of America"
         ],
         "technologies": [
@@ -59,6 +56,33 @@
         "themes": []
       },
       "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - meta",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_002",
+        "signal_004"
+      ],
+      "story_count": 38,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Experian"
+        ],
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "LOS",
+          "pos"
+        ],
+        "themes": [
+          "retention"
+        ]
+      },
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -71,15 +95,8 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "Ad Home Advertising",
-          "story_count": 15,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 15,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
@@ -92,55 +109,71 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 34,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "artificial intelligence & Experian - Company",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "Content Includes Armour",
-          "story_count": 7,
+          "name": "AI & IKEA - Growth",
+          "story_count": 29,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Meta",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 54,
+      "story_count": 63,
       "key_themes": [
-        "equity",
+        "Mental Health",
+        "collaboration",
         "mental health",
-        "purpose-driven"
+        "purpose-driven",
+        "retention"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Liberty Mutual & AI - Brand",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Meta",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Bank of America & AI - Said",
+          "name": "AI & artificial intelligence - World",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "AI & Bank of America - Bank",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Ogilvy - Creative",
           "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI - Week",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
-      "key_themes": []
+      "story_count": 78,
+      "key_themes": [
+        "retention"
+      ]
     }
   },
   "momentum_analysis": {
@@ -156,26 +189,22 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Bank of America",
-        "mentions": 3
-      },
-      {
-        "name": "Liberty Mutual",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "name": "artificial intelligence",
@@ -186,20 +215,11 @@
         "mentions": 1
       },
       {
-        "name": "ai",
+        "name": "pos",
         "mentions": 1
       }
     ],
-    "influential_voices": [
-      {
-        "name": "Optimistic Pitch",
-        "mentions": 1
-      },
-      {
-        "name": "Eastern Bank",
-        "mentions": 1
-      }
-    ],
+    "influential_voices": [],
     "cultural_movements": [
       {
         "theme": "purpose-driven",
@@ -210,7 +230,15 @@
         "frequency": 1
       },
       {
-        "theme": "equity",
+        "theme": "retention",
+        "frequency": 1
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
+        "theme": "Mental Health",
         "frequency": 1
       }
     ],
@@ -233,14 +261,14 @@
     },
     "enterprise_culture": {
       "signal_count": 3,
-      "story_count": 54,
+      "story_count": 63,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign",
-        "artificial intelligence & Experian - Company",
-        "Content Includes Armour"
+        "AI & IKEA - Growth",
+        "AI & artificial intelligence - Meta",
+        "Anomaly & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on ai & ikea - growth"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -252,17 +280,17 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & Droga5 - Campaign",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & droga5 - campaign.",
+    "headline": "Focus on AI & IKEA - Growth",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - growth.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "equity"
+      "Mental Health",
+      "retention"
     ],
     "attention_areas": [
-      "Anomaly & Droga5 - Campaign",
-      "AI & artificial intelligence - Ai Ai",
-      "Liberty Mutual & AI - Brand"
+      "AI & IKEA - Growth",
+      "AI & artificial intelligence - Meta",
+      "AI & artificial intelligence - World"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
