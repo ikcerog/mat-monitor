@@ -1,64 +1,56 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T10:57:28.439323",
+    "generated_at": "2026-07-28T10:16:04.141777",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
-      "total_signals": 7,
+      "total_stories": 110,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai & experian - world",
-      "theme": "Industry Dynamics",
+      "narrative": "Cultural shift toward vccp & mother - new",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_005",
-        "signal_002",
-        "signal_000"
+        "signal_001",
+        "signal_002"
       ],
-      "story_count": 56,
+      "story_count": 50,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Experian",
-          "article",
-          "IKEA"
-        ],
-        "technologies": [
-          "AI",
-          "artificial intelligence"
-        ],
-        "themes": []
+        "brands": [],
+        "technologies": [],
+        "themes": [
+          "inclusion",
+          "mental health"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
-      "theme": "Workplace & Culture",
+      "narrative": "Industry movement: artificial intelligence - brand",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
-        "signal_006",
-        "signal_004"
+        "signal_004",
+        "signal_005",
+        "signal_003"
       ],
       "story_count": 37,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "IKEA",
+          "Experian"
         ],
         "technologies": [
-          "dashboard",
-          "AI"
+          "artificial intelligence",
+          "personalization"
         ],
-        "themes": [
-          "purpose-driven",
-          "equity",
-          "mental health"
-        ]
+        "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -73,74 +65,87 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "customer_experience": {
-      "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "workplace_culture": {
-      "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "dashboard - Creative",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "Bank of America & AI - Alaska",
-          "story_count": 8,
+          "id": "signal_001",
+          "name": "VCCP & Mother - New",
+          "story_count": 37,
           "momentum": "stable"
         }
       ],
       "story_count": 37,
       "key_themes": [
-        "equity",
+        "inclusion"
+      ]
+    },
+    "customer_experience": {
+      "description": "Consumer-facing improvements and storytelling",
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 13,
+      "key_themes": [
         "mental health",
-        "purpose-driven"
+        "storytelling"
+      ]
+    },
+    "workplace_culture": {
+      "description": "Enterprise culture and employee experience",
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "VCCP & Mother - New",
+          "story_count": 37,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 50,
+      "key_themes": [
+        "inclusion",
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & Experian - World",
-          "story_count": 36,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Uk",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI - Budgets",
-          "story_count": 11,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_000",
-          "name": "artificial intelligence & IKEA - Programmatic",
-          "story_count": 9,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "artificial intelligence - Brand",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "IKEA - Ads",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "personalization & Experian - Industry",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 83,
+      "story_count": 60,
       "key_themes": []
     }
   },
@@ -148,7 +153,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -163,54 +168,56 @@
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "Bank of America",
-        "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 23
       },
       {
         "name": "artificial intelligence",
         "mentions": 2
       },
       {
+        "name": "personalization",
+        "mentions": 1
+      },
+      {
         "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "dashboard",
+        "name": "bi",
         "mentions": 1
       },
       {
-        "name": "ai",
+        "name": "Artificial intelligence",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Banco Popular",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
-        "theme": "purpose-driven",
+        "theme": "inclusion",
         "frequency": 1
       },
       {
         "theme": "mental health",
         "frequency": 1
-      },
-      {
-        "theme": "equity",
-        "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -221,44 +228,47 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
-      "signal_count": 3,
+      "signal_count": 1,
       "story_count": 37,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign",
-        "dashboard - Creative",
-        "Bank of America & AI - Alaska"
+        "VCCP & Mother - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Market narrative centered on vccp & mother - new"
+    },
+    "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 50,
+      "top_signals": [
+        "VCCP & Mother - New",
+        "Anomaly & Droga5 - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on vccp & mother - new"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 13,
+      "top_signals": [
+        "Anomaly & Droga5 - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: anomaly & droga5 - campaign"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & Experian - World",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & experian - world.",
+    "headline": "Focus on VCCP & Mother - New",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on vccp & mother - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "purpose-driven",
-      "equity"
+      "inclusion",
+      "mental health"
     ],
     "attention_areas": [
-      "AI & Experian - World",
-      "AI & artificial intelligence - Uk",
-      "Anomaly & Droga5 - Campaign"
+      "VCCP & Mother - New",
+      "AI & artificial intelligence - Ai Ai",
+      "artificial intelligence - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -266,7 +276,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
