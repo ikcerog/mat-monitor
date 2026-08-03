@@ -1,66 +1,60 @@
 {
   "meta": {
-    "generated_at": "2026-08-02T09:45:42.321377",
+    "generated_at": "2026-08-03T11:00:14.020144",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
+      "total_stories": 121,
       "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: hsbc & huge - agencies",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: artificial intelligence & ai - time",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_001",
-        "signal_005",
-        "signal_004",
-        "signal_003"
+        "signal_003",
+        "signal_005"
       ],
-      "story_count": 58,
+      "story_count": 53,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "HSBC",
+          "Experian"
+        ],
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "LOS"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: droga5 & reporting - agencies",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_001",
+        "signal_004",
+        "signal_006"
+      ],
+      "story_count": 33,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
           "Knock"
         ],
         "technologies": [
-          "Hubspot",
-          "AI",
-          "HubSpot",
-          "reporting"
+          "reporting",
+          "AI"
         ],
         "themes": []
       },
       "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: anomaly & artificial intelligence - campaign",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_000",
-        "signal_002"
-      ],
-      "story_count": 45,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "artificial intelligence",
-          "Los",
-          "AI",
-          "LOS",
-          "insights"
-        ],
-        "themes": [
-          "mental health"
-        ]
-      },
-      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -75,13 +69,13 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 17,
+          "id": "signal_002",
+          "name": "AI & Anomaly - Market",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 16,
       "key_themes": []
     },
     "customer_experience": {
@@ -95,12 +89,12 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "Anomaly & artificial intelligence - Campaign",
-          "story_count": 23,
+          "name": "Anomaly & Los - Cup",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 23,
+      "story_count": 19,
       "key_themes": [
         "mental health"
       ]
@@ -109,46 +103,44 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Anomaly & artificial intelligence - Campaign",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "HSBC & HUGE - Agencies",
-          "story_count": 19,
+          "id": "signal_003",
+          "name": "artificial intelligence & AI - Time",
+          "story_count": 29,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "Knock & AI - Cup",
-          "story_count": 14,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & Anomaly - Market",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Droga5 & reporting - Agencies",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "HubSpot - Live",
-          "story_count": 13,
+          "name": "Bank Billion Digital",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "reporting - Streaming",
-          "story_count": 12,
+          "id": "signal_006",
+          "name": "Knock & AI - Week",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 103,
-      "key_themes": [
-        "mental health"
-      ]
+      "story_count": 102,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -174,23 +166,19 @@
       {
         "name": "Knock",
         "mentions": 1
-      },
-      {
-        "name": "HSBC",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 29
       },
       {
         "name": "HubSpot",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -203,10 +191,6 @@
       },
       {
         "name": "Los",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
         "mentions": 1
       },
       {
@@ -240,12 +224,12 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 23,
+      "story_count": 19,
       "top_signals": [
-        "Anomaly & artificial intelligence - Campaign"
+        "Anomaly & Los - Cup"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
+      "key_insight": "Cultural emphasis on anomaly & los - cup"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -255,18 +239,32 @@
       "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "LOS",
+        "HubSpot",
+        "Hubspot"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & artificial intelligence - Campaign",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & artificial intelligence - campaign.",
+    "headline": "Focus on artificial intelligence & AI - Time",
+    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - time.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "Anomaly & artificial intelligence - Campaign",
+      "artificial intelligence & AI - Time",
       "AI & LOS - Ai Ai",
-      "HSBC & HUGE - Agencies"
+      "Anomaly & Los - Cup"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -274,7 +272,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 121 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
