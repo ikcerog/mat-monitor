@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-04T10:21:43.120837",
+    "generated_at": "2026-08-05T10:17:31.181139",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 119,
+      "total_stories": 121,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,25 +11,53 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward anomaly & artificial intelligence - new",
+      "narrative": "Technology adoption wave: ai & personalization - ai ai",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_005",
+        "signal_001",
+        "signal_006"
+      ],
+      "story_count": 49,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "AI",
+          "personalization",
+          "LOS",
+          "pos",
+          "Saas"
+        ],
+        "themes": [
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Cultural shift toward hubspot & anomaly - agency",
       "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_003",
-        "signal_004"
+        "signal_004",
+        "signal_000"
       ],
-      "story_count": 42,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "Experian"
         ],
         "technologies": [
-          "artificial intelligence"
+          "HubSpot",
+          "AI"
         ],
         "themes": [
           "mental health",
-          "Mental Health",
-          "collaboration"
+          "work-life balance",
+          "retention"
         ]
       },
       "time_depth": "sustained",
@@ -37,42 +65,17 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: hubspot & anomaly - agency",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_006",
-        "signal_001"
-      ],
-      "story_count": 40,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "HubSpot",
-          "pos",
-          "AI",
-          "personalization",
-          "LOS"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: ai - companies",
+      "narrative": "Industry movement: ai & droga5 - media",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_000",
+        "signal_003",
         "signal_002"
       ],
-      "story_count": 37,
+      "story_count": 34,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian",
+          "IKEA",
           "Knock"
         ],
         "technologies": [
@@ -80,7 +83,7 @@
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -101,15 +104,21 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Anomaly & artificial intelligence - New",
-          "story_count": 31,
+          "id": "signal_005",
+          "name": "AI & personalization - Ai Ai",
+          "story_count": 26,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "VCCP & Anomaly - Brand",
+          "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 31,
+      "story_count": 40,
       "key_themes": [
-        "Mental Health",
+        "empathy",
         "mental health",
         "messaging"
       ]
@@ -118,62 +127,72 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Anomaly & artificial intelligence - New",
-          "story_count": 31,
+          "id": "signal_004",
+          "name": "HubSpot & Anomaly - Agency",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Droga5 - Campaign",
-          "story_count": 11,
+          "id": "signal_001",
+          "name": "VCCP & Anomaly - Brand",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI - Digital",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 42,
+      "story_count": 52,
       "key_themes": [
-        "Mental Health",
-        "collaboration",
         "mental health",
-        "messaging"
+        "messaging",
+        "retention",
+        "work-life balance"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "HubSpot & Anomaly - Agency",
+          "id": "signal_005",
+          "name": "AI & personalization - Ai Ai",
           "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "AI - Companies",
-          "story_count": 18,
+          "id": "signal_003",
+          "name": "AI & Droga5 - Media",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & personalization - Ad",
+          "name": "VCCP & Anomaly - Brand",
           "story_count": 14,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Experian - Advertising",
-          "story_count": 12,
+          "id": "signal_006",
+          "name": "AI & artificial intelligence - Data",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Knock & AI - Cup",
-          "story_count": 7,
+          "name": "Knock & AI - World Cup",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 77,
-      "key_themes": []
+      "story_count": 83,
+      "key_themes": [
+        "empathy",
+        "mental health",
+        "messaging"
+      ]
     }
   },
   "momentum_analysis": {
@@ -204,10 +223,14 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 33
       },
       {
         "name": "HubSpot",
+        "mentions": 1
+      },
+      {
+        "name": "pos",
         "mentions": 1
       },
       {
@@ -223,7 +246,7 @@
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "Saas",
         "mentions": 1
       }
     ],
@@ -234,17 +257,21 @@
         "frequency": 2
       },
       {
-        "theme": "collaboration",
+        "theme": "retention",
         "frequency": 1
       },
       {
-        "theme": "Mental Health",
+        "theme": "work-life balance",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
         "approach": "messaging",
+        "frequency": 1
+      },
+      {
+        "approach": "empathy",
         "frequency": 1
       }
     ]
@@ -265,38 +292,54 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 42,
+      "signal_count": 3,
+      "story_count": 52,
       "top_signals": [
-        "Anomaly & artificial intelligence - New",
-        "Droga5 - Campaign"
+        "HubSpot & Anomaly - Agency",
+        "VCCP & Anomaly - Brand",
+        "AI - Digital"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - new"
+      "key_insight": "Cultural emphasis on hubspot & anomaly - agency"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 31,
+      "signal_count": 2,
+      "story_count": 40,
       "top_signals": [
-        "Anomaly & artificial intelligence - New"
+        "AI & personalization - Ai Ai",
+        "VCCP & Anomaly - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: anomaly & artificial intelligence - new"
+      "key_insight": "Storytelling direction: ai & personalization - ai ai"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "personalization",
+        "LOS",
+        "pos",
+        "Saas"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & artificial intelligence - New",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & artificial intelligence - new.",
+    "headline": "Focus on AI & personalization - Ai Ai",
+    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & personalization - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health",
-      "Mental Health"
+      "work-life balance"
     ],
     "attention_areas": [
-      "Anomaly & artificial intelligence - New",
-      "HubSpot & Anomaly - Agency",
-      "AI - Companies"
+      "AI & personalization - Ai Ai",
+      "AI & Droga5 - Media",
+      "HubSpot & Anomaly - Agency"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -304,8 +347,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 119 stories across 7 themes",
+    "High coverage intensity with 121 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
