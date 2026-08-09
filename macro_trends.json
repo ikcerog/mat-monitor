@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-08T08:23:07.986251",
+    "generated_at": "2026-08-09T08:25:23.897218",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 120,
@@ -11,19 +11,23 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "narrative": "Technology adoption wave: artificial intelligence & ai - bank",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_006",
+        "signal_005",
         "signal_000"
       ],
-      "story_count": 36,
+      "story_count": 52,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "Bank of America"
+        ],
         "technologies": [
           "AI",
           "artificial intelligence",
+          "CX",
           "LOS",
           "pos"
         ],
@@ -34,47 +38,26 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: cx & bank of america - bank",
+      "narrative": "Industry movement: ai & ikea - revenue",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_005",
-        "signal_002"
+        "signal_003",
+        "signal_004"
       ],
-      "story_count": 33,
+      "story_count": 27,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America"
+          "IKEA",
+          "Experian",
+          "Home Depot"
         ],
         "technologies": [
-          "CX",
           "AI"
         ],
         "themes": []
       },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Housing market dynamics showing experian & home depot - company",
-      "theme": "Housing Market",
-      "supporting_signals": [
-        "signal_003",
-        "signal_001"
-      ],
-      "story_count": 31,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian",
-          "Home Depot",
-          "Stavvy"
-        ],
-        "technologies": [],
-        "themes": []
-      },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -89,33 +72,36 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Experian & Home Depot - Company",
-          "story_count": 17,
+          "id": "signal_002",
+          "name": "AI & Stavvy - Campaign",
+          "story_count": 27,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Stavvy - Marketing",
+          "name": "BI & Dashboard - Marketing",
           "story_count": 14,
           "momentum": "stable"
         }
       ],
-      "story_count": 31,
-      "key_themes": []
+      "story_count": 41,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 26,
+          "id": "signal_005",
+          "name": "AI & LOS - Week",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 26,
+      "story_count": 22,
       "key_themes": [
+        "messaging",
         "user-generated content"
       ]
     },
@@ -123,13 +109,13 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Droga5 & IKEA - Week",
-          "story_count": 20,
+          "id": "signal_002",
+          "name": "AI & Stavvy - Campaign",
+          "story_count": 27,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
+      "story_count": 27,
       "key_themes": [
         "mental health"
       ]
@@ -139,31 +125,44 @@
       "signals": [
         {
           "id": "signal_006",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 26,
+          "name": "artificial intelligence & AI - Bank",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "CX & Bank of America - Bank",
-          "story_count": 21,
+          "name": "AI & LOS - Week",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & Anomaly - World",
+          "id": "signal_003",
+          "name": "AI & IKEA - Revenue",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "BI & Dashboard - Marketing",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Nielsen Billion Doubleverify",
           "story_count": 12,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
           "name": "pos & VCCP - Brand",
-          "story_count": 10,
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 69,
+      "story_count": 93,
       "key_themes": [
+        "messaging",
         "user-generated content"
       ]
     }
@@ -208,14 +207,14 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 25
       },
       {
         "name": "pos",
+        "mentions": 1
+      },
+      {
+        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -224,6 +223,22 @@
       },
       {
         "name": "CX",
+        "mentions": 1
+      },
+      {
+        "name": "BI",
+        "mentions": 1
+      },
+      {
+        "name": "Dashboard",
+        "mentions": 1
+      },
+      {
+        "name": "Hubspot",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
         "mentions": 1
       }
     ],
@@ -247,6 +262,10 @@
       {
         "approach": "user-generated content",
         "frequency": 1
+      },
+      {
+        "approach": "messaging",
+        "frequency": 1
       }
     ]
   },
@@ -259,43 +278,59 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 27,
+      "top_signals": [
+        "AI & Stavvy - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on ai & stavvy - campaign"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 20,
+      "story_count": 27,
       "top_signals": [
-        "Droga5 & IKEA - Week"
+        "AI & Stavvy - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on droga5 & ikea - week"
+      "key_insight": "Cultural emphasis on ai & stavvy - campaign"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 26,
+      "story_count": 22,
       "top_signals": [
-        "AI & artificial intelligence - Ai Ai"
+        "AI & LOS - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & artificial intelligence - ai ai"
+      "key_insight": "Storytelling direction: ai & los - week"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "CX",
+        "LOS",
+        "BI"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ai Ai",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
+    "headline": "Focus on AI & Stavvy - Campaign",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & stavvy - campaign.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Ai Ai",
-      "CX & Bank of America - Bank",
-      "Droga5 & IKEA - Week"
+      "AI & Stavvy - Campaign",
+      "artificial intelligence & AI - Bank",
+      "AI & LOS - Week"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
