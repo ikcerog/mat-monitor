@@ -1,65 +1,66 @@
 {
   "meta": {
-    "generated_at": "2026-08-10T09:02:25.076129",
+    "generated_at": "2026-08-11T08:39:53.680737",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
-      "total_signals": 7,
+      "total_stories": 110,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: pos & vccp - media",
-      "theme": "Technology & Innovation",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: droga5 & ikea - ad",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
         "signal_001",
-        "signal_004"
+        "signal_000",
+        "signal_004",
+        "signal_005"
       ],
-      "story_count": 70,
+      "story_count": 56,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Home Depot",
-          "Bank of America",
-          "article"
+          "IKEA",
+          "U.S. Bank"
         ],
         "technologies": [
-          "AI",
-          "pos",
-          "LOS",
-          "artificial intelligence",
           "CX"
         ],
         "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: nielsen doubleverify billion",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: wieden+kennedy & ogilvy - campaign",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_006",
-        "signal_005",
-        "signal_000"
+        "signal_002",
+        "signal_003"
       ],
-      "story_count": 34,
+      "story_count": 54,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Knock",
-          "IKEA"
+          "Stavvy",
+          "Experian",
+          "Allstate"
         ],
         "technologies": [
-          "AI"
+          "artificial intelligence",
+          "HubSpot",
+          "AI",
+          "LOS"
         ],
-        "themes": []
+        "themes": [
+          "mental health"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -72,50 +73,22 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & CX - Customer",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Stavvy & Experian - Marketing",
-          "story_count": 16,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 35,
-      "key_themes": [
-        "mental health"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "pos & VCCP - Media",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
+          "id": "signal_003",
           "name": "AI & LOS - Ai Ai",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & CX - Customer",
-          "story_count": 19,
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 70,
+      "story_count": 21,
       "key_themes": [
-        "messaging",
         "user-generated content"
       ]
     },
@@ -123,13 +96,13 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Stavvy & Experian - Marketing",
-          "story_count": 16,
+          "id": "signal_002",
+          "name": "Wieden+Kennedy & Ogilvy - Campaign",
+          "story_count": 33,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 33,
       "key_themes": [
         "mental health"
       ]
@@ -139,51 +112,44 @@
       "signals": [
         {
           "id": "signal_002",
-          "name": "pos & VCCP - Media",
-          "story_count": 31,
+          "name": "Wieden+Kennedy & Ogilvy - Campaign",
+          "story_count": 33,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "artificial intelligence & CX - Customer",
-          "story_count": 19,
+          "name": "Droga5 & IKEA - Ad",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Stavvy & Experian - Marketing",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "Nielsen Doubleverify Billion",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Droga5 & Knock - Week",
-          "story_count": 12,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "IKEA & AI - Programmatic",
-          "story_count": 10,
+          "name": "Anomaly - World",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "U.S. Bank - Year",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Creative Incumbent Agency",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 120,
+      "story_count": 110,
       "key_themes": [
         "mental health",
-        "messaging",
         "user-generated content"
       ]
     }
@@ -192,7 +158,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -213,38 +179,22 @@
         "mentions": 1
       },
       {
-        "name": "Knock",
+        "name": "Allstate",
         "mentions": 1
       },
       {
-        "name": "Home Depot",
-        "mentions": 1
-      },
-      {
-        "name": "Bank of America",
-        "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
-      },
-      {
-        "name": "knock",
+        "name": "U.S. Bank",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
-      },
-      {
-        "name": "pos",
-        "mentions": 1
+        "mentions": 21
       },
       {
         "name": "artificial intelligence",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "LOS",
@@ -257,29 +207,9 @@
       {
         "name": "HubSpot",
         "mentions": 1
-      },
-      {
-        "name": "BI",
-        "mentions": 1
-      },
-      {
-        "name": "Dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "Hubspot",
-        "mentions": 1
-      },
-      {
-        "name": "dashboard",
-        "mentions": 1
       }
     ],
     "influential_voices": [
-      {
-        "name": "Trade Desk",
-        "mentions": 1
-      },
       {
         "name": "National Cyber",
         "mentions": 1
@@ -295,10 +225,6 @@
       {
         "approach": "user-generated content",
         "frequency": 1
-      },
-      {
-        "approach": "messaging",
-        "frequency": 1
       }
     ]
   },
@@ -311,60 +237,43 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 19,
-      "top_signals": [
-        "artificial intelligence & CX - Customer"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on artificial intelligence & cx - customer"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 16,
+      "story_count": 33,
       "top_signals": [
-        "Stavvy & Experian - Marketing"
+        "Wieden+Kennedy & Ogilvy - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on stavvy & experian - marketing"
+      "key_insight": "Cultural emphasis on wieden+kennedy & ogilvy - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 2,
-      "story_count": 51,
+      "signal_count": 1,
+      "story_count": 21,
       "top_signals": [
-        "pos & VCCP - Media",
         "AI & LOS - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: pos & vccp - media"
+      "key_insight": "Storytelling direction: ai & los - ai ai"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "pos",
-        "LOS",
-        "artificial intelligence",
-        "CX"
-      ],
-      "signal_count": 4,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on pos & VCCP - Media",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on pos & vccp - media.",
+    "headline": "Focus on Wieden+Kennedy & Ogilvy - Campaign",
+    "executive_summary": "Analysis of 110 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on wieden+kennedy & ogilvy - campaign.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "pos & VCCP - Media",
-      "AI & LOS - Ai Ai",
-      "artificial intelligence & CX - Customer"
+      "Wieden+Kennedy & Ogilvy - Campaign",
+      "Droga5 & IKEA - Ad",
+      "AI & LOS - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -372,8 +281,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
+    "High coverage intensity with 110 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Technology-heavy coverage (10 technologies tracked)"
+    "Coverage concentrated among few key players"
   ]
 }
