@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-16T08:12:03.909280",
+    "generated_at": "2026-08-17T08:26:31.339507",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 120,
@@ -11,14 +11,14 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: zillow & artificial intelligence - growth",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: zillow & ikea - media",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_003",
-        "signal_006",
-        "signal_004"
+        "signal_005",
+        "signal_002"
       ],
-      "story_count": 71,
+      "story_count": 67,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -26,13 +26,7 @@
           "IKEA",
           "article"
         ],
-        "technologies": [
-          "AI",
-          "artificial intelligence",
-          "insights",
-          "LOS",
-          "Omnichannel"
-        ],
+        "technologies": [],
         "themes": []
       },
       "time_depth": "sustained",
@@ -40,23 +34,27 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Cultural shift toward bank of america - companies",
+      "narrative": "Cultural shift toward anomaly & experian - new",
       "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_005",
-        "signal_001"
+        "signal_001",
+        "signal_004"
       ],
-      "story_count": 28,
+      "story_count": 20,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America",
-          "Experian"
+          "Experian",
+          "Bank of America"
         ],
-        "technologies": [],
+        "technologies": [
+          "insights",
+          "artificial intelligence"
+        ],
         "themes": [
-          "collaboration",
-          "mental health"
+          "mental health",
+          "Wellbeing",
+          "collaboration"
         ]
       },
       "time_depth": "developing",
@@ -75,12 +73,12 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "Mobile app & AI - Marketing",
-          "story_count": 10,
+          "name": "AI & Mobile app - Marketing",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 12,
       "key_themes": [
         "storytelling",
         "values-driven"
@@ -90,21 +88,23 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "reporting & AI - Creative",
-          "story_count": 11,
+          "id": "signal_000",
+          "name": "AI & Mobile app - Marketing",
+          "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Mobile app & AI - Marketing",
+          "id": "signal_001",
+          "name": "Anomaly & Experian - New",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 22,
       "key_themes": [
-        "messaging",
+        "Authenticity",
+        "Wellbeing",
+        "mental health",
         "storytelling",
         "values-driven"
       ]
@@ -113,30 +113,31 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Bank of America - Companies",
-          "story_count": 16,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "VCCP & Anomaly - Campaign",
+          "id": "signal_000",
+          "name": "AI & Mobile app - Marketing",
           "story_count": 12,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Mobile app & AI - Marketing",
+          "id": "signal_001",
+          "name": "Anomaly & Experian - New",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Bank of America & artificial intelligence - Bank America",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 38,
+      "story_count": 32,
       "key_themes": [
+        "Authenticity",
+        "Wellbeing",
         "collaboration",
         "mental health",
-        "storytelling",
-        "values-driven"
+        "storytelling"
       ]
     },
     "industry_transformation": {
@@ -144,38 +145,37 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "Zillow & artificial intelligence - Growth",
-          "story_count": 42,
+          "name": "Zillow & IKEA - Media",
+          "story_count": 43,
           "momentum": "stable"
         },
         {
           "id": "signal_006",
           "name": "AI & LOS - Ai Ai",
-          "story_count": 18,
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "Wpp Media Hand",
-          "story_count": 11,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "reporting & AI - Creative",
-          "story_count": 11,
+          "id": "signal_005",
+          "name": "VCCP & Droga5 - Chief",
+          "story_count": 13,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Mobile app & AI - Marketing",
-          "story_count": 10,
+          "name": "AI & Mobile app - Marketing",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "VCCP & article - Business",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 92,
+      "story_count": 100,
       "key_themes": [
-        "messaging",
         "storytelling",
         "values-driven"
       ]
@@ -217,7 +217,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 20
+        "mentions": 23
       },
       {
         "name": "artificial intelligence",
@@ -238,19 +238,11 @@
       {
         "name": "insights",
         "mentions": 1
-      },
-      {
-        "name": "reporting",
-        "mentions": 1
       }
     ],
     "influential_voices": [
       {
         "name": "But Its",
-        "mentions": 1
-      },
-      {
-        "name": "House After",
         "mentions": 1
       }
     ],
@@ -266,6 +258,10 @@
       {
         "theme": "collaboration",
         "frequency": 1
+      },
+      {
+        "theme": "Wellbeing",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": [
@@ -274,7 +270,7 @@
         "frequency": 1
       },
       {
-        "approach": "messaging",
+        "approach": "Authenticity",
         "frequency": 1
       }
     ]
@@ -296,53 +292,39 @@
     },
     "enterprise_culture": {
       "signal_count": 3,
-      "story_count": 38,
+      "story_count": 32,
       "top_signals": [
-        "Bank of America - Companies",
-        "VCCP & Anomaly - Campaign",
-        "Mobile app & AI - Marketing"
+        "AI & Mobile app - Marketing",
+        "Anomaly & Experian - New",
+        "Bank of America & artificial intelligence - Bank America"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on bank of america - companies"
+      "key_insight": "Cultural emphasis on ai & mobile app - marketing"
     },
     "brand_storytelling": {
       "signal_count": 2,
-      "story_count": 21,
+      "story_count": 22,
       "top_signals": [
-        "reporting & AI - Creative",
-        "Mobile app & AI - Marketing"
+        "AI & Mobile app - Marketing",
+        "Anomaly & Experian - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: reporting & ai - creative"
+      "key_insight": "Storytelling direction: ai & mobile app - marketing"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "artificial intelligence",
-        "insights",
-        "LOS",
-        "Omnichannel"
-      ],
-      "signal_count": 4,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Zillow & artificial intelligence - Growth",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on zillow & artificial intelligence - growth.",
+    "headline": "Focus on Zillow & IKEA - Media",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on zillow & ikea - media.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
+      "values-driven",
       "mental health"
     ],
     "attention_areas": [
-      "Zillow & artificial intelligence - Growth",
+      "Zillow & IKEA - Media",
       "AI & LOS - Ai Ai",
-      "Bank of America - Companies"
+      "VCCP & Droga5 - Chief"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
