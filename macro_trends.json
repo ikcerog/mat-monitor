@@ -1,60 +1,35 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T08:17:48.375534",
+    "generated_at": "2026-08-19T08:18:38.687038",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 119,
+      "total_stories": 120,
       "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Cultural shift toward wieden+kennedy & vccp - gen",
-      "theme": "Workplace & Culture",
+      "thread_id": "thread_01",
+      "narrative": "Industry movement: wieden+kennedy & vccp - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_004",
         "signal_001",
         "signal_006"
       ],
-      "story_count": 51,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Zillow"
-        ],
-        "technologies": [],
-        "themes": [
-          "collaboration",
-          "employee experience",
-          "mental health"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & los - ai ai",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_000",
-        "signal_005"
-      ],
-      "story_count": 38,
+      "story_count": 56,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "IKEA",
-          "Experian"
+          "Experian",
+          "Equifax",
+          "article"
         ],
         "technologies": [
-          "artificial intelligence",
           "AI",
-          "LOS",
-          "Omnichannel",
-          "pos"
+          "artificial intelligence"
         ],
         "themes": []
       },
@@ -62,23 +37,26 @@
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: bank of america - india",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ai & omnichannel - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
+        "signal_000",
         "signal_003"
       ],
-      "story_count": 30,
+      "story_count": 25,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Bank of America"
+        "brands": [],
+        "technologies": [
+          "AI",
+          "Omnichannel",
+          "artificial intelligence",
+          "LOS"
         ],
-        "technologies": [],
         "themes": []
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -91,23 +69,31 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "Reporting & AI - Marketing",
+          "story_count": 29,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 29,
+      "key_themes": [
+        "storytelling"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "New Long Experience",
-          "story_count": 17,
+          "id": "signal_002",
+          "name": "Reporting & AI - Marketing",
+          "story_count": 29,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 29,
       "key_themes": [
-        "employee experience",
         "storytelling"
       ]
     },
@@ -115,62 +101,61 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Wieden+Kennedy & VCCP - Gen",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "New Long Experience",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "Zillow & Anomaly - Campaign",
-          "story_count": 12,
+          "id": "signal_005",
+          "name": "Zillow & Bank of America - Bank",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 10,
       "key_themes": [
-        "collaboration",
-        "employee experience",
-        "mental health",
-        "storytelling"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 24,
+          "id": "signal_004",
+          "name": "Wieden+Kennedy & VCCP - World",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Bank of America - India",
-          "story_count": 16,
+          "name": "Reporting & AI - Marketing",
+          "story_count": 29,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & Omnichannel - Ai Ai",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Media Social Social Media",
-          "story_count": 14,
+          "name": "AI & LOS - Week",
+          "story_count": 7,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "artificial intelligence & IKEA - Advertising",
-          "story_count": 14,
+          "id": "signal_006",
+          "name": "Mccann Appoints Creative",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 68,
-      "key_themes": []
+      "story_count": 110,
+      "key_themes": [
+        "storytelling"
+      ]
     }
   },
   "momentum_analysis": {
@@ -186,10 +171,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Bank of America",
-        "mentions": 2
-      },
-      {
         "name": "Zillow",
         "mentions": 1
       },
@@ -200,16 +181,32 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Equifax",
+        "mentions": 1
+      },
+      {
+        "name": "Bank of America",
+        "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
+        "mentions": 23
       },
       {
         "name": "artificial intelligence",
         "mentions": 2
+      },
+      {
+        "name": "Reporting",
+        "mentions": 1
       },
       {
         "name": "LOS",
@@ -218,33 +215,17 @@
       {
         "name": "Omnichannel",
         "mentions": 1
-      },
-      {
-        "name": "pos",
-        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Performance Agency",
-        "mentions": 1
-      },
-      {
-        "name": "But Its",
+        "name": "Decade Klarna",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 1
-      },
-      {
-        "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "employee experience",
         "frequency": 1
       }
     ],
@@ -271,39 +252,50 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 51,
+      "signal_count": 1,
+      "story_count": 10,
       "top_signals": [
-        "Wieden+Kennedy & VCCP - Gen",
-        "New Long Experience",
-        "Zillow & Anomaly - Campaign"
+        "Zillow & Bank of America - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wieden+kennedy & vccp - gen"
+      "key_insight": "Cultural emphasis on zillow & bank of america - bank"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 17,
+      "story_count": 29,
       "top_signals": [
-        "New Long Experience"
+        "Reporting & AI - Marketing"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: new long experience"
+      "key_insight": "Storytelling direction: reporting & ai - marketing"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "Reporting",
+        "Omnichannel",
+        "artificial intelligence",
+        "LOS"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & LOS - Ai Ai",
-    "executive_summary": "Analysis of 119 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & los - ai ai.",
+    "headline": "Focus on Wieden+Kennedy & VCCP - World",
+    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on wieden+kennedy & vccp - world.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "employee experience"
+      "mental health"
     ],
     "attention_areas": [
-      "AI & LOS - Ai Ai",
-      "Wieden+Kennedy & VCCP - Gen",
-      "New Long Experience"
+      "Wieden+Kennedy & VCCP - World",
+      "Reporting & AI - Marketing",
+      "Anomaly & artificial intelligence - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -311,9 +303,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 119 stories across 7 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "High coverage intensity with 120 stories across 7 themes",
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
