@@ -1,35 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-08-19T08:18:38.687038",
+    "generated_at": "2026-08-20T08:19:58.727839",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 120,
+      "total_stories": 121,
       "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Industry movement: wieden+kennedy & vccp - world",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: artificial intelligence - creative",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
         "signal_001",
-        "signal_006"
+        "signal_000",
+        "signal_003",
+        "signal_004"
       ],
-      "story_count": 56,
+      "story_count": 64,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian",
           "Equifax",
-          "article"
+          "IKEA"
         ],
         "technologies": [
+          "artificial intelligence",
+          "Reporting",
           "AI",
-          "artificial intelligence"
+          "pos"
         ],
         "themes": []
       },
@@ -37,26 +38,27 @@
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & omnichannel - ai ai",
-      "theme": "Technology & Innovation",
+      "thread_id": "thread_01",
+      "narrative": "Cultural shift toward anomaly & experian - real",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_000",
-        "signal_003"
+        "signal_002",
+        "signal_006"
       ],
-      "story_count": 25,
+      "story_count": 34,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "Omnichannel",
-          "artificial intelligence",
-          "LOS"
+        "brands": [
+          "Experian",
+          "Bank of America"
         ],
-        "themes": []
+        "technologies": [],
+        "themes": [
+          "mental health",
+          "hybrid work"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -69,31 +71,23 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "Reporting & AI - Marketing",
-          "story_count": 29,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 29,
-      "key_themes": [
-        "storytelling"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
           "id": "signal_002",
-          "name": "Reporting & AI - Marketing",
-          "story_count": 29,
+          "name": "Anomaly & Experian - Real",
+          "story_count": 24,
           "momentum": "stable"
         }
       ],
-      "story_count": 29,
+      "story_count": 24,
       "key_themes": [
+        "mental health",
         "storytelling"
       ]
     },
@@ -101,61 +95,61 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Zillow & Bank of America - Bank",
+          "id": "signal_002",
+          "name": "Anomaly & Experian - Real",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "Bank of America - World",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 34,
       "key_themes": [
-        "mental health"
+        "hybrid work",
+        "mental health",
+        "storytelling"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Wieden+Kennedy & VCCP - World",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Reporting & AI - Marketing",
-          "story_count": 29,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Anomaly & artificial intelligence - Campaign",
-          "story_count": 19,
+          "name": "artificial intelligence - Creative",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "AI & Omnichannel - Ai Ai",
-          "story_count": 18,
+          "name": "Reporting & VCCP - Ad",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & LOS - Week",
-          "story_count": 7,
+          "name": "AI & IKEA - Chief",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "Mccann Appoints Creative",
-          "story_count": 6,
+          "id": "signal_004",
+          "name": "pos - Professionals",
+          "story_count": 4,
           "momentum": "stable"
         }
       ],
-      "story_count": 110,
-      "key_themes": [
-        "storytelling"
-      ]
+      "story_count": 87,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -171,10 +165,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Zillow",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -189,10 +179,6 @@
       {
         "name": "Bank of America",
         "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
@@ -202,7 +188,7 @@
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "Reporting",
@@ -215,17 +201,29 @@
       {
         "name": "Omnichannel",
         "mentions": 1
+      },
+      {
+        "name": "Salesforce",
+        "mentions": 1
+      },
+      {
+        "name": "pos",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Decade Klarna",
+        "name": "Future Financial",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
         "theme": "mental health",
+        "frequency": 1
+      },
+      {
+        "theme": "hybrid work",
         "frequency": 1
       }
     ],
@@ -252,50 +250,38 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 10,
+      "signal_count": 2,
+      "story_count": 34,
       "top_signals": [
-        "Zillow & Bank of America - Bank"
+        "Anomaly & Experian - Real",
+        "Bank of America - World"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on zillow & bank of america - bank"
+      "key_insight": "Cultural emphasis on anomaly & experian - real"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 29,
+      "story_count": 24,
       "top_signals": [
-        "Reporting & AI - Marketing"
+        "Anomaly & Experian - Real"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: reporting & ai - marketing"
+      "key_insight": "Storytelling direction: anomaly & experian - real"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "Reporting",
-        "Omnichannel",
-        "artificial intelligence",
-        "LOS"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Wieden+Kennedy & VCCP - World",
-    "executive_summary": "Analysis of 120 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on wieden+kennedy & vccp - world.",
+    "headline": "Focus on Anomaly & Experian - Real",
+    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & experian - real.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health"
+      "mental health",
+      "hybrid work"
     ],
     "attention_areas": [
-      "Wieden+Kennedy & VCCP - World",
-      "Reporting & AI - Marketing",
-      "Anomaly & artificial intelligence - Campaign"
+      "Anomaly & Experian - Real",
+      "AI & artificial intelligence - Ai Ai",
+      "artificial intelligence - Creative"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -303,7 +289,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 120 stories across 7 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "High coverage intensity with 121 stories across 7 themes",
+    "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players"
   ]
 }
