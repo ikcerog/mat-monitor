@@ -1,36 +1,34 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T08:19:58.727839",
+    "generated_at": "2026-08-21T08:21:51.498491",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 121,
+      "total_stories": 112,
       "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: artificial intelligence - creative",
+      "thread_id": "thread_01",
+      "narrative": "Industry movement: reporting & experian - ads",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_000",
-        "signal_003",
+        "signal_006",
+        "signal_005",
         "signal_004"
       ],
-      "story_count": 64,
+      "story_count": 47,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Equifax",
+          "Experian",
+          "Ikea",
           "IKEA"
         ],
         "technologies": [
-          "artificial intelligence",
-          "Reporting",
-          "AI",
-          "pos"
+          "reporting",
+          "insights"
         ],
         "themes": []
       },
@@ -38,27 +36,27 @@
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_01",
-      "narrative": "Cultural shift toward anomaly & experian - real",
+      "thread_id": "thread_02",
+      "narrative": "Cultural shift toward anomaly & droga5 - campaign",
       "theme": "Workplace & Culture",
       "supporting_signals": [
         "signal_002",
-        "signal_006"
+        "signal_003"
       ],
-      "story_count": 34,
+      "story_count": 28,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Experian",
-          "Bank of America"
+        "brands": [],
+        "technologies": [
+          "AI",
+          "artificial intelligence"
         ],
-        "technologies": [],
         "themes": [
           "mental health",
-          "hybrid work"
+          "equity"
         ]
       },
-      "time_depth": "sustained",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -71,85 +69,99 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "customer_experience": {
-      "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Anomaly & Experian - Real",
-          "story_count": 24,
+          "id": "signal_001",
+          "name": "data analytics & visualization - Marketing",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Collins & artificial intelligence - Equity",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
       "story_count": 24,
       "key_themes": [
-        "mental health",
-        "storytelling"
+        "equity",
+        "purpose-driven"
       ]
+    },
+    "customer_experience": {
+      "description": "Consumer-facing improvements and storytelling",
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_002",
-          "name": "Anomaly & Experian - Real",
-          "story_count": 24,
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "Bank of America - World",
+          "id": "signal_001",
+          "name": "data analytics & visualization - Marketing",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Collins & artificial intelligence - Equity",
           "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 34,
+      "story_count": 42,
       "key_themes": [
-        "hybrid work",
+        "equity",
         "mental health",
-        "storytelling"
+        "purpose-driven"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & artificial intelligence - Ai Ai",
+          "id": "signal_006",
+          "name": "reporting & Experian - Ads",
+          "story_count": 30,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & SaaS - Ai Ai",
           "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "artificial intelligence - Creative",
-          "story_count": 23,
+          "name": "data analytics & visualization - Marketing",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Reporting & VCCP - Ad",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & IKEA - Chief",
-          "story_count": 16,
+          "id": "signal_005",
+          "name": "Ikea & IKEA - Media",
+          "story_count": 10,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "pos - Professionals",
-          "story_count": 4,
+          "name": "insights - Texas",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 87,
-      "key_themes": []
+      "story_count": 84,
+      "key_themes": [
+        "purpose-driven"
+      ]
     }
   },
   "momentum_analysis": {
@@ -165,33 +177,33 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "Ikea",
+        "mentions": 2
+      },
+      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "Equifax",
-        "mentions": 1
-      },
-      {
-        "name": "Bank of America",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 24
+      },
+      {
+        "name": "reporting",
+        "mentions": 1
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
+        "mentions": 1
       },
       {
-        "name": "Reporting",
+        "name": "SaaS",
         "mentions": 1
       },
       {
@@ -199,19 +211,27 @@
         "mentions": 1
       },
       {
-        "name": "Omnichannel",
-        "mentions": 1
-      },
-      {
         "name": "Salesforce",
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "data analytics",
+        "mentions": 1
+      },
+      {
+        "name": "visualization",
         "mentions": 1
       }
     ],
     "influential_voices": [
+      {
+        "name": "Celebrity Deal",
+        "mentions": 1
+      },
       {
         "name": "Future Financial",
         "mentions": 1
@@ -219,20 +239,19 @@
     ],
     "cultural_movements": [
       {
-        "theme": "mental health",
+        "theme": "equity",
+        "frequency": 2
+      },
+      {
+        "theme": "purpose-driven",
         "frequency": 1
       },
       {
-        "theme": "hybrid work",
+        "theme": "mental health",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "storytelling",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -243,45 +262,46 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
+      "signal_count": 1,
+      "story_count": 10,
+      "top_signals": [
+        "Collins & artificial intelligence - Equity"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Market narrative centered on collins & artificial intelligence - equity"
+    },
+    "enterprise_culture": {
+      "signal_count": 3,
+      "story_count": 42,
+      "top_signals": [
+        "Anomaly & Droga5 - Campaign",
+        "data analytics & visualization - Marketing",
+        "Collins & artificial intelligence - Equity"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+    },
+    "brand_storytelling": {
       "signal_count": 0,
       "story_count": 0,
       "top_signals": [],
       "momentum": "stable",
       "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 34,
-      "top_signals": [
-        "Anomaly & Experian - Real",
-        "Bank of America - World"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & experian - real"
-    },
-    "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 24,
-      "top_signals": [
-        "Anomaly & Experian - Real"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: anomaly & experian - real"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & Experian - Real",
-    "executive_summary": "Analysis of 121 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & experian - real.",
+    "headline": "Focus on reporting & Experian - Ads",
+    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on reporting & experian - ads.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health",
-      "hybrid work"
+      "purpose-driven"
     ],
     "attention_areas": [
-      "Anomaly & Experian - Real",
-      "AI & artificial intelligence - Ai Ai",
-      "artificial intelligence - Creative"
+      "reporting & Experian - Ads",
+      "AI & SaaS - Ai Ai",
+      "Anomaly & Droga5 - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -289,8 +309,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 121 stories across 7 themes",
+    "High coverage intensity with 112 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
