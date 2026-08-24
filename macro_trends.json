@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T08:13:07.750850",
+    "generated_at": "2026-08-24T08:31:10.543328",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 113,
+      "total_stories": 112,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,30 +11,31 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ikea & experian - new",
+      "narrative": "Technology adoption wave: anomaly & artificial intelligence - campaign",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_006",
         "signal_000",
-        "signal_001"
+        "signal_001",
+        "signal_005",
+        "signal_006"
       ],
-      "story_count": 68,
+      "story_count": 75,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "IKEA",
-          "Experian"
+          "article"
         ],
         "technologies": [
           "AI",
-          "insights",
-          "pos",
+          "Los",
+          "artificial intelligence",
           "SaaS",
           "LOS"
         ],
         "themes": [
-          "purpose-driven",
-          "mental health"
+          "company culture",
+          "purpose-driven"
         ]
       },
       "time_depth": "sustained",
@@ -42,20 +43,19 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: artificial intelligence - creator",
+      "narrative": "Industry movement: ai - week",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
         "signal_002",
-        "signal_005"
+        "signal_004"
       ],
-      "story_count": 27,
+      "story_count": 23,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "artificial intelligence",
-          "AI"
+          "AI",
+          "insights"
         ],
         "themes": []
       },
@@ -78,31 +78,35 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_003",
-          "name": "Financial Basically Bank",
-          "story_count": 18,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 18,
-      "key_themes": [
-        "Messaging"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
+          "id": "signal_000",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 26,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Experian - Tech",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_006",
-          "name": "IKEA & Experian - New",
-          "story_count": 30,
+          "name": "AI & data analytics - Years",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 52,
       "key_themes": [
+        "company culture",
         "mental health",
         "purpose-driven"
       ]
@@ -111,45 +115,45 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "IKEA & Experian - New",
-          "story_count": 30,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_000",
-          "name": "AI & SaaS - Ai Ai",
+          "name": "Anomaly & artificial intelligence - Campaign",
           "story_count": 26,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "artificial intelligence - Creator",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_001",
-          "name": "AI & Los - Week",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 11,
+          "name": "AI & SaaS - Ai Ai",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "News Demo Ideas",
-          "story_count": 4,
+          "name": "AI & IKEA - Brand",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI - Week",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
+          "name": "AI & data analytics - Years",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "insights - World",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 95,
+      "story_count": 98,
       "key_themes": [
-        "mental health",
+        "company culture",
         "purpose-driven"
       ]
     }
@@ -173,12 +177,20 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 26
+      },
+      {
+        "name": "Los",
+        "mentions": 2
       },
       {
         "name": "artificial intelligence",
@@ -197,19 +209,15 @@
         "mentions": 1
       },
       {
-        "name": "Los",
-        "mentions": 1
-      },
-      {
         "name": "insights",
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "data analytics",
         "mentions": 1
       },
       {
-        "name": "Ai",
+        "name": "visualization",
         "mentions": 1
       }
     ],
@@ -227,14 +235,13 @@
       {
         "theme": "mental health",
         "frequency": 1
-      }
-    ],
-    "storytelling_approaches": [
+      },
       {
-        "approach": "Messaging",
+        "theme": "company culture",
         "frequency": 1
       }
-    ]
+    ],
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -252,22 +259,22 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 30,
+      "signal_count": 3,
+      "story_count": 52,
       "top_signals": [
-        "IKEA & Experian - New"
+        "Anomaly & artificial intelligence - Campaign",
+        "Experian - Tech",
+        "AI & data analytics - Years"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ikea & experian - new"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 18,
-      "top_signals": [
-        "Financial Basically Bank"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: financial basically bank"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
@@ -276,27 +283,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "insights",
-        "pos",
+        "Los",
+        "artificial intelligence",
         "SaaS",
         "LOS"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & Experian - New",
-    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ikea & experian - new.",
+    "headline": "Focus on Anomaly & artificial intelligence - Campaign",
+    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & artificial intelligence - campaign.",
     "key_shifts": [],
     "dominant_themes": [
-      "purpose-driven",
+      "company culture",
       "mental health"
     ],
     "attention_areas": [
-      "IKEA & Experian - New",
+      "Anomaly & artificial intelligence - Campaign",
       "AI & SaaS - Ai Ai",
-      "Financial Basically Bank"
+      "AI & IKEA - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -304,8 +311,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 113 stories across 7 themes",
+    "High coverage intensity with 112 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
