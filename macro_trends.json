@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-25T08:24:39.239447",
+    "generated_at": "2026-08-26T08:25:23.511197",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 112,
+      "total_stories": 113,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,26 +11,74 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: anomaly & droga5 - campaign",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ikea & truist - bank",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
-        "signal_006",
-        "signal_004"
+        "signal_000",
+        "signal_003"
       ],
-      "story_count": 40,
+      "story_count": 52,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Zillow",
+          "IKEA",
+          "Truist",
           "Bank of America"
         ],
+        "technologies": [
+          "UI",
+          "UX",
+          "AI",
+          "LOS",
+          "customer experience"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Cultural shift toward experian & ikea - ad",
+      "theme": "Workplace & Culture",
+      "supporting_signals": [
+        "signal_006",
+        "signal_005"
+      ],
+      "story_count": 36,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Experian",
+          "Ikea"
+        ],
+        "technologies": [],
+        "themes": [
+          "collaboration",
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Industry movement: artificial intelligence - screens",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_002",
+        "signal_004"
+      ],
+      "story_count": 13,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
         "technologies": [
           "artificial intelligence"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "emerging",
       "outlook": "evolving"
     }
   ],
@@ -43,50 +91,44 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_003",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 33,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 22,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 55,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Halloween Study Fanta",
-          "story_count": 5,
+          "id": "signal_001",
+          "name": "pos - Brand",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 5,
+      "story_count": 12,
       "key_themes": [
-        "case study"
+        "brand narrative"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "VCCP - Ad",
+          "id": "signal_006",
+          "name": "Experian & Ikea - Ad",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Anomaly & Droga5 - Campaign",
           "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 16,
+      "story_count": 36,
       "key_themes": [
+        "collaboration",
         "mental health"
       ]
     },
@@ -95,24 +137,30 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "AI & SaaS - Ai Ai",
-          "story_count": 18,
+          "name": "IKEA & Truist - Bank",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "artificial intelligence & Bank of America - America",
-          "story_count": 10,
+          "id": "signal_003",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "artificial intelligence - Screens",
+          "story_count": 7,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Week News Demo",
-          "story_count": 8,
+          "name": "Link Comments Comments Submitted",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 36,
+      "story_count": 65,
       "key_themes": []
     }
   },
@@ -137,26 +185,26 @@
         "mentions": 1
       },
       {
+        "name": "Truist",
+        "mentions": 1
+      },
+      {
         "name": "Bank of America",
         "mentions": 1
       },
       {
-        "name": "Zillow",
+        "name": "Ikea",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 20
+        "mentions": 21
       },
       {
         "name": "artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "SaaS",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "LOS",
@@ -165,6 +213,18 @@
       {
         "name": "customer experience",
         "mentions": 1
+      },
+      {
+        "name": "pos",
+        "mentions": 1
+      },
+      {
+        "name": "UI",
+        "mentions": 1
+      },
+      {
+        "name": "UX",
+        "mentions": 1
       }
     ],
     "influential_voices": [],
@@ -172,11 +232,15 @@
       {
         "theme": "mental health",
         "frequency": 1
+      },
+      {
+        "theme": "collaboration",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
-        "approach": "case study",
+        "approach": "brand narrative",
         "frequency": 1
       }
     ]
@@ -190,45 +254,45 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 22,
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
+    },
+    "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 36,
       "top_signals": [
+        "Experian & Ikea - Ad",
         "Anomaly & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on anomaly & droga5 - campaign"
-    },
-    "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 16,
-      "top_signals": [
-        "VCCP - Ad"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Cultural emphasis on vccp - ad"
+      "key_insight": "Cultural emphasis on experian & ikea - ad"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 5,
+      "story_count": 12,
       "top_signals": [
-        "Halloween Study Fanta"
+        "pos - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: halloween study fanta"
+      "key_insight": "Storytelling direction: pos - brand"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Marketing",
-    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - marketing.",
+    "headline": "Focus on IKEA & Truist - Bank",
+    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ikea & truist - bank.",
     "key_shifts": [],
     "dominant_themes": [
+      "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "AI & IKEA - Marketing",
-      "Anomaly & Droga5 - Campaign",
-      "AI & SaaS - Ai Ai"
+      "IKEA & Truist - Bank",
+      "AI & LOS - Ai Ai",
+      "Experian & Ikea - Ad"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -236,7 +300,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 112 stories across 7 themes",
+    "High coverage intensity with 113 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
