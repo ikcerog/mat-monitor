@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-26T08:25:23.511197",
+    "generated_at": "2026-08-27T18:25:43.564054",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 113,
+      "total_stories": 112,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,74 +11,54 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ikea & truist - bank",
+      "narrative": "Technology adoption wave: insights & ikea - new",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_000",
-        "signal_003"
+        "signal_006",
+        "signal_004",
+        "signal_001"
       ],
-      "story_count": 52,
+      "story_count": 76,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "IKEA",
-          "Truist",
-          "Bank of America"
+          "Experian"
         ],
         "technologies": [
-          "UI",
-          "UX",
           "AI",
+          "insights",
+          "pos",
           "LOS",
           "customer experience"
         ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Cultural shift toward experian & ikea - ad",
-      "theme": "Workplace & Culture",
-      "supporting_signals": [
-        "signal_006",
-        "signal_005"
-      ],
-      "story_count": 36,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian",
-          "Ikea"
-        ],
-        "technologies": [],
         "themes": [
-          "collaboration",
-          "mental health"
+          "mental health",
+          "collaboration"
         ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_03",
-      "narrative": "Industry movement: artificial intelligence - screens",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: world cup world cup",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_002",
-        "signal_004"
+        "signal_005",
+        "signal_000"
       ],
-      "story_count": 13,
+      "story_count": 26,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "artificial intelligence"
+          "AI"
         ],
         "themes": []
       },
-      "time_depth": "emerging",
+      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -99,15 +79,23 @@
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
+          "id": "signal_006",
+          "name": "insights & IKEA - New",
+          "story_count": 38,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_001",
-          "name": "pos - Brand",
-          "story_count": 12,
+          "name": "personalization & chatbot - Brand",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
+      "story_count": 53,
       "key_themes": [
-        "brand narrative"
+        "authenticity",
+        "brand narrative",
+        "mental health"
       ]
     },
     "workplace_culture": {
@@ -115,53 +103,78 @@
       "signals": [
         {
           "id": "signal_006",
-          "name": "Experian & Ikea - Ad",
-          "story_count": 20,
+          "name": "insights & IKEA - New",
+          "story_count": 38,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 16,
+          "id": "signal_004",
+          "name": "AI & Ogilvy - According",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Anomaly & artificial intelligence - Omnicom",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 36,
+      "story_count": 71,
       "key_themes": [
+        "authenticity",
         "collaboration",
-        "mental health"
+        "mental health",
+        "retention"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "IKEA & Truist - Bank",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "artificial intelligence - Screens",
-          "story_count": 7,
+          "id": "signal_006",
+          "name": "insights & IKEA - New",
+          "story_count": 38,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Link Comments Comments Submitted",
-          "story_count": 6,
+          "name": "AI & Ogilvy - According",
+          "story_count": 23,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "personalization & chatbot - Brand",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "World Cup World Cup",
+          "story_count": 11,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI - Programmatic",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Bank Decide Lender",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 65,
-      "key_themes": []
+      "story_count": 102,
+      "key_themes": [
+        "authenticity",
+        "brand narrative",
+        "collaboration",
+        "mental health"
+      ]
     }
   },
   "momentum_analysis": {
@@ -183,28 +196,28 @@
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "Truist",
-        "mentions": 1
-      },
-      {
-        "name": "Bank of America",
-        "mentions": 1
-      },
-      {
-        "name": "Ikea",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 21
+        "mentions": 26
+      },
+      {
+        "name": "personalization",
+        "mentions": 2
+      },
+      {
+        "name": "chatbot",
+        "mentions": 1
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
       },
       {
         "name": "LOS",
@@ -215,32 +228,41 @@
         "mentions": 1
       },
       {
+        "name": "Salesforce",
+        "mentions": 1
+      },
+      {
         "name": "pos",
-        "mentions": 1
-      },
-      {
-        "name": "UI",
-        "mentions": 1
-      },
-      {
-        "name": "UX",
         "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Its First",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
       },
       {
-        "theme": "collaboration",
+        "theme": "retention",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
         "approach": "brand narrative",
+        "frequency": 1
+      },
+      {
+        "approach": "authenticity",
         "frequency": 1
       }
     ]
@@ -261,38 +283,54 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 36,
+      "signal_count": 3,
+      "story_count": 71,
       "top_signals": [
-        "Experian & Ikea - Ad",
-        "Anomaly & Droga5 - Campaign"
+        "insights & IKEA - New",
+        "AI & Ogilvy - According",
+        "Anomaly & artificial intelligence - Omnicom"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on experian & ikea - ad"
+      "key_insight": "Cultural emphasis on insights & ikea - new"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 12,
+      "signal_count": 2,
+      "story_count": 53,
       "top_signals": [
-        "pos - Brand"
+        "insights & IKEA - New",
+        "personalization & chatbot - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: pos - brand"
+      "key_insight": "Storytelling direction: insights & ikea - new"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "insights",
+        "pos",
+        "LOS",
+        "customer experience"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & Truist - Bank",
-    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ikea & truist - bank.",
+    "headline": "Focus on insights & IKEA - New",
+    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on insights & ikea - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "mental health"
+      "mental health",
+      "collaboration"
     ],
     "attention_areas": [
-      "IKEA & Truist - Bank",
-      "AI & LOS - Ai Ai",
-      "Experian & Ikea - Ad"
+      "insights & IKEA - New",
+      "AI & Ogilvy - According",
+      "personalization & chatbot - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -300,8 +338,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 113 stories across 7 themes",
+    "High coverage intensity with 112 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
