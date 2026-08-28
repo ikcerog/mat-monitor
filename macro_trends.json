@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T18:25:43.564054",
+    "generated_at": "2026-08-28T19:37:21.500068",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 112,
+      "total_stories": 113,
       "total_signals": 7,
       "time_span_days": 0
     }
@@ -11,14 +11,13 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: insights & ikea - new",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: 72andsunny & artificial intelligence - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_006",
-        "signal_004",
         "signal_001"
       ],
-      "story_count": 76,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -26,35 +25,56 @@
           "Experian"
         ],
         "technologies": [
-          "AI",
-          "insights",
-          "pos",
-          "LOS",
-          "customer experience"
+          "artificial intelligence"
         ],
-        "themes": [
-          "mental health",
-          "collaboration"
-        ]
+        "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: world cup world cup",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & los - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
-        "signal_005",
+        "signal_003",
         "signal_000"
       ],
-      "story_count": 26,
+      "story_count": 35,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "AI"
+          "AI",
+          "LOS",
+          "artificial intelligence",
+          "chatbot",
+          "Chatbot"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Housing market dynamics showing personalization & chatbot - marketing",
+      "theme": "Housing Market",
+      "supporting_signals": [
+        "signal_002",
+        "signal_005"
+      ],
+      "story_count": 24,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Home Depot"
+        ],
+        "technologies": [
+          "personalization",
+          "chatbot",
+          "AI",
+          "business intelligence"
         ],
         "themes": []
       },
@@ -71,61 +91,42 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "personalization & chatbot - Marketing",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Home Depot - Retail",
+          "story_count": 5,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 24,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_006",
-          "name": "insights & IKEA - New",
-          "story_count": 38,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "personalization & chatbot - Brand",
-          "story_count": 15,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 53,
-      "key_themes": [
-        "authenticity",
-        "brand narrative",
-        "mental health"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "insights & IKEA - New",
-          "story_count": 38,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_004",
-          "name": "AI & Ogilvy - According",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Anomaly & artificial intelligence - Omnicom",
-          "story_count": 10,
+          "name": "AI & Wieden+Kennedy - Campaign",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 71,
+      "story_count": 16,
       "key_themes": [
-        "authenticity",
-        "collaboration",
-        "mental health",
-        "retention"
+        "mental health"
       ]
     },
     "industry_transformation": {
@@ -133,48 +134,37 @@
       "signals": [
         {
           "id": "signal_006",
-          "name": "insights & IKEA - New",
-          "story_count": 38,
+          "name": "72andSunny & artificial intelligence - World",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & Ogilvy - According",
-          "story_count": 23,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "personalization & chatbot - Brand",
-          "story_count": 15,
+          "id": "signal_003",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "World Cup World Cup",
-          "story_count": 11,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI - Programmatic",
-          "story_count": 8,
+          "name": "personalization & chatbot - Marketing",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Bank Decide Lender",
-          "story_count": 7,
+          "name": "AI & Chatbot - Meta",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Bank Ceo Said",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 102,
-      "key_themes": [
-        "authenticity",
-        "brand narrative",
-        "collaboration",
-        "mental health"
-      ]
+      "story_count": 92,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -190,6 +180,10 @@
   "entity_landscape": {
     "dominant_brands": [
       {
+        "name": "Home Depot",
+        "mentions": 1
+      },
+      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -201,7 +195,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "name": "personalization",
@@ -209,10 +203,14 @@
       },
       {
         "name": "chatbot",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "artificial intelligence",
+        "mentions": 2
+      },
+      {
+        "name": "Chatbot",
         "mentions": 1
       },
       {
@@ -224,48 +222,18 @@
         "mentions": 1
       },
       {
-        "name": "customer experience",
-        "mentions": 1
-      },
-      {
-        "name": "Salesforce",
-        "mentions": 1
-      },
-      {
-        "name": "pos",
+        "name": "business intelligence",
         "mentions": 1
       }
     ],
-    "influential_voices": [
-      {
-        "name": "Its First",
-        "mentions": 1
-      }
-    ],
+    "influential_voices": [],
     "cultural_movements": [
-      {
-        "theme": "collaboration",
-        "frequency": 1
-      },
       {
         "theme": "mental health",
         "frequency": 1
-      },
-      {
-        "theme": "retention",
-        "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "brand narrative",
-        "frequency": 1
-      },
-      {
-        "approach": "authenticity",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -283,25 +251,20 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 71,
+      "signal_count": 1,
+      "story_count": 16,
       "top_signals": [
-        "insights & IKEA - New",
-        "AI & Ogilvy - According",
-        "Anomaly & artificial intelligence - Omnicom"
+        "AI & Wieden+Kennedy - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on insights & ikea - new"
+      "key_insight": "Cultural emphasis on ai & wieden+kennedy - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 2,
-      "story_count": 53,
-      "top_signals": [
-        "insights & IKEA - New",
-        "personalization & chatbot - Brand"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: insights & ikea - new"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [
@@ -310,27 +273,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "insights",
-        "pos",
+        "chatbot",
         "LOS",
-        "customer experience"
+        "artificial intelligence",
+        "personalization"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on insights & IKEA - New",
-    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on insights & ikea - new.",
+    "headline": "Focus on 72andSunny & artificial intelligence - World",
+    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on 72andsunny & artificial intelligence - world.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health",
-      "collaboration"
+      "mental health"
     ],
     "attention_areas": [
-      "insights & IKEA - New",
-      "AI & Ogilvy - According",
-      "personalization & chatbot - Brand"
+      "72andSunny & artificial intelligence - World",
+      "AI & LOS - Ai Ai",
+      "personalization & chatbot - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -338,9 +300,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 112 stories across 7 themes",
+    "High coverage intensity with 113 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
