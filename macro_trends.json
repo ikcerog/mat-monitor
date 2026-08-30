@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T13:24:27.069048",
+    "generated_at": "2026-08-30T13:20:54.521588",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 113,
@@ -11,23 +11,57 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward 72andsunny & artificial intelligence - bank",
-      "theme": "Workplace & Culture",
+      "narrative": "Technology adoption wave: personalization & anomaly - week",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_003",
-        "signal_004"
+        "signal_005",
+        "signal_006"
       ],
-      "story_count": 36,
+      "story_count": 54,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "article"
+        ],
         "technologies": [
+          "AI",
+          "personalization",
           "artificial intelligence",
-          "personalization"
+          "LOS",
+          "chatbot"
         ],
         "themes": [
-          "remote work",
-          "mental health",
+          "mental health"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_03",
+      "narrative": "Housing market dynamics showing personalization & 72andsunny - marketing",
+      "theme": "Housing Market",
+      "supporting_signals": [
+        "signal_002",
+        "signal_004"
+      ],
+      "story_count": 33,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "IKEA",
+          "Experian",
+          "Home Depot"
+        ],
+        "technologies": [
+          "personalization",
+          "AI",
+          "business intelligence",
+          "artificial intelligence",
+          "insights"
+        ],
+        "themes": [
           "company culture"
         ]
       },
@@ -36,51 +70,20 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & los - ai ai",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: ai - video",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_002",
-        "signal_000"
+        "signal_000",
+        "signal_001"
       ],
-      "story_count": 34,
+      "story_count": 26,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "AI",
-          "LOS",
-          "Chatbot",
-          "insights"
+          "AI"
         ],
         "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_03",
-      "narrative": "Housing market dynamics showing personalization & chatbot - marketing",
-      "theme": "Housing Market",
-      "supporting_signals": [
-        "signal_001",
-        "signal_005"
-      ],
-      "story_count": 28,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Home Depot"
-        ],
-        "technologies": [
-          "personalization",
-          "chatbot",
-          "business intelligence"
-        ],
-        "themes": [
-          "DEI",
-          "diversity",
-          "equity"
-        ]
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -97,24 +100,21 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "personalization & chatbot - Marketing",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "personalization & 72andSunny - Marketing",
+          "story_count": 17,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "Home Depot - Ads",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "Wieden+Kennedy & Home Depot - Media",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 28,
+      "story_count": 33,
       "key_themes": [
-        "DEI",
-        "diversity",
-        "equity",
-        "inclusion"
+        "company culture"
       ]
     },
     "customer_experience": {
@@ -128,66 +128,73 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "72andSunny & artificial intelligence - Bank",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "personalization & chatbot - Marketing",
-          "story_count": 15,
+          "name": "personalization & Anomaly - Week",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "personalization & Wieden+Kennedy - Campaign",
-          "story_count": 14,
+          "name": "Wieden+Kennedy & Home Depot - Media",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 37,
       "key_themes": [
-        "DEI",
         "company culture",
-        "diversity",
-        "equity",
-        "inclusion"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 19,
+          "id": "signal_003",
+          "name": "personalization & Anomaly - Week",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "personalization & chatbot - Marketing",
-          "story_count": 15,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "AI & Chatbot - Meta",
-          "story_count": 15,
+          "name": "AI - Video",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "personalization & 72andSunny - Marketing",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Wieden+Kennedy & Home Depot - Media",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
           "id": "signal_006",
-          "name": "AI & IKEA - Executive",
-          "story_count": 15,
+          "name": "chatbot & Chatbot - Issues",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Bank Trump Proposed",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 64,
+      "story_count": 113,
       "key_themes": [
-        "DEI",
-        "diversity",
-        "equity",
-        "inclusion"
+        "company culture",
+        "mental health"
       ]
     }
   },
@@ -214,12 +221,20 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
+        "mentions": 26
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 3
       },
       {
         "name": "personalization",
@@ -227,10 +242,6 @@
       },
       {
         "name": "chatbot",
-        "mentions": 1
-      },
-      {
-        "name": "artificial intelligence",
         "mentions": 1
       },
       {
@@ -257,19 +268,7 @@
         "frequency": 1
       },
       {
-        "theme": "remote work",
-        "frequency": 1
-      },
-      {
-        "theme": "DEI",
-        "frequency": 1
-      },
-      {
-        "theme": "diversity",
-        "frequency": 1
-      },
-      {
-        "theme": "equity",
+        "theme": "company culture",
         "frequency": 1
       }
     ],
@@ -291,15 +290,14 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 3,
-      "story_count": 51,
+      "signal_count": 2,
+      "story_count": 37,
       "top_signals": [
-        "72andSunny & artificial intelligence - Bank",
-        "personalization & chatbot - Marketing",
-        "personalization & Wieden+Kennedy - Campaign"
+        "personalization & Anomaly - Week",
+        "Wieden+Kennedy & Home Depot - Media"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on 72andsunny & artificial intelligence - bank"
+      "key_insight": "Cultural emphasis on personalization & anomaly - week"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -315,27 +313,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "LOS",
         "personalization",
-        "chatbot",
+        "artificial intelligence",
+        "LOS",
         "business intelligence"
       ],
-      "signal_count": 3,
+      "signal_count": 5,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on 72andSunny & artificial intelligence - Bank",
-    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on 72andsunny & artificial intelligence - bank.",
+    "headline": "Focus on personalization & Anomaly - Week",
+    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on personalization & anomaly - week.",
     "key_shifts": [],
     "dominant_themes": [
-      "remote work",
-      "DEI"
+      "mental health",
+      "company culture"
     ],
     "attention_areas": [
-      "72andSunny & artificial intelligence - Bank",
-      "AI & LOS - Ai Ai",
-      "personalization & chatbot - Marketing"
+      "personalization & Anomaly - Week",
+      "AI & artificial intelligence - Ai Ai",
+      "AI - Video"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -345,7 +343,6 @@
   "macro_observations": [
     "High coverage intensity with 113 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
