@@ -1,36 +1,60 @@
 {
   "meta": {
-    "generated_at": "2026-09-04T12:17:07.740724",
+    "generated_at": "2026-09-05T11:24:18.689638",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 113,
+      "total_stories": 112,
       "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Industry movement: huge - world",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: allstate & experian - week",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_004",
-        "signal_005",
+        "signal_002",
         "signal_003",
-        "signal_006"
+        "signal_005"
       ],
-      "story_count": 50,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Allstate"
+          "Allstate",
+          "Experian",
+          "IKEA"
         ],
         "technologies": [
-          "artificial intelligence"
+          "insights"
         ],
         "themes": []
       },
       "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_01",
+      "narrative": "Cultural shift toward anomaly & artificial intelligence - campaign",
+      "theme": "Workplace & Culture",
+      "supporting_signals": [
+        "signal_001",
+        "signal_006"
+      ],
+      "story_count": 37,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "artificial intelligence"
+        ],
+        "themes": [
+          "mental health",
+          "Equity"
+        ]
+      },
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -43,42 +67,30 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_001",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 23,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 23,
-      "key_themes": [
-        "Equity",
-        "thought leadership"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 23,
+          "id": "signal_004",
+          "name": "huge - Brand",
+          "story_count": 19,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Droga5 & Anomaly - Campaign",
-          "story_count": 20,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 43,
+      "story_count": 37,
       "key_themes": [
-        "Equity",
         "brand positioning",
-        "mental health",
-        "thought leadership"
+        "messaging"
       ]
     },
     "workplace_culture": {
@@ -86,61 +98,55 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 23,
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Droga5 & Anomaly - Campaign",
-          "story_count": 20,
+          "id": "signal_006",
+          "name": "Bank Deal Banking",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 43,
+      "story_count": 37,
       "key_themes": [
         "Equity",
-        "brand positioning",
-        "mental health",
-        "thought leadership"
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "huge - World",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_002",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 20,
+          "name": "Allstate & Experian - Week",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "Allstate & artificial intelligence - Tv",
-          "story_count": 13,
+          "id": "signal_000",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "Google Amazon Ad",
+          "name": "Submitted Link Comments Link",
           "story_count": 10,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "Morning News Previously",
-          "story_count": 5,
+          "id": "signal_005",
+          "name": "IKEA & insights - Trade",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 70,
-      "key_themes": []
+      "story_count": 56,
+      "key_themes": [
+        "messaging"
+      ]
     }
   },
   "momentum_analysis": {
@@ -166,35 +172,23 @@
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "article",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 22
+        "mentions": 18
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 1
       },
       {
         "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "customer experience",
-        "mentions": 1
-      },
-      {
         "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "SaaS",
         "mentions": 1
       }
     ],
@@ -211,11 +205,11 @@
     ],
     "storytelling_approaches": [
       {
-        "approach": "brand positioning",
+        "approach": "messaging",
         "frequency": 1
       },
       {
-        "approach": "thought leadership",
+        "approach": "brand positioning",
         "frequency": 1
       }
     ]
@@ -237,38 +231,38 @@
     },
     "enterprise_culture": {
       "signal_count": 2,
-      "story_count": 43,
+      "story_count": 37,
       "top_signals": [
-        "AI & IKEA - Marketing",
-        "Droga5 & Anomaly - Campaign"
+        "Anomaly & artificial intelligence - Campaign",
+        "Bank Deal Banking"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & ikea - marketing"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
     },
     "brand_storytelling": {
       "signal_count": 2,
-      "story_count": 43,
+      "story_count": 37,
       "top_signals": [
-        "AI & IKEA - Marketing",
-        "Droga5 & Anomaly - Campaign"
+        "huge - Brand",
+        "AI & LOS - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & ikea - marketing"
+      "key_insight": "Storytelling direction: huge - brand"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Marketing",
-    "executive_summary": "Analysis of 113 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - marketing.",
+    "headline": "Focus on Anomaly & artificial intelligence - Campaign",
+    "executive_summary": "Analysis of 112 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & artificial intelligence - campaign.",
     "key_shifts": [],
     "dominant_themes": [
-      "Equity",
-      "mental health"
+      "mental health",
+      "Equity"
     ],
     "attention_areas": [
-      "AI & IKEA - Marketing",
-      "huge - World",
-      "Droga5 & Anomaly - Campaign"
+      "Anomaly & artificial intelligence - Campaign",
+      "Allstate & Experian - Week",
+      "huge - Brand"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -276,7 +270,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 113 stories across 7 themes",
+    "High coverage intensity with 112 stories across 7 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
