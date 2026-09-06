@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-05T11:24:18.663171",
+    "generated_at": "2026-09-06T11:45:50.780990",
     "timeframe": {
       "period": "Recent period",
       "coverage_days": 7,
@@ -13,9 +13,9 @@
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "Anomaly & artificial intelligence - Campaign (↑28 mentions)",
-        "Allstate & Experian - Week (↑21 mentions)",
-        "huge - Brand (↑19 mentions)"
+        "Anomaly & Droga5 - Campaign (↑35 mentions)",
+        "Allstate & Experian - Ad (↑26 mentions)",
+        "AI & LOS - Ai Ai (↑19 mentions)"
       ],
       "regulatory_climate": [
         "Antitrust: 3 stories"
@@ -32,31 +32,58 @@
   "signals": [
     {
       "cluster_id": "signal_001",
-      "cluster_name": "Anomaly & artificial intelligence - Campaign",
-      "description": "Coverage of artificial intelligence.",
-      "frequency": 28,
+      "cluster_name": "Anomaly & Droga5 - Campaign",
+      "description": "Coverage of pos.",
+      "frequency": 35,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 28,
+      "story_count": 35,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Marketing Dive - Latest News",
-        "Adpulp",
-        "Fast Company",
         "Banking Dive - Latest News",
+        "Adpulp",
+        "VideoWeek",
+        "Campaign UK More Latest RSS Feed",
+        "Fast Company",
+        "Adweek Feed",
         "CIO Dive - Latest News",
-        "Ad Tech Daily",
+        "Advertising",
+        "Marketing Dive - Latest News",
         "More About Advertising",
-        "Campaign UK More Latest RSS Feed"
+        "Ad Tech Daily"
       ],
       "stories": [
         {
-          "title": "Hoka builds Strava running stats into digital OOH campaign",
+          "title": "No More Wrestling Ad Campaign Features A Lot More Wrestling",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/no-more-wrestling-ad-campaign-features-a-lot-more-wrestling/",
+          "summary": "Packaging improvements help create a better brand experiences, but these sort of upgrades rarely get the attention that a smart advertising campaign provides. Of course, Chupa Cups isn’t your everyday",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The UPS Store enlists first brand character to support franchisees",
           "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/hoka-builds-strava-running-stats-into-digital-ooh-campaign/829480/",
-          "summary": "The marketer is pitting New York’s five boroughs against one another for a “Run Your City” challenge and will leverage the results for campaign creative.",
+          "url": "https://www.marketingdive.com/news/the-ups-store-enlists-first-brand-character-to-support-franchisees/829215/",
+          "summary": "Blu, a friendly woman wearing a blue UPS polo, is one piece of a multiyear campaign that spans digital, TV, social and print channels.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How Hershey’s Katseye campaign takes on Gen Z’s desire for indulgence",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/how-hersheys-katseye-campaign-takes-on-gen-zs-desire-for-indulgence/829013/",
+          "summary": "As the confectionery maker invests in brands to build on recent growth, its flagship label teamed with a chart-topping pop group to support a new product.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Vodafone creates action-film inspired ad to showcase network speeds",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/vodafone-creates-action-film-inspired-ad-showcase-network-speeds/1969069",
+          "summary": "Campaign has been made by Leo UK.",
           "relevance_score": 0.85
         },
         {
@@ -68,11 +95,19 @@
           "relevance_score": 0.85
         },
         {
-          "title": "No More Wrestling Ad Campaign Features A Lot More Wrestling",
+          "title": "Kirsty Hathaway exits Joan London and launches consultancy",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/kirsty-hathaway-exits-joan-london-launches-consultancy/1969087",
+          "summary": "Kirsty Hathaway Consultancy will work with brands across the UK and US.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Ally Turns Worried Worker Into Successful Shopper",
           "outlet": "Adpulp",
           "date": "",
-          "url": "https://www.adpulp.com/no-more-wrestling-ad-campaign-features-a-lot-more-wrestling/",
-          "summary": "Packaging improvements help create a better brand experiences, but these sort of upgrades rarely get the attention that a smart advertising campaign provides. Of course, Chupa Cups isn’t your everyday",
+          "url": "https://www.adpulp.com/ally-turns-worried-worker-into-successful-shopper/",
+          "summary": "I’m intrigued by how members of Gen Z see their future, socially, economically, and politically, and how this new campaign from Ally (and their agency, Anomaly LA) portrays their thinking and concerns",
           "relevance_score": 0.85
         },
         {
@@ -92,43 +127,11 @@
           "relevance_score": 0.85
         },
         {
-          "title": "WPP – when a low profile is what you need most",
-          "outlet": "More About Advertising",
+          "title": "VodafoneThree Leans on Streaming Bundling for New TV Offering",
+          "outlet": "VideoWeek",
           "date": "",
-          "url": "https://www.moreaboutadvertising.com/wpp-when-a-low-profile-is-what-you-need-most/?utm_source=rss&utm_medium=rss&utm_campaign=wpp-when-a-low-profile-is-what-you-need-most",
-          "summary": "Most denizens of adland want to be on the tip of everyone’s tongue: the market is oversubscribed and only a […] The post WPP – when a low profile is what you need most appeared first on More About Adv",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A Fundamental Truth, Powerfully Conveyed: No Blue, No Green",
-          "outlet": "Adpulp",
-          "date": "",
-          "url": "https://www.adpulp.com/a-fundamental-truth-powerfully-conveyed-no-blue-no-green/",
-          "summary": "São Paulo – Droga5 São Paulo introduced the second phase of “Lifeless Flag”, a campaign created for SOS Oceano, a coalition of NGOs advocating for the expansion of marine protected areas. The first ph",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Tesla’s viral ad for its new Cybercab robotaxi has one glaring problem",
-          "outlet": "Fast Company",
-          "date": "",
-          "url": "https://www.fastcompany.com/91602556/tesla-viral-ad-for-new-cybercab-robotaxi-has-one-glaring-problem",
-          "summary": "The newest addition to Tesla’s fleet of robotaxis is now on the road. While the driverless taxi service previously offered only the Model Y, it recently introduced the Cybercab—a golden car with butte",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "The UPS Store enlists first brand character to support franchisees",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/the-ups-store-enlists-first-brand-character-to-support-franchisees/829215/",
-          "summary": "Blu, a friendly woman wearing a blue UPS polo, is one piece of a multiyear campaign that spans digital, TV, social and print channels.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How Hershey’s Katseye campaign takes on Gen Z’s desire for indulgence",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/how-hersheys-katseye-campaign-takes-on-gen-zs-desire-for-indulgence/829013/",
-          "summary": "As the confectionery maker invests in brands to build on recent growth, its flagship label teamed with a chart-topping pop group to support a new product.",
+          "url": "https://videoweek.com/2026/09/03/vodafonethree-leans-on-streaming-bundling-for-new-tv-offering/",
+          "summary": "Just over a year after the £16.5 billion merger of British telco groups Vodafone UK and Three UK, VodafoneThree has announced the launch of a new TV offering, which will go live next month. The move w",
           "relevance_score": 0.85
         }
       ],
@@ -139,47 +142,49 @@
           "Droga5"
         ],
         "technologies": [
-          "artificial intelligence"
+          "pos"
         ],
         "companies": [],
         "people": [],
         "locations": [],
-        "products": [
-          "Arm"
-        ],
+        "products": [],
         "metrics": [],
         "cultural_themes": [
           "mental health"
         ],
-        "storytelling_themes": [],
+        "storytelling_themes": [
+          "brand positioning"
+        ],
         "housing_terms": []
       },
       "related_buzzwords": [
         "campaign",
         "new",
-        "created",
-        "ad",
-        "activation"
+        "brand",
+        "agency",
+        "advertising"
       ]
     },
     {
       "cluster_id": "signal_002",
-      "cluster_name": "Allstate & Experian - Week",
+      "cluster_name": "Allstate & Experian - Ad",
       "description": "Stories featuring Allstate, Experian.",
-      "frequency": 21,
+      "frequency": 26,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 21,
+      "story_count": 26,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Fast Company",
         "Adpulp",
         "VideoWeek",
-        "Ad Tech Daily",
+        "Campaign UK More Latest RSS Feed",
+        "Fast Company",
         "Adweek Feed",
+        "Advertising",
+        "Marketing Dive - Latest News",
         "AdExchanger",
-        "Campaign UK More Latest RSS Feed"
+        "Ad Tech Daily"
       ],
       "stories": [
         {
@@ -280,17 +285,17 @@
         "housing_terms": []
       },
       "related_buzzwords": [
-        "week",
         "ad",
-        "tech",
-        "google",
-        "amazon"
+        "week",
+        "business",
+        "ads",
+        "google"
       ]
     },
     {
-      "cluster_id": "signal_004",
-      "cluster_name": "huge - Brand",
-      "description": "Cluster of related stories.",
+      "cluster_id": "signal_000",
+      "cluster_name": "AI & LOS - Ai Ai",
+      "description": "Coverage of AI, LOS, artificial intelligence.",
       "frequency": 19,
       "momentum": "stable",
       "confidence": "high",
@@ -298,156 +303,36 @@
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Marketing Dive - Latest News",
-        "Adpulp",
-        "Fast Company",
-        "Banking Dive - Latest News",
         "VideoWeek",
-        "Adweek Feed",
-        "Ad Tech Daily",
-        "AdExchanger",
-        "Campaign UK More Latest RSS Feed"
-      ],
-      "stories": [
-        {
-          "title": "Jellyfish hires Seun Odeneye as chief media officer",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "",
-          "url": "https://www.campaignlive.co.uk/article/jellyfish-hires-seun-odeneye-chief-media-officer/1969159",
-          "summary": "The role is a new one for the agency.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Popular Brazilian Lager Is Preparing World Cup Fans for Victory",
-          "outlet": "Adpulp",
-          "date": "",
-          "url": "https://www.adpulp.com/popular-brazilian-lager-is-preparing-world-cup-fans-for-victory/",
-          "summary": "The world’s favorite game and most prestigious championship is coming to North America this summer. The FIFA World Cup will feature 48 teams, 104 matches, and 16 cities, with the final held at MetLife",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How Telemundo Retained The Fans They Brought In For The World Cup",
-          "outlet": "AdExchanger",
-          "date": "",
-          "url": "https://www.adexchanger.com/ctv-roundup/for-telemundo-marketing-isnt-a-one-way-street-anymore/",
-          "summary": "According to Telemundo, one out of every two people who watched the 2026 FIFA World Cup this year tuned into the network’s Spanish-language broadcasts rather than the English-language version on Fox. ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "VodafoneThree Leans on Streaming Bundling for New TV Offering",
-          "outlet": "VideoWeek",
-          "date": "",
-          "url": "https://videoweek.com/2026/09/03/vodafonethree-leans-on-streaming-bundling-for-new-tv-offering/",
-          "summary": "Just over a year after the £16.5 billion merger of British telco groups Vodafone UK and Three UK, VodafoneThree has announced the launch of a new TV offering, which will go live next month. The move w",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "KFC names first global chief brand officer amid identity overhaul",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/kfc-names-first-global-chief-brand-officer-amid-identity-overhaul/829675/",
-          "summary": "The chain created the post as it refreshes iconic assets, including Colonel Sanders, and recenters its menu on offerings like boneless chicken.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Athletic Brewing appoints new CMO amid marketing push",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/athletic-brewing-appoints-new-cmo-amid-marketing-push/829349/",
-          "summary": "The appointment comes as the brand continues to invest heavily in sports sponsorships and is doubling down on its national media spend.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Retail Roundup: Amazon&#8217;s $20 Billion Lawsuit, and Commerce Media’s First Upfronts",
-          "outlet": "Adweek Feed",
-          "date": "",
-          "url": "https://www.adweek.com/commerce/retail-roundup-amazons-20-billion-lawsuit-and-commerce-medias-first-upfronts/",
-          "summary": "Plus, DoorDash’s measurement certification and Ace’s new feature.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Pasta Powerhouse Barilla Helps Itself to Posh Mac and Cheese Upstart Goodles",
-          "outlet": "Adweek Feed",
-          "date": "",
-          "url": "https://www.adweek.com/commerce/pasta-powerhouse-barilla-helps-itself-to-posh-mac-and-cheese-upstart-goodles/",
-          "summary": "The $5.6 billion multinational said it was \"impressed by the strength\" of the six-year-old brand.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
-          "outlet": "Ad Tech Daily",
-          "date": "",
-          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
-          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "IPTV Transition Could Boost PSBs — And UK Production by Extension",
-          "outlet": "VideoWeek",
-          "date": "",
-          "url": "https://videoweek.com/2026/08/27/iptv-transition-could-boost-psbs-and-uk-production-by-extension/",
-          "summary": "It's no secret that public sector broadcasters' (PSB) business models are under pressure. A new report from media analyst Oliver & Ohlbaum (O&O) lays bare some of the figures: PSB linear ad revenues f",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [
-          "huge"
-        ],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [
-          "brand positioning"
-        ],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "brand",
-        "year",
-        "new",
-        "media",
-        "world"
-      ]
-    },
-    {
-      "cluster_id": "signal_000",
-      "cluster_name": "AI & LOS - Ai Ai",
-      "description": "Coverage of AI, LOS.",
-      "frequency": 18,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 18,
-      "first_seen": null,
-      "peak_date": null,
-      "outlets": [
-        "Marketing Dive - Latest News",
         "Fast Company",
         "CIO Dive - Latest News",
-        "VideoWeek",
-        "Ad Tech Daily",
-        "AdExchanger"
+        "Marketing Dive - Latest News",
+        "AdExchanger",
+        "Ad Tech Daily"
       ],
       "stories": [
+        {
+          "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/Nvidia-acquires-hugging-face-enterprises/829615/",
+          "summary": "The chipmaker’s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Back-to-school marketing is a mash up of AI tech and value messaging",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/back-to-school-marketing-is-a-mash-up-of-ai-tech-and-value-messaging/829626/",
+          "summary": "The 2026 back-to-school shopper turned to digital tools like AI to save money, but those who use the tech can end up spending more than those who don’t.",
+          "relevance_score": 0.85
+        },
         {
           "title": "Deloitte aims to help enterprises with hybrid AI model strategy",
           "outlet": "CIO Dive - Latest News",
           "date": "",
           "url": "https://www.ciodive.com/news/Deloitte-open-source-models-practice-engineering/829722/",
           "summary": "The consulting firm is launching an open model engineering practice intending to help enterprises find the right mix.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Kyndryl, Broadcom bet on VMware skills as private cloud demand returns",
-          "outlet": "CIO Dive - Latest News",
-          "date": "",
-          "url": "https://www.ciodive.com/news/kyndryl-broadcom-bet-on-vmware-skills-private-cloud/829723/",
-          "summary": "Kyndryl is adding consulting, managed services and agentic AI guardrails to VCF, backed by a skills push covering several thousand of its own consultants.",
           "relevance_score": 0.85
         },
         {
@@ -467,19 +352,11 @@
           "relevance_score": 0.85
         },
         {
-          "title": "AI adoption helps sustain confidence in the mainframe",
-          "outlet": "CIO Dive - Latest News",
+          "title": "Skin cancer detection tools powered by AI are improving. Not everyone is benefitting",
+          "outlet": "Fast Company",
           "date": "",
-          "url": "https://www.ciodive.com/news/mainframe-confidence-AI-adoption/829363/",
-          "summary": "Companies are enlisting agents to help manage the platform amid ongoing modernization, according to BMC’s annual survey.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Back-to-school marketing is a mash up of AI tech and value messaging",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/back-to-school-marketing-is-a-mash-up-of-ai-tech-and-value-messaging/829626/",
-          "summary": "The 2026 back-to-school shopper turned to digital tools like AI to save money, but those who use the tech can end up spending more than those who don’t.",
+          "url": "https://www.fastcompany.com/91601580/skin-cancer-detection-tools-powered-by-ai-are-improving-not-everyone-is-benefitting",
+          "summary": "Imagine you’re getting out of the shower one morning and you notice a mole on your thigh that you’ve never seen before. It’s reddish brown, bumpy and surprisingly large. Is it a benign mole, or is it ",
           "relevance_score": 0.85
         },
         {
@@ -499,19 +376,19 @@
           "relevance_score": 0.85
         },
         {
+          "title": "AdGreetz and DAIVID Partnership Brings AI-Generated, AI-Optimized Ad Campaigns to SMBs Worldwide",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/09/29/adgreetz-and-daivid-partnership-brings-ai-generated-ai-optimized-ad-campaigns-to-smbs-worldwide/",
+          "summary": "Global deal sees small and medium-sized businesses gain access to personalized GenAI ads and tools to test their effectiveness before launch LONDON, UK; LOS ANGELES, CALIFORNIA – Small and medium-size",
+          "relevance_score": 0.85
+        },
+        {
           "title": "Vecima to Highlight Efficient, AI-powered Video Streaming and Innovative Monetization Solutions at IBC 2025",
           "outlet": "Ad Tech Daily",
           "date": "",
           "url": "https://adtechdaily.com/2025/08/28/vecima-to-highlight-efficient-ai-powered-video-streaming-and-innovative-monetization-solutions-at-ibc-2025/",
           "summary": "VICTORIA, British Columbia — Vecima Networks Inc. (TSX: VCM) today announced its MediaScale™ solution line-up for IBC 2025 in Amsterdam, highlighting multiple video industry innovations, including Key",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "6sense Expands Executive Team to Scale Innovation and Advance Leadership in AI-Powered Revenue Marketing",
-          "outlet": "Ad Tech Daily",
-          "date": "",
-          "url": "https://adtechdaily.com/2025/08/27/6sense-expands-executive-team-to-scale-innovation-and-advance-leadership-in-ai-powered-revenue-marketing/",
-          "summary": "SAN FRANCISCO — 6sense®, the first AI-powered revenue marketing platform, today announced three strategic executive appointments: Tim O’Neil as Chief Sales Officer, Amir Ravandoust as Chief Operating ",
           "relevance_score": 0.85
         }
       ],
@@ -520,7 +397,8 @@
         "agencies": [],
         "technologies": [
           "AI",
-          "LOS"
+          "LOS",
+          "artificial intelligence"
         ],
         "companies": [],
         "people": [],
@@ -537,13 +415,13 @@
         "ai",
         "ai ai",
         "enterprises",
-        "companies",
-        "tech"
+        "tools",
+        "powered"
       ]
     },
     {
-      "cluster_id": "signal_003",
-      "cluster_name": "Submitted Link Comments Link",
+      "cluster_id": "signal_004",
+      "cluster_name": "Bank Financial Banks",
       "description": "Cluster of related stories.",
       "frequency": 10,
       "momentum": "stable",
@@ -552,141 +430,18 @@
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "/r/tech: Technological innovations and changes"
-      ],
-      "stories": [
-        {
-          "title": "New method allows scientists to follow gene activity over time in the same cells",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w73li1/new_method_allows_scientists_to_follow_gene/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Scientists develop nanomaterial that targets cancer cells while sparing healthy tissue",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w66mgf/scientists_develop_nanomaterial_that_targets/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Scientists built a battery that charges almost instantly, but there's a catch",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w2gvq3/scientists_built_a_battery_that_charges_almost/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Atlas of the brain’s striatum could guide researchers to new drug treatments",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w59o23/atlas_of_the_brains_striatum_could_guide/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Mathematical framework connects biological principles to manufacturable, adaptive materials",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w4a0ph/mathematical_framework_connects_biological/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Researchers uncover hidden pore network within nuclear fuel",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w1l7mv/researchers_uncover_hidden_pore_network_within/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "A new kind of aircraft departs an MIT classroom and arrives at an Ohio factory",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w0qe5l/a_new_kind_of_aircraft_departs_an_mit_classroom/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "MIT engineers create a system for building shape-changing smart devices",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1vzsfn8/mit_engineers_create_a_system_for_building/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "MIT engineers design a better controller for operating construction diggers",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1vxydp5/mit_engineers_design_a_better_controller_for/",
-          "summary": "submitted by    /u/AdSpecialist6598 [link]   [comments]",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Without new landers or rovers, it's helicopters or bust for NASA's Mars program",
-          "outlet": "/r/tech: Technological innovations and changes",
-          "date": "",
-          "url": "https://www.reddit.com/r/tech/comments/1w7b993/without_new_landers_or_rovers_its_helicopters_or/",
-          "summary": "submitted by    /u/Sariel007 [link]   [comments]",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "submitted",
-        "link comments",
-        "link",
-        "comments",
-        "submitted adspecialist6598"
-      ]
-    },
-    {
-      "cluster_id": "signal_006",
-      "cluster_name": "Bank Deal Banking",
-      "description": "Cluster of related stories.",
-      "frequency": 9,
-      "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 9,
-      "first_seen": null,
-      "peak_date": null,
-      "outlets": [
-        "Fast Company",
         "Banking Dive - Latest News",
-        "CIO Dive - Latest News"
+        "Advertising",
+        "Ad Tech Daily",
+        "Fast Company"
       ],
       "stories": [
         {
-          "title": "TabaPay eyes OCC charter with Denver bank deal",
+          "title": "Banks can question customer activity without disclosing SARs",
           "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.bankingdive.com/news/tabapay-to-buy-transact-bank-ftv-capital-155-million-investment-occ-charter/829459/",
-          "summary": "The money movement platform, which once sought to buy Synapse’s assets, received a $155 million investment to pursue Transact Bank.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "MoneyLion alums take OpenReserve ‘out of stealth’",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/openreserve-occ-conditional-approval-moneylion-alums-choubey-correia-continuous-banking/829705/",
-          "summary": "Couched as a home for “continuous” banking, the company received conditional approval for a national banking license from the OCC.",
+          "url": "https://www.bankingdive.com/news/banks-can-question-customer-activity-without-disclosing-sars/829577/",
+          "summary": "Five federal regulators clarified how financial institutions can talk to customers about suspicious activity without violating the Bank Secrecy Act.",
           "relevance_score": 0.85
         },
         {
@@ -698,11 +453,27 @@
           "relevance_score": 0.85
         },
         {
-          "title": "FNBO to acquire Colorado bank in $204M deal",
+          "title": "Banks without holding companies need better disclosure rules: GAO",
           "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.bankingdive.com/news/fnbo-acquires-inbank-colorado-bank-deal-204m-merger/829424/",
-          "summary": "The Nebraska-based lender said acquiring $1.4 billion-asset InBank will expand its Colorado footprint into the Denver and Colorado Springs markets.",
+          "url": "https://www.bankingdive.com/news/gao-banks-without-holding-companies-need-better-disclosure-rules-sec/829690/",
+          "summary": "Such banks aren’t subject to SEC review, and regulators aren’t assessing those lenders’ disclosures for investors’ benefit, the watchdog said.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "TabaPay eyes OCC charter with Denver bank deal",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/tabapay-to-buy-transact-bank-ftv-capital-155-million-investment-occ-charter/829459/",
+          "summary": "The money movement platform, which once sought to buy Synapse’s assets, received a $155 million investment to pursue Transact Bank.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Stablecoins lose ground to tokenized deposits",
+          "outlet": "Banking Dive - Latest News",
+          "date": "",
+          "url": "https://www.bankingdive.com/news/stablecoins-lose-ground-tokenized-deposits-jackson-hole-hernandez-ed-cos/829457/",
+          "summary": "While the digital currencies have gained some acceptance, there is a growing interest by financial institutions in tokenized deposits as an alternative.",
           "relevance_score": 0.85
         },
         {
@@ -714,35 +485,35 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Nvidia’s $12.9B Hugging Face deal could benefit enterprises",
-          "outlet": "CIO Dive - Latest News",
-          "date": "",
-          "url": "https://www.ciodive.com/news/Nvidia-acquires-hugging-face-enterprises/829615/",
-          "summary": "The chipmaker’s acquisition could eventually bring additional security resources and model evaluation tools to the platform, according to experts.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Banks can question customer activity without disclosing SARs",
+          "title": "FNBO to acquire Colorado bank in $204M deal",
           "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.bankingdive.com/news/banks-can-question-customer-activity-without-disclosing-sars/829577/",
-          "summary": "Five federal regulators clarified how financial institutions can talk to customers about suspicious activity without violating the Bank Secrecy Act.",
+          "url": "https://www.bankingdive.com/news/fnbo-acquires-inbank-colorado-bank-deal-204m-merger/829424/",
+          "summary": "The Nebraska-based lender said acquiring $1.4 billion-asset InBank will expand its Colorado footprint into the Denver and Colorado Springs markets.",
           "relevance_score": 0.85
         },
         {
-          "title": "TD pushes US branch expansion amid AML reform",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/td-us-bank-100-branches-2028-southeast-aml-asset-cap/829477/",
-          "summary": "The Canadian bank plans to open 100 U.S. branches by 2028, mostly in the Southeast. But satisfying its long-running consent order remains a top priority, executives said.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "They paid $470,000 for a ‘boring’ business. Within days, almost everything went wrong",
+          "title": "Great products don’t market themselves",
           "outlet": "Fast Company",
           "date": "",
-          "url": "https://www.fastcompany.com/91596754/boring-business-everything-went-wrong-ai",
-          "summary": "Andrea Palacio and her husband thought they were playing it safe. In a search for a passive income business, they paid $470,000 for a South Florida landscaping company a few years ago. It was, in thei",
+          "url": "https://www.fastcompany.com/91599924/great-products-dont-market-themselves",
+          "summary": "At a recent board meeting, someone suggested that we needed to go hard on PR and marketing to “build hype.” When the phrase “build hype” came up, the rest of the room soured immediately. To many, hype",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Is staying loyal to a holdco actually worth it?",
+          "outlet": "Advertising",
+          "date": "",
+          "url": "https://www.reddit.com/r/advertising/comments/1w7b76u/is_staying_loyal_to_a_holdco_actually_worth_it/",
+          "summary": "Genuine agency career question…. The longer I’m in this industry, the more it feels like the smartest move is to bounce every 2–3 years You can stay somewhere for 5 years, learn every terrible interna",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Sevio Releases 2025 Programmatic Monetization Performance Report for Financial Audience Publishers",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2026/03/06/sevio-releases-2025-programmatic-monetization-performance-report-for-financial-audience-publishers/",
+          "summary": "Sevio, a programmatic advertising infrastructure provider for financial audiences and blockchain publishers, has officially released its State of Financial Publishers (2025): Programmatic Monetization",
           "relevance_score": 0.85
         }
       ],
@@ -763,46 +534,46 @@
       },
       "related_buzzwords": [
         "bank",
-        "deal",
-        "banking",
-        "charter",
-        "occ"
+        "financial",
+        "banks",
+        "regulators",
+        "charter"
       ]
     },
     {
       "cluster_id": "signal_005",
-      "cluster_name": "IKEA & insights - Trade",
-      "description": "Stories featuring IKEA focusing on insights.",
-      "frequency": 7,
+      "cluster_name": "IKEA - Trade",
+      "description": "Stories featuring IKEA.",
+      "frequency": 9,
       "momentum": "stable",
       "confidence": "medium",
-      "story_count": 7,
+      "story_count": 9,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Marketing Dive - Latest News",
         "Adpulp",
-        "Fast Company",
         "VideoWeek",
-        "Ad Tech Daily",
+        "Campaign UK More Latest RSS Feed",
         "Adweek Feed",
-        "Campaign UK More Latest RSS Feed"
+        "Advertising",
+        "Marketing Dive - Latest News",
+        "Ad Tech Daily"
       ],
       "stories": [
-        {
-          "title": "The Trade Desk to cut 15% of global workforce in restructuring",
-          "outlet": "Campaign UK More Latest RSS Feed",
-          "date": "",
-          "url": "https://www.campaignlive.co.uk/article/trade-desk-cut-15-global-workforce-restructuring/1969160",
-          "summary": "CEO Jeff Green said the job cuts are about preparing for growth, not financial trouble, as the adtech giant revealed a $1.5bn cash pile in the 10 years since its IPO.",
-          "relevance_score": 0.85
-        },
         {
           "title": "The Trade Desk Sheds 15% of Staff on Heels of Lackluster Q2 Showing",
           "outlet": "Adweek Feed",
           "date": "",
           "url": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/",
           "summary": "The Trade Desk is cutting 15% of its global workforce, about 585 roles, CEO Jeff Green frames the layoffs as a move to sharpen focus and agility amid slowing growth.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The Trade Desk to cut 15% of global workforce in restructuring",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/trade-desk-cut-15-global-workforce-restructuring/1969160",
+          "summary": "CEO Jeff Green said the job cuts are about preparing for growth, not financial trouble, as the adtech giant revealed a $1.5bn cash pile in the 10 years since its IPO.",
           "relevance_score": 0.85
         },
         {
@@ -814,11 +585,11 @@
           "relevance_score": 0.85
         },
         {
-          "title": "A Real Nigerian Prince Pitches New Vaseline Authenticator",
-          "outlet": "Adpulp",
+          "title": "KFC names first global chief brand officer amid identity overhaul",
+          "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.adpulp.com/a-real-nigerian-prince-pitches-new-vaseline-authenticator/",
-          "summary": "With so much signal jamming, disinformation, spam, and outright fakery flooding the market today, it’s increasingly hard to tell fiction from fact. Here’s something that is painfully real: the global ",
+          "url": "https://www.marketingdive.com/news/kfc-names-first-global-chief-brand-officer-amid-identity-overhaul/829675/",
+          "summary": "The chain created the post as it refreshes iconic assets, including Colonel Sanders, and recenters its menu on offerings like boneless chicken.",
           "relevance_score": 0.85
         },
         {
@@ -830,11 +601,199 @@
           "relevance_score": 0.85
         },
         {
-          "title": "PepsiCo hands global media to Publicis amid transformation at CPG giant",
+          "title": "A Real Nigerian Prince Pitches New Vaseline Authenticator",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/a-real-nigerian-prince-pitches-new-vaseline-authenticator/",
+          "summary": "With so much signal jamming, disinformation, spam, and outright fakery flooding the market today, it’s increasingly hard to tell fiction from fact. Here’s something that is painfully real: the global ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The post layoff status signaling. Please stop doing this (TTD, Publicis, Omnicom, etc etc etc)",
+          "outlet": "Advertising",
+          "date": "",
+          "url": "https://www.reddit.com/r/advertising/comments/1w8atwg/the_post_layoff_status_signaling_please_stop/",
+          "summary": "Of all the things that piss me off about LinkedIn, nothing is more cringey than the “I wasn’t impacted, BUT I SEE YOU IF YOU WERE” posts after a layoff. I’ve survived several rounds of layoffs during ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Athletic Brewing appoints new CMO amid marketing push",
           "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/pepsico-hands-global-media-to-publicis-amid-transformation-at-cpg-giant/829556/",
-          "summary": "Omnicom was the incumbent on the account, which is moving agencies as PepsiCo navigates changing consumer appetites and technology demands.",
+          "url": "https://www.marketingdive.com/news/athletic-brewing-appoints-new-cmo-amid-marketing-push/829349/",
+          "summary": "The appointment comes as the brand continues to invest heavily in sports sponsorships and is doubling down on its national media spend.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "We're in Q4",
+          "outlet": "Advertising",
+          "date": "",
+          "url": "https://www.reddit.com/r/advertising/comments/1w79xog/were_in_q4/",
+          "summary": "The big companies like to slough off employees to make their books look better by the end of the year. I've heard rumors that non-client-facing roles, such as Finance and HR, will be laid off. What ar",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "IKEA"
+        ],
+        "agencies": [],
+        "technologies": [],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "trade",
+        "desk",
+        "trade desk",
+        "global",
+        "real"
+      ]
+    },
+    {
+      "cluster_id": "signal_003",
+      "cluster_name": "artificial intelligence & huge - World",
+      "description": "Coverage of artificial intelligence.",
+      "frequency": 9,
+      "momentum": "stable",
+      "confidence": "medium",
+      "story_count": 9,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "Adpulp",
+        "Campaign UK More Latest RSS Feed",
+        "Adweek Feed",
+        "AdExchanger",
+        "More About Advertising",
+        "Ad Tech Daily"
+      ],
+      "stories": [
+        {
+          "title": "Popular Brazilian Lager Is Preparing World Cup Fans for Victory",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/popular-brazilian-lager-is-preparing-world-cup-fans-for-victory/",
+          "summary": "The world’s favorite game and most prestigious championship is coming to North America this summer. The FIFA World Cup will feature 48 teams, 104 matches, and 16 cities, with the final held at MetLife",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How Halo Collar Uses Data And Incrementality To Raise Both Awareness And Sales",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/marketers/draft-halo-collar-brand-profile/",
+          "summary": "Halo Collar, a dog collar brand with direct-to-consumer origins, is preparing for its retail expansion by honing its first-party data strategy and incrementality measurement. The post How Halo Collar ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Oatly activation will matcha visitors to drinks",
+          "outlet": "Campaign UK More Latest RSS Feed",
+          "date": "",
+          "url": "https://www.campaignlive.co.uk/article/oatly-activation-will-matcha-visitors-drinks/1969077",
+          "summary": "A conveyor belt of matcha drinks will be available to visitors at selected times.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How Telemundo Retained The Fans They Brought In For The World Cup",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/ctv-roundup/for-telemundo-marketing-isnt-a-one-way-street-anymore/",
+          "summary": "According to Telemundo, one out of every two people who watched the 2026 FIFA World Cup this year tuned into the network’s Spanish-language broadcasts rather than the English-language version on Fox. ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Retail Roundup: Amazon&#8217;s $20 Billion Lawsuit, and Commerce Media’s First Upfronts",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/commerce/retail-roundup-amazons-20-billion-lawsuit-and-commerce-medias-first-upfronts/",
+          "summary": "Plus, DoorDash’s measurement certification and Ace’s new feature.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Hello world!",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/hello-world/?utm_source=rss&utm_medium=rss&utm_campaign=hello-world",
+          "summary": "Welcome to WordPress. This is your first post. Edit or delete it, then start writing! The post Hello world! appeared first on More About Advertising.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How The Fin Tech Clearco Finances Ecommerce Startups (Without Losing Its Shirt)",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/commerce-roundup/how-the-fin-tech-clearco-finances-ecommerce-startups-without-losing-its-shirt/",
+          "summary": "This week, I caught up with a startup from outside the world of data-driven advertising, but with an interesting position when it comes to ecommerce advertising. That’s Clearco, a Canadian fin tech co",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Texas (and Nation) In Midst of A Massive Data Center Boom",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/texas-and-nation-in-midst-of-a-massive-data-center-boom/",
+          "summary": "A new Gallup survey shows 70% of Americans oppose constructing data centers for artificial intelligence in their local area, including 48% who strongly oppose them. That’s a significant jump from the ",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
+          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [],
+        "agencies": [
+          "huge"
+        ],
+        "technologies": [
+          "artificial intelligence"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "world",
+        "data",
+        "cup",
+        "world cup",
+        "post"
+      ]
+    },
+    {
+      "cluster_id": "signal_006",
+      "cluster_name": "insights - Key",
+      "description": "Coverage of insights.",
+      "frequency": 4,
+      "momentum": "stable",
+      "confidence": "low",
+      "story_count": 4,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "Marketing Dive - Latest News",
+        "Fast Company"
+      ],
+      "stories": [
+        {
+          "title": "5 myths about being a genius",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91595374/5-myths-about-being-a-genius",
+          "summary": "Below, Dr. Josh Turknett shares five key insights from his new book, The Genius and the Impostor: The Neuroscience of Unlocking Human Potential. Turknett is a neurologist and founder of the Institute ",
           "relevance_score": 0.85
         },
         {
@@ -844,12 +803,26 @@
           "url": "https://www.fastcompany.com/91595370/america-disposable-workforce-growing-hidden-costs",
           "summary": "Below, Paul Osterman shares five key insights from his new book, Disposable Workers: The Transformation of Employment. Paul is a Professor Emeritus of Human Resources and Management at the MIT Sloan S",
           "relevance_score": 0.85
+        },
+        {
+          "title": "How Graza hopes to lap the competition with some help from NASCAR",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/how-graza-hopes-to-lap-the-competition-with-some-help-from-nascar/829333/",
+          "summary": "The tie-up follows the olive oil brand’s extension into mayonnaise and is key to efforts to grow its footprint, explains Vice President of Marketing Alex Edelstein.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How women over 40 can use personal branding to reclaim their careers",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91597299/how-women-over-40-can-use-personal-branding-to-reclaim-their-careers",
+          "summary": "For decades, Cindy Gallop worked in the advertising industry, building brands. But at 45, she stepped away from her career and built her own. Now, at 66, she’s known as the founder of sextech, has one",
+          "relevance_score": 0.85
         }
       ],
       "entities": {
-        "brands": [
-          "IKEA"
-        ],
+        "brands": [],
         "agencies": [],
         "technologies": [
           "insights"
@@ -864,11 +837,11 @@
         "housing_terms": []
       },
       "related_buzzwords": [
-        "trade",
-        "trade desk",
-        "desk",
-        "global",
-        "real"
+        "insights",
+        "key",
+        "human",
+        "founder",
+        "key insights"
       ]
     }
   ],
@@ -877,34 +850,27 @@
     "building": [],
     "lasting": [
       {
-        "name": "Anomaly & artificial intelligence - Campaign",
+        "name": "Anomaly & Droga5 - Campaign",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 28,
+        "mention_count": 35,
         "key_players": []
       },
       {
-        "name": "Allstate & Experian - Week",
+        "name": "Allstate & Experian - Ad",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 21,
+        "mention_count": 26,
         "key_players": [
           "Allstate",
           "Experian"
         ]
       },
       {
-        "name": "huge - Brand",
-        "duration_weeks": 12,
-        "stability_score": 0.85,
-        "mention_count": 19,
-        "key_players": []
-      },
-      {
         "name": "AI & LOS - Ai Ai",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 18,
+        "mention_count": 19,
         "key_players": []
       }
     ]
@@ -917,7 +883,8 @@
         "shift": "AI & LOS - Ai Ai",
         "drivers": [
           "AI",
-          "LOS"
+          "LOS",
+          "artificial intelligence"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
@@ -927,7 +894,7 @@
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in Anomaly & artificial intelligence - Campaign",
+        "risk": "AI implementation challenges in Anomaly & Droga5 - Campaign",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -945,7 +912,7 @@
   },
   "north_star_questions": [
     {
-      "question": "What are the long-term implications of Anomaly & artificial intelligence - Campaign for market structure?",
+      "question": "What are the long-term implications of Anomaly & Droga5 - Campaign for market structure?",
       "category": "Market Dynamics",
       "signals": [
         "signal_001"
@@ -953,7 +920,7 @@
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when allstate & experian - week?",
+      "question": "How do consumers perceive brand authenticity when allstate & experian - ad?",
       "category": "Cultural Impact",
       "signals": [
         "signal_002"
