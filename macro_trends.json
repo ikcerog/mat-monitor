@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T12:22:13.404957",
+    "generated_at": "2026-09-12T11:44:13.436751",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 101,
@@ -11,47 +11,26 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Cultural shift toward artificial intelligence & droga5 - campaign",
-      "theme": "Workplace & Culture",
+      "narrative": "Industry movement: news bank 11",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
-        "signal_003"
+        "signal_004",
+        "signal_003",
+        "signal_005"
       ],
-      "story_count": 37,
+      "story_count": 49,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
           "Experian"
         ],
         "technologies": [
-          "artificial intelligence"
+          "AI"
         ],
-        "themes": [
-          "collaboration",
-          "mental health"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: week tv ads",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_000",
-        "signal_004"
-      ],
-      "story_count": 25,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "HSBC"
-        ],
-        "technologies": [],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -64,50 +43,54 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "AI & insights - Marketing",
+          "story_count": 16,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 16,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & Dashboard - Ai Ai",
-          "story_count": 26,
+          "id": "signal_001",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "insights & Droga5 - Brand",
-          "story_count": 13,
+          "id": "signal_002",
+          "name": "Anomaly & artificial intelligence - Campaign",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 36,
       "key_themes": [
         "brand positioning",
-        "content marketing"
+        "collaboration",
+        "content marketing",
+        "mental health"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "artificial intelligence & Droga5 - Campaign",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Anomaly & Experian - New",
+          "id": "signal_002",
+          "name": "Anomaly & artificial intelligence - Campaign",
           "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 37,
+      "story_count": 15,
       "key_themes": [
+        "brand positioning",
         "collaboration",
         "mental health"
       ]
@@ -116,25 +99,37 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & Dashboard - Ai Ai",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Week Tv Ads",
-          "story_count": 14,
+          "id": "signal_001",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "HSBC - Bank",
-          "story_count": 11,
+          "name": "News Bank 11",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & insights - Marketing",
+          "story_count": 16,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "AI - Ad",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Droga5 & IKEA - Programmatic",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 51,
+      "story_count": 86,
       "key_themes": [
         "content marketing"
       ]
@@ -168,19 +163,7 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 21
-      },
-      {
-        "name": "Dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
-        "mentions": 1
+        "mentions": 24
       },
       {
         "name": "artificial intelligence",
@@ -188,6 +171,10 @@
       },
       {
         "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
         "mentions": 1
       }
     ],
@@ -234,39 +221,38 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 37,
+      "signal_count": 1,
+      "story_count": 15,
       "top_signals": [
-        "artificial intelligence & Droga5 - Campaign",
-        "Anomaly & Experian - New"
+        "Anomaly & artificial intelligence - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on artificial intelligence & droga5 - campaign"
+      "key_insight": "Cultural emphasis on anomaly & artificial intelligence - campaign"
     },
     "brand_storytelling": {
       "signal_count": 2,
-      "story_count": 39,
+      "story_count": 36,
       "top_signals": [
-        "AI & Dashboard - Ai Ai",
-        "insights & Droga5 - Brand"
+        "AI & LOS - Ai Ai",
+        "Anomaly & artificial intelligence - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & dashboard - ai ai"
+      "key_insight": "Storytelling direction: ai & los - ai ai"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & Dashboard - Ai Ai",
-    "executive_summary": "Analysis of 101 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & dashboard - ai ai.",
+    "headline": "Focus on AI & LOS - Ai Ai",
+    "executive_summary": "Analysis of 101 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & los - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "AI & Dashboard - Ai Ai",
-      "artificial intelligence & Droga5 - Campaign",
-      "Anomaly & Experian - New"
+      "AI & LOS - Ai Ai",
+      "News Bank 11",
+      "AI & insights - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -276,7 +262,6 @@
   "macro_observations": [
     "High coverage intensity with 101 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
