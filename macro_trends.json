@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-14T14:26:19.043880",
+    "generated_at": "2026-09-15T12:55:23.119887",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 100,
@@ -11,17 +11,14 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: artificial intelligence - tv",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ikea & ai - ads",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_004",
         "signal_007",
-        "signal_001",
-        "signal_003",
-        "signal_002",
-        "signal_006",
-        "signal_005"
+        "signal_003"
       ],
-      "story_count": 61,
+      "story_count": 48,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -29,9 +26,39 @@
           "Experian"
         ],
         "technologies": [
+          "AI",
+          "customer experience",
+          "LOS",
           "artificial intelligence",
-          "pos",
-          "AI"
+          "mobile app"
+        ],
+        "themes": [
+          "retention"
+        ]
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: citizens bank & hsbc - said",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_001",
+        "signal_002",
+        "signal_005",
+        "signal_000"
+      ],
+      "story_count": 33,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Citizens Bank",
+          "HSBC"
+        ],
+        "technologies": [
+          "AI",
+          "artificial intelligence"
         ],
         "themes": []
       },
@@ -50,29 +77,30 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_007",
-          "name": "artificial intelligence - Tv",
-          "story_count": 17,
+          "id": "signal_004",
+          "name": "IKEA & AI - Ads",
+          "story_count": 24,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
-      "key_themes": []
+      "story_count": 24,
+      "key_themes": [
+        "retention"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_000",
+          "id": "signal_006",
           "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 21,
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 19,
       "key_themes": [
         "Brand Story",
-        "collaboration",
         "mental health",
         "storytelling"
       ]
@@ -81,17 +109,23 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
+          "id": "signal_004",
+          "name": "IKEA & AI - Ads",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_006",
           "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 21,
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 43,
       "key_themes": [
         "Brand Story",
-        "collaboration",
         "mental health",
+        "retention",
         "storytelling"
       ]
     },
@@ -100,43 +134,51 @@
       "signals": [
         {
           "id": "signal_004",
+          "name": "IKEA & AI - Ads",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_007",
           "name": "AI & LOS - Ai Ai",
-          "story_count": 18,
+          "story_count": 15,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Droga5 & IKEA - Advertising",
-          "story_count": 14,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Bank Control Group",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI - Ad",
+          "name": "Citizens Bank & HSBC - Said",
           "story_count": 10,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "Years Media Trust",
-          "story_count": 4,
+          "id": "signal_002",
+          "name": "AI - Risk",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "mobile app & Experian - Time",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "News Startup Ratings",
-          "story_count": 3,
+          "name": "artificial intelligence - Amazon",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Weinstein Mark Weinstein Mark",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 62,
-      "key_themes": []
+      "story_count": 81,
+      "key_themes": [
+        "retention"
+      ]
     }
   },
   "momentum_analysis": {
@@ -160,6 +202,10 @@
         "mentions": 1
       },
       {
+        "name": "Citizens Bank",
+        "mentions": 1
+      },
+      {
         "name": "HSBC",
         "mentions": 1
       }
@@ -167,14 +213,22 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 19
+        "mentions": 20
       },
       {
         "name": "artificial intelligence",
         "mentions": 2
       },
       {
+        "name": "mobile app",
+        "mentions": 1
+      },
+      {
         "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "customer experience",
         "mentions": 1
       },
       {
@@ -190,11 +244,11 @@
     ],
     "cultural_movements": [
       {
-        "theme": "collaboration",
+        "theme": "mental health",
         "frequency": 1
       },
       {
-        "theme": "mental health",
+        "theme": "retention",
         "frequency": 1
       }
     ],
@@ -219,25 +273,26 @@
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 17,
+      "story_count": 24,
       "top_signals": [
-        "artificial intelligence - Tv"
+        "IKEA & AI - Ads"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on artificial intelligence - tv"
+      "key_insight": "Market narrative centered on ikea & ai - ads"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 21,
+      "signal_count": 2,
+      "story_count": 43,
       "top_signals": [
+        "IKEA & AI - Ads",
         "Anomaly & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on ikea & ai - ads"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 21,
+      "story_count": 19,
       "top_signals": [
         "Anomaly & Droga5 - Campaign"
       ],
@@ -245,19 +300,33 @@
       "key_insight": "Storytelling direction: anomaly & droga5 - campaign"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "customer experience",
+        "LOS",
+        "artificial intelligence",
+        "mobile app"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on Anomaly & Droga5 - Campaign",
-    "executive_summary": "Analysis of 100 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & droga5 - campaign.",
+    "headline": "Focus on IKEA & AI - Ads",
+    "executive_summary": "Analysis of 100 stories across 8 thematic areas. mixed momentum across the landscape. Primary attention on ikea & ai - ads.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
+      "retention",
       "mental health"
     ],
     "attention_areas": [
+      "IKEA & AI - Ads",
       "Anomaly & Droga5 - Campaign",
-      "AI & LOS - Ai Ai",
-      "artificial intelligence - Tv"
+      "AI & LOS - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
