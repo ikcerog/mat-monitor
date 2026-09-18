@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-09-17T12:48:09.628553",
+    "generated_at": "2026-09-18T12:23:36.906391",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 101,
+      "total_stories": 102,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,22 +11,30 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: tv ads ad",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: personalization & reporting - new",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_001"
+        "signal_003",
+        "signal_001",
+        "signal_004"
       ],
-      "story_count": 24,
+      "story_count": 64,
       "momentum": "mixed",
       "key_players": {
-        "brands": [],
+        "brands": [
+          "IKEA",
+          "State Farm"
+        ],
         "technologies": [
-          "artificial intelligence"
+          "AI",
+          "personalization",
+          "reporting",
+          "CX",
+          "LOS"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -41,36 +49,28 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "personalization & Droga5 - Campaign",
-          "story_count": 30,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 13,
+          "name": "personalization & reporting - New",
+          "story_count": 35,
           "momentum": "stable"
         }
       ],
-      "story_count": 43,
-      "key_themes": [
-        "storytelling"
-      ]
+      "story_count": 35,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "personalization & Droga5 - Campaign",
-          "story_count": 30,
+          "id": "signal_005",
+          "name": "Truist & Citizens Bank - Bank",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 30,
+      "story_count": 9,
       "key_themes": [
-        "storytelling"
+        "UGC"
       ]
     },
     "workplace_culture": {
@@ -78,20 +78,13 @@
       "signals": [
         {
           "id": "signal_000",
-          "name": "AI & Artificial intelligence - Ai Ai",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Experian - Real",
-          "story_count": 9,
+          "name": "reporting & Experian - Healthcare",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 34,
+      "story_count": 12,
       "key_themes": [
-        "hybrid work",
         "mental health"
       ]
     },
@@ -99,34 +92,32 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & Artificial intelligence - Ai Ai",
-          "story_count": 25,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Tv Ads Ad",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 13,
+          "name": "personalization & reporting - New",
+          "story_count": 35,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Anomaly & artificial intelligence - Submitted",
-          "story_count": 7,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 20,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "artificial intelligence & AI",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 62,
-      "key_themes": [
-        "hybrid work"
-      ]
+      "story_count": 81,
+      "key_themes": []
     }
   },
   "momentum_analysis": {
@@ -142,7 +133,7 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "article",
+        "name": "State Farm",
         "mentions": 1
       },
       {
@@ -165,10 +156,14 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 23
       },
       {
-        "name": "Artificial intelligence",
+        "name": "artificial intelligence",
+        "mentions": 5
+      },
+      {
+        "name": "reporting",
         "mentions": 2
       },
       {
@@ -176,11 +171,7 @@
         "mentions": 1
       },
       {
-        "name": "Insights",
-        "mentions": 1
-      },
-      {
-        "name": "artificial intelligence",
+        "name": "predictive modeling",
         "mentions": 1
       },
       {
@@ -194,35 +185,18 @@
       {
         "name": "CX",
         "mentions": 1
-      },
-      {
-        "name": "dashboard",
-        "mentions": 1
-      },
-      {
-        "name": "reporting",
-        "mentions": 1
       }
     ],
-    "influential_voices": [
-      {
-        "name": "Parsons Named",
-        "mentions": 1
-      }
-    ],
+    "influential_voices": [],
     "cultural_movements": [
       {
         "theme": "mental health",
-        "frequency": 1
-      },
-      {
-        "theme": "hybrid work",
         "frequency": 1
       }
     ],
     "storytelling_approaches": [
       {
-        "approach": "storytelling",
+        "approach": "UGC",
         "frequency": 1
       }
     ]
@@ -237,46 +211,58 @@
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 30,
+      "story_count": 35,
       "top_signals": [
-        "personalization & Droga5 - Campaign"
+        "personalization & reporting - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on personalization & droga5 - campaign"
+      "key_insight": "Market narrative centered on personalization & reporting - new"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 34,
+      "signal_count": 1,
+      "story_count": 12,
       "top_signals": [
-        "AI & Artificial intelligence - Ai Ai",
-        "Experian - Real"
+        "reporting & Experian - Healthcare"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - ai ai"
+      "key_insight": "Cultural emphasis on reporting & experian - healthcare"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 30,
+      "story_count": 9,
       "top_signals": [
-        "personalization & Droga5 - Campaign"
+        "Truist & Citizens Bank - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: personalization & droga5 - campaign"
+      "key_insight": "Storytelling direction: truist & citizens bank - bank"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "personalization",
+        "reporting",
+        "CX",
+        "LOS"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on personalization & Droga5 - Campaign",
-    "executive_summary": "Analysis of 101 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & droga5 - campaign.",
+    "headline": "Focus on personalization & reporting - New",
+    "executive_summary": "Analysis of 102 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & reporting - new.",
     "key_shifts": [],
     "dominant_themes": [
-      "hybrid work",
       "mental health"
     ],
     "attention_areas": [
-      "personalization & Droga5 - Campaign",
-      "AI & Artificial intelligence - Ai Ai",
-      "Tv Ads Ad"
+      "personalization & reporting - New",
+      "AI & LOS - Ai Ai",
+      "Anomaly & Droga5 - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -284,10 +270,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 101 stories across 6 themes",
+    "High coverage intensity with 102 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Technology-heavy coverage (12 technologies tracked)",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
