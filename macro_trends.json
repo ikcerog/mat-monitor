@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-18T12:23:36.906391",
+    "generated_at": "2026-09-19T12:04:53.861250",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 102,
@@ -11,26 +11,27 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: personalization & reporting - new",
+      "narrative": "Technology adoption wave: personalization & reporting - brand",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_003",
+        "signal_005",
         "signal_001",
+        "signal_002",
         "signal_004"
       ],
-      "story_count": 64,
+      "story_count": 79,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "IKEA",
-          "State Farm"
+          "Experian"
         ],
         "technologies": [
           "AI",
           "personalization",
           "reporting",
-          "CX",
-          "LOS"
+          "LOS",
+          "Salesforce"
         ],
         "themes": []
       },
@@ -49,13 +50,19 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "personalization & reporting - New",
-          "story_count": 35,
+          "id": "signal_002",
+          "name": "omnichannel & AI - Ad",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Companies Clients Marketing",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 35,
+      "story_count": 18,
       "key_themes": []
     },
     "customer_experience": {
@@ -63,27 +70,29 @@
       "signals": [
         {
           "id": "signal_005",
-          "name": "Truist & Citizens Bank - Bank",
-          "story_count": 9,
+          "name": "personalization & reporting - Brand",
+          "story_count": 40,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 40,
       "key_themes": [
-        "UGC"
+        "Brand Voice",
+        "UGC",
+        "content marketing"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "reporting & Experian - Healthcare",
-          "story_count": 12,
+          "id": "signal_003",
+          "name": "Anomaly & reporting - New",
+          "story_count": 15,
           "momentum": "stable"
         }
       ],
-      "story_count": 12,
+      "story_count": 15,
       "key_themes": [
         "mental health"
       ]
@@ -92,32 +101,36 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "personalization & reporting - New",
-          "story_count": 35,
+          "id": "signal_005",
+          "name": "personalization & reporting - Brand",
+          "story_count": 40,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
           "name": "AI & LOS - Ai Ai",
-          "story_count": 20,
+          "story_count": 22,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 17,
+          "name": "omnichannel & AI - Ad",
+          "story_count": 10,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "artificial intelligence & AI",
-          "story_count": 9,
+          "name": "artificial intelligence & AI - Banks",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 81,
-      "key_themes": []
+      "story_count": 79,
+      "key_themes": [
+        "Brand Voice",
+        "UGC",
+        "content marketing"
+      ]
     }
   },
   "momentum_analysis": {
@@ -133,34 +146,22 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "State Farm",
-        "mentions": 1
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
       {
         "name": "Experian",
         "mentions": 1
-      },
-      {
-        "name": "Truist",
-        "mentions": 1
-      },
-      {
-        "name": "Citizens Bank",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
+        "mentions": 26
       },
       {
         "name": "artificial intelligence",
-        "mentions": 5
+        "mentions": 3
       },
       {
         "name": "reporting",
@@ -171,7 +172,7 @@
         "mentions": 1
       },
       {
-        "name": "predictive modeling",
+        "name": "omnichannel",
         "mentions": 1
       },
       {
@@ -180,10 +181,6 @@
       },
       {
         "name": "Salesforce",
-        "mentions": 1
-      },
-      {
-        "name": "CX",
         "mentions": 1
       }
     ],
@@ -195,6 +192,14 @@
       }
     ],
     "storytelling_approaches": [
+      {
+        "approach": "Brand Voice",
+        "frequency": 1
+      },
+      {
+        "approach": "content marketing",
+        "frequency": 1
+      },
       {
         "approach": "UGC",
         "frequency": 1
@@ -211,30 +216,30 @@
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 35,
+      "story_count": 10,
       "top_signals": [
-        "personalization & reporting - New"
+        "omnichannel & AI - Ad"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on personalization & reporting - new"
+      "key_insight": "Market narrative centered on omnichannel & ai - ad"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 12,
+      "story_count": 15,
       "top_signals": [
-        "reporting & Experian - Healthcare"
+        "Anomaly & reporting - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on reporting & experian - healthcare"
+      "key_insight": "Cultural emphasis on anomaly & reporting - new"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 40,
       "top_signals": [
-        "Truist & Citizens Bank - Bank"
+        "personalization & reporting - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: truist & citizens bank - bank"
+      "key_insight": "Storytelling direction: personalization & reporting - brand"
     }
   },
   "emerging_patterns": [
@@ -245,24 +250,24 @@
         "AI",
         "personalization",
         "reporting",
-        "CX",
-        "LOS"
+        "LOS",
+        "Salesforce"
       ],
-      "signal_count": 3,
+      "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on personalization & reporting - New",
-    "executive_summary": "Analysis of 102 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & reporting - new.",
+    "headline": "Focus on personalization & reporting - Brand",
+    "executive_summary": "Analysis of 102 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & reporting - brand.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "personalization & reporting - New",
+      "personalization & reporting - Brand",
       "AI & LOS - Ai Ai",
-      "Anomaly & Droga5 - Campaign"
+      "Anomaly & reporting - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
