@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-09-19T12:04:53.861250",
+    "generated_at": "2026-09-20T12:38:52.492666",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 102,
+      "total_stories": 101,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,15 +11,15 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: personalization & reporting - brand",
+      "narrative": "Technology adoption wave: reporting & personalization - new",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_005",
-        "signal_001",
+        "signal_000",
         "signal_002",
-        "signal_004"
+        "signal_003",
+        "signal_001"
       ],
-      "story_count": 79,
+      "story_count": 76,
       "momentum": "mixed",
       "key_players": {
         "brands": [
@@ -28,12 +28,14 @@
         ],
         "technologies": [
           "AI",
-          "personalization",
           "reporting",
-          "LOS",
-          "Salesforce"
+          "personalization",
+          "pos",
+          "LOS"
         ],
-        "themes": []
+        "themes": [
+          "retention"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
@@ -50,86 +52,84 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "omnichannel & AI - Ad",
-          "story_count": 10,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Companies Clients Marketing",
-          "story_count": 8,
+          "id": "signal_005",
+          "name": "AI - Brand",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 18,
+      "story_count": 6,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "personalization & reporting - Brand",
-          "story_count": 40,
+          "id": "signal_003",
+          "name": "AI & omnichannel - Tv",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 19,
       "key_themes": [
-        "Brand Voice",
-        "UGC",
-        "content marketing"
+        "UGC"
       ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "Anomaly & reporting - New",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 19,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
+      "story_count": 40,
       "key_themes": [
-        "mental health"
+        "mental health",
+        "retention"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "personalization & reporting - Brand",
-          "story_count": 40,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 22,
+          "id": "signal_000",
+          "name": "reporting & personalization - New",
+          "story_count": 26,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "omnichannel & AI - Ad",
-          "story_count": 10,
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & AI - Banks",
-          "story_count": 7,
+          "id": "signal_003",
+          "name": "AI & omnichannel - Tv",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "artificial intelligence & AI",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 79,
+      "story_count": 76,
       "key_themes": [
-        "Brand Voice",
         "UGC",
-        "content marketing"
+        "retention"
       ]
     }
   },
@@ -157,11 +157,11 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 28
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
+        "mentions": 4
       },
       {
         "name": "reporting",
@@ -182,6 +182,10 @@
       {
         "name": "Salesforce",
         "mentions": 1
+      },
+      {
+        "name": "pos",
+        "mentions": 1
       }
     ],
     "influential_voices": [],
@@ -189,17 +193,13 @@
       {
         "theme": "mental health",
         "frequency": 1
+      },
+      {
+        "theme": "retention",
+        "frequency": 1
       }
     ],
     "storytelling_approaches": [
-      {
-        "approach": "Brand Voice",
-        "frequency": 1
-      },
-      {
-        "approach": "content marketing",
-        "frequency": 1
-      },
       {
         "approach": "UGC",
         "frequency": 1
@@ -216,30 +216,31 @@
     },
     "housing_market": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 6,
       "top_signals": [
-        "omnichannel & AI - Ad"
+        "AI - Brand"
       ],
       "momentum": "mixed",
-      "key_insight": "Market narrative centered on omnichannel & ai - ad"
+      "key_insight": "Market narrative centered on ai - brand"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 15,
+      "signal_count": 2,
+      "story_count": 40,
       "top_signals": [
-        "Anomaly & reporting - New"
+        "AI & LOS - Ai Ai",
+        "Anomaly & Droga5 - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & reporting - new"
+      "key_insight": "Cultural emphasis on ai & los - ai ai"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 40,
+      "story_count": 19,
       "top_signals": [
-        "personalization & reporting - Brand"
+        "AI & omnichannel - Tv"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: personalization & reporting - brand"
+      "key_insight": "Storytelling direction: ai & omnichannel - tv"
     }
   },
   "emerging_patterns": [
@@ -248,26 +249,27 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "personalization",
         "reporting",
-        "LOS",
-        "Salesforce"
+        "personalization",
+        "pos",
+        "LOS"
       ],
       "signal_count": 4,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on personalization & reporting - Brand",
-    "executive_summary": "Analysis of 102 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on personalization & reporting - brand.",
+    "headline": "Focus on reporting & personalization - New",
+    "executive_summary": "Analysis of 101 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on reporting & personalization - new.",
     "key_shifts": [],
     "dominant_themes": [
+      "retention",
       "mental health"
     ],
     "attention_areas": [
-      "personalization & reporting - Brand",
+      "reporting & personalization - New",
       "AI & LOS - Ai Ai",
-      "Anomaly & reporting - New"
+      "Anomaly & Droga5 - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -275,8 +277,9 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 102 stories across 6 themes",
+    "High coverage intensity with 101 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
