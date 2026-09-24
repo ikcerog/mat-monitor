@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-09-23T13:02:29.552678",
+    "generated_at": "2026-09-24T12:55:46.122309",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 104,
+      "total_stories": 107,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,44 +11,23 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_001",
-        "signal_004"
-      ],
-      "story_count": 33,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [],
-        "technologies": [
-          "AI",
-          "artificial intelligence",
-          "Personalization",
-          "machine learning",
-          "LOS"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: hubspot - bank",
+      "narrative": "Industry movement: ai & ikea - media",
       "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_005",
         "signal_003",
-        "signal_005"
+        "signal_004"
       ],
-      "story_count": 31,
+      "story_count": 55,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA"
+          "IKEA",
+          "Bank of America"
         ],
         "technologies": [
-          "HubSpot"
+          "AI",
+          "artificial intelligence"
         ],
         "themes": []
       },
@@ -65,37 +44,34 @@
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "Marketing Years Creative",
+          "story_count": 19,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 19,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "artificial intelligence & TransUnion - Ad",
-          "story_count": 23,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 23,
-      "key_themes": [
-        "messaging",
-        "storytelling"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 17,
+          "name": "Anomaly & Droga5 - Health",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 10,
       "key_themes": [
         "collaboration",
         "mental health"
@@ -105,31 +81,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "id": "signal_005",
+          "name": "AI & IKEA - Media",
+          "story_count": 28,
           "momentum": "stable"
         },
         {
-          "id": "signal_003",
-          "name": "HubSpot - Bank",
+          "id": "signal_001",
+          "name": "AI & machine learning - Ai Ai",
           "story_count": 23,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "IKEA - Trust",
-          "story_count": 8,
+          "id": "signal_003",
+          "name": "artificial intelligence - Tv",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & insights - Channel",
-          "story_count": 8,
+          "name": "Bank of America & AI - President",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 64,
+      "story_count": 78,
       "key_themes": []
     }
   },
@@ -146,8 +122,8 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "TransUnion",
-        "mentions": 1
+        "name": "Bank of America",
+        "mentions": 2
       },
       {
         "name": "IKEA",
@@ -161,14 +137,10 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 26
+        "mentions": 27
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
-      },
-      {
-        "name": "Personalization",
         "mentions": 1
       },
       {
@@ -181,14 +153,6 @@
       },
       {
         "name": "ai",
-        "mentions": 1
-      },
-      {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
-        "name": "HubSpot",
         "mentions": 1
       }
     ],
@@ -203,16 +167,7 @@
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "messaging",
-        "frequency": 1
-      },
-      {
-        "approach": "storytelling",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -231,36 +186,34 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 17,
+      "story_count": 10,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign"
+        "Anomaly & Droga5 - Health"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on anomaly & droga5 - health"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 23,
-      "top_signals": [
-        "artificial intelligence & TransUnion - Ad"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: artificial intelligence & transunion - ad"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ai Ai",
-    "executive_summary": "Analysis of 104 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
+    "headline": "Focus on AI & IKEA - Media",
+    "executive_summary": "Analysis of 107 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - media.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Ai Ai",
-      "artificial intelligence & TransUnion - Ad",
-      "HubSpot - Bank"
+      "AI & IKEA - Media",
+      "AI & machine learning - Ai Ai",
+      "Marketing Years Creative"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -268,7 +221,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 104 stories across 6 themes",
+    "High coverage intensity with 107 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players"
   ]
