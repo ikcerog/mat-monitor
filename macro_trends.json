@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-24T12:55:46.122309",
+    "generated_at": "2026-09-25T13:02:04.112408",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 107,
@@ -11,68 +11,117 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai & ikea - media",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & bank of america - use",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_001",
         "signal_005",
-        "signal_003",
-        "signal_004"
+        "signal_003"
       ],
-      "story_count": 55,
+      "story_count": 56,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
           "Bank of America"
         ],
         "technologies": [
           "AI",
+          "LOS",
+          "dashboard",
+          "machine learning",
           "artificial intelligence"
         ],
         "themes": []
       },
       "time_depth": "sustained",
       "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: chase & ai - week",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_004",
+        "signal_000"
+      ],
+      "story_count": 12,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "Chase"
+        ],
+        "technologies": [
+          "AI"
+        ],
+        "themes": []
+      },
+      "time_depth": "emerging",
+      "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "housing_market_dynamics": {
-      "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Marketing Years Creative",
-          "story_count": 19,
+          "id": "signal_002",
+          "name": "Wayfair & Anomaly - Campaign",
+          "story_count": 39,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Chase & AI - Week",
+          "story_count": 9,
           "momentum": "stable"
         }
       ],
-      "story_count": 19,
+      "story_count": 48,
+      "key_themes": [
+        "Retention",
+        "authentic",
+        "collaboration",
+        "mental health"
+      ]
+    },
+    "housing_market_dynamics": {
+      "description": "Consumer housing market trends and shifts",
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "Wayfair & Anomaly - Campaign",
+          "story_count": 39,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 39,
+      "key_themes": [
+        "Retention",
+        "authentic",
+        "collaboration",
+        "mental health"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_002",
-          "name": "Anomaly & Droga5 - Health",
-          "story_count": 10,
+          "name": "Wayfair & Anomaly - Campaign",
+          "story_count": 39,
           "momentum": "stable"
         }
       ],
-      "story_count": 10,
+      "story_count": 39,
       "key_themes": [
+        "Retention",
+        "authentic",
         "collaboration",
         "mental health"
       ]
@@ -81,31 +130,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI & IKEA - Media",
-          "story_count": 28,
+          "id": "signal_001",
+          "name": "AI & Bank of America - Use",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "AI & machine learning - Ai Ai",
-          "story_count": 23,
+          "id": "signal_005",
+          "name": "AI & machine learning - New",
+          "story_count": 20,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "artificial intelligence - Tv",
-          "story_count": 15,
+          "name": "AI & artificial intelligence - Video",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Bank of America & AI - President",
-          "story_count": 12,
+          "id": "signal_000",
+          "name": "Droga5 - Second",
+          "story_count": 3,
           "momentum": "stable"
         }
       ],
-      "story_count": 78,
+      "story_count": 59,
       "key_themes": []
     }
   },
@@ -123,7 +172,15 @@
     "dominant_brands": [
       {
         "name": "Bank of America",
-        "mentions": 2
+        "mentions": 3
+      },
+      {
+        "name": "Wayfair",
+        "mentions": 1
+      },
+      {
+        "name": "Chase",
+        "mentions": 1
       },
       {
         "name": "IKEA",
@@ -131,6 +188,10 @@
       },
       {
         "name": "Experian",
+        "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
@@ -152,7 +213,7 @@
         "mentions": 1
       },
       {
-        "name": "ai",
+        "name": "dashboard",
         "mentions": 1
       }
     ],
@@ -163,19 +224,31 @@
         "frequency": 1
       },
       {
+        "theme": "Retention",
+        "frequency": 1
+      },
+      {
         "theme": "mental health",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "authentic",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 2,
+      "story_count": 48,
+      "top_signals": [
+        "Wayfair & Anomaly - Campaign",
+        "Chase & AI - Week"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on wayfair & anomaly - campaign with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -186,34 +259,50 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 10,
+      "story_count": 39,
       "top_signals": [
-        "Anomaly & Droga5 - Health"
+        "Wayfair & Anomaly - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - health"
+      "key_insight": "Cultural emphasis on wayfair & anomaly - campaign"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 39,
+      "top_signals": [
+        "Wayfair & Anomaly - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: wayfair & anomaly - campaign"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "LOS",
+        "dashboard",
+        "machine learning",
+        "artificial intelligence"
+      ],
+      "signal_count": 3,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Media",
-    "executive_summary": "Analysis of 107 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - media.",
+    "headline": "Focus on Wayfair & Anomaly - Campaign",
+    "executive_summary": "Analysis of 107 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on wayfair & anomaly - campaign.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
-      "mental health"
+      "Retention"
     ],
     "attention_areas": [
-      "AI & IKEA - Media",
-      "AI & machine learning - Ai Ai",
-      "Marketing Years Creative"
+      "Wayfair & Anomaly - Campaign",
+      "AI & Bank of America - Use",
+      "AI & machine learning - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -222,7 +311,6 @@
   },
   "macro_observations": [
     "High coverage intensity with 107 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
