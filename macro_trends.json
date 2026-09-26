@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-25T13:02:04.112408",
+    "generated_at": "2026-09-26T12:30:31.706226",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 107,
@@ -11,25 +11,23 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & bank of america - use",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: ikea & wells fargo - world",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_001",
         "signal_005",
-        "signal_003"
+        "signal_002"
       ],
-      "story_count": 56,
+      "story_count": 46,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
+          "Wells Fargo",
           "Bank of America"
         ],
         "technologies": [
-          "AI",
-          "LOS",
-          "dashboard",
-          "machine learning",
-          "artificial intelligence"
+          "insights",
+          "AI"
         ],
         "themes": []
       },
@@ -38,24 +36,25 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: chase & ai - week",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & machine learning - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
+        "signal_003",
         "signal_000"
       ],
-      "story_count": 12,
+      "story_count": 32,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "Chase"
-        ],
+        "brands": [],
         "technologies": [
-          "AI"
+          "AI",
+          "machine learning",
+          "LOS",
+          "artificial intelligence"
         ],
         "themes": []
       },
-      "time_depth": "emerging",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -64,47 +63,52 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Wayfair & Anomaly - Campaign",
+          "id": "signal_005",
+          "name": "IKEA & Wells Fargo - World",
           "story_count": 39,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Chase & AI - Week",
-          "story_count": 9,
+          "id": "signal_001",
+          "name": "Wayfair & Chase - Campaign",
+          "story_count": 17,
           "momentum": "stable"
         }
       ],
-      "story_count": 48,
+      "story_count": 56,
       "key_themes": [
-        "Retention",
-        "authentic",
-        "collaboration",
-        "mental health"
+        "collaboration"
       ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "Marketing Digital Growth",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 12,
+      "key_themes": [
+        "authentic",
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Wayfair & Anomaly - Campaign",
-          "story_count": 39,
+          "id": "signal_004",
+          "name": "Marketing Digital Growth",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 12,
       "key_themes": [
-        "Retention",
         "authentic",
-        "collaboration",
         "mental health"
       ]
     },
@@ -112,15 +116,20 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Wayfair & Anomaly - Campaign",
-          "story_count": 39,
+          "id": "signal_001",
+          "name": "Wayfair & Chase - Campaign",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "Marketing Digital Growth",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 39,
+      "story_count": 29,
       "key_themes": [
-        "Retention",
         "authentic",
         "collaboration",
         "mental health"
@@ -130,31 +139,25 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & Bank of America - Use",
-          "story_count": 22,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "AI & machine learning - New",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "AI & artificial intelligence - Video",
-          "story_count": 14,
+          "name": "AI & machine learning - Ai Ai",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Droga5 - Second",
-          "story_count": 3,
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 8,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Bank of America & AI - Business",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 59,
+      "story_count": 39,
       "key_themes": []
     }
   },
@@ -198,11 +201,11 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 30
       },
       {
         "name": "artificial intelligence",
-        "mentions": 1
+        "mentions": 3
       },
       {
         "name": "machine learning",
@@ -213,7 +216,7 @@
         "mentions": 1
       },
       {
-        "name": "dashboard",
+        "name": "insights",
         "mentions": 1
       }
     ],
@@ -221,10 +224,6 @@
     "cultural_movements": [
       {
         "theme": "collaboration",
-        "frequency": 1
-      },
-      {
-        "theme": "Retention",
         "frequency": 1
       },
       {
@@ -242,13 +241,13 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 2,
-      "story_count": 48,
+      "story_count": 56,
       "top_signals": [
-        "Wayfair & Anomaly - Campaign",
-        "Chase & AI - Week"
+        "IKEA & Wells Fargo - World",
+        "Wayfair & Chase - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wayfair & anomaly - campaign with mixed momentum"
+      "key_insight": "Primary focus on ikea & wells fargo - world with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -258,51 +257,38 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 39,
+      "signal_count": 2,
+      "story_count": 29,
       "top_signals": [
-        "Wayfair & Anomaly - Campaign"
+        "Wayfair & Chase - Campaign",
+        "Marketing Digital Growth"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on wayfair & anomaly - campaign"
+      "key_insight": "Cultural emphasis on wayfair & chase - campaign"
     },
     "brand_storytelling": {
       "signal_count": 1,
-      "story_count": 39,
+      "story_count": 12,
       "top_signals": [
-        "Wayfair & Anomaly - Campaign"
+        "Marketing Digital Growth"
       ],
       "momentum": "mixed",
-      "key_insight": "Storytelling direction: wayfair & anomaly - campaign"
+      "key_insight": "Storytelling direction: marketing digital growth"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "LOS",
-        "dashboard",
-        "machine learning",
-        "artificial intelligence"
-      ],
-      "signal_count": 3,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on Wayfair & Anomaly - Campaign",
-    "executive_summary": "Analysis of 107 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on wayfair & anomaly - campaign.",
+    "headline": "Focus on IKEA & Wells Fargo - World",
+    "executive_summary": "Analysis of 107 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & wells fargo - world.",
     "key_shifts": [],
     "dominant_themes": [
       "collaboration",
-      "Retention"
+      "mental health"
     ],
     "attention_areas": [
-      "Wayfair & Anomaly - Campaign",
-      "AI & Bank of America - Use",
-      "AI & machine learning - New"
+      "IKEA & Wells Fargo - World",
+      "AI & machine learning - Ai Ai",
+      "Wayfair & Chase - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -311,6 +297,7 @@
   },
   "macro_observations": [
     "High coverage intensity with 107 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
