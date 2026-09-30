@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-09-29T14:23:14.828856",
+    "generated_at": "2026-09-30T14:16:03.137700",
     "timeframe": {
       "period": "Recent period",
       "coverage_days": 7,
       "date_range": [],
-      "total_stories": 94,
-      "unique_outlets": 10,
+      "total_stories": 104,
+      "unique_outlets": 11,
       "outlets_breakdown": {}
     }
   },
   "environment": {
     "macro_context": {
       "industry_landscape": [
-        "AI & artificial intelligence - Ai Ai (↑27 mentions)",
-        "U.S. bank - Fintech (↑18 mentions)",
-        "Anomaly & Droga5 - Campaign (↑14 mentions)"
+        "AI & LOS - Ai Ai (↑25 mentions)",
+        "Anomaly & Droga5 - Bank (↑22 mentions)",
+        "Insights - Marketing (↑20 mentions)"
       ],
       "regulatory_climate": []
     },
@@ -23,49 +23,32 @@
       "growth_areas": [],
       "declining_areas": [],
       "consolidation_activity": [
-        "13 M&A/partnership announcements detected"
+        "15 M&A/partnership announcements detected"
       ]
     }
   },
   "signals": [
     {
       "cluster_id": "signal_002",
-      "cluster_name": "AI & artificial intelligence - Ai Ai",
-      "description": "Coverage of AI, artificial intelligence, LOS.",
-      "frequency": 27,
+      "cluster_name": "AI & LOS - Ai Ai",
+      "description": "Coverage of AI, LOS, personalization.",
+      "frequency": 25,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 27,
+      "story_count": 25,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "More About Advertising",
-        "CIO Dive - Latest News",
-        "Adpulp",
-        "Ad Tech Daily",
-        "Adweek Feed",
+        "VideoWeek",
         "AdExchanger",
-        "Marketing & Advertising",
+        "Marketing Dive - Latest News",
         "Fast Company",
-        "Banking Dive - Latest News"
+        "Marketing & Advertising",
+        "CIO Dive - Latest News",
+        "Ad Tech Daily",
+        "Adweek Feed"
       ],
       "stories": [
-        {
-          "title": "Capital One’s agentic AI strategy hinges on data, platform-first mindset",
-          "outlet": "CIO Dive - Latest News",
-          "date": "",
-          "url": "https://www.ciodive.com/news/capital-one-agentic-ai-strategy/831435/",
-          "summary": "Proper data context and guardrails are key to deploying AI agents at scale, said Rashmi Shetty, VP of enterprise AI at Capital One.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Capital One’s agentic AI strategy hinges on data, platform-first mindset",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/capital-one-agentic-ai-strategy/831461/",
-          "summary": "Proper data context and guardrails are key to deploying AI agents at scale, said Rashmi Shetty, the bank's vice president of enterprise artificial intelligence.",
-          "relevance_score": 0.85
-        },
         {
           "title": "Want AI Agents That Work? You’ve Gotta Do The ‘Unsexy’ Stuff First",
           "outlet": "AdExchanger",
@@ -75,19 +58,11 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Banking’s AI red flag: From 0 rollbacks to deploying agents you can trust",
-          "outlet": "Banking Dive - Latest News",
+          "title": "OpenAI Says Sponsored Chats Are The Future. The Future Of Publisher Monetization Isn’t So Clear",
+          "outlet": "AdExchanger",
           "date": "",
-          "url": "https://www.bankingdive.com/spons/bankings-ai-red-flag-from-0-rollbacks-to-deploying-agents-you-can-trust/831342/",
-          "summary": "In banking, unseen customer communications AI failures cost the most. Here's the fix.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "How much data analysis work is normal in content strategy?",
-          "outlet": "Marketing & Advertising",
-          "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wrn203/how_much_data_analysis_work_is_normal_in_content/",
-          "summary": "I've been in content/editorial for 10+ years (mostly editorial and brand content) and I'm five months into a content strategy role at an agency on the paid social side. The role is very analytics-heav",
+          "url": "https://www.adexchanger.com/ai/openai-says-sponsored-chats-are-the-future-but-publisher-monetization-isnt-a-priority/",
+          "summary": "Sponsored agents are the future of AI-native advertising experiences, according to Colleen Coulter, global ad solutions lead at OpenAI. But what do LLMs owe publishers? The post OpenAI Says Sponsored ",
           "relevance_score": 0.85
         },
         {
@@ -99,6 +74,22 @@
           "relevance_score": 0.85
         },
         {
+          "title": "IBM adds deployment options to agentic platform Bob",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/ibm-adds-deployment-options-agentic-platform-bob/831678/",
+          "summary": "The company rolled out a self-hosted deployment capability for AI software development as vendors move to address governance concerns.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Nvidia bakes agent governance into infrastructure layer",
+          "outlet": "CIO Dive - Latest News",
+          "date": "",
+          "url": "https://www.ciodive.com/news/nvidia-bakes-agent-governance-infrastructure-layer/831565/",
+          "summary": "The Nvidia Open Agent Safety Platform aims to control agents but is unlikely to give enterprises full oversight, analysts told CIO Dive.",
+          "relevance_score": 0.85
+        },
+        {
           "title": "Need advice on navigating a client/owner who inputs all of our marketing collateral into chat gpt and wants us to follow what it says.",
           "outlet": "Marketing & Advertising",
           "date": "",
@@ -107,27 +98,35 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Want to become an LLM expert in marketing , where do I start?",
-          "outlet": "Marketing & Advertising",
+          "title": "How Kroger uses AI and predictive scoring to tie creative to conversion",
+          "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wsx466/want_to_become_an_llm_expert_in_marketing_where/",
-          "summary": "I want to be LLM expert but in marketing. so i working in marketing social media strategist to be specific. and all know everything would be done with AI or for AI. and I want to be expert in LLM for ",
+          "url": "https://www.marketingdive.com/news/how-kroger-uses-ai-and-predictive-scoring-to-tie-creative-to-conversion/831659/",
+          "summary": "The grocer, in partnership with Vidmob and MMA Global, was able to forecast e-commerce conversion of ad creative with 81% accuracy.",
           "relevance_score": 0.85
         },
         {
-          "title": "Holy H-E-Double Hockey Sticks: Adobe Is Bringing AI to the NHL",
+          "title": "NHL taps Adobe as creative, marketing and AI partner",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/nhl-taps-adobe-as-creative-marketing-and-ai-partner/831601/",
+          "summary": "The partnership follows a surge in cultural relevancy for the league in the wake of the Winter Olympics and popular shows such as “Heated Rivalry.”",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The One Thing Agency Chiefs Want to Change Over the Next 12 Months",
           "outlet": "Adweek Feed",
           "date": "",
-          "url": "https://www.adweek.com/convergent-tv/adobe-brings-ai-to-the-nhl/",
-          "summary": "NHL teams with Adobe as an Official Creative, Marketing, and AI Partner.",
+          "url": "https://www.adweek.com/agencies/the-one-thing-agency-chiefs-want-to-change-over-the-next-12-months/",
+          "summary": "From AI upskilling to more time for problem-solving, leaders at Digitas, Partners + Napier, Pereira O'Dell and Walrus share their priorities for the year ahead",
           "relevance_score": 0.85
         },
         {
-          "title": "Omar Oakes: Strategy was never in short supply. Courage was",
-          "outlet": "More About Advertising",
+          "title": "OpenAI Takes On Meta&#8217;s Muse With Dots, an Always-On AI Agent",
+          "outlet": "Adweek Feed",
           "date": "",
-          "url": "https://www.moreaboutadvertising.com/omar-oakes-strategy-was-never-in-short-supply-courage-was/?utm_source=rss&utm_medium=rss&utm_campaign=omar-oakes-strategy-was-never-in-short-supply-courage-was",
-          "summary": "A new WFA report says strategic thinking is advertising’s biggest talent gap. That’s always been true, but now AI is […] The post Omar Oakes: Strategy was never in short supply. Courage was appeared f",
+          "url": "https://www.adweek.com/media/openai-takes-on-metas-muse-with-dots-an-always-on-ai-agent/",
+          "summary": "The agents run on their own cloud computers and can connect to more than 4,000 apps.",
           "relevance_score": 0.85
         }
       ],
@@ -136,8 +135,8 @@
         "agencies": [],
         "technologies": [
           "AI",
-          "artificial intelligence",
-          "LOS"
+          "LOS",
+          "personalization"
         ],
         "companies": [],
         "people": [],
@@ -153,170 +152,37 @@
       "related_buzzwords": [
         "ai",
         "ai ai",
-        "data",
-        "want",
-        "agents"
+        "agent",
+        "agents",
+        "governance"
       ]
     },
     {
-      "cluster_id": "signal_005",
-      "cluster_name": "U.S. bank - Fintech",
+      "cluster_id": "signal_000",
+      "cluster_name": "Anomaly & Droga5 - Bank",
       "description": "Stories featuring U.S. bank.",
-      "frequency": 18,
+      "frequency": 22,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 18,
+      "story_count": 22,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Adpulp",
-        "Ad Tech Daily",
-        "Adweek Feed",
-        "AdExchanger",
         "Marketing Dive - Latest News",
+        "More About Advertising",
         "Fast Company",
-        "Marketing & Advertising",
-        "Banking Dive - Latest News"
+        "CIO Dive - Latest News",
+        "Adpulp",
+        "Banking Dive - Latest News",
+        "Adweek Feed"
       ],
       "stories": [
-        {
-          "title": "Valley National Bank to acquire fintech Bluevine for $340M",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/",
-          "summary": "The fintech is set to bring Valley $2.1 billion in deposits and make the bank “a much stronger and more relevant small business competitor,” executives said Monday.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "California’s Nano Banc fails",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/nano-banc-fails-fdic-california-dfpi-sunwest-acquire-sixth-bank-collapse-2026/831514/",
-          "summary": "Sunwest Bank acquired most of the assets, deposits and loans from the long-troubled bank. Nano is the sixth U.S. bank to collapse in 2026.",
-          "relevance_score": 0.85
-        },
         {
           "title": "Mission Lane gets green light for OCC charter",
           "outlet": "Banking Dive - Latest News",
           "date": "",
           "url": "https://www.bankingdive.com/news/mission-lane-gets-occ-conditional-approval-credit-card-bank-charter-ceba/831463/",
           "summary": "The fintech has received conditional approval to form the first new credit card bank regulated by the Office of the Comptroller of the Currency in more than 20 years, a consultant said.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Who’s winning the loyalty game in financial services? It’s complicated.",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/spons/whos-winning-the-loyalty-game-in-financial-services-its-complicated/830350/",
-          "summary": "Loyalty isn't won by being a bank or a fintech. It's won by showing up every day instead of once a quarter.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "National Coffee Day freebies and deals: Where to get your caffeine shot today, from Dunkin’ to Peet’s",
-          "outlet": "Fast Company",
-          "date": "",
-          "url": "https://www.fastcompany.com/91614145/national-coffee-day-2026-freebies-deals-dunkin-donuts-peets-more",
-          "summary": "Many employees know the power of caffeinated coffee (or as the late Dolly Parton so poetically called it, “a cup of ambition”) to get them through a long workday. Since today (Tuesday, September 29, 2",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "In the Quest for Control of the Senate, Maine Is A Battlefield",
-          "outlet": "Adpulp",
-          "date": "",
-          "url": "https://www.adpulp.com/in-the-quest-for-control-of-the-senate-maine-is-a-battlefield/",
-          "summary": "The National Republican Senatorial Committee (NRSC) is concerned about the GOP losing control of the U.S. Senate in the upcoming midterm election. You can see this concern plainly in the commercials t",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Circle CFO to step down following $1.05B IPO",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/circle-cfo-fox-geen-step-down-december-ipo-crypto/831576/",
-          "summary": "Jeremy Fox-Geen will leave the stablecoin issuer after five years as its top finance officer helping to drive growth and usher the company through its long-awaited 2025 IPO.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "FDIC clamps down on ‘significantly undercapitalized’ Old Glory Bank",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/fdic-prompt-corrective-action-old-glory-bank-significantly-undercapitalized/831505/",
-          "summary": "Old Glory’s latest call report showed the bank’s leverage ratio was 2.69%. The bank failed to respond to a notice of intent that regulators would issue a directive for prompt corrective action, the FD",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Fed proposes stablecoin rules",
-          "outlet": "Banking Dive - Latest News",
-          "date": "",
-          "url": "https://www.bankingdive.com/news/fed-proposes-stablecoin-rules/831398/",
-          "summary": "In a statement issued alongside proposed rules, Fed Gov. Michael Barr said stablecoins “will only be stable if they can be reliably and promptly redeemed at par in a range of conditions.”",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Oura stock listing in limbo as smart ring startup delays IPO just days after launching it",
-          "outlet": "Fast Company",
-          "date": "",
-          "url": "https://www.fastcompany.com/91614835/oura-inc-stock-listing-in-limbo-as-smart-ring-maker-delays-ipo",
-          "summary": "Oura has been gearing up to go public all month. Now, it seems those plans have been put on the back burner. The California-based smart ring maker said on Tuesday that it will postpone its highly anti",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "U.S. bank"
-        ],
-        "agencies": [],
-        "technologies": [],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [
-          "ring"
-        ],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "bank",
-        "fintech",
-        "said",
-        "national",
-        "attention"
-      ]
-    },
-    {
-      "cluster_id": "signal_003",
-      "cluster_name": "Anomaly & Droga5 - Campaign",
-      "description": "Stories featuring Experian.",
-      "frequency": 14,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 14,
-      "first_seen": null,
-      "peak_date": null,
-      "outlets": [
-        "More About Advertising",
-        "Adpulp",
-        "Ad Tech Daily",
-        "Marketing Dive - Latest News",
-        "Fast Company"
-      ],
-      "stories": [
-        {
-          "title": "Subway’s CMO on finding room to grow between competitors in QSR",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/subways-cmo-on-finding-room-to-grow-between-competitors-in-qsr/831341/",
-          "summary": "“The challenges are real, which is why we're taking such a big swing now,” Jeff Klein said of the chain’s new brand platform from Martin.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Better Healthcare Delivered—In SE Alaska It’s All in Black and White",
-          "outlet": "Adpulp",
-          "date": "",
-          "url": "https://www.adpulp.com/better-healthcare-delivered-in-se-alaska-its-all-in-black-and-white/",
-          "summary": "Southeast Alaska Regional Health Consortium is a non-profit medical, dental, vision and mental health organization serving the residents of Southeast Alaska. In this new healthcare campaign from R&R p",
           "relevance_score": 0.85
         },
         {
@@ -328,11 +194,19 @@
           "relevance_score": 0.85
         },
         {
-          "title": "How Jeep is charting a new course for its marketing",
+          "title": "Subway’s CMO on finding room to grow between competitors in QSR",
           "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/how-jeep-is-charting-a-new-course-for-its-marketing/831335/",
-          "summary": "Created by Highdive, “This Is Jeep Country” celebrates the brand’s American heritage, while multicultural extensions speak to a fragmented landscape.",
+          "url": "https://www.marketingdive.com/news/subways-cmo-on-finding-room-to-grow-between-competitors-in-qsr/831341/",
+          "summary": "“The challenges are real, which is why we're taking such a big swing now,” Jeff Klein said of the chain’s new brand platform from Martin.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Marketing Has a Goldfish Memory",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/brand-marketing/marketing-has-a-goldfish-memory/",
+          "summary": "At Brandweek’s Marketing Vanguard Stage, Little Spoon CMO Caryn Wasser joined ADWEEK chief brand and community officer Jenny Rooney for a fireside chat on why marketing teams keep overcomplicating the",
           "relevance_score": 0.85
         },
         {
@@ -344,27 +218,35 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Wildlife Photographer Takes Jeep Cherokee Hybrid Deep In the Woods",
-          "outlet": "Adpulp",
+          "title": "Florida credit union to buy 2nd bank in a month",
+          "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.adpulp.com/wildlife-photographer-takes-jeep-cherokee-hybrid-deep-in-the-woods/",
-          "summary": "Jeep is launching a wildlife print campaign for the all-new 2026 Jeep Cherokee Hybrid shot entirely in nature, where the vehicle’s hybrid technology helped make the intimate images possible. Created b",
+          "url": "https://www.bankingdive.com/news/gulf-winds-credit-union-florida-to-buy-alabama-bank-peoples-exchange-truworth/831653/",
+          "summary": "Gulf Winds Credit Union agreed to buy Madison County Community Bank in August. Now it’s following up with a deal for Alabama’s Peoples Exchange Bank before a scheduled rebrand next year.",
           "relevance_score": 0.85
         },
         {
-          "title": "Dave & Buster’s shakes up agencies amid bid to rebuild brand relevance",
-          "outlet": "Marketing Dive - Latest News",
+          "title": "Fed’s ‘collective lack of action’ let info security risks fester: OIG",
+          "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/dave-busters-shakes-up-agencies-amid-bid-to-rebuild-brand-relevance/831369/",
-          "summary": "Gut and Mediaplus are joining the chain’s roster to develop more distinctive marketing and better connect national scale to local activities.",
+          "url": "https://www.bankingdive.com/news/federal-reserve-information-security-risks-former-employee-oig-report/831638/",
+          "summary": "Governance of the central bank's information security program and enforcement of controls lack clarity, resulting in a 2024 incident involving a retiring employee “remaining unresolved for over a year",
           "relevance_score": 0.85
         },
         {
-          "title": "Campaign Trail: Brooklinen goes in-house for first celebrity-led effort",
-          "outlet": "Marketing Dive - Latest News",
+          "title": "Valley National Bank to acquire fintech Bluevine for $340M",
+          "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/campaign-trail-brooklinen-goes-in-house-for-first-celebrity-led-effort/830987/",
-          "summary": "Laura Jacobs, CMO at the DTC bedding brand, details a “Best. Sheets. Ever” campaign that taps cultural figures spanning comedy, music and sports.",
+          "url": "https://www.bankingdive.com/news/valley-national-bank-acquire-fintech-bluevine-340m-small-business-banking/831503/",
+          "summary": "The fintech is set to bring Valley $2.1 billion in deposits and make the bank “a much stronger and more relevant small business competitor,” executives said Monday.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Can’t afford a new computer as memory prices spike? Here’s how to speed up the one you have",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91615341/how-to-speed-up-computer",
+          "summary": "As the prices of memory and components soar, affording a new computer is becoming more and more challenging for some people. Average computer prices are expected to increase by as much as 20% before y",
           "relevance_score": 0.85
         },
         {
@@ -374,19 +256,11 @@
           "url": "https://www.adpulp.com/ally-turns-worried-worker-into-successful-shopper/",
           "summary": "I’m intrigued by how members of Gen Z see their future, socially, economically, and politically, and how this new campaign from Ally (and their agency, Anomaly LA) portrays their thinking and concerns",
           "relevance_score": 0.85
-        },
-        {
-          "title": "A Real Nigerian Prince Pitches New Vaseline Authenticator",
-          "outlet": "Adpulp",
-          "date": "",
-          "url": "https://www.adpulp.com/a-real-nigerian-prince-pitches-new-vaseline-authenticator/",
-          "summary": "With so much signal jamming, disinformation, spam, and outright fakery flooding the market today, it’s increasingly hard to tell fiction from fact. Here’s something that is painfully real: the global ",
-          "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [
-          "Experian"
+          "U.S. bank"
         ],
         "agencies": [
           "Anomaly",
@@ -394,7 +268,9 @@
         ],
         "technologies": [],
         "companies": [],
-        "people": [],
+        "people": [
+          "Little Spoon"
+        ],
         "locations": [],
         "products": [],
         "metrics": [],
@@ -405,162 +281,40 @@
         "housing_terms": []
       },
       "related_buzzwords": [
+        "bank",
         "campaign",
         "new",
-        "jeep",
-        "brand",
-        "healthcare"
+        "said",
+        "brand"
       ]
     },
     {
-      "cluster_id": "signal_006",
-      "cluster_name": "AI & chatbot - Amazon",
-      "description": "Stories featuring IKEA focusing on AI, chatbot.",
-      "frequency": 12,
+      "cluster_id": "signal_001",
+      "cluster_name": "Insights - Marketing",
+      "description": "Coverage of Insights.",
+      "frequency": 20,
       "momentum": "stable",
       "confidence": "high",
-      "story_count": 12,
+      "story_count": 20,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Ad Tech Daily",
-        "Adweek Feed",
+        "VideoWeek",
         "AdExchanger",
-        "Marketing & Advertising",
-        "Marketing Dive - Latest News"
-      ],
-      "stories": [
-        {
-          "title": "How Amazon is streamlining ad buys across multiple formats with AI",
-          "outlet": "Marketing Dive - Latest News",
-          "date": "",
-          "url": "https://www.marketingdive.com/news/how-amazon-is-streamlining-ad-buys-across-multiple-formats-with-ai/831492/",
-          "summary": "Amazon Ads executive Kelly MacLean walks through advances announced today that promise to simplify how marketers work with the platform.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Amazon Ads And The Amazon DSP Get An Agentic Rebrand",
-          "outlet": "AdExchanger",
-          "date": "",
-          "url": "https://www.adexchanger.com/content-studio/amazon-ads-and-the-amazon-dsp-get-an-agentic-rebrand/",
-          "summary": "Amazon Ads has overhauled its DSP and the sponsored product and search-based ad console for on-platform ads, the company announced at its unBoxed event in San Francisco on Tuesday. As one part of that",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Amazon Gets Conversational With New Agentic Ad Formats And Brand Controls",
-          "outlet": "AdExchanger",
-          "date": "",
-          "url": "https://www.adexchanger.com/content-studio/amazon-gets-conversational-with-new-agentic-ad-formats-and-brand-controls/",
-          "summary": "The agentification of Amazon Ads is underway. At its unBoxed ads industry event in San Francisco on Tuesday, Amazon announced a major ad tech overhaul, with its DSP turning into a default agentic chat",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Amazon Rebuilds Its Ad Platform Around AI Agents",
-          "outlet": "Adweek Feed",
-          "date": "",
-          "url": "https://www.adweek.com/commerce/amazon-rebuilds-its-ad-platform-around-ai-agents/",
-          "summary": "Goodbye Amazon Ad Console, hello Amazon Ads Agent.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "6sense Expands Executive Team to Scale Innovation and Advance Leadership in AI-Powered Revenue Marketing",
-          "outlet": "Ad Tech Daily",
-          "date": "",
-          "url": "https://adtechdaily.com/2025/08/27/6sense-expands-executive-team-to-scale-innovation-and-advance-leadership-in-ai-powered-revenue-marketing/",
-          "summary": "SAN FRANCISCO — 6sense®, the first AI-powered revenue marketing platform, today announced three strategic executive appointments: Tim O’Neil as Chief Sales Officer, Amir Ravandoust as Chief Operating ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "This Creator Marketing Platform Has Gone Fully Agentic",
-          "outlet": "AdExchanger",
-          "date": "",
-          "url": "https://www.adexchanger.com/marketers/this-creator-marketing-platform-has-gone-fully-agentic/",
-          "summary": "Upfluence guides brands through the process of finding and executing creator partnerships using its agentic system, Jaice. The post This Creator Marketing Platform Has Gone Fully Agentic  appeared fir",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
-          "outlet": "Ad Tech Daily",
-          "date": "",
-          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
-          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Readpeak Turbo Charges Leadership Team with Top Talent from Pinterest, Hearst, and The Trade Desk as It Accelerates European Expansion",
-          "outlet": "Ad Tech Daily",
-          "date": "",
-          "url": "https://adtechdaily.com/2025/10/17/readpeak-turbo-charges-leadership-team-with-top-talent-from-pinterest-hearst-and-the-trade-desk-as-it-accelerates-european-expansion/",
-          "summary": "Native adtech scale-up makes a trio of senior appointments across the UK and France Readpeak, the leading programmatic native advertising platform, trusted by brands including IKEA, BMW, and Bosch, ha",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Are Corporations Outsourcing Their Marketing and Ads to Micro-influencers?",
-          "outlet": "Marketing & Advertising",
-          "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wqvtvc/are_corporations_outsourcing_their_marketing_and/",
-          "summary": "I noticed more and more corporations outsourcing their marketing and ad production to micro influencers? For example, on TikTok, Reddit, instagram and even Youtube, I see influencers 20-50k followers ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Advertisers Can Directly Influence Amazon’s Alexa Responses",
-          "outlet": "Adweek Feed",
-          "date": "",
-          "url": "https://www.adweek.com/commerce/advertisers-can-directly-influence-amazons-alexa-responses/",
-          "summary": "In May, Amazon rewired its AI assistant with Alexa for Shopping and Alexa+. Now, advertisers can take more control of the new, AI-driven experience. At Amazon’s annual UnBoxed advertising event […]",
-          "relevance_score": 0.85
-        }
-      ],
-      "entities": {
-        "brands": [
-          "IKEA"
-        ],
-        "agencies": [],
-        "technologies": [
-          "AI",
-          "chatbot"
-        ],
-        "companies": [],
-        "people": [],
-        "locations": [],
-        "products": [],
-        "metrics": [],
-        "cultural_themes": [],
-        "storytelling_themes": [],
-        "housing_terms": []
-      },
-      "related_buzzwords": [
-        "amazon",
-        "ads",
-        "ai",
-        "ad",
-        "platform"
-      ]
-    },
-    {
-      "cluster_id": "signal_004",
-      "cluster_name": "Wayfair & Salesforce - Marketing",
-      "description": "Stories featuring Wayfair focusing on Salesforce.",
-      "frequency": 12,
-      "momentum": "stable",
-      "confidence": "high",
-      "story_count": 12,
-      "first_seen": null,
-      "peak_date": null,
-      "outlets": [
-        "Adpulp",
-        "AdExchanger",
-        "Marketing & Advertising",
+        "More About Advertising",
         "Marketing Dive - Latest News",
-        "Fast Company"
+        "Fast Company",
+        "Marketing & Advertising",
+        "Adpulp",
+        "Adweek Feed"
       ],
       "stories": [
         {
-          "title": "Anyone burned out?",
+          "title": "Do you repost business reels for engagement like influencers do?",
           "outlet": "Marketing & Advertising",
           "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wswgsz/anyone_burned_out/",
-          "summary": "I got into marketing 15 years ago because it had a little bit of everything: data, sales, market research, digital, customer behavior. I work in a 2,000 person company and been promoted several times ",
+          "url": "https://www.reddit.com/r/marketing/comments/1wtmxjh/do_you_repost_business_reels_for_engagement_like/",
+          "summary": "I'm a one-man marketing team for a solar company, but given my limited bandwidth as one person, my main role is social media manager. I plan, film, edit, and post all content. Along with that, of cour",
           "relevance_score": 0.85
         },
         {
@@ -572,35 +326,19 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Wayfair ups investment in sports for values-focused brand platform",
+          "title": "Dave & Buster’s shakes up agencies amid bid to rebuild brand relevance",
           "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/wayfair-ups-investment-in-sports-for-values-focused-brand-platform/831231/",
-          "summary": "The retailer is amplifying its latest effort by increasing advertising investment across the networks airing football games to five times its previous spend.",
+          "url": "https://www.marketingdive.com/news/dave-busters-shakes-up-agencies-amid-bid-to-rebuild-brand-relevance/831369/",
+          "summary": "Gut and Mediaplus are joining the chain’s roster to develop more distinctive marketing and better connect national scale to local activities.",
           "relevance_score": 0.85
         },
         {
-          "title": "Popular Brazilian Lager Is Preparing World Cup Fans for Victory",
-          "outlet": "Adpulp",
+          "title": "Omar Oakes: Ad agency pitch theatre is not a sport, but a beauty contest",
+          "outlet": "More About Advertising",
           "date": "",
-          "url": "https://www.adpulp.com/popular-brazilian-lager-is-preparing-world-cup-fans-for-victory/",
-          "summary": "The world’s favorite game and most prestigious championship is coming to North America this summer. The FIFA World Cup will feature 48 teams, 104 matches, and 16 cities, with the final held at MetLife",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "New Job Listings",
-          "outlet": "Marketing & Advertising",
-          "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wbv2y1/new_job_listings/",
-          "summary": "Are you looking to hire? Share your opening to the marketing professionals here on r/marketing. Please include title, description, full-time or part-time, location (on-site location or remote), and a ",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "I increased e-commerce sales 130% in 6 months, but the Sales team still spends all day nitpicking my socials. Anyone else drowning in this?",
-          "outlet": "Marketing & Advertising",
-          "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1wsjpjl/i_increased_ecommerce_sales_130_in_6_months_but/",
-          "summary": "TL;DR: I grew sales 133% in half a year, but the Sales managers spend all their time micromanaging my marketing assets instead of making calls. Ready to start auditing their Salesforce metrics just to",
+          "url": "https://www.moreaboutadvertising.com/omar-oakes-ad-agency-pitch-theatre-is-not-a-sport-but-a-beauty-contest-2/?utm_source=rss&utm_medium=rss&utm_campaign=omar-oakes-ad-agency-pitch-theatre-is-not-a-sport-but-a-beauty-contest-2",
+          "summary": "Ad agencies love to talk about pitching like it’s sport: winners, losers, league tables. Last week’s PepsiCo/Coca-Cola global media account […] The post Omar Oakes: Ad agency pitch theatre is not a sp",
           "relevance_score": 0.85
         },
         {
@@ -612,37 +350,51 @@
           "relevance_score": 0.85
         },
         {
-          "title": "Why This Marketing Measurement Company Just Open-Sourced Its Forecasting Engine",
+          "title": "AppLovin Vs. Unity; Big Tech Is All About Creators",
           "outlet": "AdExchanger",
           "date": "",
-          "url": "https://www.adexchanger.com/measurement/this-marketing-measurement-company-just-open-sourced-its-forecasting-engine/",
-          "summary": "Marketing measurement is really about answering two questions: What happened? And what should I do about it? Most marketing mix models are built to answer the first one, but the second is where things",
+          "url": "https://www.adexchanger.com/daily-news-roundup/tuesday-30092026/",
+          "summary": "Don’t Hate, Mediate Whenever AppLovin processes a mediation request, that request (which is a packet of data wrapped in a cryptographic protection) includes all sorts of juicy details about the user a",
           "relevance_score": 0.85
         },
         {
-          "title": "13,000 bottles of blood pressure medication are being recalled nationwide: What to look out for",
-          "outlet": "Fast Company",
+          "title": "New Job Listings",
+          "outlet": "Marketing & Advertising",
           "date": "",
-          "url": "https://www.fastcompany.com/91614844/blood-pressure-medication-recalled-nationwide-chlorthalidone-tablets",
-          "summary": "Blood pressure medication is one of the most common types of medicines in use in the United States. But this month, a nationwide recall has impacted more than 13,000 bottles of blood pressure medicati",
+          "url": "https://www.reddit.com/r/marketing/comments/1wbv2y1/new_job_listings/",
+          "summary": "Are you looking to hire? Share your opening to the marketing professionals here on r/marketing. Please include title, description, full-time or part-time, location (on-site location or remote), and a ",
           "relevance_score": 0.85
         },
         {
-          "title": "How to look like a space company without space company clichés",
-          "outlet": "Fast Company",
+          "title": "AppsFlyer use hundreds of Reddit accounts to leave fake positive reviews of their service",
+          "outlet": "Marketing & Advertising",
           "date": "",
-          "url": "https://www.fastcompany.com/91614321/turion-space-rebrand",
-          "summary": "A lot has changed at Turion Space since it was founded in 2020. Originally focused on space debris removal, the Irvine, California-based company has since transformed into a space infrastructure compa",
+          "url": "https://www.reddit.com/r/marketing/comments/1s1lelq/appsflyer_use_hundreds_of_reddit_accounts_to/",
+          "summary": "As you know there are many companies on Reddit trying to cheat potential clients by posting fake positive reviews of their services. AppsFlyer are probably the most egregious when it comes to this. Th",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Horizon&#8217;s Bob Lord Takes Aim at Holdcos&#8217; FTE Pricing Models: &#8216;It&#8217;s the Old System&#8217;",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/agencies/horizons-bob-lord-takes-aim-at-holdcos-fte-pricing-models-its-the-old-system/",
+          "summary": "Horizon Media's CEO is challenging legacy FTE-based agency pricing, arguing that value-based compensation is the model of the future.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Kids2&#8217;s Rochelle Wainer on Consumer Insights and the Next Generation of Parents",
+          "outlet": "Adweek Feed",
+          "date": "",
+          "url": "https://www.adweek.com/commerce/kids2s-rochelle-wainer-on-consumer-insights-and-the-next-generation-of-parents/",
+          "summary": "Bridging the gap between digital behaviors and social signals to real-world shopping experiences.",
           "relevance_score": 0.85
         }
       ],
       "entities": {
-        "brands": [
-          "Wayfair"
-        ],
+        "brands": [],
         "agencies": [],
         "technologies": [
-          "Salesforce"
+          "Insights"
         ],
         "companies": [],
         "people": [],
@@ -657,86 +409,245 @@
       },
       "related_buzzwords": [
         "marketing",
-        "company",
-        "sales",
-        "time",
-        "work"
+        "like",
+        "don",
+        "agencies",
+        "media"
       ]
     },
     {
-      "cluster_id": "signal_001",
-      "cluster_name": "AI - Enterprise",
-      "description": "Coverage of AI.",
-      "frequency": 7,
+      "cluster_id": "signal_003",
+      "cluster_name": "AI & insights - Amazon",
+      "description": "Stories featuring IKEA focusing on AI, insights, chatbot.",
+      "frequency": 19,
       "momentum": "stable",
-      "confidence": "medium",
-      "story_count": 7,
+      "confidence": "high",
+      "story_count": 19,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Adweek Feed",
-        "CIO Dive - Latest News"
+        "VideoWeek",
+        "AdExchanger",
+        "Marketing Dive - Latest News",
+        "Ad Tech Daily",
+        "Adpulp",
+        "Banking Dive - Latest News",
+        "Adweek Feed"
       ],
       "stories": [
         {
-          "title": "Microsoft retools Copilot with coding, AI agent capabilities",
-          "outlet": "CIO Dive - Latest News",
+          "title": "Overwolf Expands European Presence with Former Activision Blizzard Executive to Accelerate Brand Partnership Growth",
+          "outlet": "Ad Tech Daily",
           "date": "",
-          "url": "https://www.ciodive.com/news/Microsoft-copilot-enterprise-AI-tools/831423/",
-          "summary": "The software giant aims to capture more of the enterprise AI market as providers such as OpenAI and Anthropic snatch up business, a Gartner analyst told CIO Dive.",
+          "url": "https://adtechdaily.com/2025/08/28/overwolf-expands-european-presence-with-former-activision-blizzard-executive-to-accelerate-brand-partnership-growth/",
+          "summary": "Business has grown by 385% since entering the EU market one year ago Overwolf Ads, a world-leading platform empowering brands and advertisers to reach over 100 million monthly gamers, today announced ",
           "relevance_score": 0.85
         },
         {
-          "title": "Nvidia bakes agent governance into infrastructure layer",
-          "outlet": "CIO Dive - Latest News",
+          "title": "How Amazon is streamlining ad buys across multiple formats with AI",
+          "outlet": "Marketing Dive - Latest News",
           "date": "",
-          "url": "https://www.ciodive.com/news/nvidia-bakes-agent-governance-infrastructure-layer/831565/",
-          "summary": "The Nvidia Open Agent Safety Platform aims to control agents but is unlikely to give enterprises full oversight, analysts told CIO Dive.",
+          "url": "https://www.marketingdive.com/news/how-amazon-is-streamlining-ad-buys-across-multiple-formats-with-ai/831492/",
+          "summary": "Amazon Ads executive Kelly MacLean walks through advances announced today that promise to simplify how marketers work with the platform.",
           "relevance_score": 0.85
         },
         {
-          "title": "McAfee Overhauls Its Brand as AI Rewrites the Rules of Online Security",
+          "title": "Amazon Ads And The Amazon DSP Get An Agentic Rebrand",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/platforms/amazon-ads-and-the-amazon-dsp-get-an-agentic-rebrand/",
+          "summary": "Amazon Ads has overhauled its DSP and the sponsored product and search-based ad console for on-platform ads, the company announced at its unBoxed event in San Francisco on Tuesday. As one part of that",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Readpeak Turbo Charges Leadership Team with Top Talent from Pinterest, Hearst, and The Trade Desk as It Accelerates European Expansion",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/10/17/readpeak-turbo-charges-leadership-team-with-top-talent-from-pinterest-hearst-and-the-trade-desk-as-it-accelerates-european-expansion/",
+          "summary": "Native adtech scale-up makes a trio of senior appointments across the UK and France Readpeak, the leading programmatic native advertising platform, trusted by brands including IKEA, BMW, and Bosch, ha",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Amazon Gets Conversational With New Agentic Ad Formats And Brand Controls",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/platforms/amazon-gets-conversational-with-new-agentic-ad-formats-and-brand-controls/",
+          "summary": "The agentification of Amazon Ads is underway. At its unBoxed ads industry event in San Francisco on Tuesday, Amazon announced a major ad tech overhaul, with its DSP turning into a default agentic chat",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "How Thorne’s brand platform led to a $3.8B P&G deal — and what’s next",
+          "outlet": "Marketing Dive - Latest News",
+          "date": "",
+          "url": "https://www.marketingdive.com/news/how-thornes-brand-platform-led-to-a-38b-pg-deal-and-whats-next/831494/",
+          "summary": "Chief Growth Officer Mary Beech details how work with brand consultancy Redscout turned consumer insights into campaigns and a communication style.",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Meta Eyes Enterprise Spend With Muse for Small Business Launch",
           "outlet": "Adweek Feed",
           "date": "",
-          "url": "https://www.adweek.com/brand-marketing/mcafee-overhauls-its-brand-as-ai-rewrites-the-rules-of-online-security/",
-          "summary": "Cybersecurity company aims to broaden its image beyond antivirus software",
+          "url": "https://www.adweek.com/social-marketing/meta-muse-for-small-business-enterprise/",
+          "summary": "The new offering aims to put Meta’s new agent to work for the roughly 200 million brands that operate on its platform.",
           "relevance_score": 0.85
         },
         {
-          "title": "3 business risks of AI-assisted coding executives can’t ignore",
-          "outlet": "CIO Dive - Latest News",
+          "title": "Vecima to Highlight Efficient, AI-powered Video Streaming and Innovative Monetization Solutions at IBC 2025",
+          "outlet": "Ad Tech Daily",
           "date": "",
-          "url": "https://www.ciodive.com/spons/3-business-risks-of-ai-assisted-coding-executives-cant-ignore/831213/",
-          "summary": "Without oversight, AI coding assistants can leak secrets, act sans accountability and spike spend.",
+          "url": "https://adtechdaily.com/2025/08/28/vecima-to-highlight-efficient-ai-powered-video-streaming-and-innovative-monetization-solutions-at-ibc-2025/",
+          "summary": "VICTORIA, British Columbia — Vecima Networks Inc. (TSX: VCM) today announced its MediaScale™ solution line-up for IBC 2025 in Amsterdam, highlighting multiple video industry innovations, including Key",
           "relevance_score": 0.85
         },
         {
-          "title": "Meta carves out enterprise offerings, brings in new leadership",
-          "outlet": "CIO Dive - Latest News",
+          "title": "6sense Expands Executive Team to Scale Innovation and Advance Leadership in AI-Powered Revenue Marketing",
+          "outlet": "Ad Tech Daily",
           "date": "",
-          "url": "https://www.ciodive.com/news/meta-carves-out-enterprise-offerings/831561/",
-          "summary": "The consumer-focused provider faces several hurdles in earning the trust of enterprise CIOs, Gartner’s Arun Chandrasekaran said.",
+          "url": "https://adtechdaily.com/2025/08/27/6sense-expands-executive-team-to-scale-innovation-and-advance-leadership-in-ai-powered-revenue-marketing/",
+          "summary": "SAN FRANCISCO — 6sense®, the first AI-powered revenue marketing platform, today announced three strategic executive appointments: Tim O’Neil as Chief Sales Officer, Amir Ravandoust as Chief Operating ",
           "relevance_score": 0.85
         },
         {
-          "title": "AI’s next enterprise risk is generated sprawl",
-          "outlet": "CIO Dive - Latest News",
+          "title": "Perion Partners with KT Corporation and NHN AD to Drive New Advertising Revenue in Korea’s High-Growth Programmatic Market",
+          "outlet": "Ad Tech Daily",
           "date": "",
-          "url": "https://www.ciodive.com/spons/ais-next-enterprise-risk-is-generated-sprawl/831090/",
-          "summary": "Speed of AI development is outpacing governance. Here's what CIOs need to know.",
-          "relevance_score": 0.85
-        },
-        {
-          "title": "Spotify&#8217;s Tour With Coach Is a Big Grab For Untapped Brand Budgets",
-          "outlet": "Adweek Feed",
-          "date": "",
-          "url": "https://www.adweek.com/creativity/spotifys-tour-with-coach-is-a-big-grab-for-untapped-brand-budgets/",
-          "summary": "Spotify's Tabby Tour is an attempt to solve some of the traditional limitations of its advertising business",
+          "url": "https://adtechdaily.com/2025/08/26/perion-partners-with-kt-corporation-and-nhn-ad-to-drive-new-advertising-revenue-in-koreas-high-growth-programmatic-market/",
+          "summary": "KT Taps Perion to Attract Global Advertisers; NHN AD Expands Access to Korean Premium Media NEW YORK & TEL AVIV, Israel — Perion Network Ltd. (NASDAQ & TASE: PERI), a leader in advanced technology sol",
           "relevance_score": 0.85
         }
       ],
       "entities": {
-        "brands": [],
+        "brands": [
+          "IKEA"
+        ],
+        "agencies": [],
+        "technologies": [
+          "AI",
+          "insights",
+          "chatbot"
+        ],
+        "companies": [],
+        "people": [],
+        "locations": [],
+        "products": [],
+        "metrics": [],
+        "cultural_themes": [],
+        "storytelling_themes": [],
+        "housing_terms": []
+      },
+      "related_buzzwords": [
+        "amazon",
+        "ads",
+        "announced",
+        "brands",
+        "world"
+      ]
+    },
+    {
+      "cluster_id": "signal_005",
+      "cluster_name": "AI & Experian - Advertising",
+      "description": "Stories featuring Experian, KNOCK focusing on AI.",
+      "frequency": 12,
+      "momentum": "stable",
+      "confidence": "high",
+      "story_count": 12,
+      "first_seen": null,
+      "peak_date": null,
+      "outlets": [
+        "VideoWeek",
+        "AdExchanger",
+        "More About Advertising",
+        "Fast Company",
+        "Marketing & Advertising",
+        "Ad Tech Daily"
+      ],
+      "stories": [
+        {
+          "title": "Dailymotion Launches Dailymotion Business to Combine Signals Across OLV, CTV and Creator Ecosystem",
+          "outlet": "VideoWeek",
+          "date": "",
+          "url": "https://videoweek.com/2026/09/28/dailymotion-launches-dailymotion-business-to-combine-signals-across-olv-ctv-and-creator-ecosystem/",
+          "summary": "Since its launch in 2005, Dailymotion has evolved from one of the first HD video hosting services into a video marketing platform and advertising business that now operates across connected TV, online",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "The CTV Advertising Guide 2027 is Now Available to Download",
+          "outlet": "VideoWeek",
+          "date": "",
+          "url": "https://videoweek.com/2026/09/30/the-ctv-advertising-guide-2027-is-now-available-to-download/",
+          "summary": "We’re excited to announce that the CTV Advertising Guide Europe 2027 is now available to download. You can get your free copy here. After a frantic few years for Europe's CTV advertising market, in wh",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "MFE Has “All the Munitions” to Fight Against Global Streaming Giants",
+          "outlet": "VideoWeek",
+          "date": "",
+          "url": "https://videoweek.com/2026/09/30/mfe-has-all-the-munitions-to-fight-against-global-streaming-giants/",
+          "summary": "Last week saw MFE-MediaForEurope launch ALL21 Total Video Europe, a cross-country solution that airs the same ad simultaneously across all channels at 9pm. At DMEXCO, Michele Giraudo, Chief Revenue Of",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "MFE Plays to TV’s Strengths with Cross-European Simultaneous Reach Ad Format",
+          "outlet": "VideoWeek",
+          "date": "",
+          "url": "https://videoweek.com/2026/09/23/mfe-plays-to-tvs-strengths-with-cross-european-simultaneous-reach-ad-format/",
+          "summary": "(L-R) Stefano Sala, CEO, MFE Advertising; Matteo Cardani, CMO, MFE Advertising; Michele Giraudo, CRO, MFE Advertising  When MFE-MediaForEurope took full control of German broadcaster ProSieben just ov",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "MMMs Can Tell You If CTV Worked. They Can’t Always Tell You Why",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/on-tv-and-video/mmms-can-tell-you-if-ctv-worked-they-cant-always-tell-you-why/",
+          "summary": "Marketing mix models (MMMs) deserve the attention they are getting. Used well, they can pull brands out of a measurement culture that still gives too much credit to the click, especially in channels w",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Wurl and TVision Unveil New Report Linking Emotion Alignment to Higher Ad Attention on Streaming TV",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/08/29/wurl-and-tvision-unveil-new-report-linking-emotion-alignment-to-higher-ad-attention-on-streaming-tv/",
+          "summary": "First-of-its-kind analysis shows ads that are emotionally aligned with surrounding content consistently capture greater attention and drive performance PALO ALTO, Calif. — Wurl, a leader in the stream",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Reaching The World’s Next 7 Billion Consumers Takes More Than Just Ad Tech",
+          "outlet": "AdExchanger",
+          "date": "",
+          "url": "https://www.adexchanger.com/content-studio/reaching-the-worlds-next-7-billion-consumers-takes-more-than-just-ad-tech/",
+          "summary": "The US combined with Europe’s five largest ad markets are home to roughly 8% of the world’s consumers. Together, they account for nearly half of global ad spend. It makes sense, then, that most advert",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "PurpleLab Expands the Healthcare Advertising Ecosystem with Consecutive Strategic Partnerships",
+          "outlet": "Ad Tech Daily",
+          "date": "",
+          "url": "https://adtechdaily.com/2025/09/30/purplelab-expands-the-healthcare-advertising-ecosystem-with-consecutive-strategic-partnerships/",
+          "summary": "The healthcare analytics company partnered with Experian, DeepIntent, InsightsRx, and Comscore to deliver scale, precision, privacy-conscious targeting, and real-time measurement for pharmaceutical ad",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Going to my first Marketing Conference and I need some help!",
+          "outlet": "Marketing & Advertising",
+          "date": "",
+          "url": "https://www.reddit.com/r/marketing/comments/1wtttih/going_to_my_first_marketing_conference_and_i_need/",
+          "summary": "Hi everyone! I’m attending Advertising week in NYC next week and I’m starting to get very nervous. I’m only a few months out of school and about 6 months into my first full time job as a digital marke",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Omar Oakes: Strategy was never in short supply. Courage was",
+          "outlet": "More About Advertising",
+          "date": "",
+          "url": "https://www.moreaboutadvertising.com/omar-oakes-strategy-was-never-in-short-supply-courage-was/?utm_source=rss&utm_medium=rss&utm_campaign=omar-oakes-strategy-was-never-in-short-supply-courage-was",
+          "summary": "A new WFA report says strategic thinking is advertising’s biggest talent gap. That’s always been true, but now AI is […] The post Omar Oakes: Strategy was never in short supply. Courage was appeared f",
+          "relevance_score": 0.85
+        }
+      ],
+      "entities": {
+        "brands": [
+          "Experian",
+          "KNOCK"
+        ],
         "agencies": [],
         "technologies": [
           "AI"
@@ -746,72 +657,94 @@
         "locations": [],
         "products": [],
         "metrics": [],
-        "cultural_themes": [],
+        "cultural_themes": [
+          "collaboration"
+        ],
         "storytelling_themes": [],
         "housing_terms": []
       },
       "related_buzzwords": [
-        "ai",
-        "enterprise",
-        "coding",
-        "aims",
-        "business"
+        "advertising",
+        "mfe",
+        "ctv",
+        "ad",
+        "tv"
       ]
     },
     {
-      "cluster_id": "signal_000",
-      "cluster_name": "Media Agency Clients",
-      "description": "Cluster of related stories.",
-      "frequency": 4,
+      "cluster_id": "signal_004",
+      "cluster_name": "artificial intelligence & AI",
+      "description": "Coverage of artificial intelligence, AI, chatbot.",
+      "frequency": 6,
       "momentum": "stable",
-      "confidence": "low",
-      "story_count": 4,
+      "confidence": "medium",
+      "story_count": 6,
       "first_seen": null,
       "peak_date": null,
       "outlets": [
-        "Marketing & Advertising",
-        "More About Advertising",
-        "Marketing Dive - Latest News",
-        "Adweek Feed"
+        "Adpulp",
+        "Banking Dive - Latest News",
+        "Fast Company"
       ],
       "stories": [
         {
-          "title": "Omar Oakes: Ad agency pitch theatre is not a sport, but a beauty contest",
-          "outlet": "More About Advertising",
+          "title": "Anthropic, Google, and Meta CEOs pledge to ‘self police’ AI development, says Trump",
+          "outlet": "Fast Company",
           "date": "",
-          "url": "https://www.moreaboutadvertising.com/omar-oakes-ad-agency-pitch-theatre-is-not-a-sport-but-a-beauty-contest-2/?utm_source=rss&utm_medium=rss&utm_campaign=omar-oakes-ad-agency-pitch-theatre-is-not-a-sport-but-a-beauty-contest-2",
-          "summary": "Ad agencies love to talk about pitching like it’s sport: winners, losers, league tables. Last week’s PepsiCo/Coca-Cola global media account […] The post Omar Oakes: Ad agency pitch theatre is not a sp",
+          "url": "https://www.fastcompany.com/91615769/anthropic-google-meta-ceos-pledge-self-police-ai-development-says-trump",
+          "summary": "President Donald Trump on Tuesday said that he and a large group of leaders of artificial intelligence companies had signed a voluntary accord that will include internal and external reviews during a ",
           "relevance_score": 0.85
         },
         {
-          "title": "DoorDash doubles down on WPP, naming agency global media partner",
-          "outlet": "Marketing Dive - Latest News",
+          "title": "Capital One’s agentic AI strategy hinges on data, platform-first mindset",
+          "outlet": "Banking Dive - Latest News",
           "date": "",
-          "url": "https://www.marketingdive.com/news/doordash-doubles-down-on-wpp-naming-agency-global-media-partner/831473/",
-          "summary": "WPP continues to succeed in deepening relationships with existing clients following a similar win with Estée Lauder and scoring Wendy’s U.S. media.",
+          "url": "https://www.bankingdive.com/news/capital-one-agentic-ai-strategy/831461/",
+          "summary": "Proper data context and guardrails are key to deploying AI agents at scale, said Rashmi Shetty, the bank's vice president of enterprise artificial intelligence.",
           "relevance_score": 0.85
         },
         {
-          "title": "AppsFlyer use hundreds of Reddit accounts to leave fake positive reviews of their service",
-          "outlet": "Marketing & Advertising",
+          "title": "Think your AI chatbot is helping you? Researchers say there’s a risk users may not recognize",
+          "outlet": "Fast Company",
           "date": "",
-          "url": "https://www.reddit.com/r/marketing/comments/1s1lelq/appsflyer_use_hundreds_of_reddit_accounts_to/",
-          "summary": "As you know there are many companies on Reddit trying to cheat potential clients by posting fake positive reviews of their services. AppsFlyer are probably the most egregious when it comes to this. Th",
+          "url": "https://www.fastcompany.com/91615065/think-your-ai-chatbot-is-helping-you-researchers-say-theres-a-risk-users-may-not-recognize",
+          "summary": "Despite repeated warnings about the risks of artificial intelligence, users have become increasingly reliant on AI chatbots—particularly those offering companionship. Yet despite chatbots’ utility for",
           "relevance_score": 0.85
         },
         {
-          "title": "Delta Air Lines Follows United in Building an Ads Business",
-          "outlet": "Adweek Feed",
+          "title": "This is what women leaders can teach us about using AI well",
+          "outlet": "Fast Company",
           "date": "",
-          "url": "https://www.adweek.com/commerce/delta-air-lines-follows-united-in-building-an-ads-business/",
-          "summary": "Delta has hired a former Deloitte and Digitas leader to run its media network.",
+          "url": "https://www.fastcompany.com/91613131/this-is-what-women-leaders-can-teach-us-about-using-ai-well",
+          "summary": "There’s a gender gap in generative AI use. According to research published by Harvard Business School, women adopt artificial intelligence at lower rates than men. Many have interpreted that statistic",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Trump’s AI Force could make AI’s risks worse. Here’s what to do instead",
+          "outlet": "Fast Company",
+          "date": "",
+          "url": "https://www.fastcompany.com/91614276/trumps-ai-force-could-risks-worse",
+          "summary": "Artificial intelligence dominated the opening of the UN General Assembly in New York on September 22, 2026. Ahead of the meeting, 20 nations released a statement requesting “human direction, oversight",
+          "relevance_score": 0.85
+        },
+        {
+          "title": "Texas (and Nation) In Midst of A Massive Data Center Boom",
+          "outlet": "Adpulp",
+          "date": "",
+          "url": "https://www.adpulp.com/texas-and-nation-in-midst-of-a-massive-data-center-boom/",
+          "summary": "A new Gallup survey shows 70% of Americans oppose constructing data centers for artificial intelligence in their local area, including 48% who strongly oppose them. That’s a significant jump from the ",
           "relevance_score": 0.85
         }
       ],
       "entities": {
         "brands": [],
         "agencies": [],
-        "technologies": [],
+        "technologies": [
+          "artificial intelligence",
+          "AI",
+          "chatbot",
+          "Artificial intelligence"
+        ],
         "companies": [],
         "people": [],
         "locations": [],
@@ -822,11 +755,11 @@
         "housing_terms": []
       },
       "related_buzzwords": [
-        "media",
-        "agency",
-        "clients",
-        "global media",
-        "reddit"
+        "artificial intelligence",
+        "artificial",
+        "intelligence",
+        "ai",
+        "ai artificial"
       ]
     }
   ],
@@ -835,19 +768,35 @@
     "building": [],
     "lasting": [
       {
-        "name": "AI & artificial intelligence - Ai Ai",
+        "name": "AI & LOS - Ai Ai",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 27,
+        "mention_count": 25,
         "key_players": []
       },
       {
-        "name": "U.S. bank - Fintech",
+        "name": "Anomaly & Droga5 - Bank",
         "duration_weeks": 12,
         "stability_score": 0.85,
-        "mention_count": 18,
+        "mention_count": 22,
         "key_players": [
           "U.S. bank"
+        ]
+      },
+      {
+        "name": "Insights - Marketing",
+        "duration_weeks": 12,
+        "stability_score": 0.85,
+        "mention_count": 20,
+        "key_players": []
+      },
+      {
+        "name": "AI & insights - Amazon",
+        "duration_weeks": 12,
+        "stability_score": 0.85,
+        "mention_count": 19,
+        "key_players": [
+          "IKEA"
         ]
       }
     ]
@@ -857,28 +806,39 @@
     "threats": [],
     "strategic_shifts": [
       {
-        "shift": "AI & artificial intelligence - Ai Ai",
+        "shift": "AI & LOS - Ai Ai",
         "drivers": [
           "AI",
-          "artificial intelligence",
-          "LOS"
+          "LOS",
+          "personalization"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early majority"
       },
       {
-        "shift": "AI & chatbot - Amazon",
+        "shift": "AI & insights - Amazon",
         "drivers": [
           "AI",
+          "insights",
           "chatbot"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
       },
       {
-        "shift": "AI - Enterprise",
+        "shift": "AI & Experian - Advertising",
         "drivers": [
           "AI"
+        ],
+        "timeline": "12-18 months",
+        "adoption_stage": "early adopters"
+      },
+      {
+        "shift": "artificial intelligence & AI",
+        "drivers": [
+          "artificial intelligence",
+          "AI",
+          "chatbot"
         ],
         "timeline": "12-18 months",
         "adoption_stage": "early adopters"
@@ -888,19 +848,19 @@
   "risks": {
     "technological": [
       {
-        "risk": "AI implementation challenges in AI & artificial intelligence - Ai Ai",
+        "risk": "AI implementation challenges in AI & LOS - Ai Ai",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
       },
       {
-        "risk": "AI implementation challenges in Anomaly & Droga5 - Campaign",
+        "risk": "AI implementation challenges in AI & insights - Amazon",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
       },
       {
-        "risk": "AI implementation challenges in AI & chatbot - Amazon",
+        "risk": "AI implementation challenges in AI & Experian - Advertising",
         "probability": "medium",
         "impact": "high",
         "mitigation": "Human oversight and quality control processes"
@@ -912,7 +872,7 @@
   },
   "north_star_questions": [
     {
-      "question": "How will AI & artificial intelligence - Ai Ai reshape competitive dynamics in the industry?",
+      "question": "How will AI & LOS - Ai Ai reshape competitive dynamics in the industry?",
       "category": "Industry Structure",
       "signals": [
         "signal_002"
@@ -920,7 +880,7 @@
       "urgency": "medium"
     },
     {
-      "question": "What are the long-term implications of AI & artificial intelligence - Ai Ai for market structure?",
+      "question": "What are the long-term implications of AI & LOS - Ai Ai for market structure?",
       "category": "Market Dynamics",
       "signals": [
         "signal_002"
@@ -928,19 +888,19 @@
       "urgency": "medium"
     },
     {
-      "question": "How do consumers perceive brand authenticity when u.s. bank - fintech?",
+      "question": "How do consumers perceive brand authenticity when anomaly & droga5 - bank?",
       "category": "Cultural Impact",
       "signals": [
-        "signal_005"
+        "signal_000"
       ],
       "urgency": "medium"
     }
   ],
   "raw_data_summary": {
-    "total_articles": 94,
+    "total_articles": 104,
     "articles_with_full_content": 0,
-    "unique_entities_extracted": 15,
-    "clusters_identified": 7,
+    "unique_entities_extracted": 19,
+    "clusters_identified": 6,
     "outliers": 0
   }
 }
