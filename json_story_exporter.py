@@ -32,7 +32,7 @@ def export_stories_json(stories: List[Dict], signals: List[Dict] = None,
 
         "stories": _format_stories_for_export(stories),
 
-        "signals": _format_signals_for_export(signals) if signals else [],
+        "signals": _format_signals_for_export(signals, stories) if signals else [],
 
         "summary_statistics": _calculate_statistics(stories, signals)
     }
@@ -93,7 +93,7 @@ def _format_stories_for_export(stories: List[Dict]) -> List[Dict]:
     return formatted_stories
 
 
-def _format_signals_for_export(signals: List[Dict]) -> List[Dict]:
+def _format_signals_for_export(signals: List[Dict], stories: List[Dict]) -> List[Dict]:
     """Format signal clusters for tabular export"""
     if not signals:
         return []
