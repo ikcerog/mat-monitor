@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T14:30:55.663369",
+    "generated_at": "2026-10-07T14:47:01.040975",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,31 +11,29 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - video",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_005",
-        "signal_003",
-        "signal_002"
+        "signal_001",
+        "signal_004"
       ],
-      "story_count": 67,
+      "story_count": 56,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Bank of America",
-          "Experian"
+          "JPMorgan Chase",
+          "Experian",
+          "article"
         ],
         "technologies": [
           "AI",
           "artificial intelligence",
           "LOS",
-          "insights",
           "pos"
         ],
         "themes": [
-          "mental health",
-          "retention"
+          "mental health"
         ]
       },
       "time_depth": "sustained",
@@ -43,26 +41,27 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: insights & article - starbucks",
+      "narrative": "Industry movement: ai & bank of america - video",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_000",
-        "signal_004"
+        "signal_002",
+        "signal_003",
+        "signal_000"
       ],
-      "story_count": 18,
+      "story_count": 47,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "article",
-          "JPMorgan Chase"
+          "Bank of America",
+          "IKEA"
         ],
         "technologies": [
-          "insights",
-          "AI"
+          "AI",
+          "insights"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -71,14 +70,22 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 25,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_004",
-          "name": "JPMorgan Chase & AI",
-          "story_count": 3,
+          "name": "JPMorgan Chase & Droga5 - Week",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 3,
-      "key_themes": []
+      "story_count": 37,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
@@ -96,23 +103,15 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI - Ad",
-          "story_count": 18,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "JPMorgan Chase & Droga5 - Week",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 31,
+      "story_count": 12,
       "key_themes": [
-        "equity",
-        "mental health",
-        "retention"
+        "mental health"
       ]
     },
     "industry_transformation": {
@@ -120,33 +119,44 @@
       "signals": [
         {
           "id": "signal_005",
-          "name": "AI & artificial intelligence - Video",
-          "story_count": 37,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & LOS - Ai Ai",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "insights & article - Starbucks",
-          "story_count": 15,
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 13,
+          "name": "AI & Bank of America - Video",
+          "story_count": 21,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "artificial intelligence & Experian - New",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_003",
+          "name": "Anomaly & IKEA - Agency",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "JPMorgan Chase & Droga5 - Week",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI - Tv",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 82,
+      "story_count": 103,
       "key_themes": [
-        "mental health",
-        "retention"
+        "mental health"
       ]
     }
   },
@@ -186,15 +196,11 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 23
-      },
-      {
-        "name": "insights",
-        "mentions": 2
+        "mentions": 30
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "LOS",
@@ -203,25 +209,16 @@
       {
         "name": "pos",
         "mentions": 1
-      }
-    ],
-    "influential_voices": [
+      },
       {
-        "name": "Starbucks The",
+        "name": "insights",
         "mentions": 1
       }
     ],
+    "influential_voices": [],
     "cultural_movements": [
       {
-        "theme": "equity",
-        "frequency": 1
-      },
-      {
         "theme": "mental health",
-        "frequency": 1
-      },
-      {
-        "theme": "retention",
         "frequency": 1
       }
     ],
@@ -229,13 +226,14 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 3,
+      "signal_count": 2,
+      "story_count": 37,
       "top_signals": [
-        "JPMorgan Chase & AI"
+        "AI & artificial intelligence - Ai Ai",
+        "JPMorgan Chase & Droga5 - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on jpmorgan chase & ai with mixed momentum"
+      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -245,14 +243,13 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 31,
+      "signal_count": 1,
+      "story_count": 12,
       "top_signals": [
-        "AI - Ad",
-        "Anomaly & Droga5 - Campaign"
+        "JPMorgan Chase & Droga5 - Week"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai - ad"
+      "key_insight": "Cultural emphasis on jpmorgan chase & droga5 - week"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -270,7 +267,6 @@
         "AI",
         "artificial intelligence",
         "LOS",
-        "insights",
         "pos"
       ],
       "signal_count": 3,
@@ -278,17 +274,16 @@
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Video",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - video.",
+    "headline": "Focus on AI & artificial intelligence - Ai Ai",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
       "mental health"
     ],
     "attention_areas": [
-      "AI & artificial intelligence - Video",
-      "AI - Ad",
-      "AI & LOS - Ai Ai"
+      "AI & artificial intelligence - Ai Ai",
+      "AI & Bank of America - Video",
+      "artificial intelligence & Experian - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -298,7 +293,6 @@
   "macro_observations": [
     "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
