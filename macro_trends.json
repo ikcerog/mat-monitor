@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-08T14:58:07.878811",
+    "generated_at": "2026-10-09T14:42:53.425605",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,27 +11,54 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: anomaly & droga5 - campaign",
+      "narrative": "Industry movement: ikea & article - program",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_003",
         "signal_001",
-        "signal_005"
+        "signal_000"
       ],
       "story_count": 42,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "JPMorgan Chase",
+          "IKEA",
           "article",
-          "IKEA"
+          "Wells Fargo"
         ],
         "technologies": [
-          "AI"
+          "Los",
+          "Saas"
         ],
         "themes": []
       },
       "time_depth": "developing",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_002",
+        "signal_005"
+      ],
+      "story_count": 40,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [
+          "FICO",
+          "JPMorgan Chase",
+          "Ikea"
+        ],
+        "technologies": [
+          "AI",
+          "artificial intelligence",
+          "LOS"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -40,33 +67,35 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Ai Ai",
+          "id": "signal_003",
+          "name": "IKEA & article - Program",
           "story_count": 27,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "AI & JPMorgan Chase - Week",
-          "story_count": 13,
+          "id": "signal_002",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 25,
           "momentum": "stable"
         }
       ],
-      "story_count": 40,
+      "story_count": 52,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "chatbot & Saas - Marketing",
-          "story_count": 11,
+          "id": "signal_004",
+          "name": "Anomaly & Droga5 - Marketing",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 11,
-      "key_themes": []
+      "story_count": 21,
+      "key_themes": [
+        "mental health"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -78,15 +107,14 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "Experian - Real",
-          "story_count": 23,
+          "id": "signal_004",
+          "name": "Anomaly & Droga5 - Marketing",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 23,
+      "story_count": 21,
       "key_themes": [
-        "Equity",
         "mental health"
       ]
     },
@@ -94,31 +122,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
+          "id": "signal_002",
           "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 17,
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AI & IKEA - Agents",
-          "story_count": 12,
+          "name": "AI & Ikea - Week",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "chatbot & Saas - Marketing",
-          "story_count": 11,
+          "id": "signal_001",
+          "name": "Saas - Page",
+          "story_count": 9,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "Attention Brand Good",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 67,
+      "story_count": 55,
       "key_themes": []
     }
   },
@@ -135,8 +163,8 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "JPMorgan Chase",
-        "mentions": 3
+        "name": "Ikea",
+        "mentions": 1
       },
       {
         "name": "IKEA",
@@ -153,12 +181,20 @@
       {
         "name": "FICO",
         "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
+      },
+      {
+        "name": "JPMorgan Chase",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 29
+        "mentions": 27
       },
       {
         "name": "artificial intelligence",
@@ -169,7 +205,7 @@
         "mentions": 1
       },
       {
-        "name": "chatbot",
+        "name": "Los",
         "mentions": 1
       },
       {
@@ -177,12 +213,17 @@
         "mentions": 1
       }
     ],
-    "influential_voices": [],
-    "cultural_movements": [
+    "influential_voices": [
       {
-        "theme": "Equity",
-        "frequency": 1
+        "name": "Creative Global",
+        "mentions": 1
       },
+      {
+        "name": "Gartner Senior",
+        "mentions": 1
+      }
+    ],
+    "cultural_movements": [
       {
         "theme": "mental health",
         "frequency": 1
@@ -193,31 +234,29 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 2,
-      "story_count": 40,
+      "story_count": 52,
       "top_signals": [
-        "AI & artificial intelligence - Ai Ai",
-        "AI & JPMorgan Chase - Week"
+        "IKEA & article - Program",
+        "AI & artificial intelligence - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
+      "key_insight": "Primary focus on ikea & article - program with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 11,
-      "top_signals": [
-        "chatbot & Saas - Marketing"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on chatbot & saas - marketing"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 23,
+      "story_count": 21,
       "top_signals": [
-        "Experian - Real"
+        "Anomaly & Droga5 - Marketing"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on experian - real"
+      "key_insight": "Cultural emphasis on anomaly & droga5 - marketing"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -229,17 +268,16 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & artificial intelligence - Ai Ai",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & artificial intelligence - ai ai.",
+    "headline": "Focus on IKEA & article - Program",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & article - program.",
     "key_shifts": [],
     "dominant_themes": [
-      "Equity",
       "mental health"
     ],
     "attention_areas": [
+      "IKEA & article - Program",
       "AI & artificial intelligence - Ai Ai",
-      "Experian - Real",
-      "Anomaly & Droga5 - Campaign"
+      "Anomaly & Droga5 - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -248,7 +286,6 @@
   },
   "macro_observations": [
     "High coverage intensity with 103 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Limited momentum suggests consolidation or quieter period"
   ]
 }
