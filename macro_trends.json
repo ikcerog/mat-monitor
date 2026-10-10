@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-09T14:42:53.425605",
+    "generated_at": "2026-10-10T13:59:56.713557",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,52 +11,29 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ikea & article - program",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_003",
-        "signal_001",
-        "signal_000"
-      ],
-      "story_count": 42,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "IKEA",
-          "article",
-          "Wells Fargo"
-        ],
-        "technologies": [
-          "Los",
-          "Saas"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & artificial intelligence - ai ai",
+      "narrative": "Technology adoption wave: artificial intelligence & ai - ad",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
+        "signal_001",
         "signal_005"
       ],
-      "story_count": 40,
+      "story_count": 53,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "FICO",
-          "JPMorgan Chase",
-          "Ikea"
+          "Experian",
+          "article",
+          "FICO"
         ],
         "technologies": [
-          "AI",
           "artificial intelligence",
+          "AI",
+          "pos",
           "LOS"
         ],
-        "themes": []
+        "themes": [
+          "collaboration"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
@@ -67,87 +44,102 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "IKEA & article - Program",
-          "story_count": 27,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "id": "signal_000",
+          "name": "AI & Wells Fargo - Home",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 52,
-      "key_themes": []
+      "story_count": 12,
+      "key_themes": [
+        "remote work"
+      ]
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Anomaly & Droga5 - Marketing",
-          "story_count": 21,
+          "id": "signal_000",
+          "name": "AI & Wells Fargo - Home",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 12,
       "key_themes": [
-        "mental health"
+        "remote work"
       ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_003",
+          "name": "AI & IKEA - Google",
+          "story_count": 12,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 12,
+      "key_themes": [
+        "emotional connection"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "Anomaly & Droga5 - Marketing",
-          "story_count": 21,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Attention",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "Anomaly & Droga5 - Campaign",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & Wells Fargo - Home",
+          "story_count": 12,
           "momentum": "stable"
         }
       ],
-      "story_count": 21,
+      "story_count": 49,
       "key_themes": [
-        "mental health"
+        "collaboration",
+        "mental health",
+        "remote work"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "id": "signal_001",
+          "name": "artificial intelligence & AI - Ad",
+          "story_count": 31,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AI & Ikea - Week",
-          "story_count": 15,
+          "name": "AI & artificial intelligence - Attention",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "Saas - Page",
-          "story_count": 9,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Attention Brand Good",
-          "story_count": 6,
+          "id": "signal_004",
+          "name": "Bank Deal Fed",
+          "story_count": 11,
           "momentum": "stable"
         }
       ],
-      "story_count": 55,
-      "key_themes": []
+      "story_count": 64,
+      "key_themes": [
+        "collaboration"
+      ]
     }
   },
   "momentum_analysis": {
@@ -162,10 +154,6 @@
   },
   "entity_landscape": {
     "dominant_brands": [
-      {
-        "name": "Ikea",
-        "mentions": 1
-      },
       {
         "name": "IKEA",
         "mentions": 1
@@ -185,16 +173,12 @@
       {
         "name": "Wells Fargo",
         "mentions": 1
-      },
-      {
-        "name": "JPMorgan Chase",
-        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 24
       },
       {
         "name": "artificial intelligence",
@@ -205,79 +189,94 @@
         "mentions": 1
       },
       {
-        "name": "Los",
-        "mentions": 1
-      },
-      {
-        "name": "Saas",
+        "name": "pos",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Creative Global",
+        "name": "Gartner Senior",
         "mentions": 1
       },
       {
-        "name": "Gartner Senior",
+        "name": "Social Account",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
+        "theme": "collaboration",
+        "frequency": 1
+      },
+      {
         "theme": "mental health",
+        "frequency": 1
+      },
+      {
+        "theme": "remote work",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "emotional connection",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 52,
+      "signal_count": 1,
+      "story_count": 12,
       "top_signals": [
-        "IKEA & article - Program",
-        "AI & artificial intelligence - Ai Ai"
+        "AI & Wells Fargo - Home"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ikea & article - program with mixed momentum"
+      "key_insight": "Primary focus on ai & wells fargo - home with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
-    },
-    "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 21,
+      "story_count": 12,
       "top_signals": [
-        "Anomaly & Droga5 - Marketing"
+        "AI & Wells Fargo - Home"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - marketing"
+      "key_insight": "Market narrative centered on ai & wells fargo - home"
+    },
+    "enterprise_culture": {
+      "signal_count": 3,
+      "story_count": 49,
+      "top_signals": [
+        "AI & artificial intelligence - Attention",
+        "Anomaly & Droga5 - Campaign",
+        "AI & Wells Fargo - Home"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & artificial intelligence - attention"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 12,
+      "top_signals": [
+        "AI & IKEA - Google"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & ikea - google"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & article - Program",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & article - program.",
+    "headline": "Focus on artificial intelligence & AI - Ad",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ai - ad.",
     "key_shifts": [],
     "dominant_themes": [
+      "collaboration",
       "mental health"
     ],
     "attention_areas": [
-      "IKEA & article - Program",
-      "AI & artificial intelligence - Ai Ai",
-      "Anomaly & Droga5 - Marketing"
+      "artificial intelligence & AI - Ad",
+      "AI & artificial intelligence - Attention",
+      "Anomaly & Droga5 - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -286,6 +285,8 @@
   },
   "macro_observations": [
     "High coverage intensity with 103 stories across 6 themes",
-    "Limited momentum suggests consolidation or quieter period"
+    "Limited momentum suggests consolidation or quieter period",
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
