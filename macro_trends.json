@@ -1,36 +1,39 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T12:45:35.320160",
+    "generated_at": "2026-10-17T11:46:39.547311",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 93,
-      "total_signals": 7,
+      "total_stories": 103,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & saas - week",
+      "narrative": "Technology adoption wave: artificial intelligence & ikea - bank",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_002",
-        "signal_004",
-        "signal_005"
+        "signal_005",
+        "signal_001",
+        "signal_000"
       ],
-      "story_count": 60,
+      "story_count": 67,
       "momentum": "mixed",
       "key_players": {
         "brands": [
           "Experian",
-          "article",
-          "Wells Fargo"
+          "IKEA",
+          "Truist",
+          "U.S. Bank",
+          "Zillow"
         ],
         "technologies": [
           "AI",
-          "SaaS",
           "artificial intelligence",
-          "LOS"
+          "LOS",
+          "SaaS",
+          "Artificial intelligence"
         ],
         "themes": []
       },
@@ -39,23 +42,19 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Industry movement: jpmorgan chase & ai - bank",
+      "narrative": "Industry movement: artificial intelligence - data",
       "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_006",
-        "signal_003",
-        "signal_000"
+        "signal_004",
+        "signal_002"
       ],
-      "story_count": 24,
+      "story_count": 18,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "JPMorgan Chase",
-          "U.S. Bank",
-          "Bank of America"
-        ],
+        "brands": [],
         "technologies": [
-          "AI"
+          "artificial intelligence",
+          "insights"
         ],
         "themes": []
       },
@@ -68,19 +67,19 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Measurement",
-          "story_count": 18,
+          "id": "signal_001",
+          "name": "AI & Experian - Tech",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
-          "id": "signal_006",
-          "name": "JPMorgan Chase & AI - Bank",
-          "story_count": 11,
+          "id": "signal_000",
+          "name": "AI & JPMorgan Chase - Just",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 29,
+      "story_count": 30,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -99,13 +98,13 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Anomaly & Droga5 - Campaign",
-          "story_count": 9,
+          "id": "signal_003",
+          "name": "AI & Anomaly - New",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 18,
       "key_themes": [
         "mental health"
       ]
@@ -114,37 +113,37 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & SaaS - Week",
-          "story_count": 29,
+          "id": "signal_005",
+          "name": "artificial intelligence & IKEA - Bank",
+          "story_count": 37,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI & Experian - Tech",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "AI & artificial intelligence - Measurement",
-          "story_count": 18,
+          "name": "artificial intelligence - Data",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "AI & LOS - Businesses",
-          "story_count": 13,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "World New Founder",
-          "story_count": 8,
+          "id": "signal_002",
+          "name": "insights - Week",
+          "story_count": 9,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "AI - Security",
-          "story_count": 5,
+          "name": "AI & JPMorgan Chase - Just",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 73,
+      "story_count": 85,
       "key_themes": []
     }
   },
@@ -152,7 +151,7 @@
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -177,6 +176,10 @@
         "mentions": 1
       },
       {
+        "name": "Truist",
+        "mentions": 1
+      },
+      {
         "name": "U.S. Bank",
         "mentions": 1
       },
@@ -185,18 +188,18 @@
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "Zillow",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 28
       },
       {
         "name": "artificial intelligence",
-        "mentions": 3
+        "mentions": 2
       },
       {
         "name": "LOS",
@@ -204,6 +207,18 @@
       },
       {
         "name": "SaaS",
+        "mentions": 1
+      },
+      {
+        "name": "Artificial intelligence",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "pos",
         "mentions": 1
       }
     ],
@@ -240,13 +255,13 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 2,
-      "story_count": 29,
+      "story_count": 30,
       "top_signals": [
-        "AI & artificial intelligence - Measurement",
-        "JPMorgan Chase & AI - Bank"
+        "AI & Experian - Tech",
+        "AI & JPMorgan Chase - Just"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - measurement with mixed momentum"
+      "key_insight": "Primary focus on ai & experian - tech with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -257,12 +272,12 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 18,
       "top_signals": [
-        "Anomaly & Droga5 - Campaign"
+        "AI & Anomaly - New"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly & droga5 - campaign"
+      "key_insight": "Cultural emphasis on ai & anomaly - new"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -278,25 +293,26 @@
       "description": "Technology adoption theme across multiple signals",
       "technologies": [
         "AI",
-        "SaaS",
         "artificial intelligence",
-        "LOS"
+        "LOS",
+        "SaaS",
+        "Artificial intelligence"
       ],
       "signal_count": 3,
       "significance": "high"
     }
   ],
   "strategic_narrative": {
-    "headline": "Focus on AI & SaaS - Week",
-    "executive_summary": "Analysis of 93 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & saas - week.",
+    "headline": "Focus on artificial intelligence & IKEA - Bank",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - bank.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "AI & SaaS - Week",
-      "AI & artificial intelligence - Measurement",
-      "AI & LOS - Businesses"
+      "artificial intelligence & IKEA - Bank",
+      "AI & Experian - Tech",
+      "AI & Anomaly - New"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -304,6 +320,7 @@
     ]
   },
   "macro_observations": [
+    "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period"
   ]
 }
