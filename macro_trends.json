@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T13:03:25.269495",
+    "generated_at": "2026-10-21T13:15:44.641992",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,26 +11,26 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & pos - ai ai",
+      "narrative": "Technology adoption wave: ai & omnichannel - businesses",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_003",
         "signal_002",
-        "signal_004",
-        "signal_005"
+        "signal_000"
       ],
-      "story_count": 61,
+      "story_count": 50,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "article"
+          "Experian",
+          "article",
+          "Wells Fargo"
         ],
         "technologies": [
-          "AI",
           "artificial intelligence",
-          "POS",
-          "LOS",
-          "CX"
+          "AI",
+          "omnichannel",
+          "Salesforce",
+          "LOS"
         ],
         "themes": [
           "mental health"
@@ -38,26 +38,50 @@
       },
       "time_depth": "sustained",
       "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: insights - new",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_003",
+        "signal_005",
+        "signal_001"
+      ],
+      "story_count": 37,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "insights",
+          "artificial intelligence"
+        ],
+        "themes": []
+      },
+      "time_depth": "developing",
+      "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "housing_market_dynamics": {
-      "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 32,
+          "id": "signal_002",
+          "name": "AI & omnichannel - Businesses",
+          "story_count": 27,
           "momentum": "stable"
         }
       ],
-      "story_count": 32,
+      "story_count": 27,
+      "key_themes": [
+        "mental health"
+      ]
+    },
+    "housing_market_dynamics": {
+      "description": "Consumer housing market trends and shifts",
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
@@ -71,13 +95,20 @@
       "signals": [
         {
           "id": "signal_002",
-          "name": "artificial intelligence & AI - New",
-          "story_count": 17,
+          "name": "AI & omnichannel - Businesses",
+          "story_count": 27,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "IKEA - Campaign",
+          "story_count": 16,
           "momentum": "stable"
         }
       ],
-      "story_count": 17,
+      "story_count": 43,
       "key_themes": [
+        "collaboration",
         "mental health"
       ]
     },
@@ -85,43 +116,37 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "AI & IKEA - Marketing",
-          "story_count": 32,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & POS - Ai Ai",
+          "id": "signal_002",
+          "name": "AI & omnichannel - Businesses",
           "story_count": 27,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "artificial intelligence & AI - New",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_000",
-          "name": "Creative Investment Ahead",
-          "story_count": 10,
+          "name": "Anomaly & artificial intelligence - Agency",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI & Anomaly - Gen",
-          "story_count": 9,
+          "id": "signal_003",
+          "name": "insights - New",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AI & SaaS - Week",
-          "story_count": 8,
+          "name": "artificial intelligence - Netflix",
+          "story_count": 13,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "Comments Link Comments Link",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 103,
+      "story_count": 87,
       "key_themes": [
         "mental health"
       ]
@@ -150,19 +175,31 @@
       {
         "name": "article",
         "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 33
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
         "mentions": 3
       },
       {
-        "name": "POS",
+        "name": "omnichannel",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "Salesforce",
         "mentions": 1
       },
       {
@@ -178,21 +215,17 @@
         "mentions": 1
       },
       {
-        "name": "data analytics",
+        "name": "Los",
+        "mentions": 1
+      },
+      {
+        "name": "chatbot",
         "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Papa Johns",
-        "mentions": 1
-      },
-      {
-        "name": "It Grindr",
-        "mentions": 1
-      },
-      {
-        "name": "Amazon Ads",
+        "name": "Under New",
         "mentions": 1
       },
       {
@@ -200,11 +233,15 @@
         "mentions": 1
       },
       {
-        "name": "Pitches Publicis",
+        "name": "Fifth Third",
         "mentions": 1
       }
     ],
     "cultural_movements": [
+      {
+        "theme": "collaboration",
+        "frequency": 1
+      },
       {
         "theme": "mental health",
         "frequency": 1
@@ -214,11 +251,13 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 27,
+      "top_signals": [
+        "AI & omnichannel - Businesses"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on ai & omnichannel - businesses with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -228,13 +267,14 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 17,
+      "signal_count": 2,
+      "story_count": 43,
       "top_signals": [
-        "artificial intelligence & AI - New"
+        "AI & omnichannel - Businesses",
+        "IKEA - Campaign"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on artificial intelligence & ai - new"
+      "key_insight": "Cultural emphasis on ai & omnichannel - businesses"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -244,32 +284,19 @@
       "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "artificial intelligence",
-        "data analytics",
-        "POS",
-        "LOS"
-      ],
-      "signal_count": 5,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & IKEA - Marketing",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ikea - marketing.",
+    "headline": "Focus on AI & omnichannel - Businesses",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & omnichannel - businesses.",
     "key_shifts": [],
     "dominant_themes": [
-      "mental health"
+      "mental health",
+      "collaboration"
     ],
     "attention_areas": [
-      "AI & IKEA - Marketing",
-      "AI & POS - Ai Ai",
-      "artificial intelligence & AI - New"
+      "AI & omnichannel - Businesses",
+      "Anomaly & artificial intelligence - Agency",
+      "IKEA - Campaign"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -279,6 +306,8 @@
   "macro_observations": [
     "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Technology-heavy coverage (10 technologies tracked)",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
