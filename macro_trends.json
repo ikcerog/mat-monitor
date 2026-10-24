@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T12:53:01.054276",
+    "generated_at": "2026-10-24T12:15:15.586644",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 104,
+      "total_stories": 103,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,56 +11,37 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: artificial intelligence & ikea - new",
+      "narrative": "Technology adoption wave: ai & insights - real",
       "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_004",
-        "signal_003"
+        "signal_005",
+        "signal_000",
+        "signal_003",
+        "signal_001"
       ],
-      "story_count": 66,
+      "story_count": 75,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Experian",
           "article",
+          "JPMorgan Chase",
+          "IKEA",
+          "Home Depot",
           "Wells Fargo"
         ],
         "technologies": [
           "AI",
           "artificial intelligence",
-          "pos",
-          "LOS"
+          "insights",
+          "LOS",
+          "customer experience"
         ],
         "themes": [
-          "collaboration",
-          "equity",
-          "mental health"
+          "mental health",
+          "equity"
         ]
       },
       "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai - meta",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_005",
-        "signal_002"
-      ],
-      "story_count": 14,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "JPMorgan Chase"
-        ],
-        "technologies": [
-          "AI"
-        ],
-        "themes": []
-      },
-      "time_depth": "developing",
       "outlook": "evolving"
     }
   ],
@@ -70,37 +51,26 @@
       "signals": [
         {
           "id": "signal_003",
-          "name": "AI & LOS - Bank",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "JPMorgan Chase & AI",
-          "story_count": 3,
+          "name": "AI & JPMorgan Chase - Revenue",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 29,
-      "key_themes": [
-        "equity",
-        "mental health"
-      ]
+      "story_count": 18,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Home Depot - Youtube",
-          "story_count": 15,
+          "id": "signal_004",
+          "name": "Anomaly - Marketing",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
-      "key_themes": [
-        "collaboration"
-      ]
+      "story_count": 18,
+      "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
@@ -112,33 +82,20 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & IKEA - New",
-          "story_count": 40,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_003",
-          "name": "AI & LOS - Bank",
-          "story_count": 26,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "Home Depot - Youtube",
-          "story_count": 15,
+          "id": "signal_005",
+          "name": "AI & insights - Real",
+          "story_count": 24,
           "momentum": "stable"
         },
         {
           "id": "signal_000",
-          "name": "Anomaly & AI - Campaign",
-          "story_count": 9,
+          "name": "AI & LOS - Media",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 90,
+      "story_count": 45,
       "key_themes": [
-        "collaboration",
         "equity",
         "mental health"
       ]
@@ -147,27 +104,38 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & IKEA - New",
-          "story_count": 40,
+          "id": "signal_005",
+          "name": "AI & insights - Real",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & LOS - Media",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & LOS - Bank",
-          "story_count": 26,
+          "name": "AI & JPMorgan Chase - Revenue",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "AI - Meta",
-          "story_count": 11,
+          "id": "signal_001",
+          "name": "artificial intelligence & Experian - Agencies",
+          "story_count": 12,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "News Week Network",
+          "story_count": 10,
           "momentum": "stable"
         }
       ],
-      "story_count": 77,
+      "story_count": 85,
       "key_themes": [
-        "collaboration",
         "equity",
         "mental health"
       ]
@@ -202,29 +170,37 @@
         "mentions": 1
       },
       {
-        "name": "Wells Fargo",
+        "name": "Home Depot",
         "mentions": 1
       },
       {
-        "name": "Home Depot",
+        "name": "Wells Fargo",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 29
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
-        "mentions": 1
+        "mentions": 2
       },
       {
         "name": "LOS",
         "mentions": 1
       },
       {
-        "name": "pos",
+        "name": "customer experience",
+        "mentions": 1
+      },
+      {
+        "name": "insights",
+        "mentions": 1
+      },
+      {
+        "name": "data analytics",
         "mentions": 1
       }
     ],
@@ -236,12 +212,8 @@
     ],
     "cultural_movements": [
       {
-        "theme": "collaboration",
-        "frequency": 2
-      },
-      {
         "theme": "mental health",
-        "frequency": 2
+        "frequency": 1
       },
       {
         "theme": "equity",
@@ -252,14 +224,13 @@
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 2,
-      "story_count": 29,
+      "signal_count": 1,
+      "story_count": 18,
       "top_signals": [
-        "AI & LOS - Bank",
-        "JPMorgan Chase & AI"
+        "AI & JPMorgan Chase - Revenue"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & los - bank with mixed momentum"
+      "key_insight": "Primary focus on ai & jpmorgan chase - revenue with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -269,15 +240,14 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 4,
-      "story_count": 90,
+      "signal_count": 2,
+      "story_count": 45,
       "top_signals": [
-        "artificial intelligence & IKEA - New",
-        "AI & LOS - Bank",
-        "Home Depot - Youtube"
+        "AI & insights - Real",
+        "AI & LOS - Media"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on artificial intelligence & ikea - new"
+      "key_insight": "Cultural emphasis on ai & insights - real"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -287,19 +257,33 @@
       "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "insights",
+        "LOS",
+        "customer experience"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & IKEA - New",
-    "executive_summary": "Analysis of 104 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & ikea - new.",
+    "headline": "Focus on AI & insights - Real",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - real.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "mental health"
+      "mental health",
+      "equity"
     ],
     "attention_areas": [
-      "artificial intelligence & IKEA - New",
-      "AI & LOS - Bank",
-      "Home Depot - Youtube"
+      "AI & insights - Real",
+      "AI & LOS - Media",
+      "Anomaly - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -307,7 +291,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 104 stories across 6 themes",
+    "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Strong cultural/workplace narrative emerging"
   ]
