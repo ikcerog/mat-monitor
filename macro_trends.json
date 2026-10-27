@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T14:35:40.882654",
+    "generated_at": "2026-10-27T13:39:19.859205",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,53 +11,32 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & data analytics - programmatic",
+      "narrative": "Technology adoption wave: ai & pos - media",
       "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_001",
-        "signal_003"
+        "signal_004",
+        "signal_000",
+        "signal_005"
       ],
-      "story_count": 55,
+      "story_count": 68,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "JPMorgan Chase",
-          "article",
-          "Wells Fargo"
+          "Liberty Mutual",
+          "Wells Fargo",
+          "article"
         ],
         "technologies": [
           "AI",
-          "data analytics",
-          "artificial intelligence",
-          "LOS"
-        ],
-        "themes": [
-          "equity"
-        ]
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: ai & anomaly - ad",
-      "theme": "Industry Dynamics",
-      "supporting_signals": [
-        "signal_005",
-        "signal_002"
-      ],
-      "story_count": 20,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Experian"
-        ],
-        "technologies": [
-          "AI"
+          "pos",
+          "LOS",
+          "reporting",
+          "artificial intelligence"
         ],
         "themes": []
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
@@ -66,55 +45,64 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "id": "signal_004",
+          "name": "AI & LOS - Bank",
+          "story_count": 23,
           "momentum": "stable"
         }
       ],
-      "story_count": 25,
-      "key_themes": [
-        "equity"
-      ]
+      "story_count": 23,
+      "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_004",
-          "name": "IKEA & Home Depot - Marketing",
-          "story_count": 20,
+          "id": "signal_003",
+          "name": "IKEA & AI - Marketing",
+          "story_count": 22,
           "momentum": "stable"
         }
       ],
-      "story_count": 20,
-      "key_themes": []
+      "story_count": 22,
+      "key_themes": [
+        "Retention"
+      ]
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_005",
+          "name": "artificial intelligence & AI",
+          "story_count": 6,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 6,
+      "key_themes": [
+        "human-centered"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "name": "IKEA & AI - Marketing",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_000",
-          "name": "Week Apple Identity",
-          "story_count": 8,
+          "id": "signal_002",
+          "name": "Anomaly & Experian - Healthcare",
+          "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 33,
+      "story_count": 35,
       "key_themes": [
-        "equity",
+        "Retention",
         "mental health"
       ]
     },
@@ -123,32 +111,39 @@
       "signals": [
         {
           "id": "signal_001",
-          "name": "AI & data analytics - Programmatic",
-          "story_count": 30,
+          "name": "AI & pos - Media",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "AI & LOS - Bank",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 25,
+          "name": "IKEA & AI - Marketing",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & article - Film",
+          "story_count": 11,
           "momentum": "stable"
         },
         {
           "id": "signal_005",
-          "name": "AI & Anomaly - Ad",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "News Week Oct",
-          "story_count": 5,
+          "name": "artificial intelligence & AI",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 75,
+      "story_count": 90,
       "key_themes": [
-        "equity"
+        "Retention",
+        "human-centered"
       ]
     }
   },
@@ -165,10 +160,6 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "JPMorgan Chase",
-        "mentions": 2
-      },
-      {
         "name": "IKEA",
         "mentions": 1
       },
@@ -178,6 +169,10 @@
       },
       {
         "name": "article",
+        "mentions": 1
+      },
+      {
+        "name": "Liberty Mutual",
         "mentions": 1
       },
       {
@@ -192,11 +187,15 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 25
+        "mentions": 31
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 5
+      },
+      {
+        "name": "pos",
+        "mentions": 1
       },
       {
         "name": "LOS",
@@ -207,7 +206,11 @@
         "mentions": 1
       },
       {
-        "name": "data analytics",
+        "name": "chatbot",
+        "mentions": 1
+      },
+      {
+        "name": "reporting",
         "mentions": 1
       }
     ],
@@ -219,66 +222,85 @@
     ],
     "cultural_movements": [
       {
-        "theme": "mental health",
+        "theme": "Retention",
         "frequency": 1
       },
       {
-        "theme": "equity",
+        "theme": "mental health",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "human-centered",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 25,
+      "story_count": 23,
       "top_signals": [
-        "AI & artificial intelligence - Ai Ai"
+        "AI & LOS - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on ai & artificial intelligence - ai ai with mixed momentum"
+      "key_insight": "Primary focus on ai & los - bank with mixed momentum"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 20,
-      "top_signals": [
-        "IKEA & Home Depot - Marketing"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on ikea & home depot - marketing"
-    },
-    "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 33,
-      "top_signals": [
-        "AI & artificial intelligence - Ai Ai",
-        "Week Apple Identity"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & artificial intelligence - ai ai"
-    },
-    "brand_storytelling": {
       "signal_count": 0,
       "story_count": 0,
       "top_signals": [],
       "momentum": "stable",
       "key_insight": "Limited coverage in this period"
+    },
+    "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 35,
+      "top_signals": [
+        "IKEA & AI - Marketing",
+        "Anomaly & Experian - Healthcare"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ikea & ai - marketing"
+    },
+    "brand_storytelling": {
+      "signal_count": 1,
+      "story_count": 6,
+      "top_signals": [
+        "artificial intelligence & AI"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: artificial intelligence & ai"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "pos",
+        "LOS",
+        "customer experience",
+        "reporting"
+      ],
+      "signal_count": 5,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & data analytics - Programmatic",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & data analytics - programmatic.",
+    "headline": "Focus on AI & pos - Media",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & pos - media.",
     "key_shifts": [],
     "dominant_themes": [
-      "equity",
+      "Retention",
       "mental health"
     ],
     "attention_areas": [
-      "AI & data analytics - Programmatic",
-      "AI & artificial intelligence - Ai Ai",
-      "IKEA & Home Depot - Marketing"
+      "AI & pos - Media",
+      "AI & LOS - Bank",
+      "IKEA & AI - Marketing"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
