@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T15:29:51.433277",
+    "generated_at": "2026-11-04T15:48:15.515975",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -11,51 +11,34 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ikea & experian - new",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & anomaly - week",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_005",
         "signal_003",
         "signal_001",
-        "signal_005",
-        "signal_002"
+        "signal_004",
+        "signal_000"
       ],
-      "story_count": 65,
+      "story_count": 96,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Bank of America",
           "IKEA",
+          "Truist",
           "Experian"
         ],
         "technologies": [
-          "AI"
-        ],
-        "themes": []
-      },
-      "time_depth": "sustained",
-      "outlook": "evolving"
-    },
-    {
-      "thread_id": "thread_02",
-      "narrative": "Technology adoption wave: ai & los - customer",
-      "theme": "Technology & Innovation",
-      "supporting_signals": [
-        "signal_000",
-        "signal_004"
-      ],
-      "story_count": 38,
-      "momentum": "mixed",
-      "key_players": {
-        "brands": [
-          "Bank of America"
-        ],
-        "technologies": [
           "AI",
-          "LOS",
-          "reporting",
+          "artificial intelligence",
           "insights",
-          "customer experience"
+          "Artificial intelligence",
+          "LOS"
         ],
-        "themes": []
+        "themes": [
+          "diversity"
+        ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
@@ -72,70 +55,84 @@
       "description": "Consumer housing market trends and shifts",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "AI - Tv",
-          "story_count": 15,
+          "id": "signal_002",
+          "name": "Comments Marketers Submitted",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 15,
+      "story_count": 7,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & LOS - Customer",
-          "story_count": 19,
+          "id": "signal_003",
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 21,
           "momentum": "stable"
         }
       ],
-      "story_count": 19,
-      "key_themes": []
+      "story_count": 21,
+      "key_themes": [
+        "Authenticity"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_000",
+          "name": "AI & Mother - Target",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 13,
+      "key_themes": [
+        "diversity"
+      ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
+          "id": "signal_005",
+          "name": "AI & Anomaly - Week",
+          "story_count": 28,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_003",
-          "name": "IKEA & Experian - New",
-          "story_count": 20,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & LOS - Customer",
-          "story_count": 19,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_004",
-          "name": "AI & artificial intelligence - Bank",
-          "story_count": 19,
+          "name": "AI & artificial intelligence - Intelligence",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "Election Years Midterm",
+          "name": "AI & IKEA - Ad",
           "story_count": 17,
           "momentum": "stable"
         },
         {
-          "id": "signal_002",
-          "name": "AI & Anomaly - Campaign",
+          "id": "signal_004",
+          "name": "Experian & AI - Time",
+          "story_count": 17,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & Mother - Target",
           "story_count": 13,
           "momentum": "stable"
         }
       ],
-      "story_count": 88,
-      "key_themes": []
+      "story_count": 96,
+      "key_themes": [
+        "Authenticity",
+        "diversity"
+      ]
     }
   },
   "momentum_analysis": {
@@ -159,6 +156,10 @@
         "mentions": 1
       },
       {
+        "name": "Truist",
+        "mentions": 1
+      },
+      {
         "name": "Bank of America",
         "mentions": 1
       }
@@ -166,11 +167,15 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 27
+        "mentions": 28
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
+      },
+      {
+        "name": "insights",
+        "mentions": 3
       },
       {
         "name": "LOS",
@@ -181,15 +186,7 @@
         "mentions": 1
       },
       {
-        "name": "insights",
-        "mentions": 1
-      },
-      {
         "name": "Artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "customer experience",
         "mentions": 1
       },
       {
@@ -199,16 +196,22 @@
     ],
     "influential_voices": [
       {
-        "name": "Empire Macro",
-        "mentions": 1
-      },
-      {
         "name": "Vegas My",
         "mentions": 1
       }
     ],
-    "cultural_movements": [],
-    "storytelling_approaches": []
+    "cultural_movements": [
+      {
+        "theme": "diversity",
+        "frequency": 1
+      }
+    ],
+    "storytelling_approaches": [
+      {
+        "approach": "Authenticity",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
@@ -219,42 +222,61 @@
       "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
-      "signal_count": 1,
-      "story_count": 15,
-      "top_signals": [
-        "AI - Tv"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Market narrative centered on ai - tv"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 13,
+      "top_signals": [
+        "AI & Mother - Target"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & mother - target"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 21,
+      "top_signals": [
+        "AI & artificial intelligence - Intelligence"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & artificial intelligence - intelligence"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "insights",
+        "Artificial intelligence",
+        "LOS"
+      ],
+      "signal_count": 5,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on IKEA & Experian - New",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & experian - new.",
+    "headline": "Focus on AI & Anomaly - Week",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & anomaly - week.",
     "key_shifts": [],
-    "dominant_themes": [],
+    "dominant_themes": [
+      "diversity"
+    ],
     "attention_areas": [
-      "IKEA & Experian - New",
-      "AI & LOS - Customer",
-      "AI & artificial intelligence - Bank"
+      "AI & Anomaly - Week",
+      "AI & artificial intelligence - Intelligence",
+      "AI & IKEA - Ad"
     ],
     "strategic_questions": [
-      "What's driving technology adoption patterns?"
+      "What's driving technology adoption patterns?",
+      "How are cultural shifts influencing industry direction?"
     ]
   },
   "macro_observations": [
