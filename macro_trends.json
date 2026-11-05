@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T15:48:15.515975",
+    "generated_at": "2026-11-05T15:50:31.994332",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 103,
@@ -10,34 +10,52 @@
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: ai & anomaly - week",
-      "theme": "Technology & Innovation",
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: ai & chase - campaign",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
+        "signal_002",
         "signal_005",
-        "signal_003",
-        "signal_001",
-        "signal_004",
-        "signal_000"
+        "signal_003"
       ],
-      "story_count": 96,
+      "story_count": 54,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Bank of America",
-          "IKEA",
-          "Truist",
-          "Experian"
+          "Chase",
+          "Experian",
+          "Truist"
         ],
         "technologies": [
           "AI",
-          "artificial intelligence",
+          "insights"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_01",
+      "narrative": "Technology adoption wave: ai & insights - tech",
+      "theme": "Technology & Innovation",
+      "supporting_signals": [
+        "signal_001",
+        "signal_004"
+      ],
+      "story_count": 31,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
+          "AI",
           "insights",
-          "Artificial intelligence",
-          "LOS"
+          "LOS",
+          "artificial intelligence",
+          "Artificial intelligence"
         ],
         "themes": [
-          "diversity"
+          "equity"
         ]
       },
       "time_depth": "sustained",
@@ -47,91 +65,82 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "AI & Chase - Campaign",
+          "story_count": 24,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 24,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_002",
-          "name": "Comments Marketers Submitted",
-          "story_count": 7,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 7,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [
-        {
-          "id": "signal_003",
-          "name": "AI & artificial intelligence - Intelligence",
-          "story_count": 21,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 21,
-      "key_themes": [
-        "Authenticity"
-      ]
+      "signals": [],
+      "story_count": 0,
+      "key_themes": []
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & insights - Tech",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_000",
-          "name": "AI & Mother - Target",
-          "story_count": 13,
+          "name": "Mother & IKEA - Day",
+          "story_count": 18,
           "momentum": "stable"
         }
       ],
-      "story_count": 13,
+      "story_count": 42,
       "key_themes": [
-        "diversity"
+        "Equity",
+        "equity"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
+          "id": "signal_001",
+          "name": "AI & insights - Tech",
+          "story_count": 24,
+          "momentum": "stable"
+        },
+        {
           "id": "signal_005",
-          "name": "AI & Anomaly - Week",
-          "story_count": 28,
+          "name": "AI & Anomaly - New",
+          "story_count": 16,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "AI & artificial intelligence - Intelligence",
-          "story_count": 21,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_001",
-          "name": "AI & IKEA - Ad",
-          "story_count": 17,
+          "name": "Truist & insights - Bank",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
           "id": "signal_004",
-          "name": "Experian & AI - Time",
-          "story_count": 17,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "AI & Mother - Target",
-          "story_count": 13,
+          "name": "artificial intelligence & AI",
+          "story_count": 7,
           "momentum": "stable"
         }
       ],
-      "story_count": 96,
+      "story_count": 61,
       "key_themes": [
-        "Authenticity",
-        "diversity"
+        "equity"
       ]
     }
   },
@@ -160,14 +169,14 @@
         "mentions": 1
       },
       {
-        "name": "Bank of America",
+        "name": "Chase",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
@@ -182,15 +191,7 @@
         "mentions": 1
       },
       {
-        "name": "reporting",
-        "mentions": 1
-      },
-      {
         "name": "Artificial intelligence",
-        "mentions": 1
-      },
-      {
-        "name": "Los",
         "mentions": 1
       }
     ],
@@ -202,24 +203,25 @@
     ],
     "cultural_movements": [
       {
-        "theme": "diversity",
+        "theme": "equity",
+        "frequency": 1
+      },
+      {
+        "theme": "Equity",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": [
-      {
-        "approach": "Authenticity",
-        "frequency": 1
-      }
-    ]
+    "storytelling_approaches": []
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 24,
+      "top_signals": [
+        "AI & Chase - Campaign"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on ai & chase - campaign with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -229,50 +231,36 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 1,
-      "story_count": 13,
+      "signal_count": 2,
+      "story_count": 42,
       "top_signals": [
-        "AI & Mother - Target"
+        "AI & insights - Tech",
+        "Mother & IKEA - Day"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & mother - target"
+      "key_insight": "Cultural emphasis on ai & insights - tech"
     },
     "brand_storytelling": {
-      "signal_count": 1,
-      "story_count": 21,
-      "top_signals": [
-        "AI & artificial intelligence - Intelligence"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Storytelling direction: ai & artificial intelligence - intelligence"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     }
   },
-  "emerging_patterns": [
-    {
-      "pattern_type": "technology_wave",
-      "description": "Technology adoption theme across multiple signals",
-      "technologies": [
-        "AI",
-        "artificial intelligence",
-        "insights",
-        "Artificial intelligence",
-        "LOS"
-      ],
-      "signal_count": 5,
-      "significance": "high"
-    }
-  ],
+  "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & Anomaly - Week",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & anomaly - week.",
+    "headline": "Focus on AI & insights - Tech",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & insights - tech.",
     "key_shifts": [],
     "dominant_themes": [
-      "diversity"
+      "equity",
+      "Equity"
     ],
     "attention_areas": [
-      "AI & Anomaly - Week",
-      "AI & artificial intelligence - Intelligence",
-      "AI & IKEA - Ad"
+      "AI & insights - Tech",
+      "AI & Chase - Campaign",
+      "Mother & IKEA - Day"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -282,6 +270,7 @@
   "macro_observations": [
     "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
