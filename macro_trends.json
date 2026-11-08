@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T14:24:37.591956",
+    "generated_at": "2026-11-08T14:33:51.474290",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 103,
+      "total_stories": 104,
       "total_signals": 6,
       "time_span_days": 0
     }
@@ -11,25 +11,18 @@
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Technology adoption wave: artificial intelligence & du - data",
-      "theme": "Technology & Innovation",
+      "narrative": "Industry movement: du - ad",
+      "theme": "Industry Dynamics",
       "supporting_signals": [
-        "signal_003",
+        "signal_000",
         "signal_001"
       ],
-      "story_count": 53,
+      "story_count": 34,
       "momentum": "mixed",
       "key_players": {
-        "brands": [
-          "IKEA",
-          "Experian",
-          "Allstate"
-        ],
+        "brands": [],
         "technologies": [
-          "artificial intelligence",
-          "du",
-          "AI",
-          "LOS"
+          "du"
         ],
         "themes": []
       },
@@ -38,8 +31,8 @@
     },
     {
       "thread_id": "thread_02",
-      "narrative": "Cultural shift toward anomaly - company",
-      "theme": "Workplace & Culture",
+      "narrative": "Technology adoption wave: ai & los - ai ai",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
         "signal_002",
         "signal_005"
@@ -48,15 +41,16 @@
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "Allstate",
           "Wells Fargo"
         ],
         "technologies": [
-          "AI"
+          "AI",
+          "LOS",
+          "artificial intelligence",
+          "Artificial intelligence"
         ],
-        "themes": [
-          "Equity",
-          "diversity"
-        ]
+        "themes": []
       },
       "time_depth": "developing",
       "outlook": "evolving"
@@ -67,28 +61,26 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_005",
-          "name": "Wells Fargo & AI - Bank",
-          "story_count": 11,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 11,
-      "key_themes": [
-        "diversity"
-      ]
-    },
-    "housing_market_dynamics": {
-      "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "Marketing Time Like",
+          "id": "signal_002",
+          "name": "AI & LOS - Ai Ai",
           "story_count": 17,
           "momentum": "stable"
         }
       ],
       "story_count": 17,
+      "key_themes": []
+    },
+    "housing_market_dynamics": {
+      "description": "Consumer housing market trends and shifts",
+      "signals": [
+        {
+          "id": "signal_003",
+          "name": "AI - Marketing",
+          "story_count": 14,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 14,
       "key_themes": []
     },
     "customer_experience": {
@@ -101,19 +93,13 @@
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "Anomaly - Company",
-          "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_005",
-          "name": "Wells Fargo & AI - Bank",
-          "story_count": 11,
+          "id": "signal_004",
+          "name": "IKEA & Experian - Bank",
+          "story_count": 33,
           "momentum": "stable"
         }
       ],
-      "story_count": 23,
+      "story_count": 33,
       "key_themes": [
         "Equity",
         "diversity"
@@ -123,25 +109,31 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "artificial intelligence & du - Data",
-          "story_count": 35,
+          "id": "signal_000",
+          "name": "du - Ad",
+          "story_count": 19,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_002",
+          "name": "AI & LOS - Ai Ai",
+          "story_count": 17,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 18,
+          "name": "Anomaly - New",
+          "story_count": 15,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "AI - Ad",
-          "story_count": 10,
+          "id": "signal_005",
+          "name": "AI & artificial intelligence - Artificial",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 63,
+      "story_count": 57,
       "key_themes": []
     }
   },
@@ -172,16 +164,20 @@
       {
         "name": "Wells Fargo",
         "mentions": 1
+      },
+      {
+        "name": "article",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 20
+        "mentions": 23
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 3
       },
       {
         "name": "du",
@@ -189,6 +185,10 @@
       },
       {
         "name": "LOS",
+        "mentions": 1
+      },
+      {
+        "name": "Artificial intelligence",
         "mentions": 1
       }
     ],
@@ -213,12 +213,12 @@
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 11,
+      "story_count": 17,
       "top_signals": [
-        "Wells Fargo & AI - Bank"
+        "AI & LOS - Ai Ai"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on wells fargo & ai - bank with mixed momentum"
+      "key_insight": "Primary focus on ai & los - ai ai with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -228,14 +228,13 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
-      "signal_count": 2,
-      "story_count": 23,
+      "signal_count": 1,
+      "story_count": 33,
       "top_signals": [
-        "Anomaly - Company",
-        "Wells Fargo & AI - Bank"
+        "IKEA & Experian - Bank"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly - company"
+      "key_insight": "Cultural emphasis on ikea & experian - bank"
     },
     "brand_storytelling": {
       "signal_count": 0,
@@ -247,17 +246,17 @@
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence & du - Data",
-    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence & du - data.",
+    "headline": "Focus on IKEA & Experian - Bank",
+    "executive_summary": "Analysis of 104 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ikea & experian - bank.",
     "key_shifts": [],
     "dominant_themes": [
       "Equity",
       "diversity"
     ],
     "attention_areas": [
-      "artificial intelligence & du - Data",
-      "AI & artificial intelligence - Ai Ai",
-      "Marketing Time Like"
+      "IKEA & Experian - Bank",
+      "du - Ad",
+      "AI & LOS - Ai Ai"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -265,9 +264,8 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 103 stories across 6 themes",
+    "High coverage intensity with 104 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players",
-    "Strong cultural/workplace narrative emerging"
+    "Coverage concentrated among few key players"
   ]
 }
