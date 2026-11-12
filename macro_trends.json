@@ -1,142 +1,171 @@
 {
   "meta": {
-    "generated_at": "2026-11-11T15:39:01.907987",
+    "generated_at": "2026-11-12T16:21:02.583970",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 104,
+      "total_stories": 103,
       "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
-      "thread_id": "thread_01",
-      "narrative": "Cultural shift toward mother - new",
-      "theme": "Workplace & Culture",
+      "thread_id": "thread_02",
+      "narrative": "Technology adoption wave: ai & artificial intelligence - ctv",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
+        "signal_004",
+        "signal_003",
         "signal_001",
-        "signal_004"
+        "signal_005"
       ],
-      "story_count": 36,
+      "story_count": 65,
       "momentum": "mixed",
       "key_players": {
         "brands": [
+          "IKEA",
+          "Wells Fargo",
           "Experian"
         ],
         "technologies": [
-          "artificial intelligence"
+          "AI",
+          "artificial intelligence",
+          "LOS",
+          "Salesforce",
+          "pos"
         ],
         "themes": [
-          "Equity",
-          "diversity",
-          "collaboration"
+          "Equity"
         ]
       },
       "time_depth": "sustained",
       "outlook": "evolving"
     },
     {
-      "thread_id": "thread_02",
-      "narrative": "Industry movement: anomaly - campaign",
-      "theme": "Industry Dynamics",
+      "thread_id": "thread_01",
+      "narrative": "Cultural shift toward anomaly & ai - ad",
+      "theme": "Workplace & Culture",
       "supporting_signals": [
-        "signal_000",
-        "signal_003"
+        "signal_002",
+        "signal_000"
       ],
-      "story_count": 24,
+      "story_count": 38,
       "momentum": "mixed",
       "key_players": {
         "brands": [],
         "technologies": [
-          "artificial intelligence"
+          "ai",
+          "AI"
         ],
-        "themes": []
+        "themes": [
+          "diversity",
+          "mental health",
+          "collaboration"
+        ]
       },
-      "time_depth": "developing",
+      "time_depth": "sustained",
       "outlook": "evolving"
     }
   ],
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [],
-      "story_count": 0,
+      "signals": [
+        {
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ctv",
+          "story_count": 23,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 23,
       "key_themes": []
     },
     "housing_market_dynamics": {
       "description": "Consumer housing market trends and shifts",
-      "signals": [
-        {
-          "id": "signal_005",
-          "name": "IKEA - Marketing",
-          "story_count": 13,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 13,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_003",
+          "name": "Experian & AI - Time",
+          "story_count": 22,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 22,
+      "key_themes": [
+        "Equity",
+        "messaging"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_002",
-          "name": "AI & Ogilvy - Ai Ai",
-          "story_count": 31,
+          "name": "Anomaly & ai - Ad",
+          "story_count": 30,
           "momentum": "stable"
         },
         {
-          "id": "signal_001",
-          "name": "mother - New",
-          "story_count": 24,
+          "id": "signal_003",
+          "name": "Experian & AI - Time",
+          "story_count": 22,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "artificial intelligence & Experian - Ctv",
-          "story_count": 12,
+          "id": "signal_000",
+          "name": "AI - Tv",
+          "story_count": 8,
           "momentum": "stable"
         }
       ],
-      "story_count": 67,
+      "story_count": 60,
       "key_themes": [
         "Belonging",
         "Equity",
         "collaboration",
-        "diversity"
+        "diversity",
+        "mental health"
       ]
     },
     "industry_transformation": {
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_002",
-          "name": "AI & Ogilvy - Ai Ai",
-          "story_count": 31,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_000",
-          "name": "Anomaly - Campaign",
-          "story_count": 13,
+          "id": "signal_004",
+          "name": "AI & artificial intelligence - Ctv",
+          "story_count": 23,
           "momentum": "stable"
         },
         {
           "id": "signal_003",
-          "name": "artificial intelligence - News",
-          "story_count": 11,
+          "name": "Experian & AI - Time",
+          "story_count": 22,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_001",
+          "name": "AI & Chatbot - Brand",
+          "story_count": 15,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "AI & reporting - Huang",
+          "story_count": 5,
           "momentum": "stable"
         }
       ],
-      "story_count": 55,
+      "story_count": 65,
       "key_themes": [
-        "collaboration"
+        "Equity",
+        "messaging"
       ]
     }
   },
@@ -159,16 +188,20 @@
       {
         "name": "Experian",
         "mentions": 1
+      },
+      {
+        "name": "Wells Fargo",
+        "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 28
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 1
       },
       {
         "name": "ai",
@@ -181,22 +214,34 @@
       {
         "name": "LOS",
         "mentions": 1
+      },
+      {
+        "name": "Salesforce",
+        "mentions": 1
+      },
+      {
+        "name": "reporting",
+        "mentions": 1
+      },
+      {
+        "name": "pos",
+        "mentions": 1
       }
     ],
     "influential_voices": [
       {
-        "name": "Tom Schwenger",
+        "name": "Product Growth",
         "mentions": 1
       },
       {
-        "name": "Product Growth",
+        "name": "Gartner Distinguished",
         "mentions": 1
       }
     ],
     "cultural_movements": [
       {
         "theme": "collaboration",
-        "frequency": 2
+        "frequency": 1
       },
       {
         "theme": "Belonging",
@@ -209,17 +254,28 @@
       {
         "theme": "diversity",
         "frequency": 1
+      },
+      {
+        "theme": "mental health",
+        "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "messaging",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 23,
+      "top_signals": [
+        "AI & artificial intelligence - Ctv"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Primary focus on ai & artificial intelligence - ctv with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -230,36 +286,52 @@
     },
     "enterprise_culture": {
       "signal_count": 3,
-      "story_count": 67,
+      "story_count": 60,
       "top_signals": [
-        "AI & Ogilvy - Ai Ai",
-        "mother - New",
-        "artificial intelligence & Experian - Ctv"
+        "Anomaly & ai - Ad",
+        "Experian & AI - Time",
+        "AI - Tv"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on ai & ogilvy - ai ai"
+      "key_insight": "Cultural emphasis on anomaly & ai - ad"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 22,
+      "top_signals": [
+        "Experian & AI - Time"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: experian & ai - time"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "LOS",
+        "Salesforce",
+        "pos"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on AI & Ogilvy - Ai Ai",
-    "executive_summary": "Analysis of 104 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & ogilvy - ai ai.",
+    "headline": "Focus on Anomaly & ai - Ad",
+    "executive_summary": "Analysis of 103 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on anomaly & ai - ad.",
     "key_shifts": [],
     "dominant_themes": [
-      "collaboration",
-      "Equity"
+      "diversity",
+      "mental health"
     ],
     "attention_areas": [
-      "AI & Ogilvy - Ai Ai",
-      "mother - New",
-      "Anomaly - Campaign"
+      "Anomaly & ai - Ad",
+      "AI & artificial intelligence - Ctv",
+      "Experian & AI - Time"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -267,7 +339,7 @@
     ]
   },
   "macro_observations": [
-    "High coverage intensity with 104 stories across 6 themes",
+    "High coverage intensity with 103 stories across 6 themes",
     "Limited momentum suggests consolidation or quieter period",
     "Coverage concentrated among few key players",
     "Strong cultural/workplace narrative emerging"
