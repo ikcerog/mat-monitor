@@ -1,32 +1,27 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T16:44:35.927278",
+    "generated_at": "2026-11-19T16:50:46.929671",
     "synthesis_period": "Recent period",
     "data_points": {
-      "total_stories": 93,
-      "total_signals": 7,
+      "total_stories": 83,
+      "total_signals": 6,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: ai - brand",
+      "narrative": "Industry movement: comes time bank",
       "theme": "Industry Dynamics",
       "supporting_signals": [
         "signal_001",
-        "signal_005",
-        "signal_002",
         "signal_003",
-        "signal_006"
+        "signal_005"
       ],
-      "story_count": 59,
+      "story_count": 32,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "Experian",
-          "Zillow",
-          "IKEA",
           "JPMorgan Chase"
         ],
         "technologies": [
@@ -44,13 +39,13 @@
       "description": "Technology and innovation in mortgage lending",
       "signals": [
         {
-          "id": "signal_003",
-          "name": "JPMorgan Chase - Bank",
-          "story_count": 9,
+          "id": "signal_005",
+          "name": "artificial intelligence & JPMorgan Chase - Jpmorgan",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 9,
+      "story_count": 6,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -61,22 +56,39 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
-    },
-    "workplace_culture": {
-      "description": "Enterprise culture and employee experience",
       "signals": [
         {
           "id": "signal_004",
-          "name": "Anomaly - New",
+          "name": "Post Brand Creator",
           "story_count": 13,
           "momentum": "stable"
         }
       ],
       "story_count": 13,
       "key_themes": [
+        "Storytelling"
+      ]
+    },
+    "workplace_culture": {
+      "description": "Enterprise culture and employee experience",
+      "signals": [
+        {
+          "id": "signal_002",
+          "name": "AI & chatbot - Tech",
+          "story_count": 25,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "IKEA & Experian - Healthcare",
+          "story_count": 13,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 38,
+      "key_themes": [
+        "Mental health",
+        "employee engagement",
         "mental health"
       ]
     },
@@ -84,45 +96,35 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_000",
-          "name": "AI & chatbot - Agents",
-          "story_count": 21,
+          "id": "signal_002",
+          "name": "AI & chatbot - Tech",
+          "story_count": 25,
           "momentum": "stable"
         },
         {
           "id": "signal_001",
-          "name": "AI - Brand",
-          "story_count": 17,
+          "name": "Comes Time Bank",
+          "story_count": 14,
           "momentum": "stable"
         },
         {
-          "id": "signal_005",
-          "name": "AI & Experian - Ad",
-          "story_count": 15,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_002",
-          "name": "AI & Zillow - Brands",
+          "id": "signal_003",
+          "name": "AI - Brands",
           "story_count": 12,
-          "momentum": "stable"
-        },
-        {
-          "id": "signal_006",
-          "name": "artificial intelligence - Publishers",
-          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 71,
-      "key_themes": []
+      "story_count": 51,
+      "key_themes": [
+        "employee engagement"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 7,
+      "stable": 6,
       "declining": 0
     },
     "hot_topics": [],
@@ -150,15 +152,15 @@
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
-      },
-      {
-        "name": "artificial intelligence",
-        "mentions": 2
+        "mentions": 23
       },
       {
         "name": "chatbot",
         "mentions": 2
+      },
+      {
+        "name": "artificial intelligence",
+        "mentions": 1
       },
       {
         "name": "LOS",
@@ -170,19 +172,32 @@
       {
         "theme": "mental health",
         "frequency": 1
+      },
+      {
+        "theme": "employee engagement",
+        "frequency": 1
+      },
+      {
+        "theme": "Mental health",
+        "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "Storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
       "signal_count": 1,
-      "story_count": 9,
+      "story_count": 6,
       "top_signals": [
-        "JPMorgan Chase - Bank"
+        "artificial intelligence & JPMorgan Chase - Jpmorgan"
       ],
       "momentum": "mixed",
-      "key_insight": "Primary focus on jpmorgan chase - bank with mixed momentum"
+      "key_insight": "Primary focus on artificial intelligence & jpmorgan chase - jpmorgan with mixed momentum"
     },
     "housing_market": {
       "signal_count": 0,
@@ -192,34 +207,38 @@
       "key_insight": "Limited coverage in this period"
     },
     "enterprise_culture": {
+      "signal_count": 2,
+      "story_count": 38,
+      "top_signals": [
+        "AI & chatbot - Tech",
+        "IKEA & Experian - Healthcare"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Cultural emphasis on ai & chatbot - tech"
+    },
+    "brand_storytelling": {
       "signal_count": 1,
       "story_count": 13,
       "top_signals": [
-        "Anomaly - New"
+        "Post Brand Creator"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on anomaly - new"
-    },
-    "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "key_insight": "Storytelling direction: post brand creator"
     }
   },
   "emerging_patterns": [],
   "strategic_narrative": {
-    "headline": "Focus on AI & chatbot - Agents",
-    "executive_summary": "Analysis of 93 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & chatbot - agents.",
+    "headline": "Focus on AI & chatbot - Tech",
+    "executive_summary": "Analysis of 83 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on ai & chatbot - tech.",
     "key_shifts": [],
     "dominant_themes": [
+      "employee engagement",
       "mental health"
     ],
     "attention_areas": [
-      "AI & chatbot - Agents",
-      "AI - Brand",
-      "AI & Experian - Ad"
+      "AI & chatbot - Tech",
+      "Comes Time Bank",
+      "Post Brand Creator"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
@@ -228,6 +247,7 @@
   },
   "macro_observations": [
     "Limited momentum suggests consolidation or quieter period",
-    "Coverage concentrated among few key players"
+    "Coverage concentrated among few key players",
+    "Strong cultural/workplace narrative emerging"
   ]
 }
