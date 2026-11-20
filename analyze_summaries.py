@@ -911,40 +911,25 @@ def generate_linkedin_chunks(stories, trends, popular_stories, obscure_stories, 
 def generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data):
     """
     Generate enhanced ongoing cache with signal clustering and entity tracking.
-    Accumulates over time (keeps 2-4 weeks of history).
-    Works with or without signals.
+    Keeps last 14 days of entries. Works with or without signals.
     """
+    MAX_DAYS = 14
 
-    # Read existing cache to preserve historical entries
-    existing_content = []
+    # Read existing entries
+    existing_entries = []
     if Path('ongoing_summary_cache_enhanced.txt').exists():
-        with open('ongoing_summary_cache_enhanced.txt', 'r', encoding='utf-8') as f:
-            existing_content = f.read()
-
-    # Remove entries older than 4 weeks
-    MAX_WEEKS_TO_KEEP = 4
-    cutoff_date = datetime.now() - timedelta(weeks=MAX_WEEKS_TO_KEEP)
-
-    # Parse existing entries to keep recent ones
-    filtered_sections = []
-    if existing_content:
-        # Split at each day boundary so the full block (header + signals + stories)
-        # stays together. Splitting by '=' * 80 alone breaks content into tiny
-        # fragments — only the date-header fragment contained "ENHANCED ANALYSIS:",
-        # so all signal/story content was silently discarded on every run.
-        # Using a lookahead keeps "ENHANCED ANALYSIS:" as the start of each block.
-        day_blocks = re.split(r'={80}\n(?=ENHANCED ANALYSIS:)', existing_content)
-        for block in day_blocks:
-            if "ENHANCED ANALYSIS:" not in block:
-                continue
-            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', block)
-            if date_match:
-                try:
-                    entry_date = datetime.strptime(date_match.group(1), '%m/%d/%Y')
-                    if entry_date >= cutoff_date:
-                        filtered_sections.append("=" * 80 + "\n" + block.rstrip())
-                except:
-                    pass
+        try:
+            with open('ongoing_summary_cache_enhanced.txt', 'r', encoding='utf-8') as f:
+                content = f.read()
+            # Split by day markers - each starts with ====...\nENHANCED ANALYSIS:
+            entries = re.split(r'(?=={80}\nENHANCED ANALYSIS:)', content)
+            # Filter out empty entries and keep only valid ones
+            existing_entries = [e.strip() for e in entries if 'ENHANCED ANALYSIS:' in e]
+            # Keep only the most recent (MAX_DAYS - 1) entries to make room for today
+            existing_entries = existing_entries[:MAX_DAYS - 1]
+        except Exception as e:
+            print(f"   Note: Could not parse existing cache: {e}")
+            existing_entries = []
 
     # Start building new entry
     output = []
@@ -996,53 +981,17 @@ def generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data):
             output.append("")
 
             # Stories within this signal
-            for story in signal.get('stories', [])[:15]:  # Limit to 15 stories per signal
-                # Title
+            for story in signal.get('stories', [])[:10]:  # Limit to 10 per signal
                 output.append(f"• {story.get('title', 'Untitled')}")
 
-                # Metadata line
-                meta_parts = []
+                # Source
                 outlet = story.get('outlet', 'Unknown')
-                date = story.get('date', '')
-                if date:
-                    try:
-                        # Format date nicely
-                        dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
-                        date_formatted = dt.strftime('%b %d, %Y')
-                        meta_parts.append(f"SOURCE: {outlet} | DATE: {date_formatted}")
-                    except:
-                        meta_parts.append(f"SOURCE: {outlet}")
-                else:
-                    meta_parts.append(f"SOURCE: {outlet}")
+                output.append(f"  {outlet}")
 
-                if meta_parts:
-                    output.append(f"  {meta_parts[0]}")
-
-                # Summary
+                # Summary (first 150 chars)
                 summary = story.get('summary', story.get('description', ''))
                 if summary:
-                    # Wrap summary to ~80 chars per line
-                    summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
-                    for line in summary_lines[:3]:  # Max 3 lines
-                        output.append(f"  {line}")
-
-                # Entities
-                story_entities = story.get('entities', {})
-                entity_tags = []
-
-                for category in ['brands', 'technologies', 'companies']:
-                    items = story_entities.get(category, [])
-                    if items:
-                        label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
-                        entity_tags.append(f"{label}[{', '.join(items[:3])}]")
-
-                if entity_tags:
-                    output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
-
-                # URL
-                url = story.get('url', '')
-                if url:
-                    output.append(f"  URL: {url}")
+                    output.append(f"  {summary[:150]}...")
 
                 output.append("")
 
@@ -1071,54 +1020,29 @@ def generate_enhanced_ongoing_cache(signals, stories, date_str, trend_data):
             output.append("")
 
             # Show top stories from this outlet
-            for story in outlet_stories[:15]:  # Limit to 15 per outlet
+            for story in outlet_stories[:10]:  # Limit to 10 per outlet
                 output.append(f"• {story.get('title', 'Untitled')}")
 
-                # Metadata
-                date = story.get('date', '')
-                if date:
-                    try:
-                        dt = datetime.fromisoformat(date.replace('Z', '+00:00'))
-                        date_formatted = dt.strftime('%b %d, %Y')
-                        output.append(f"  DATE: {date_formatted}")
-                    except:
-                        pass
-
-                # Summary
+                # Summary (first 150 chars)
                 summary = story.get('summary', story.get('description', ''))
                 if summary:
-                    summary_lines = [summary[i:i+76] for i in range(0, len(summary), 76)]
-                    for line in summary_lines[:3]:
-                        output.append(f"  {line}")
-
-                # Entities
-                story_entities = story.get('entities', {})
-                entity_tags = []
-                for category in ['brands', 'technologies', 'companies']:
-                    items = story_entities.get(category, [])
-                    if items:
-                        label = {'brands': 'Brands', 'technologies': 'Tech', 'companies': 'Companies'}[category]
-                        entity_tags.append(f"{label}[{', '.join(items[:3])}]")
-                if entity_tags:
-                    output.append(f"  ENTITIES: {' | '.join(entity_tags)}")
-
-                # URL
-                url = story.get('url', '')
-                if url:
-                    output.append(f"  URL: {url}")
+                    output.append(f"  {summary[:150]}...")
 
                 output.append("")
 
             output.append("")
 
-    # Combine new content with filtered historical content
-    final_output = '\n'.join(output) + '\n\n' + '\n'.join(filtered_sections)
+    # Combine: new entry + last (MAX_DAYS - 1) old entries
+    final_output = '\n'.join(output)
+    if existing_entries:
+        final_output += '\n\n' + '\n\n'.join(existing_entries)
 
     # Write to file
     with open('ongoing_summary_cache_enhanced.txt', 'w', encoding='utf-8') as f:
         f.write(final_output)
 
-    print(f"   ✓ Generated ongoing_summary_cache_enhanced.txt ({len(output)} new lines, keeping {MAX_WEEKS_TO_KEEP} weeks)")
+    total_days = len(existing_entries) + 1
+    print(f"   ✓ Generated ongoing_summary_cache_enhanced.txt ({len(output)} new lines, keeping {total_days} days)")
 
 def main():
     print("━" * 80)
