@@ -1,34 +1,56 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T19:31:17.818890",
+    "generated_at": "2026-11-24T19:07:18.400662",
     "synthesis_period": "Recent period",
     "data_points": {
       "total_stories": 93,
-      "total_signals": 6,
+      "total_signals": 7,
       "time_span_days": 0
     }
   },
   "narrative_threads": [
     {
       "thread_id": "thread_01",
-      "narrative": "Industry movement: artificial intelligence - tv",
-      "theme": "Industry Dynamics",
+      "narrative": "Technology adoption wave: ai & experian - new",
+      "theme": "Technology & Innovation",
       "supporting_signals": [
-        "signal_006",
-        "signal_004",
+        "signal_003",
+        "signal_001",
         "signal_002",
         "signal_000"
       ],
-      "story_count": 58,
+      "story_count": 67,
       "momentum": "mixed",
       "key_players": {
         "brands": [
-          "IKEA",
-          "Realtor.com",
-          "Chase"
+          "Experian",
+          "IKEA"
         ],
         "technologies": [
+          "AI",
           "artificial intelligence",
+          "dashboard",
+          "personalization",
+          "LOS"
+        ],
+        "themes": []
+      },
+      "time_depth": "sustained",
+      "outlook": "evolving"
+    },
+    {
+      "thread_id": "thread_02",
+      "narrative": "Industry movement: anomaly - brand",
+      "theme": "Industry Dynamics",
+      "supporting_signals": [
+        "signal_005",
+        "signal_004"
+      ],
+      "story_count": 20,
+      "momentum": "mixed",
+      "key_players": {
+        "brands": [],
+        "technologies": [
           "AI"
         ],
         "themes": []
@@ -40,15 +62,8 @@
   "thematic_clusters": {
     "mortgage_innovation": {
       "description": "Technology and innovation in mortgage lending",
-      "signals": [
-        {
-          "id": "signal_000",
-          "name": "Chase - Security",
-          "story_count": 5,
-          "momentum": "stable"
-        }
-      ],
-      "story_count": 5,
+      "signals": [],
+      "story_count": 0,
       "key_themes": []
     },
     "housing_market_dynamics": {
@@ -59,21 +74,30 @@
     },
     "customer_experience": {
       "description": "Consumer-facing improvements and storytelling",
-      "signals": [],
-      "story_count": 0,
-      "key_themes": []
+      "signals": [
+        {
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 18,
+          "momentum": "stable"
+        }
+      ],
+      "story_count": 18,
+      "key_themes": [
+        "storytelling"
+      ]
     },
     "workplace_culture": {
       "description": "Enterprise culture and employee experience",
       "signals": [
         {
-          "id": "signal_001",
-          "name": "Experian - Holiday",
-          "story_count": 11,
+          "id": "signal_006",
+          "name": "AI - Chatgpt",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 11,
+      "story_count": 6,
       "key_themes": [
         "mental health"
       ]
@@ -82,39 +106,53 @@
       "description": "Broader industry changes and disruption",
       "signals": [
         {
-          "id": "signal_006",
-          "name": "artificial intelligence - Tv",
-          "story_count": 24,
-          "momentum": "stable"
-        },
-        {
           "id": "signal_003",
-          "name": "AI & artificial intelligence - Ai Ai",
-          "story_count": 22,
+          "name": "AI & Experian - New",
+          "story_count": 21,
           "momentum": "stable"
         },
         {
-          "id": "signal_004",
-          "name": "Anomaly & IKEA - Brands",
-          "story_count": 22,
+          "id": "signal_001",
+          "name": "AI & artificial intelligence - Ai Ai",
+          "story_count": 18,
           "momentum": "stable"
         },
         {
           "id": "signal_002",
-          "name": "AI - Nvidia",
-          "story_count": 7,
+          "name": "artificial intelligence & IKEA - Focus",
+          "story_count": 18,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_005",
+          "name": "Anomaly - Brand",
+          "story_count": 14,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_000",
+          "name": "AI & LOS - Tv",
+          "story_count": 10,
+          "momentum": "stable"
+        },
+        {
+          "id": "signal_004",
+          "name": "AI - Charter",
+          "story_count": 6,
           "momentum": "stable"
         }
       ],
-      "story_count": 75,
-      "key_themes": []
+      "story_count": 87,
+      "key_themes": [
+        "storytelling"
+      ]
     }
   },
   "momentum_analysis": {
     "overall_sentiment": "cautious",
     "distribution": {
       "rising": 0,
-      "stable": 6,
+      "stable": 7,
       "declining": 0
     },
     "hot_topics": [],
@@ -123,26 +161,18 @@
   "entity_landscape": {
     "dominant_brands": [
       {
-        "name": "Chase",
-        "mentions": 1
+        "name": "Experian",
+        "mentions": 2
       },
       {
         "name": "IKEA",
-        "mentions": 1
-      },
-      {
-        "name": "Experian",
-        "mentions": 1
-      },
-      {
-        "name": "Realtor.com",
         "mentions": 1
       }
     ],
     "key_technologies": [
       {
         "name": "AI",
-        "mentions": 24
+        "mentions": 25
       },
       {
         "name": "artificial intelligence",
@@ -151,26 +181,42 @@
       {
         "name": "LOS",
         "mentions": 1
+      },
+      {
+        "name": "personalization",
+        "mentions": 1
+      },
+      {
+        "name": "dashboard",
+        "mentions": 1
       }
     ],
-    "influential_voices": [],
+    "influential_voices": [
+      {
+        "name": "Call With",
+        "mentions": 1
+      }
+    ],
     "cultural_movements": [
       {
         "theme": "mental health",
         "frequency": 1
       }
     ],
-    "storytelling_approaches": []
+    "storytelling_approaches": [
+      {
+        "approach": "storytelling",
+        "frequency": 1
+      }
+    ]
   },
   "focus_area_insights": {
     "mortgage_lending": {
-      "signal_count": 1,
-      "story_count": 5,
-      "top_signals": [
-        "Chase - Security"
-      ],
-      "momentum": "mixed",
-      "key_insight": "Primary focus on chase - security with mixed momentum"
+      "signal_count": 0,
+      "story_count": 0,
+      "top_signals": [],
+      "momentum": "stable",
+      "key_insight": "Limited coverage in this period"
     },
     "housing_market": {
       "signal_count": 0,
@@ -181,33 +227,49 @@
     },
     "enterprise_culture": {
       "signal_count": 1,
-      "story_count": 11,
+      "story_count": 6,
       "top_signals": [
-        "Experian - Holiday"
+        "AI - Chatgpt"
       ],
       "momentum": "mixed",
-      "key_insight": "Cultural emphasis on experian - holiday"
+      "key_insight": "Cultural emphasis on ai - chatgpt"
     },
     "brand_storytelling": {
-      "signal_count": 0,
-      "story_count": 0,
-      "top_signals": [],
-      "momentum": "stable",
-      "key_insight": "Limited coverage in this period"
+      "signal_count": 1,
+      "story_count": 18,
+      "top_signals": [
+        "AI & artificial intelligence - Ai Ai"
+      ],
+      "momentum": "mixed",
+      "key_insight": "Storytelling direction: ai & artificial intelligence - ai ai"
     }
   },
-  "emerging_patterns": [],
+  "emerging_patterns": [
+    {
+      "pattern_type": "technology_wave",
+      "description": "Technology adoption theme across multiple signals",
+      "technologies": [
+        "AI",
+        "artificial intelligence",
+        "dashboard",
+        "personalization",
+        "LOS"
+      ],
+      "signal_count": 4,
+      "significance": "high"
+    }
+  ],
   "strategic_narrative": {
-    "headline": "Focus on artificial intelligence - Tv",
-    "executive_summary": "Analysis of 91 stories across 6 thematic areas. mixed momentum across the landscape. Primary attention on artificial intelligence - tv.",
+    "headline": "Focus on AI & Experian - New",
+    "executive_summary": "Analysis of 93 stories across 7 thematic areas. mixed momentum across the landscape. Primary attention on ai & experian - new.",
     "key_shifts": [],
     "dominant_themes": [
       "mental health"
     ],
     "attention_areas": [
-      "artificial intelligence - Tv",
+      "AI & Experian - New",
       "AI & artificial intelligence - Ai Ai",
-      "Anomaly & IKEA - Brands"
+      "artificial intelligence & IKEA - Focus"
     ],
     "strategic_questions": [
       "What's driving technology adoption patterns?",
